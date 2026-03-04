@@ -1,0 +1,75 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "issued": "17:12 CEST",
+        "expires": "17:30 CEST",
+        "text": "Frequent Lightning with small hail possible! Near Györ heading towards Tatabánya."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.644043,
+              47.791016
+            ],
+            [
+              17.501221,
+              47.52462
+            ],
+            [
+              18.555908,
+              47.26432
+            ],
+            [
+              18.731689,
+              47.783635
+            ],
+            [
+              17.644043,
+              47.791016
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "issued": "17:15 CEST",
+        "expires": "17:25",
+        "text": "Lightning activity decreasing, TStorm may die in short amount of time."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.534424,
+              46.785016
+            ],
+            [
+              16.402588,
+              46.611715
+            ],
+            [
+              16.99585,
+              46.377254
+            ],
+            [
+              17.226563,
+              46.732331
+            ],
+            [
+              16.534424,
+              46.785016
+            ]
+          ]
+        ]
+      }
+    },
