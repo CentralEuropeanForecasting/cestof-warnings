@@ -1,1 +1,73 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "issued": "19:45",
+        "expires": "",
+        "text": "QLCS that may have strong winds. Non-severe lightning activity and small hail are present."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.501221,
+              46.80758
+            ],
+            [
+              17.182617,
+              46.505954
+            ],
+            [
+              16.54541,
+              46.452997
+            ],
+            [
+              15.985107,
+              46.513516
+            ],
+            [
+              15.688477,
+              46.339343
+            ],
+            [
+              15.644531,
+              45.882361
+            ],
+            [
+              16.259766,
+              45.359865
+            ],
+            [
+              17.380371,
+              45.39845
+            ],
+            [
+              18.193359,
+              45.782848
+            ],
+            [
+              18.522949,
+              46.293816
+            ],
+            [
+              18.446045,
+              46.702202
+            ],
+            [
+              18.083496,
+              46.875213
+            ],
+            [
+              17.501221,
+              46.80758
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
