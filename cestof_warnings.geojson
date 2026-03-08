@@ -38,6 +38,44 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "issued": "18:58",
+        "expires": "19:15",
+        "expires_at": "2026-03-08T19:15:00",
+        "location": "Województwo lódzkie",
+        "text": "Hail up to 2cm, Tornado"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.160645,
+              51.206883
+            ],
+            [
+              17.556152,
+              50.819818
+            ],
+            [
+              20.588379,
+              51.385495
+            ],
+            [
+              19.555664,
+              52.066
+            ],
+            [
+              17.160645,
+              51.206883
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
