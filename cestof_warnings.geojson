@@ -76,6 +76,44 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "issued": "19:11",
+        "expires": "19:25",
+        "expires_at": "2026-03-08T19:25:00",
+        "location": "Warsaw",
+        "text": "Hail up to 2cm, tornado"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.148926,
+              52.321911
+            ],
+            [
+              21.335449,
+              51.903613
+            ],
+            [
+              22.741699,
+              52.442618
+            ],
+            [
+              20.742188,
+              52.855864
+            ],
+            [
+              20.148926,
+              52.321911
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
