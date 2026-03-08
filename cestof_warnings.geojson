@@ -4,102 +4,36 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "Severe Thunderstorm Warning",
-        "issued": "20:52",
-        "expires": "21:05",
-        "expires_at": "2026-03-08T21:05:00",
-        "location": "Prague Area",
-        "text": "Strong thunderstorms with hail"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.952637,
-              49.979488
-            ],
-            [
-              14.787598,
-              49.894634
-            ],
-            [
-              15.490723,
-              50.415519
-            ],
-            [
-              13.930664,
-              50.611132
-            ],
-            [
-              13.952637,
-              49.979488
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "type": "Mesoscale Discussion",
-        "issued": "20:52",
+        "issued": "20:55",
         "expires": "21:05",
         "expires_at": "2026-03-08T21:05:00",
-        "location": "Austria, Czech Republic",
-        "text": "Strong THunderstorms"
+        "location": "North Bohemia",
+        "text": "Frequent Lightning"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              13.952637,
-              51.849353
+              13.73291,
+              50.120578
             ],
             [
-              12.941895,
-              50.652943
+              14.655762,
+              49.922935
             ],
             [
-              12.414551,
-              48.748945
+              16.347656,
+              51.179343
             ],
             [
-              12.678223,
-              47.26432
+              14.0625,
+              51.604372
             ],
             [
-              13.996582,
-              46.604167
-            ],
-            [
-              15.930176,
-              46.860191
-            ],
-            [
-              16.655273,
-              47.768868
-            ],
-            [
-              17.424316,
-              49.510944
-            ],
-            [
-              17.53418,
-              51.165567
-            ],
-            [
-              16.721191,
-              52.241256
-            ],
-            [
-              15.029297,
-              52.362183
-            ],
-            [
-              13.952637,
-              51.849353
+              13.73291,
+              50.120578
             ]
           ]
         ]
