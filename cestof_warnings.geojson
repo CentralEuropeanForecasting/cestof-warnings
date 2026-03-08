@@ -147,6 +147,43 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "issued": "15:02",
+        "expires": "15:10",
+        "expires_at": "2026-03-08T15:10:00",
+        "text": "hail up to 2cm, straight line winds"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.62207,
+              50.972265
+            ],
+            [
+              17.644043,
+              50.275299
+            ],
+            [
+              20.742188,
+              49.993615
+            ],
+            [
+              20.610352,
+              51.303145
+            ],
+            [
+              17.62207,
+              50.972265
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
