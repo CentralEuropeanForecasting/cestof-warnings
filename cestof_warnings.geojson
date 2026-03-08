@@ -1,4 +1,43 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "issued": "17:41",
+        "expires": "17:50",
+        "expires_at": "2026-03-08T17:50:00",
+        "location": "Central Bohemia",
+        "text": "Small hail, Tornado"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.557129,
+              50.34546
+            ],
+            [
+              13.557129,
+              49.79545
+            ],
+            [
+              16.413574,
+              49.468124
+            ],
+            [
+              16.435547,
+              50.694718
+            ],
+            [
+              13.557129,
+              50.34546
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
