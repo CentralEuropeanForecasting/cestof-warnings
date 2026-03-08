@@ -184,6 +184,117 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "issued": "16:27",
+        "expires": "",
+        "expires_at": "",
+        "text": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.117676,
+              48.414619
+            ],
+            [
+              13.07373,
+              47.353711
+            ],
+            [
+              16.743164,
+              46.694667
+            ],
+            [
+              17.138672,
+              49.023461
+            ],
+            [
+              13.117676,
+              48.414619
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "issued": "17:10",
+        "expires": "17:20",
+        "expires_at": "2026-03-08T17:20:00",
+        "text": "Small hail and tornadoes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.566895,
+              48.908059
+            ],
+            [
+              18.808594,
+              48.151428
+            ],
+            [
+              22.565918,
+              48.166085
+            ],
+            [
+              21.313477,
+              49.852152
+            ],
+            [
+              18.566895,
+              48.908059
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "issued": "17:13",
+        "expires": "17:22",
+        "expires_at": "2026-03-08T17:22:00",
+        "text": "Tornado and hail"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.390137,
+              49.510944
+            ],
+            [
+              23.005371,
+              48.922499
+            ],
+            [
+              27.531738,
+              49.325122
+            ],
+            [
+              24.763184,
+              50.63901
+            ],
+            [
+              22.390137,
+              49.510944
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
