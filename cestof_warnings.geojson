@@ -4,36 +4,74 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "Mesoscale Discussion",
-        "issued": "20:55",
-        "expires": "21:05",
-        "expires_at": "2026-03-08T21:05:00",
-        "location": "North Bohemia",
-        "text": "Frequent Lightning"
+        "type": "Severe Thunderstorm Warning",
+        "issued": "22:23",
+        "expires": "22:35",
+        "expires_at": "2026-03-08T22:35:00",
+        "location": "Avignon Area",
+        "text": "Hail"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              13.73291,
-              50.120578
+              4.449463,
+              43.22119
             ],
             [
-              14.655762,
-              49.922935
+              4.899902,
+              43.157109
             ],
             [
-              16.347656,
-              51.179343
+              5.339355,
+              43.92955
             ],
             [
-              14.0625,
-              51.604372
+              4.394531,
+              44.024422
             ],
             [
-              13.73291,
-              50.120578
+              4.449463,
+              43.22119
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "issued": "22:24",
+        "expires": "22:35",
+        "expires_at": "2026-03-08T22:35:00",
+        "location": "Valance Area",
+        "text": "Wind gusts"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.768311,
+              44.527843
+            ],
+            [
+              4.306641,
+              44.496505
+            ],
+            [
+              4.592285,
+              45.019185
+            ],
+            [
+              3.658447,
+              45.065762
+            ],
+            [
+              3.768311,
+              44.527843
             ]
           ]
         ]
