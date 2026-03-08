@@ -1,1 +1,42 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "issued": "1:58",
+        "expires": "02:02",
+        "expires_at": "2026-03-08T02:02:00",
+        "text": "Tornado"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.888672,
+              53.618579
+            ],
+            [
+              6.064453,
+              53.14677
+            ],
+            [
+              9.162598,
+              53.631611
+            ],
+            [
+              8.85498,
+              54.175297
+            ],
+            [
+              5.888672,
+              53.618579
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
