@@ -6,34 +6,34 @@
       "properties": {
         "type": "Severe Thunderstorm Warning",
         "issued": "",
-        "expires": "20:05",
-        "expires_at": "2026-03-08T20:05:00",
-        "location": "Border between Polan, Germany and Czechia",
-        "text": "Tornado potential and hail"
+        "expires": "20:30",
+        "expires_at": "2026-03-08T20:30:00",
+        "location": "Border between Czechia, Poland and Germany",
+        "text": "Tornado Possible and large hail"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              14.458008,
-              50.847573
+              14.205322,
+              50.607646
             ],
             [
-              15.062256,
-              50.625073
+              14.908447,
+              50.488969
             ],
             [
-              16.029053,
-              51.392351
+              16.534424,
+              51.361492
             ],
             [
-              14.666748,
-              51.563412
+              14.0625,
+              51.641885
             ],
             [
-              14.458008,
-              50.847573
+              14.205322,
+              50.607646
             ]
           ]
         ]
@@ -44,34 +44,34 @@
       "properties": {
         "type": "Tornado Warning",
         "issued": "",
-        "expires": "20:05",
-        "expires_at": "2026-03-08T20:05:00",
-        "location": "Liberecký kraj",
-        "text": "Tornado on the ground"
+        "expires": "20:30",
+        "expires_at": "2026-03-08T20:30:00",
+        "location": "Tornado on the ground",
+        "text": ""
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              14.798584,
-              50.986099
-            ],
-            [
-              15.084229,
-              50.930738
-            ],
-            [
-              15.424805,
-              51.241286
+              14.463501,
+              50.813745
             ],
             [
               14.864502,
-              51.275662
+              50.746015
             ],
             [
-              14.798584,
-              50.986099
+              15.25177,
+              51.011163
+            ],
+            [
+              14.507446,
+              51.126798
+            ],
+            [
+              14.463501,
+              50.813745
             ]
           ]
         ]
