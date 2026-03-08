@@ -114,6 +114,44 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "issued": "19:14",
+        "expires": "19:30",
+        "expires_at": "2026-03-08T19:30:00",
+        "location": "Warsaw Area",
+        "text": "Tornado possible on the ground!"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.835571,
+              52.268157
+            ],
+            [
+              21.132202,
+              52.13686
+            ],
+            [
+              21.676025,
+              52.358829
+            ],
+            [
+              21.060791,
+              52.499504
+            ],
+            [
+              20.835571,
+              52.268157
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
