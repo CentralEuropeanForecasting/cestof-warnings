@@ -160,6 +160,44 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "issued": "15:40",
+        "expires": "16:00",
+        "expires_at": "2026-03-10T16:00:00",
+        "location": "Bassel Area",
+        "text": "Frequent lightning and possible hail"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.141342,
+              47.41336
+            ],
+            [
+              6.613754,
+              46.995382
+            ],
+            [
+              7.998031,
+              47.569253
+            ],
+            [
+              7.360824,
+              48.048848
+            ],
+            [
+              6.141342,
+              47.41336
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
