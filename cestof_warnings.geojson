@@ -76,6 +76,90 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "issued": "15:36",
+        "expires": "16:00",
+        "expires_at": "2026-03-10T16:00:00",
+        "location": "Lille and Brussel area",
+        "text": "hail up to 1cm"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.416992,
+              50.373496
+            ],
+            [
+              2.636719,
+              50.120578
+            ],
+            [
+              4.691162,
+              50.847573
+            ],
+            [
+              3.790283,
+              51.282535
+            ],
+            [
+              2.416992,
+              50.373496
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "issued": "15:38",
+        "expires": "15:55",
+        "expires_at": "2026-03-10T15:55:00",
+        "location": "Kassel Area",
+        "text": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.448486,
+              52.093008
+            ],
+            [
+              8.371582,
+              51.815407
+            ],
+            [
+              8.734131,
+              51.47454
+            ],
+            [
+              8.624268,
+              50.896104
+            ],
+            [
+              10.118408,
+              51.089723
+            ],
+            [
+              9.51416,
+              52.288323
+            ],
+            [
+              8.448486,
+              52.093008
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
