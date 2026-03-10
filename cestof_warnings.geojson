@@ -198,6 +198,82 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "issued": "18:33",
+        "expires": "18:50",
+        "expires_at": "2026-03-10T18:50:00",
+        "location": "Westerstede",
+        "text": "Small hail"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.333374,
+              53.110514
+            ],
+            [
+              7.728882,
+              52.9718
+            ],
+            [
+              8.618774,
+              53.667426
+            ],
+            [
+              7.651978,
+              53.855767
+            ],
+            [
+              7.333374,
+              53.110514
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "issued": "18:35",
+        "expires": "18:50",
+        "expires_at": "2026-03-10T18:50:00",
+        "location": "",
+        "text": "Frequent Lightning"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.816284,
+              53.959318
+            ],
+            [
+              10.343628,
+              53.784426
+            ],
+            [
+              11.244507,
+              54.428518
+            ],
+            [
+              10.167847,
+              54.619798
+            ],
+            [
+              9.816284,
+              53.959318
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
