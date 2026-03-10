@@ -134,6 +134,52 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "issued": "21:03",
+        "expires": "21:50",
+        "expires_at": "2026-03-10T21:50:00",
+        "location": "North Germany",
+        "text": "Small hail up to 1cm and wind gusts up to 75km/h"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.618774,
+              54.156001
+            ],
+            [
+              9.135132,
+              53.826597
+            ],
+            [
+              9.124146,
+              53.514185
+            ],
+            [
+              9.651489,
+              53.599025
+            ],
+            [
+              10.881958,
+              53.91081
+            ],
+            [
+              9.684448,
+              54.769009
+            ],
+            [
+              8.618774,
+              54.156001
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
