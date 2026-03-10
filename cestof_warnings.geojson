@@ -312,6 +312,44 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "issued": "18:47",
+        "expires": "19:15",
+        "expires_at": "2026-03-10T19:15:00",
+        "location": "Stuttgart",
+        "text": "Hail and possible strong wind gusts"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.849487,
+              48.687334
+            ],
+            [
+              9.20105,
+              48.410972
+            ],
+            [
+              10.848999,
+              48.991032
+            ],
+            [
+              9.629517,
+              49.535904
+            ],
+            [
+              8.849487,
+              48.687334
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
