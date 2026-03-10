@@ -274,6 +274,44 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "issued": "18:43",
+        "expires": "19:10",
+        "expires_at": "2026-03-10T19:10:00",
+        "location": "Antwerpen",
+        "text": "Hail up to 1.2 cm"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.004761,
+              50.593699
+            ],
+            [
+              3.235474,
+              50.384005
+            ],
+            [
+              5.355835,
+              51.093173
+            ],
+            [
+              4.685669,
+              51.628248
+            ],
+            [
+              3.004761,
+              50.593699
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
