@@ -477,6 +477,47 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "warning_id": "1773238258149_xrqnii",
+        "type": "Thunderstorm Warning",
+        "issued": "15:10",
+        "issued_at": "2026-03-11T15:10:58+01:00",
+        "expires": "15:40",
+        "expires_at": "2026-03-11T15:40:00",
+        "location": "",
+        "text": "Hail up to 1cm and wind gusts to 70km/h",
+        "md_number": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.502441,
+              48.806863
+            ],
+            [
+              12.667236,
+              48.654686
+            ],
+            [
+              13.40332,
+              48.987427
+            ],
+            [
+              13.07373,
+              49.196064
+            ],
+            [
+              12.502441,
+              48.806863
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
