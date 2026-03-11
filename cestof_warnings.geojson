@@ -619,6 +619,47 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "warning_id": "1773242886081_i53u80",
+        "type": "Thunderstorm Warning",
+        "issued": "16:27",
+        "issued_at": "2026-03-11T16:28:06+01:00",
+        "expires": "17:05",
+        "expires_at": "2026-03-11T17:05:00",
+        "location": "",
+        "text": "Hail up to 1cm",
+        "md_number": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.634277,
+              49.660517
+            ],
+            [
+              12.766113,
+              49.50381
+            ],
+            [
+              13.31543,
+              49.671183
+            ],
+            [
+              13.051758,
+              49.884017
+            ],
+            [
+              12.634277,
+              49.660517
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
