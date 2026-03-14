@@ -82,6 +82,47 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "warning_id": "1773527832226_6cqv20",
+        "type": "Thunderstorm Warning",
+        "issued": "",
+        "issued_at": "2026-03-14T23:37:12+01:00",
+        "expires": "23:45",
+        "expires_at": "2026-03-14T23:45:00",
+        "location": "",
+        "text": "",
+        "md_number": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.338623,
+              44.335636
+            ],
+            [
+              8.833008,
+              44.445546
+            ],
+            [
+              8.778076,
+              45.193651
+            ],
+            [
+              7.800293,
+              45.116177
+            ],
+            [
+              8.338623,
+              44.335636
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
