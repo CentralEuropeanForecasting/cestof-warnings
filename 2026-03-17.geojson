@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "outlook",
+        "title": "",
+        "description": "",
+        "probability": "<5",
+        "intensity": "1",
+        "riskLabel": "T-Storm Risk",
+        "hatched": false,
+        "doubleHatch": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.90918,
+              52.749594
+            ],
+            [
+              9.624023,
+              49.639177
+            ],
+            [
+              10.50293,
+              47.457809
+            ],
+            [
+              15.644531,
+              49.124219
+            ],
+            [
+              16.743164,
+              52.079506
+            ],
+            [
+              11.90918,
+              52.749594
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
