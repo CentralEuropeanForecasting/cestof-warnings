@@ -1,30 +1,11 @@
 {
-  "updated_at": "2026-03-13T09:27:00+01:00",
-  "central": {
-    "image": "https://raw.githubusercontent.com/CentralEuropeanForecasting/cestof-warnings/main/img/forecast/today-central.png",
-    "fallback": "img/nforecast.png",
-    "issued_at": "2026-03-13T09:27:00+01:00",
-    "valid_from": "2026-03-13T09:27:00+01:00",
-    "valid_until": "2026-03-14T00:00:00+01:00",
-    "updated_at": "2026-03-13T09:27:00+01:00",
-    "discussion": ""
-  },
-  "czech": {
-    "image": "img/nforecast.png",
-    "fallback": "img/nforecast.png",
-    "issued_at": "2026-03-13T09:27:00+01:00",
-    "valid_from": "2026-03-13T09:27:00+01:00",
-    "valid_until": "2026-03-14T00:00:00+01:00",
-    "updated_at": "2026-03-13T09:27:00+01:00",
-    "discussion": ""
-  },
-  "med": {
-    "image": "img/nforecast.png",
-    "fallback": "img/nforecast.png",
-    "issued_at": "2026-03-13T09:27:00+01:00",
-    "valid_from": "2026-03-13T09:27:00+01:00",
-    "valid_until": "2026-03-14T00:00:00+01:00",
-    "updated_at": "2026-03-13T09:27:00+01:00",
-    "discussion": ""
+  "issued_at": "0:09 16 Mar 2026",
+  "valid_from": "6:00 16 March 2026",
+  "valid_until": "6:00 17 March 2026",
+  "updated_at": "A negative trough above Germany will bring thunderstorms to Central Europe",
+  "files": {
+    "central_europe": "img/forecast-central-europe.png",
+    "czechia": "",
+    "other": ""
   }
 }
