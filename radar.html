@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Radar Warnings — CESTOF (Leaflet)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="CESTOF radar warning map with RainViewer radar, lightning, and warning polygons." />
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+
+  <style>
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#dfe6ee url("img/bg.jpg") center/cover fixed no-repeat;color:#111}
+    body::before{content:"";position:fixed;inset:0;background:rgba(0,0,0,.38);pointer-events:none;z-index:-1}
+    .wrap{max-width:1000px;margin:16px auto;padding:0 12px 18px}
+
+    header{background:rgba(255,255,255,.88);border:2px solid #000}
+    .header-top{display:flex;align-items:center;gap:12px;padding:10px}
+    .header-top .logo{height:48px}
+    .title-img{display:block;height:34px;max-width:100%}
+    header .sub{margin:4px 0 0;font-style:italic;color:#333}
+    .header-meta{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 10px;background:#f2f2f2;border-top:2px solid #000}
+    .tagline{margin:0;font-size:.95rem;color:#222}
+    .last-updated{margin:0;font-size:.9rem}
+    .last-updated b{font-weight:bold}
+
+    nav{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;background:#f4f4f4;border-top:2px solid #000;border-bottom:2px solid #000;padding:8px 0}
+    nav a{text-decoration:none;color:#000;font-weight:bold;padding:5px 10px}
+    nav a:hover{background:#000;color:#fff}
+
+    main{margin-top:14px}
+    .section{background:rgba(255,255,255,.86);border:1px solid #000;margin-bottom:14px;padding:14px}
+    .section h2{margin:0 0 10px;border-bottom:2px solid #000;padding-bottom:4px}
+
+    #map{height:620px;border:1px solid #000;outline:1px solid rgba(0,0,0,.25);background:#fff}
+
+    .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;border:1px solid #777;background:#fff;padding:10px;margin-bottom:10px}
+    .controls .left,.controls .right{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+
+    .btn{border:1px solid #000;background:#f2f2f2;padding:6px 10px;font-weight:bold;cursor:pointer;user-select:none}
+    .btn:hover{background:#e6e6e6}
+    .select{border:1px solid #000;padding:6px 8px;background:#fff;font-weight:bold}
+
+    .hint{margin:8px 0 0;color:#333;font-size:.9rem}
+
+    .active-warnings{
+      border:1px solid #000;
+      background:rgba(255,255,255,.92);
+      padding:10px;
+      margin-top:10px;
+    }
+    .aw-head{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      border-bottom:2px solid #000;
+      padding-bottom:6px;
+      margin-bottom:8px;
+    }
+    .aw-left{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      flex-wrap:wrap;
+    }
+    .aw-count{
+      border:1px solid #000;
+      background:#fff;
+      padding:2px 6px;
+      font-weight:bold;
+      font-size:.85rem;
+    }
+    .aw-btn{
+      padding:4px 8px;
+      font-size:.85rem;
+    }
+    .aw-list{
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+      max-height:220px;
+      overflow:auto;
+    }
+    .aw-empty{
+      color:#333;
+      font-size:.9rem;
+    }
+    .aw-item{
+      border:1px solid #000;
+      background:#fff;
+      padding:8px;
+      cursor:pointer;
+    }
+    .aw-item:hover{background:#f2f2f2}
+    .aw-title{font-weight:800;margin:0 0 4px}
+    .aw-meta{font-size:.85rem;color:#222;margin:0}
+    .aw-text{margin:6px 0 0;font-size:.88rem;color:#111}
+
+    .leaflet-control.legend{background:rgba(255,255,255,.95);border:1px solid #000;padding:7px 8px 6px;box-shadow:none}
+    .legend h3{margin:0 0 6px;font-size:.85rem;border-bottom:2px solid #000;padding-bottom:3px}
+    .legend .row{display:flex;align-items:center;gap:6px;margin:4px 0;font-size:.80rem;color:#111}
+    .swatch{width:14px;height:10px;border:1px solid #000;flex:0 0 auto;background:#ccc}
+    .swatch.line{height:0;border-top:3px solid #000;border-left:none;border-right:none;border-bottom:none;width:14px;background:transparent}
+    .swatch.dot{width:10px;height:10px;border-radius:50%;background:#ffe600;border:1px solid #ffffff}
+
+    footer{text-align:center;color:#eee;font-size:.9rem;margin-top:14px;text-shadow:0 1px 1px rgba(0,0,0,.7)}
+
+    @media (max-width:650px){
+      #map{height:540px}
+      .title-img{height:30px}
+    }
+
+    header,.section,.controls,.active-warnings,.forecast-meta,.map,.discussion,.archive-item,.article-card,.tile,.map-switcher,.photos img,.tab,.btn,.select,.aw-item,.tabs .tab{
+      border-radius:12px;
+    }
+    header,.section,.controls,.active-warnings,.forecast-meta,.map,.discussion,.archive-item,.article-card,.tile,.map-switcher,.photos img,.aw-item{
+      box-shadow:0 10px 24px rgba(0,0,0,.12);
+    }
+    header{overflow:hidden;backdrop-filter:blur(5px)}
+    .section{backdrop-filter:blur(4px)}
+    nav a{border-radius:999px;transition:background .16s,color .16s,transform .16s,box-shadow .16s}
+    nav a:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(0,0,0,.18)}
+    .tab,.btn,.switch-btn,.select{border-radius:10px;transition:transform .14s,background .14s,box-shadow .14s}
+    .tab:hover,.btn:hover,.switch-btn:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(0,0,0,.12)}
+    .tile,.article-card,.archive-item,.aw-item{transition:transform .16s,box-shadow .16s,background .16s}
+    .tile:hover,.article-card:hover,.archive-item:hover,.aw-item:hover{transform:translateY(-2px);box-shadow:0 14px 26px rgba(0,0,0,.16)}
+    .map img,.tile img,.article-card img,.photos img,.archive-item img{border-radius:10px}
+    .section h2{letter-spacing:.2px}
+
+    .cestof-poly{
+      filter:drop-shadow(0 0 1px rgba(0,0,0,.34)) drop-shadow(0 3px 8px rgba(0,0,0,.16));
+      stroke-linejoin:round;
+      stroke-linecap:round;
+    }
+    .cestof-warning-poly{
+      filter:drop-shadow(0 0 1px rgba(0,0,0,.42)) drop-shadow(0 4px 10px rgba(0,0,0,.22));
+      stroke-linejoin:round;
+      stroke-linecap:round;
+    }
+
+    nav a.active{
+      background:#000;
+      color:#fff;
+      box-shadow:0 6px 14px rgba(0,0,0,.18);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="header-top">
+        <img class="logo" src="img/logo.png" alt="CESTOF logo" />
+        <div>
+          <img class="title-img" src="img/cestof-title.png" alt="CESTOF" />
+          <p class="sub">Central European Storm Forecasts</p>
+        </div>
+      </div>
+
+      <div class="header-meta">
+        <p class="tagline">Live radar with warnings, mesoscale discussions, and lightning.</p>
+        <p class="last-updated">
+          <b>Last updated:</b> <span id="lastUpdated">—</span>
+          &nbsp; | &nbsp;
+          <b>Radar frame:</b> <span id="radarTime">—</span>
+        </p>
+      </div>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="forecast.html">Forecasts</a>
+        <a href="outlook.html" id="navOutlook">Outlook</a>
+        <a href="radar.html" class="active">Radar</a>
+        <a href="warning.html">Warnings</a>
+        <a href="archive.html">Archive</a>
+        <a href="articles.html">Articles</a>
+        <a href="photos.html">Photos</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <h2>Radar Warnings Map</h2>
+
+        <div class="controls">
+          <div class="left">
+            <label style="font-weight:bold;">Radar:</label>
+            <select class="select" id="radarToggle">
+              <option value="on" selected>On</option>
+              <option value="off">Off</option>
+            </select>
+
+            <label style="font-weight:bold;margin-left:6px;">Radar opacity:</label>
+            <select class="select" id="radarOpacity">
+              <option value="0.35">35%</option>
+              <option value="0.5" selected>50%</option>
+              <option value="0.65">65%</option>
+              <option value="0.8">80%</option>
+              <option value="1">100%</option>
+            </select>
+
+            <label style="font-weight:bold;margin-left:6px;">Lightning:</label>
+            <select class="select" id="lightningToggle">
+              <option value="on" selected>On</option>
+              <option value="off">Off</option>
+            </select>
+
+            <label style="font-weight:bold;margin-left:6px;">Alert sound:</label>
+            <select class="select" id="soundToggle">
+              <option value="on" selected>On</option>
+              <option value="off">Off</option>
+            </select>
+
+            <label style="font-weight:bold;margin-left:6px;">Voice:</label>
+            <select class="select" id="voiceToggle">
+              <option value="on" selected>On</option>
+              <option value="off">Off</option>
+            </select>
+          </div>
+
+          <div class="right">
+            <button class="btn" id="btnReload" type="button">Reload</button>
+            <button class="btn" id="btnEnableAudio" type="button">Enable audio</button>
+          </div>
+        </div>
+
+        <div id="map"></div>
+
+        <div class="active-warnings">
+          <div class="aw-head">
+            <div class="aw-left">
+              <b>Active warnings:</b>
+              <span class="aw-count" id="awCount">0</span>
+            </div>
+            <button class="btn aw-btn" id="awRefresh" type="button">Refresh</button>
+          </div>
+          <div class="aw-list" id="awList">
+            <div class="aw-empty">No active warnings.</div>
+          </div>
+        </div>
+
+        <p class="hint"><br/>
+          Warnings are checked automatically every 30 seconds.<br/>
+          Lightning is refreshed automatically every 5 minutes.<br/>
+          Voice format: <b>A ___ was issued for ___ . Main threats are ___ .</b><br/>
+          <b>THE WARNINGS DISPLAYED HERE ARE NOT OFFICIAL. PLEASE CONSULT YOUR NATIONAL HYDROMETEOROLOGICAL INSTITUTE FOR AUTHORITATIVE INFORMATION.</b><br/>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Central European Storm Forecasts | Cell Spot</p>
+    </footer>
+  </div>
+
+  <script>
+    function escapeHTML(s){
+      return String(s).replace(/[&<>"']/g, (m) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        "\"": "&quot;",
+        "'": "&#039;"
+      }[m]));
+    }
+
+    function fmtLocalDate(d){
+      const months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+      return `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()} ${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
+    }
+
+    function formatExpireShort(value){
+      if(!value) return "";
+      const s = String(value).trim();
+
+      const parsed = Date.parse(s);
+      if(!Number.isNaN(parsed)){
+        const d = new Date(parsed);
+        return `${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
+      }
+
+      const m = s.match(/^(\d{1,2}):(\d{2})/);
+      if(m){
+        return `${String(m[1]).padStart(2,"0")}:${m[2]}`;
+      }
+
+      return s;
+    }
+
+    (function(){
+      const d = new Date(document.lastModified || Date.now());
+      const lu = document.getElementById("lastUpdated");
+      if(lu) lu.textContent = fmtLocalDate(d);
+    })();
+
+    function setRadarTime(tsSeconds){
+      const el = document.getElementById("radarTime");
+      if (!el) return;
+      el.textContent = fmtLocalDate(new Date(tsSeconds * 1000));
+    }
+
+    const RAW_BASE = "https://raw.githubusercontent.com/CentralEuropeanForecasting/cestof-warnings/main";
+    const WARNINGS_URL = `${RAW_BASE}/cestof_warnings.geojson`;
+    const QGIS_URL = `${RAW_BASE}/qgis_polygons.geojson`;
+    const LIGHTNING_URL = "data/latest_europe.geojson";
+
+    const WARNING_FETCH_MS = 30000;
+    const WARNING_LOCAL_MS = 10000;
+    const RADAR_REFRESH_MS = 30000;
+    const LIGHTNING_REFRESH_MS = 300000;
+
+    const map = L.map("map", { zoomControl:true, preferCanvas:true, maxZoom:19 });
+    map.setView([49.6, 15.3], 6);
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom:19,
+      attribution:"&copy; OpenStreetMap contributors"
+    }).addTo(map);
+
+    /* =============================
+       SOUND + VOICE
+    ============================== */
+    let soundEnabled = true;
+    let voiceEnabled = true;
+    let audioEnabledOnce = false;
+    let audioContext = null;
+    let preferredVoice = null;
+    let lastWarningIds = new Set();
+
+    let speechQueue = [];
+    let speechRunning = false;
+
+    function initAudioContext(){
+      try{
+        const Ctx = window.AudioContext || window.webkitAudioContext;
+        if(!Ctx) return null;
+        if(!audioContext) audioContext = new Ctx();
+        return audioContext;
+      }catch(e){
+        return null;
+      }
+    }
+
+    async function unlockAudio(){
+      const ctx = initAudioContext();
+      if(ctx && ctx.state === "suspended"){
+        try{ await ctx.resume(); }catch(e){}
+      }
+      audioEnabledOnce = true;
+      await waitForVoices();
+      preferredVoice = chooseVoice();
+    }
+
+    function playAlertSound(){
+      if(!soundEnabled || !audioEnabledOnce) return;
+
+      const ctx = initAudioContext();
+      if(!ctx) return;
+
+      const now = ctx.currentTime;
+
+      function tone(start, freq, dur, vol){
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+
+        osc.type = "triangle";
+        osc.frequency.setValueAtTime(freq, start);
+
+        gain.gain.setValueAtTime(0.0001, start);
+        gain.gain.linearRampToValueAtTime(vol, start + 0.015);
+        gain.gain.exponentialRampToValueAtTime(0.0001, start + dur);
+
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+
+        osc.start(start);
+        osc.stop(start + dur + 0.03);
+      }
+
+      tone(now, 430, 0.22, 0.28);
+      tone(now + 0.30, 330, 0.26, 0.28);
+    }
+
+    function normalizeTypeForSpeech(type){
+      const t = String(type || "warning").trim();
+      if(t.toLowerCase() === "mesoscale discussion") return "mesoscale discussion";
+      return t;
+    }
+
+    function getWarningArea(props = {}){
+      return props.location || props.area || props.region || props.for || "the warned area";
+    }
+
+    function buildSpeechText(props = {}){
+      const rawType = normalizeTypeForSpeech(props.type);
+      const spokenType = rawType.toLowerCase() === "mesoscale discussion" ? rawType : rawType;
+      const area = getWarningArea(props);
+      const threats = props.text || "no main threats were specified";
+      return `A ${spokenType} was issued for ${area}. Main threats are ${threats}.`;
+    }
+
+    function chooseVoice(){
+      if(!("speechSynthesis" in window)) return null;
+      const voices = window.speechSynthesis.getVoices() || [];
+      if(!voices.length) return null;
+
+      const malePatterns = /david|mark|george|daniel|thomas|alex|fred|lee|male|google uk english male/i;
+      const notFemalePatterns = /zira|aria|samantha|ava|victoria|female/i;
+
+      const maleEnglish = voices.find(v => /en/i.test(v.lang) && malePatterns.test(v.name));
+      if(maleEnglish) return maleEnglish;
+
+      const anyEnglishNotFemale = voices.find(v => /en/i.test(v.lang) && !notFemalePatterns.test(v.name));
+      if(anyEnglishNotFemale) return anyEnglishNotFemale;
+
+      const anyEnglish = voices.find(v => /en/i.test(v.lang));
+      if(anyEnglish) return anyEnglish;
+
+      return voices[0] || null;
+    }
+
+    function waitForVoices(){
+      return new Promise((resolve) => {
+        if(!("speechSynthesis" in window)){
+          resolve();
+          return;
+        }
+
+        const existing = window.speechSynthesis.getVoices();
+        if(existing && existing.length){
+          resolve();
+          return;
+        }
+
+        let done = false;
+        const finish = () => {
+          if(done) return;
+          done = true;
+          resolve();
+        };
+
+        window.speechSynthesis.onvoiceschanged = finish;
+        setTimeout(finish, 1200);
+      });
+    }
+
+    function runSpeechQueue(){
+      if(speechRunning) return;
+      if(!speechQueue.length) return;
+      if(!voiceEnabled || !audioEnabledOnce || !("speechSynthesis" in window)) return;
+
+      speechRunning = true;
+
+      const text = speechQueue.shift();
+      const utter = new SpeechSynthesisUtterance(text);
+
+      preferredVoice = chooseVoice() || preferredVoice;
+      if(preferredVoice) utter.voice = preferredVoice;
+      utter.lang = preferredVoice?.lang || "en-US";
+      utter.rate = 1;
+      utter.pitch = 1;
+      utter.volume = 1;
+
+      utter.onend = () => {
+        speechRunning = false;
+        setTimeout(runSpeechQueue, 150);
+      };
+
+      utter.onerror = () => {
+        speechRunning = false;
+        setTimeout(runSpeechQueue, 150);
+      };
+
+      try{
+        window.speechSynthesis.speak(utter);
+      }catch(e){
+        speechRunning = false;
+      }
+    }
+
+    async function announceNewWarnings(features){
+      if(!Array.isArray(features) || !features.length) return;
+
+      playAlertSound();
+
+      if(!voiceEnabled || !audioEnabledOnce || !("speechSynthesis" in window)) return;
+
+      await waitForVoices();
+      preferredVoice = chooseVoice() || preferredVoice;
+
+      const texts = features.map(f => buildSpeechText(f.properties || {}));
+      speechQueue.push(...texts);
+      runSpeechQueue();
+    }
+
+    function buildWarningId(feature){
+      const p = feature?.properties || {};
+      const g = feature?.geometry || {};
+      return JSON.stringify({
+        type: p.type || "",
+        issued: p.issued || "",
+        expires: p.expires || "",
+        expires_at: p.expires_at || "",
+        location: p.location || "",
+        text: p.text || "",
+        md_number: p.md_number || null,
+        geometry: g
+      });
+    }
+
+    document.getElementById("soundToggle").addEventListener("change", (e) => {
+      soundEnabled = (e.target.value === "on");
+    });
+
+    document.getElementById("voiceToggle").addEventListener("change", (e) => {
+      voiceEnabled = (e.target.value === "on");
+    });
+
+    document.getElementById("btnEnableAudio").addEventListener("click", async () => {
+      await unlockAudio();
+      alert("Audio and voice enabled.");
+    });
+
+    document.addEventListener("click", () => { if(!audioEnabledOnce) unlockAudio(); }, { once:true });
+    document.addEventListener("keydown", () => { if(!audioEnabledOnce) unlockAudio(); }, { once:true });
+
+    if("speechSynthesis" in window){
+      waitForVoices().then(() => {
+        preferredVoice = chooseVoice();
+      });
+    }
+
+    /* =============================
+       RADAR
+    ============================== */
+    let radarLayer = null;
+    let currentRadarOpacity = 0.5;
+    let radarEnabled = true;
+
+    function removeRadarLayer(){
+      if (radarLayer){
+        map.removeLayer(radarLayer);
+        radarLayer = null;
+      }
+    }
+
+    async function loadRainViewerLatest() {
+      if (!radarEnabled) return;
+
+      try {
+        const res = await fetch("https://api.rainviewer.com/public/weather-maps.json", { cache: "no-store" });
+        if (!res.ok) throw new Error("RainViewer API error");
+
+        const data = await res.json();
+
+        const past = Array.isArray(data?.radar?.past) ? data.radar.past : [];
+        const nowcast = Array.isArray(data?.radar?.nowcast) ? data.radar.nowcast : [];
+        const frames = nowcast.length ? nowcast : past;
+        if (!frames.length) throw new Error("No radar frames available");
+
+        const lastFrame = frames[frames.length - 1];
+        const ts = lastFrame.time;
+        setRadarTime(ts);
+
+        const host = data.host || "https://tilecache.rainviewer.com";
+        const url = `${host}${lastFrame.path}/256/{z}/{x}/{y}/2/1_1.png`;
+
+        removeRadarLayer();
+
+        radarLayer = L.tileLayer(url, {
+          opacity: currentRadarOpacity,
+          zIndex: 300,
+          maxNativeZoom: 12,
+          maxZoom: 19,
+          errorTileUrl: "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+        });
+
+        if (radarEnabled) radarLayer.addTo(map);
+
+      } catch (e) {
+        console.warn("RainViewer load failed:", e);
+      }
+    }
+
+    function setRadarEnabled(on){
+      radarEnabled = on;
+      if (!on) removeRadarLayer();
+      else loadRainViewerLatest();
+    }
+
+    document.getElementById("radarToggle").addEventListener("change", (e) => {
+      setRadarEnabled(e.target.value === "on");
+    });
+
+    document.getElementById("radarOpacity").addEventListener("change", (e) => {
+      currentRadarOpacity = parseFloat(e.target.value);
+      if (radarLayer) radarLayer.setOpacity(currentRadarOpacity);
+    });
+
+    /* =============================
+       LIGHTNING
+    ============================== */
+    let lightningLayer = null;
+    let lightningEnabled = true;
+
+    function removeLightningLayer(){
+      if (lightningLayer){
+        map.removeLayer(lightningLayer);
+        lightningLayer = null;
+      }
+    }
+
+    function setLightningEnabled(on){
+      lightningEnabled = on;
+      if (!on) removeLightningLayer();
+      else loadLightningGeoJSON();
+    }
+
+    document.getElementById("lightningToggle").addEventListener("change", (e) => {
+      setLightningEnabled(e.target.value === "on");
+    });
+
+    async function loadLightningGeoJSON(){
+      if (!lightningEnabled) return;
+
+      try{
+        const res = await fetch(LIGHTNING_URL + "?v=" + Date.now(), { cache:"no-store" });
+        if (!res.ok) throw new Error("Failed to load lightning GeoJSON");
+        const gj = await res.json();
+
+        removeLightningLayer();
+
+        lightningLayer = L.geoJSON(gj, {
+          pointToLayer: (feature, latlng) => {
+            return L.circleMarker(latlng, {
+              radius: 3,
+              color: "#ffffff",
+              weight: 0.8,
+              opacity: 1,
+              fillColor: "#ffe600",
+              fillOpacity: 0.95
+            });
+          },
+          onEachFeature: (feature, layer) => {
+            const p = feature.properties || {};
+            layer.bindPopup(`
+              <div style="font-family:Arial,Helvetica,sans-serif;min-width:220px;">
+                <div style="font-weight:800;margin-bottom:6px;">Lightning strike</div>
+                ${p.strike_time ? `<div><b>Time:</b> ${escapeHTML(String(p.strike_time))}</div>` : ""}
+                ${p.hour !== undefined && p.hour !== null ? `<div><b>Hour:</b> ${escapeHTML(String(p.hour))}</div>` : ""}
+                ${p.server !== undefined ? `<div><b>Server:</b> ${escapeHTML(String(p.server))}</div>` : ""}
+                ${p.sta !== undefined ? `<div><b>Stations:</b> ${escapeHTML(String(p.sta))}</div>` : ""}
+                ${p.mds !== undefined ? `<div><b>MDS:</b> ${escapeHTML(String(p.mds))}</div>` : ""}
+                ${p.mcg !== undefined ? `<div><b>MCG:</b> ${escapeHTML(String(p.mcg))}</div>` : ""}
+              </div>
+            `);
+          }
+        }).addTo(map);
+      }catch(e){
+        console.warn("Lightning load failed:", e);
+      }
+    }
+
+    /* =============================
+       OUTLOOK POLYGONS
+    ============================== */
+    let qgisLayer = null;
+
+    const RISK_STYLES = {
+      0:  { color:"#00ff00", weight:1 },
+      5:  { color:"#2e7d00", weight:3 },
+      15: { color:"#fff700", weight:3 },
+      30: { color:"#ff9900", weight:3 },
+      45: { color:"#b30000", weight:3 },
+      50: { color:"#ff00ff", weight:3 }
+    };
+
+    function normalizeRisk(v){
+      const n = Number(v);
+      if (n < 5) return 0;
+      if (n === 5) return 5;
+      if (n === 15) return 15;
+      if (n === 30) return 30;
+      if (n === 45) return 45;
+      if (n >= 50) return 50;
+      return null;
+    }
+
+    function styleFromQGISProps(p = {}) {
+      const prob = normalizeRisk(p.prob ?? p.risk);
+      if (Number(p.warning) === 1 || p.warning === true) {
+        return {
+          pane:"overlayPane",
+          color:"#111111",
+          fillColor:"#111111",
+          weight:2.2,
+          opacity:0.95,
+          fillOpacity:0,
+          dashArray:"7 5",
+          lineCap:"round",
+          lineJoin:"round",
+          className:"cestof-poly"
+        };
+      }
+      if (prob !== null && RISK_STYLES[prob]) {
+        const s = RISK_STYLES[prob];
+        return {
+          pane:"overlayPane",
+          color:s.color,
+          weight: prob <= 5 ? 2.4 : prob >= 45 ? 3.8 : 3.1,
+          opacity:0.98,
+          fillColor:s.color,
+          fillOpacity:0.08,
+          dashArray: prob <= 5 ? "7 5" : null,
+          lineCap:"round",
+          lineJoin:"round",
+          className:"cestof-poly"
+        };
+      }
+      return {
+        pane:"overlayPane",
+        color:"#1f1f1f",
+        weight:2.2,
+        opacity:0.7,
+        fillColor:"#1f1f1f",
+        fillOpacity:0.04,
+        lineCap:"round",
+        lineJoin:"round",
+        className:"cestof-poly"
+      };
+    }
+
+    function probLabel(prob){
+      const p = normalizeRisk(prob);
+      if (p === 0) return "T-storm Risk";
+      if (p === 5) return "General Risk";
+      if (p === 15) return "Slight Risk";
+      if (p === 30) return "Enhanced Risk";
+      if (p === 45) return "Moderate Risk";
+      if (p === 50) return "Severe Risk";
+      return "Area";
+    }
+
+    async function loadQGISGeoJSON(url) {
+      try {
+        const res = await fetch(url + "?v=" + Date.now(), { cache:"no-store" });
+        if (!res.ok) throw new Error("Failed to load " + url);
+        const gj = await res.json();
+
+        if (qgisLayer) map.removeLayer(qgisLayer);
+
+        qgisLayer = L.geoJSON(gj, {
+          style: (feature) => styleFromQGISProps(feature?.properties || {}),
+          onEachFeature: (feature, layer) => {
+            const p = feature.properties || {};
+            const prob = (p.prob ?? p.risk);
+            const title = (p.name || p.NAME || p.title) ? String(p.name || p.NAME || p.title) : probLabel(prob);
+            const desc = p.desc || p.description || "";
+
+            layer.bindPopup(
+              `<div style="font-family:Arial,Helvetica,sans-serif;min-width:220px;">
+                <div style="font-weight:800;margin-bottom:6px;">${escapeHTML(title)}</div>
+                ${desc ? `<div style="margin-top:8px;color:#222;">${escapeHTML(String(desc))}</div>` : ""}
+              </div>`
+            );
+          }
+        }).addTo(map);
+      } catch (e) {
+        console.warn("QGIS GeoJSON load failed:", e);
+      }
+    }
+
+    /* =============================
+       WARNINGS
+    ============================== */
+    const WARN_TYPES = {
+      "Severe Thunderstorm Warning": { fill:"#ff0000", stroke:"#8B0000", weight:2, fillOpacity:0.25 },
+      "Tornado Warning": { fill:"#b000b9", stroke:"#5b0061", weight:2, fillOpacity:0.28 },
+      "Thunderstorm Warning": { fill:"#2dbf2d", stroke:"#0a6a0a", weight:2, fillOpacity:0.22 },
+      "Mesoscale Discussion": { fill:"#ffd400", stroke:"#b58d00", weight:2, fillOpacity:0.20 }
+    };
+
+    function styleWarningByType(type) {
+      const t = WARN_TYPES[type] || WARN_TYPES["Thunderstorm Warning"];
+      const dashed = type === "Mesoscale Discussion";
+      return {
+        color:t.stroke,
+        weight:type === "Tornado Warning" ? 3.2 : 2.6,
+        fillColor:t.fill,
+        fillOpacity:type === "Mesoscale Discussion" ? 0.16 : t.fillOpacity,
+        opacity:0.98,
+        dashArray:dashed ? "8 5" : null,
+        lineCap:"round",
+        lineJoin:"round",
+        className:"cestof-warning-poly"
+      };
+    }
+
+    const warningsGroup = L.featureGroup().addTo(map);
+    let sharedWarningsLayer = null;
+    let latestWarningsGeoJSON = null;
+
+    function warningDisplayTitle(props = {}){
+      const type = props.type || "Thunderstorm Warning";
+      if(type === "Mesoscale Discussion" && props.md_number){
+        return `Mesoscale Discussion #${props.md_number}`;
+      }
+      return type;
+    }
+
+    function bindWarningInfo(layer, props) {
+      const title = warningDisplayTitle(props);
+      const issued = props.issued || "";
+      const expires = formatExpireShort(props.expires || props.expires_at || "");
+      const location = props.location || "";
+      const text = props.text || "";
+
+      const html = `
+        <div style="font-family:Arial,Helvetica,sans-serif;min-width:220px;">
+          <div style="font-weight:800;margin-bottom:6px;">${escapeHTML(title)}</div>
+          ${issued ? `<div><b>Issued:</b> ${escapeHTML(issued)}</div>` : ""}
+          ${expires ? `<div><b>Expires:</b> ${escapeHTML(expires)}</div>` : ""}
+          ${location ? `<div><b>Location:</b> ${escapeHTML(location)}</div>` : ""}
+          ${text ? `<div style="margin-top:8px;color:#222;">${escapeHTML(text)}</div>` : ""}
+        </div>
+      `;
+      layer.bindPopup(html);
+    }
+
+    function parseExpireTime(props = {}) {
+      const raw = props.expires_at || props.expires_iso || props.expire_at || props.expire_iso || props.expires;
+      if (!raw) return null;
+
+      const s = String(raw).trim();
+      const parsed = Date.parse(s);
+      if (!Number.isNaN(parsed)) return parsed;
+
+      const m = s.match(/^(\d{1,2}):(\d{2})(?:\s*(CEST|CET))?$/i);
+      if (m) {
+        const now = new Date();
+        const h = Number(m[1]);
+        const min = Number(m[2]);
+        const d = new Date(now);
+        d.setSeconds(0, 0);
+        d.setHours(h, min, 0, 0);
+        return d.getTime();
+      }
+
+      return null;
+    }
+
+    function isWarningActive(props = {}) {
+      const expireMs = parseExpireTime(props);
+      if (expireMs === null) return true;
+      return Date.now() < expireMs;
+    }
+
+    function processNewWarnings(sourceGeoJSON){
+      const feats = Array.isArray(sourceGeoJSON?.features) ? sourceGeoJSON.features : [];
+      const activeFeats = feats.filter(f => isWarningActive(f?.properties || {}));
+
+      const newIds = new Set(activeFeats.map(buildWarningId));
+      const newFeatures = activeFeats.filter(f => !lastWarningIds.has(buildWarningId(f)));
+
+      if (lastWarningIds.size > 0 && newFeatures.length > 0) {
+        announceNewWarnings(newFeatures);
+      }
+
+      lastWarningIds = newIds;
+    }
+
+    function renderWarningsFromLatest() {
+      if (sharedWarningsLayer) {
+        warningsGroup.removeLayer(sharedWarningsLayer);
+        sharedWarningsLayer = null;
+      }
+
+      const source = latestWarningsGeoJSON;
+      if (!source || !Array.isArray(source.features)) {
+        buildActiveWarningsList();
+        return;
+      }
+
+      const filtered = {
+        type: "FeatureCollection",
+        features: source.features.filter(f => isWarningActive(f?.properties || {}))
+      };
+
+      sharedWarningsLayer = L.geoJSON(filtered, {
+        style: (feature) => styleWarningByType(feature?.properties?.type),
+        onEachFeature: (feature, lyr) => {
+          const props = feature.properties || {};
+          lyr.feature = lyr.feature || { type:"Feature", properties:{}, geometry:null };
+          lyr.feature.properties = props;
+          bindWarningInfo(lyr, props);
+        }
+      });
+
+      warningsGroup.addLayer(sharedWarningsLayer);
+      buildActiveWarningsList();
+    }
+
+    async function loadSharedWarnings() {
+      try {
+        const res = await fetch(WARNINGS_URL + "?v=" + Date.now(), { cache:"no-store" });
+        if (!res.ok) return;
+        latestWarningsGeoJSON = await res.json();
+        processNewWarnings(latestWarningsGeoJSON);
+        renderWarningsFromLatest();
+      } catch(e) {
+        console.warn("Warning load failed:", e);
+      }
+    }
+
+    /* =============================
+       ACTIVE WARNINGS LIST
+    ============================== */
+    function collectAllLeafletLayers(layer) {
+      const out = [];
+      if (!layer) return out;
+
+      if (layer instanceof L.LayerGroup) {
+        layer.eachLayer((child) => out.push(...collectAllLeafletLayers(child)));
+        return out;
+      }
+      out.push(layer);
+      return out;
+    }
+
+    function getWarningLayers() {
+      const all = collectAllLeafletLayers(warningsGroup);
+      return all.filter(l => l && typeof l.getBounds === "function");
+    }
+
+    function buildActiveWarningsList() {
+      const listEl = document.getElementById("awList");
+      const countEl = document.getElementById("awCount");
+      if (!listEl || !countEl) return;
+
+      const layers = getWarningLayers();
+
+      const items = layers.map((layer) => {
+        const props = (layer.feature && layer.feature.properties) ? layer.feature.properties : {};
+        return {
+          layer,
+          title: warningDisplayTitle(props),
+          issued: props.issued || "",
+          expires: formatExpireShort(props.expires_at || props.expires || ""),
+          location: props.location || "",
+          text: props.text || ""
+        };
+      }).reverse();
+
+      countEl.textContent = String(items.length);
+
+      if (!items.length) {
+        listEl.innerHTML = `<div class="aw-empty">No active warnings.</div>`;
+        return;
+      }
+
+      listEl.innerHTML = "";
+      items.forEach((it) => {
+        const div = document.createElement("div");
+        div.className = "aw-item";
+        div.innerHTML = `
+          <div class="aw-title">${escapeHTML(it.title)}</div>
+          <p class="aw-meta">
+            ${it.issued ? `<b>Issued:</b> ${escapeHTML(it.issued)} ` : ""}
+            ${it.expires ? `&nbsp; <b>Expires:</b> ${escapeHTML(it.expires)}` : ""}
+          </p>
+          ${it.location ? `<div class="aw-text"><b>Location:</b> ${escapeHTML(it.location)}</div>` : ""}
+          ${it.text ? `<div class="aw-text">${escapeHTML(it.text)}</div>` : ""}
+        `;
+
+        div.addEventListener("click", () => {
+          try {
+            const b = it.layer.getBounds();
+            if (b && b.isValid()) map.fitBounds(b.pad(0.15), { maxZoom: 10 });
+            setTimeout(() => { if (it.layer.openPopup) it.layer.openPopup(); }, 250);
+          } catch(e) {}
+        });
+
+        listEl.appendChild(div);
+      });
+    }
+
+    document.getElementById("awRefresh").addEventListener("click", renderWarningsFromLatest);
+
+    document.getElementById("btnReload").addEventListener("click", async () => {
+      await loadRainViewerLatest();
+      await loadQGISGeoJSON(QGIS_URL);
+      await loadSharedWarnings();
+      await loadLightningGeoJSON();
+    });
+
+    /* =============================
+       LEGEND
+    ============================== */
+    const legend = L.control({ position:"bottomright" });
+    legend.onAdd = function () {
+      const div = L.DomUtil.create("div", "legend leaflet-control");
+      div.innerHTML = `
+        <h3>Legend</h3>
+        <div class="row" style="margin-top:8px;"><span class="swatch line"></span>Risks</div>
+        <div class="row" style="margin-top:8px;"><span class="swatch line" style="border-top-color:#00e600;"></span>T-storm Risk</div>
+        <div class="row"><span class="swatch line" style="border-top-color:#2e7d00;"></span>General Risk</div>
+        <div class="row"><span class="swatch line" style="border-top-color:#fff700;"></span>Slight Risk</div>
+        <div class="row"><span class="swatch line" style="border-top-color:#ff9900;"></span>Enhanced Risk</div>
+        <div class="row"><span class="swatch line" style="border-top-color:#b30000;"></span>Moderate Risk</div>
+        <div class="row"><span class="swatch line" style="border-top-color:#ff00ff;"></span>Severe Risk</div>
+        <div class="row"><span class="swatch line" style="border-top-color:#000000;"></span>Warning</div>
+        <div class="row"><span class="swatch dot"></span>Lightning</div>
+      `;
+      L.DomEvent.disableClickPropagation(div);
+      return div;
+    };
+    legend.addTo(map);
+
+    /* =============================
+       START
+    ============================== */
+    loadQGISGeoJSON(QGIS_URL);
+    loadSharedWarnings();
+    loadRainViewerLatest();
+    loadLightningGeoJSON();
+
+    setInterval(loadSharedWarnings, WARNING_FETCH_MS);
+    setInterval(renderWarningsFromLatest, WARNING_LOCAL_MS);
+    setInterval(() => {
+      if (radarEnabled) loadRainViewerLatest();
+    }, RADAR_REFRESH_MS);
+    setInterval(() => {
+      if (lightningEnabled) loadLightningGeoJSON();
+    }, LIGHTNING_REFRESH_MS);
+  </script>
+</body>
+</html>
