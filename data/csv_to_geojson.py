@@ -4,23 +4,14 @@ import os
 from datetime import datetime, timedelta, timezone
 
 now = datetime.now(timezone.utc)
-
-# 06:00–06:00 UTC window
-today_6 = now.replace(hour=6, minute=0, second=0, microsecond=0)
-if now < today_6:
-    start_time = today_6 - timedelta(days=1)
-    end_time = today_6
-else:
-    start_time = today_6
-    end_time = today_6 + timedelta(days=1)
+one_hour_ago = now - timedelta(hours=1)
 
 INPUT_FILES = [
-    os.path.join("data", (start_time - timedelta(days=1)).strftime("%Y-%m-%d") + ".csv"),
-    os.path.join("data", start_time.strftime("%Y-%m-%d") + ".csv"),
-    os.path.join("data", end_time.strftime("%Y-%m-%d") + ".csv"),
+    os.path.join("data", (now - timedelta(days=1)).strftime("%Y-%m-%d") + ".csv"),
+    os.path.join("data", now.strftime("%Y-%m-%d") + ".csv"),
 ]
 
-OUTPUT_FILE = os.path.join("data", f"{start_time.strftime('%Y-%m-%d')}_0600_to_{end_time.strftime('%Y-%m-%d')}_0600_europe.geojson")
+OUTPUT_FILE = os.path.join("data", "last_1_hour_europe.geojson")
 LATEST_FILE = os.path.join("data", "latest_europe.geojson")
 
 MIN_LAT = 34.0
@@ -34,6 +25,7 @@ def is_in_europe(lat, lon):
 def parse_strike_time(value):
     s = str(value).strip()
     s = s.replace("Z", "+00:00")
+
     if " " in s and "T" not in s:
         s = s.replace(" ", "T", 1)
 
@@ -102,7 +94,7 @@ for input_file in INPUT_FILES:
                 skipped += 1
                 continue
 
-            if not (start_time <= dt < end_time):
+            if not (one_hour_ago <= dt <= now):
                 skipped += 1
                 continue
 
@@ -141,9 +133,9 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
 with open(LATEST_FILE, "w", encoding="utf-8") as f:
     json.dump(geojson, f, indent=2)
 
-print(f"Window start (UTC): {start_time.isoformat()}")
-print(f"Window end   (UTC): {end_time.isoformat()}")
+print(f"Now (UTC): {now.isoformat()}")
+print(f"1 hour ago (UTC): {one_hour_ago.isoformat()}")
 print(f"Done -> {OUTPUT_FILE}")
 print(f"Done -> {LATEST_FILE}")
-print(f"Kept European strikes in 06:00–06:00 window: {kept}")
+print(f"Kept European strikes in last 1 hour: {kept}")
 print(f"Skipped invalid/out-of-window rows: {skipped}")
