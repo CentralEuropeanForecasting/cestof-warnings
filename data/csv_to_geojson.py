@@ -1,17 +1,28 @@
 import csv
 import json
 import os
-from datetime import date, datetime
+from datetime import datetime, timedelta, timezone
 
-# Automatically use today's date
-today = date.today().strftime("%Y-%m-%d")
+now = datetime.now(timezone.utc)
 
-# Correct paths (IMPORTANT: uses /data/)
-INPUT_FILE = os.path.join("data", f"{today}.csv")
-OUTPUT_FILE = os.path.join("data", f"{today}_europe.geojson")
+# 06:00–06:00 UTC window
+today_6 = now.replace(hour=6, minute=0, second=0, microsecond=0)
+if now < today_6:
+    start_time = today_6 - timedelta(days=1)
+    end_time = today_6
+else:
+    start_time = today_6
+    end_time = today_6 + timedelta(days=1)
+
+INPUT_FILES = [
+    os.path.join("data", (start_time - timedelta(days=1)).strftime("%Y-%m-%d") + ".csv"),
+    os.path.join("data", start_time.strftime("%Y-%m-%d") + ".csv"),
+    os.path.join("data", end_time.strftime("%Y-%m-%d") + ".csv"),
+]
+
+OUTPUT_FILE = os.path.join("data", f"{start_time.strftime('%Y-%m-%d')}_0600_to_{end_time.strftime('%Y-%m-%d')}_0600_europe.geojson")
 LATEST_FILE = os.path.join("data", "latest_europe.geojson")
 
-# Europe bounds
 MIN_LAT = 34.0
 MAX_LAT = 72.0
 MIN_LON = -25.0
@@ -20,77 +31,119 @@ MAX_LON = 45.0
 def is_in_europe(lat, lon):
     return MIN_LAT <= lat <= MAX_LAT and MIN_LON <= lon <= MAX_LON
 
+def parse_strike_time(value):
+    s = str(value).strip()
+    s = s.replace("Z", "+00:00")
+    if " " in s and "T" not in s:
+        s = s.replace(" ", "T", 1)
+
+    try:
+        dt = datetime.fromisoformat(s)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(timezone.utc)
+    except Exception:
+        pass
+
+    try:
+        if "." in s:
+            base, frac = s.split(".", 1)
+            frac_digits = ""
+            tz_part = ""
+            for ch in frac:
+                if ch.isdigit():
+                    frac_digits += ch
+                else:
+                    tz_part = frac[len(frac_digits):]
+                    break
+            frac_digits = (frac_digits[:6]).ljust(6, "0")
+            s2 = f"{base}.{frac_digits}{tz_part}"
+            dt = datetime.fromisoformat(s2)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.astimezone(timezone.utc)
+    except Exception:
+        pass
+
+    return None
+
 features = []
+seen = set()
 kept = 0
 skipped = 0
 
-# Check if today's CSV exists
-if not os.path.exists(INPUT_FILE):
-    raise FileNotFoundError(f"Missing input CSV: {INPUT_FILE}")
+for input_file in INPUT_FILES:
+    if not os.path.exists(input_file):
+        continue
 
-# Read CSV
-with open(INPUT_FILE, newline="", encoding="utf-8") as f:
-    reader = csv.reader(f)
+    with open(input_file, newline="", encoding="utf-8") as f:
+        reader = csv.reader(f)
 
-    for row in reader:
-        if len(row) < 7:
-            skipped += 1
-            continue
+        for row in reader:
+            if len(row) < 7:
+                skipped += 1
+                continue
 
-        lat, lon, strike_time, server, mds, mcg, sta = row
+            lat, lon, strike_time, server, mds, mcg, sta = row
 
-        try:
-            lat = float(lat)
-            lon = float(lon)
-        except ValueError:
-            skipped += 1
-            continue
+            try:
+                lat = float(lat)
+                lon = float(lon)
+            except ValueError:
+                skipped += 1
+                continue
 
-        if not is_in_europe(lat, lon):
-            skipped += 1
-            continue
+            if not is_in_europe(lat, lon):
+                skipped += 1
+                continue
 
-        # Try to extract hour (optional)
-        hour = None
-        try:
-            clean_time = str(strike_time).replace("Z", "+00:00")
-            hour = datetime.fromisoformat(clean_time).hour
-        except:
-            pass
+            dt = parse_strike_time(strike_time)
+            if dt is None:
+                skipped += 1
+                continue
 
-        feature = {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [lon, lat]
-            },
-            "properties": {
-                "strike_time": strike_time,
-                "hour": hour,
-                "server": int(server) if str(server).isdigit() else server,
-                "mds": int(mds) if str(mds).isdigit() else mds,
-                "mcg": int(mcg) if str(mcg).isdigit() else mcg,
-                "sta": int(sta) if str(sta).isdigit() else sta
+            if not (start_time <= dt < end_time):
+                skipped += 1
+                continue
+
+            strike_id = f"{lat},{lon},{strike_time}"
+            if strike_id in seen:
+                continue
+            seen.add(strike_id)
+
+            feature = {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [lon, lat]
+                },
+                "properties": {
+                    "strike_time": dt.isoformat(),
+                    "hour": dt.hour,
+                    "server": int(server) if str(server).isdigit() else server,
+                    "mds": int(mds) if str(mds).isdigit() else mds,
+                    "mcg": int(mcg) if str(mcg).isdigit() else mcg,
+                    "sta": int(sta) if str(sta).isdigit() else sta
+                }
             }
-        }
 
-        features.append(feature)
-        kept += 1
+            features.append(feature)
+            kept += 1
 
-# Create GeoJSON
 geojson = {
     "type": "FeatureCollection",
     "features": features
 }
 
-# Save files
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump(geojson, f, indent=2)
 
 with open(LATEST_FILE, "w", encoding="utf-8") as f:
     json.dump(geojson, f, indent=2)
 
+print(f"Window start (UTC): {start_time.isoformat()}")
+print(f"Window end   (UTC): {end_time.isoformat()}")
 print(f"Done -> {OUTPUT_FILE}")
 print(f"Done -> {LATEST_FILE}")
-print(f"Kept European strikes: {kept}")
-print(f"Skipped non-European/invalid rows: {skipped}")
+print(f"Kept European strikes in 06:00–06:00 window: {kept}")
+print(f"Skipped invalid/out-of-window rows: {skipped}")
