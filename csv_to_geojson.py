@@ -1,11 +1,17 @@
 import csv
 import json
-from datetime import datetime
+import os
+from datetime import date, datetime
 
-INPUT_FILE = "2026-04-05.csv"
-OUTPUT_FILE = "2026-04-05_europe.geojson"
+# Automatically use today's date
+today = date.today().strftime("%Y-%m-%d")
 
-# Europe-ish bounds
+# Correct paths (IMPORTANT: uses /data/)
+INPUT_FILE = os.path.join("data", f"{today}.csv")
+OUTPUT_FILE = os.path.join("data", f"{today}_europe.geojson")
+LATEST_FILE = os.path.join("data", "latest_europe.geojson")
+
+# Europe bounds
 MIN_LAT = 34.0
 MAX_LAT = 72.0
 MIN_LON = -25.0
@@ -18,6 +24,11 @@ features = []
 kept = 0
 skipped = 0
 
+# Check if today's CSV exists
+if not os.path.exists(INPUT_FILE):
+    raise FileNotFoundError(f"Missing input CSV: {INPUT_FILE}")
+
+# Read CSV
 with open(INPUT_FILE, newline="", encoding="utf-8") as f:
     reader = csv.reader(f)
 
@@ -39,10 +50,12 @@ with open(INPUT_FILE, newline="", encoding="utf-8") as f:
             skipped += 1
             continue
 
+        # Try to extract hour (optional)
         hour = None
         try:
-            hour = datetime.fromisoformat(strike_time).hour
-        except ValueError:
+            clean_time = str(strike_time).replace("Z", "+00:00")
+            hour = datetime.fromisoformat(clean_time).hour
+        except:
             pass
 
         feature = {
@@ -64,14 +77,20 @@ with open(INPUT_FILE, newline="", encoding="utf-8") as f:
         features.append(feature)
         kept += 1
 
+# Create GeoJSON
 geojson = {
     "type": "FeatureCollection",
     "features": features
 }
 
+# Save files
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump(geojson, f, indent=2)
 
+with open(LATEST_FILE, "w", encoding="utf-8") as f:
+    json.dump(geojson, f, indent=2)
+
 print(f"Done -> {OUTPUT_FILE}")
+print(f"Done -> {LATEST_FILE}")
 print(f"Kept European strikes: {kept}")
 print(f"Skipped non-European/invalid rows: {skipped}")
