@@ -1,12 +1,14 @@
 import csv
 import json
-from datetime import datetime
+import os
+from datetime import date, datetime
 
-INPUT_FILE = "2026-04-05.csv"
-OUTPUT_FILE = "2026-04-05_europe.geojson"
-LATEST_FILE = "latest_europe.geojson"
+today = date.today().strftime("%Y-%m-%d")
 
-# Europe-ish bounds
+INPUT_FILE = os.path.join("data", f"{today}.csv")
+OUTPUT_FILE = os.path.join("data", f"{today}_europe.geojson")
+LATEST_FILE = os.path.join("data", "latest_europe.geojson")
+
 MIN_LAT = 34.0
 MAX_LAT = 72.0
 MIN_LON = -25.0
@@ -18,6 +20,9 @@ def is_in_europe(lat, lon):
 features = []
 kept = 0
 skipped = 0
+
+if not os.path.exists(INPUT_FILE):
+    raise FileNotFoundError(f"Missing input CSV: {INPUT_FILE}")
 
 with open(INPUT_FILE, newline="", encoding="utf-8") as f:
     reader = csv.reader(f)
@@ -42,8 +47,9 @@ with open(INPUT_FILE, newline="", encoding="utf-8") as f:
 
         hour = None
         try:
-            hour = datetime.fromisoformat(strike_time).hour
-        except ValueError:
+            clean_time = str(strike_time).replace("Z", "+00:00")
+            hour = datetime.fromisoformat(clean_time).hour
+        except:
             pass
 
         feature = {
