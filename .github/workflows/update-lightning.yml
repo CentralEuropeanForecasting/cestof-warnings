@@ -13,15 +13,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - run: pip install requests
+      - name: Install requests
+        run: pip install requests
 
-      - run: mkdir -p data
+      - name: Prepare data folder
+        run: mkdir -p data
 
       - name: Run lightning once
         run: python lightning_live_map.py
@@ -31,7 +35,7 @@ jobs:
       - name: Convert to GeoJSON
         run: python csv_to_geojson.py
 
-      - name: Commit + push
+      - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
