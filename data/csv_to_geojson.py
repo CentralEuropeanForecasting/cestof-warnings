@@ -1,62 +1,17 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import csv
 import json
-from datetime import datetime
-from pathlib import Path
-import sys
+import os
+from datetime import date, datetime
 
-# -----------------------------
-# DEBUG
-# -----------------------------
-print("RUNNING:", __file__)
+# Automatically use today's date
+today = date.today().strftime("%Y-%m-%d")
 
-# -----------------------------
-# INPUT LOGIC
-# -----------------------------
-if len(sys.argv) > 1:
-    # Manual mode
-    input_path = Path(sys.argv[1])
-    if not input_path.exists():
-        print(f"❌ CSV not found: {input_path}")
-        raise SystemExit(1)
-else:
-    # Auto mode → try today's file first
-    today_name = datetime.now().strftime("%Y-%m-%d") + ".csv"
-    today_path = Path(today_name)
+# Correct paths (IMPORTANT: uses /data/)
+INPUT_FILE = os.path.join("data", f"{today}.csv")
+OUTPUT_FILE = os.path.join("data", f"{today}_europe.geojson")
+LATEST_FILE = os.path.join("data", "latest_europe.geojson")
 
-    if today_path.exists():
-        input_path = today_path
-        print("Using TODAY file")
-    else:
-        # fallback → newest file
-        csv_files = sorted(Path(".").glob("*.csv"), key=lambda p: p.stat().st_mtime, reverse=True)
-        if not csv_files:
-            print("❌ No CSV files found")
-            raise SystemExit(1)
-        input_path = csv_files[0]
-        print("Using NEWEST file")
-
-print("Using CSV:", input_path)
-
-# -----------------------------
-# OUTPUT DATE
-# -----------------------------
-stem = input_path.stem
-try:
-    file_date = datetime.strptime(stem[:10], "%Y-%m-%d").strftime("%Y-%m-%d")
-except:
-    file_date = datetime.now().strftime("%Y-%m-%d")
-
-OUTPUT_FILE = f"{file_date}_europe.geojson"
-LATEST_FILE = "data/latest_europe.geojson"
-
-Path("data").mkdir(exist_ok=True)
-
-# -----------------------------
-# EUROPE BOUNDS
-# -----------------------------
+# Europe bounds
 MIN_LAT = 34.0
 MAX_LAT = 72.0
 MIN_LON = -25.0
@@ -69,10 +24,12 @@ features = []
 kept = 0
 skipped = 0
 
-# -----------------------------
-# LOAD CSV
-# -----------------------------
-with open(input_path, newline="", encoding="utf-8") as f:
+# Check if today's CSV exists
+if not os.path.exists(INPUT_FILE):
+    raise FileNotFoundError(f"Missing input CSV: {INPUT_FILE}")
+
+# Read CSV
+with open(INPUT_FILE, newline="", encoding="utf-8") as f:
     reader = csv.reader(f)
 
     for row in reader:
@@ -80,12 +37,12 @@ with open(input_path, newline="", encoding="utf-8") as f:
             skipped += 1
             continue
 
-        lat, lon, strike_time, server, mds, mcg, sta = row[:7]
+        lat, lon, strike_time, server, mds, mcg, sta = row
 
         try:
             lat = float(lat)
             lon = float(lon)
-        except:
+        except ValueError:
             skipped += 1
             continue
 
@@ -93,9 +50,11 @@ with open(input_path, newline="", encoding="utf-8") as f:
             skipped += 1
             continue
 
+        # Try to extract hour (optional)
         hour = None
         try:
-            hour = datetime.fromisoformat(strike_time).hour
+            clean_time = str(strike_time).replace("Z", "+00:00")
+            hour = datetime.fromisoformat(clean_time).hour
         except:
             pass
 
@@ -118,24 +77,20 @@ with open(input_path, newline="", encoding="utf-8") as f:
         features.append(feature)
         kept += 1
 
-# -----------------------------
-# SAVE
-# -----------------------------
+# Create GeoJSON
 geojson = {
     "type": "FeatureCollection",
     "features": features
 }
 
+# Save files
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump(geojson, f, indent=2)
 
 with open(LATEST_FILE, "w", encoding="utf-8") as f:
     json.dump(geojson, f, indent=2)
 
-# -----------------------------
-# DONE
-# -----------------------------
-print(f"✅ Done -> {OUTPUT_FILE}")
-print(f"✅ Updated latest -> {LATEST_FILE}")
-print(f"⚡ Kept European strikes: {kept}")
-print(f"❌ Skipped rows: {skipped}")
+print(f"Done -> {OUTPUT_FILE}")
+print(f"Done -> {LATEST_FILE}")
+print(f"Kept European strikes: {kept}")
+print(f"Skipped non-European/invalid rows: {skipped}")
