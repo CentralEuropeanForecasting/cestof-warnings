@@ -1,4 +1,23 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.563534,
+          42.969567
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-04-10 05:45:27.114979072",
+        "hour": 5,
+        "server": 1,
+        "mds": 13556,
+        "mcg": 206,
+        "sta": 145
+      }
+    }
+  ]
 }
