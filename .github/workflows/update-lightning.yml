@@ -39,8 +39,17 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add data/*
-          git diff --cached --quiet || git commit -m "Auto lightning update"
+
+          if git diff --cached --quiet; then
+            echo "No live lightning changes."
+            exit 0
+          fi
+
+          git commit -m "Auto lightning update"
+
+          git pull --rebase origin main
           git push
 
   daily-archive:
@@ -112,5 +121,13 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add img/lightning/*
-          git diff --cached --quiet || git commit -m "Update lightning archive for ${DATE}"
+
+          if git diff --cached --quiet; then
+            echo "No archive changes."
+            exit 0
+          fi
+
+          git commit -m "Update lightning archive for ${DATE}"
+
+          git pull --rebase origin main
           git push
