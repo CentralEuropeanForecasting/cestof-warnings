@@ -52,7 +52,7 @@ jobs:
           git pull --rebase origin main
           git push
 
-  daily-archive:
+  daily-overview:
     runs-on: ubuntu-latest
 
     steps:
@@ -65,69 +65,36 @@ jobs:
           MINUTE=$(TZ=Europe/Prague date +%M)
 
           if [ "$HOUR" != "00" ] || [ "$MINUTE" != "05" ]; then
-            echo "Not 00:05 Prague time. Skipping archive."
+            echo "Not 00:05 Prague time. Skipping overview."
             exit 0
           fi
-
-      - name: Set archive date
-        run: |
-          DATE=$(TZ=Europe/Prague date -d "yesterday" +%F)
-          echo "DATE=$DATE" >> $GITHUB_ENV
-          echo "YEAR=$(TZ=Europe/Prague date -d "$DATE" +%Y)" >> $GITHUB_ENV
-          echo "MONTH=$(TZ=Europe/Prague date -d "$DATE" +%m)" >> $GITHUB_ENV
-          echo "DAY=$(TZ=Europe/Prague date -d "$DATE" +%d)" >> $GITHUB_ENV
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install archive packages
+      - name: Install overview packages
         run: |
           python -m pip install --upgrade pip
-          pip install numpy pandas matplotlib geopandas shapely pillow scipy pyogrio
+          pip install numpy pandas matplotlib geopandas shapely scipy pyogrio
 
-      - name: Find daily CSV
-        run: |
-          if [ -f "data/${DATE}.csv" ]; then
-            echo "CSV=data/${DATE}.csv" >> $GITHUB_ENV
-          elif [ -f "${DATE}.csv" ]; then
-            echo "CSV=${DATE}.csv" >> $GITHUB_ENV
-          else
-            echo "CSV not found for ${DATE}"
-            exit 1
-          fi
+      - name: Run overview.py
+        run: python overview.py
 
-      - name: Run anale.py
-        run: python anale.py "$CSV"
-
-      - name: Copy PNGs to lightning.html folders
-        run: |
-          DEST="img/lightning/${YEAR}/${MONTH}/${DAY}"
-          mkdir -p "$DEST"
-
-          cp output/01_hour_map_discrete.png "$DEST/day_hour_map.png" || true
-          cp output/03_density_map.png "$DEST/day_density_map.png" || true
-          cp output/03d_density_absolute_25km2.png "$DEST/day_density_absolute_25km2.png" || true
-          cp output/10_country_strike_map.png "$DEST/day_country_map.png" || true
-          cp output/12_province_strike_map.png "$DEST/day_province_map.png" || true
-          cp output/05_hourly_counts.png "$DEST/day_hourly_counts.png" || true
-          cp output/07_time_detail.png "$DEST/day_time_detail.png" || true
-          cp output/06_hourly_mean_intensity.png "$DEST/day_hourly_mean_intensity.png" || true
-
-      - name: Commit archive PNGs
+      - name: Commit overview outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add img/lightning/*
+          git add output/overviews/*
 
           if git diff --cached --quiet; then
-            echo "No archive changes."
+            echo "No overview changes."
             exit 0
           fi
 
-          git commit -m "Update lightning archive for ${DATE}"
+          git commit -m "Update lightning overview"
 
           git pull --rebase origin main
           git push
