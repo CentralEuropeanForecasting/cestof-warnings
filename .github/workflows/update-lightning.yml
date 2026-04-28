@@ -48,11 +48,10 @@ jobs:
           fi
 
           git commit -m "Auto lightning update"
-
           git pull --rebase origin main
           git push
 
-  daily-overview:
+  lightning-overview:
     runs-on: ubuntu-latest
 
     steps:
@@ -82,19 +81,70 @@ jobs:
       - name: Run overview.py
         run: python overview.py
 
-      - name: Commit overview outputs
+      - name: Copy overview PNGs to website folders
+        run: |
+          mkdir -p img/lightning/day
+          mkdir -p img/lightning/week
+          mkdir -p img/lightning/month
+          mkdir -p img/lightning/year
+
+          # DAY: output/overviews/day/2026-04-12 -> img/lightning/day/2026-04-12
+          if [ -d output/overviews/day ]; then
+            for folder in output/overviews/day/*; do
+              [ -d "$folder" ] || continue
+              name=$(basename "$folder")
+              dest="img/lightning/day/$name"
+              mkdir -p "$dest"
+              cp "$folder"/*.png "$dest/" 2>/dev/null || true
+            done
+          fi
+
+          # WEEK: output/overviews/week/2026-W14 -> img/lightning/week/2026_W14
+          if [ -d output/overviews/week ]; then
+            for folder in output/overviews/week/*; do
+              [ -d "$folder" ] || continue
+              name=$(basename "$folder" | sed 's/-W/_W/')
+              dest="img/lightning/week/$name"
+              mkdir -p "$dest"
+              cp "$folder"/*.png "$dest/" 2>/dev/null || true
+            done
+          fi
+
+          # MONTH: output/overviews/month/2026-04 -> img/lightning/month/2026_04
+          if [ -d output/overviews/month ]; then
+            for folder in output/overviews/month/*; do
+              [ -d "$folder" ] || continue
+              name=$(basename "$folder" | sed 's/-/_/')
+              dest="img/lightning/month/$name"
+              mkdir -p "$dest"
+              cp "$folder"/*.png "$dest/" 2>/dev/null || true
+            done
+          fi
+
+          # YEAR: output/overviews/year/2026 -> img/lightning/year/2026
+          if [ -d output/overviews/year ]; then
+            for folder in output/overviews/year/*; do
+              [ -d "$folder" ] || continue
+              name=$(basename "$folder")
+              dest="img/lightning/year/$name"
+              mkdir -p "$dest"
+              cp "$folder"/*.png "$dest/" 2>/dev/null || true
+            done
+          fi
+
+      - name: Commit overview PNGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add output/overviews || true
+          git add img/lightning || true
 
           if git diff --cached --quiet; then
-            echo "No overview changes."
+            echo "No overview PNG changes."
             exit 0
           fi
 
-          git commit -m "Update lightning overview"
-
+          git commit -m "Update lightning overview PNGs"
           git pull --rebase origin main
           git push
