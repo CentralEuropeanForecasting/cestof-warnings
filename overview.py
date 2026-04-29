@@ -1602,6 +1602,109 @@ def plot_hour_map_discrete(points_gdf, europe, path, title):
     add_branding(ax)
     save(fig, path)
 
+
+def get_day_map_discrete_cmap_and_norm(n_days):
+    """Discrete cmap for period maps where each local calendar day gets one colour."""
+    n_days = max(int(n_days), 1)
+    colors = plt.cm.turbo(np.linspace(0.02, 0.98, n_days))
+    cmap = ListedColormap(colors)
+    bounds = np.arange(-0.5, n_days + 0.5, 1)
+    norm = BoundaryNorm(bounds, cmap.N)
+    return cmap, norm
+
+
+def plot_day_map_discrete(points_gdf, europe, path, title):
+    """Plot lightning points coloured by local calendar day for week/month/year overviews."""
+    if points_gdf is None or points_gdf.empty:
+        return
+
+    gdf = points_gdf.copy()
+
+    time_col = None
+    for col in ["strike_time", "time", "datetime", "date", "timestamp", "utc_time"]:
+        if col in gdf.columns:
+            time_col = col
+            break
+
+    if time_col is None:
+        print(f"No time column found for {path}")
+        return
+
+    times = gdf[time_col].apply(parse_any_datetime)
+    valid = times.notna()
+    gdf = gdf.loc[valid].copy()
+    times = times.loc[valid]
+
+    if gdf.empty:
+        return
+
+    try:
+        if getattr(times.dt, "tz", None) is not None:
+            times = times.dt.tz_convert(LOCAL_TIMEZONE).dt.tz_localize(None)
+    except Exception:
+        pass
+
+    gdf["local_date"] = times.dt.date.astype(str)
+    unique_days = sorted(gdf["local_date"].dropna().unique().tolist())
+
+    if not unique_days:
+        return
+
+    day_to_index = {d: i for i, d in enumerate(unique_days)}
+    gdf["day_index"] = gdf["local_date"].map(day_to_index).astype(int)
+
+    cmap, norm = get_day_map_discrete_cmap_and_norm(len(unique_days))
+
+    fig, ax = plt.subplots(figsize=(10, 8))
+    fig.patch.set_facecolor(FIG_BG)
+    ax.set_facecolor(AX_BG)
+
+    europe.plot(ax=ax, color=LAND_COLOR, edgecolor=BORDER_COLOR, linewidth=0.45, zorder=1)
+
+    ax.scatter(
+        gdf.geometry.x,
+        gdf.geometry.y,
+        c=gdf["day_index"],
+        cmap=cmap,
+        norm=norm,
+        s=18,
+        marker="+",
+        linewidths=1.0,
+        alpha=0.95,
+        zorder=20,
+    )
+
+    sm = plt.cm.ScalarMappable(cmap=cmap, norm=norm)
+    sm._A = []
+    cb = fig.colorbar(sm, ax=ax, shrink=0.86, pad=0.025)
+    cb.ax.tick_params(colors=TEXT_COLOR)
+    cb.set_label("Day (local date)", color=TEXT_COLOR)
+
+    n = len(unique_days)
+    if n <= 31:
+        tick_idx = list(range(n))
+    else:
+        step = max(1, int(np.ceil(n / 22)))
+        tick_idx = list(range(0, n, step))
+        if (n - 1) not in tick_idx:
+            tick_idx.append(n - 1)
+
+    cb.set_ticks(tick_idx)
+    cb.set_ticklabels([unique_days[i] for i in tick_idx])
+    for label in cb.ax.get_yticklabels():
+        label.set_fontsize(7 if n > 31 else 8)
+    for spine in cb.ax.spines.values():
+        spine.set_color(TEXT_COLOR)
+
+    minx, miny, maxx, maxy = get_bounds_3857()
+    ax.set_xlim(minx, maxx)
+    ax.set_ylim(miny, maxy)
+
+    style(ax)
+    ax.set_title(title, color=TEXT_COLOR, fontsize=14)
+    add_branding(ax)
+    save(fig, path)
+
 def plot_verification_graphics(summary_df, path, title):
     if summary_df.empty:
         return
@@ -1998,6 +2101,14 @@ def build(name, groups, countries, provinces, orps=None, overview_root=OVERVIEW_
                 out / "hour_map_discrete.png",
                 f"Lightning Strikes by Hour ({key})"
             )
+
+            if name in {"week", "month", "year"}:
+                plot_day_map_discrete(
+                    points,
+                    countries,
+                    out / "day_map_discrete.png",
+                    f"Lightning Strikes by Day ({key})"
+                )
 
             plot_density_grid_map(
                 points,
