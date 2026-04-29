@@ -1,0 +1,87 @@
+name: Archive expired forecasts
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5 4 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Archive forecasts
+        run: |
+          mkdir -p img/forecasts/active
+          mkdir -p img/forecasts/archive
+          mkdir -p data
+
+          if [ ! -f data/forecast-archive.json ]; then
+            echo "[]" > data/forecast-archive.json
+          fi
+
+          python3 << 'PY'
+          import json
+          import re
+          import shutil
+          from pathlib import Path
+
+          active_dir = Path("img/forecasts/active")
+          archive_dir = Path("img/forecasts/archive")
+          archive_json = Path("data/forecast-archive.json")
+
+          archive_dir.mkdir(parents=True, exist_ok=True)
+
+          with archive_json.open("r", encoding="utf-8") as f:
+              try:
+                  archive = json.load(f)
+              except Exception:
+                  archive = []
+
+          existing_dates = {item.get("date") for item in archive}
+
+          pattern = re.compile(r"^(\d{1,2})-(\d{1,2})-(\d{4})\.png$", re.I)
+
+          for file in active_dir.glob("*.png"):
+              match = pattern.match(file.name)
+              if not match:
+                  continue
+
+              day, month, year = match.groups()
+              date_id = f"{int(day)}-{int(month)}-{year}"
+              title = f"{int(day)}.{int(month)}.{year}"
+
+              dest = archive_dir / file.name
+              shutil.move(str(file), str(dest))
+
+              if date_id not in existing_dates:
+                  archive.insert(0, {
+                      "date": date_id,
+                      "title": title,
+                      "image": f"img/forecasts/archive/{file.name}"
+                  })
+                  existing_dates.add(date_id)
+
+          with archive_json.open("w", encoding="utf-8") as f:
+              json.dump(archive, f, indent=2, ensure_ascii=False)
+          PY
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add img/forecasts/archive data/forecast-archive.json img/forecasts/active
+
+          if git diff --cached --quiet; then
+            echo "No forecasts to archive."
+          else
+            git commit -m "Archive expired forecasts"
+            git push
+          fi
