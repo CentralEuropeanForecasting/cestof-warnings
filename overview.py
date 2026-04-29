@@ -21,6 +21,7 @@ from scipy.ndimage import gaussian_filter
 BASE_DIR = Path(__file__).resolve().parent
 ARCHIVE_ROOT = BASE_DIR / "output" / "archive"
 OVERVIEW_ROOT = BASE_DIR / "output" / "overviews"
+LOCAL_TIMEZONE = "Europe/Prague"  # Central Europe time for hourly maps
 
 # -----------------------------
 # STYLE
@@ -314,7 +315,7 @@ def get_points_with_time(gdf):
 
     try:
         if getattr(out["dt"].dt, "tz", None) is not None:
-            out["dt"] = out["dt"].dt.tz_convert("Europe/Athens").dt.tz_localize(None)
+            out["dt"] = out["dt"].dt.tz_convert(LOCAL_TIMEZONE).dt.tz_localize(None)
     except Exception:
         pass
 
@@ -1514,6 +1515,93 @@ def plot_map(base_regions, region_key, df, df_col, value_col, path, title, backg
     add_branding(ax)
     save(fig, path)
 
+
+def get_hour_map_discrete_cmap_and_norm():
+    """24-bin discrete cmap for hour maps, matching the uploaded hour map style."""
+    colors = plt.cm.turbo(np.linspace(0.02, 0.98, 24))
+    cmap = ListedColormap(colors)
+    bounds = np.arange(-0.5, 24.5, 1)
+    norm = BoundaryNorm(bounds, cmap.N)
+    return cmap, norm
+
+
+def plot_hour_map_discrete(points_gdf, europe, path, title):
+    """Plot lightning points coloured by local hour and save hour_map_discrete.png."""
+    if points_gdf is None or points_gdf.empty:
+        return
+
+    gdf = points_gdf.copy()
+
+    time_col = None
+    for col in ["strike_time", "time", "datetime", "date", "timestamp", "utc_time"]:
+        if col in gdf.columns:
+            time_col = col
+            break
+
+    if time_col is None:
+        print(f"No time column found for {path}")
+        return
+
+    times = gdf[time_col].apply(parse_any_datetime)
+    valid = times.notna()
+    gdf = gdf.loc[valid].copy()
+    times = times.loc[valid]
+
+    if gdf.empty:
+        return
+
+    try:
+        if getattr(times.dt, "tz", None) is not None:
+            times = times.dt.tz_convert(LOCAL_TIMEZONE).dt.tz_localize(None)
+    except Exception:
+        pass
+
+    gdf["hour_local"] = times.dt.hour.astype(int)
+    gdf = gdf[(gdf["hour_local"] >= 0) & (gdf["hour_local"] <= 23)].copy()
+
+    if gdf.empty:
+        return
+
+    cmap, norm = get_hour_map_discrete_cmap_and_norm()
+
+    fig, ax = plt.subplots(figsize=(10, 8))
+    fig.patch.set_facecolor(FIG_BG)
+    ax.set_facecolor(AX_BG)
+
+    europe.plot(ax=ax, color=LAND_COLOR, edgecolor=BORDER_COLOR, linewidth=0.45, zorder=1)
+
+    ax.scatter(
+        gdf.geometry.x,
+        gdf.geometry.y,
+        c=gdf["hour_local"],
+        cmap=cmap,
+        norm=norm,
+        s=18,
+        marker="+",
+        linewidths=1.0,
+        alpha=0.95,
+        zorder=20,
+    )
+
+    sm = plt.cm.ScalarMappable(cmap=cmap, norm=norm)
+    sm._A = []
+    cb = fig.colorbar(sm, ax=ax, shrink=0.86, pad=0.025)
+    cb.ax.tick_params(colors=TEXT_COLOR)
+    cb.set_label("Hour (CEST/CET)", color=TEXT_COLOR)
+    cb.set_ticks(list(range(24)))
+    cb.set_ticklabels([str(i) for i in range(24)])
+    for spine in cb.ax.spines.values():
+        spine.set_color(TEXT_COLOR)
+
+    minx, miny, maxx, maxy = get_bounds_3857()
+    ax.set_xlim(minx, maxx)
+    ax.set_ylim(miny, maxy)
+
+    style(ax)
+    ax.set_title(title, color=TEXT_COLOR, fontsize=14)
+    add_branding(ax)
+    save(fig, path)
+
 def plot_verification_graphics(summary_df, path, title):
     if summary_df.empty:
         return
@@ -1904,6 +1992,13 @@ def build(name, groups, countries, provinces, orps=None, overview_root=OVERVIEW_
         )
 
         if points is not None and not points.empty:
+            plot_hour_map_discrete(
+                points,
+                countries,
+                out / "hour_map_discrete.png",
+                f"Lightning Strikes by Hour ({key})"
+            )
+
             plot_density_grid_map(
                 points,
                 countries,
