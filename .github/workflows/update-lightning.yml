@@ -3,173 +3,109 @@ name: Update lightning
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/30 * * * *"   # every 30 min (change if needed)
 
 permissions:
   contents: write
 
-concurrency:
-  group: update-lightning-main
-  cancel-in-progress: false
-
 jobs:
-  live-update:
+  update:
     runs-on: ubuntu-latest
 
     steps:
+      # -------------------------
+      # CHECKOUT
+      # -------------------------
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Pull latest
-        run: git pull --rebase origin main
-
+      # -------------------------
+      # SETUP PYTHON
+      # -------------------------
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install requests
-        run: pip install requests
-
-      - name: Prepare data folder
-        run: mkdir -p data
-
-      - name: Run lightning once
-        run: python lightning_live_map.py
-        env:
-          RUN_ONCE: "1"
-
-      - name: Convert to GeoJSON
-        run: python csv_to_geojson.py
-
-      - name: Commit and push if changed
+      # -------------------------
+      # INSTALL DEPENDENCIES
+      # -------------------------
+      - name: Install dependencies
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          pip install pandas matplotlib geopandas shapely scipy numpy pyproj fiona
 
-          git add data/*
-
-          if git diff --cached --quiet; then
-            echo "No live lightning changes."
-            exit 0
-          fi
-
-          git commit -m "Auto lightning update"
-          git pull --rebase origin main
-          git push
-
-  lightning-overview:
-    runs-on: ubuntu-latest
-    needs: live-update
-
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Pull latest
-        run: git pull --rebase origin main
-
-      - name: Check if Prague time is 00:05
+      # -------------------------
+      # RUN OVERVIEW SCRIPT
+      # -------------------------
+      - name: Run overview generator
         run: |
-          HOUR=$(TZ=Europe/Prague date +%H)
-          MINUTE=$(TZ=Europe/Prague date +%M)
+          python overview.py
 
-          if [ "$HOUR" != "00" ] || [ "$MINUTE" != "05" ]; then
-            echo "Not 00:05 Prague time. Skipping overview."
-            exit 0
-          fi
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install overview packages
+      # -------------------------
+      # COPY ALL PNG OUTPUTS
+      # -------------------------
+      - name: Copy ALL overview PNGs to website folders
         run: |
-          python -m pip install --upgrade pip
-          pip install numpy pandas matplotlib geopandas shapely scipy pyogrio
-
-      - name: Prepare archive folders from data CSVs
-        run: |
-          mkdir -p output/archive
-
-          for csv in data/*.csv; do
-            [ -f "$csv" ] || continue
-
-            name=$(basename "$csv" .csv)
-
-            if echo "$name" | grep -Eq '^[0-9]{4}-[0-9]{2}-[0-9]{2}$'; then
-              mkdir -p "output/archive/$name"
-              cp "$csv" "output/archive/$name/$name.csv"
-              echo "Archived $csv -> output/archive/$name/$name.csv"
-            fi
-          done
-
-      - name: Run overview.py
-        run: python overview.py
-
-      - name: Copy overview PNGs to website folders
-        run: |
-          mkdir -p img/lightning/day
+          mkdir -p img/lightning/days
           mkdir -p img/lightning/week
           mkdir -p img/lightning/month
           mkdir -p img/lightning/year
 
+          copy_pngs () {
+            SRC="$1"
+            DEST="$2"
+            mkdir -p "$DEST"
+            cp "$SRC"/*.png "$DEST/" 2>/dev/null || true
+          }
+
+          # DAYS
           if [ -d output/overviews/days ]; then
             for folder in output/overviews/days/*; do
               [ -d "$folder" ] || continue
               name=$(basename "$folder")
-              dest="img/lightning/day/$name"
-              mkdir -p "$dest"
-              cp "$folder"/*.png "$dest/" 2>/dev/null || true
+              copy_pngs "$folder" "img/lightning/days/$name"
             done
           fi
 
+          # WEEK (2026-W14 → 2026_W14)
           if [ -d output/overviews/week ]; then
             for folder in output/overviews/week/*; do
               [ -d "$folder" ] || continue
               name=$(basename "$folder" | sed 's/-W/_W/')
-              dest="img/lightning/week/$name"
-              mkdir -p "$dest"
-              cp "$folder"/*.png "$dest/" 2>/dev/null || true
+              copy_pngs "$folder" "img/lightning/week/$name"
             done
           fi
 
+          # MONTH (2026-04 → 2026_04)
           if [ -d output/overviews/month ]; then
             for folder in output/overviews/month/*; do
               [ -d "$folder" ] || continue
               name=$(basename "$folder" | sed 's/-/_/')
-              dest="img/lightning/month/$name"
-              mkdir -p "$dest"
-              cp "$folder"/*.png "$dest/" 2>/dev/null || true
+              copy_pngs "$folder" "img/lightning/month/$name"
             done
           fi
 
+          # YEAR
           if [ -d output/overviews/year ]; then
             for folder in output/overviews/year/*; do
               [ -d "$folder" ] || continue
               name=$(basename "$folder")
-              dest="img/lightning/year/$name"
-              mkdir -p "$dest"
-              cp "$folder"/*.png "$dest/" 2>/dev/null || true
+              copy_pngs "$folder" "img/lightning/year/$name"
             done
           fi
 
+      # -------------------------
+      # COMMIT ONLY WEBSITE FILES
+      # -------------------------
       - name: Commit overview PNGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add output/archive || true
-          git add output/overviews || true
           git add img/lightning || true
 
           if git diff --cached --quiet; then
-            echo "No overview PNG changes."
+            echo "No changes to commit."
             exit 0
           fi
 
