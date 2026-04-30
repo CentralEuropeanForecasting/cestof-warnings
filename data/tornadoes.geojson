@@ -468,6 +468,159 @@
         "type": "tornado_archive"
       },
       "id": "07A6888A483F10A38CAB"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.412537,
+              50.44383,
+              0
+            ],
+            [
+              15.412887,
+              50.443795,
+              0
+            ],
+            [
+              15.413187,
+              50.443775,
+              0
+            ],
+            [
+              15.41342,
+              50.443781,
+              0
+            ],
+            [
+              15.413672,
+              50.443822,
+              0
+            ],
+            [
+              15.414055,
+              50.443883,
+              0
+            ],
+            [
+              15.41461,
+              50.443984,
+              0
+            ],
+            [
+              15.41506,
+              50.444133,
+              0
+            ],
+            [
+              15.415292,
+              50.444187,
+              0
+            ],
+            [
+              15.415397,
+              50.44424,
+              0
+            ],
+            [
+              15.415388,
+              50.444284,
+              0
+            ],
+            [
+              15.415206,
+              50.444314,
+              0
+            ],
+            [
+              15.414769,
+              50.444253,
+              0
+            ],
+            [
+              15.414369,
+              50.444241,
+              0
+            ],
+            [
+              15.413933,
+              50.444193,
+              0
+            ],
+            [
+              15.413613,
+              50.444171,
+              0
+            ],
+            [
+              15.413194,
+              50.444139,
+              0
+            ],
+            [
+              15.412715,
+              50.444059,
+              0
+            ],
+            [
+              15.412455,
+              50.443997,
+              0
+            ],
+            [
+              15.412138,
+              50.443951,
+              0
+            ],
+            [
+              15.412208,
+              50.443866,
+              0
+            ],
+            [
+              15.412537,
+              50.44383,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Dvorce",
+        "styleUrl": "#__managed_style_0F590EB62A3F10A6E579",
+        "fill-opacity": 0,
+        "fill": "#ffffff",
+        "stroke-opacity": 1,
+        "stroke": "#fbc02d",
+        "stroke-width": 2,
+        "icon-offset": [
+          64,
+          128
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://earth.google.com/earth/document/icon?color=1976d2&id=2000&scale=4",
+        "kind": "tornado",
+        "tornado_id": "Dvorce",
+        "scale": "IF0.5",
+        "date": "2026-04-19",
+        "location": "Country road south of Studeňany",
+        "damage_type": "Trees / forest",
+        "notes": "Large tree branches thrown 100+ meters away. Tree uprooted",
+        "photos": [
+          {
+            "url": "https://raw.githubusercontent.com/CentralEuropeanForecasting/cestof-warnings/main/img/tornadoes/dvorce/2026-04-19/1777544358151-0-Untitled-Project-2-.jpg",
+            "caption": "",
+            "description": ""
+          }
+        ]
+      },
+      "id": "0D5EAAECEE3F10A470DB"
     }
   ]
 }
