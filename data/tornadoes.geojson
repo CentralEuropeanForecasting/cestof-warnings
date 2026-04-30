@@ -359,6 +359,109 @@
         "type": "tornado_archive"
       },
       "id": "0B6F9673423F10A32FF8"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.401671,
+              50.441082,
+              0
+            ],
+            [
+              15.40167,
+              50.441027,
+              0
+            ],
+            [
+              15.401766,
+              50.441,
+              0
+            ],
+            [
+              15.401987,
+              50.441006,
+              0
+            ],
+            [
+              15.402252,
+              50.441033,
+              0
+            ],
+            [
+              15.402534,
+              50.441097,
+              0
+            ],
+            [
+              15.402623,
+              50.44116,
+              0
+            ],
+            [
+              15.402606,
+              50.441224,
+              0
+            ],
+            [
+              15.40236,
+              50.441207,
+              0
+            ],
+            [
+              15.402122,
+              50.441181,
+              0
+            ],
+            [
+              15.401823,
+              50.441136,
+              0
+            ],
+            [
+              15.401671,
+              50.441082,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Dvorce",
+        "styleUrl": "#__managed_style_0F590EB62A3F10A6E579",
+        "fill-opacity": 0,
+        "fill": "#ffffff",
+        "stroke-opacity": 1,
+        "stroke": "#fbc02d",
+        "stroke-width": 2,
+        "icon-offset": [
+          64,
+          128
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://earth.google.com/earth/document/icon?color=1976d2&id=2000&scale=4",
+        "kind": "tornado",
+        "tornado_id": "Dvorce",
+        "scale": "IF0.5",
+        "date": "2026-04-19",
+        "location": "Country road north of Dvorce",
+        "damage_type": "Trees / forest",
+        "notes": "Large tree branches thrown meters away, Trees split in half",
+        "photos": [
+          {
+            "url": "https://raw.githubusercontent.com/CentralEuropeanForecasting/cestof-warnings/main/img/tornadoes/dvorce/2026-04-19/1777544087239-0-DJI_0102.JPG",
+            "caption": "",
+            "description": ""
+          }
+        ]
+      },
+      "id": "07A6888A483F10A38CAB"
     }
   ]
 }
