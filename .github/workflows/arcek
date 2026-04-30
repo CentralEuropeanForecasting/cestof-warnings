@@ -1,0 +1,151 @@
+name: Archive Day 1 forecast
+
+on:
+  workflow_dispatch:
+    inputs:
+      archive_date:
+        description: "Archive date in YYYY-MM-DD. Leave empty to archive yesterday in Europe/Prague."
+        required: false
+        default: ""
+  schedule:
+    # GitHub cron is UTC. This runs every day, then the job checks Prague local time.
+    - cron: "5 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: archive-day1-forecast
+  cancel-in-progress: false
+
+jobs:
+  archive-day1:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Pull latest
+        run: git pull --rebase origin main
+
+      - name: Check archive time
+        id: timecheck
+        run: |
+          HOUR=$(TZ=Europe/Prague date +%H)
+          MINUTE=$(TZ=Europe/Prague date +%M)
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run_archive=true" >> $GITHUB_OUTPUT
+          elif [ "$HOUR" = "06" ] && [ "$MINUTE" = "05" ]; then
+            echo "run_archive=true" >> $GITHUB_OUTPUT
+          else
+            echo "run_archive=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Stop when not archive time
+        if: steps.timecheck.outputs.run_archive != 'true'
+        run: echo "Not archive time in Europe/Prague."
+
+      - name: Set archive date
+        if: steps.timecheck.outputs.run_archive == 'true'
+        id: date
+        run: |
+          INPUT_DATE="${{ github.event.inputs.archive_date }}"
+          if [ -n "$INPUT_DATE" ]; then
+            ARCHIVE_DATE="$INPUT_DATE"
+          else
+            ARCHIVE_DATE=$(TZ=Europe/Prague date -d "yesterday" +%Y-%m-%d)
+          fi
+          echo "archive_date=$ARCHIVE_DATE" >> $GITHUB_OUTPUT
+          echo "Archiving Day 1 forecast as $ARCHIVE_DATE"
+
+      - name: Copy Day 1 GeoJSONs into archive folder
+        if: steps.timecheck.outputs.run_archive == 'true'
+        run: |
+          DATE="${{ steps.date.outputs.archive_date }}"
+          DEST="data/forecast_archive/$DATE"
+          mkdir -p "$DEST"
+
+          copy_if_exists () {
+            SRC="$1"
+            if [ -f "$SRC" ]; then
+              cp "$SRC" "$DEST/$SRC"
+              echo "Archived $SRC -> $DEST/$SRC"
+            else
+              echo "Missing $SRC, skipping."
+            fi
+          }
+
+          copy_if_exists qgis_polygons.geojson
+          copy_if_exists qgis_polygons_tornado.geojson
+          copy_if_exists qgis_polygons_hail.geojson
+          copy_if_exists qgis_polygons_wind.geojson
+
+      - name: Update archive index
+        if: steps.timecheck.outputs.run_archive == 'true'
+        run: |
+          DATE="${{ steps.date.outputs.archive_date }}"
+          mkdir -p data/forecast_archive
+
+          python - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+
+          date = os.environ["ARCHIVE_DATE"]
+          path = "data/forecast_archive/index.json"
+          if os.path.exists(path):
+              try:
+                  with open(path, "r", encoding="utf-8") as f:
+                      data = json.load(f)
+              except Exception:
+                  data = {"entries": []}
+          else:
+              data = {"entries": []}
+
+          if isinstance(data, list):
+              entries = data
+              data = {"entries": entries}
+          else:
+              entries = data.setdefault("entries", [])
+
+          archived_files = []
+          folder = f"data/forecast_archive/{date}"
+          for name in ["qgis_polygons.geojson", "qgis_polygons_tornado.geojson", "qgis_polygons_hail.geojson", "qgis_polygons_wind.geojson"]:
+              if os.path.exists(os.path.join(folder, name)):
+                  archived_files.append(name)
+
+          entries = [e for e in entries if e.get("date") != date]
+          entries.append({
+              "date": date,
+              "archived_at": datetime.now(timezone.utc).isoformat(),
+              "files": archived_files
+          })
+          entries.sort(key=lambda x: x.get("date", ""), reverse=True)
+          data["entries"] = entries
+
+          with open(path, "w", encoding="utf-8") as f:
+              json.dump(data, f, indent=2, ensure_ascii=False)
+              f.write("\n")
+          PY
+        env:
+          ARCHIVE_DATE: ${{ steps.date.outputs.archive_date }}
+
+      - name: Commit archive
+        if: steps.timecheck.outputs.run_archive == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/forecast_archive
+
+          if git diff --cached --quiet; then
+            echo "No archive changes."
+            exit 0
+          fi
+
+          git commit -m "Archive Day 1 forecast ${{ steps.date.outputs.archive_date }}"
+          git pull --rebase --autostash origin main
+          git push
