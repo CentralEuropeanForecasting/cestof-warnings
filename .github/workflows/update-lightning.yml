@@ -3,7 +3,7 @@ name: Update lightning
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "* * * * *"
 
 permissions:
   contents: write
@@ -69,6 +69,7 @@ jobs:
             echo "No live lightning changes."
           else
             git commit -m "Auto lightning update"
+            git pull --rebase origin main
             git push
           fi
 
@@ -125,7 +126,6 @@ jobs:
             fi
           }
 
-          # days: output/overviews/days/2026-04-12 -> img/lightning/days/2026-04-12
           if [ -d output/overviews/days ]; then
             for folder in output/overviews/days/*; do
               [ -d "$folder" ] || continue
@@ -134,7 +134,6 @@ jobs:
             done
           fi
 
-          # week: output/overviews/week/2026-W14 -> img/lightning/week/2026_W14
           if [ -d output/overviews/week ]; then
             for folder in output/overviews/week/*; do
               [ -d "$folder" ] || continue
@@ -143,7 +142,6 @@ jobs:
             done
           fi
 
-          # month: output/overviews/month/2026-04 -> img/lightning/month/2026_04
           if [ -d output/overviews/month ]; then
             for folder in output/overviews/month/*; do
               [ -d "$folder" ] || continue
@@ -152,7 +150,6 @@ jobs:
             done
           fi
 
-          # year: output/overviews/year/2026 -> img/lightning/year/2026
           if [ -d output/overviews/year ]; then
             for folder in output/overviews/year/*; do
               [ -d "$folder" ] || continue
@@ -178,4 +175,5 @@ jobs:
           fi
 
           git commit -m "Update lightning overview PNGs"
+          git pull --rebase origin main
           git push
