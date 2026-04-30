@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "outlook",
+        "hazard": "tornado",
+        "title": "Weak tornadoes",
+        "description": "",
+        "probability": "2",
+        "intensity": "",
+        "riskLabel": "2%",
+        "hazardProbability": "2",
+        "hatched": false,
+        "doubleHatch": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.855957,
+              52.442618
+            ],
+            [
+              4.284668,
+              51.99841
+            ],
+            [
+              3.757324,
+              51.37178
+            ],
+            [
+              3.88916,
+              50.875311
+            ],
+            [
+              4.63623,
+              50.499452
+            ],
+            [
+              5.581055,
+              50.541363
+            ],
+            [
+              6.130371,
+              50.903033
+            ],
+            [
+              6.61377,
+              51.358062
+            ],
+            [
+              6.767578,
+              51.808615
+            ],
+            [
+              6.833496,
+              52.214339
+            ],
+            [
+              6.745605,
+              52.549636
+            ],
+            [
+              6.130371,
+              52.722986
+            ],
+            [
+              5.427246,
+              52.629729
+            ],
+            [
+              4.855957,
+              52.442618
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "outlook",
+        "hazard": "tornado",
+        "title": "Weak tornadoes",
+        "description": "",
+        "probability": "2",
+        "intensity": "",
+        "riskLabel": "2%",
+        "hazardProbability": "2",
+        "hatched": false,
+        "doubleHatch": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.625977,
+              50.331436
+            ],
+            [
+              1.296387,
+              50.021858
+            ],
+            [
+              0.571289,
+              49.866317
+            ],
+            [
+              0.065918,
+              49.59647
+            ],
+            [
+              0.219727,
+              49.296472
+            ],
+            [
+              1.142578,
+              49.325122
+            ],
+            [
+              1.955566,
+              49.738682
+            ],
+            [
+              3.032227,
+              50.092393
+            ],
+            [
+              3.120117,
+              50.415519
+            ],
+            [
+              2.592773,
+              50.736455
+            ],
+            [
+              1.625977,
+              50.331436
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
