@@ -1,4 +1,4 @@
-name: Live lightning
+name: Update lightning live
 
 on:
   workflow_dispatch:
@@ -9,23 +9,16 @@ permissions:
   contents: write
 
 concurrency:
-  group: live-lightning-main
+  group: update-lightning-live
   cancel-in-progress: true
 
 jobs:
-  live:
+  update-live:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Pull latest repo state
-        run: |
-          git config pull.rebase true
-          git pull --rebase origin main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -37,59 +30,29 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Prepare folders
-        run: |
-          mkdir -p data
+      - name: Prepare data folder
+        run: mkdir -p data
 
-      - name: Run lightning live script once
-        run: |
-          python lightning_live_map.py
+      - name: Run lightning once
+        run: python lightning_live_map.py
         env:
           RUN_ONCE: "1"
 
-      - name: Debug live data
-        run: |
-          echo "Files after lightning_live_map.py:"
-          find data -maxdepth 2 -type f | sort || true
+      - name: Convert latest lightning to GeoJSON
+        run: python csv_to_geojson.py
 
-      - name: Ensure today daily CSV exists
-        run: |
-          TODAY=$(TZ=Europe/Prague date +%Y-%m-%d)
-
-          echo "Today in Prague time: $TODAY"
-
-          if [ -f "data/$TODAY.csv" ]; then
-            echo "Daily CSV already exists: data/$TODAY.csv"
-          elif [ -f "data/lightning.csv" ]; then
-            cp "data/lightning.csv" "data/$TODAY.csv"
-            echo "Created data/$TODAY.csv from data/lightning.csv"
-          elif [ -f "data/latest.csv" ]; then
-            cp "data/latest.csv" "data/$TODAY.csv"
-            echo "Created data/$TODAY.csv from data/latest.csv"
-          else
-            echo "WARNING: No daily CSV exists and no fallback CSV found."
-            echo "Your lightning_live_map.py should create data/YYYY-MM-DD.csv."
-          fi
-
-          echo "Current CSV files:"
-          find data -maxdepth 1 -type f -name "*.csv" | sort || true
-
-      - name: Convert CSV to GeoJSON
-        run: |
-          python csv_to_geojson.py
-
-      - name: Commit live lightning data
+      - name: Commit latest lightning
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add -A data
+          git add data/latest_europe.geojson data/*.csv || true
 
           if git diff --cached --quiet; then
             echo "No live lightning changes."
             exit 0
           fi
 
-          git commit -m "Auto lightning live update"
+          git commit -m "Update live lightning"
           git pull --rebase origin main
-          git push origin main
+          git push
