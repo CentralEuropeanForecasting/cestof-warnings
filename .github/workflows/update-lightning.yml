@@ -24,7 +24,7 @@ jobs:
 
       - name: Sync latest repo
         run: |
-          git pull --rebase --autostash origin main
+          git pull --rebase origin main
 
       - name: Check overview time
         id: timecheck
@@ -58,33 +58,6 @@ jobs:
 
       - name: Convert to GeoJSON
         run: python csv_to_geojson.py
-
-      - name: Commit and push live data
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add -A data
-
-          if git diff --cached --quiet; then
-            echo "No live lightning changes."
-            exit 0
-          fi
-
-          git commit -m "Update live lightning"
-
-          for i in 1 2 3; do
-            if git push origin main; then
-              echo "Live lightning pushed successfully."
-              exit 0
-            fi
-
-            echo "Push failed. Syncing with remote and retrying..."
-            git pull --rebase --autostash origin main
-          done
-
-          echo "Failed to push live lightning after retries."
-          exit 1
 
       - name: Install overview packages
         if: steps.timecheck.outputs.run_overview == 'true' || github.event_name == 'workflow_dispatch'
@@ -174,30 +147,18 @@ jobs:
           echo "Final website PNGs:"
           find img/lightning -type f -name "*.png" | sort || true
 
-      - name: Commit and push overview files
-        if: steps.timecheck.outputs.run_overview == 'true' || github.event_name == 'workflow_dispatch'
+      - name: Commit and push everything
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add -A img/lightning output/overviews output/archive
+          git add -A data img/lightning output/archive output/overviews
 
           if git diff --cached --quiet; then
-            echo "No overview changes."
+            echo "No changes to commit."
             exit 0
           fi
 
-          git commit -m "Update lightning overview files"
+          git commit -m "Update lightning data"
 
-          for i in 1 2 3; do
-            if git push origin main; then
-              echo "Overview files pushed successfully."
-              exit 0
-            fi
-
-            echo "Push failed. Syncing with remote and retrying..."
-            git pull --rebase --autostash origin main
-          done
-
-          echo "Failed to push overview files after retries."
-          exit 1
+          git push origin main
