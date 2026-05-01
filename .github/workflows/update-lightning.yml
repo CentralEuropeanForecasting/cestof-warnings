@@ -10,7 +10,7 @@ permissions:
 
 concurrency:
   group: update-lightning-main
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update:
@@ -22,8 +22,9 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Pull latest
-        run: git pull --rebase origin main
+      - name: Sync latest repo
+        run: |
+          git pull --rebase --autostash origin main
 
       - name: Check overview time
         id: timecheck
@@ -58,20 +59,32 @@ jobs:
       - name: Convert to GeoJSON
         run: python csv_to_geojson.py
 
-      - name: Commit live data
+      - name: Commit and push live data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/*
+          git add -A data
 
           if git diff --cached --quiet; then
             echo "No live lightning changes."
-          else
-            git commit -m "Auto lightning update"
-            git pull --rebase origin main
-            git push
+            exit 0
           fi
+
+          git commit -m "Update live lightning"
+
+          for i in 1 2 3; do
+            if git push origin main; then
+              echo "Live lightning pushed successfully."
+              exit 0
+            fi
+
+            echo "Push failed. Syncing with remote and retrying..."
+            git pull --rebase --autostash origin main
+          done
+
+          echo "Failed to push live lightning after retries."
+          exit 1
 
       - name: Install overview packages
         if: steps.timecheck.outputs.run_overview == 'true' || github.event_name == 'workflow_dispatch'
@@ -97,7 +110,7 @@ jobs:
           done
 
           echo "Archive folders:"
-          find output/archive -maxdepth 2 -type f | sort
+          find output/archive -maxdepth 2 -type f | sort || true
 
       - name: Run overview.py
         if: steps.timecheck.outputs.run_overview == 'true' || github.event_name == 'workflow_dispatch'
@@ -159,21 +172,32 @@ jobs:
           fi
 
           echo "Final website PNGs:"
-          find img/lightning -type f -name "*.png" | sort
+          find img/lightning -type f -name "*.png" | sort || true
 
-      - name: Commit overview PNGs
+      - name: Commit and push overview files
         if: steps.timecheck.outputs.run_overview == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add img/lightning || true
+          git add -A img/lightning output/overviews output/archive
 
           if git diff --cached --quiet; then
-            echo "No overview PNG changes."
+            echo "No overview changes."
             exit 0
           fi
 
-          git commit -m "Update lightning overview PNGs"
-          git pull --rebase origin main
-          git push
+          git commit -m "Update lightning overview files"
+
+          for i in 1 2 3; do
+            if git push origin main; then
+              echo "Overview files pushed successfully."
+              exit 0
+            fi
+
+            echo "Push failed. Syncing with remote and retrying..."
+            git pull --rebase --autostash origin main
+          done
+
+          echo "Failed to push overview files after retries."
+          exit 1
