@@ -21,7 +21,7 @@
           "wind": "Strong",
           "tornado_probability": "Low"
         },
-        "updated_at": "2026-05-02T16:16:26.728Z"
+        "updated_at": "2026-05-02T16:16:29.799Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -96,6 +96,56 @@
             [
               1.741333,
               50.078295
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T18:25",
+        "expires": "2026-05-02T18:50",
+        "issued_iso": "2026-05-02T18:25",
+        "expires_iso": "2026-05-02T18:50",
+        "location": "South East Belgium, Heading North East",
+        "text": "",
+        "hail": "3.6 cm",
+        "wind": "60 km/h",
+        "tornado_probability": "",
+        "hazards": {
+          "hail": "3.6 cm",
+          "wind": "60 km/h",
+          "tornado_probability": ""
+        },
+        "updated_at": "2026-05-02T16:26:39.515Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.729614,
+              49.425267
+            ],
+            [
+              5.19104,
+              49.289306
+            ],
+            [
+              6.102905,
+              50.085344
+            ],
+            [
+              5.037231,
+              50.282319
+            ],
+            [
+              4.729614,
+              49.425267
             ]
           ]
         ]
