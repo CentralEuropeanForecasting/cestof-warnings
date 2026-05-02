@@ -356,6 +356,58 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T19:04",
+        "expires": "2026-05-02T19:25",
+        "issued_iso": "2026-05-02T19:04",
+        "expires_iso": "2026-05-02T19:25",
+        "location": "North of Koblenz, Heading North East",
+        "text": "Slow moving, torrential rain possible",
+        "hail": "1.8 cm",
+        "wind": "57.6 km/h",
+        "tornado_probability": "",
+        "rotation": "Weak rotation",
+        "hazards": {
+          "hail": "1.8 cm",
+          "wind": "57.6 km/h",
+          "tornado_probability": "",
+          "rotation": "Weak rotation"
+        },
+        "updated_at": "2026-05-02T17:05:16.872Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.311401,
+              50.471491
+            ],
+            [
+              7.528381,
+              50.436516
+            ],
+            [
+              7.893677,
+              50.75731
+            ],
+            [
+              7.311401,
+              50.882243
+            ],
+            [
+              7.311401,
+              50.471491
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
