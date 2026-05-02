@@ -483,7 +483,7 @@
           "tornado_probability": "",
           "rotation": "Weak rotation"
         },
-        "updated_at": "2026-05-02T17:13:15.434Z"
+        "updated_at": "2026-05-02T17:13:18.544Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -508,6 +508,58 @@
             [
               5.509644,
               50.729502
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T19:16",
+        "expires": "2026-05-02T19:45",
+        "issued_iso": "2026-05-02T19:16",
+        "expires_iso": "2026-05-02T19:45",
+        "location": "Near Lille, Heading North East",
+        "text": "",
+        "hail": "1.8 cm",
+        "wind": "Strong",
+        "tornado_probability": "Very low",
+        "rotation": "Broad rotation",
+        "hazards": {
+          "hail": "1.8 cm",
+          "wind": "Strong",
+          "tornado_probability": "Very low",
+          "rotation": "Broad rotation"
+        },
+        "updated_at": "2026-05-02T17:17:41.141Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.554321,
+              50.527397
+            ],
+            [
+              3.312378,
+              50.190968
+            ],
+            [
+              4.718628,
+              50.951506
+            ],
+            [
+              3.707886,
+              51.44716
+            ],
+            [
+              2.554321,
+              50.527397
             ]
           ]
         ]
