@@ -1,4 +1,55 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T13:08",
+        "expires": "2026-05-02T13:55",
+        "issued_iso": "2026-05-02T13:08",
+        "expires_iso": "2026-05-02T13:55",
+        "location": "",
+        "text": "",
+        "hail": "1.1cm",
+        "wind": "Strong",
+        "tornado_probability": "",
+        "hazards": {
+          "hail": "1.1cm",
+          "wind": "Strong",
+          "tornado_probability": ""
+        },
+        "updated_at": "2026-05-02T11:08:27.670Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.664185,
+              49.539469
+            ],
+            [
+              -1.246948,
+              48.929718
+            ],
+            [
+              -0.22522,
+              49.439557
+            ],
+            [
+              -1.96106,
+              50.148746
+            ],
+            [
+              -2.664185,
+              49.539469
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
