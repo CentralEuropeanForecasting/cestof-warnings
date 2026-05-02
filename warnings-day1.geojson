@@ -171,7 +171,7 @@
           "wind": "Very Strong",
           "tornado_probability": ""
         },
-        "updated_at": "2026-05-02T16:34:00.959Z"
+        "updated_at": "2026-05-02T16:34:05.877Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -196,6 +196,110 @@
             [
               -0.082397,
               43.500752
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T18:43",
+        "expires": "2026-05-02T19:10",
+        "issued_iso": "2026-05-02T18:43",
+        "expires_iso": "2026-05-02T19:10",
+        "location": "East Belgium, Heading North East",
+        "text": "",
+        "hail": "2.5 cm",
+        "wind": "70 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "hazards": {
+          "hail": "2.5 cm",
+          "wind": "70 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "updated_at": "2026-05-02T16:44:51.659Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.531616,
+              50.555325
+            ],
+            [
+              6.168823,
+              50.352471
+            ],
+            [
+              7.25647,
+              51.027576
+            ],
+            [
+              6.004028,
+              51.364921
+            ],
+            [
+              5.531616,
+              50.555325
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T18:45",
+        "expires": "2026-05-02T19:20",
+        "issued_iso": "2026-05-02T18:45",
+        "expires_iso": "2026-05-02T19:20",
+        "location": "Near Lille, Heading North East, towards Brussel",
+        "text": "",
+        "hail": "2.5 cm",
+        "wind": "Strong",
+        "tornado_probability": "",
+        "rotation": "",
+        "hazards": {
+          "hail": "2.5 cm",
+          "wind": "Strong",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "updated_at": "2026-05-02T16:47:42.292Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.213745,
+              50.303376
+            ],
+            [
+              2.894897,
+              49.979488
+            ],
+            [
+              4.520874,
+              50.812877
+            ],
+            [
+              3.268433,
+              51.275662
+            ],
+            [
+              2.213745,
+              50.303376
             ]
           ]
         ]
