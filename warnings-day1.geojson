@@ -1055,7 +1055,7 @@
           "tornado_probability": "Elevated",
           "rotation": "Weak rotation"
         },
-        "updated_at": "2026-05-02T19:51:24.044Z"
+        "updated_at": "2026-05-02T19:56:27.081Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -1080,6 +1080,58 @@
             [
               3.999023,
               51.337476
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T22:05",
+        "expires": "2026-05-02T22:45",
+        "issued_iso": "2026-05-02T22:05",
+        "expires_iso": "2026-05-02T22:45",
+        "location": "Near Nijmegen, Heading North East",
+        "text": "",
+        "hail": "0.6 cm",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "hazards": {
+          "hail": "0.6 cm",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "updated_at": "2026-05-02T20:06:27.497Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.537109,
+              51.788232
+            ],
+            [
+              5.95459,
+              51.652111
+            ],
+            [
+              6.536865,
+              52.119999
+            ],
+            [
+              5.965576,
+              52.321911
+            ],
+            [
+              5.537109,
+              51.788232
             ]
           ]
         ]
