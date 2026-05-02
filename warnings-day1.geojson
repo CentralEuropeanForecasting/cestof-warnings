@@ -535,7 +535,7 @@
           "tornado_probability": "Very low",
           "rotation": "Broad rotation"
         },
-        "updated_at": "2026-05-02T17:17:41.141Z"
+        "updated_at": "2026-05-02T17:17:44.146Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -560,6 +560,58 @@
             [
               2.554321,
               50.527397
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T19:40",
+        "expires": "2026-05-02T20:30",
+        "issued_iso": "2026-05-02T19:40",
+        "expires_iso": "2026-05-02T20:30",
+        "location": "Near Aachen, Heading North East",
+        "text": "",
+        "hail": "1.8 cm",
+        "wind": "90 km/h",
+        "tornado_probability": "Low",
+        "rotation": "Strong rotation",
+        "hazards": {
+          "hail": "1.8 cm",
+          "wind": "90 km/h",
+          "tornado_probability": "Low",
+          "rotation": "Strong rotation"
+        },
+        "updated_at": "2026-05-02T17:41:59.581Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.575562,
+              50.819818
+            ],
+            [
+              6.311646,
+              50.625073
+            ],
+            [
+              7.201538,
+              51.213766
+            ],
+            [
+              6.047974,
+              51.57707
+            ],
+            [
+              5.575562,
+              50.819818
             ]
           ]
         ]
