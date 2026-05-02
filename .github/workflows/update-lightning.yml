@@ -15,28 +15,17 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 3
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Sync latest repo
         run: |
-          git pull --rebase origin main
-
-      - name: Check overview time
-        id: timecheck
-        run: |
-          HOUR=$(TZ=Europe/Prague date +%H)
-          MINUTE=$(TZ=Europe/Prague date +%M)
-
-          if [ "$HOUR" = "00" ] && [ "$MINUTE" = "05" ]; then
-            echo "run_overview=true" >> $GITHUB_OUTPUT
-          else
-            echo "run_overview=false" >> $GITHUB_OUTPUT
-          fi
+          git pull --ff-only origin main || true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -45,7 +34,6 @@ jobs:
 
       - name: Install live packages
         run: |
-          python -m pip install --upgrade pip
           pip install requests
 
       - name: Prepare data folder
@@ -56,109 +44,31 @@ jobs:
         env:
           RUN_ONCE: "1"
 
-      - name: Convert to GeoJSON
+      - name: Convert latest lightning to GeoJSON
         run: python csv_to_geojson.py
 
-      - name: Install overview packages
-        if: steps.timecheck.outputs.run_overview == 'true' || github.event_name == 'workflow_dispatch'
-        run: |
-          python -m pip install --upgrade pip
-          pip install numpy pandas matplotlib geopandas shapely scipy pyogrio fiona pyproj
-
-      - name: Prepare archive folders from data CSVs
-        if: steps.timecheck.outputs.run_overview == 'true' || github.event_name == 'workflow_dispatch'
-        run: |
-          rm -rf output/archive
-          mkdir -p output/archive
-
-          for csv in data/*.csv; do
-            [ -f "$csv" ] || continue
-            name=$(basename "$csv" .csv)
-
-            if echo "$name" | grep -Eq '^[0-9]{4}-[0-9]{2}-[0-9]{2}$'; then
-              mkdir -p "output/archive/$name"
-              cp "$csv" "output/archive/$name/$name.csv"
-              echo "Prepared output/archive/$name/$name.csv"
-            fi
-          done
-
-          echo "Archive folders:"
-          find output/archive -maxdepth 2 -type f | sort || true
-
-      - name: Run overview.py
-        if: steps.timecheck.outputs.run_overview == 'true' || github.event_name == 'workflow_dispatch'
-        run: python overview.py
-
-      - name: Copy ALL generated PNGs to website folders
-        if: steps.timecheck.outputs.run_overview == 'true' || github.event_name == 'workflow_dispatch'
-        run: |
-          rm -rf img/lightning/days img/lightning/week img/lightning/month img/lightning/year
-
-          mkdir -p img/lightning/days
-          mkdir -p img/lightning/week
-          mkdir -p img/lightning/month
-          mkdir -p img/lightning/year
-
-          copy_pngs () {
-            SRC="$1"
-            DEST="$2"
-            mkdir -p "$DEST"
-
-            if ls "$SRC"/*.png >/dev/null 2>&1; then
-              cp "$SRC"/*.png "$DEST/"
-              echo "Copied PNGs from $SRC to $DEST"
-            else
-              echo "No PNGs in $SRC"
-            fi
-          }
-
-          if [ -d output/overviews/days ]; then
-            for folder in output/overviews/days/*; do
-              [ -d "$folder" ] || continue
-              name=$(basename "$folder")
-              copy_pngs "$folder" "img/lightning/days/$name"
-            done
-          fi
-
-          if [ -d output/overviews/week ]; then
-            for folder in output/overviews/week/*; do
-              [ -d "$folder" ] || continue
-              name=$(basename "$folder" | sed 's/-W/_W/')
-              copy_pngs "$folder" "img/lightning/week/$name"
-            done
-          fi
-
-          if [ -d output/overviews/month ]; then
-            for folder in output/overviews/month/*; do
-              [ -d "$folder" ] || continue
-              name=$(basename "$folder" | sed 's/-/_/')
-              copy_pngs "$folder" "img/lightning/month/$name"
-            done
-          fi
-
-          if [ -d output/overviews/year ]; then
-            for folder in output/overviews/year/*; do
-              [ -d "$folder" ] || continue
-              name=$(basename "$folder")
-              copy_pngs "$folder" "img/lightning/year/$name"
-            done
-          fi
-
-          echo "Final website PNGs:"
-          find img/lightning -type f -name "*.png" | sort || true
-
-      - name: Commit and push everything
+      - name: Commit and push lightning
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add -A data img/lightning output/archive output/overviews
+          git add data/latest_europe.geojson data/*.csv || true
 
           if git diff --cached --quiet; then
-            echo "No changes to commit."
+            echo "No lightning changes."
             exit 0
           fi
 
-          git commit -m "Update lightning data"
+          git commit -m "Update lightning"
 
-          git push origin main
+          git pull --rebase origin main || {
+            echo "Rebase failed. Trying normal pull..."
+            git rebase --abort || true
+            git pull origin main --no-rebase || true
+          }
+
+          git push || {
+            echo "Push failed. Retrying..."
+            git pull --rebase origin main || true
+            git push
+          }
