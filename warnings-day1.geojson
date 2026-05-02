@@ -876,6 +876,58 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T21:15",
+        "expires": "2026-05-02T21:45",
+        "issued_iso": "2026-05-02T21:15",
+        "expires_iso": "2026-05-02T21:45",
+        "location": "Near Antwerpen, Heading North East",
+        "text": "",
+        "hail": "1 cm",
+        "wind": "Strong",
+        "tornado_probability": "Low",
+        "rotation": "Weak rotation",
+        "hazards": {
+          "hail": "1 cm",
+          "wind": "Strong",
+          "tornado_probability": "Low",
+          "rotation": "Weak rotation"
+        },
+        "updated_at": "2026-05-02T19:15:55.247Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.795776,
+              51.131108
+            ],
+            [
+              4.059448,
+              50.903033
+            ],
+            [
+              5.234985,
+              51.296276
+            ],
+            [
+              4.762573,
+              51.631657
+            ],
+            [
+              3.795776,
+              51.131108
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
