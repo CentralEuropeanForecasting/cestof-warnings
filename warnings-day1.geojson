@@ -616,6 +616,110 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T20:12",
+        "expires": "2026-05-02T20:45",
+        "issued_iso": "2026-05-02T20:12",
+        "expires_iso": "2026-05-02T20:45",
+        "location": "Near Brussel, Heading North East",
+        "text": "",
+        "hail": "2 cm",
+        "wind": "Strong",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "hazards": {
+          "hail": "2 cm",
+          "wind": "Strong",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "updated_at": "2026-05-02T18:13:27.546Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.092651,
+              50.443513
+            ],
+            [
+              3.378296,
+              50.233152
+            ],
+            [
+              4.696655,
+              50.909961
+            ],
+            [
+              3.971558,
+              51.241286
+            ],
+            [
+              3.092651,
+              50.443513
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T20:12",
+        "expires": "2026-05-02T20:40",
+        "issued_iso": "2026-05-02T20:12",
+        "expires_iso": "2026-05-02T20:40",
+        "location": "Near Normandy, Heading North East",
+        "text": "",
+        "hail": "0.4 cm",
+        "wind": "Strong",
+        "tornado_probability": "",
+        "rotation": "",
+        "hazards": {
+          "hail": "0.4 cm",
+          "wind": "Strong",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "updated_at": "2026-05-02T18:16:06.514Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.565552,
+              48.661943
+            ],
+            [
+              -0.994263,
+              48.224673
+            ],
+            [
+              0.444946,
+              49.296472
+            ],
+            [
+              -0.6427,
+              49.575102
+            ],
+            [
+              -1.565552,
+              48.661943
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
