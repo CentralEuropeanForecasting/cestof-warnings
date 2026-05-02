@@ -100,6 +100,56 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T14:20",
+        "expires": "2026-05-02T14:45",
+        "issued_iso": "2026-05-02T14:20",
+        "expires_iso": "2026-05-02T14:45",
+        "location": "South west of Koln, Heading north east",
+        "text": "Possible tornado",
+        "hail": "1cm",
+        "wind": "non",
+        "tornado_probability": "Low",
+        "hazards": {
+          "hail": "1cm",
+          "wind": "non",
+          "tornado_probability": "Low"
+        },
+        "updated_at": "2026-05-02T12:21:02.325Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.113892,
+              50.882243
+            ],
+            [
+              6.38855,
+              50.729502
+            ],
+            [
+              7.245483,
+              50.979182
+            ],
+            [
+              6.860962,
+              51.275662
+            ],
+            [
+              6.113892,
+              50.882243
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
