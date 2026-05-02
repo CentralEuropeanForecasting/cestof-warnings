@@ -1159,7 +1159,7 @@
           "tornado_probability": "",
           "rotation": ""
         },
-        "updated_at": "2026-05-02T20:22:04.572Z"
+        "updated_at": "2026-05-02T20:39:11.637Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -1184,6 +1184,58 @@
             [
               7.229004,
               51.165567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T22:58",
+        "expires": "2026-05-02T23:15",
+        "issued_iso": "2026-05-02T22:58",
+        "expires_iso": "2026-05-02T23:15",
+        "location": "Brussel  Area, Heading North East",
+        "text": "",
+        "hail": "1.8 cm",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "hazards": {
+          "hail": "1.8 cm",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "updated_at": "2026-05-02T20:59:09.218Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.652954,
+              51.11042
+            ],
+            [
+              3.894653,
+              50.868378
+            ],
+            [
+              4.762573,
+              51.18623
+            ],
+            [
+              4.345093,
+              51.467697
+            ],
+            [
+              3.652954,
+              51.11042
             ]
           ]
         ]
