@@ -121,7 +121,7 @@
           "wind": "60 km/h",
           "tornado_probability": ""
         },
-        "updated_at": "2026-05-02T16:26:39.515Z"
+        "updated_at": "2026-05-02T16:26:37.683Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -146,6 +146,56 @@
             [
               4.729614,
               49.425267
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T18:28",
+        "expires": "2026-05-02T19:00",
+        "issued_iso": "2026-05-02T18:28",
+        "expires_iso": "2026-05-02T19:00",
+        "location": "West of Toulouse, Heading North East - East",
+        "text": "",
+        "hail": "4 cm",
+        "wind": "Very Strong",
+        "tornado_probability": "",
+        "hazards": {
+          "hail": "4 cm",
+          "wind": "Very Strong",
+          "tornado_probability": ""
+        },
+        "updated_at": "2026-05-02T16:30:02.284Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.082397,
+              43.500752
+            ],
+            [
+              0.236206,
+              43.173135
+            ],
+            [
+              1.192017,
+              43.55651
+            ],
+            [
+              0.411987,
+              44.229457
+            ],
+            [
+              -0.082397,
+              43.500752
             ]
           ]
         ]
