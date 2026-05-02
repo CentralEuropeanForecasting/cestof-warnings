@@ -691,7 +691,7 @@
           "tornado_probability": "",
           "rotation": ""
         },
-        "updated_at": "2026-05-02T18:16:06.514Z"
+        "updated_at": "2026-05-02T18:16:09.867Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -716,6 +716,110 @@
             [
               -1.565552,
               48.661943
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T20:30",
+        "expires": "2026-05-02T21:15",
+        "issued_iso": "2026-05-02T20:30",
+        "expires_iso": "2026-05-02T21:15",
+        "location": "Near Düsseldorf, Heading North East",
+        "text": "",
+        "hail": "4 cm",
+        "wind": "83 km/h",
+        "tornado_probability": "",
+        "rotation": "Weak rotation",
+        "hazards": {
+          "hail": "4 cm",
+          "wind": "83 km/h",
+          "tornado_probability": "",
+          "rotation": "Weak rotation"
+        },
+        "updated_at": "2026-05-02T18:32:47.781Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.960083,
+              51.275662
+            ],
+            [
+              6.674194,
+              51.013755
+            ],
+            [
+              7.487183,
+              51.570241
+            ],
+            [
+              6.223755,
+              51.869708
+            ],
+            [
+              5.960083,
+              51.275662
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T20:34",
+        "expires": "2026-05-02T21:25",
+        "issued_iso": "2026-05-02T20:34",
+        "expires_iso": "2026-05-02T21:25",
+        "location": "Near Antwerpen, Heading North East",
+        "text": "",
+        "hail": "1.5 cm",
+        "wind": "70 km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Broad rotation",
+        "hazards": {
+          "hail": "1.5 cm",
+          "wind": "70 km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Broad rotation"
+        },
+        "updated_at": "2026-05-02T18:35:06.650Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.092651,
+              51.227528
+            ],
+            [
+              3.641968,
+              50.652943
+            ],
+            [
+              5.410767,
+              51.296276
+            ],
+            [
+              4.44397,
+              51.957807
+            ],
+            [
+              3.092651,
+              51.227528
             ]
           ]
         ]
