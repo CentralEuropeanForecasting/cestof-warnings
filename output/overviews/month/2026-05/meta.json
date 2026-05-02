@@ -1,7 +1,8 @@
 {
   "total": 0,
   "days": [
-    "2026-05-01"
+    "2026-05-01",
+    "2026-05-02"
   ],
   "storm_day_threshold_country": 10,
   "storm_day_threshold_province": 5,
@@ -28,11 +29,11 @@
   "grids_forecast": 0,
   "grids_with_strikes": 0,
   "density_points_available": true,
-  "density_point_count": 3283,
-  "days_in_period": 1,
+  "density_point_count": 22635,
+  "days_in_period": 2,
   "total_strikes_count": 0,
   "thunderstorm_days_count": 0,
-  "total_hours_in_period": 24,
+  "total_hours_in_period": 48,
   "thunderstorms_per_hour": 0.0,
   "thunderstorm_percentage": 0.0,
   "anomaly_period_type": "month",
