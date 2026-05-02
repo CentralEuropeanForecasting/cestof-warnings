@@ -928,6 +928,58 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Tornado Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T21:33",
+        "expires": "2026-05-02T21:50",
+        "issued_iso": "2026-05-02T21:33",
+        "expires_iso": "2026-05-02T21:50",
+        "location": "Near Antwerpen, Heading North East",
+        "text": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "Possible",
+        "rotation": "Strong rotation",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "Possible",
+          "rotation": "Strong rotation"
+        },
+        "updated_at": "2026-05-02T19:34:20.896Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.020996,
+              51.206883
+            ],
+            [
+              4.163818,
+              51.048301
+            ],
+            [
+              4.812012,
+              51.220647
+            ],
+            [
+              4.564819,
+              51.464275
+            ],
+            [
+              4.020996,
+              51.206883
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
