@@ -304,6 +304,58 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T18:56",
+        "expires": "2026-05-02T19:20",
+        "issued_iso": "2026-05-02T18:56",
+        "expires_iso": "2026-05-02T19:20",
+        "location": "Luzern Area, Heading North East",
+        "text": "Slow moving, torrential rain possible",
+        "hail": "0.8 cm",
+        "wind": "45 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "hazards": {
+          "hail": "0.8 cm",
+          "wind": "45 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "updated_at": "2026-05-02T16:57:23.875Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.619019,
+              46.890232
+            ],
+            [
+              8.12439,
+              46.694667
+            ],
+            [
+              8.827515,
+              47.144897
+            ],
+            [
+              8.12439,
+              47.398349
+            ],
+            [
+              7.619019,
+              46.890232
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
