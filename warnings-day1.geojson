@@ -11,7 +11,7 @@
         "expires": "2026-05-02T18:40",
         "issued_iso": "2026-05-02T18:06",
         "expires_iso": "2026-05-02T18:40",
-        "location": "East Belgium, Heading North West",
+        "location": "East Belgium, Heading North East",
         "text": "",
         "hail": "3.2 cm",
         "wind": "Strong",
@@ -21,7 +21,7 @@
           "wind": "Strong",
           "tornado_probability": "Low"
         },
-        "updated_at": "2026-05-02T16:12:44.795Z"
+        "updated_at": "2026-05-02T16:16:26.728Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -46,6 +46,56 @@
             [
               5.059204,
               50.035974
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T18:15",
+        "expires": "2026-05-02T18:40",
+        "issued_iso": "2026-05-02T18:15",
+        "expires_iso": "2026-05-02T18:40",
+        "location": "South of Lille, heading North East",
+        "text": "",
+        "hail": "1.3 cm",
+        "wind": "",
+        "tornado_probability": "",
+        "hazards": {
+          "hail": "1.3 cm",
+          "wind": "",
+          "tornado_probability": ""
+        },
+        "updated_at": "2026-05-02T16:16:14.599Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.741333,
+              50.078295
+            ],
+            [
+              2.554321,
+              49.781264
+            ],
+            [
+              3.949585,
+              50.694718
+            ],
+            [
+              2.807007,
+              51.048301
+            ],
+            [
+              1.741333,
+              50.078295
             ]
           ]
         ]
