@@ -379,7 +379,7 @@
           "tornado_probability": "",
           "rotation": "Weak rotation"
         },
-        "updated_at": "2026-05-02T17:05:16.872Z"
+        "updated_at": "2026-05-02T17:05:21.990Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -404,6 +404,58 @@
             [
               7.311401,
               50.471491
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T19:04",
+        "expires": "2026-05-02T19:25",
+        "issued_iso": "2026-05-02T19:04",
+        "expires_iso": "2026-05-02T19:25",
+        "location": "Near Dinant, Heading North East",
+        "text": "",
+        "hail": "2 cm",
+        "wind": "90 km/h",
+        "tornado_probability": "",
+        "rotation": "Weak rotation",
+        "hazards": {
+          "hail": "2 cm",
+          "wind": "90 km/h",
+          "tornado_probability": "",
+          "rotation": "Weak rotation"
+        },
+        "updated_at": "2026-05-02T17:10:37.018Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.905396,
+              50.296358
+            ],
+            [
+              5.114136,
+              50.212064
+            ],
+            [
+              5.619507,
+              50.436516
+            ],
+            [
+              4.993286,
+              50.625073
+            ],
+            [
+              4.905396,
+              50.296358
             ]
           ]
         ]
