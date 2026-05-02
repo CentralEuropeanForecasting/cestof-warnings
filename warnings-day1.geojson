@@ -1107,7 +1107,7 @@
           "tornado_probability": "",
           "rotation": ""
         },
-        "updated_at": "2026-05-02T20:06:27.497Z"
+        "updated_at": "2026-05-02T20:17:03.087Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -1132,6 +1132,58 @@
             [
               5.537109,
               51.788232
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T22:20",
+        "expires": "2026-05-02T22:45",
+        "issued_iso": "2026-05-02T22:20",
+        "expires_iso": "2026-05-02T22:45",
+        "location": "Dortmund Area, Heading North East",
+        "text": "",
+        "hail": "1.6 cm",
+        "wind": "43 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "hazards": {
+          "hail": "1.6 cm",
+          "wind": "43 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "updated_at": "2026-05-02T20:21:42.245Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.229004,
+              51.165567
+            ],
+            [
+              7.657471,
+              50.986099
+            ],
+            [
+              8.272705,
+              51.842566
+            ],
+            [
+              7.591553,
+              52.011937
+            ],
+            [
+              7.229004,
+              51.165567
             ]
           ]
         ]
