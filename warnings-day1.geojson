@@ -39,6 +39,45 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "warning",
+        "type": "Thunderstorm Warning",
+        "issued": "9:24 CEST",
+        "expires": "9:50",
+        "location": "Near Longuyon, heading North East",
+        "text": "Small hail possible",
+        "md_number": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.581543,
+              46.430285
+            ],
+            [
+              -2.702637,
+              46.407564
+            ],
+            [
+              -2.373047,
+              47.598755
+            ],
+            [
+              -3.537598,
+              47.717154
+            ],
+            [
+              -3.581543,
+              46.430285
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
