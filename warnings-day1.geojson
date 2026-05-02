@@ -795,7 +795,7 @@
           "tornado_probability": "Very low",
           "rotation": "Broad rotation"
         },
-        "updated_at": "2026-05-02T18:35:06.650Z"
+        "updated_at": "2026-05-02T18:44:46.843Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -820,6 +820,58 @@
             [
               3.092651,
               51.227528
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-02T21:04",
+        "expires": "2026-05-02T21:30",
+        "issued_iso": "2026-05-02T21:04",
+        "expires_iso": "2026-05-02T21:30",
+        "location": "Near Essen, Heading North East",
+        "text": "",
+        "hail": "5 cm",
+        "wind": "53.6 km/h",
+        "tornado_probability": "Low",
+        "rotation": "Strong rotation",
+        "hazards": {
+          "hail": "5 cm",
+          "wind": "53.6 km/h",
+          "tornado_probability": "Low",
+          "rotation": "Strong rotation"
+        },
+        "updated_at": "2026-05-02T19:06:24.971Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.2677,
+              51.508742
+            ],
+            [
+              6.849976,
+              51.303145
+            ],
+            [
+              7.849731,
+              51.842566
+            ],
+            [
+              6.904907,
+              52.167194
+            ],
+            [
+              6.2677,
+              51.508742
             ]
           ]
         ]
