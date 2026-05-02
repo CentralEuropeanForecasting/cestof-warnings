@@ -4,148 +4,48 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "Thunderstorm Warning",
-        "md_number": "",
-        "kind": "warning",
-        "issued": "2026-05-02T13:08",
-        "expires": "2026-05-02T13:55",
-        "issued_iso": "2026-05-02T13:08",
-        "expires_iso": "2026-05-02T13:55",
-        "location": "",
-        "text": "",
-        "hail": "1.1cm",
-        "wind": "Strong",
-        "tornado_probability": "",
-        "hazards": {
-          "hail": "1.1cm",
-          "wind": "Strong",
-          "tornado_probability": ""
-        },
-        "updated_at": "2026-05-02T11:08:27.670Z"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -2.664185,
-              49.539469
-            ],
-            [
-              -1.246948,
-              48.929718
-            ],
-            [
-              -0.22522,
-              49.439557
-            ],
-            [
-              -1.96106,
-              50.148746
-            ],
-            [
-              -2.664185,
-              49.539469
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "Thunderstorm Warning",
-        "md_number": "",
-        "kind": "warning",
-        "issued": "2026-05-02T13:57",
-        "expires": "2026-05-02T14:15",
-        "issued_iso": "2026-05-02T13:57",
-        "expires_iso": "2026-05-02T14:15",
-        "location": "South west of Koln, Heading north east",
-        "text": "",
-        "hail": "0.5 cm",
-        "wind": "non",
-        "tornado_probability": "",
-        "hazards": {
-          "hail": "0.5 cm",
-          "wind": "non",
-          "tornado_probability": ""
-        },
-        "updated_at": "2026-05-02T11:58:43.623Z"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              5.960083,
-              50.771208
-            ],
-            [
-              6.212769,
-              50.583237
-            ],
-            [
-              7.113647,
-              50.868378
-            ],
-            [
-              6.59729,
-              51.227528
-            ],
-            [
-              5.960083,
-              50.771208
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "type": "Severe Thunderstorm Warning",
         "md_number": "",
         "kind": "warning",
-        "issued": "2026-05-02T14:20",
-        "expires": "2026-05-02T14:45",
-        "issued_iso": "2026-05-02T14:20",
-        "expires_iso": "2026-05-02T14:45",
-        "location": "South west of Koln, Heading north east",
-        "text": "Possible tornado",
-        "hail": "1cm",
-        "wind": "non",
+        "issued": "2026-05-02T18:06",
+        "expires": "2026-05-02T18:40",
+        "issued_iso": "2026-05-02T18:06",
+        "expires_iso": "2026-05-02T18:40",
+        "location": "East Belgium, Heading North West",
+        "text": "",
+        "hail": "3.2 cm",
+        "wind": "Strong",
         "tornado_probability": "Low",
         "hazards": {
-          "hail": "1cm",
-          "wind": "non",
+          "hail": "3.2 cm",
+          "wind": "Strong",
           "tornado_probability": "Low"
         },
-        "updated_at": "2026-05-02T12:21:02.325Z"
+        "updated_at": "2026-05-02T16:12:44.795Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              6.113892,
-              50.882243
+              5.059204,
+              50.035974
             ],
             [
-              6.38855,
-              50.729502
+              5.828247,
+              49.930008
             ],
             [
-              7.245483,
-              50.979182
+              6.849976,
+              50.666872
             ],
             [
-              6.860962,
-              51.275662
+              5.641479,
+              50.951506
             ],
             [
-              6.113892,
-              50.882243
+              5.059204,
+              50.035974
             ]
           ]
         ]
