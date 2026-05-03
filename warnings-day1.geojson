@@ -439,7 +439,7 @@
           "tornado_probability": "Possible",
           "rotation": "Strong rotation"
         },
-        "updated_at": "2026-05-03T14:40:12.875Z"
+        "updated_at": "2026-05-03T14:40:16.566Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -776,6 +776,58 @@
             [
               -0.384521,
               46.004593
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-03T16:41",
+        "expires": "2026-05-03T17:10",
+        "issued_iso": "2026-05-03T16:41",
+        "expires_iso": "2026-05-03T17:10",
+        "location": "Friesland",
+        "text": "",
+        "hail": "0.4 cm",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "Weak rotation",
+        "hazards": {
+          "hail": "0.4 cm",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": "Weak rotation"
+        },
+        "updated_at": "2026-05-03T14:42:05.324Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.668457,
+              53.028
+            ],
+            [
+              7.932129,
+              52.955257
+            ],
+            [
+              8.382568,
+              53.527248
+            ],
+            [
+              7.877197,
+              53.625095
+            ],
+            [
+              7.668457,
+              53.028
             ]
           ]
         ]
