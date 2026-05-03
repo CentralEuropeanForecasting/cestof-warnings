@@ -543,7 +543,7 @@
           "tornado_probability": "",
           "rotation": "Weak rotation"
         },
-        "updated_at": "2026-05-03T14:35:12.251Z"
+        "updated_at": "2026-05-03T20:17:42.795Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -1140,6 +1140,58 @@
             [
               1.922607,
               47.361153
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Wind Gusts Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-03T23:16",
+        "expires": "2026-05-03T00:10",
+        "issued_iso": "2026-05-03T23:16",
+        "expires_iso": "2026-05-03T00:10",
+        "location": "Orléans Area, Heading North East",
+        "text": "",
+        "hail": "1 cm",
+        "wind": "",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "hazards": {
+          "hail": "1 cm",
+          "wind": "",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "updated_at": "2026-05-03T21:17:34.328Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.582275,
+              47.650588
+            ],
+            [
+              1.109619,
+              47.390912
+            ],
+            [
+              2.109375,
+              48.041365
+            ],
+            [
+              1.472168,
+              48.400032
+            ],
+            [
+              0.582275,
+              47.650588
             ]
           ]
         ]
