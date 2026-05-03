@@ -1092,6 +1092,58 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-03T17:46",
+        "expires": "2026-05-03T18:20",
+        "issued_iso": "2026-05-03T17:46",
+        "expires_iso": "2026-05-03T18:20",
+        "location": "South East of Paris",
+        "text": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "updated_at": "2026-05-03T15:46:55.491Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.922607,
+              47.361153
+            ],
+            [
+              2.438965,
+              47.197178
+            ],
+            [
+              3.372803,
+              48.305121
+            ],
+            [
+              2.592773,
+              48.531157
+            ],
+            [
+              1.922607,
+              47.361153
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
