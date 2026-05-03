@@ -1196,6 +1196,58 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-03T23:26",
+        "expires": "2026-05-04T00:10",
+        "issued_iso": "2026-05-03T23:26",
+        "expires_iso": "2026-05-04T00:10",
+        "location": "Orléans Area, Heading North East",
+        "text": "",
+        "hail": "1 cm",
+        "wind": "",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "hazards": {
+          "hail": "1 cm",
+          "wind": "",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "updated_at": "2026-05-03T21:26:58.460Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.2854,
+              47.598755
+            ],
+            [
+              1.483154,
+              47.45038
+            ],
+            [
+              2.241211,
+              47.864774
+            ],
+            [
+              1.834717,
+              48.085419
+            ],
+            [
+              1.2854,
+              47.598755
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
