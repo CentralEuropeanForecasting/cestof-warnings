@@ -959,7 +959,7 @@
           "tornado_probability": "",
           "rotation": ""
         },
-        "updated_at": "2026-05-03T14:48:31.305Z"
+        "updated_at": "2026-05-03T14:48:34.165Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -984,6 +984,58 @@
             [
               -0.736084,
               43.421009
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-03T16:48",
+        "expires": "2026-05-03T17:30",
+        "issued_iso": "2026-05-03T16:48",
+        "expires_iso": "2026-05-03T17:30",
+        "location": "Near Lübeck Area, Heading North East",
+        "text": "",
+        "hail": "0.5 cm",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "hazards": {
+          "hail": "0.5 cm",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "updated_at": "2026-05-03T15:19:17.040Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.776814,
+              47.129029
+            ],
+            [
+              8.194295,
+              46.949337
+            ],
+            [
+              9.237996,
+              47.486597
+            ],
+            [
+              8.260213,
+              47.826998
+            ],
+            [
+              7.776814,
+              47.129029
             ]
           ]
         ]
