@@ -387,7 +387,7 @@
           "tornado_probability": "",
           "rotation": "Weak rotation"
         },
-        "updated_at": "2026-05-03T13:50:19.636Z"
+        "updated_at": "2026-05-03T14:12:03.323Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -412,6 +412,110 @@
             [
               -0.516357,
               47.768868
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-03T16:12",
+        "expires": "2026-05-03T16:55",
+        "issued_iso": "2026-05-03T16:12",
+        "expires_iso": "2026-05-03T16:55",
+        "location": "",
+        "text": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "Possible",
+        "rotation": "Strong rotation",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "Possible",
+          "rotation": "Strong rotation"
+        },
+        "updated_at": "2026-05-03T14:13:20.377Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.250977,
+              53.579461
+            ],
+            [
+              7.624512,
+              53.507651
+            ],
+            [
+              8.063965,
+              53.917281
+            ],
+            [
+              7.305908,
+              54.078729
+            ],
+            [
+              7.250977,
+              53.579461
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Tornado Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-03T16:12",
+        "expires": "2026-05-03T16:55",
+        "issued_iso": "2026-05-03T16:12",
+        "expires_iso": "2026-05-03T16:55",
+        "location": "",
+        "text": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "Possible",
+        "rotation": "Strong rotation",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "Possible",
+          "rotation": "Strong rotation"
+        },
+        "updated_at": "2026-05-03T14:13:47.255Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.404785,
+              53.618579
+            ],
+            [
+              7.558594,
+              53.566414
+            ],
+            [
+              7.830505,
+              53.794162
+            ],
+            [
+              7.555847,
+              53.867105
+            ],
+            [
+              7.404785,
+              53.618579
             ]
           ]
         ]
