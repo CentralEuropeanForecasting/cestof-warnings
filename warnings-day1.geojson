@@ -699,7 +699,7 @@
           "tornado_probability": "",
           "rotation": ""
         },
-        "updated_at": "2026-05-03T14:37:52.622Z"
+        "updated_at": "2026-05-03T14:37:56.372Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -724,6 +724,58 @@
             [
               0.516357,
               45.690833
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-03T16:38",
+        "expires": "2026-05-03T17:20",
+        "issued_iso": "2026-05-03T16:38",
+        "expires_iso": "2026-05-03T17:20",
+        "location": "Near Poitiers area, Heading North East",
+        "text": "",
+        "hail": "1 cm",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "hazards": {
+          "hail": "1 cm",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "updated_at": "2026-05-03T14:39:22.066Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.384521,
+              46.004593
+            ],
+            [
+              -0.087891,
+              45.805829
+            ],
+            [
+              0.560303,
+              46.233053
+            ],
+            [
+              0.12085,
+              46.490829
+            ],
+            [
+              -0.384521,
+              46.004593
             ]
           ]
         ]
