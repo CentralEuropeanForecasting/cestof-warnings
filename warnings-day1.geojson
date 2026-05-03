@@ -1167,7 +1167,7 @@
           "tornado_probability": "Very low",
           "rotation": "Weak rotation"
         },
-        "updated_at": "2026-05-03T21:28:51.467Z"
+        "updated_at": "2026-05-03T21:28:54.997Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -1244,6 +1244,58 @@
             [
               1.2854,
               47.598755
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-03T23:31",
+        "expires": "2026-05-04T00:10",
+        "issued_iso": "2026-05-03T23:31",
+        "expires_iso": "2026-05-04T00:10",
+        "location": "Cambrai Area, Heading North East",
+        "text": "Severe Wind gusts possible",
+        "hail": "",
+        "wind": "Strong",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "hazards": {
+          "hail": "",
+          "wind": "Strong",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "updated_at": "2026-05-03T21:31:46.146Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.900391,
+              50.078295
+            ],
+            [
+              3.262939,
+              49.930008
+            ],
+            [
+              4.284668,
+              50.478483
+            ],
+            [
+              3.416748,
+              50.736455
+            ],
+            [
+              2.900391,
+              50.078295
             ]
           ]
         ]
