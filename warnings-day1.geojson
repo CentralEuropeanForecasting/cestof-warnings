@@ -1271,7 +1271,7 @@
           "tornado_probability": "Very low",
           "rotation": "Weak rotation"
         },
-        "updated_at": "2026-05-03T21:31:46.146Z"
+        "updated_at": "2026-05-03T21:34:52.154Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -1296,6 +1296,58 @@
             [
               2.900391,
               50.078295
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-03T23:36",
+        "expires": "2026-05-04T00:00",
+        "issued_iso": "2026-05-03T23:36",
+        "expires_iso": "2026-05-04T00:00",
+        "location": "Tours area, Heading North East",
+        "text": "",
+        "hail": "0.5 cm",
+        "wind": "",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "hazards": {
+          "hail": "0.5 cm",
+          "wind": "",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "updated_at": "2026-05-03T21:37:36.817Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.098877,
+              47.279229
+            ],
+            [
+              0.32959,
+              47.152369
+            ],
+            [
+              0.878906,
+              47.672786
+            ],
+            [
+              0.32959,
+              47.872144
+            ],
+            [
+              0.098877,
+              47.279229
             ]
           ]
         ]
