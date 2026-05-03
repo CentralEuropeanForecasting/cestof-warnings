@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-05-03T21:20:32.740Z",
+  "generated_at": "2026-05-03T21:21:17.662Z",
   "features": [
     {
       "type": "Feature",
@@ -129,7 +129,7 @@
         "FCLASS_TLC": null,
         "province_id": "FR-41",
         "province_name": "Loir-et-Cher",
-        "warning_count": 2,
+        "warning_count": 3,
         "warnings": [
           {
             "id": "pw-1777843227345-0-srhqe",
@@ -147,6 +147,19 @@
           {
             "id": "pw-1777843231339-0-l1h9c",
             "type": "Severe Thunderstorm Warning",
+            "issued": "2026-05-03T23:20",
+            "issued_iso": "2026-05-03T23:20",
+            "expires": "2026-05-04T00:05",
+            "expires_iso": "2026-05-04T00:05",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "Elevated",
+            "rotation": "Broad rotation",
+            "text": ""
+          },
+          {
+            "id": "pw-1777843276587-1-5bqwu",
+            "type": "Tornado Watch",
             "issued": "2026-05-03T23:20",
             "issued_iso": "2026-05-03T23:20",
             "expires": "2026-05-04T00:05",
@@ -1174,7 +1187,7 @@
         "warning_count": 2,
         "warnings": [
           {
-            "id": "pw-1777843227345-1-ktnhe",
+            "id": "pw-1777843262854-0-o6dl6",
             "type": "Severe Thunderstorm Warning",
             "issued": "2026-05-03T23:20",
             "issued_iso": "2026-05-03T23:20",
@@ -1187,8 +1200,8 @@
             "text": ""
           },
           {
-            "id": "pw-1777843231339-1-xe2lw",
-            "type": "Severe Thunderstorm Warning",
+            "id": "pw-1777843276587-0-1howk",
+            "type": "Tornado Watch",
             "issued": "2026-05-03T23:20",
             "issued_iso": "2026-05-03T23:20",
             "expires": "2026-05-04T00:05",
