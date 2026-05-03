@@ -104,6 +104,58 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-03T15:25",
+        "expires": "2026-05-03T16:00",
+        "issued_iso": "2026-05-03T15:25",
+        "expires_iso": "2026-05-03T16:00",
+        "location": "Friesland",
+        "text": "",
+        "hail": "1.9 cm",
+        "wind": "Strong",
+        "tornado_probability": "",
+        "rotation": "Broad rotation",
+        "hazards": {
+          "hail": "1.9 cm",
+          "wind": "Strong",
+          "tornado_probability": "",
+          "rotation": "Broad rotation"
+        },
+        "updated_at": "2026-05-03T13:26:06.990Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.289673,
+              53.140181
+            ],
+            [
+              6.948853,
+              52.908902
+            ],
+            [
+              7.772827,
+              53.768196
+            ],
+            [
+              6.71814,
+              53.956086
+            ],
+            [
+              6.289673,
+              53.140181
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
