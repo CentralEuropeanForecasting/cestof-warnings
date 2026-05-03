@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-05-03T15:55:03.108Z",
+  "generated_at": "2026-05-03T16:20:11.165Z",
   "features": [
     {
       "type": "Feature",
@@ -4524,12 +4524,12 @@
         "warning_count": 2,
         "warnings": [
           {
-            "id": "pw-1777822789406-mht1j",
+            "id": "pw-1777825178530-0-wxg47",
             "type": "Severe Thunderstorm Warning",
-            "issued": "2026-05-03T17:39",
-            "issued_iso": "2026-05-03T17:39",
-            "expires": "2026-05-03T18:15",
-            "expires_iso": "2026-05-03T18:15",
+            "issued": "2026-05-03T18:19",
+            "issued_iso": "2026-05-03T18:19",
+            "expires": "2026-05-03T19:00",
+            "expires_iso": "2026-05-03T19:00",
             "hail": "",
             "wind": "",
             "tornado_probability": "",
@@ -4537,16 +4537,16 @@
             "text": ""
           },
           {
-            "id": "pw-1777822809517-rzrof",
+            "id": "pw-1777825210078-0-gdqxf",
             "type": "Tornado Watch",
-            "issued": "2026-05-03T17:39",
-            "issued_iso": "2026-05-03T17:39",
-            "expires": "2026-05-03T18:15",
-            "expires_iso": "2026-05-03T18:15",
+            "issued": "2026-05-03T18:19",
+            "issued_iso": "2026-05-03T18:19",
+            "expires": "2026-05-03T19:00",
+            "expires_iso": "2026-05-03T19:00",
             "hail": "",
             "wind": "",
-            "tornado_probability": "Possible",
-            "rotation": "Observed rotating wall cloud",
+            "tornado_probability": "Low",
+            "rotation": "Broad rotation",
             "text": ""
           }
         ]
