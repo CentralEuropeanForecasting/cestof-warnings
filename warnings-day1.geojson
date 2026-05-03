@@ -156,6 +156,58 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-03T15:31",
+        "expires": "2026-05-03T16:00",
+        "issued_iso": "2026-05-03T15:31",
+        "expires_iso": "2026-05-03T16:00",
+        "location": "",
+        "text": "",
+        "hail": "0.6 cm",
+        "wind": "52 km/h",
+        "tornado_probability": "",
+        "rotation": "Weak rotation",
+        "hazards": {
+          "hail": "0.6 cm",
+          "wind": "52 km/h",
+          "tornado_probability": "",
+          "rotation": "Weak rotation"
+        },
+        "updated_at": "2026-05-03T13:32:07.472Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.130371,
+              52.207607
+            ],
+            [
+              6.635742,
+              52.099757
+            ],
+            [
+              7.141113,
+              52.776186
+            ],
+            [
+              6.350098,
+              52.915527
+            ],
+            [
+              6.130371,
+              52.207607
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
