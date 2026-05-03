@@ -676,6 +676,58 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-03T16:36",
+        "expires": "2026-05-03T17:20",
+        "issued_iso": "2026-05-03T16:36",
+        "expires_iso": "2026-05-03T17:20",
+        "location": "Limoges Area, Heading North East",
+        "text": "",
+        "hail": "1c cm",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "hazards": {
+          "hail": "1c cm",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "updated_at": "2026-05-03T14:37:52.622Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.516357,
+              45.690833
+            ],
+            [
+              0.769043,
+              45.483244
+            ],
+            [
+              1.593018,
+              45.920587
+            ],
+            [
+              1.109619,
+              46.255847
+            ],
+            [
+              0.516357,
+              45.690833
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
