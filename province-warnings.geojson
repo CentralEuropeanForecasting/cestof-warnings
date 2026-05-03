@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-05-03T15:39:07.745Z",
+  "generated_at": "2026-05-03T15:40:17.286Z",
   "features": [
     {
       "type": "Feature",
@@ -129,19 +129,32 @@
         "FCLASS_TLC": null,
         "province_id": "DE-SH",
         "province_name": "Schleswig-Holstein",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
-            "id": "pw-1777822708543-2a03w",
-            "type": "Tornado Watch",
-            "issued": "2026-05-03T17:38",
-            "issued_iso": "2026-05-03T17:38",
-            "expires": "2026-05-03T18:05",
-            "expires_iso": "2026-05-03T18:05",
+            "id": "pw-1777822789406-mht1j",
+            "type": "Severe Thunderstorm Warning",
+            "issued": "2026-05-03T17:39",
+            "issued_iso": "2026-05-03T17:39",
+            "expires": "2026-05-03T18:15",
+            "expires_iso": "2026-05-03T18:15",
             "hail": "",
             "wind": "",
             "tornado_probability": "",
             "rotation": "",
+            "text": ""
+          },
+          {
+            "id": "pw-1777822809517-rzrof",
+            "type": "Tornado Watch",
+            "issued": "2026-05-03T17:39",
+            "issued_iso": "2026-05-03T17:39",
+            "expires": "2026-05-03T18:15",
+            "expires_iso": "2026-05-03T18:15",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "Possible",
+            "rotation": "Observed rotating wall cloud",
             "text": ""
           }
         ]
