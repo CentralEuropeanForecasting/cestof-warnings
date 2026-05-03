@@ -316,50 +316,102 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "Thunderstorm Warning",
+        "type": "Tornado Warning",
         "md_number": "",
         "kind": "warning",
-        "issued": "2026-05-03T15:40",
-        "expires": "2026-05-03T16:20",
-        "issued_iso": "2026-05-03T15:40",
-        "expires_iso": "2026-05-03T16:20",
+        "issued": "2026-05-03T15:47",
+        "expires": "2026-05-03T16:05",
+        "issued_iso": "2026-05-03T15:47",
+        "expires_iso": "2026-05-03T16:05",
         "location": "",
         "text": "",
-        "hail": "1 cm",
+        "hail": "",
         "wind": "",
-        "tornado_probability": "",
-        "rotation": "",
+        "tornado_probability": "Possible",
+        "rotation": "Broad rotation",
         "hazards": {
-          "hail": "1 cm",
+          "hail": "",
           "wind": "",
-          "tornado_probability": "",
-          "rotation": ""
+          "tornado_probability": "Possible",
+          "rotation": "Broad rotation"
         },
-        "updated_at": "2026-05-03T13:40:45.384Z"
+        "updated_at": "2026-05-03T13:48:13.606Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              0.53833,
-              47.025206
+              7.1521,
+              53.520717
             ],
             [
-              1.142578,
-              46.664517
+              7.437744,
+              53.442264
             ],
             [
-              2.098389,
-              47.323931
+              7.77832,
+              53.709714
             ],
             [
-              1.296387,
-              47.739323
+              7.294922,
+              53.820112
             ],
             [
-              0.53833,
-              47.025206
+              7.1521,
+              53.520717
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-03T15:49",
+        "expires": "2026-05-03T16:25",
+        "issued_iso": "2026-05-03T15:49",
+        "expires_iso": "2026-05-03T16:25",
+        "location": "",
+        "text": "",
+        "hail": "0.7 cm",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "Weak rotation",
+        "hazards": {
+          "hail": "0.7 cm",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": "Weak rotation"
+        },
+        "updated_at": "2026-05-03T13:50:19.636Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.516357,
+              47.768868
+            ],
+            [
+              -0.230713,
+              47.517201
+            ],
+            [
+              0.736084,
+              48.019324
+            ],
+            [
+              0.219727,
+              48.443778
+            ],
+            [
+              -0.516357,
+              47.768868
             ]
           ]
         ]
