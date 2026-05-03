@@ -1011,7 +1011,7 @@
           "tornado_probability": "",
           "rotation": ""
         },
-        "updated_at": "2026-05-03T15:19:45.758Z"
+        "updated_at": "2026-05-03T15:19:48.734Z"
       },
       "geometry": {
         "type": "Polygon",
@@ -1036,6 +1036,58 @@
             [
               7.776814,
               47.129029
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-03T17:33",
+        "expires": "2026-05-03T18:05",
+        "issued_iso": "2026-05-03T17:33",
+        "expires_iso": "2026-05-03T18:05",
+        "location": "Kiel Area, heading North East",
+        "text": "",
+        "hail": "2.5 cm",
+        "wind": "60 km/h",
+        "tornado_probability": "Elevated",
+        "rotation": "Radar-indicated rotation",
+        "hazards": {
+          "hail": "2.5 cm",
+          "wind": "60 km/h",
+          "tornado_probability": "Elevated",
+          "rotation": "Radar-indicated rotation"
+        },
+        "updated_at": "2026-05-03T15:34:13.125Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.272217,
+              54.156001
+            ],
+            [
+              10.744629,
+              54.02068
+            ],
+            [
+              11.546631,
+              54.501948
+            ],
+            [
+              10.513916,
+              54.667478
+            ],
+            [
+              10.272217,
+              54.156001
             ]
           ]
         ]
