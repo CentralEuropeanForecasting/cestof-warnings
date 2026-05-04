@@ -208,6 +208,58 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Severe Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-04T17:14",
+        "expires": "2026-05-04T17:50",
+        "issued_iso": "2026-05-04T17:14",
+        "expires_iso": "2026-05-04T17:50",
+        "location": "",
+        "text": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "updated_at": "2026-05-04T15:15:02.850Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.065674,
+              44.00862
+            ],
+            [
+              1.636963,
+              43.905808
+            ],
+            [
+              2.307129,
+              45.375302
+            ],
+            [
+              1.505127,
+              45.552525
+            ],
+            [
+              1.065674,
+              44.00862
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
