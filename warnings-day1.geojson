@@ -52,6 +52,110 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-04T15:13",
+        "expires": "2026-05-04T15:55",
+        "issued_iso": "2026-05-04T15:13",
+        "expires_iso": "2026-05-04T15:55",
+        "location": "",
+        "text": "",
+        "hail": "1.2 cm",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "hazards": {
+          "hail": "1.2 cm",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "updated_at": "2026-05-04T13:14:46.636Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.538086,
+              42.682435
+            ],
+            [
+              -1.2854,
+              42.488302
+            ],
+            [
+              -0.41748,
+              43.197167
+            ],
+            [
+              -0.878906,
+              43.540585
+            ],
+            [
+              -1.538086,
+              42.682435
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "Thunderstorm Warning",
+        "md_number": "",
+        "kind": "warning",
+        "issued": "2026-05-04T15:13",
+        "expires": "2026-05-04T15:55",
+        "issued_iso": "2026-05-04T15:13",
+        "expires_iso": "2026-05-04T15:55",
+        "location": "",
+        "text": "",
+        "hail": "1.2 cm",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "hazards": {
+          "hail": "1.2 cm",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "updated_at": "2026-05-04T13:15:04.500Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.680908,
+              41.861379
+            ],
+            [
+              -1.373291,
+              41.681118
+            ],
+            [
+              -0.593262,
+              42.569264
+            ],
+            [
+              -1.252441,
+              42.747012
+            ],
+            [
+              -1.680908,
+              41.861379
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
