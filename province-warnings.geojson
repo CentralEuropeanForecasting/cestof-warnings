@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-05-04T13:09:29.069Z",
+  "generated_at": "2026-05-04T13:11:25.505Z",
   "features": [
     {
       "type": "Feature",
@@ -14248,7 +14248,7 @@
         "FCLASS_TLC": null,
         "province_id": "FR-33",
         "province_name": "Gironde",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "pw-1777896939449-ino52",
@@ -14262,6 +14262,19 @@
             "tornado_probability": "",
             "rotation": "",
             "text": "Thunderstorm in the area."
+          },
+          {
+            "id": "pw-1777900280134-xyf2c",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-04T15:11",
+            "issued_iso": "2026-05-04T15:11",
+            "expires": "2026-05-04T16:15",
+            "expires_iso": "2026-05-04T16:15",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": ""
           }
         ]
       },
@@ -27096,7 +27109,7 @@
         "FCLASS_TLC": null,
         "province_id": "FR-24",
         "province_name": "Dordogne",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "pw-1777896939449-noqes",
@@ -27110,6 +27123,19 @@
             "tornado_probability": "",
             "rotation": "",
             "text": "Thunderstorm in the area."
+          },
+          {
+            "id": "pw-1777900280134-7ps88",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-04T15:11",
+            "issued_iso": "2026-05-04T15:11",
+            "expires": "2026-05-04T16:15",
+            "expires_iso": "2026-05-04T16:15",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": ""
           }
         ]
       },
@@ -29314,7 +29340,7 @@
         "FCLASS_TLC": null,
         "province_id": "FR-47",
         "province_name": "Lot-et-Garonne",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "pw-1777896939449-imxdz",
@@ -29328,6 +29354,19 @@
             "tornado_probability": "",
             "rotation": "",
             "text": "Thunderstorm in the area."
+          },
+          {
+            "id": "pw-1777900280134-oi98d",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-04T15:11",
+            "issued_iso": "2026-05-04T15:11",
+            "expires": "2026-05-04T16:15",
+            "expires_iso": "2026-05-04T16:15",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": ""
           }
         ]
       },
