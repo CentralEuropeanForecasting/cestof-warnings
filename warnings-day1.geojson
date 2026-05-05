@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T18:16:14.246Z",
+  "generated_at": "2026-05-05T18:16:52.798Z",
   "features": [
     {
       "type": "Feature",
@@ -2438,112 +2438,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778004828594",
+        "id": "warning-poly-1778004809707",
         "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T20:01",
-        "issued_iso": "2026-05-05T18:01:00.000Z",
-        "expires": "2026-05-05T21:00",
-        "expires_iso": "2026-05-05T19:00:00.000Z",
-        "location": "plzensky kraj",
-        "hail": "1-2cm",
-        "wind": "45km/h",
-        "tornado_probability": "Very low",
-        "rotation": "Weak rotation",
+        "issued": "2026-05-05T19:38",
+        "issued_iso": "2026-05-05T17:38:00.000Z",
+        "expires": "2026-05-05T20:38",
+        "expires_iso": "2026-05-05T18:38:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
         "md_number": "",
-        "text": "this smaller thunderstorm is moving north trough czechia, producing hail and lightning.",
+        "text": "",
         "hazards": {
-          "hail": "1-2cm",
-          "wind": "45km/h",
-          "tornado_probability": "Very low",
-          "rotation": "Weak rotation"
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
         },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
         "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
+        "issued_by": "Matyáš",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T18:14:58.709Z"
+        "updated_at": "2026-05-05T18:13:29.707Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              12.952881,
-              49.489538
+              15.51527,
+              50.434111
             ],
             [
-              12.875977,
-              49.94415
+              15.613461,
+              50.502291
             ],
             [
-              13.359375,
-              49.908787
+              15.388412,
+              50.622459
             ],
             [
-              13.150635,
-              49.418121
+              15.248337,
+              50.519539
             ],
             [
-              12.952881,
-              49.489538
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "warning-poly-1778004931079",
-        "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T20:01",
-        "issued_iso": "2026-05-05T18:01:00.000Z",
-        "expires": "2026-05-05T21:00",
-        "expires_iso": "2026-05-05T19:00:00.000Z",
-        "location": "Thüringen",
-        "hail": "1-2cm",
-        "wind": "45km/h",
-        "tornado_probability": "Very low",
-        "rotation": "Weak rotation",
-        "md_number": "",
-        "text": "this smaller thunderstorm is moving north trought thuringen, in the direction of halle.",
-        "hazards": {
-          "hail": "1-2cm",
-          "wind": "45km/h",
-          "tornado_probability": "Very low",
-          "rotation": "Weak rotation"
-        },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
-        "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
-        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T18:16:12.005Z"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              11.502686,
-              50.338449
-            ],
-            [
-              11.304932,
-              51.144894
-            ],
-            [
-              12.304688,
-              51.089723
-            ],
-            [
-              11.854248,
-              50.310392
-            ],
-            [
-              11.502686,
-              50.338449
+              15.51527,
+              50.434111
             ]
           ]
         ]
