@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T19:00:12.240Z",
+  "generated_at": "2026-05-05T19:00:11.917Z",
   "features": [
     {
       "type": "Feature",
@@ -3008,55 +3008,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778007455614",
-        "type": "Severe Thunderstorm Warning",
-        "issued": "2026-05-05T20:51",
-        "issued_iso": "2026-05-05T18:51:00.000Z",
-        "expires": "2026-05-05T22:00",
-        "expires_iso": "2026-05-05T20:00:00.000Z",
-        "location": "Thüringen,bayern,sachsen,plzensky kraj,karlovy kraj, usti nad labem",
-        "hail": "1-2cm",
-        "wind": "50km/h",
-        "tornado_probability": "Very low",
-        "rotation": "Weak rotation",
+        "id": "warning-poly-1778007436666",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T20:55",
+        "issued_iso": "2026-05-05T18:55:00.000Z",
+        "expires": "2026-05-05T21:35",
+        "expires_iso": "2026-05-05T19:35:00.000Z",
+        "location": "West of Altenberg, Germany",
+        "hail": "0-0.5cm",
+        "wind": "60km/h",
+        "tornado_probability": "",
+        "rotation": "",
         "md_number": "",
-        "text": "this thunderstorm is part of the line of storms pushing north, producing hail and lightning.",
+        "text": "A moderately strong thunderstorm west of Altenberg is moving north, producing steady rainfall and a few lightning strikes. Current reflectivity near 53+ dBZ suggests small hail is unlikely, with the main impacts being brief heavy rain and wind gusts around 50–65 km/h. The storm remains non‑severe but continues to show enough organization to warrant monitoring as it tracks northward.",
         "hazards": {
-          "hail": "1-2cm",
-          "wind": "50km/h",
-          "tornado_probability": "Very low",
-          "rotation": "Weak rotation"
+          "hail": "0-0.5cm",
+          "wind": "60km/h",
+          "tornado_probability": "",
+          "rotation": ""
         },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
         "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
+        "issued_by": "Joseph",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T18:57:35.614Z"
+        "updated_at": "2026-05-05T19:00:07.441Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              12.623291,
-              50.021858
+              13.463745,
+              50.63901
             ],
             [
-              12.502441,
-              50.771208
+              13.683472,
+              50.652943
             ],
             [
-              13.392334,
-              50.750359
+              13.74939,
+              51.006842
             ],
             [
-              13.018799,
-              50.000678
+              13.386841,
+              50.999929
             ],
             [
-              12.623291,
-              50.021858
+              13.463745,
+              50.63901
             ]
           ]
         ]
