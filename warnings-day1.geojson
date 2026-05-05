@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T18:33:00.239Z",
+  "generated_at": "2026-05-05T18:34:25.656Z",
   "features": [
     {
       "type": "Feature",
@@ -2780,55 +2780,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778005892057",
+        "id": "warning-poly-1778005921388",
         "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T20:01",
-        "issued_iso": "2026-05-05T18:01:00.000Z",
-        "expires": "2026-05-05T21:00",
-        "expires_iso": "2026-05-05T19:00:00.000Z",
-        "location": "sachsen",
-        "hail": "none",
-        "wind": "40km/h",
+        "issued": "2026-05-05T20:25",
+        "issued_iso": "2026-05-05T18:25:00.000Z",
+        "expires": "2026-05-05T21:25",
+        "expires_iso": "2026-05-05T19:25:00.000Z",
+        "location": "Liberecky kraj near liberec moving north west",
+        "hail": "1-2cm",
+        "wind": "40-60kmh",
         "tornado_probability": "Very low",
         "rotation": "",
         "md_number": "",
-        "text": "this small thunderstorm is mainly producing rain, with a few lightning strikes here and there. the storm is moving northeast",
+        "text": "Thunderstorm moving towards liberec with hail up to 1cm if appear and windspeeds up to 60kmh the storm may die in couple of scans",
         "hazards": {
-          "hail": "none",
-          "wind": "40km/h",
+          "hail": "1-2cm",
+          "wind": "40-60kmh",
           "tornado_probability": "Very low",
           "rotation": ""
         },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
+        "forecaster": "S64",
+        "forecaster_name": "S64",
         "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
+        "issued_by": "S64",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T18:32:46.677Z"
+        "updated_at": "2026-05-05T18:34:17.655Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              9.437256,
-              50.303376
+              15.595093,
+              50.53438
             ],
             [
-              9.689941,
-              50.923813
+              15.375366,
+              50.471491
             ],
             [
-              10.415039,
-              50.63901
+              15.03479,
+              50.652943
             ],
             [
-              9.744873,
-              50.205033
+              15.331421,
+              50.792047
             ],
             [
-              9.437256,
-              50.303376
+              15.595093,
+              50.53438
             ]
           ]
         ]
