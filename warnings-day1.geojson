@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T19:36:19.741Z",
+  "generated_at": "2026-05-05T19:42:46.438Z",
   "features": [
     {
       "type": "Feature",
@@ -3888,6 +3888,63 @@
             [
               11.318665,
               48.096426
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778010094515",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T21:40",
+        "issued_iso": "2026-05-05T19:40:00.000Z",
+        "expires": "2026-05-05T22:40",
+        "expires_iso": "2026-05-05T20:40:00.000Z",
+        "location": "valais",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "a thunderstorm is moving northeast, into the alps, producing thunder and hail.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T19:42:42.175Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.437988,
+              46.050361
+            ],
+            [
+              7.020264,
+              46.362093
+            ],
+            [
+              7.327881,
+              45.874712
+            ],
+            [
+              6.49292,
+              45.813486
+            ],
+            [
+              6.437988,
+              46.050361
             ]
           ]
         ]
