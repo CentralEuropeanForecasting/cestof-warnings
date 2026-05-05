@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T18:01:48.254Z",
+  "generated_at": "2026-05-05T18:03:10.100Z",
   "features": [
     {
       "type": "Feature",
@@ -2259,6 +2259,120 @@
             [
               14.331665,
               50.289339
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778003973999",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T19:48",
+        "issued_iso": "2026-05-05T17:48:00.000Z",
+        "expires": "2026-05-05T21:00",
+        "expires_iso": "2026-05-05T19:00:00.000Z",
+        "location": "bodensee, liechtenstein,vorarlberg",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "a thunderstorm is currently passing near the bodensee, producing lightning and hail.the storm is moving east in the direction of austria.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T18:01:15.208Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.030762,
+              47.15984
+            ],
+            [
+              9.585571,
+              47.377895
+            ],
+            [
+              9.700928,
+              47.064509
+            ],
+            [
+              9.055481,
+              47.079475
+            ],
+            [
+              9.030762,
+              47.15984
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778004140367",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T20:01",
+        "issued_iso": "2026-05-05T18:01:00.000Z",
+        "expires": "2026-05-05T21:00",
+        "expires_iso": "2026-05-05T19:00:00.000Z",
+        "location": "Thüringen",
+        "hail": "1-2cm",
+        "wind": "40km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "this small thunderstorm is moving northeast, producing mostly lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "40km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T18:03:07.478Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.17334,
+              50.618103
+            ],
+            [
+              10.437012,
+              51.172455
+            ],
+            [
+              11.140137,
+              50.951506
+            ],
+            [
+              10.447998,
+              50.499452
+            ],
+            [
+              10.17334,
+              50.618103
             ]
           ]
         ]
