@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-05-05T12:09:24.852Z",
+  "generated_at": "2026-05-05T13:05:56.310Z",
   "features": [
     {
       "type": "Feature",
@@ -132,12 +132,12 @@
         "warning_count": 1,
         "warnings": [
           {
-            "id": "prov-warn-1777982955522-3fe499c8e23038",
-            "type": "Thunderstorm Watch",
-            "issued": "2026-05-05T14:09",
-            "issued_iso": "2026-05-05T12:09:00.000Z",
-            "expires": "2026-05-05T15:09",
-            "expires_iso": "2026-05-05T13:09:00.000Z",
+            "id": "prov-warn-1777986284394-b0550299e0af78",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-05T15:04",
+            "issued_iso": "2026-05-05T13:04:00.000Z",
+            "expires": "2026-05-05T16:04",
+            "expires_iso": "2026-05-05T14:04:00.000Z",
             "hail": "",
             "wind": "",
             "tornado_probability": "",
@@ -148,7 +148,7 @@
             "forecaster_role": "owner",
             "issued_by": "CAPE",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-            "updated_at": "2026-05-05T12:09:15.523Z",
+            "updated_at": "2026-05-05T13:04:44.394Z",
             "province_id": "CZ-US"
           }
         ]
@@ -1528,12 +1528,12 @@
         "warning_count": 1,
         "warnings": [
           {
-            "id": "prov-warn-1777982955522-3fe499c8e23038",
-            "type": "Thunderstorm Watch",
-            "issued": "2026-05-05T14:09",
-            "issued_iso": "2026-05-05T12:09:00.000Z",
-            "expires": "2026-05-05T15:09",
-            "expires_iso": "2026-05-05T13:09:00.000Z",
+            "id": "prov-warn-1777986284394-b0550299e0af78",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-05T15:04",
+            "issued_iso": "2026-05-05T13:04:00.000Z",
+            "expires": "2026-05-05T16:04",
+            "expires_iso": "2026-05-05T14:04:00.000Z",
             "hail": "",
             "wind": "",
             "tornado_probability": "",
@@ -1544,7 +1544,7 @@
             "forecaster_role": "owner",
             "issued_by": "CAPE",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-            "updated_at": "2026-05-05T12:09:15.523Z",
+            "updated_at": "2026-05-05T13:04:44.394Z",
             "province_id": "DE-SN"
           }
         ]
