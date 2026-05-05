@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T15:51:09.450Z",
+  "generated_at": "2026-05-05T15:52:24.624Z",
   "features": [
     {
       "type": "Feature",
@@ -299,63 +299,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1777996241498",
-        "type": "Tornado Watch",
-        "issued": "2026-05-05T17:49",
-        "issued_iso": "2026-05-05T15:49:00.000Z",
-        "expires": "2026-05-05T18:30",
-        "expires_iso": "2026-05-05T16:30:00.000Z",
-        "location": "",
-        "hail": "2cm",
-        "wind": "",
-        "tornado_probability": "Low",
-        "rotation": "Broad rotation",
+        "id": "warning-poly-1777995112439",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T17:26",
+        "issued_iso": "2026-05-05T15:26:00.000Z",
+        "expires": "2026-05-05T18:26",
+        "expires_iso": "2026-05-05T16:26:00.000Z",
+        "location": "Thüringen, Sachsen-Anhalt",
+        "hail": "1-2cm",
+        "wind": "55km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
         "md_number": "",
-        "text": "",
+        "text": "a thunderstorm is making its way north/northeast, from Duderstadt to Bad harzburg and eventually in the direction of Braunsweig/Magdeburg. the rotation within the storm is weak, and the chances of a tornado forming are very low.",
         "hazards": {
-          "hail": "2cm",
-          "wind": "",
-          "tornado_probability": "Low",
-          "rotation": "Broad rotation"
+          "hail": "1-2cm",
+          "wind": "55km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
         },
-        "forecaster": "bearmax",
-        "forecaster_name": "Bearmax",
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
-        "issued_by": "Bearmax",
+        "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T15:50:56.469Z"
+        "updated_at": "2026-05-05T15:37:22.843Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              15.130805,
-              49.753101
+              10.162354,
+              51.522416
             ],
             [
-              14.782665,
-              49.730215
+              10.327148,
+              52.113252
             ],
             [
-              14.772995,
-              50.14257
+              11.282959,
+              51.795027
             ],
             [
-              14.972853,
-              50.290895
+              10.458984,
+              51.351201
             ],
             [
-              15.150146,
-              50.237386
-            ],
-            [
-              15.253299,
-              50.161136
-            ],
-            [
-              15.130805,
-              49.753101
+              10.162354,
+              51.522416
             ]
           ]
         ]
