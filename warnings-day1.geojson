@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T19:58:08.484Z",
+  "generated_at": "2026-05-05T19:58:14.575Z",
   "features": [
     {
       "type": "Feature",
@@ -4017,15 +4017,15 @@
         "expires": "2026-05-05T22:40",
         "expires_iso": "2026-05-05T20:40:00.000Z",
         "location": "West of Lyon, France",
-        "hail": "1cm",
-        "wind": "60km/h",
+        "hail": "2cm+",
+        "wind": "70km/h+",
         "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "A moderately strong thunderstorm west of Mâcon is moving northeast, producing 53–54 dBZ reflectivity with occasional lightning. At this intensity, the storm may generate small hail up to about 1 cm and wind gusts around 55–70 km/h, mainly near the forward‑flank. The cell remains organized but below severe thresholds, though brief strengthening is possible as it continues its northeast track.",
+        "text": "A compact but intense thunderstorm west of Lyon is producing 59–60 dBZ reflectivity with frequent lightning, indicating a powerful and sustained updraft. At this strength, the storm is capable of hail around 2–2.5 cm and wind gusts of 70–85 km/h, especially along the forward‑flank as it accelerates northeast. The cell remains well‑organized and may briefly pulse stronger as it approaches the outer Lyon metropolitan area.",
         "hazards": {
-          "hail": "1cm",
-          "wind": "60km/h",
+          "hail": "2cm+",
+          "wind": "70km/h+",
           "tornado_probability": "",
           "rotation": ""
         },
@@ -4034,7 +4034,7 @@
         "forecaster_role": "nowcaster",
         "issued_by": "Joseph",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T19:56:55.249Z"
+        "updated_at": "2026-05-05T19:58:11.903Z"
       },
       "geometry": {
         "type": "Polygon",
