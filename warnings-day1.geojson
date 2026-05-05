@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T16:16:46.064Z",
+  "generated_at": "2026-05-05T16:21:50.405Z",
   "features": [
     {
       "type": "Feature",
@@ -645,6 +645,63 @@
             [
               15.804983,
               50.930065
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1777997695020",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T18:10",
+        "issued_iso": "2026-05-05T16:10:00.000Z",
+        "expires": "2026-05-05T19:10",
+        "expires_iso": "2026-05-05T17:10:00.000Z",
+        "location": "Oberösterreich",
+        "hail": "2-4cm",
+        "wind": "50km/h",
+        "tornado_probability": "Low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "a severe isolated thunderstorm has formed near salzburg and is growing.the storm is producing pretty large hail and is producing much lightning, the chances for a tornado to form are low, but not 0%.",
+        "hazards": {
+          "hail": "2-4cm",
+          "wind": "50km/h",
+          "tornado_probability": "Low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T16:21:48.187Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.007813,
+              47.901614
+            ],
+            [
+              13.436279,
+              48.516604
+            ],
+            [
+              14.205322,
+              48.158757
+            ],
+            [
+              13.216553,
+              47.776252
+            ],
+            [
+              13.007813,
+              47.901614
             ]
           ]
         ]
