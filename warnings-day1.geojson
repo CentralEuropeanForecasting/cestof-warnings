@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T20:56:03.537Z",
+  "generated_at": "2026-05-05T20:57:29.920Z",
   "features": [
     {
       "type": "Feature",
@@ -4629,6 +4629,83 @@
             [
               4.641724,
               46.080852
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778014600636",
+        "type": "Heavy Rain Warning",
+        "issued": "2026-05-05T22:50",
+        "issued_iso": "2026-05-05T20:50:00.000Z",
+        "expires": "2026-05-05T02:20",
+        "expires_iso": "2026-05-05T00:20:00.000Z",
+        "location": "Montpellier area, France",
+        "hail": "None",
+        "wind": "Low intensity wind gusts",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A large, organized rain cluster is moving toward Montpellier, producing widespread 40–50 dBZ reflectivity. This indicates very heavy rainfall, but without the structural features or lightning activity typical of a thunderstorm. The main impacts will be intense rain rates, reduced visibility, and locally gusty winds, with no significant hail or severe‑storm signatures present.",
+        "hazards": {
+          "hail": "None",
+          "wind": "Low intensity wind gusts",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T20:57:27.507Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.894897,
+              42.892064
+            ],
+            [
+              3.169556,
+              42.690511
+            ],
+            [
+              3.641968,
+              42.585444
+            ],
+            [
+              4.724121,
+              43.060861
+            ],
+            [
+              5.646973,
+              43.659924
+            ],
+            [
+              5.328369,
+              43.992815
+            ],
+            [
+              4.844971,
+              44.237328
+            ],
+            [
+              4.361572,
+              44.363133
+            ],
+            [
+              3.88916,
+              44.347422
+            ],
+            [
+              2.894897,
+              42.892064
             ]
           ]
         ]
