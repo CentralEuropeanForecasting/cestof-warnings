@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T18:13:49.228Z",
+  "generated_at": "2026-05-05T18:14:34.788Z",
   "features": [
     {
       "type": "Feature",
@@ -2381,55 +2381,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778003922892",
-        "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T20:06",
-        "issued_iso": "2026-05-05T18:06:00.000Z",
-        "expires": "2026-05-05T21:06",
-        "expires_iso": "2026-05-05T19:06:00.000Z",
-        "location": "Plzen Region-central Bohemian region border near Praha moving north to north east",
-        "hail": "1-2cm",
-        "wind": "40-60cm",
-        "tornado_probability": "Very low",
+        "id": "warning-poly-1778004846205",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T20:13",
+        "issued_iso": "2026-05-05T18:13:00.000Z",
+        "expires": "2026-05-05T21:01",
+        "expires_iso": "2026-05-05T19:01:00.000Z",
+        "location": "Southeast of Pilsen",
+        "hail": "3cm",
+        "wind": "80 km/h+",
+        "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "Cluster of thunderstorms moving north to north east next to prague showing hail to 1 to 2 cm and wind gust reaching 60 kilometers per hour.",
+        "text": "A 60 dBZ thunderstorm core SE of Plzeň moving NE indicates a strong, sustained updraft capable of producing hail around 2–3 cm, with brief pulses potentially pushing it a bit higher. The storm’s structure and reflectivity also support wind gusts in the 80–95 km/h range, especially if a downburst develops on the forward flank. With this combination of hail size and wind potential, the storm fully meets severe thunderstorm criteria as it continues its track toward the city.",
         "hazards": {
-          "hail": "1-2cm",
-          "wind": "40-60cm",
-          "tornado_probability": "Very low",
+          "hail": "3cm",
+          "wind": "80 km/h+",
+          "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "S64",
-        "forecaster_name": "S64",
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
         "forecaster_role": "nowcaster",
-        "issued_by": "S64",
+        "issued_by": "Joseph",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T18:07:34.408Z"
+        "updated_at": "2026-05-05T18:14:28.337Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              13.815308,
-              49.539469
+              13.529663,
+              49.632062
             ],
             [
-              13.397827,
-              49.59647
+              13.716431,
+              49.50381
+            ],
+            [
+              14.254761,
+              49.788357
+            ],
+            [
+              13.936157,
+              49.972422
             ],
             [
               13.529663,
-              50.141706
-            ],
-            [
-              14.16687,
-              50.113533
-            ],
-            [
-              13.815308,
-              49.539469
+              49.632062
             ]
           ]
         ]
