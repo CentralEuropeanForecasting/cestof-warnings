@@ -4,314 +4,61 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "Severe Thunderstorm Warning",
-        "md_number": "",
-        "kind": "warning",
-        "issued": "2026-05-04T15:13",
-        "expires": "2026-05-04T15:55",
-        "issued_iso": "2026-05-04T15:13",
-        "expires_iso": "2026-05-04T15:55",
+        "id": "warning-poly-1777986397005",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T15:06",
+        "issued_iso": "2026-05-05T13:06:00.000Z",
+        "expires": "2026-05-05T15:50",
+        "expires_iso": "2026-05-05T13:50:00.000Z",
         "location": "",
-        "text": "",
         "hail": "1.2 cm",
         "wind": "",
         "tornado_probability": "",
         "rotation": "",
+        "md_number": "",
+        "text": "",
         "hazards": {
           "hail": "1.2 cm",
           "wind": "",
           "tornado_probability": "",
           "rotation": ""
         },
-        "updated_at": "2026-05-04T13:13:57.444Z"
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T13:07:03.388Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              0.219727,
-              43.2932
+              13.436279,
+              50.695262
             ],
             [
-              0.911865,
-              43.076913
+              13.579102,
+              50.590757
             ],
             [
-              1.768799,
-              43.953282
+              14.403076,
+              50.827301
             ],
             [
-              0.736084,
-              44.276671
+              14.161377,
+              51.055747
             ],
             [
-              0.219727,
-              43.2932
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "Thunderstorm Warning",
-        "md_number": "",
-        "kind": "warning",
-        "issued": "2026-05-04T15:13",
-        "expires": "2026-05-04T15:55",
-        "issued_iso": "2026-05-04T15:13",
-        "expires_iso": "2026-05-04T15:55",
-        "location": "",
-        "text": "",
-        "hail": "1.2 cm",
-        "wind": "",
-        "tornado_probability": "",
-        "rotation": "",
-        "hazards": {
-          "hail": "1.2 cm",
-          "wind": "",
-          "tornado_probability": "",
-          "rotation": ""
-        },
-        "updated_at": "2026-05-04T13:14:46.636Z"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -1.538086,
-              42.682435
-            ],
-            [
-              -1.2854,
-              42.488302
-            ],
-            [
-              -0.41748,
-              43.197167
-            ],
-            [
-              -0.878906,
-              43.540585
-            ],
-            [
-              -1.538086,
-              42.682435
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "Thunderstorm Warning",
-        "md_number": "",
-        "kind": "warning",
-        "issued": "2026-05-04T15:13",
-        "expires": "2026-05-04T15:55",
-        "issued_iso": "2026-05-04T15:13",
-        "expires_iso": "2026-05-04T15:55",
-        "location": "",
-        "text": "",
-        "hail": "1.2 cm",
-        "wind": "",
-        "tornado_probability": "",
-        "rotation": "",
-        "hazards": {
-          "hail": "1.2 cm",
-          "wind": "",
-          "tornado_probability": "",
-          "rotation": ""
-        },
-        "updated_at": "2026-05-04T13:15:04.500Z"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -1.680908,
-              41.861379
-            ],
-            [
-              -1.373291,
-              41.681118
-            ],
-            [
-              -0.593262,
-              42.569264
-            ],
-            [
-              -1.252441,
-              42.747012
-            ],
-            [
-              -1.680908,
-              41.861379
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "Thunderstorm Warning",
-        "md_number": "",
-        "kind": "warning",
-        "issued": "2026-05-04T17:11",
-        "expires": "2026-05-04T17:35",
-        "issued_iso": "2026-05-04T17:11",
-        "expires_iso": "2026-05-04T17:35",
-        "location": "",
-        "text": "",
-        "hail": "0.6 cm",
-        "wind": "",
-        "tornado_probability": "",
-        "rotation": "",
-        "hazards": {
-          "hail": "0.6 cm",
-          "wind": "",
-          "tornado_probability": "",
-          "rotation": ""
-        },
-        "updated_at": "2026-05-04T15:12:18.976Z"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              20.928955,
-              54.059388
-            ],
-            [
-              21.038818,
-              53.917281
-            ],
-            [
-              21.983643,
-              54.13026
-            ],
-            [
-              21.566162,
-              54.412537
-            ],
-            [
-              20.928955,
-              54.059388
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "Severe Thunderstorm Warning",
-        "md_number": "",
-        "kind": "warning",
-        "issued": "2026-05-04T17:14",
-        "expires": "2026-05-04T17:50",
-        "issued_iso": "2026-05-04T17:14",
-        "expires_iso": "2026-05-04T17:50",
-        "location": "",
-        "text": "",
-        "hail": "",
-        "wind": "",
-        "tornado_probability": "",
-        "rotation": "",
-        "hazards": {
-          "hail": "",
-          "wind": "",
-          "tornado_probability": "",
-          "rotation": ""
-        },
-        "updated_at": "2026-05-04T15:15:02.850Z"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.065674,
-              44.00862
-            ],
-            [
-              1.636963,
-              43.905808
-            ],
-            [
-              2.307129,
-              45.375302
-            ],
-            [
-              1.505127,
-              45.552525
-            ],
-            [
-              1.065674,
-              44.00862
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "Thunderstorm Warning",
-        "md_number": "",
-        "kind": "warning",
-        "issued": "2026-05-04T17:18",
-        "expires": "2026-05-04T17:50",
-        "issued_iso": "2026-05-04T17:18",
-        "expires_iso": "2026-05-04T17:50",
-        "location": "",
-        "text": "",
-        "hail": "",
-        "wind": "",
-        "tornado_probability": "",
-        "rotation": "",
-        "hazards": {
-          "hail": "",
-          "wind": "",
-          "tornado_probability": "",
-          "rotation": ""
-        },
-        "updated_at": "2026-05-04T15:18:17.561Z"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              1.746826,
-              43.76316
-            ],
-            [
-              2.087402,
-              43.659924
-            ],
-            [
-              2.669678,
-              44.41024
-            ],
-            [
-              2.15332,
-              44.59829
-            ],
-            [
-              1.746826,
-              43.76316
+              13.436279,
+              50.695262
             ]
           ]
         ]
       }
     }
-  ]
+  ],
+  "name": "CESTOF Warning Polygons",
+  "generated_at": "2026-05-05T13:07:13.305Z"
 }
