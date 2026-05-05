@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T16:53:24.004Z",
+  "generated_at": "2026-05-05T17:00:07.168Z",
   "features": [
     {
       "type": "Feature",
@@ -930,6 +930,63 @@
             [
               11.315918,
               49.767074
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778000316068",
+        "type": "Thunderstorm Watch",
+        "issued": "2026-05-05T18:57",
+        "issued_iso": "2026-05-05T16:57:00.000Z",
+        "expires": "2026-05-05T19:57",
+        "expires_iso": "2026-05-05T17:57:00.000Z",
+        "location": "Hessen,Thüringen",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "a thunderstorm is moving east to kassel, producing small hail and lighting. the storm is moving different from the rest of the group.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T17:00:04.873Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.657227,
+              51.172455
+            ],
+            [
+              9.228516,
+              51.679368
+            ],
+            [
+              9.821777,
+              50.979182
+            ],
+            [
+              8.745117,
+              51.041394
+            ],
+            [
+              8.657227,
+              51.172455
             ]
           ]
         ]
