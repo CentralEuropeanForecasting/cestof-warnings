@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T21:25:30.309Z",
+  "generated_at": "2026-05-05T21:26:41.822Z",
   "features": [
     {
       "type": "Feature",
@@ -5141,22 +5141,22 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778016264855",
-        "type": "Thunderstorm Warning",
+        "id": "warning-poly-1778016369043",
+        "type": "Severe Thunderstorm Warning",
         "issued": "2026-05-05T23:20",
         "issued_iso": "2026-05-05T21:20:00.000Z",
         "expires": "2026-05-06T00:20",
         "expires_iso": "2026-05-05T22:20:00.000Z",
         "location": "Chatillon-sur-Chalarone, France",
-        "hail": "1cm+",
-        "wind": "<65km/h",
+        "hail": "3cm+",
+        "wind": "90-100km/h",
         "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "Dbz around 55-60",
+        "text": "Dbz 63+",
         "hazards": {
-          "hail": "1cm+",
-          "wind": "<65km/h",
+          "hail": "3cm+",
+          "wind": "90-100km/h",
           "tornado_probability": "",
           "rotation": ""
         },
@@ -5165,31 +5165,31 @@
         "forecaster_role": "nowcaster",
         "issued_by": "Joseph",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T21:25:28.816Z"
+        "updated_at": "2026-05-05T21:26:39.839Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              4.751587,
-              46.164614
+              7.091675,
+              43.028745
             ],
             [
-              4.927368,
-              46.050361
+              7.399292,
+              42.892064
             ],
             [
-              5.443726,
-              46.278631
+              8.025513,
+              43.309191
             ],
             [
-              5.048218,
-              46.521076
+              7.476196,
+              43.524655
             ],
             [
-              4.751587,
-              46.164614
+              7.091675,
+              43.028745
             ]
           ]
         ]
