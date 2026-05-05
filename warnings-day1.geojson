@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T17:57:17.402Z",
+  "generated_at": "2026-05-05T17:57:20.382Z",
   "features": [
     {
       "type": "Feature",
@@ -1797,55 +1797,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778003349508",
+        "id": "warning-poly-1778003067952",
         "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T19:44",
-        "issued_iso": "2026-05-05T17:44:00.000Z",
-        "expires": "2026-05-05T20:44",
-        "expires_iso": "2026-05-05T18:44:00.000Z",
-        "location": "",
-        "hail": "2cm",
-        "wind": "around 50 to 60kmh",
-        "tornado_probability": "",
-        "rotation": "",
+        "issued": "2026-05-05T19:35",
+        "issued_iso": "2026-05-05T17:35:00.000Z",
+        "expires": "2026-05-05T20:35",
+        "expires_iso": "2026-05-05T18:35:00.000Z",
+        "location": "Hessen",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Low",
+        "rotation": "Weak rotation",
         "md_number": "",
-        "text": "medium flood risk in a few places and beware of lightining",
+        "text": "a thunderstorm is continuing its slow path to kassel, producing lightning and hail in the meantime.",
         "hazards": {
-          "hail": "2cm",
-          "wind": "around 50 to 60kmh",
-          "tornado_probability": "",
-          "rotation": ""
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Low",
+          "rotation": "Weak rotation"
         },
-        "forecaster": "bearmax",
-        "forecaster_name": "Bearmax",
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
-        "issued_by": "Bearmax",
+        "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T17:49:36.475Z"
+        "updated_at": "2026-05-05T17:45:17.628Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              11.826782,
-              49.986994
+              9.107666,
+              51.234407
             ],
             [
-              10.969849,
-              50.226563
+              9.755859,
+              51.618017
             ],
             [
-              10.980835,
-              50.868811
+              9.986572,
+              51.020666
             ],
             [
-              12.035522,
-              50.639446
+              9.129639,
+              51.048301
             ],
             [
-              11.826782,
-              49.986994
+              9.107666,
+              51.234407
             ]
           ]
         ]
@@ -1854,63 +1854,354 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778003764186",
-        "type": "Thunderstorm Watch",
-        "issued": "2026-05-05T19:54",
-        "issued_iso": "2026-05-05T17:54:00.000Z",
-        "expires": "2026-05-05T20:54",
-        "expires_iso": "2026-05-05T18:54:00.000Z",
+        "id": "warning-poly-1778003172082",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T19:32",
+        "issued_iso": "2026-05-05T17:32:00.000Z",
+        "expires": "2026-05-05T20:32",
+        "expires_iso": "2026-05-05T18:32:00.000Z",
         "location": "",
-        "hail": "1.5cm",
-        "wind": "50kph",
-        "tornado_probability": "",
+        "hail": "1-2cm",
+        "wind": "40km/h",
+        "tornado_probability": "Very low",
         "rotation": "",
         "md_number": "",
-        "text": "",
+        "text": "a small, weak thunderstorm is slowly moving east, producing small hail and a little bit of lightning.",
         "hazards": {
-          "hail": "1.5cm",
-          "wind": "50kph",
-          "tornado_probability": "",
+          "hail": "1-2cm",
+          "wind": "40km/h",
+          "tornado_probability": "Very low",
           "rotation": ""
         },
-        "forecaster": "bearmax",
-        "forecaster_name": "Bearmax",
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
-        "issued_by": "Bearmax",
+        "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T17:57:12.977Z"
+        "updated_at": "2026-05-05T17:47:22.886Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              13.738403,
-              49.482847
+              9.176331,
+              48.620201
             ],
             [
-              13.518677,
-              49.724923
+              9.997559,
+              48.835797
             ],
             [
-              13.540649,
-              49.961822
+              10.022278,
+              48.256684
             ],
             [
-              13.677979,
-              50.141706
+              9.195557,
+              48.363549
             ],
             [
-              14.089966,
-              49.994057
+              9.176331,
+              48.620201
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778003328267",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T19:48",
+        "issued_iso": "2026-05-05T17:48:00.000Z",
+        "expires": "2026-05-05T21:00",
+        "expires_iso": "2026-05-05T19:00:00.000Z",
+        "location": "",
+        "hail": "2-5cm",
+        "wind": "40-70km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "a line of strong thunderstorms is making its way to the czech border, producing lightning, hail and damaging winds. the line could intensify, but as it seems right now, it is stable and wont intensify much.",
+        "hazards": {
+          "hail": "2-5cm",
+          "wind": "40-70km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T17:51:05.627Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.909424,
+              50.268277
             ],
             [
-              14.353638,
-              49.767518
+              11.173096,
+              50.958427
             ],
             [
-              13.738403,
-              49.482847
+              13.557129,
+              49.979488
+            ],
+            [
+              12.568359,
+              49.525208
+            ],
+            [
+              10.909424,
+              50.268277
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778003558870",
+        "type": "Thunderstorm Watch",
+        "issued": "2026-05-05T19:48",
+        "issued_iso": "2026-05-05T17:48:00.000Z",
+        "expires": "2026-05-05T21:00",
+        "expires_iso": "2026-05-05T19:00:00.000Z",
+        "location": "",
+        "hail": "1-3cm",
+        "wind": "40-50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "a thunderstorm near Mullhouse just stopped producing lightning, but it could fire up again and produce lightning and hail.",
+        "hazards": {
+          "hail": "1-3cm",
+          "wind": "40-50km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T17:53:45.054Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.421021,
+              47.557994
+            ],
+            [
+              8.300171,
+              47.583937
+            ],
+            [
+              8.195801,
+              47.624678
+            ],
+            [
+              8.091431,
+              47.595051
+            ],
+            [
+              7.926636,
+              47.57282
+            ],
+            [
+              7.822266,
+              47.591346
+            ],
+            [
+              7.668457,
+              47.528329
+            ],
+            [
+              7.580566,
+              47.609867
+            ],
+            [
+              7.514648,
+              47.680183
+            ],
+            [
+              7.553101,
+              47.768868
+            ],
+            [
+              7.56958,
+              47.883197
+            ],
+            [
+              7.619019,
+              47.978891
+            ],
+            [
+              7.728882,
+              48.041365
+            ],
+            [
+              7.833252,
+              48.078079
+            ],
+            [
+              7.926636,
+              48.100095
+            ],
+            [
+              8.014526,
+              48.133101
+            ],
+            [
+              8.135376,
+              48.162421
+            ],
+            [
+              8.250732,
+              48.147763
+            ],
+            [
+              8.344116,
+              48.122101
+            ],
+            [
+              8.4375,
+              48.078079
+            ],
+            [
+              8.481445,
+              48.00095
+            ],
+            [
+              8.536377,
+              47.938427
+            ],
+            [
+              8.629761,
+              47.916342
+            ],
+            [
+              8.723145,
+              47.908978
+            ],
+            [
+              8.827515,
+              47.872144
+            ],
+            [
+              8.772583,
+              47.820532
+            ],
+            [
+              8.838501,
+              47.768868
+            ],
+            [
+              8.794556,
+              47.694974
+            ],
+            [
+              8.723145,
+              47.724545
+            ],
+            [
+              8.684692,
+              47.77256
+            ],
+            [
+              8.602295,
+              47.802087
+            ],
+            [
+              8.508911,
+              47.776252
+            ],
+            [
+              8.426514,
+              47.724545
+            ],
+            [
+              8.448486,
+              47.654288
+            ],
+            [
+              8.536377,
+              47.654288
+            ],
+            [
+              8.464966,
+              47.598755
+            ],
+            [
+              8.421021,
+              47.557994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778003645454",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T19:48",
+        "issued_iso": "2026-05-05T17:48:00.000Z",
+        "expires": "2026-05-05T21:00",
+        "expires_iso": "2026-05-05T19:00:00.000Z",
+        "location": "bodensee, bayern",
+        "hail": "2-4cm",
+        "wind": "55km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "a thunderstorm is currently passing over the bodensee. this large body of water can boost it and support growth, but for now this large cell is producing large hail, lightning and wind gusts in excess of 55km/h.",
+        "hazards": {
+          "hail": "2-4cm",
+          "wind": "55km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T17:56:35.355Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.415283,
+              47.561701
+            ],
+            [
+              9.810791,
+              47.813155
+            ],
+            [
+              10.019531,
+              47.457809
+            ],
+            [
+              9.525146,
+              47.420654
+            ],
+            [
+              9.415283,
+              47.561701
             ]
           ]
         ]
