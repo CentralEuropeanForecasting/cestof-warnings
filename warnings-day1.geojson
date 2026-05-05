@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T17:01:24.917Z",
+  "generated_at": "2026-05-05T17:02:35.892Z",
   "features": [
     {
       "type": "Feature",
@@ -938,59 +938,112 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778000461613",
+        "id": "warning-poly-1778000316068",
         "type": "Thunderstorm Watch",
-        "issued": "2026-05-05T18:58",
-        "issued_iso": "2026-05-05T16:58:00.000Z",
-        "expires": "2026-05-05T19:45",
-        "expires_iso": "2026-05-05T17:45:00.000Z",
-        "location": "",
-        "hail": "",
-        "wind": "",
-        "tornado_probability": "",
+        "issued": "2026-05-05T18:57",
+        "issued_iso": "2026-05-05T16:57:00.000Z",
+        "expires": "2026-05-05T19:57",
+        "expires_iso": "2026-05-05T17:57:00.000Z",
+        "location": "Hessen,Thüringen",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
         "rotation": "",
         "md_number": "",
-        "text": "Very rapidly growing storm \n25% of becoming severe thunderstorm",
+        "text": "a thunderstorm is moving east to kassel, producing small hail and lighting. the storm is moving different from the rest of the group.",
         "hazards": {
-          "hail": "",
-          "wind": "",
-          "tornado_probability": "",
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
           "rotation": ""
         },
-        "forecaster": "bearmax",
-        "forecaster_name": "Bearmax",
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
-        "issued_by": "Bearmax",
+        "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T17:01:22.619Z"
+        "updated_at": "2026-05-05T17:00:04.873Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              15.947147,
-              50.273409
+              8.657227,
+              51.172455
             ],
             [
-              15.756959,
-              50.32071
+              9.228516,
+              51.679368
             ],
             [
-              15.932445,
-              50.508724
+              9.821777,
+              50.979182
             ],
             [
-              16.166151,
-              50.556814
+              8.745117,
+              51.041394
             ],
             [
-              16.201609,
-              50.46161
+              8.657227,
+              51.172455
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778000472978",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T18:57",
+        "issued_iso": "2026-05-05T16:57:00.000Z",
+        "expires": "2026-05-05T19:57",
+        "expires_iso": "2026-05-05T17:57:00.000Z",
+        "location": "Hessen,Thüringen",
+        "hail": "1-3cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "a thunderstorm is moving mostly north in the direction of kassel. the storm is producing mostly lighting and a bit of hail.",
+        "hazards": {
+          "hail": "1-3cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T17:02:31.537Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.030762,
+              50.889174
             ],
             [
-              15.947147,
-              50.273409
+              9.019775,
+              51.337476
+            ],
+            [
+              9.799805,
+              51.234407
+            ],
+            [
+              9.228516,
+              50.833698
+            ],
+            [
+              9.030762,
+              50.889174
             ]
           ]
         ]
