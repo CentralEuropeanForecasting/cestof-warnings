@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T21:40:28.791Z",
+  "generated_at": "2026-05-05T21:42:11.997Z",
   "features": [
     {
       "type": "Feature",
@@ -5304,6 +5304,63 @@
             [
               14.018555,
               51.440313
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778017060570",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T23:36",
+        "issued_iso": "2026-05-05T21:36:00.000Z",
+        "expires": "2026-05-06T00:20",
+        "expires_iso": "2026-05-05T22:20:00.000Z",
+        "location": "North of Bourg-en-Bresse, France",
+        "hail": "1,5-2cm",
+        "wind": "<70km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "Dbz 58-60, a lot of lightning strikes happening in the thunderstorm.",
+        "hazards": {
+          "hail": "1,5-2cm",
+          "wind": "<70km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T21:38:41.193Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.850464,
+              46.286224
+            ],
+            [
+              5.026245,
+              46.157005
+            ],
+            [
+              5.701904,
+              46.460566
+            ],
+            [
+              5.251465,
+              46.7248
+            ],
+            [
+              4.850464,
+              46.286224
             ]
           ]
         ]
