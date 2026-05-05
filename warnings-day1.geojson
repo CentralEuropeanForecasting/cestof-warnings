@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T21:08:02.635Z",
+  "generated_at": "2026-05-05T21:09:17.968Z",
   "features": [
     {
       "type": "Feature",
@@ -4885,63 +4885,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778014963572",
-        "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T22:46",
-        "issued_iso": "2026-05-05T20:46:00.000Z",
-        "expires": "2026-05-05T23:00",
-        "expires_iso": "2026-05-05T21:00:00.000Z",
-        "location": "sachsen,thuringen,ustecky kraj",
-        "hail": "1-3cm",
-        "wind": "40-60km/h",
-        "tornado_probability": "Low",
-        "rotation": "",
-        "md_number": "",
-        "text": "a line of thunderstorms is going northeast across east germany, bringing hail and lightning with it.",
-        "hazards": {
-          "hail": "1-3cm",
-          "wind": "40-60km/h",
-          "tornado_probability": "Low",
-          "rotation": ""
-        },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
-        "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
-        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T21:04:11.543Z"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              11.217041,
-              50.854509
-            ],
-            [
-              11.293945,
-              51.815407
-            ],
-            [
-              15.040283,
-              50.951506
-            ],
-            [
-              13.776855,
-              49.993615
-            ],
-            [
-              11.217041,
-              50.854509
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "warning-poly-1778014960457",
         "type": "Heavy Rain Warning",
         "issued": "2026-05-05T23:00",
@@ -5007,6 +4950,63 @@
             [
               3.22998,
               43.596306
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778014963572",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T22:46",
+        "issued_iso": "2026-05-05T20:46:00.000Z",
+        "expires": "2026-05-05T23:00",
+        "expires_iso": "2026-05-05T21:00:00.000Z",
+        "location": "sachsen,thuringen,ustecky kraj",
+        "hail": "1-3cm",
+        "wind": "40-60km/h",
+        "tornado_probability": "Low",
+        "rotation": "",
+        "md_number": "",
+        "text": "a line of thunderstorms is going northeast across east germany, bringing hail and lightning with it.",
+        "hazards": {
+          "hail": "1-3cm",
+          "wind": "40-60km/h",
+          "tornado_probability": "Low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T21:04:11.543Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.217041,
+              50.854509
+            ],
+            [
+              11.293945,
+              51.815407
+            ],
+            [
+              15.040283,
+              50.951506
+            ],
+            [
+              13.776855,
+              49.993615
+            ],
+            [
+              11.217041,
+              50.854509
             ]
           ]
         ]
