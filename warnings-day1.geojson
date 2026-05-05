@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T21:00:20.216Z",
+  "generated_at": "2026-05-05T21:01:20.571Z",
   "features": [
     {
       "type": "Feature",
@@ -4706,6 +4706,177 @@
             [
               2.894897,
               42.892064
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778013978313",
+        "type": "Tornado Warning",
+        "issued": "2026-05-05T22:46",
+        "issued_iso": "2026-05-05T20:46:00.000Z",
+        "expires": "2026-05-05T23:00",
+        "expires_iso": "2026-05-05T21:00:00.000Z",
+        "location": "",
+        "hail": "1-2cm",
+        "wind": "60km/h",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "radar indicated strong rotation within this storm, that is the reason why the tornado warning was issued.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "60km/h",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T20:46:51.438Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.392334,
+              50.907363
+            ],
+            [
+              13.52417,
+              50.89004
+            ],
+            [
+              13.910065,
+              51.174177
+            ],
+            [
+              13.320923,
+              51.231828
+            ],
+            [
+              13.392334,
+              50.907363
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778014241646",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T22:50",
+        "issued_iso": "2026-05-05T20:50:00.000Z",
+        "expires": "2026-05-05T23:30",
+        "expires_iso": "2026-05-05T21:30:00.000Z",
+        "location": "",
+        "hail": "1-4cm",
+        "wind": "40-60km/h",
+        "tornado_probability": "Elevated",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "a severe rotating thunderstorm with large hail and lightning is currently moving northeast to cottbus. the storm is capable of producing a tornado.",
+        "hazards": {
+          "hail": "1-4cm",
+          "wind": "40-60km/h",
+          "tornado_probability": "Elevated",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T20:53:25.340Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.260498,
+              50.889174
+            ],
+            [
+              13.359375,
+              51.957807
+            ],
+            [
+              14.919434,
+              51.51558
+            ],
+            [
+              13.64502,
+              50.75731
+            ],
+            [
+              13.260498,
+              50.889174
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778014643405",
+        "type": "Tornado Warning",
+        "issued": "2026-05-05T22:46",
+        "issued_iso": "2026-05-05T20:46:00.000Z",
+        "expires": "2026-05-05T23:00",
+        "expires_iso": "2026-05-05T21:00:00.000Z",
+        "location": "sachsen",
+        "hail": "1-2cm",
+        "wind": "60km/h",
+        "tornado_probability": "Elevated",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "radar indicated strong rotation within this storm, that is the reason why the tornado warning was issued.\nthere are currently 2 mayor rotations within this warning polygon. with base speeds of 58km/h and 31km/h, these rotating areas are not yet capable of producing a tornado. but if the storm intensifies, a tornado could touch down.\ncities included: Wilsdruf, coswig.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "60km/h",
+          "tornado_probability": "Elevated",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T21:01:18.036Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.537903,
+              50.964481
+            ],
+            [
+              13.443146,
+              50.973994
+            ],
+            [
+              13.451385,
+              51.189673
+            ],
+            [
+              13.701324,
+              51.158677
+            ],
+            [
+              13.537903,
+              50.964481
             ]
           ]
         ]
