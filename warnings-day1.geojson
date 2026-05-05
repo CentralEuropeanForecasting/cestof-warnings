@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T18:17:04.269Z",
+  "generated_at": "2026-05-05T18:18:57.110Z",
   "features": [
     {
       "type": "Feature",
@@ -2440,19 +2440,19 @@
       "properties": {
         "id": "warning-poly-1778004809707",
         "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T19:38",
-        "issued_iso": "2026-05-05T17:38:00.000Z",
-        "expires": "2026-05-05T20:38",
-        "expires_iso": "2026-05-05T18:38:00.000Z",
-        "location": "",
-        "hail": "",
+        "issued": "2026-05-05T20:14",
+        "issued_iso": "2026-05-05T18:14:00.000Z",
+        "expires": "2026-05-05T20:40",
+        "expires_iso": "2026-05-05T18:40:00.000Z",
+        "location": "Nová páka,Hradec Králové",
+        "hail": "0,2",
         "wind": "",
         "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "",
+        "text": "A thunderstorm warning was issued for Nová Páka and Lomnice nad Popelkou,small hail is expected",
         "hazards": {
-          "hail": "",
+          "hail": "0,2",
           "wind": "",
           "tornado_probability": "",
           "rotation": ""
@@ -2462,7 +2462,7 @@
         "forecaster_role": "nowcaster",
         "issued_by": "Matyáš",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T18:13:29.707Z"
+        "updated_at": "2026-05-05T18:17:28.338Z"
       },
       "geometry": {
         "type": "Polygon",
