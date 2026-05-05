@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T17:47:25.611Z",
+  "generated_at": "2026-05-05T17:48:23.077Z",
   "features": [
     {
       "type": "Feature",
@@ -1622,112 +1622,59 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778003067952",
-        "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T19:35",
-        "issued_iso": "2026-05-05T17:35:00.000Z",
-        "expires": "2026-05-05T20:35",
-        "expires_iso": "2026-05-05T18:35:00.000Z",
-        "location": "Hessen",
-        "hail": "1-2cm",
-        "wind": "50km/h",
-        "tornado_probability": "Low",
-        "rotation": "Weak rotation",
-        "md_number": "",
-        "text": "a thunderstorm is continuing its slow path to kassel, producing lightning and hail in the meantime.",
-        "hazards": {
-          "hail": "1-2cm",
-          "wind": "50km/h",
-          "tornado_probability": "Low",
-          "rotation": "Weak rotation"
-        },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
-        "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
-        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T17:45:17.628Z"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              9.107666,
-              51.234407
-            ],
-            [
-              9.755859,
-              51.618017
-            ],
-            [
-              9.986572,
-              51.020666
-            ],
-            [
-              9.129639,
-              51.048301
-            ],
-            [
-              9.107666,
-              51.234407
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "warning-poly-1778003172082",
-        "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T19:32",
-        "issued_iso": "2026-05-05T17:32:00.000Z",
-        "expires": "2026-05-05T20:32",
-        "expires_iso": "2026-05-05T18:32:00.000Z",
+        "id": "warning-poly-1778003272293",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T19:44",
+        "issued_iso": "2026-05-05T17:44:00.000Z",
+        "expires": "2026-05-05T20:44",
+        "expires_iso": "2026-05-05T18:44:00.000Z",
         "location": "",
-        "hail": "1-2cm",
-        "wind": "40km/h",
-        "tornado_probability": "Very low",
+        "hail": "2.5cm",
+        "wind": "around 50 to 70kmh",
+        "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "a small, weak thunderstorm is slowly moving east, producing small hail and a little bit of lightning.",
+        "text": "medium flood risk in a few places and beware of lightining",
         "hazards": {
-          "hail": "1-2cm",
-          "wind": "40km/h",
-          "tornado_probability": "Very low",
+          "hail": "2.5cm",
+          "wind": "around 50 to 70kmh",
+          "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
         "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
+        "issued_by": "Bearmax",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T17:47:22.886Z"
+        "updated_at": "2026-05-05T17:48:19.316Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              9.176331,
-              48.620201
+              12.727661,
+              49.554171
             ],
             [
-              9.997559,
-              48.835797
+              11.991577,
+              49.88092
             ],
             [
-              10.022278,
-              48.256684
+              11.995697,
+              50.424378
             ],
             [
-              9.195557,
-              48.363549
+              12.262115,
+              50.600782
             ],
             [
-              9.176331,
-              48.620201
+              12.687836,
+              50.58509
+            ],
+            [
+              12.727661,
+              49.554171
             ]
           ]
         ]
