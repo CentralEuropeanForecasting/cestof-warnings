@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T22:14:57.174Z",
+  "generated_at": "2026-05-05T22:29:55.774Z",
   "features": [
     {
       "type": "Feature",
@@ -5703,6 +5703,353 @@
             [
               11.931152,
               51.020666
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778019616110",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T00:16",
+        "issued_iso": "2026-05-05T22:16:00.000Z",
+        "expires": "2026-05-06T01:16",
+        "expires_iso": "2026-05-05T23:16:00.000Z",
+        "location": "brandenburg,woewodztwo lubuskie",
+        "hail": "1-2cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T22:21:18.325Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.403076,
+              51.828988
+            ],
+            [
+              14.370117,
+              52.27488
+            ],
+            [
+              15.040283,
+              52.19414
+            ],
+            [
+              14.633789,
+              51.788232
+            ],
+            [
+              14.403076,
+              51.828988
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778019689917",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T00:16",
+        "issued_iso": "2026-05-05T22:16:00.000Z",
+        "expires": "2026-05-06T01:16",
+        "expires_iso": "2026-05-05T23:16:00.000Z",
+        "location": "brandenburg",
+        "hail": "0.1-1cm",
+        "wind": "45km/h",
+        "tornado_probability": "Low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "mainly a risk for rain/hail, because the lightning has almost stopped. the cell is still rotating.",
+        "hazards": {
+          "hail": "0.1-1cm",
+          "wind": "45km/h",
+          "tornado_probability": "Low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T22:23:38.525Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.315674,
+              51.158677
+            ],
+            [
+              12.392578,
+              52.106505
+            ],
+            [
+              13.886719,
+              51.815407
+            ],
+            [
+              13.117676,
+              51.082822
+            ],
+            [
+              12.315674,
+              51.158677
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778019887069",
+        "type": "Heavy Rain Warning",
+        "issued": "2026-05-06T00:30",
+        "issued_iso": "2026-05-05T22:30:00.000Z",
+        "expires": "2026-05-06T12:00",
+        "expires_iso": "2026-05-06T10:00:00.000Z",
+        "location": "Niedersachsen,Nordrhein westfalen,groningen,drenthe,overijssel,gelderland,Noord-brabantlimburg,wallonië",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "The next hours, until 12pm CET, it will rain in the warned area. this can lead to floods and overflowing rivers, especially in the lowlands stretching from apeldoorn to bremen.",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T22:29:49.932Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.218506,
+              51.323747
+            ],
+            [
+              5.251465,
+              51.089723
+            ],
+            [
+              5.273438,
+              50.916887
+            ],
+            [
+              5.361328,
+              50.805935
+            ],
+            [
+              5.460205,
+              50.618103
+            ],
+            [
+              5.789795,
+              50.478483
+            ],
+            [
+              6.075439,
+              50.443513
+            ],
+            [
+              6.470947,
+              50.492463
+            ],
+            [
+              6.525879,
+              50.659908
+            ],
+            [
+              6.503906,
+              50.812877
+            ],
+            [
+              6.580811,
+              50.972265
+            ],
+            [
+              6.624756,
+              51.138001
+            ],
+            [
+              6.778564,
+              51.310013
+            ],
+            [
+              7.009277,
+              51.406059
+            ],
+            [
+              7.185059,
+              51.522416
+            ],
+            [
+              7.404785,
+              51.597548
+            ],
+            [
+              7.635498,
+              51.638476
+            ],
+            [
+              7.822266,
+              51.679368
+            ],
+            [
+              8.10791,
+              51.727028
+            ],
+            [
+              8.360596,
+              51.822198
+            ],
+            [
+              8.668213,
+              51.903613
+            ],
+            [
+              8.942871,
+              51.957807
+            ],
+            [
+              9.228516,
+              52.106505
+            ],
+            [
+              9.580078,
+              52.509535
+            ],
+            [
+              9.909668,
+              52.722986
+            ],
+            [
+              10.041504,
+              52.988337
+            ],
+            [
+              10.019531,
+              53.186288
+            ],
+            [
+              9.821777,
+              53.409532
+            ],
+            [
+              9.448242,
+              53.501117
+            ],
+            [
+              9.008789,
+              53.527248
+            ],
+            [
+              8.503418,
+              53.527248
+            ],
+            [
+              8.195801,
+              53.488046
+            ],
+            [
+              7.77832,
+              53.409532
+            ],
+            [
+              7.492676,
+              53.330873
+            ],
+            [
+              7.141113,
+              53.225768
+            ],
+            [
+              6.855469,
+              53.094024
+            ],
+            [
+              6.591797,
+              52.935397
+            ],
+            [
+              6.394043,
+              52.762892
+            ],
+            [
+              6.262207,
+              52.62306
+            ],
+            [
+              6.273193,
+              52.48278
+            ],
+            [
+              6.240234,
+              52.335339
+            ],
+            [
+              6.152344,
+              52.207607
+            ],
+            [
+              6.04248,
+              52.113252
+            ],
+            [
+              5.899658,
+              51.971346
+            ],
+            [
+              5.756836,
+              51.849353
+            ],
+            [
+              5.614014,
+              51.706608
+            ],
+            [
+              5.471191,
+              51.542919
+            ],
+            [
+              5.339355,
+              51.460852
+            ],
+            [
+              5.218506,
+              51.323747
             ]
           ]
         ]
