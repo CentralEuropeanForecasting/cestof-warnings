@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T18:15:01.700Z",
+  "generated_at": "2026-05-05T18:16:14.246Z",
   "features": [
     {
       "type": "Feature",
@@ -2487,6 +2487,63 @@
             [
               12.952881,
               49.489538
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778004931079",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T20:01",
+        "issued_iso": "2026-05-05T18:01:00.000Z",
+        "expires": "2026-05-05T21:00",
+        "expires_iso": "2026-05-05T19:00:00.000Z",
+        "location": "Thüringen",
+        "hail": "1-2cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this smaller thunderstorm is moving north trought thuringen, in the direction of halle.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T18:16:12.005Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.502686,
+              50.338449
+            ],
+            [
+              11.304932,
+              51.144894
+            ],
+            [
+              12.304688,
+              51.089723
+            ],
+            [
+              11.854248,
+              50.310392
+            ],
+            [
+              11.502686,
+              50.338449
             ]
           ]
         ]
