@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T21:25:24.398Z",
+  "generated_at": "2026-05-05T21:25:30.309Z",
   "features": [
     {
       "type": "Feature",
@@ -5145,18 +5145,18 @@
         "type": "Thunderstorm Warning",
         "issued": "2026-05-05T23:20",
         "issued_iso": "2026-05-05T21:20:00.000Z",
-        "expires": "2026-05-06T02:30",
-        "expires_iso": "2026-05-06T00:30:00.000Z",
-        "location": "Montpellier area, France",
-        "hail": "",
-        "wind": "<50km/h",
+        "expires": "2026-05-06T00:20",
+        "expires_iso": "2026-05-05T22:20:00.000Z",
+        "location": "Chatillon-sur-Chalarone, France",
+        "hail": "1cm+",
+        "wind": "<65km/h",
         "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "",
+        "text": "Dbz around 55-60",
         "hazards": {
-          "hail": "",
-          "wind": "<50km/h",
+          "hail": "1cm+",
+          "wind": "<65km/h",
           "tornado_probability": "",
           "rotation": ""
         },
@@ -5165,7 +5165,7 @@
         "forecaster_role": "nowcaster",
         "issued_by": "Joseph",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T21:24:24.855Z"
+        "updated_at": "2026-05-05T21:25:28.816Z"
       },
       "geometry": {
         "type": "Polygon",
