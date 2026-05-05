@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-05-05T22:10:21.470Z",
+  "generated_at": "2026-05-05T22:18:55.893Z",
   "features": [
     {
       "type": "Feature",
@@ -73373,7 +73373,7 @@
         "FCLASS_TLC": null,
         "province_id": "DE-SN",
         "province_name": "Sachsen",
-        "warning_count": 13,
+        "warning_count": 14,
         "warnings": [
           {
             "id": "prov-warn-1778000178042-6d41d336c0d56",
@@ -73633,6 +73633,26 @@
             "issued_by": "Trein",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-05T21:59:09.680Z",
+            "province_id": "DE-SN"
+          },
+          {
+            "id": "prov-warn-1778019528638-849491817f23b",
+            "type": "Tornado Watch",
+            "issued": "2026-05-06T00:16",
+            "issued_iso": "2026-05-05T22:16:00.000Z",
+            "expires": "2026-05-06T01:00",
+            "expires_iso": "2026-05-05T23:00:00.000Z",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "Low",
+            "rotation": "",
+            "text": "the circumstances are favorable for rotating supercells. with this comes the risk for tornadoes. later in the night, that risk becomes smaller.",
+            "forecaster": "trein",
+            "forecaster_name": "Trein",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Trein",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-05T22:18:48.638Z",
             "province_id": "DE-SN"
           }
         ]
@@ -100729,7 +100749,7 @@
         "FCLASS_TLC": null,
         "province_id": "PL-LB",
         "province_name": "Lubusz",
-        "warning_count": 10,
+        "warning_count": 11,
         "warnings": [
           {
             "id": "prov-warn-1778005204771-8ae8261649d2e",
@@ -100929,6 +100949,26 @@
             "issued_by": "Trein",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-05T21:59:09.680Z",
+            "province_id": "PL-LB"
+          },
+          {
+            "id": "prov-warn-1778019528638-849491817f23b",
+            "type": "Tornado Watch",
+            "issued": "2026-05-06T00:16",
+            "issued_iso": "2026-05-05T22:16:00.000Z",
+            "expires": "2026-05-06T01:00",
+            "expires_iso": "2026-05-05T23:00:00.000Z",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "Low",
+            "rotation": "",
+            "text": "the circumstances are favorable for rotating supercells. with this comes the risk for tornadoes. later in the night, that risk becomes smaller.",
+            "forecaster": "trein",
+            "forecaster_name": "Trein",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Trein",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-05T22:18:48.638Z",
             "province_id": "PL-LB"
           }
         ]
@@ -101717,7 +101757,7 @@
         "FCLASS_TLC": null,
         "province_id": "DE-BB",
         "province_name": "Brandenburg",
-        "warning_count": 10,
+        "warning_count": 11,
         "warnings": [
           {
             "id": "prov-warn-1778005204771-8ae8261649d2e",
@@ -101917,6 +101957,26 @@
             "issued_by": "Trein",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-05T21:59:09.680Z",
+            "province_id": "DE-BB"
+          },
+          {
+            "id": "prov-warn-1778019528638-849491817f23b",
+            "type": "Tornado Watch",
+            "issued": "2026-05-06T00:16",
+            "issued_iso": "2026-05-05T22:16:00.000Z",
+            "expires": "2026-05-06T01:00",
+            "expires_iso": "2026-05-05T23:00:00.000Z",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "Low",
+            "rotation": "",
+            "text": "the circumstances are favorable for rotating supercells. with this comes the risk for tornadoes. later in the night, that risk becomes smaller.",
+            "forecaster": "trein",
+            "forecaster_name": "Trein",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Trein",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-05T22:18:48.638Z",
             "province_id": "DE-BB"
           }
         ]
