@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T15:37:27.571Z",
+  "generated_at": "2026-05-05T15:38:10.155Z",
   "features": [
     {
       "type": "Feature",
@@ -238,55 +238,59 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1777995112439",
-        "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T17:26",
-        "issued_iso": "2026-05-05T15:26:00.000Z",
-        "expires": "2026-05-05T18:26",
-        "expires_iso": "2026-05-05T16:26:00.000Z",
-        "location": "Thüringen, Sachsen-Anhalt",
-        "hail": "1-2cm",
-        "wind": "55km/h",
+        "id": "warning-poly-1777995453481",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T17:36",
+        "issued_iso": "2026-05-05T15:36:00.000Z",
+        "expires": "2026-05-05T18:00",
+        "expires_iso": "2026-05-05T16:00:00.000Z",
+        "location": "",
+        "hail": "1.5cm",
+        "wind": "",
         "tornado_probability": "Very low",
         "rotation": "Weak rotation",
         "md_number": "",
-        "text": "a thunderstorm is making its way north/northeast, from Duderstadt to Bad harzburg and eventually in the direction of Braunsweig/Magdeburg. the rotation within the storm is weak, and the chances of a tornado forming are very low.",
+        "text": "",
         "hazards": {
-          "hail": "1-2cm",
-          "wind": "55km/h",
+          "hail": "1.5cm",
+          "wind": "",
           "tornado_probability": "Very low",
           "rotation": "Weak rotation"
         },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
         "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
+        "issued_by": "Bearmax",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T15:37:22.843Z"
+        "updated_at": "2026-05-05T15:38:06.440Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              10.162354,
-              51.522416
+              15.001831,
+              49.696506
             ],
             [
-              10.327148,
-              52.113252
+              14.771118,
+              49.724923
             ],
             [
-              11.282959,
-              51.795027
+              14.967499,
+              50.053722
             ],
             [
-              10.458984,
-              51.351201
+              15.173492,
+              50.101313
             ],
             [
-              10.162354,
-              51.522416
+              15.327301,
+              50.002554
+            ],
+            [
+              15.001831,
+              49.696506
             ]
           ]
         ]
