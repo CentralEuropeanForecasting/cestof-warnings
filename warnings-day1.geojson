@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T17:17:46.014Z",
+  "generated_at": "2026-05-05T17:22:21.805Z",
   "features": [
     {
       "type": "Feature",
@@ -1329,6 +1329,63 @@
             [
               9.162598,
               47.457809
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778001503703",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T19:18",
+        "issued_iso": "2026-05-05T17:18:00.000Z",
+        "expires": "2026-05-05T20:18",
+        "expires_iso": "2026-05-05T18:18:00.000Z",
+        "location": "karlovarsky vary, bayern",
+        "hail": "3-4cm",
+        "wind": "60km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "a strong thunderstorm is moving north through the overpfalzer wald, producing lightning, hail and wind gusts in exces of 60km/h. a tornado is not likely.",
+        "hazards": {
+          "hail": "3-4cm",
+          "wind": "60km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T17:22:17.880Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.052002,
+              49.61071
+            ],
+            [
+              12.073975,
+              50.282319
+            ],
+            [
+              12.86499,
+              50.212064
+            ],
+            [
+              12.359619,
+              49.489538
+            ],
+            [
+              12.052002,
+              49.61071
             ]
           ]
         ]
