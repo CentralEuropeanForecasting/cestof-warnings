@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T16:46:52.178Z",
+  "generated_at": "2026-05-05T16:48:09.892Z",
   "features": [
     {
       "type": "Feature",
@@ -824,59 +824,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1777999215398",
+        "id": "warning-poly-1777999348170",
         "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T18:42",
-        "issued_iso": "2026-05-05T16:42:00.000Z",
-        "expires": "2026-05-05T19:42",
-        "expires_iso": "2026-05-05T17:42:00.000Z",
-        "location": "Aubenas, Privas - France",
-        "hail": "2cm",
-        "wind": "",
+        "issued": "2026-05-05T18:41",
+        "issued_iso": "2026-05-05T16:41:00.000Z",
+        "expires": "2026-05-05T19:41",
+        "expires_iso": "2026-05-05T17:41:00.000Z",
+        "location": "",
+        "hail": "1-3cm",
+        "wind": "40-60km/h",
         "tornado_probability": "Very low",
         "rotation": "",
         "md_number": "",
-        "text": "A strong thunderstorm with peak reflectivity of 61 dBZ is moving northeast, producing intense rainfall and localized strong wind gusts. Radar signatures indicate a compact, high‑energy core capable of generating small hail.",
+        "text": "",
         "hazards": {
-          "hail": "2cm",
-          "wind": "",
+          "hail": "1-3cm",
+          "wind": "40-60km/h",
           "tornado_probability": "Very low",
           "rotation": ""
         },
-        "forecaster": "joseph",
-        "forecaster_name": "Joseph",
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
-        "issued_by": "Joseph",
+        "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T16:43:41.545Z"
+        "updated_at": "2026-05-05T16:44:35.137Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              3.57605,
-              44.347422
+              10.656738,
+              50.050085
             ],
             [
-              3.938599,
-              44.197959
+              10.640259,
+              50.677316
             ],
             [
-              4.894409,
-              44.770137
+              12.88147,
+              49.933544
             ],
             [
-              5.256958,
-              44.957024
+              11.854248,
+              49.589349
             ],
             [
-              4.290161,
-              45.305803
-            ],
-            [
-              3.57605,
-              44.347422
+              10.656738,
+              50.050085
             ]
           ]
         ]
