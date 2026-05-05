@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T19:52:55.980Z",
+  "generated_at": "2026-05-05T19:56:34.013Z",
   "features": [
     {
       "type": "Feature",
@@ -4002,6 +4002,63 @@
             [
               4.290161,
               45.690833
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778010949138",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T21:55",
+        "issued_iso": "2026-05-05T19:55:00.000Z",
+        "expires": "2026-05-05T22:40",
+        "expires_iso": "2026-05-05T20:40:00.000Z",
+        "location": "West of Lyon, France",
+        "hail": "1cm",
+        "wind": "60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A moderately strong thunderstorm west of Mâcon is moving northeast, producing 53–54 dBZ reflectivity with occasional lightning. At this intensity, the storm may generate small hail up to about 1 cm and wind gusts around 55–70 km/h, mainly near the forward‑flank. The cell remains organized but below severe thresholds, though brief strengthening is possible as it continues its northeast track.",
+        "hazards": {
+          "hail": "1cm",
+          "wind": "60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T19:56:28.507Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.400024,
+              46.308996
+            ],
+            [
+              4.564819,
+              46.17983
+            ],
+            [
+              5.267944,
+              46.483265
+            ],
+            [
+              4.828491,
+              46.7248
+            ],
+            [
+              4.400024,
+              46.308996
             ]
           ]
         ]
