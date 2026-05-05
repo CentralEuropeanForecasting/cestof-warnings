@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T19:09:18.990Z",
+  "generated_at": "2026-05-05T19:10:18.938Z",
   "features": [
     {
       "type": "Feature",
@@ -3228,6 +3228,63 @@
             [
               15.298462,
               50.659908
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778008165958",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T21:05",
+        "issued_iso": "2026-05-05T19:05:00.000Z",
+        "expires": "2026-05-05T22:00",
+        "expires_iso": "2026-05-05T20:00:00.000Z",
+        "location": "",
+        "hail": "1-2cm",
+        "wind": "40km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "this isolated, weak thunderstorm is moving northeast from the bodensee in the direction of munchen.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "40km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T19:10:10.645Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.832764,
+              47.687579
+            ],
+            [
+              10.283203,
+              47.916342
+            ],
+            [
+              10.458984,
+              47.576526
+            ],
+            [
+              9.920654,
+              47.539455
+            ],
+            [
+              9.832764,
+              47.687579
             ]
           ]
         ]
