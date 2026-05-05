@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T19:57:32.670Z",
+  "generated_at": "2026-05-05T19:58:08.484Z",
   "features": [
     {
       "type": "Feature",
@@ -4010,55 +4010,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778010768299",
+        "id": "warning-poly-1778011015249",
         "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T21:56",
-        "issued_iso": "2026-05-05T19:56:00.000Z",
-        "expires": "2026-05-05T22:56",
-        "expires_iso": "2026-05-05T20:56:00.000Z",
-        "location": "Sachen near Dresden moving north east.",
-        "hail": "1-2cm",
+        "issued": "2026-05-05T21:55",
+        "issued_iso": "2026-05-05T19:55:00.000Z",
+        "expires": "2026-05-05T22:40",
+        "expires_iso": "2026-05-05T20:40:00.000Z",
+        "location": "West of Lyon, France",
+        "hail": "1cm",
         "wind": "60km/h",
-        "tornado_probability": "Very low",
-        "rotation": "Weak rotation",
+        "tornado_probability": "",
+        "rotation": "",
         "md_number": "",
-        "text": "Clusters of Strong thunderstorms moving onto dresden and chemnitz. Hail may appear to size of 2cm and wind gust 60km/h even stronger in some places. the line may weaken in next hour. is supercell may appear in the line the hazards will be higher.",
+        "text": "A moderately strong thunderstorm west of Mâcon is moving northeast, producing 53–54 dBZ reflectivity with occasional lightning. At this intensity, the storm may generate small hail up to about 1 cm and wind gusts around 55–70 km/h, mainly near the forward‑flank. The cell remains organized but below severe thresholds, though brief strengthening is possible as it continues its northeast track.",
         "hazards": {
-          "hail": "1-2cm",
+          "hail": "1cm",
           "wind": "60km/h",
-          "tornado_probability": "Very low",
-          "rotation": "Weak rotation"
+          "tornado_probability": "",
+          "rotation": ""
         },
-        "forecaster": "S64",
-        "forecaster_name": "S64",
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
         "forecaster_role": "nowcaster",
-        "issued_by": "S64",
+        "issued_by": "Joseph",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T19:57:07.369Z"
+        "updated_at": "2026-05-05T19:56:55.249Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              12.645264,
-              50.63901
+              4.356079,
+              45.73686
             ],
             [
-              13.870239,
-              50.289339
+              4.53186,
+              45.58329
             ],
             [
-              14.622803,
-              50.792047
+              5.256958,
+              45.836454
             ],
             [
-              12.601318,
-              51.37178
+              4.762573,
+              46.111326
             ],
             [
-              12.645264,
-              50.63901
+              4.356079,
+              45.73686
             ]
           ]
         ]
