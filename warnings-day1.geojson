@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T20:25:23.279Z",
+  "generated_at": "2026-05-05T20:26:58.318Z",
   "features": [
     {
       "type": "Feature",
@@ -4409,55 +4409,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778012335121",
-        "type": "Severe Thunderstorm Warning",
-        "issued": "2026-05-05T22:24",
-        "issued_iso": "2026-05-05T20:24:00.000Z",
-        "expires": "2026-05-05T23:24",
-        "expires_iso": "2026-05-05T21:24:00.000Z",
-        "location": "Sachen hitting Dresden moving north east.",
-        "hail": "2-4cm",
-        "wind": "60km/h",
-        "tornado_probability": "Low",
-        "rotation": "Weak rotation",
+        "id": "warning-poly-1778012633271",
+        "type": "Tornado Warning",
+        "issued": "2026-05-05T22:22",
+        "issued_iso": "2026-05-05T20:22:00.000Z",
+        "expires": "2026-05-05T23:00",
+        "expires_iso": "2026-05-05T21:00:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
         "md_number": "",
-        "text": "Strong thunderstorm is moving towards Dresden. Hazards Hail up to 4cm in diameter and wind gust reaching 60km/h in some places.",
+        "text": "",
         "hazards": {
-          "hail": "2-4cm",
-          "wind": "60km/h",
-          "tornado_probability": "Low",
-          "rotation": "Weak rotation"
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
         },
-        "forecaster": "S64",
-        "forecaster_name": "S64",
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
-        "issued_by": "S64",
+        "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T20:25:20.394Z"
+        "updated_at": "2026-05-05T20:23:53.271Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              13.787842,
-              50.788575
+              13.164368,
+              50.698197
             ],
             [
-              14.078979,
-              51.344339
+              13.358002,
+              50.692108
             ],
             [
-              13.342896,
-              51.399206
+              13.518677,
+              51.119041
             ],
             [
-              13.128662,
-              50.847573
+              12.980347,
+              51.113869
             ],
             [
-              13.787842,
-              50.788575
+              13.164368,
+              50.698197
             ]
           ]
         ]
