@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T21:38:42.586Z",
+  "generated_at": "2026-05-05T21:39:42.026Z",
   "features": [
     {
       "type": "Feature",
@@ -5312,55 +5312,112 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778017060570",
-        "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T23:36",
-        "issued_iso": "2026-05-05T21:36:00.000Z",
-        "expires": "2026-05-06T00:20",
-        "expires_iso": "2026-05-05T22:20:00.000Z",
-        "location": "North of Bourg-en-Bresse, France",
-        "hail": "1,5-2cm",
-        "wind": "<70km/h",
-        "tornado_probability": "Very low",
+        "id": "warning-poly-1778012335121",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T22:24",
+        "issued_iso": "2026-05-05T20:24:00.000Z",
+        "expires": "2026-05-05T23:24",
+        "expires_iso": "2026-05-05T21:24:00.000Z",
+        "location": "Sachen hitting Dresden moving north east.",
+        "hail": "2-4cm",
+        "wind": "60km/h",
+        "tornado_probability": "Low",
         "rotation": "Weak rotation",
         "md_number": "",
-        "text": "Dbz 58-60, a lot of lightning strikes happening in the thunderstorm.",
+        "text": "Strong thunderstorm is moving towards Dresden. Hazards Hail up to 4cm in diameter and wind gust reaching 60km/h in some places.",
         "hazards": {
-          "hail": "1,5-2cm",
-          "wind": "<70km/h",
-          "tornado_probability": "Very low",
+          "hail": "2-4cm",
+          "wind": "60km/h",
+          "tornado_probability": "Low",
           "rotation": "Weak rotation"
         },
-        "forecaster": "joseph",
-        "forecaster_name": "Joseph",
+        "forecaster": "S64",
+        "forecaster_name": "S64",
         "forecaster_role": "nowcaster",
-        "issued_by": "Joseph",
+        "issued_by": "S64",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T21:38:41.193Z"
+        "updated_at": "2026-05-05T20:25:20.394Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              4.850464,
-              46.286224
+              13.787842,
+              50.788575
             ],
             [
-              5.026245,
-              46.157005
+              14.078979,
+              51.344339
             ],
             [
-              5.701904,
-              46.460566
+              13.342896,
+              51.399206
             ],
             [
-              5.251465,
-              46.7248
+              13.128662,
+              50.847573
             ],
             [
-              4.850464,
-              46.286224
+              13.787842,
+              50.788575
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778016790247",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T23:37",
+        "issued_iso": "2026-05-05T21:37:00.000Z",
+        "expires": "2026-05-06T00:37",
+        "expires_iso": "2026-05-05T22:37:00.000Z",
+        "location": "Germany. Sachsen south of dresden moving north east",
+        "hail": "1-2cm",
+        "wind": "60km/h+",
+        "tornado_probability": "Low",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "A squall line with embedded supercel in it can still produce tornado with wind gust to 60km/h or more. with hail to 2cm.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "60km/h+",
+          "tornado_probability": "Low",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "S64",
+        "forecaster_name": "S64",
+        "forecaster_role": "nowcaster",
+        "issued_by": "S64",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T21:39:38.911Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.669739,
+              51.147479
+            ],
+            [
+              13.882599,
+              51.08886
+            ],
+            [
+              14.282227,
+              51.323747
+            ],
+            [
+              13.890839,
+              51.425758
+            ],
+            [
+              13.669739,
+              51.147479
             ]
           ]
         ]
