@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T20:01:59.916Z",
+  "generated_at": "2026-05-05T20:07:13.270Z",
   "features": [
     {
       "type": "Feature",
@@ -4173,6 +4173,63 @@
             [
               15.292969,
               50.916887
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778011015249",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T21:55",
+        "issued_iso": "2026-05-05T19:55:00.000Z",
+        "expires": "2026-05-05T22:40",
+        "expires_iso": "2026-05-05T20:40:00.000Z",
+        "location": "West of Lyon, France",
+        "hail": "2cm+",
+        "wind": "70km/h+",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A compact but intense thunderstorm west of Lyon is producing 59–60 dBZ reflectivity with frequent lightning, indicating a powerful and sustained updraft. At this strength, the storm is capable of hail around 2–2.5 cm and wind gusts of 70–85 km/h, especially along the forward‑flank as it accelerates northeast. The cell remains well‑organized and may briefly pulse stronger as it approaches the outer Lyon metropolitan area.",
+        "hazards": {
+          "hail": "2cm+",
+          "wind": "70km/h+",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T19:58:11.903Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.356079,
+              45.73686
+            ],
+            [
+              4.53186,
+              45.58329
+            ],
+            [
+              5.256958,
+              45.836454
+            ],
+            [
+              4.762573,
+              46.111326
+            ],
+            [
+              4.356079,
+              45.73686
             ]
           ]
         ]
