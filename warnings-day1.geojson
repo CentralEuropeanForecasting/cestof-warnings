@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T20:26:58.318Z",
+  "generated_at": "2026-05-05T20:27:08.227Z",
   "features": [
     {
       "type": "Feature",
@@ -4416,24 +4416,24 @@
         "expires": "2026-05-05T23:00",
         "expires_iso": "2026-05-05T21:00:00.000Z",
         "location": "",
-        "hail": "",
-        "wind": "",
-        "tornado_probability": "",
-        "rotation": "",
+        "hail": "2-3cm",
+        "wind": "60km/h",
+        "tornado_probability": "Possible",
+        "rotation": "Broad rotation",
         "md_number": "",
-        "text": "",
+        "text": "radar indicated strong rotation within this storm, that is the reason why the tornado warning was issued.",
         "hazards": {
-          "hail": "",
-          "wind": "",
-          "tornado_probability": "",
-          "rotation": ""
+          "hail": "2-3cm",
+          "wind": "60km/h",
+          "tornado_probability": "Possible",
+          "rotation": "Broad rotation"
         },
         "forecaster": "trein",
         "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
         "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T20:23:53.271Z"
+        "updated_at": "2026-05-05T20:27:03.335Z"
       },
       "geometry": {
         "type": "Polygon",
