@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T15:28:08.230Z",
+  "generated_at": "2026-05-05T15:37:27.571Z",
   "features": [
     {
       "type": "Feature",
@@ -230,6 +230,63 @@
             [
               14.968872,
               49.632507
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1777995112439",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T17:26",
+        "issued_iso": "2026-05-05T15:26:00.000Z",
+        "expires": "2026-05-05T18:26",
+        "expires_iso": "2026-05-05T16:26:00.000Z",
+        "location": "Thüringen, Sachsen-Anhalt",
+        "hail": "1-2cm",
+        "wind": "55km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "a thunderstorm is making its way north/northeast, from Duderstadt to Bad harzburg and eventually in the direction of Braunsweig/Magdeburg. the rotation within the storm is weak, and the chances of a tornado forming are very low.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "55km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T15:37:22.843Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.162354,
+              51.522416
+            ],
+            [
+              10.327148,
+              52.113252
+            ],
+            [
+              11.282959,
+              51.795027
+            ],
+            [
+              10.458984,
+              51.351201
+            ],
+            [
+              10.162354,
+              51.522416
             ]
           ]
         ]
