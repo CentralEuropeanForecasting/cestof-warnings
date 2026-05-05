@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T16:52:32.276Z",
+  "generated_at": "2026-05-05T16:53:21.203Z",
   "features": [
     {
       "type": "Feature",
@@ -824,59 +824,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1777999215398",
+        "id": "warning-poly-1777999348170",
         "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T18:42",
-        "issued_iso": "2026-05-05T16:42:00.000Z",
-        "expires": "2026-05-05T19:42",
-        "expires_iso": "2026-05-05T17:42:00.000Z",
-        "location": "Aubenas, Privas - France",
-        "hail": "2cm",
-        "wind": "",
+        "issued": "2026-05-05T18:41",
+        "issued_iso": "2026-05-05T16:41:00.000Z",
+        "expires": "2026-05-05T19:41",
+        "expires_iso": "2026-05-05T17:41:00.000Z",
+        "location": "",
+        "hail": "1-3cm",
+        "wind": "40-60km/h",
         "tornado_probability": "Very low",
         "rotation": "",
         "md_number": "",
-        "text": "A strong thunderstorm with peak reflectivity of 61 dBZ is moving northeast, producing intense rainfall and localized strong wind gusts. Radar signatures indicate a compact, high‑energy core capable of generating small hail.",
+        "text": "",
         "hazards": {
-          "hail": "2cm",
-          "wind": "",
+          "hail": "1-3cm",
+          "wind": "40-60km/h",
           "tornado_probability": "Very low",
           "rotation": ""
         },
-        "forecaster": "joseph",
-        "forecaster_name": "Joseph",
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
-        "issued_by": "Joseph",
+        "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T16:43:41.545Z"
+        "updated_at": "2026-05-05T16:44:35.137Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              3.57605,
-              44.347422
+              10.656738,
+              50.050085
             ],
             [
-              3.938599,
-              44.197959
+              10.640259,
+              50.677316
             ],
             [
-              4.894409,
-              44.770137
+              12.88147,
+              49.933544
             ],
             [
-              5.256958,
-              44.957024
+              11.854248,
+              49.589349
             ],
             [
-              4.290161,
-              45.305803
-            ],
-            [
-              3.57605,
-              44.347422
+              10.656738,
+              50.050085
             ]
           ]
         ]
@@ -885,55 +881,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1777999921555",
-        "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T18:50",
-        "issued_iso": "2026-05-05T16:50:00.000Z",
-        "expires": "2026-05-05T19:40",
-        "expires_iso": "2026-05-05T17:40:00.000Z",
-        "location": "Near St. Étienne",
-        "hail": "2cm",
-        "wind": "",
-        "tornado_probability": "",
-        "rotation": "",
+        "id": "warning-poly-1777999760169",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T18:47",
+        "issued_iso": "2026-05-05T16:47:00.000Z",
+        "expires": "2026-05-05T19:47",
+        "expires_iso": "2026-05-05T17:47:00.000Z",
+        "location": "Bayern,Thüringen",
+        "hail": "2-3cm",
+        "wind": "50km/h",
+        "tornado_probability": "Low",
+        "rotation": "Weak rotation",
         "md_number": "",
-        "text": "A very strong thunderstorm with peak reflectivity of 60-65 dBZ is moving north‑northeast across the Saint‑Étienne region, bringing torrential rain and strong wind gusts. The intensity and structure of the core suggest the potential for hail up to about 2 cm in diameter",
+        "text": "a strong, severe thunderstorm is pushing north along the thunderstorm line near Nürnberg. this storm is producing many lightning strikes and large hail. the chances of a tornado forming are low, but if the rotation intensifies more it will be possible.",
         "hazards": {
-          "hail": "2cm",
-          "wind": "",
-          "tornado_probability": "",
-          "rotation": ""
+          "hail": "2-3cm",
+          "wind": "50km/h",
+          "tornado_probability": "Low",
+          "rotation": "Weak rotation"
         },
-        "forecaster": "joseph",
-        "forecaster_name": "Joseph",
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
-        "issued_by": "Joseph",
+        "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T16:52:27.913Z"
+        "updated_at": "2026-05-05T16:53:18.763Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              4.246216,
-              45.174293
+              11.315918,
+              49.767074
             ],
             [
-              4.520874,
-              45.120053
+              11.162109,
+              50.632042
             ],
             [
-              4.949341,
-              45.690833
+              12.249756,
+              50.562304
             ],
             [
-              4.334106,
-              45.844108
+              11.568604,
+              49.703168
             ],
             [
-              4.246216,
-              45.174293
+              11.315918,
+              49.767074
             ]
           ]
         ]
