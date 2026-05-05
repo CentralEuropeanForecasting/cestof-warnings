@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T21:04:25.240Z",
+  "generated_at": "2026-05-05T21:04:56.064Z",
   "features": [
     {
       "type": "Feature",
@@ -4885,55 +4885,71 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778014963572",
-        "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T22:46",
-        "issued_iso": "2026-05-05T20:46:00.000Z",
-        "expires": "2026-05-05T23:00",
-        "expires_iso": "2026-05-05T21:00:00.000Z",
-        "location": "sachsen,thuringen,ustecky kraj",
-        "hail": "1-3cm",
-        "wind": "40-60km/h",
-        "tornado_probability": "Low",
+        "id": "warning-poly-1778014960457",
+        "type": "Heavy Rain Warning",
+        "issued": "2026-05-05T23:00",
+        "issued_iso": "2026-05-05T21:00:00.000Z",
+        "expires": "2026-05-05T02:20",
+        "expires_iso": "2026-05-05T00:20:00.000Z",
+        "location": "Montpellier area, France",
+        "hail": "None",
+        "wind": "Low intensity wind gusts",
+        "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "a line of thunderstorms is going northeast across east germany, bringing hail and lightning with it.",
+        "text": "A large, organized rain cluster is moving toward Montpellier, producing widespread 40–50 dBZ reflectivity. This indicates very heavy rainfall, but without the structural features or lightning activity typical of a thunderstorm. The main impacts will be intense rain rates, reduced visibility, and locally gusty winds, with no significant hail or severe‑storm signatures present.",
         "hazards": {
-          "hail": "1-3cm",
-          "wind": "40-60km/h",
-          "tornado_probability": "Low",
+          "hail": "None",
+          "wind": "Low intensity wind gusts",
+          "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
         "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
+        "issued_by": "Joseph",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T21:04:11.543Z"
+        "updated_at": "2026-05-05T21:03:09.275Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              11.217041,
-              50.854509
+              3.22998,
+              43.596306
             ],
             [
-              11.293945,
-              51.815407
+              2.966309,
+              42.932296
             ],
             [
-              15.040283,
-              50.951506
+              3.240967,
+              42.722804
             ],
             [
-              13.776855,
-              49.993615
+              3.658447,
+              42.5207
             ],
             [
-              11.217041,
-              50.854509
+              4.669189,
+              43.109004
+            ],
+            [
+              5.476685,
+              43.779027
+            ],
+            [
+              4.669189,
+              44.237328
+            ],
+            [
+              3.696899,
+              44.292401
+            ],
+            [
+              3.22998,
+              43.596306
             ]
           ]
         ]
