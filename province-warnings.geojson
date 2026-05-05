@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-05-05T18:20:22.221Z",
+  "generated_at": "2026-05-05T18:50:45.979Z",
   "features": [
     {
       "type": "Feature",
@@ -71957,7 +71957,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-US",
         "province_name": "Ústecký",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778000178042-6d41d336c0d56",
@@ -71977,6 +71977,26 @@
             "issued_by": "Trein",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-05T16:56:18.042Z",
+            "province_id": "CZ-US"
+          },
+          {
+            "id": "prov-warn-1778007034966-87fa5fcfaa7a3",
+            "type": "Thunderstorm Watch",
+            "issued": "2026-05-05T20:46",
+            "issued_iso": "2026-05-05T18:46:00.000Z",
+            "expires": "2026-05-05T22:00",
+            "expires_iso": "2026-05-05T20:00:00.000Z",
+            "hail": "1-5cm",
+            "wind": "40-70km/h",
+            "tornado_probability": "Very low",
+            "rotation": "",
+            "text": "the ingredients are present for severe thunderstorms to form and develop further.",
+            "forecaster": "trein",
+            "forecaster_name": "Trein",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Trein",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-05T18:50:34.966Z",
             "province_id": "CZ-US"
           }
         ]
@@ -73353,7 +73373,7 @@
         "FCLASS_TLC": null,
         "province_id": "DE-SN",
         "province_name": "Sachsen",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778000178042-6d41d336c0d56",
@@ -73373,6 +73393,26 @@
             "issued_by": "Trein",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-05T16:56:18.042Z",
+            "province_id": "DE-SN"
+          },
+          {
+            "id": "prov-warn-1778007034966-87fa5fcfaa7a3",
+            "type": "Thunderstorm Watch",
+            "issued": "2026-05-05T20:46",
+            "issued_iso": "2026-05-05T18:46:00.000Z",
+            "expires": "2026-05-05T22:00",
+            "expires_iso": "2026-05-05T20:00:00.000Z",
+            "hail": "1-5cm",
+            "wind": "40-70km/h",
+            "tornado_probability": "Very low",
+            "rotation": "",
+            "text": "the ingredients are present for severe thunderstorms to form and develop further.",
+            "forecaster": "trein",
+            "forecaster_name": "Trein",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Trein",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-05T18:50:34.966Z",
             "province_id": "DE-SN"
           }
         ]
@@ -76097,7 +76137,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-LI",
         "province_name": "Liberecký",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778000178042-6d41d336c0d56",
@@ -76117,6 +76157,26 @@
             "issued_by": "Trein",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-05T16:56:18.042Z",
+            "province_id": "CZ-LI"
+          },
+          {
+            "id": "prov-warn-1778007034966-87fa5fcfaa7a3",
+            "type": "Thunderstorm Watch",
+            "issued": "2026-05-05T20:46",
+            "issued_iso": "2026-05-05T18:46:00.000Z",
+            "expires": "2026-05-05T22:00",
+            "expires_iso": "2026-05-05T20:00:00.000Z",
+            "hail": "1-5cm",
+            "wind": "40-70km/h",
+            "tornado_probability": "Very low",
+            "rotation": "",
+            "text": "the ingredients are present for severe thunderstorms to form and develop further.",
+            "forecaster": "trein",
+            "forecaster_name": "Trein",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Trein",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-05T18:50:34.966Z",
             "province_id": "CZ-LI"
           }
         ]
@@ -77141,7 +77201,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-KA",
         "province_name": "Karlovarský",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778000178042-6d41d336c0d56",
@@ -77161,6 +77221,26 @@
             "issued_by": "Trein",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-05T16:56:18.042Z",
+            "province_id": "CZ-KA"
+          },
+          {
+            "id": "prov-warn-1778007034966-87fa5fcfaa7a3",
+            "type": "Thunderstorm Watch",
+            "issued": "2026-05-05T20:46",
+            "issued_iso": "2026-05-05T18:46:00.000Z",
+            "expires": "2026-05-05T22:00",
+            "expires_iso": "2026-05-05T20:00:00.000Z",
+            "hail": "1-5cm",
+            "wind": "40-70km/h",
+            "tornado_probability": "Very low",
+            "rotation": "",
+            "text": "the ingredients are present for severe thunderstorms to form and develop further.",
+            "forecaster": "trein",
+            "forecaster_name": "Trein",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Trein",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-05T18:50:34.966Z",
             "province_id": "CZ-KA"
           }
         ]
@@ -78101,7 +78181,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-PL",
         "province_name": "Plzeňský",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778000178042-6d41d336c0d56",
@@ -78121,6 +78201,26 @@
             "issued_by": "Trein",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-05T16:56:18.042Z",
+            "province_id": "CZ-PL"
+          },
+          {
+            "id": "prov-warn-1778007034966-87fa5fcfaa7a3",
+            "type": "Thunderstorm Watch",
+            "issued": "2026-05-05T20:46",
+            "issued_iso": "2026-05-05T18:46:00.000Z",
+            "expires": "2026-05-05T22:00",
+            "expires_iso": "2026-05-05T20:00:00.000Z",
+            "hail": "1-5cm",
+            "wind": "40-70km/h",
+            "tornado_probability": "Very low",
+            "rotation": "",
+            "text": "the ingredients are present for severe thunderstorms to form and develop further.",
+            "forecaster": "trein",
+            "forecaster_name": "Trein",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Trein",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-05T18:50:34.966Z",
             "province_id": "CZ-PL"
           }
         ]
@@ -81289,7 +81389,7 @@
         "FCLASS_TLC": null,
         "province_id": "PL-DS",
         "province_name": "Lower Silesian",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778000178042-6d41d336c0d56",
@@ -81309,6 +81409,26 @@
             "issued_by": "Trein",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-05T16:56:18.042Z",
+            "province_id": "PL-DS"
+          },
+          {
+            "id": "prov-warn-1778007034966-87fa5fcfaa7a3",
+            "type": "Thunderstorm Watch",
+            "issued": "2026-05-05T20:46",
+            "issued_iso": "2026-05-05T18:46:00.000Z",
+            "expires": "2026-05-05T22:00",
+            "expires_iso": "2026-05-05T20:00:00.000Z",
+            "hail": "1-5cm",
+            "wind": "40-70km/h",
+            "tornado_probability": "Very low",
+            "rotation": "",
+            "text": "the ingredients are present for severe thunderstorms to form and develop further.",
+            "forecaster": "trein",
+            "forecaster_name": "Trein",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Trein",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-05T18:50:34.966Z",
             "province_id": "PL-DS"
           }
         ]
@@ -90425,7 +90545,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-ST",
         "province_name": "Středočeský",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778000178042-6d41d336c0d56",
@@ -90445,6 +90565,26 @@
             "issued_by": "Trein",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-05T16:56:18.042Z",
+            "province_id": "CZ-ST"
+          },
+          {
+            "id": "prov-warn-1778007034966-87fa5fcfaa7a3",
+            "type": "Thunderstorm Watch",
+            "issued": "2026-05-05T20:46",
+            "issued_iso": "2026-05-05T18:46:00.000Z",
+            "expires": "2026-05-05T22:00",
+            "expires_iso": "2026-05-05T20:00:00.000Z",
+            "hail": "1-5cm",
+            "wind": "40-70km/h",
+            "tornado_probability": "Very low",
+            "rotation": "",
+            "text": "the ingredients are present for severe thunderstorms to form and develop further.",
+            "forecaster": "trein",
+            "forecaster_name": "Trein",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Trein",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-05T18:50:34.966Z",
             "province_id": "CZ-ST"
           }
         ]
@@ -93275,7 +93415,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-PR",
         "province_name": "Prague",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778000178042-6d41d336c0d56",
@@ -93295,6 +93435,26 @@
             "issued_by": "Trein",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-05T16:56:18.042Z",
+            "province_id": "CZ-PR"
+          },
+          {
+            "id": "prov-warn-1778007034966-87fa5fcfaa7a3",
+            "type": "Thunderstorm Watch",
+            "issued": "2026-05-05T20:46",
+            "issued_iso": "2026-05-05T18:46:00.000Z",
+            "expires": "2026-05-05T22:00",
+            "expires_iso": "2026-05-05T20:00:00.000Z",
+            "hail": "1-5cm",
+            "wind": "40-70km/h",
+            "tornado_probability": "Very low",
+            "rotation": "",
+            "text": "the ingredients are present for severe thunderstorms to form and develop further.",
+            "forecaster": "trein",
+            "forecaster_name": "Trein",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Trein",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-05T18:50:34.966Z",
             "province_id": "CZ-PR"
           }
         ]
@@ -100189,7 +100349,7 @@
         "FCLASS_TLC": null,
         "province_id": "PL-LB",
         "province_name": "Lubusz",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778005204771-8ae8261649d2e",
@@ -100209,6 +100369,26 @@
             "issued_by": "S64",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-05T18:20:04.771Z",
+            "province_id": "PL-LB"
+          },
+          {
+            "id": "prov-warn-1778007034966-87fa5fcfaa7a3",
+            "type": "Thunderstorm Watch",
+            "issued": "2026-05-05T20:46",
+            "issued_iso": "2026-05-05T18:46:00.000Z",
+            "expires": "2026-05-05T22:00",
+            "expires_iso": "2026-05-05T20:00:00.000Z",
+            "hail": "1-5cm",
+            "wind": "40-70km/h",
+            "tornado_probability": "Very low",
+            "rotation": "",
+            "text": "the ingredients are present for severe thunderstorms to form and develop further.",
+            "forecaster": "trein",
+            "forecaster_name": "Trein",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Trein",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-05T18:50:34.966Z",
             "province_id": "PL-LB"
           }
         ]
