@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T16:34:13.760Z",
+  "generated_at": "2026-05-05T16:37:18.000Z",
   "features": [
     {
       "type": "Feature",
@@ -759,6 +759,63 @@
             [
               11.107178,
               49.667628
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1777998946258",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T18:36",
+        "issued_iso": "2026-05-05T16:36:00.000Z",
+        "expires": "2026-05-05T19:36",
+        "expires_iso": "2026-05-05T17:36:00.000Z",
+        "location": "Sachsen-anhalt",
+        "hail": "1-2cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "a single thunderstorm moving east, producing lightning and hail.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T16:37:12.206Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.393066,
+              51.508742
+            ],
+            [
+              11.513672,
+              51.822198
+            ],
+            [
+              11.447754,
+              51.151786
+            ],
+            [
+              10.437012,
+              51.310013
+            ],
+            [
+              10.393066,
+              51.508742
             ]
           ]
         ]
