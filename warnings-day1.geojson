@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T21:42:11.997Z",
+  "generated_at": "2026-05-05T21:51:11.379Z",
   "features": [
     {
       "type": "Feature",
@@ -5361,6 +5361,63 @@
             [
               4.850464,
               46.286224
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778017313457",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T21:55",
+        "issued_iso": "2026-05-05T19:55:00.000Z",
+        "expires": "2026-05-05T23:00",
+        "expires_iso": "2026-05-05T21:00:00.000Z",
+        "location": "brandenburg",
+        "hail": "1-2cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "a severe thunderstorm is making its way north to berlin, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T21:42:53.703Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.656006,
+              51.344339
+            ],
+            [
+              13.414307,
+              52.032218
+            ],
+            [
+              14.304199,
+              51.890054
+            ],
+            [
+              13.886719,
+              51.337476
+            ],
+            [
+              13.656006,
+              51.344339
             ]
           ]
         ]
