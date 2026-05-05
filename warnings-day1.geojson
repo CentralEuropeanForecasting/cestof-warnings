@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T17:04:45.966Z",
+  "generated_at": "2026-05-05T17:07:03.834Z",
   "features": [
     {
       "type": "Feature",
@@ -1052,55 +1052,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778000627416",
+        "id": "warning-poly-1778000807736",
         "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T18:57",
-        "issued_iso": "2026-05-05T16:57:00.000Z",
-        "expires": "2026-05-05T19:57",
-        "expires_iso": "2026-05-05T17:57:00.000Z",
-        "location": "Thüringen",
-        "hail": "1-2cm",
-        "wind": "45km/h",
-        "tornado_probability": "Very low",
+        "issued": "2026-05-05T19:04",
+        "issued_iso": "2026-05-05T17:04:00.000Z",
+        "expires": "2026-05-05T20:04",
+        "expires_iso": "2026-05-05T18:04:00.000Z",
+        "location": "Pilsen",
+        "hail": "0.5-2cm",
+        "wind": "",
+        "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "a group of thunderstorms is moving north and producing lightning and small hail.",
+        "text": "A strong thunderstorm with reflectivity up to 58 dBZ is moving north‑northeast toward the Plzeň area, bringing heavy rainfall and frequent lightning. The core remains compact and intense, indicating the potential for brief gusty winds and small hail as it enters the city.",
         "hazards": {
-          "hail": "1-2cm",
-          "wind": "45km/h",
-          "tornado_probability": "Very low",
+          "hail": "0.5-2cm",
+          "wind": "",
+          "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
         "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
+        "issued_by": "Joseph",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T17:04:39.173Z"
+        "updated_at": "2026-05-05T17:07:01.636Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              10.17334,
-              50.25423
+              13.156128,
+              49.575102
             ],
             [
-              9.942627,
-              50.999929
+              13.430786,
+              49.482401
             ],
             [
-              11.162109,
-              50.882243
+              13.826294,
+              49.95122
             ],
             [
-              10.491943,
-              50.176898
+              13.255005,
+              50.04303
             ],
             [
-              10.17334,
-              50.25423
+              13.156128,
+              49.575102
             ]
           ]
         ]
