@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T17:12:24.368Z",
+  "generated_at": "2026-05-05T17:14:54.789Z",
   "features": [
     {
       "type": "Feature",
@@ -1215,6 +1215,63 @@
             [
               7.229004,
               47.62838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778001171462",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T18:57",
+        "issued_iso": "2026-05-05T16:57:00.000Z",
+        "expires": "2026-05-05T19:57",
+        "expires_iso": "2026-05-05T17:57:00.000Z",
+        "location": "Oberösterreich",
+        "hail": "2-3cm",
+        "wind": "55km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "the thunderstorm near salzburg is making its way to the Austrian-czech border. producing hail and lightning. the chance for a tornado is really low.",
+        "hazards": {
+          "hail": "2-3cm",
+          "wind": "55km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T17:14:50.821Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.216553,
+              48.078079
+            ],
+            [
+              13.612061,
+              48.661943
+            ],
+            [
+              14.326172,
+              48.275882
+            ],
+            [
+              13.40332,
+              47.945786
+            ],
+            [
+              13.216553,
+              48.078079
             ]
           ]
         ]
