@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T20:16:56.679Z",
+  "generated_at": "2026-05-05T20:22:18.054Z",
   "features": [
     {
       "type": "Feature",
@@ -4344,6 +4344,63 @@
             [
               13.491211,
               50.134664
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778012464467",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T22:20",
+        "issued_iso": "2026-05-05T20:20:00.000Z",
+        "expires": "2026-05-05T23:20",
+        "expires_iso": "2026-05-05T21:20:00.000Z",
+        "location": "south of Hyeres",
+        "hail": "3cm",
+        "wind": "80km/h+",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "A powerful thunderstorm over the Mediterranean south of Hyères is producing 63 dBZ reflectivity with a deeply organized core, indicating a strong and sustained updraft. At this intensity, the storm is capable of hail between 2 and 4 cm and wind gusts of 80–100 km/h, especially as it approaches the coast. Given its strength, structure, and trajectory toward land, the storm fully meets the criteria for a severe thunderstorm warning as it continues moving northeast.",
+        "hazards": {
+          "hail": "3cm",
+          "wind": "80km/h+",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T20:22:16.246Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.015015,
+              42.779275
+            ],
+            [
+              6.317139,
+              42.577355
+            ],
+            [
+              7.349854,
+              43.092961
+            ],
+            [
+              6.580811,
+              43.492783
+            ],
+            [
+              6.015015,
+              42.779275
             ]
           ]
         ]
