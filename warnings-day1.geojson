@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T19:05:23.777Z",
+  "generated_at": "2026-05-05T19:06:39.384Z",
   "features": [
     {
       "type": "Feature",
@@ -3171,6 +3171,63 @@
             [
               11.689453,
               50.275299
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778007965551",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T21:05",
+        "issued_iso": "2026-05-05T19:05:00.000Z",
+        "expires": "2026-05-05T21:45",
+        "expires_iso": "2026-05-05T19:45:00.000Z",
+        "location": "Rokytnice nad Jizerou, Czechia",
+        "hail": "1cm+",
+        "wind": "70km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A strong thunderstorm over Rokytnice nad Jizerou is producing 55+ dBZ reflectivity with frequent lightning, indicating a well‑developed convective core. At this intensity, the storm can generate hail around 1–2 cm and wind gusts of 60–80 km/h, especially as it moves into higher terrain and crosses the border. The cell remains organized and active as it tracks north into Poland, with continued lightning and heavy rainfall likely along its path.",
+        "hazards": {
+          "hail": "1cm+",
+          "wind": "70km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T19:06:37.403Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.298462,
+              50.659908
+            ],
+            [
+              15.551147,
+              50.652943
+            ],
+            [
+              15.704956,
+              51.07592
+            ],
+            [
+              15.232544,
+              51.069017
+            ],
+            [
+              15.298462,
+              50.659908
             ]
           ]
         ]
