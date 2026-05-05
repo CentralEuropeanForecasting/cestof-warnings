@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T18:19:17.485Z",
+  "generated_at": "2026-05-05T18:24:03.922Z",
   "features": [
     {
       "type": "Feature",
@@ -2658,6 +2658,63 @@
             [
               13.535156,
               49.560852
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778005403855",
+        "type": "Thunderstorm Watch",
+        "issued": "2026-05-05T20:20",
+        "issued_iso": "2026-05-05T18:20:00.000Z",
+        "expires": "2026-05-05T20:40",
+        "expires_iso": "2026-05-05T18:40:00.000Z",
+        "location": "close to Mladá Boleslav",
+        "hail": "None",
+        "wind": "40 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A small thunderstorm cell near Mladá Boleslav with around 45 dBZ and no hail fits well as a thunderstorm watch, not severe. It can bring brief heavy rain, lightning, and gusts around 40–55 km/h, but without clear large‑hail or damaging‑wind signatures.",
+        "hazards": {
+          "hail": "None",
+          "wind": "40 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T18:23:59.637Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.716187,
+              50.408518
+            ],
+            [
+              14.880981,
+              50.408518
+            ],
+            [
+              14.935913,
+              50.632042
+            ],
+            [
+              14.61731,
+              50.625073
+            ],
+            [
+              14.716187,
+              50.408518
             ]
           ]
         ]
