@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T21:13:50.467Z",
+  "generated_at": "2026-05-05T21:17:08.149Z",
   "features": [
     {
       "type": "Feature",
@@ -5007,6 +5007,63 @@
             [
               11.217041,
               50.854509
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778015726611",
+        "type": "Tornado Warning",
+        "issued": "2026-05-05T23:10",
+        "issued_iso": "2026-05-05T21:10:00.000Z",
+        "expires": "2026-05-05T23:30",
+        "expires_iso": "2026-05-05T21:30:00.000Z",
+        "location": "dresden",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Low",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "a rotating storm has been spotted on radar near this exact location. the chances of a tornado are low, but not 0.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Low",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T21:17:05.502Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.517303,
+              51.043121
+            ],
+            [
+              13.581848,
+              51.2
+            ],
+            [
+              13.771362,
+              51.156954
+            ],
+            [
+              13.573608,
+              51.024985
+            ],
+            [
+              13.517303,
+              51.043121
             ]
           ]
         ]
