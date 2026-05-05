@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T19:27:52.793Z",
+  "generated_at": "2026-05-05T19:30:48.311Z",
   "features": [
     {
       "type": "Feature",
@@ -3762,6 +3762,63 @@
             [
               15.270996,
               50.680797
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778009340108",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T21:29",
+        "issued_iso": "2026-05-05T19:29:00.000Z",
+        "expires": "2026-05-05T22:30",
+        "expires_iso": "2026-05-05T20:30:00.000Z",
+        "location": "Thüringen,bayern,sachsen,plzensky kraj,karlovy kraj, usti nad labem",
+        "hail": "2-3cm",
+        "wind": "60km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this severe thunderstorm is part of the line of storms pushing north. while doing that, its producing damaging winds, lightning and large hail.",
+        "hazards": {
+          "hail": "2-3cm",
+          "wind": "60km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T19:30:45.468Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.062744,
+              50.317408
+            ],
+            [
+              12.810059,
+              51.138001
+            ],
+            [
+              13.94165,
+              51.082822
+            ],
+            [
+              13.425293,
+              50.282319
+            ],
+            [
+              13.062744,
+              50.317408
             ]
           ]
         ]
