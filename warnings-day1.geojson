@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T17:22:56.097Z",
+  "generated_at": "2026-05-05T17:26:56.796Z",
   "features": [
     {
       "type": "Feature",
@@ -1386,6 +1386,63 @@
             [
               12.052002,
               49.61071
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778001889881",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T19:23",
+        "issued_iso": "2026-05-05T17:23:00.000Z",
+        "expires": "2026-05-05T20:23",
+        "expires_iso": "2026-05-05T18:23:00.000Z",
+        "location": "Aubenas, Privas, Heading for Valence",
+        "hail": "2-3cm",
+        "wind": "80 km/h possible",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A severe thunderstorm moving northeast toward Valence is producing intense rainfall, frequent lightning, and a powerful convective core with reflectivity repeatedly reaching 62–65 dBZ. These values indicate a strong, sustained updraft capable of generating hail up to 3 cm, along with the potential for brief damaging wind gusts near the strongest cells. The storm remains well‑organized and continues advancing toward the lower Rhône valley with severe hazards possible along its path.",
+        "hazards": {
+          "hail": "2-3cm",
+          "wind": "80 km/h possible",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T17:26:53.341Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.136353,
+              44.72332
+            ],
+            [
+              4.432983,
+              44.543505
+            ],
+            [
+              5.245972,
+              44.980342
+            ],
+            [
+              4.674683,
+              45.267155
+            ],
+            [
+              4.136353,
+              44.72332
             ]
           ]
         ]
