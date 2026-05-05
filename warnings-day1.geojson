@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T18:34:25.656Z",
+  "generated_at": "2026-05-05T18:50:41.030Z",
   "features": [
     {
       "type": "Feature",
@@ -2829,6 +2829,63 @@
             [
               15.595093,
               50.53438
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778005892057",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T20:01",
+        "issued_iso": "2026-05-05T18:01:00.000Z",
+        "expires": "2026-05-05T21:00",
+        "expires_iso": "2026-05-05T19:00:00.000Z",
+        "location": "sachsen",
+        "hail": "none",
+        "wind": "40km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "this small thunderstorm is mainly producing rain, with a few lightning strikes here and there. the storm is moving northeast",
+        "hazards": {
+          "hail": "none",
+          "wind": "40km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T18:32:46.677Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.437256,
+              50.303376
+            ],
+            [
+              9.689941,
+              50.923813
+            ],
+            [
+              10.415039,
+              50.63901
+            ],
+            [
+              9.744873,
+              50.205033
+            ],
+            [
+              9.437256,
+              50.303376
             ]
           ]
         ]
