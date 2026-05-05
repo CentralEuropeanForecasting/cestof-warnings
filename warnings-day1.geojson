@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T19:15:42.923Z",
+  "generated_at": "2026-05-05T19:19:34.701Z",
   "features": [
     {
       "type": "Feature",
@@ -3399,6 +3399,63 @@
             [
               13.656006,
               49.809632
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778008676309",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T21:18",
+        "issued_iso": "2026-05-05T19:18:00.000Z",
+        "expires": "2026-05-05T22:00",
+        "expires_iso": "2026-05-05T20:00:00.000Z",
+        "location": "bayern,tirol",
+        "hail": "1-2cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast, producing lighting and hail. the storm passes north of innsbruck and continues its way to kufstein.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T19:19:31.845Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.579834,
+              47.428087
+            ],
+            [
+              11.008301,
+              47.635784
+            ],
+            [
+              11.162109,
+              47.368594
+            ],
+            [
+              10.634766,
+              47.309034
+            ],
+            [
+              10.579834,
+              47.428087
             ]
           ]
         ]
