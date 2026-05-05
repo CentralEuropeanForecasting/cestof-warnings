@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-05-05T21:33:16.016Z",
+  "generated_at": "2026-05-05T21:38:29.438Z",
   "features": [
     {
       "type": "Feature",
@@ -73373,7 +73373,7 @@
         "FCLASS_TLC": null,
         "province_id": "DE-SN",
         "province_name": "Sachsen",
-        "warning_count": 4,
+        "warning_count": 5,
         "warnings": [
           {
             "id": "prov-warn-1778000178042-6d41d336c0d56",
@@ -73453,6 +73453,26 @@
             "issued_by": "CAPE",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-05T20:57:10.849Z",
+            "province_id": "DE-SN"
+          },
+          {
+            "id": "prov-warn-1778017106456-86864885c106b",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-05T23:36",
+            "issued_iso": "2026-05-05T21:36:00.000Z",
+            "expires": "2026-05-06T00:15",
+            "expires_iso": "2026-05-05T22:15:00.000Z",
+            "hail": "0.2 - 0.5 cm",
+            "wind": "40 km/h",
+            "tornado_probability": "",
+            "rotation": "Weak rotation",
+            "text": "Thunderstorm system is moving through Sachsen, with a rotation and possible tornado in its past live.\nThe system is showing signs of weakening",
+            "forecaster": "cape",
+            "forecaster_name": "CAPE",
+            "forecaster_role": "owner",
+            "issued_by": "CAPE",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-05T21:38:26.456Z",
             "province_id": "DE-SN"
           }
         ]
