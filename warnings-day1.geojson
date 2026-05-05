@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T21:27:19.593Z",
+  "generated_at": "2026-05-05T21:29:48.059Z",
   "features": [
     {
       "type": "Feature",
@@ -5190,6 +5190,63 @@
             [
               7.091675,
               43.028745
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778016470688",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T23:29",
+        "issued_iso": "2026-05-05T21:29:00.000Z",
+        "expires": "2026-05-06T00:20",
+        "expires_iso": "2026-05-05T22:20:00.000Z",
+        "location": "south of Frejus, France",
+        "hail": "2cm+",
+        "wind": "<90km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Dbz 60+",
+        "hazards": {
+          "hail": "2cm+",
+          "wind": "<90km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T21:29:43.240Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.498413,
+              42.900113
+            ],
+            [
+              6.740112,
+              42.698586
+            ],
+            [
+              7.366333,
+              42.988576
+            ],
+            [
+              6.959839,
+              43.253205
+            ],
+            [
+              6.498413,
+              42.900113
             ]
           ]
         ]
