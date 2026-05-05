@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T19:42:46.438Z",
+  "generated_at": "2026-05-05T19:52:51.217Z",
   "features": [
     {
       "type": "Feature",
@@ -3945,6 +3945,63 @@
             [
               6.437988,
               46.050361
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778010765085",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T21:05",
+        "issued_iso": "2026-05-05T19:05:00.000Z",
+        "expires": "2026-05-05T21:45",
+        "expires_iso": "2026-05-05T19:45:00.000Z",
+        "location": "West of Lyon, France",
+        "hail": "2cm+",
+        "wind": "70km/h+",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A compact but intense thunderstorm west of Lyon is producing 59–60 dBZ reflectivity with frequent lightning, indicating a powerful and sustained updraft. At this strength, the storm is capable of hail around 2–2.5 cm and wind gusts of 70–85 km/h, especially along the forward‑flank as it accelerates northeast. The cell remains well‑organized and may briefly pulse stronger as it approaches the outer Lyon metropolitan area.",
+        "hazards": {
+          "hail": "2cm+",
+          "wind": "70km/h+",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T19:52:49.385Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.290161,
+              45.690833
+            ],
+            [
+              4.520874,
+              45.606352
+            ],
+            [
+              5.092163,
+              45.874712
+            ],
+            [
+              4.751587,
+              46.088472
+            ],
+            [
+              4.290161,
+              45.690833
             ]
           ]
         ]
