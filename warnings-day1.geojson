@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T20:07:13.270Z",
+  "generated_at": "2026-05-05T20:14:32.524Z",
   "features": [
     {
       "type": "Feature",
@@ -4230,6 +4230,63 @@
             [
               4.356079,
               45.73686
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778011965449",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T22:09",
+        "issued_iso": "2026-05-05T20:09:00.000Z",
+        "expires": "2026-05-05T23:00",
+        "expires_iso": "2026-05-05T21:00:00.000Z",
+        "location": "stredocesky kraj, praha",
+        "hail": "1-2cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is barely passing by Praha, moving north. the storm is producing hail and lightning,",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T20:14:29.252Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.018555,
+              49.94415
+            ],
+            [
+              14.018555,
+              50.219095
+            ],
+            [
+              14.425049,
+              50.141706
+            ],
+            [
+              14.18335,
+              49.901711
+            ],
+            [
+              14.018555,
+              49.94415
             ]
           ]
         ]
