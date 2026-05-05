@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T17:58:42.422Z",
+  "generated_at": "2026-05-05T18:00:03.837Z",
   "features": [
     {
       "type": "Feature",
@@ -2202,6 +2202,63 @@
             [
               9.415283,
               47.561701
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778003690296",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T20:00",
+        "issued_iso": "2026-05-05T18:00:00.000Z",
+        "expires": "2026-05-05T20:40",
+        "expires_iso": "2026-05-05T18:40:00.000Z",
+        "location": "Mělník, Czechia",
+        "hail": "None",
+        "wind": "55 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A developing thunderstorm near Mělník with reflectivity around 50 dBZ is moving north‑northeast, producing bursts of heavy rain and occasional lightning. At this intensity, hail is generally 0.5–1 cm, with only a low chance of slightly larger stones if the core briefly strengthens. Wind gusts are likely in the 50–65 km/h range, strongest on the forward‑flank side of the storm.",
+        "hazards": {
+          "hail": "None",
+          "wind": "55 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T17:59:10.873Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.331665,
+              50.289339
+            ],
+            [
+              14.551392,
+              50.268277
+            ],
+            [
+              14.749146,
+              50.555325
+            ],
+            [
+              14.353638,
+              50.597186
+            ],
+            [
+              14.331665,
+              50.289339
             ]
           ]
         ]
