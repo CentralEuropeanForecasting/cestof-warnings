@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T17:41:14.999Z",
+  "generated_at": "2026-05-05T17:41:34.340Z",
   "features": [
     {
       "type": "Feature",
@@ -1557,6 +1557,63 @@
             [
               10.557861,
               51.47454
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778002814461",
+        "type": "Thunderstorm Watch",
+        "issued": "2026-05-05T19:39",
+        "issued_iso": "2026-05-05T17:39:00.000Z",
+        "expires": "2026-05-05T19:55",
+        "expires_iso": "2026-05-05T17:55:00.000Z",
+        "location": "Mělník Area",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A cell has developed north of Prague. This cell is showing a slow development but still hasnt produce lightning.",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T17:41:30.244Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.39209,
+              50.282319
+            ],
+            [
+              14.60083,
+              50.240179
+            ],
+            [
+              14.793091,
+              50.447011
+            ],
+            [
+              14.463501,
+              50.50644
+            ],
+            [
+              14.39209,
+              50.282319
             ]
           ]
         ]
