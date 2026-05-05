@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T22:02:20.319Z",
+  "generated_at": "2026-05-05T22:10:26.592Z",
   "features": [
     {
       "type": "Feature",
@@ -5475,6 +5475,177 @@
             [
               13.491211,
               51.117317
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778018875807",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T00:05",
+        "issued_iso": "2026-05-05T22:05:00.000Z",
+        "expires": "2026-05-06T03:00",
+        "expires_iso": "2026-05-06T01:00:00.000Z",
+        "location": "poland",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "a thunderstorm is moving northeast in the direction of belarus",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T22:09:08.742Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.830078,
+              53.833081
+            ],
+            [
+              20.994873,
+              53.664171
+            ],
+            [
+              22.37915,
+              53.936688
+            ],
+            [
+              21.676025,
+              54.431713
+            ],
+            [
+              20.830078,
+              53.833081
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778018965998",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T00:05",
+        "issued_iso": "2026-05-05T22:05:00.000Z",
+        "expires": "2026-05-06T03:00",
+        "expires_iso": "2026-05-06T01:00:00.000Z",
+        "location": "poland",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast in the direction of Lithuania",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T22:09:49.430Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.280273,
+              54.123822
+            ],
+            [
+              23.675537,
+              54.335744
+            ],
+            [
+              22.675781,
+              54.781682
+            ],
+            [
+              22.104492,
+              54.27164
+            ],
+            [
+              22.280273,
+              54.123822
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778019003006",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T00:05",
+        "issued_iso": "2026-05-05T22:05:00.000Z",
+        "expires": "2026-05-06T03:00",
+        "expires_iso": "2026-05-06T01:00:00.000Z",
+        "location": "poland",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast trough lithuania",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T22:10:17.879Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.48877,
+              54.756331
+            ],
+            [
+              23.818359,
+              54.457267
+            ],
+            [
+              25.334473,
+              54.72462
+            ],
+            [
+              24.11499,
+              55.266598
+            ],
+            [
+              23.48877,
+              54.756331
             ]
           ]
         ]
