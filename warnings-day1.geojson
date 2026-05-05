@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T16:21:53.803Z",
+  "generated_at": "2026-05-05T16:24:36.988Z",
   "features": [
     {
       "type": "Feature",
@@ -702,6 +702,63 @@
             [
               13.007813,
               47.901614
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1777998175355",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T18:22",
+        "issued_iso": "2026-05-05T16:22:00.000Z",
+        "expires": "2026-05-05T19:22",
+        "expires_iso": "2026-05-05T17:22:00.000Z",
+        "location": "Thüringen",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "a line of thunderstorms is pushing north near Nürnberg, going to bad lobenstein.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T16:24:31.851Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.107178,
+              49.667628
+            ],
+            [
+              10.980835,
+              50.53438
+            ],
+            [
+              12.381592,
+              50.436516
+            ],
+            [
+              11.524658,
+              49.603591
+            ],
+            [
+              11.107178,
+              49.667628
             ]
           ]
         ]
