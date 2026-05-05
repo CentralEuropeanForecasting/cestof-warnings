@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T18:01:21.128Z",
+  "generated_at": "2026-05-05T18:01:48.254Z",
   "features": [
     {
       "type": "Feature",
@@ -2210,55 +2210,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778003973999",
+        "id": "warning-poly-1778003690296",
         "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T19:48",
-        "issued_iso": "2026-05-05T17:48:00.000Z",
-        "expires": "2026-05-05T21:00",
-        "expires_iso": "2026-05-05T19:00:00.000Z",
-        "location": "bodensee, liechtenstein,vorarlberg",
-        "hail": "1-2cm",
-        "wind": "50km/h",
-        "tornado_probability": "Very low",
-        "rotation": "Weak rotation",
+        "issued": "2026-05-05T20:00",
+        "issued_iso": "2026-05-05T18:00:00.000Z",
+        "expires": "2026-05-05T20:40",
+        "expires_iso": "2026-05-05T18:40:00.000Z",
+        "location": "Mělník, Czechia",
+        "hail": "None",
+        "wind": "55 km/h",
+        "tornado_probability": "",
+        "rotation": "",
         "md_number": "",
-        "text": "a thunderstorm is currently passing near the bodensee, producing lightning and hail.the storm is moving east in the direction of austria.",
+        "text": "A developing thunderstorm near Mělník with reflectivity around 50 dBZ is moving north‑northeast, producing bursts of heavy rain and occasional lightning. At this intensity, hail is generally 0.5–1 cm, with only a low chance of slightly larger stones if the core briefly strengthens. Wind gusts are likely in the 50–65 km/h range, strongest on the forward‑flank side of the storm.",
         "hazards": {
-          "hail": "1-2cm",
-          "wind": "50km/h",
-          "tornado_probability": "Very low",
-          "rotation": "Weak rotation"
+          "hail": "None",
+          "wind": "55 km/h",
+          "tornado_probability": "",
+          "rotation": ""
         },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
         "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
+        "issued_by": "Joseph",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T18:01:15.208Z"
+        "updated_at": "2026-05-05T18:01:47.341Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              9.030762,
-              47.15984
+              14.331665,
+              50.289339
             ],
             [
-              9.585571,
-              47.377895
+              14.551392,
+              50.268277
             ],
             [
-              9.700928,
-              47.064509
+              14.749146,
+              50.555325
             ],
             [
-              9.055481,
-              47.079475
+              14.353638,
+              50.597186
             ],
             [
-              9.030762,
-              47.15984
+              14.331665,
+              50.289339
             ]
           ]
         ]
