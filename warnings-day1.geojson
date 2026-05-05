@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T17:51:40.228Z",
+  "generated_at": "2026-05-05T17:52:18.541Z",
   "features": [
     {
       "type": "Feature",
@@ -1683,55 +1683,112 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778003349508",
-        "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T19:44",
-        "issued_iso": "2026-05-05T17:44:00.000Z",
-        "expires": "2026-05-05T20:44",
-        "expires_iso": "2026-05-05T18:44:00.000Z",
-        "location": "",
-        "hail": "2cm",
-        "wind": "around 50 to 60kmh",
+        "id": "warning-poly-1778002636984",
+        "type": "Thunderstorm Watch",
+        "issued": "2026-05-05T19:38",
+        "issued_iso": "2026-05-05T17:38:00.000Z",
+        "expires": "2026-05-05T20:00",
+        "expires_iso": "2026-05-05T18:00:00.000Z",
+        "location": "Mělník",
+        "hail": "0cm",
+        "wind": "40 km/h",
         "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "medium flood risk in a few places and beware of lightining",
+        "text": "A small thunderstorm cell with reflectivity around 48 dBZ is moving north-northeast toward the Mělník area. The storm is capable of producing brief heavy rain and occasional lightning as it tracks across the region. While not severe, conditions remain favorable for continued thunderstorm development along its path.",
         "hazards": {
-          "hail": "2cm",
-          "wind": "around 50 to 60kmh",
+          "hail": "0cm",
+          "wind": "40 km/h",
           "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "bearmax",
-        "forecaster_name": "Bearmax",
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
         "forecaster_role": "nowcaster",
-        "issued_by": "Bearmax",
+        "issued_by": "Joseph",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T17:49:36.475Z"
+        "updated_at": "2026-05-05T17:38:57.814Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              11.826782,
-              49.986994
+              14.395259,
+              50.2305
             ],
             [
-              10.969849,
-              50.226563
+              14.582027,
+              50.216442
             ],
             [
-              10.980835,
-              50.868811
+              14.790767,
+              50.517776
             ],
             [
-              12.035522,
-              50.639446
+              14.395259,
+              50.566649
             ],
             [
-              11.826782,
-              49.986994
+              14.395259,
+              50.2305
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778003481103",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T19:50",
+        "issued_iso": "2026-05-05T17:50:00.000Z",
+        "expires": "2026-05-05T20:30",
+        "expires_iso": "2026-05-05T18:30:00.000Z",
+        "location": "Fours, France",
+        "hail": "1 to 1,5cm",
+        "wind": "60 to 75 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A moderately strong thunderstorm with reflectivity around 55 dBZ is moving northeast across the Fours area. This intensity supports hail around 1–1.5 cm, mainly small but capable of briefly reaching the lower severe threshold if the core strengthens. Wind gusts may reach 60–75 km/h, especially on the forward‑flank side of the storm.",
+        "hazards": {
+          "hail": "1 to 1,5cm",
+          "wind": "60 to 75 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T17:52:16.416Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.554077,
+              46.830134
+            ],
+            [
+              3.674927,
+              46.732331
+            ],
+            [
+              4.290161,
+              46.965259
+            ],
+            [
+              3.960571,
+              47.174778
+            ],
+            [
+              3.554077,
+              46.830134
             ]
           ]
         ]
