@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T17:41:34.340Z",
+  "generated_at": "2026-05-05T17:45:20.170Z",
   "features": [
     {
       "type": "Feature",
@@ -1614,6 +1614,63 @@
             [
               14.39209,
               50.282319
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778003067952",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T19:35",
+        "issued_iso": "2026-05-05T17:35:00.000Z",
+        "expires": "2026-05-05T20:35",
+        "expires_iso": "2026-05-05T18:35:00.000Z",
+        "location": "Hessen",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "a thunderstorm is continuing its slow path to kassel, producing lightning and hail in the meantime.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T17:45:17.628Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.107666,
+              51.234407
+            ],
+            [
+              9.755859,
+              51.618017
+            ],
+            [
+              9.986572,
+              51.020666
+            ],
+            [
+              9.129639,
+              51.048301
+            ],
+            [
+              9.107666,
+              51.234407
             ]
           ]
         ]
