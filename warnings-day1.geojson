@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T16:03:00.790Z",
+  "generated_at": "2026-05-05T16:08:17.571Z",
   "features": [
     {
       "type": "Feature",
@@ -470,6 +470,63 @@
             [
               10.83252,
               50.176898
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1777997225772",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T18:06",
+        "issued_iso": "2026-05-05T16:06:00.000Z",
+        "expires": "2026-05-05T19:06",
+        "expires_iso": "2026-05-05T17:06:00.000Z",
+        "location": "baden-württemberg",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "the storm that formed near freiburg keeps pushing north, producing lightning and hail.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T16:08:14.247Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.503418,
+              48.129434
+            ],
+            [
+              9.547119,
+              48.698212
+            ],
+            [
+              8.613281,
+              48.91528
+            ],
+            [
+              8.195801,
+              48.312428
+            ],
+            [
+              8.503418,
+              48.129434
             ]
           ]
         ]
