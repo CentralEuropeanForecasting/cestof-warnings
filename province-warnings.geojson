@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-05-05T21:38:29.438Z",
+  "generated_at": "2026-05-05T21:40:02.264Z",
   "features": [
     {
       "type": "Feature",
@@ -101237,7 +101237,7 @@
         "FCLASS_TLC": null,
         "province_id": "DE-BB",
         "province_name": "Brandenburg",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778005204771-8ae8261649d2e",
@@ -101257,6 +101257,26 @@
             "issued_by": "S64",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-05T18:20:04.771Z",
+            "province_id": "DE-BB"
+          },
+          {
+            "id": "prov-warn-1778017198293-b0100d290430d8",
+            "type": "Thunderstorm Watch",
+            "issued": "2026-05-05T23:36",
+            "issued_iso": "2026-05-05T21:36:00.000Z",
+            "expires": "2026-05-06T00:15",
+            "expires_iso": "2026-05-05T22:15:00.000Z",
+            "hail": "0.2 - 0.5 cm",
+            "wind": "40 km/h",
+            "tornado_probability": "",
+            "rotation": "Weak rotation",
+            "text": "Thunderstorm system is moving through Sachsen to Brandenburg. The system has already crossed to Brandenburg and is on its way to a major city of Cottbus.",
+            "forecaster": "cape",
+            "forecaster_name": "CAPE",
+            "forecaster_role": "owner",
+            "issued_by": "CAPE",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-05T21:39:58.293Z",
             "province_id": "DE-BB"
           }
         ]
