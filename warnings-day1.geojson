@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T18:26:23.353Z",
+  "generated_at": "2026-05-05T18:27:01.552Z",
   "features": [
     {
       "type": "Feature",
@@ -2715,6 +2715,63 @@
             [
               14.716187,
               50.408518
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778005548485",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T20:01",
+        "issued_iso": "2026-05-05T18:01:00.000Z",
+        "expires": "2026-05-05T21:00",
+        "expires_iso": "2026-05-05T19:00:00.000Z",
+        "location": "sachsen",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this severe thunderstorm is mainly producing lightning, but also a bit of hail. the storm is moving north in the direction of chemnitz.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T18:26:58.860Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.11792,
+              50.212064
+            ],
+            [
+              12.128906,
+              50.75731
+            ],
+            [
+              12.766113,
+              50.680797
+            ],
+            [
+              12.480469,
+              50.169862
+            ],
+            [
+              12.11792,
+              50.212064
             ]
           ]
         ]
