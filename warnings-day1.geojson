@@ -4,55 +4,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1777993293594",
-        "type": "Severe Thunderstorm Warning",
-        "issued": "2026-05-05T16:59",
-        "issued_iso": "2026-05-05T14:59:00.000Z",
-        "expires": "2026-05-05T17:59",
-        "expires_iso": "2026-05-05T15:59:00.000Z",
+        "id": "warning-poly-1777993381724",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T16:47",
+        "issued_iso": "2026-05-05T14:47:00.000Z",
+        "expires": "2026-05-05T17:47",
+        "expires_iso": "2026-05-05T15:47:00.000Z",
         "location": "",
-        "hail": "1.5 cm",
+        "hail": "1cm",
         "wind": "",
         "tornado_probability": "",
-        "rotation": "",
+        "rotation": "Weak rotation",
         "md_number": "",
         "text": "",
         "hazards": {
-          "hail": "1.5 cm",
+          "hail": "1cm",
           "wind": "",
           "tornado_probability": "",
-          "rotation": ""
+          "rotation": "Weak rotation"
         },
-        "forecaster": "cape",
-        "forecaster_name": "CAPE",
-        "forecaster_role": "owner",
-        "issued_by": "CAPE",
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Bearmax",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T15:02:04.532Z"
+        "updated_at": "2026-05-05T15:03:26.996Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              14.707031,
-              49.456223
+              14.639282,
+              49.760421
             ],
             [
-              15.12085,
-              49.394292
+              14.397583,
+              49.802984
             ],
             [
-              15.377197,
-              49.934723
+              14.551392,
+              50.121018
             ],
             [
-              14.871826,
-              50.047733
+              14.902954,
+              50.071684
             ],
             [
-              14.707031,
-              49.456223
+              14.639282,
+              49.760421
             ]
           ]
         ]
@@ -60,5 +60,5 @@
     }
   ],
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T15:02:11.548Z"
+  "generated_at": "2026-05-05T15:03:35.196Z"
 }
