@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T19:30:48.311Z",
+  "generated_at": "2026-05-05T19:36:19.741Z",
   "features": [
     {
       "type": "Feature",
@@ -3819,6 +3819,75 @@
             [
               13.062744,
               50.317408
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778009636843",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T21:34",
+        "issued_iso": "2026-05-05T19:34:00.000Z",
+        "expires": "2026-05-05T22:00",
+        "expires_iso": "2026-05-05T20:00:00.000Z",
+        "location": "Thüringen,bayern,sachsen,plzensky kraj,karlovy kraj, usti nad labem",
+        "hail": "1-3cm",
+        "wind": "40-60km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "this new line of thunderstormes just formed near the beginning of the alps. the line is following the mountains and making its way east, while producing thunder and hail",
+        "hazards": {
+          "hail": "1-3cm",
+          "wind": "40-60km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T19:36:15.945Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.318665,
+              48.096426
+            ],
+            [
+              11.186829,
+              47.954984
+            ],
+            [
+              11.030273,
+              47.798397
+            ],
+            [
+              10.777588,
+              47.583937
+            ],
+            [
+              10.566101,
+              47.364874
+            ],
+            [
+              11.208801,
+              47.316483
+            ],
+            [
+              11.99707,
+              48.239309
+            ],
+            [
+              11.318665,
+              48.096426
             ]
           ]
         ]
