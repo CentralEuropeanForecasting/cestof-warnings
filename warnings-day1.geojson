@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T17:01:22.388Z",
+  "generated_at": "2026-05-05T17:01:24.917Z",
   "features": [
     {
       "type": "Feature",
@@ -938,79 +938,59 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778000240067",
-        "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T19:00",
-        "issued_iso": "2026-05-05T17:00:00.000Z",
-        "expires": "2026-05-05T20:00",
-        "expires_iso": "2026-05-05T18:00:00.000Z",
-        "location": "Loches, Issoudun, Bourges",
-        "hail": "1-2cm",
+        "id": "warning-poly-1778000461613",
+        "type": "Thunderstorm Watch",
+        "issued": "2026-05-05T18:58",
+        "issued_iso": "2026-05-05T16:58:00.000Z",
+        "expires": "2026-05-05T19:45",
+        "expires_iso": "2026-05-05T17:45:00.000Z",
+        "location": "",
+        "hail": "",
         "wind": "",
         "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "A continuous line of thunderstorms is active from Loches through Issoudun to Bourges, producing persistent rainfall and frequent lightning across the entire corridor. Several embedded cells continue to pulse upward, maintaining pockets of strong reflectivity and the potential for brief gusty winds or small hail. Conditions remain unstable along the line, and thunderstorm impacts are ongoing as the system advances northeast.",
+        "text": "Very rapidly growing storm \n25% of becoming severe thunderstorm",
         "hazards": {
-          "hail": "1-2cm",
+          "hail": "",
           "wind": "",
           "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "joseph",
-        "forecaster_name": "Joseph",
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
         "forecaster_role": "nowcaster",
-        "issued_by": "Joseph",
+        "issued_by": "Bearmax",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T17:01:19.994Z"
+        "updated_at": "2026-05-05T17:01:22.619Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              2.1698,
-              46.777493
+              15.947147,
+              50.273409
             ],
             [
-              1.796265,
-              46.882723
+              15.756959,
+              50.32071
             ],
             [
-              0.76355,
-              46.747389
+              15.932445,
+              50.508724
             ],
             [
-              0.411987,
-              46.860191
+              16.166151,
+              50.556814
             ],
             [
-              -0.049438,
-              46.882723
+              16.201609,
+              50.46161
             ],
             [
-              0.181274,
-              47.062638
-            ],
-            [
-              0.785522,
-              47.286682
-            ],
-            [
-              1.30188,
-              47.152369
-            ],
-            [
-              2.114868,
-              47.227029
-            ],
-            [
-              2.49939,
-              47.010226
-            ],
-            [
-              2.1698,
-              46.777493
+              15.947147,
+              50.273409
             ]
           ]
         ]
