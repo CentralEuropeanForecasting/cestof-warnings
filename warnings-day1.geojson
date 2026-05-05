@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T20:31:49.307Z",
+  "generated_at": "2026-05-05T20:32:32.918Z",
   "features": [
     {
       "type": "Feature",
@@ -4466,63 +4466,112 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778013044396",
-        "type": "Tornado Warning",
-        "issued": "2026-05-05T22:29",
-        "issued_iso": "2026-05-05T20:29:00.000Z",
-        "expires": "2026-05-05T23:29",
-        "expires_iso": "2026-05-05T21:29:00.000Z",
+        "id": "warning-poly-1778012867231",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T22:22",
+        "issued_iso": "2026-05-05T20:22:00.000Z",
+        "expires": "2026-05-05T23:00",
+        "expires_iso": "2026-05-05T21:00:00.000Z",
         "location": "",
-        "hail": "2cm",
-        "wind": "65kph",
+        "hail": "2-3cm",
+        "wind": "60km/h",
         "tornado_probability": "Possible",
         "rotation": "Broad rotation",
         "md_number": "",
-        "text": "",
+        "text": "this severe thunderstorm is moving north, producing wind gusts, large hail and lightning\nradar indicated strong rotation within this storm, that is the reason why the tornado warning was issued.",
         "hazards": {
-          "hail": "2cm",
-          "wind": "65kph",
+          "hail": "2-3cm",
+          "wind": "60km/h",
           "tornado_probability": "Possible",
           "rotation": "Broad rotation"
         },
-        "forecaster": "bearmax",
-        "forecaster_name": "Bearmax",
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
-        "issued_by": "Bearmax",
+        "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T20:31:06.542Z"
+        "updated_at": "2026-05-05T20:29:02.838Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              14.050394,
-              50.963699
+              12.963867,
+              50.632042
             ],
             [
-              13.528182,
-              50.555095
+              12.65625,
+              51.536086
             ],
             [
-              12.921765,
-              50.653773
+              13.930664,
+              51.522416
             ],
             [
-              13.308587,
-              51.703204
+              13.546143,
+              50.604159
             ],
             [
-              13.946844,
-              51.838675
+              12.963867,
+              50.632042
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778013053055",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T22:30",
+        "issued_iso": "2026-05-05T20:30:00.000Z",
+        "expires": "2026-05-05T23:00",
+        "expires_iso": "2026-05-05T21:00:00.000Z",
+        "location": "",
+        "hail": "1-4cm",
+        "wind": "40-60km/h",
+        "tornado_probability": "Elevated",
+        "rotation": "",
+        "md_number": "",
+        "text": "a line of severe, rotating thunderstorms is moving north. the risk of tornadoes is not excluded. strong wind gusts, large hail and many lightning strikes are also present.",
+        "hazards": {
+          "hail": "1-4cm",
+          "wind": "40-60km/h",
+          "tornado_probability": "Elevated",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T20:32:29.559Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.623535,
+              50.708634
             ],
             [
-              14.385243,
-              51.527286
+              12.041016,
+              51.631657
             ],
             [
-              14.050394,
-              50.963699
+              14.875488,
+              50.687758
+            ],
+            [
+              13.447266,
+              49.866317
+            ],
+            [
+              11.623535,
+              50.708634
             ]
           ]
         ]
