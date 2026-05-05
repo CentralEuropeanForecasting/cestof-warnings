@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T20:46:55.131Z",
+  "generated_at": "2026-05-05T20:49:39.008Z",
   "features": [
     {
       "type": "Feature",
@@ -4580,55 +4580,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778013978313",
-        "type": "Tornado Warning",
-        "issued": "2026-05-05T22:46",
-        "issued_iso": "2026-05-05T20:46:00.000Z",
-        "expires": "2026-05-05T23:00",
-        "expires_iso": "2026-05-05T21:00:00.000Z",
-        "location": "",
-        "hail": "1-2cm",
-        "wind": "60km/h",
-        "tornado_probability": "Possible",
-        "rotation": "Radar-indicated rotation",
+        "id": "warning-poly-1778014108927",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T22:50",
+        "issued_iso": "2026-05-05T20:50:00.000Z",
+        "expires": "2026-05-05T23:20",
+        "expires_iso": "2026-05-05T21:20:00.000Z",
+        "location": "Belleville‑en‑Beaujolais, France",
+        "hail": "under 1cm",
+        "wind": "50 km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
         "md_number": "",
-        "text": "radar indicated strong rotation within this storm, that is the reason why the tornado warning was issued.",
+        "text": "A moderately strong thunderstorm southeast of Belleville‑en‑Beaujolais is tracking northeast, producing 52–53 dBZ reflectivity with intermittent lightning activity. The storm is capable of brief heavy rainfall, gusts around 55–70 km/h, and possibly small hail up to 1 cm",
         "hazards": {
-          "hail": "1-2cm",
-          "wind": "60km/h",
-          "tornado_probability": "Possible",
-          "rotation": "Radar-indicated rotation"
+          "hail": "under 1cm",
+          "wind": "50 km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
         },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
         "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
+        "issued_by": "Joseph",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T20:46:51.438Z"
+        "updated_at": "2026-05-05T20:49:34.863Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              13.392334,
-              50.907363
+              4.641724,
+              46.080852
             ],
             [
-              13.52417,
-              50.89004
+              4.828491,
+              45.935871
             ],
             [
-              13.910065,
-              51.174177
+              5.267944,
+              46.164614
             ],
             [
-              13.320923,
-              51.231828
+              4.894409,
+              46.331758
             ],
             [
-              13.392334,
-              50.907363
+              4.641724,
+              46.080852
             ]
           ]
         ]
