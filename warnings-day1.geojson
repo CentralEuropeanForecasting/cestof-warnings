@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T19:24:20.997Z",
+  "generated_at": "2026-05-05T19:27:52.793Z",
   "features": [
     {
       "type": "Feature",
@@ -3705,6 +3705,63 @@
             [
               11.006927,
               47.251271
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778009212588",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T21:22",
+        "issued_iso": "2026-05-05T19:22:00.000Z",
+        "expires": "2026-05-05T22:30",
+        "expires_iso": "2026-05-05T20:30:00.000Z",
+        "location": "liberecky kraj, wojewodztwo dolnoslaskie",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this storm is making its way north, producing hail and thunder.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T19:27:50.665Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.270996,
+              50.680797
+            ],
+            [
+              15.073242,
+              51.289406
+            ],
+            [
+              15.985107,
+              51.234407
+            ],
+            [
+              15.490723,
+              50.659908
+            ],
+            [
+              15.270996,
+              50.680797
             ]
           ]
         ]
