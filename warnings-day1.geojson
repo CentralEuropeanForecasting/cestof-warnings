@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T17:39:05.985Z",
+  "generated_at": "2026-05-05T17:41:14.999Z",
   "features": [
     {
       "type": "Feature",
@@ -1451,55 +1451,112 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778002636984",
+        "id": "warning-poly-1778002379997",
         "type": "Thunderstorm Watch",
-        "issued": "2026-05-05T19:38",
-        "issued_iso": "2026-05-05T17:38:00.000Z",
-        "expires": "2026-05-05T20:00",
-        "expires_iso": "2026-05-05T18:00:00.000Z",
-        "location": "Mělník",
-        "hail": "0cm",
-        "wind": "40 km/h",
+        "issued": "2026-05-05T19:32",
+        "issued_iso": "2026-05-05T17:32:00.000Z",
+        "expires": "2026-05-05T20:32",
+        "expires_iso": "2026-05-05T18:32:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
         "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "A small thunderstorm cell with reflectivity around 48 dBZ is moving north-northeast toward the Mělník area. The storm is capable of producing brief heavy rain and occasional lightning as it tracks across the region. While not severe, conditions remain favorable for continued thunderstorm development along its path.",
+        "text": "",
         "hazards": {
-          "hail": "0cm",
-          "wind": "40 km/h",
+          "hail": "",
+          "wind": "",
           "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "joseph",
-        "forecaster_name": "Joseph",
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
-        "issued_by": "Joseph",
+        "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T17:38:57.814Z"
+        "updated_at": "2026-05-05T17:32:59.996Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              14.395259,
-              50.2305
+              9.008789,
+              48.589326
             ],
             [
-              14.582027,
-              50.216442
+              9.876709,
+              49.138597
             ],
             [
-              14.790767,
-              50.517776
+              10.184326,
+              48.407326
             ],
             [
-              14.395259,
-              50.566649
+              9.129639,
+              48.348948
             ],
             [
-              14.395259,
-              50.2305
+              9.008789,
+              48.589326
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778002562517",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T19:35",
+        "issued_iso": "2026-05-05T17:35:00.000Z",
+        "expires": "2026-05-05T20:35",
+        "expires_iso": "2026-05-05T18:35:00.000Z",
+        "location": "Thüringen",
+        "hail": "2-3cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "a isolated thunderstorm is continuing its path in the direction of leipzig, producing hail and lightning.",
+        "hazards": {
+          "hail": "2-3cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T17:37:36.899Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.557861,
+              51.47454
+            ],
+            [
+              11.140137,
+              51.611195
+            ],
+            [
+              11.074219,
+              51.2
+            ],
+            [
+              10.546875,
+              51.310013
+            ],
+            [
+              10.557861,
+              51.47454
             ]
           ]
         ]
