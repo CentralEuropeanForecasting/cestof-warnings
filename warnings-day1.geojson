@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T18:51:01.694Z",
+  "generated_at": "2026-05-05T18:55:40.359Z",
   "features": [
     {
       "type": "Feature",
@@ -2886,6 +2886,63 @@
             [
               9.437256,
               50.303376
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778007137391",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T20:51",
+        "issued_iso": "2026-05-05T18:51:00.000Z",
+        "expires": "2026-05-05T22:00",
+        "expires_iso": "2026-05-05T20:00:00.000Z",
+        "location": "Thüringen,bayern,sachsen,plzensky kraj,karlovy kraj, usti nad labem",
+        "hail": "1-3cm",
+        "wind": "40-60km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "a strong line of thunderstorms is making its way north, following the czech-german border into the elbe valley. this line of storms is producing damaging hail, intense lightning and wind gusts in excess of 60km/h.",
+        "hazards": {
+          "hail": "1-3cm",
+          "wind": "40-60km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T18:55:38.332Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.19458,
+              49.710273
+            ],
+            [
+              11.557617,
+              50.247205
+            ],
+            [
+              11.568604,
+              51.07592
+            ],
+            [
+              14.370117,
+              50.289339
+            ],
+            [
+              13.19458,
+              49.710273
             ]
           ]
         ]
