@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T17:07:03.834Z",
+  "generated_at": "2026-05-05T17:12:24.368Z",
   "features": [
     {
       "type": "Feature",
@@ -1101,6 +1101,120 @@
             [
               13.156128,
               49.575102
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778000627416",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T18:57",
+        "issued_iso": "2026-05-05T16:57:00.000Z",
+        "expires": "2026-05-05T19:57",
+        "expires_iso": "2026-05-05T17:57:00.000Z",
+        "location": "Thüringen",
+        "hail": "1-2cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "a group of thunderstorms is moving north and producing lightning and small hail.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T17:04:39.173Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.17334,
+              50.25423
+            ],
+            [
+              9.942627,
+              50.999929
+            ],
+            [
+              11.162109,
+              50.882243
+            ],
+            [
+              10.491943,
+              50.176898
+            ],
+            [
+              10.17334,
+              50.25423
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778000737031",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T18:57",
+        "issued_iso": "2026-05-05T16:57:00.000Z",
+        "expires": "2026-05-05T19:57",
+        "expires_iso": "2026-05-05T17:57:00.000Z",
+        "location": "Baden-Wurttemberg",
+        "hail": "2-3cm",
+        "wind": "55km/h",
+        "tornado_probability": "Low",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "a strong and severe thunderstorm is making its way northeast, producing large hail and many lightning strikes. the storm is moving from the french and swiss alps to the lower german provinces.",
+        "hazards": {
+          "hail": "2-3cm",
+          "wind": "55km/h",
+          "tornado_probability": "Low",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T17:12:20.433Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.229004,
+              47.62838
+            ],
+            [
+              8.00354,
+              48.063397
+            ],
+            [
+              8.267212,
+              47.606163
+            ],
+            [
+              7.305908,
+              47.480088
+            ],
+            [
+              7.229004,
+              47.62838
             ]
           ]
         ]
