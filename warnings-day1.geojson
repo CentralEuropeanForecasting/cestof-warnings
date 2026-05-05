@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T19:02:33.150Z",
+  "generated_at": "2026-05-05T19:03:50.496Z",
   "features": [
     {
       "type": "Feature",
@@ -3057,6 +3057,120 @@
             [
               13.463745,
               50.63901
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778007455614",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T20:51",
+        "issued_iso": "2026-05-05T18:51:00.000Z",
+        "expires": "2026-05-05T22:00",
+        "expires_iso": "2026-05-05T20:00:00.000Z",
+        "location": "Thüringen,bayern,sachsen,plzensky kraj,karlovy kraj, usti nad labem",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is part of the line of storms pushing north, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T18:57:35.614Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.623291,
+              50.021858
+            ],
+            [
+              12.502441,
+              50.771208
+            ],
+            [
+              13.392334,
+              50.750359
+            ],
+            [
+              13.018799,
+              50.000678
+            ],
+            [
+              12.623291,
+              50.021858
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778007741998",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T20:51",
+        "issued_iso": "2026-05-05T18:51:00.000Z",
+        "expires": "2026-05-05T22:00",
+        "expires_iso": "2026-05-05T20:00:00.000Z",
+        "location": "Thüringen,bayern,sachsen,plzensky kraj,karlovy kraj, usti nad labem",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is part of the line of storms pushing north to Jena, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T19:03:47.954Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.689453,
+              50.275299
+            ],
+            [
+              11.777344,
+              50.847573
+            ],
+            [
+              12.337646,
+              50.722547
+            ],
+            [
+              11.986084,
+              50.212064
+            ],
+            [
+              11.689453,
+              50.275299
             ]
           ]
         ]
