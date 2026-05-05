@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T17:00:46.773Z",
+  "generated_at": "2026-05-05T17:01:22.388Z",
   "features": [
     {
       "type": "Feature",
@@ -938,55 +938,79 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778000316068",
-        "type": "Thunderstorm Watch",
-        "issued": "2026-05-05T18:57",
-        "issued_iso": "2026-05-05T16:57:00.000Z",
-        "expires": "2026-05-05T19:57",
-        "expires_iso": "2026-05-05T17:57:00.000Z",
-        "location": "Hessen,Thüringen",
+        "id": "warning-poly-1778000240067",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T19:00",
+        "issued_iso": "2026-05-05T17:00:00.000Z",
+        "expires": "2026-05-05T20:00",
+        "expires_iso": "2026-05-05T18:00:00.000Z",
+        "location": "Loches, Issoudun, Bourges",
         "hail": "1-2cm",
-        "wind": "50km/h",
-        "tornado_probability": "Very low",
+        "wind": "",
+        "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "a thunderstorm is moving east to kassel, producing small hail and lighting. the storm is moving different from the rest of the group.",
+        "text": "A continuous line of thunderstorms is active from Loches through Issoudun to Bourges, producing persistent rainfall and frequent lightning across the entire corridor. Several embedded cells continue to pulse upward, maintaining pockets of strong reflectivity and the potential for brief gusty winds or small hail. Conditions remain unstable along the line, and thunderstorm impacts are ongoing as the system advances northeast.",
         "hazards": {
           "hail": "1-2cm",
-          "wind": "50km/h",
-          "tornado_probability": "Very low",
+          "wind": "",
+          "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
         "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
+        "issued_by": "Joseph",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T17:00:04.873Z"
+        "updated_at": "2026-05-05T17:01:19.994Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              8.657227,
-              51.172455
+              2.1698,
+              46.777493
             ],
             [
-              9.228516,
-              51.679368
+              1.796265,
+              46.882723
             ],
             [
-              9.821777,
-              50.979182
+              0.76355,
+              46.747389
             ],
             [
-              8.745117,
-              51.041394
+              0.411987,
+              46.860191
             ],
             [
-              8.657227,
-              51.172455
+              -0.049438,
+              46.882723
+            ],
+            [
+              0.181274,
+              47.062638
+            ],
+            [
+              0.785522,
+              47.286682
+            ],
+            [
+              1.30188,
+              47.152369
+            ],
+            [
+              2.114868,
+              47.227029
+            ],
+            [
+              2.49939,
+              47.010226
+            ],
+            [
+              2.1698,
+              46.777493
             ]
           ]
         ]
