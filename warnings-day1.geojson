@@ -4,63 +4,112 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1777993381724",
+        "id": "warning-poly-1777993669841",
         "type": "Thunderstorm Warning",
-        "issued": "2026-05-05T16:47",
-        "issued_iso": "2026-05-05T14:47:00.000Z",
-        "expires": "2026-05-05T17:47",
-        "expires_iso": "2026-05-05T15:47:00.000Z",
+        "issued": "2026-05-05T16:57",
+        "issued_iso": "2026-05-05T14:57:00.000Z",
+        "expires": "2026-05-05T17:57",
+        "expires_iso": "2026-05-05T15:57:00.000Z",
         "location": "",
-        "hail": "1cm",
-        "wind": "",
-        "tornado_probability": "",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
         "rotation": "Weak rotation",
         "md_number": "",
-        "text": "",
+        "text": "a strong thunderstorm is making its way northeast to bad durrheim. there is a little bit of rotation, but the chance of a tornado forming is extremely low.",
         "hazards": {
-          "hail": "1cm",
-          "wind": "",
-          "tornado_probability": "",
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
           "rotation": "Weak rotation"
         },
-        "forecaster": "bearmax",
-        "forecaster_name": "Bearmax",
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
-        "issued_by": "Bearmax",
+        "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-05T15:03:26.996Z"
+        "updated_at": "2026-05-05T15:07:49.841Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              14.760132,
-              49.908787
+              8.118896,
+              47.754098
             ],
             [
-              14.639282,
-              49.760421
+              7.954102,
+              47.908978
             ],
             [
-              14.397583,
-              49.802984
+              8.701172,
+              48.483846
             ],
             [
-              14.551392,
-              50.121018
+              9.261475,
+              48.107431
             ],
             [
-              14.793091,
-              50.176898
+              8.118896,
+              47.754098
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1777993682873",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T16:57",
+        "issued_iso": "2026-05-05T14:57:00.000Z",
+        "expires": "2026-05-05T17:57",
+        "expires_iso": "2026-05-05T15:57:00.000Z",
+        "location": "Baden-Württemberg",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "a strong thunderstorm is making its way northeast to bad durrheim. there is a little bit of rotation, but the chance of a tornado forming is extremely low.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T15:10:01.407Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.415771,
+              48.188063
             ],
             [
-              14.902954,
-              50.071684
+              8.02002,
+              48.886392
             ],
             [
-              14.760132,
-              49.908787
+              8.811035,
+              48.43649
+            ],
+            [
+              7.668457,
+              48.019324
+            ],
+            [
+              7.415771,
+              48.188063
             ]
           ]
         ]
@@ -68,5 +117,5 @@
     }
   ],
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T15:06:40.331Z"
+  "generated_at": "2026-05-05T15:10:17.316Z"
 }
