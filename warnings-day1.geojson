@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T19:13:47.807Z",
+  "generated_at": "2026-05-05T19:15:39.403Z",
   "features": [
     {
       "type": "Feature",
@@ -3342,6 +3342,63 @@
             [
               10.722656,
               47.864774
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778008460909",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T21:14",
+        "issued_iso": "2026-05-05T19:14:00.000Z",
+        "expires": "2026-05-05T22:00",
+        "expires_iso": "2026-05-05T20:00:00.000Z",
+        "location": "bayern",
+        "hail": "2-3cm",
+        "wind": "55km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this severe thunderstorm is on a path to the capital of czechia, praha. this storm is producing large hail, strong winds and lightning.",
+        "hazards": {
+          "hail": "2-3cm",
+          "wind": "55km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T19:15:34.370Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.656006,
+              49.809632
+            ],
+            [
+              13.864746,
+              50.268277
+            ],
+            [
+              14.490967,
+              50.085344
+            ],
+            [
+              13.94165,
+              49.745781
+            ],
+            [
+              13.656006,
+              49.809632
             ]
           ]
         ]
