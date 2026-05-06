@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T14:48:43.543Z",
+  "generated_at": "2026-05-06T14:51:53.695Z",
   "features": [
     {
       "type": "Feature",
@@ -8526,6 +8526,63 @@
             [
               11.718292,
               47.98073
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778078969535",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T16:49",
+        "issued_iso": "2026-05-06T14:49:00.000Z",
+        "expires": "2026-05-06T18:00",
+        "expires_iso": "2026-05-06T16:00:00.000Z",
+        "location": "Bayern, oberösterreich",
+        "hail": "4-5cm",
+        "wind": "70km/h",
+        "tornado_probability": "Possible",
+        "rotation": "Strong rotation",
+        "md_number": "",
+        "text": "!!there is possibly already a tornado on the ground!!\nthis rotating supercell located south of munchen, is moving northeast in the directing of the austrian-german and czech-german border. the storm produces really large hail, damaging winds and lightning. a tornado is possible.",
+        "hazards": {
+          "hail": "4-5cm",
+          "wind": "70km/h",
+          "tornado_probability": "Possible",
+          "rotation": "Strong rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T14:51:48.414Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.601318,
+              49.253465
+            ],
+            [
+              11.535645,
+              48.327039
+            ],
+            [
+              11.865234,
+              47.901614
+            ],
+            [
+              13.710938,
+              48.056054
+            ],
+            [
+              12.601318,
+              49.253465
             ]
           ]
         ]
