@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T13:23:44.433Z",
+  "generated_at": "2026-05-06T13:29:39.653Z",
   "features": [
     {
       "type": "Feature",
@@ -7177,6 +7177,63 @@
             [
               9.074707,
               48.632909
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778074047038",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T15:22",
+        "issued_iso": "2026-05-06T13:22:00.000Z",
+        "expires": "2026-05-06T16:00",
+        "expires_iso": "2026-05-06T14:00:00.000Z",
+        "location": "bayern",
+        "hail": "3-4cm",
+        "wind": "60km/h",
+        "tornado_probability": "Low",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "a severe rotating thunderstorm is moving trough baden-wurttemberg going northeast to ellwangen, producing lightning, damaging winds and really large hail. the chance of a tornado to form is low, but not 0,",
+        "hazards": {
+          "hail": "3-4cm",
+          "wind": "60km/h",
+          "tornado_probability": "Low",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T13:29:34.913Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.272461,
+              48.676454
+            ],
+            [
+              9.909668,
+              49.15297
+            ],
+            [
+              10.546875,
+              48.654686
+            ],
+            [
+              9.470215,
+              48.451066
+            ],
+            [
+              9.272461,
+              48.676454
             ]
           ]
         ]
