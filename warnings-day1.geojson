@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T12:03:38.352Z",
+  "generated_at": "2026-05-06T12:05:15.288Z",
   "features": [
     {
       "type": "Feature",
@@ -6526,6 +6526,63 @@
             [
               13.590088,
               49.274973
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778069030387",
+        "type": "Tornado Watch",
+        "issued": "2026-05-06T13:52",
+        "issued_iso": "2026-05-06T11:52:00.000Z",
+        "expires": "2026-05-06T14:15",
+        "expires_iso": "2026-05-06T12:15:00.000Z",
+        "location": "Horažďovice Area, Heading to Blatná",
+        "hail": "0.4 cm",
+        "wind": "26 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A cell is in a development. Could Intensify in the next few minutes",
+        "hazards": {
+          "hail": "0.4 cm",
+          "wind": "26 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T12:05:09.759Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.80957,
+              51.07592
+            ],
+            [
+              15.007324,
+              51.034486
+            ],
+            [
+              15.46875,
+              51.392351
+            ],
+            [
+              14.93042,
+              51.508742
+            ],
+            [
+              14.80957,
+              51.07592
             ]
           ]
         ]
