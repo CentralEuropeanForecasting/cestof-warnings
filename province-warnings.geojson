@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-05-06T14:41:24.954Z",
+  "generated_at": "2026-05-06T14:41:51.229Z",
   "features": [
     {
       "type": "Feature",
@@ -3317,7 +3317,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-ST",
         "province_name": "Středočeský",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778072505803-ad2b39249ddd1",
@@ -3337,6 +3337,26 @@
             "issued_by": "CAPE",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-06T13:01:45.803Z",
+            "province_id": "CZ-ST"
+          },
+          {
+            "id": "prov-warn-1778078508422-a9b0efe671f73",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-06T16:40",
+            "issued_iso": "2026-05-06T14:40:00.000Z",
+            "expires": "2026-05-06T17:20",
+            "expires_iso": "2026-05-06T15:20:00.000Z",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": "A strong thunderstorm is ongoing in south of the Region.",
+            "forecaster": "cape",
+            "forecaster_name": "CAPE",
+            "forecaster_role": "owner",
+            "issued_by": "CAPE",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-06T14:41:48.422Z",
             "province_id": "CZ-ST"
           }
         ]
