@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T06:54:54.436Z",
+  "generated_at": "2026-05-06T07:16:34.283Z",
   "features": [
     {
       "type": "Feature",
@@ -6107,6 +6107,83 @@
             [
               8.683976,
               44.379887
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778051753247",
+        "type": "Heavy Rain Warning",
+        "issued": "2026-05-06T09:12",
+        "issued_iso": "2026-05-06T07:12:00.000Z",
+        "expires": "2026-05-06T12:20",
+        "expires_iso": "2026-05-06T10:20:00.000Z",
+        "location": "Treste - Italy, Slovenia, Rijeka Region - Croatia",
+        "hail": "None",
+        "wind": "<40-50km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A cluster of weakened thunderstorms is passing into Treste, Italy, Slovenia and Rijeka, Croatia bringing heavy rain a small risk for thundering, it should be a bit windy.",
+        "hazards": {
+          "hail": "None",
+          "wind": "<40-50km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T07:16:31.668Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.963068,
+              46.143136
+            ],
+            [
+              12.653782,
+              45.308035
+            ],
+            [
+              13.239877,
+              45.061623
+            ],
+            [
+              13.972859,
+              44.756095
+            ],
+            [
+              14.846513,
+              45.454479
+            ],
+            [
+              15.552105,
+              46.30478
+            ],
+            [
+              14.68992,
+              46.648765
+            ],
+            [
+              14.010036,
+              46.758931
+            ],
+            [
+              13.469473,
+              46.767126
+            ],
+            [
+              12.963068,
+              46.143136
             ]
           ]
         ]
