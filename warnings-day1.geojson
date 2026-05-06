@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T17:14:50.348Z",
+  "generated_at": "2026-05-06T17:17:10.562Z",
   "features": [
     {
       "type": "Feature",
@@ -10773,6 +10773,63 @@
             [
               10.678711,
               51.096623
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778087745915",
+        "type": "Tornado Warning",
+        "issued": "2026-05-06T18:59",
+        "issued_iso": "2026-05-06T16:59:00.000Z",
+        "expires": "2026-05-06T20:00",
+        "expires_iso": "2026-05-06T18:00:00.000Z",
+        "location": "Bayern, Oberösterreich",
+        "hail": "3cm",
+        "wind": "60km/h",
+        "tornado_probability": "Elevated",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "a rotating storm has been indicated by radar within this storm, capable of producing a tornado.",
+        "hazards": {
+          "hail": "3cm",
+          "wind": "60km/h",
+          "tornado_probability": "Elevated",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T17:17:06.441Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.454819,
+              48.593867
+            ],
+            [
+              13.460999,
+              48.505232
+            ],
+            [
+              14.216309,
+              48.434668
+            ],
+            [
+              14.131165,
+              48.875554
+            ],
+            [
+              13.454819,
+              48.593867
             ]
           ]
         ]
