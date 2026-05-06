@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T12:33:30.272Z",
+  "generated_at": "2026-05-06T13:00:43.917Z",
   "features": [
     {
       "type": "Feature",
@@ -6721,6 +6721,177 @@
             [
               13.469174,
               49.258127
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778016790247",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-05T23:37",
+        "issued_iso": "2026-05-05T21:37:00.000Z",
+        "expires": "2026-05-06T00:37",
+        "expires_iso": "2026-05-05T22:37:00.000Z",
+        "location": "Germany. Sachsen south of dresden moving north east",
+        "hail": "1-2cm",
+        "wind": "60km/h+",
+        "tornado_probability": "Low",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "A squall line with embedded supercel in it can still produce tornado with wind gust to 60km/h or more. with hail to 2cm.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "60km/h+",
+          "tornado_probability": "Low",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "S64",
+        "forecaster_name": "S64",
+        "forecaster_role": "nowcaster",
+        "issued_by": "S64",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-05T21:39:38.911Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.669739,
+              51.147479
+            ],
+            [
+              13.882599,
+              51.08886
+            ],
+            [
+              14.282227,
+              51.323747
+            ],
+            [
+              13.890839,
+              51.425758
+            ],
+            [
+              13.669739,
+              51.147479
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778071744341",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T14:51",
+        "issued_iso": "2026-05-06T12:51:00.000Z",
+        "expires": "2026-05-06T15:51",
+        "expires_iso": "2026-05-06T13:51:00.000Z",
+        "location": "Kraj vysocina near iglawa moving north.",
+        "hail": "0.5-1cm",
+        "wind": "40km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "developing storm fired near iglawa. moving north. the storm starts showing sings of development",
+        "hazards": {
+          "hail": "0.5-1cm",
+          "wind": "40km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "S64",
+        "forecaster_name": "S64",
+        "forecaster_role": "nowcaster",
+        "issued_by": "S64",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T12:52:50.923Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.276489,
+              49.224773
+            ],
+            [
+              15.067749,
+              49.224773
+            ],
+            [
+              15.095215,
+              49.584007
+            ],
+            [
+              15.424805,
+              49.576883
+            ],
+            [
+              15.276489,
+              49.224773
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778072085510",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T14:59",
+        "issued_iso": "2026-05-06T12:59:00.000Z",
+        "expires": "2026-05-06T15:59",
+        "expires_iso": "2026-05-06T13:59:00.000Z",
+        "location": "Plzensky kraj near Plzen. Moving north east",
+        "hail": "1cm+",
+        "wind": "40-60km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "Thunderstorm ongoing near Plzen moving north east is showing signs of slowly development while small cells are coliding into the main storm trying to intensify while its heading for Praha.",
+        "hazards": {
+          "hail": "1cm+",
+          "wind": "40-60km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "S64",
+        "forecaster_name": "S64",
+        "forecaster_role": "nowcaster",
+        "issued_by": "S64",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T13:00:40.630Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.260498,
+              49.448486
+            ],
+            [
+              13.540649,
+              49.355545
+            ],
+            [
+              14.065247,
+              49.767074
+            ],
+            [
+              13.581848,
+              49.891096
+            ],
+            [
+              13.260498,
+              49.448486
             ]
           ]
         ]
