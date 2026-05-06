@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T17:06:49.673Z",
+  "generated_at": "2026-05-06T17:10:43.409Z",
   "features": [
     {
       "type": "Feature",
@@ -10602,6 +10602,177 @@
             [
               13.336029,
               48.214608
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778087276820",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T19:07",
+        "issued_iso": "2026-05-06T17:07:00.000Z",
+        "expires": "2026-05-06T20:00",
+        "expires_iso": "2026-05-06T18:00:00.000Z",
+        "location": "sachsen",
+        "hail": "2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast near dresden, producing hail and lightning.",
+        "hazards": {
+          "hail": "2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T17:08:56.651Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.018799,
+              51.316881
+            ],
+            [
+              13.128662,
+              51.179343
+            ],
+            [
+              13.908691,
+              51.426614
+            ],
+            [
+              13.447266,
+              51.68618
+            ],
+            [
+              13.018799,
+              51.316881
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778087362000",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T19:09",
+        "issued_iso": "2026-05-06T17:09:00.000Z",
+        "expires": "2026-05-06T20:00",
+        "expires_iso": "2026-05-06T18:00:00.000Z",
+        "location": "sachsen",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast near leipzig, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T17:10:31.147Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.898193,
+              51.330612
+            ],
+            [
+              12.216797,
+              51.179343
+            ],
+            [
+              12.952881,
+              51.51558
+            ],
+            [
+              12.249756,
+              51.795027
+            ],
+            [
+              11.898193,
+              51.330612
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778087400883",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T19:09",
+        "issued_iso": "2026-05-06T17:09:00.000Z",
+        "expires": "2026-05-06T20:00",
+        "expires_iso": "2026-05-06T18:00:00.000Z",
+        "location": "sachsen",
+        "hail": "2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast near erfurt, producing hail and lightning.",
+        "hazards": {
+          "hail": "2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T17:10:23.291Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.678711,
+              51.096623
+            ],
+            [
+              11.04126,
+              50.944584
+            ],
+            [
+              11.8927,
+              51.368351
+            ],
+            [
+              11.052246,
+              51.706608
+            ],
+            [
+              10.678711,
+              51.096623
             ]
           ]
         ]
