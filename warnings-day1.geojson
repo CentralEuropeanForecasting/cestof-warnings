@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T16:01:17.495Z",
+  "generated_at": "2026-05-06T16:06:04.573Z",
   "features": [
     {
       "type": "Feature",
@@ -9591,24 +9591,89 @@
         "coordinates": [
           [
             [
-              13.485718,
-              50.206791
+              13.496704,
+              50.198001
             ],
             [
-              13.639526,
-              50.145226
+              13.650513,
+              50.141706
             ],
             [
-              13.999329,
-              50.340202
+              13.980103,
+              50.366489
             ],
             [
-              13.603821,
-              50.438265
+              13.62854,
+              50.429518
             ],
             [
-              13.485718,
-              50.206791
+              13.496704,
+              50.198001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778083376507",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T18:05",
+        "issued_iso": "2026-05-06T16:05:00.000Z",
+        "expires": "2026-05-06T19:10",
+        "expires_iso": "2026-05-06T17:10:00.000Z",
+        "location": "Vercelli, Novara, Asti, Alessandria - Italy",
+        "hail": "<2cm",
+        "wind": "<60 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A cluster of thunderstorm cells moving ENE, heading for: Vercelli, Novara, Alessandria in Italy, Radar scans show dBZ in peaks of 53-60 dBZ, hail is possible.",
+        "hazards": {
+          "hail": "<2cm",
+          "wind": "<60 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T16:05:59.339Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.063965,
+              44.793531
+            ],
+            [
+              7.855225,
+              44.933696
+            ],
+            [
+              8.272705,
+              45.590978
+            ],
+            [
+              8.959351,
+              45.759859
+            ],
+            [
+              8.931885,
+              45.313529
+            ],
+            [
+              8.723145,
+              44.871443
+            ],
+            [
+              8.063965,
+              44.793531
             ]
           ]
         ]
