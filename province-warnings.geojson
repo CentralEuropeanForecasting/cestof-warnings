@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-05-06T15:16:52.982Z",
+  "generated_at": "2026-05-06T15:37:04.340Z",
   "features": [
     {
       "type": "Feature",
@@ -39155,7 +39155,7 @@
         "FCLASS_TLC": null,
         "province_id": "DE-TH",
         "province_name": "Thüringen",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778080564884-7c2174f682f808",
@@ -39175,6 +39175,26 @@
             "issued_by": "Trein",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-06T15:16:04.884Z",
+            "province_id": "DE-TH"
+          },
+          {
+            "id": "prov-warn-1778081820494-c8d219a0c5d79",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-06T17:35",
+            "issued_iso": "2026-05-06T15:35:00.000Z",
+            "expires": "2026-05-06T18:25",
+            "expires_iso": "2026-05-06T16:25:00.000Z",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": "A line of thunderstorms are present in these provinces. Be aware that not all areas in the provinces will get thunderstorms.",
+            "forecaster": "cape",
+            "forecaster_name": "CAPE",
+            "forecaster_role": "owner",
+            "issued_by": "CAPE",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-06T15:37:00.494Z",
             "province_id": "DE-TH"
           }
         ]
@@ -43795,7 +43815,7 @@
         "FCLASS_TLC": null,
         "province_id": "DE-ST",
         "province_name": "Sachsen-Anhalt",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778080564884-7c2174f682f808",
@@ -43815,6 +43835,26 @@
             "issued_by": "Trein",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-06T15:16:04.884Z",
+            "province_id": "DE-ST"
+          },
+          {
+            "id": "prov-warn-1778081820494-c8d219a0c5d79",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-06T17:35",
+            "issued_iso": "2026-05-06T15:35:00.000Z",
+            "expires": "2026-05-06T18:25",
+            "expires_iso": "2026-05-06T16:25:00.000Z",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": "A line of thunderstorms are present in these provinces. Be aware that not all areas in the provinces will get thunderstorms.",
+            "forecaster": "cape",
+            "forecaster_name": "CAPE",
+            "forecaster_role": "owner",
+            "issued_by": "CAPE",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-06T15:37:00.494Z",
             "province_id": "DE-ST"
           }
         ]
