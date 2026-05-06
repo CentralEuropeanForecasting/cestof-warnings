@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T14:06:57.227Z",
+  "generated_at": "2026-05-06T14:07:52.621Z",
   "features": [
     {
       "type": "Feature",
@@ -7956,6 +7956,63 @@
             [
               10.041504,
               48.545705
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778076451457",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T15:15",
+        "issued_iso": "2026-05-06T13:15:00.000Z",
+        "expires": "2026-05-06T16:00",
+        "expires_iso": "2026-05-06T14:00:00.000Z",
+        "location": "bayern",
+        "hail": "2-3cm",
+        "wind": "55km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast from stuttgart to heilbronn, producing lightning and large hail.",
+        "hazards": {
+          "hail": "2-3cm",
+          "wind": "55km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T14:07:42.306Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.656982,
+              48.516604
+            ],
+            [
+              9.448242,
+              48.611122
+            ],
+            [
+              9.744873,
+              49.037868
+            ],
+            [
+              10.118408,
+              48.835797
+            ],
+            [
+              9.656982,
+              48.516604
             ]
           ]
         ]
