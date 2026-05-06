@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T14:02:40.430Z",
+  "generated_at": "2026-05-06T14:04:41.176Z",
   "features": [
     {
       "type": "Feature",
@@ -7793,59 +7793,112 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778076013724",
-        "type": "Tornado Warning",
-        "issued": "2026-05-06T15:58",
-        "issued_iso": "2026-05-06T13:58:00.000Z",
-        "expires": "2026-05-06T16:58",
-        "expires_iso": "2026-05-06T14:58:00.000Z",
-        "location": "",
-        "hail": "2.3cm",
-        "wind": "55kph",
+        "id": "warning-poly-1778075927563",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T15:55",
+        "issued_iso": "2026-05-06T13:55:00.000Z",
+        "expires": "2026-05-06T17:00",
+        "expires_iso": "2026-05-06T15:00:00.000Z",
+        "location": "bayern",
+        "hail": "4-5cm",
+        "wind": "65km/h",
         "tornado_probability": "Elevated",
         "rotation": "Broad rotation",
         "md_number": "",
-        "text": "Severe thunderstorm may produce a tornado",
+        "text": "this severe rotating thunderstorm is moving northeast in the direction of Munchen, producing very large hail, damaging winds and lightning. a tornado is possible.",
         "hazards": {
-          "hail": "2.3cm",
-          "wind": "55kph",
+          "hail": "4-5cm",
+          "wind": "65km/h",
           "tornado_probability": "Elevated",
           "rotation": "Broad rotation"
         },
-        "forecaster": "bearmax",
-        "forecaster_name": "Bearmax",
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
-        "issued_by": "Bearmax",
+        "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T14:00:38.592Z"
+        "updated_at": "2026-05-06T13:59:21.154Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              14.208348,
-              49.458839
+              10.931396,
+              48.019324
             ],
             [
-              13.844387,
-              49.585546
+              11.535645,
+              48.443778
             ],
             [
-              13.936881,
-              49.759276
+              11.986084,
+              47.879513
             ],
             [
-              14.123188,
-              49.941094
+              11.12915,
+              47.776252
             ],
             [
-              14.627012,
-              49.788604
+              10.931396,
+              48.019324
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778076006938",
+        "type": "Tornado Warning",
+        "issued": "2026-05-06T16:00",
+        "issued_iso": "2026-05-06T14:00:00.000Z",
+        "expires": "2026-05-06T16:15",
+        "expires_iso": "2026-05-06T14:15:00.000Z",
+        "location": "bayern",
+        "hail": "1-2cm",
+        "wind": "65km/h",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "a tornado warning has been issued for a rotating thunderstorm south of munchen. a tornado is possible.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "65km/h",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T14:04:38.414Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.140137,
+              47.818688
             ],
             [
-              14.208348,
-              49.458839
+              11.167603,
+              47.767022
+            ],
+            [
+              11.565857,
+              47.787326
+            ],
+            [
+              11.401062,
+              48.011975
+            ],
+            [
+              11.140137,
+              47.818688
             ]
           ]
         ]
