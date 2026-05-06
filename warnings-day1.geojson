@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T12:05:15.288Z",
+  "generated_at": "2026-05-06T12:05:30.747Z",
   "features": [
     {
       "type": "Feature",
@@ -6534,55 +6534,59 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778069030387",
-        "type": "Tornado Watch",
-        "issued": "2026-05-06T13:52",
-        "issued_iso": "2026-05-06T11:52:00.000Z",
-        "expires": "2026-05-06T14:15",
-        "expires_iso": "2026-05-06T12:15:00.000Z",
-        "location": "Horažďovice Area, Heading to Blatná",
-        "hail": "0.4 cm",
-        "wind": "26 km/h",
+        "id": "warning-poly-1778068867588",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T13:59",
+        "issued_iso": "2026-05-06T11:59:00.000Z",
+        "expires": "2026-05-06T14:59",
+        "expires_iso": "2026-05-06T12:59:00.000Z",
+        "location": "",
+        "hail": "0.5cm",
+        "wind": "40kph",
         "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "A cell is in a development. Could Intensify in the next few minutes",
+        "text": "Nothing yet might intensify quickly",
         "hazards": {
-          "hail": "0.4 cm",
-          "wind": "26 km/h",
+          "hail": "0.5cm",
+          "wind": "40kph",
           "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "cape",
-        "forecaster_name": "CAPE",
-        "forecaster_role": "owner",
-        "issued_by": "CAPE",
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Bearmax",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T12:05:09.759Z"
+        "updated_at": "2026-05-06T12:01:15.611Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              14.80957,
-              51.07592
+              13.774224,
+              49.192237
             ],
             [
-              15.007324,
-              51.034486
+              13.555025,
+              49.274224
             ],
             [
-              15.46875,
-              51.392351
+              13.759323,
+              49.596571
             ],
             [
-              14.93042,
-              51.508742
+              14.018291,
+              49.626976
             ],
             [
-              14.80957,
-              51.07592
+              14.206061,
+              49.495417
+            ],
+            [
+              13.774224,
+              49.192237
             ]
           ]
         ]
