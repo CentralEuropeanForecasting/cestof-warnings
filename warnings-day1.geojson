@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T13:00:54.317Z",
+  "generated_at": "2026-05-06T13:05:35.987Z",
   "features": [
     {
       "type": "Feature",
@@ -6892,6 +6892,120 @@
             [
               13.260498,
               49.448486
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778072359272",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T14:56",
+        "issued_iso": "2026-05-06T12:56:00.000Z",
+        "expires": "2026-05-06T16:00",
+        "expires_iso": "2026-05-06T14:00:00.000Z",
+        "location": "bayern",
+        "hail": "3-3.5cm",
+        "wind": "60km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "a severe thunderstorm is moving northeast just north of the german-austrian border, producing lightning, damaging winds and large hail. the chances for a tornado to form are very low.",
+        "hazards": {
+          "hail": "3-3.5cm",
+          "wind": "60km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T13:02:32.282Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.404053,
+              47.739323
+            ],
+            [
+              10.667725,
+              48.487486
+            ],
+            [
+              11.535645,
+              48.107431
+            ],
+            [
+              10.667725,
+              47.635784
+            ],
+            [
+              10.404053,
+              47.739323
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778072654560",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T14:58",
+        "issued_iso": "2026-05-06T12:58:00.000Z",
+        "expires": "2026-05-06T16:00",
+        "expires_iso": "2026-05-06T14:00:00.000Z",
+        "location": "italy",
+        "hail": "3cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "a severe thunderstorm is moving northeast just south of the swiss border, producing lightning and large hail.",
+        "hazards": {
+          "hail": "3cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T13:05:23.248Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.882446,
+              45.73686
+            ],
+            [
+              9.107666,
+              46.354511
+            ],
+            [
+              9.882202,
+              46.077041
+            ],
+            [
+              9.074707,
+              45.652448
+            ],
+            [
+              8.882446,
+              45.73686
             ]
           ]
         ]
