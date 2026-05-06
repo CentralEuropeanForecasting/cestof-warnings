@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T12:05:30.747Z",
+  "generated_at": "2026-05-06T12:10:15.058Z",
   "features": [
     {
       "type": "Feature",
@@ -6587,6 +6587,79 @@
             [
               13.774224,
               49.192237
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778069361238",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T14:06",
+        "issued_iso": "2026-05-06T12:06:00.000Z",
+        "expires": "2026-05-06T15:00",
+        "expires_iso": "2026-05-06T13:00:00.000Z",
+        "location": "",
+        "hail": "0.5cm",
+        "wind": "55kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Quickly intensifying thunderstorm",
+        "hazards": {
+          "hail": "0.5cm",
+          "wind": "55kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T12:10:12.512Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.80146,
+              49.241157
+            ],
+            [
+              13.649954,
+              49.257969
+            ],
+            [
+              13.641204,
+              49.649874
+            ],
+            [
+              13.951091,
+              49.688851
+            ],
+            [
+              14.106841,
+              49.641158
+            ],
+            [
+              14.137973,
+              49.622844
+            ],
+            [
+              14.146905,
+              49.592101
+            ],
+            [
+              13.981649,
+              49.258652
+            ],
+            [
+              13.80146,
+              49.241157
             ]
           ]
         ]
