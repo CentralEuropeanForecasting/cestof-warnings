@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T15:31:00.019Z",
+  "generated_at": "2026-05-06T15:31:05.936Z",
   "features": [
     {
       "type": "Feature",
@@ -9047,12 +9047,126 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778080664834",
-        "type": "Thunderstorm Warning",
-        "issued": "2026-05-06T17:10",
-        "issued_iso": "2026-05-06T15:10:00.000Z",
-        "expires": "2026-05-06T18:10",
-        "expires_iso": "2026-05-06T16:10:00.000Z",
+        "id": "warning-poly-1778080331224",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T17:18",
+        "issued_iso": "2026-05-06T15:18:00.000Z",
+        "expires": "2026-05-06T18:18",
+        "expires_iso": "2026-05-06T16:18:00.000Z",
+        "location": "Stredocesky kraj near prague.",
+        "hail": "2-4cm",
+        "wind": "60km/h",
+        "tornado_probability": "Elevated",
+        "rotation": "Observed rotating wall cloud",
+        "md_number": "",
+        "text": "Severe thunderstorm moving onto prague. weather spotter confirmed wall cloud.",
+        "hazards": {
+          "hail": "2-4cm",
+          "wind": "60km/h",
+          "tornado_probability": "Elevated",
+          "rotation": "Observed rotating wall cloud"
+        },
+        "forecaster": "S64",
+        "forecaster_name": "S64",
+        "forecaster_role": "nowcaster",
+        "issued_by": "S64",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T15:18:07.216Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.28772,
+              49.797223
+            ],
+            [
+              14.60907,
+              49.713825
+            ],
+            [
+              15.161133,
+              50.208549
+            ],
+            [
+              14.425049,
+              50.310392
+            ],
+            [
+              14.28772,
+              49.797223
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778080808357",
+        "type": "Tornado Warning",
+        "issued": "2026-05-06T17:20",
+        "issued_iso": "2026-05-06T15:20:00.000Z",
+        "expires": "2026-05-06T17:46",
+        "expires_iso": "2026-05-06T15:46:00.000Z",
+        "location": "bayern",
+        "hail": "4cm",
+        "wind": "70km/h",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "!!A tornado might already be forming/on the ground!!\na strong rotating supercell west of Munchen is making its way northeast to the austrian-german border. the chance of an actual tornado on the ground is high, due to the strong rotation.",
+        "hazards": {
+          "hail": "4cm",
+          "wind": "70km/h",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T15:23:01.667Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.062988,
+              48.085419
+            ],
+            [
+              12.098694,
+              48.010138
+            ],
+            [
+              12.516174,
+              48.037692
+            ],
+            [
+              12.370605,
+              48.270397
+            ],
+            [
+              12.062988,
+              48.085419
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778081098604",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T17:23",
+        "issued_iso": "2026-05-06T15:23:00.000Z",
+        "expires": "2026-05-06T18:23",
+        "expires_iso": "2026-05-06T16:23:00.000Z",
         "location": "",
         "hail": "",
         "wind": "",
@@ -9066,36 +9180,93 @@
           "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "obamak",
-        "forecaster_name": "OBAMAK",
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
-        "issued_by": "OBAMAK",
+        "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T15:17:44.834Z"
+        "updated_at": "2026-05-06T15:24:58.604Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              15.36438,
-              50.155786
+              10.019531,
+              48.900838
             ],
             [
-              15.661011,
-              50.138185
+              10.898438,
+              49.396675
             ],
             [
-              15.825806,
-              50.474987
+              11.228027,
+              48.734455
             ],
             [
-              15.342407,
-              50.522158
+              10.140381,
+              48.654686
             ],
             [
-              15.36438,
-              50.155786
+              10.019531,
+              48.900838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778081255174",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T17:30",
+        "issued_iso": "2026-05-06T15:30:00.000Z",
+        "expires": "2026-05-06T18:15",
+        "expires_iso": "2026-05-06T16:15:00.000Z",
+        "location": "Germany. Sachsen north west of Dresden moving north east.",
+        "hail": "0.5-1cm",
+        "wind": "40km/h",
+        "tornado_probability": "Low",
+        "rotation": "",
+        "md_number": "",
+        "text": "A developing thunderstorm with heavy rainfall. small hail is spotted near leipzig.",
+        "hazards": {
+          "hail": "0.5-1cm",
+          "wind": "40km/h",
+          "tornado_probability": "Low",
+          "rotation": ""
+        },
+        "forecaster": "S64",
+        "forecaster_name": "S64",
+        "forecaster_role": "nowcaster",
+        "issued_by": "S64",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T15:30:28.250Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.518921,
+              51.213766
+            ],
+            [
+              12.683716,
+              51.117317
+            ],
+            [
+              13.178101,
+              51.248163
+            ],
+            [
+              12.914429,
+              51.495065
+            ],
+            [
+              12.518921,
+              51.213766
             ]
           ]
         ]
