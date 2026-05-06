@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T11:56:18.458Z",
+  "generated_at": "2026-05-06T11:57:22.048Z",
   "features": [
     {
       "type": "Feature",
@@ -6420,55 +6420,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778068428584",
-        "type": "Tornado Watch",
-        "issued": "2026-05-06T13:52",
-        "issued_iso": "2026-05-06T11:52:00.000Z",
-        "expires": "2026-05-06T14:10",
-        "expires_iso": "2026-05-06T12:10:00.000Z",
-        "location": "Horažďovice Area, Heading to Blatná",
-        "hail": "0.4 cm",
-        "wind": "26 km/h",
+        "id": "warning-poly-1778068461197",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-05T20:20",
+        "issued_iso": "2026-05-05T18:20:00.000Z",
+        "expires": "2026-05-05T20:50",
+        "expires_iso": "2026-05-05T18:50:00.000Z",
+        "location": "Nová páka,Hradec Králové",
+        "hail": "0,2",
+        "wind": "",
         "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "A cell is in a development producing only 1 lighting. Could Intensify in the next few minutes",
+        "text": "A thunderstorm warning was issued for Nová Páka and Lomnice nad Popelkou,small hail is expected",
         "hazards": {
-          "hail": "0.4 cm",
-          "wind": "26 km/h",
+          "hail": "0,2",
+          "wind": "",
           "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "cape",
-        "forecaster_name": "CAPE",
-        "forecaster_role": "owner",
-        "issued_by": "CAPE",
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Matyáš",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T11:56:16.320Z"
+        "updated_at": "2026-05-06T11:54:21.197Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              13.590088,
-              49.274973
+              10.108452,
+              47.429016
             ],
             [
-              13.776855,
-              49.203243
+              10.211449,
+              47.400208
             ],
             [
-              14.106445,
-              49.518076
+              10.444565,
+              47.62838
             ],
             [
-              13.754883,
-              49.614269
+              10.114975,
+              47.693126
             ],
             [
-              13.590088,
-              49.274973
+              10.108452,
+              47.429016
             ]
           ]
         ]
