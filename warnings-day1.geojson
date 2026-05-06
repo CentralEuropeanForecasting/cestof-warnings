@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T15:00:54.032Z",
+  "generated_at": "2026-05-06T15:01:30.669Z",
   "features": [
     {
       "type": "Feature",
@@ -8591,55 +8591,283 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778079461272",
-        "type": "Thunderstorm Warning",
-        "issued": "2026-05-06T16:33",
-        "issued_iso": "2026-05-06T14:33:00.000Z",
-        "expires": "2026-05-06T17:15",
-        "expires_iso": "2026-05-06T15:15:00.000Z",
-        "location": "Otterfing,Bavaria",
-        "hail": "2,10cm",
-        "wind": "",
-        "tornado_probability": "Possible",
-        "rotation": "Radar-indicated rotation",
+        "id": "warning-poly-1778079198150",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T16:54",
+        "issued_iso": "2026-05-06T14:54:00.000Z",
+        "expires": "2026-05-06T18:00",
+        "expires_iso": "2026-05-06T16:00:00.000Z",
+        "location": "Bayern",
+        "hail": "2-3cm",
+        "wind": "55km/h",
+        "tornado_probability": "Low",
+        "rotation": "Broad rotation",
         "md_number": "",
-        "text": "possible tornado forming near Otterfing, take shelfter now! this is serious",
+        "text": "this rotating thunderstorm is moving northeast trough bayern in the direction of nurnberg, producing large hail and lightning.",
         "hazards": {
-          "hail": "2,10cm",
-          "wind": "",
-          "tornado_probability": "Possible",
-          "rotation": "Radar-indicated rotation"
+          "hail": "2-3cm",
+          "wind": "55km/h",
+          "tornado_probability": "Low",
+          "rotation": "Broad rotation"
         },
-        "forecaster": "matyáš",
-        "forecaster_name": "Matyáš",
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
-        "issued_by": "Matyáš",
+        "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T14:57:41.272Z"
+        "updated_at": "2026-05-06T14:55:04.070Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              15.662727,
-              49.839311
+              10.453491,
+              49.088258
             ],
             [
-              15.798683,
-              49.801212
+              11.184082,
+              49.703168
             ],
             [
-              16.116257,
-              50.027152
+              11.821289,
+              49.099049
             ],
             [
-              15.759201,
-              50.080057
+              10.579834,
+              48.929718
             ],
             [
-              15.662727,
-              49.839311
+              10.453491,
+              49.088258
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778079341278",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T16:54",
+        "issued_iso": "2026-05-06T14:54:00.000Z",
+        "expires": "2026-05-06T18:00",
+        "expires_iso": "2026-05-06T16:00:00.000Z",
+        "location": "Bayern, Baden-wurttemberg",
+        "hail": "1-2cm",
+        "wind": "55km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast, producing lightning and hail near heilbronn.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "55km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T14:56:32.583Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.63501,
+              48.821333
+            ],
+            [
+              10.096436,
+              49.389524
+            ],
+            [
+              10.678711,
+              48.980217
+            ],
+            [
+              9.799805,
+              48.727209
+            ],
+            [
+              9.63501,
+              48.821333
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778079482206",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T16:54",
+        "issued_iso": "2026-05-06T14:54:00.000Z",
+        "expires": "2026-05-06T18:00",
+        "expires_iso": "2026-05-06T16:00:00.000Z",
+        "location": "Bayern",
+        "hail": "2-3cm",
+        "wind": "55km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this severe thunderstorm is moving northeast, producing lightning and hail near garmisch-partenkirchen",
+        "hazards": {
+          "hail": "2-3cm",
+          "wind": "55km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T14:58:39.889Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.975586,
+              47.982568
+            ],
+            [
+              11.118164,
+              48.661943
+            ],
+            [
+              11.568604,
+              47.791016
+            ],
+            [
+              10.096436,
+              47.731934
+            ],
+            [
+              9.975586,
+              47.982568
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778079543751",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T16:58",
+        "issued_iso": "2026-05-06T14:58:00.000Z",
+        "expires": "2026-05-06T18:00",
+        "expires_iso": "2026-05-06T16:00:00.000Z",
+        "location": "Bayern",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this severe thunderstorm is moving northeast, producing lightning and hail near ulm,",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T14:59:30.265Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.591064,
+              48.188063
+            ],
+            [
+              10.722656,
+              48.843028
+            ],
+            [
+              10.898438,
+              48.114767
+            ],
+            [
+              9.744873,
+              48.004625
+            ],
+            [
+              9.591064,
+              48.188063
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778079619822",
+        "type": "Tornado Warning",
+        "issued": "2026-05-06T16:58",
+        "issued_iso": "2026-05-06T14:58:00.000Z",
+        "expires": "2026-05-06T18:00",
+        "expires_iso": "2026-05-06T16:00:00.000Z",
+        "location": "Bayern",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this severe thunderstorm is moving northeast, producing lightning and hail near ulm,",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T15:00:19.822Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.906433,
+              48.078079
+            ],
+            [
+              11.994324,
+              47.995436
+            ],
+            [
+              12.411804,
+              48.052382
+            ],
+            [
+              12.062988,
+              48.25577
+            ],
+            [
+              11.906433,
+              48.078079
             ]
           ]
         ]
