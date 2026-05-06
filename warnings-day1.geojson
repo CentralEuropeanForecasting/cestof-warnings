@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T19:46:49.247Z",
+  "generated_at": "2026-05-06T19:55:54.518Z",
   "features": [
     {
       "type": "Feature",
@@ -12611,6 +12611,63 @@
             [
               14.820557,
               49.986552
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778097267194",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T21:54",
+        "issued_iso": "2026-05-06T19:54:00.000Z",
+        "expires": "2026-05-06T22:54",
+        "expires_iso": "2026-05-06T20:54:00.000Z",
+        "location": "Mondovi, Italy",
+        "hail": "<0,5cm",
+        "wind": "<50km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "An almost stationary storm, with very slow East movement is over Mondovi, Italy. 60 dBZ max, lightning activity is moderate.",
+        "hazards": {
+          "hail": "<0,5cm",
+          "wind": "<50km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T19:55:53.030Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.608032,
+              44.488668
+            ],
+            [
+              7.66571,
+              44.284537
+            ],
+            [
+              8.184814,
+              44.321883
+            ],
+            [
+              8.063965,
+              44.643254
+            ],
+            [
+              7.608032,
+              44.488668
             ]
           ]
         ]
