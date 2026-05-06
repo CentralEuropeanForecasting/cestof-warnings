@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T16:07:14.987Z",
+  "generated_at": "2026-05-06T16:09:47.211Z",
   "features": [
     {
       "type": "Feature",
@@ -9841,6 +9841,63 @@
             [
               12.738647,
               48.206371
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778083456573",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T17:39",
+        "issued_iso": "2026-05-06T15:39:00.000Z",
+        "expires": "2026-05-06T18:20",
+        "expires_iso": "2026-05-06T16:20:00.000Z",
+        "location": "Poland. Podlasie, Moving north east",
+        "hail": "0.5-1cm",
+        "wind": "40km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "Small storm moving north east onto lithuania border is trying to maintain itself. while good environment is infront of the storm.",
+        "hazards": {
+          "hail": "0.5-1cm",
+          "wind": "40km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "S64",
+        "forecaster_name": "S64",
+        "forecaster_role": "nowcaster",
+        "issued_by": "S64",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T16:09:35.860Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.922974,
+              53.763325
+            ],
+            [
+              23.016357,
+              53.691015
+            ],
+            [
+              23.516235,
+              53.842805
+            ],
+            [
+              23.277283,
+              53.998083
+            ],
+            [
+              22.922974,
+              53.763325
             ]
           ]
         ]
