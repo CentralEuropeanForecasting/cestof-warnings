@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T15:23:20.370Z",
+  "generated_at": "2026-05-06T15:23:28.435Z",
   "features": [
     {
       "type": "Feature",
@@ -9047,55 +9047,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778080331224",
-        "type": "Severe Thunderstorm Warning",
-        "issued": "2026-05-06T17:18",
-        "issued_iso": "2026-05-06T15:18:00.000Z",
-        "expires": "2026-05-06T18:18",
-        "expires_iso": "2026-05-06T16:18:00.000Z",
-        "location": "Stredocesky kraj near prague.",
-        "hail": "2-4cm",
-        "wind": "60km/h",
-        "tornado_probability": "Elevated",
-        "rotation": "Observed rotating wall cloud",
+        "id": "warning-poly-1778080664834",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T17:10",
+        "issued_iso": "2026-05-06T15:10:00.000Z",
+        "expires": "2026-05-06T18:10",
+        "expires_iso": "2026-05-06T16:10:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
         "md_number": "",
-        "text": "Severe thunderstorm moving onto prague. weather spotter confirmed wall cloud.",
+        "text": "",
         "hazards": {
-          "hail": "2-4cm",
-          "wind": "60km/h",
-          "tornado_probability": "Elevated",
-          "rotation": "Observed rotating wall cloud"
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
         },
-        "forecaster": "S64",
-        "forecaster_name": "S64",
+        "forecaster": "obamak",
+        "forecaster_name": "OBAMAK",
         "forecaster_role": "nowcaster",
-        "issued_by": "S64",
+        "issued_by": "OBAMAK",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T15:18:07.216Z"
+        "updated_at": "2026-05-06T15:17:44.834Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              14.28772,
-              49.797223
+              15.36438,
+              50.155786
             ],
             [
-              14.60907,
-              49.713825
+              15.661011,
+              50.138185
             ],
             [
-              15.161133,
-              50.208549
+              15.825806,
+              50.474987
             ],
             [
-              14.425049,
-              50.310392
+              15.342407,
+              50.522158
             ],
             [
-              14.28772,
-              49.797223
+              15.36438,
+              50.155786
             ]
           ]
         ]
@@ -9104,55 +9104,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778080808357",
-        "type": "Tornado Warning",
+        "id": "warning-poly-1778080698663",
+        "type": "Thunderstorm Warning",
         "issued": "2026-05-06T17:20",
         "issued_iso": "2026-05-06T15:20:00.000Z",
-        "expires": "2026-05-06T17:46",
-        "expires_iso": "2026-05-06T15:46:00.000Z",
-        "location": "bayern",
-        "hail": "4cm",
-        "wind": "70km/h",
-        "tornado_probability": "Possible",
-        "rotation": "Radar-indicated rotation",
+        "expires": "2026-05-06T18:05",
+        "expires_iso": "2026-05-06T16:05:00.000Z",
+        "location": "Venezia, Italy",
+        "hail": "1cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
         "md_number": "",
-        "text": "!!A tornado might already be forming/on the ground!!\na strong rotating supercell west of Munchen is making its way northeast to the austrian-german border. the chance of an actual tornado on the ground is high, due to the strong rotation.",
+        "text": "Two thunderstorm cells active next to each other, 58-60 dBZ, moderate lightning activity, ENE to NE movement.",
         "hazards": {
-          "hail": "4cm",
-          "wind": "70km/h",
-          "tornado_probability": "Possible",
-          "rotation": "Radar-indicated rotation"
+          "hail": "1cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
         },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
         "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
+        "issued_by": "Joseph",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T15:23:01.667Z"
+        "updated_at": "2026-05-06T15:23:07.680Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              12.062988,
-              48.085419
+              10.678711,
+              45.191716
             ],
             [
-              12.098694,
-              48.010138
+              10.8078,
+              45.02695
             ],
             [
-              12.516174,
-              48.037692
+              11.557617,
+              45.180101
             ],
             [
-              12.370605,
-              48.270397
+              11.307678,
+              45.535213
             ],
             [
-              12.062988,
-              48.085419
+              10.678711,
+              45.191716
             ]
           ]
         ]
