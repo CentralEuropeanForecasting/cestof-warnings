@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T08:35:22.743Z",
+  "generated_at": "2026-05-06T09:30:21.472Z",
   "features": [
     {
       "type": "Feature",
@@ -6298,6 +6298,63 @@
             [
               9.231859,
               44.402479
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778059759709",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T11:27",
+        "issued_iso": "2026-05-06T09:27:00.000Z",
+        "expires": "2026-05-06T12:27",
+        "expires_iso": "2026-05-06T10:27:00.000Z",
+        "location": "italy",
+        "hail": "0.5-1cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "a thunderstorm is moving north near biella, producing lightning and small hail.",
+        "hazards": {
+          "hail": "0.5-1cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T09:30:18.710Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.239746,
+              45.429299
+            ],
+            [
+              8.514404,
+              45.981695
+            ],
+            [
+              7.965088,
+              46.065608
+            ],
+            [
+              7.723389,
+              45.467836
+            ],
+            [
+              8.239746,
+              45.429299
             ]
           ]
         ]
