@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T14:29:55.711Z",
+  "generated_at": "2026-05-06T14:33:00.737Z",
   "features": [
     {
       "type": "Feature",
@@ -8241,6 +8241,120 @@
             [
               14.250641,
               49.560852
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778077583608",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T16:26",
+        "issued_iso": "2026-05-06T14:26:00.000Z",
+        "expires": "2026-05-06T17:00",
+        "expires_iso": "2026-05-06T15:00:00.000Z",
+        "location": "bayern, Baden-Wurttemberg",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast from heilbronn, producing hail and lightning,",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T14:27:20.186Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.909912,
+              48.705463
+            ],
+            [
+              9.865723,
+              48.734455
+            ],
+            [
+              9.613037,
+              49.439557
+            ],
+            [
+              8.789063,
+              48.994636
+            ],
+            [
+              8.909912,
+              48.705463
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778077770216",
+        "type": "Tornado Warning",
+        "issued": "2026-05-06T16:30",
+        "issued_iso": "2026-05-06T14:30:00.000Z",
+        "expires": "2026-05-06T16:45",
+        "expires_iso": "2026-05-06T14:45:00.000Z",
+        "location": "Bayern",
+        "hail": "4cm",
+        "wind": "70km/h",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "!!there is possibly already a tornado on the ground!!\nThis severely rotating thunderstorm south of münchen is capable of producing a strong tornado.",
+        "hazards": {
+          "hail": "4cm",
+          "wind": "70km/h",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T14:32:56.429Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.510582,
+              47.930146
+            ],
+            [
+              11.539078,
+              47.889644
+            ],
+            [
+              11.880341,
+              47.918183
+            ],
+            [
+              11.738892,
+              48.09826
+            ],
+            [
+              11.510582,
+              47.930146
             ]
           ]
         ]
