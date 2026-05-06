@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T14:45:27.679Z",
+  "generated_at": "2026-05-06T14:46:57.825Z",
   "features": [
     {
       "type": "Feature",
@@ -8481,8 +8481,8 @@
         "type": "Tornado Warning",
         "issued": "2026-05-06T16:45",
         "issued_iso": "2026-05-06T14:45:00.000Z",
-        "expires": "2026-05-06T18:00",
-        "expires_iso": "2026-05-06T16:00:00.000Z",
+        "expires": "2026-05-06T17:00",
+        "expires_iso": "2026-05-06T15:00:00.000Z",
         "location": "bayern",
         "hail": "4cm",
         "wind": "70km/h",
@@ -8501,7 +8501,7 @@
         "forecaster_role": "nowcaster",
         "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T14:45:22.519Z"
+        "updated_at": "2026-05-06T14:46:55.454Z"
       },
       "geometry": {
         "type": "Polygon",
