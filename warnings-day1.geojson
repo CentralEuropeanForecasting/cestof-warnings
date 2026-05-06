@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T14:35:01.132Z",
+  "generated_at": "2026-05-06T14:36:08.927Z",
   "features": [
     {
       "type": "Feature",
@@ -8355,6 +8355,63 @@
             [
               11.510582,
               47.930146
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778078163608",
+        "type": "Tornado Warning",
+        "issued": "2026-05-06T16:33",
+        "issued_iso": "2026-05-06T14:33:00.000Z",
+        "expires": "2026-05-06T17:15",
+        "expires_iso": "2026-05-06T15:15:00.000Z",
+        "location": "Otterfing,Bavaria",
+        "hail": "2,10cm",
+        "wind": "",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "possible tornado forming near Otterfing, take shelfter now! this is serious",
+        "hazards": {
+          "hail": "2,10cm",
+          "wind": "",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T14:36:03.608Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.612463,
+              47.914386
+            ],
+            [
+              11.696234,
+              47.873641
+            ],
+            [
+              11.89991,
+              47.992679
+            ],
+            [
+              11.669197,
+              48.065232
+            ],
+            [
+              11.612463,
+              47.914386
             ]
           ]
         ]
