@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T15:15:27.346Z",
+  "generated_at": "2026-05-06T15:16:58.730Z",
   "features": [
     {
       "type": "Feature",
@@ -8990,55 +8990,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778080331224",
-        "type": "Severe Thunderstorm Warning",
+        "id": "warning-poly-1778080300685",
+        "type": "Thunderstorm Warning",
         "issued": "2026-05-06T17:11",
         "issued_iso": "2026-05-06T15:11:00.000Z",
-        "expires": "2026-05-06T18:11",
-        "expires_iso": "2026-05-06T16:11:00.000Z",
-        "location": "Stredocesky kraj near prague.",
-        "hail": "2-4cm",
-        "wind": "60km/h",
-        "tornado_probability": "Elevated",
-        "rotation": "Observed rotating wall cloud",
+        "expires": "2026-05-06T18:00",
+        "expires_iso": "2026-05-06T16:00:00.000Z",
+        "location": "bayern",
+        "hail": "1-2cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
         "md_number": "",
-        "text": "Severe thunderstorm moving onto prague. wather spotter confirmed wall cloud.",
+        "text": "This storm located near nurnberg is moving north to the czech border, producing hail and lightning",
         "hazards": {
-          "hail": "2-4cm",
-          "wind": "60km/h",
-          "tornado_probability": "Elevated",
-          "rotation": "Observed rotating wall cloud"
+          "hail": "1-2cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
         },
-        "forecaster": "S64",
-        "forecaster_name": "S64",
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
-        "issued_by": "S64",
+        "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T15:15:05.532Z"
+        "updated_at": "2026-05-06T15:12:43.172Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              14.28772,
-              49.797223
+              11.096191,
+              49.403825
             ],
             [
-              14.60907,
-              49.713825
+              11.612549,
+              49.859235
             ],
             [
-              15.161133,
-              50.208549
+              11.975098,
+              49.496675
             ],
             [
-              14.425049,
-              50.310392
+              11.173096,
+              49.28214
             ],
             [
-              14.28772,
-              49.797223
+              11.096191,
+              49.403825
             ]
           ]
         ]
