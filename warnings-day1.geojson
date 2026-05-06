@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T18:06:38.308Z",
+  "generated_at": "2026-05-06T18:11:36.958Z",
   "features": [
     {
       "type": "Feature",
@@ -11457,6 +11457,63 @@
             [
               12.32666,
               51.37178
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778090861623",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T20:07",
+        "issued_iso": "2026-05-06T18:07:00.000Z",
+        "expires": "2026-05-06T21:01",
+        "expires_iso": "2026-05-06T19:01:00.000Z",
+        "location": "thuringen",
+        "hail": "1-2cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "this thunderstorm is headed northeast near wutzburg, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T18:08:37.537Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.206299,
+              50.429518
+            ],
+            [
+              10.360107,
+              50.268277
+            ],
+            [
+              11.271973,
+              50.35948
+            ],
+            [
+              10.469971,
+              50.833698
+            ],
+            [
+              10.206299,
+              50.429518
             ]
           ]
         ]
