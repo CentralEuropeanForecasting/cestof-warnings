@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T15:28:22.076Z",
+  "generated_at": "2026-05-06T15:29:26.658Z",
   "features": [
     {
       "type": "Feature",
@@ -9210,6 +9210,120 @@
             [
               10.019531,
               48.900838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778080664834",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T17:10",
+        "issued_iso": "2026-05-06T15:10:00.000Z",
+        "expires": "2026-05-06T18:10",
+        "expires_iso": "2026-05-06T16:10:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "obamak",
+        "forecaster_name": "OBAMAK",
+        "forecaster_role": "nowcaster",
+        "issued_by": "OBAMAK",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T15:17:44.834Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.36438,
+              50.155786
+            ],
+            [
+              15.661011,
+              50.138185
+            ],
+            [
+              15.825806,
+              50.474987
+            ],
+            [
+              15.342407,
+              50.522158
+            ],
+            [
+              15.36438,
+              50.155786
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778081128847",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T17:10",
+        "issued_iso": "2026-05-06T15:10:00.000Z",
+        "expires": "2026-05-06T18:10",
+        "expires_iso": "2026-05-06T16:10:00.000Z",
+        "location": "West of Hradec Králové",
+        "hail": "0",
+        "wind": "60",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Dying storm (40dbz+) with a little lightning activity",
+        "hazards": {
+          "hail": "0",
+          "wind": "60",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "obamak",
+        "forecaster_name": "OBAMAK",
+        "forecaster_role": "nowcaster",
+        "issued_by": "OBAMAK",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T15:25:28.847Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.864502,
+              50.007739
+            ],
+            [
+              15.262756,
+              50.013034
+            ],
+            [
+              15.36438,
+              50.369993
+            ],
+            [
+              14.732666,
+              50.362985
+            ],
+            [
+              14.864502,
+              50.007739
             ]
           ]
         ]
