@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T15:09:37.725Z",
+  "generated_at": "2026-05-06T15:12:47.691Z",
   "features": [
     {
       "type": "Feature",
@@ -8982,6 +8982,63 @@
             [
               11.140137,
               51.323747
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778080300685",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T17:11",
+        "issued_iso": "2026-05-06T15:11:00.000Z",
+        "expires": "2026-05-06T18:00",
+        "expires_iso": "2026-05-06T16:00:00.000Z",
+        "location": "bayern",
+        "hail": "1-2cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "This storm located near nurnberg is moving north to the czech border, producing hail and lightning",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T15:12:43.172Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.096191,
+              49.403825
+            ],
+            [
+              11.612549,
+              49.859235
+            ],
+            [
+              11.975098,
+              49.496675
+            ],
+            [
+              11.173096,
+              49.28214
+            ],
+            [
+              11.096191,
+              49.403825
             ]
           ]
         ]
