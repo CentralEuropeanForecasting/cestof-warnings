@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T13:36:14.092Z",
+  "generated_at": "2026-05-06T13:38:17.603Z",
   "features": [
     {
       "type": "Feature",
@@ -7364,6 +7364,143 @@
             [
               10.744629,
               49.267805
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778074513105",
+        "type": "Thunderstorm Watch",
+        "issued": "2026-05-06T15:36",
+        "issued_iso": "2026-05-06T13:36:00.000Z",
+        "expires": "2026-05-06T16:36",
+        "expires_iso": "2026-05-06T14:36:00.000Z",
+        "location": "Nouvelle-Aquitaine, Occitanie, San Sebastian",
+        "hail": "Unknown",
+        "wind": "20km/h (estimated)",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Storm risk due to Bordeaux getting hit with hard hail",
+        "hazards": {
+          "hail": "Unknown",
+          "wind": "20km/h (estimated)",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "elidoesbnuuy",
+        "forecaster_name": "EliDoesBnuuy",
+        "forecaster_role": "nowcaster",
+        "issued_by": "EliDoesBnuuy",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T13:37:11.600Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.911377,
+              43.683764
+            ],
+            [
+              -1.5271,
+              43.612217
+            ],
+            [
+              -0.845947,
+              43.953282
+            ],
+            [
+              -0.164795,
+              44.355278
+            ],
+            [
+              -0.780029,
+              45.18978
+            ],
+            [
+              -0.889893,
+              45.805829
+            ],
+            [
+              -0.549316,
+              46.271037
+            ],
+            [
+              -0.263672,
+              46.452997
+            ],
+            [
+              0.626221,
+              46.694667
+            ],
+            [
+              1.494141,
+              46.875213
+            ],
+            [
+              2.120361,
+              46.912751
+            ],
+            [
+              4.680176,
+              46.83765
+            ],
+            [
+              4.559326,
+              43.413029
+            ],
+            [
+              3.999023,
+              43.500752
+            ],
+            [
+              3.339844,
+              43.213183
+            ],
+            [
+              3.076172,
+              43.020714
+            ],
+            [
+              3.054199,
+              42.747012
+            ],
+            [
+              3.153076,
+              42.512602
+            ],
+            [
+              2.779541,
+              42.374778
+            ],
+            [
+              0.769043,
+              42.787339
+            ],
+            [
+              0.186768,
+              42.674359
+            ],
+            [
+              -0.582275,
+              42.875964
+            ],
+            [
+              -1.549072,
+              43.189158
+            ],
+            [
+              -3.010254,
+              43.213183
+            ],
+            [
+              -2.911377,
+              43.683764
             ]
           ]
         ]
