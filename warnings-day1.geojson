@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T16:06:08.682Z",
+  "generated_at": "2026-05-06T16:06:48.256Z",
   "features": [
     {
       "type": "Feature",
@@ -9591,24 +9591,24 @@
         "coordinates": [
           [
             [
-              13.496704,
-              50.198001
+              13.485718,
+              50.206791
             ],
             [
-              13.650513,
-              50.141706
+              13.639526,
+              50.145226
             ],
             [
-              13.980103,
-              50.366489
+              13.999329,
+              50.340202
             ],
             [
-              13.62854,
-              50.429518
+              13.603821,
+              50.438265
             ],
             [
-              13.496704,
-              50.198001
+              13.485718,
+              50.206791
             ]
           ]
         ]
@@ -9617,63 +9617,230 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778083376507",
-        "type": "Thunderstorm Warning",
-        "issued": "2026-05-06T18:05",
-        "issued_iso": "2026-05-06T16:05:00.000Z",
-        "expires": "2026-05-06T19:10",
-        "expires_iso": "2026-05-06T17:10:00.000Z",
-        "location": "Vercelli, Novara, Asti, Alessandria - Italy",
-        "hail": "<2cm",
-        "wind": "<60 km/h",
-        "tornado_probability": "",
-        "rotation": "",
+        "id": "warning-poly-1778082945617",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T17:57",
+        "issued_iso": "2026-05-06T15:57:00.000Z",
+        "expires": "2026-05-06T19:00",
+        "expires_iso": "2026-05-06T17:00:00.000Z",
+        "location": "Bayern, Oberösterreich",
+        "hail": "4-5cm",
+        "wind": "70km/h",
+        "tornado_probability": "Elevated",
+        "rotation": "Broad rotation",
         "md_number": "",
-        "text": "A cluster of thunderstorm cells moving ENE, heading for: Vercelli, Novara, Alessandria in Italy, Radar scans show dBZ in peaks of 53-60 dBZ, hail is possible.",
+        "text": "this severe rotating supercell is moving northeast to the german-czech border, producing damaging winds, large hail and lightning. the chance for a tornado is present.",
         "hazards": {
-          "hail": "<2cm",
-          "wind": "<60 km/h",
-          "tornado_probability": "",
-          "rotation": ""
+          "hail": "4-5cm",
+          "wind": "70km/h",
+          "tornado_probability": "Elevated",
+          "rotation": "Broad rotation"
         },
-        "forecaster": "joseph",
-        "forecaster_name": "Joseph",
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
-        "issued_by": "Joseph",
+        "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T16:05:59.339Z"
+        "updated_at": "2026-05-06T15:59:13.486Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              8.063965,
-              44.793531
+              12.019043,
+              48.305121
             ],
             [
-              7.855225,
-              44.933696
+              13.40332,
+              49.432413
             ],
             [
-              8.272705,
-              45.590978
+              14.72168,
+              48.231991
             ],
             [
-              8.959351,
-              45.759859
+              12.469482,
+              47.901614
             ],
             [
-              8.931885,
-              45.313529
+              12.019043,
+              48.305121
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778083183777",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T17:57",
+        "issued_iso": "2026-05-06T15:57:00.000Z",
+        "expires": "2026-05-06T19:00",
+        "expires_iso": "2026-05-06T17:00:00.000Z",
+        "location": "Bayern",
+        "hail": "1-3cm",
+        "wind": "40-60km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "a line of thunderstorms near ulm is travelling northeast, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-3cm",
+          "wind": "40-60km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T16:02:24.202Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.624023,
+              48.443778
             ],
             [
-              8.723145,
-              44.871443
+              9.887695,
+              49.001844
             ],
             [
-              8.063965,
-              44.793531
+              11.304932,
+              48.589326
+            ],
+            [
+              10.568848,
+              48.070738
+            ],
+            [
+              9.624023,
+              48.443778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778083325775",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T18:03",
+        "issued_iso": "2026-05-06T16:03:00.000Z",
+        "expires": "2026-05-06T19:00",
+        "expires_iso": "2026-05-06T17:00:00.000Z",
+        "location": "Bayern",
+        "hail": "1-2cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is traveling northeast to wutzburg, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T16:03:31.103Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.876709,
+              49.073866
+            ],
+            [
+              10.008545,
+              49.667628
+            ],
+            [
+              10.074463,
+              49.901711
+            ],
+            [
+              10.942383,
+              49.653405
+            ],
+            [
+              10.17334,
+              48.987427
+            ],
+            [
+              9.876709,
+              49.073866
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778083543663",
+        "type": "Tornado Warning",
+        "issued": "2026-05-06T18:03",
+        "issued_iso": "2026-05-06T16:03:00.000Z",
+        "expires": "2026-05-06T18:34",
+        "expires_iso": "2026-05-06T16:34:00.000Z",
+        "location": "Bayern, Oberösterreich",
+        "hail": "4cm",
+        "wind": "65km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this rotating supercell is able to produce a tornado at any time.",
+        "hazards": {
+          "hail": "4cm",
+          "wind": "65km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T16:06:45.178Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.738647,
+              48.206371
+            ],
+            [
+              12.843018,
+              48.022998
+            ],
+            [
+              14.150391,
+              48.213693
+            ],
+            [
+              13.546143,
+              48.803246
+            ],
+            [
+              12.738647,
+              48.206371
             ]
           ]
         ]
