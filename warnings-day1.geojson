@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T17:39:16.518Z",
+  "generated_at": "2026-05-06T18:00:49.897Z",
   "features": [
     {
       "type": "Feature",
@@ -11001,6 +11001,177 @@
             [
               12.804565,
               49.674738
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778089968559",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T20:00",
+        "issued_iso": "2026-05-06T18:00:00.000Z",
+        "expires": "2026-05-06T21:00",
+        "expires_iso": "2026-05-06T19:00:00.000Z",
+        "location": "Bayern",
+        "hail": "3-4cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this severe thunderstorm is located near ingolstadt, moving northeast to the czech-german border. This storm is producing large hail and lightning.",
+        "hazards": {
+          "hail": "3-4cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T17:58:16.863Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.151123,
+              49.030665
+            ],
+            [
+              11.502686,
+              48.835797
+            ],
+            [
+              13.07373,
+              49.410973
+            ],
+            [
+              11.931152,
+              49.972422
+            ],
+            [
+              11.151123,
+              49.030665
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778090147520",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T20:00",
+        "issued_iso": "2026-05-06T18:00:00.000Z",
+        "expires": "2026-05-06T21:00",
+        "expires_iso": "2026-05-06T19:00:00.000Z",
+        "location": "czechia",
+        "hail": "2-3cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this severe thunderstorm is located near Linz, moving northeast into czechia. This storm is producing large hail and lightning.",
+        "hazards": {
+          "hail": "2-3cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T17:58:32.496Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.31543,
+              49.016257
+            ],
+            [
+              13.623047,
+              48.857487
+            ],
+            [
+              15.457764,
+              49.396675
+            ],
+            [
+              13.996582,
+              50.078295
+            ],
+            [
+              13.31543,
+              49.016257
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778090325230",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T20:00",
+        "issued_iso": "2026-05-06T18:00:00.000Z",
+        "expires": "2026-05-06T21:00",
+        "expires_iso": "2026-05-06T19:00:00.000Z",
+        "location": "Niederösterreich",
+        "hail": "1-2cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is the remaining of the supercell near munich earlier this evening. the storm weakened a lot and now only produces lightning and small hail.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T18:00:08.019Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.590088,
+              48.734455
+            ],
+            [
+              13.623047,
+              48.414619
+            ],
+            [
+              15.963135,
+              48.04871
+            ],
+            [
+              15.754395,
+              49.167339
+            ],
+            [
+              13.590088,
+              48.734455
             ]
           ]
         ]
