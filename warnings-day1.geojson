@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T16:35:18.513Z",
+  "generated_at": "2026-05-06T16:36:00.193Z",
   "features": [
     {
       "type": "Feature",
@@ -10098,22 +10098,22 @@
         "location": "Bayern, Oberösterreich",
         "hail": "4cm",
         "wind": "65km/h",
-        "tornado_probability": "Very low",
-        "rotation": "Weak rotation",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
         "md_number": "",
         "text": "!!there might already be a tornado forming/on the ground!!\nThis severe supercell west of linz is strong enough to produce a tornado. seek shelter if you are in the path of this powerfull storm.",
         "hazards": {
           "hail": "4cm",
           "wind": "65km/h",
-          "tornado_probability": "Very low",
-          "rotation": "Weak rotation"
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
         },
         "forecaster": "trein",
         "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
         "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T16:35:10.619Z"
+        "updated_at": "2026-05-06T16:35:55.997Z"
       },
       "geometry": {
         "type": "Polygon",
