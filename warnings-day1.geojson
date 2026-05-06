@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T13:53:20.910Z",
+  "generated_at": "2026-05-06T13:56:21.266Z",
   "features": [
     {
       "type": "Feature",
@@ -7720,6 +7720,71 @@
             [
               10.947876,
               47.77256
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778075642652",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T15:53",
+        "issued_iso": "2026-05-06T13:53:00.000Z",
+        "expires": "2026-05-06T17:00",
+        "expires_iso": "2026-05-06T15:00:00.000Z",
+        "location": "Venezia, Italy",
+        "hail": "2cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Pretty strong storm, 55-60 dBZ, moving north-east, it is very lightning active, few more cells are forming under it.",
+        "hazards": {
+          "hail": "2cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T13:56:16.667Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.024536,
+              45.413876
+            ],
+            [
+              12.052002,
+              45.120053
+            ],
+            [
+              12.260742,
+              45.003651
+            ],
+            [
+              12.518921,
+              45.17042
+            ],
+            [
+              13.018799,
+              45.490946
+            ],
+            [
+              12.474976,
+              45.847934
+            ],
+            [
+              12.024536,
+              45.413876
             ]
           ]
         ]
