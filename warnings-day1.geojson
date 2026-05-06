@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T15:52:59.716Z",
+  "generated_at": "2026-05-06T15:54:49.950Z",
   "features": [
     {
       "type": "Feature",
@@ -9503,55 +9503,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778082266706",
-        "type": "Tornado Warning",
-        "issued": "2026-05-06T17:36",
-        "issued_iso": "2026-05-06T15:36:00.000Z",
-        "expires": "2026-05-06T18:00",
-        "expires_iso": "2026-05-06T16:00:00.000Z",
-        "location": "Baden-Wurttemberg,Bayern",
-        "hail": "1-3cm",
-        "wind": "40-60km/h",
-        "tornado_probability": "Low",
-        "rotation": "Weak rotation",
+        "id": "warning-poly-1778082672246",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T17:53",
+        "issued_iso": "2026-05-06T15:53:00.000Z",
+        "expires": "2026-05-06T18:45",
+        "expires_iso": "2026-05-06T16:45:00.000Z",
+        "location": "Hořice, Lázně Bělohrad, Nová Paka - Czechia",
+        "hail": "<0.5cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
         "md_number": "",
-        "text": "a line of thunderstorms is making its way northeast just south of ulm, producing hail and lightning.",
+        "text": "A storm cell passing close to Hradec Králové. It is producing fair amounts of lightning strikes and is pushing 53 dBZ on radar. Hail risk is low.",
         "hazards": {
-          "hail": "1-3cm",
-          "wind": "40-60km/h",
-          "tornado_probability": "Low",
-          "rotation": "Weak rotation"
+          "hail": "<0.5cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
         },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
         "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
+        "issued_by": "Joseph",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T15:44:26.706Z"
+        "updated_at": "2026-05-06T15:54:45.150Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              12.388458,
-              48.234736
+              15.358887,
+              50.298113
             ],
             [
-              12.448196,
-              48.132642
+              15.56488,
+              50.248961
             ],
             [
-              12.974854,
-              48.140432
+              15.932922,
+              50.536126
             ],
             [
-              12.755127,
-              48.452887
+              15.438538,
+              50.63901
             ],
             [
-              12.388458,
-              48.234736
+              15.358887,
+              50.298113
             ]
           ]
         ]
