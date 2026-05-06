@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T15:31:05.936Z",
+  "generated_at": "2026-05-06T15:31:42.357Z",
   "features": [
     {
       "type": "Feature",
@@ -9218,169 +9218,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778081255174",
-        "type": "Thunderstorm Warning",
-        "issued": "2026-05-06T17:30",
-        "issued_iso": "2026-05-06T15:30:00.000Z",
-        "expires": "2026-05-06T18:15",
-        "expires_iso": "2026-05-06T16:15:00.000Z",
-        "location": "Germany. Sachsen north west of Dresden moving north east.",
-        "hail": "0.5-1cm",
-        "wind": "40km/h",
-        "tornado_probability": "Low",
-        "rotation": "",
-        "md_number": "",
-        "text": "A developing thunderstorm with heavy rainfall. small hail is spotted near leipzig.",
-        "hazards": {
-          "hail": "0.5-1cm",
-          "wind": "40km/h",
-          "tornado_probability": "Low",
-          "rotation": ""
-        },
-        "forecaster": "S64",
-        "forecaster_name": "S64",
-        "forecaster_role": "nowcaster",
-        "issued_by": "S64",
-        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T15:30:28.250Z"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              12.518921,
-              51.213766
-            ],
-            [
-              12.683716,
-              51.117317
-            ],
-            [
-              13.178101,
-              51.248163
-            ],
-            [
-              12.914429,
-              51.495065
-            ],
-            [
-              12.518921,
-              51.213766
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "warning-poly-1778080698663",
-        "type": "Thunderstorm Warning",
-        "issued": "2026-05-06T17:20",
-        "issued_iso": "2026-05-06T15:20:00.000Z",
-        "expires": "2026-05-06T18:05",
-        "expires_iso": "2026-05-06T16:05:00.000Z",
-        "location": "Venezia, Italy",
-        "hail": "1cm",
-        "wind": "<60km/h",
-        "tornado_probability": "",
-        "rotation": "",
-        "md_number": "",
-        "text": "Two thunderstorm cells active next to each other, 58-60 dBZ, moderate lightning activity, ENE to NE movement.",
-        "hazards": {
-          "hail": "1cm",
-          "wind": "<60km/h",
-          "tornado_probability": "",
-          "rotation": ""
-        },
-        "forecaster": "joseph",
-        "forecaster_name": "Joseph",
-        "forecaster_role": "nowcaster",
-        "issued_by": "Joseph",
-        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T15:23:07.680Z"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              10.678711,
-              45.191716
-            ],
-            [
-              10.8078,
-              45.02695
-            ],
-            [
-              11.557617,
-              45.180101
-            ],
-            [
-              11.307678,
-              45.535213
-            ],
-            [
-              10.678711,
-              45.191716
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "warning-poly-1778081267910",
-        "type": "Severe Thunderstorm Warning",
-        "issued": "2026-05-06T17:30",
-        "issued_iso": "2026-05-06T15:30:00.000Z",
-        "expires": "2026-05-06T18:35",
-        "expires_iso": "2026-05-06T16:35:00.000Z",
-        "location": "Como, North of Milano, Italy",
+        "id": "warning-poly-1778081388580",
+        "type": "Tornado Warning",
+        "issued": "2026-05-06T17:25",
+        "issued_iso": "2026-05-06T15:25:00.000Z",
+        "expires": "2026-05-06T18:00",
+        "expires_iso": "2026-05-06T16:00:00.000Z",
+        "location": "bayern",
         "hail": "2-3cm",
-        "wind": "<80km/h",
-        "tornado_probability": "Very low",
-        "rotation": "",
+        "wind": "60km/h",
+        "tornado_probability": "Elevated",
+        "rotation": "Broad rotation",
         "md_number": "",
-        "text": "Very strong thunderstorm, 60 dBZ+, slow NE movement, currently close to Como, Italy. Hail risk is high.",
+        "text": "a severe rotating thunderstorm near ulm is making its way northeast to nurnberg, producing large hail, damaging winds and lightning. a tornado is possible.",
         "hazards": {
           "hail": "2-3cm",
-          "wind": "<80km/h",
-          "tornado_probability": "Very low",
-          "rotation": ""
+          "wind": "60km/h",
+          "tornado_probability": "Elevated",
+          "rotation": "Broad rotation"
         },
-        "forecaster": "joseph",
-        "forecaster_name": "Joseph",
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
-        "issued_by": "Joseph",
+        "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T15:30:57.781Z"
+        "updated_at": "2026-05-06T15:29:48.580Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              9.036255,
-              45.698507
+              10.391693,
+              48.841221
             ],
             [
-              9.234009,
-              45.467836
+              10.538635,
+              48.805055
             ],
             [
-              10.134888,
-              45.67932
+              11.085205,
+              48.949563
             ],
             [
-              9.632263,
-              46.132267
+              10.568848,
+              49.192474
             ],
             [
-              9.036255,
-              45.698507
+              10.391693,
+              48.841221
             ]
           ]
         ]
