@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T18:01:10.552Z",
+  "generated_at": "2026-05-06T18:06:38.308Z",
   "features": [
     {
       "type": "Feature",
@@ -11172,6 +11172,291 @@
             [
               13.590088,
               48.734455
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778090511240",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T20:03",
+        "issued_iso": "2026-05-06T18:03:00.000Z",
+        "expires": "2026-05-06T21:01",
+        "expires_iso": "2026-05-06T19:01:00.000Z",
+        "location": "czechia",
+        "hail": "2-3cm",
+        "wind": "45km/h",
+        "tornado_probability": "Low",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "this rotating thunderstorm is heading northeast into czechia, producing hail and lightning.",
+        "hazards": {
+          "hail": "2-3cm",
+          "wind": "45km/h",
+          "tornado_probability": "Low",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T18:03:05.998Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.216797,
+              49.880478
+            ],
+            [
+              12.5354,
+              49.632062
+            ],
+            [
+              14.018555,
+              50.035974
+            ],
+            [
+              12.810059,
+              50.632042
+            ],
+            [
+              12.216797,
+              49.880478
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778090616671",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T20:04",
+        "issued_iso": "2026-05-06T18:04:00.000Z",
+        "expires": "2026-05-06T21:01",
+        "expires_iso": "2026-05-06T19:01:00.000Z",
+        "location": "sachsen-anhalt,thuringen",
+        "hail": "1-2cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "this thunderstorm is headed northeast, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T18:04:29.983Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.480957,
+              51.082822
+            ],
+            [
+              10.678711,
+              51.76104
+            ],
+            [
+              11.436768,
+              51.542919
+            ],
+            [
+              10.700684,
+              51.020666
+            ],
+            [
+              10.480957,
+              51.082822
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778090701486",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T20:04",
+        "issued_iso": "2026-05-06T18:04:00.000Z",
+        "expires": "2026-05-06T21:01",
+        "expires_iso": "2026-05-06T19:01:00.000Z",
+        "location": "sachsen-anhalt,thuringen",
+        "hail": "1-2cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "this thunderstorm is headed east near leipzig, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T18:05:22.302Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.062988,
+              51.193115
+            ],
+            [
+              13.095703,
+              51.583897
+            ],
+            [
+              13.238525,
+              50.979182
+            ],
+            [
+              12.106934,
+              51.006842
+            ],
+            [
+              12.062988,
+              51.193115
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778090732614",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T20:04",
+        "issued_iso": "2026-05-06T18:04:00.000Z",
+        "expires": "2026-05-06T21:01",
+        "expires_iso": "2026-05-06T19:01:00.000Z",
+        "location": "sachsen-anhalt,thuringen",
+        "hail": "1-2cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "this thunderstorm is headed east near jena, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T18:05:48.018Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.78833,
+              51.069017
+            ],
+            [
+              12.722168,
+              51.303145
+            ],
+            [
+              12.7771,
+              50.792047
+            ],
+            [
+              11.821289,
+              50.903033
+            ],
+            [
+              11.78833,
+              51.069017
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778090757049",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T20:04",
+        "issued_iso": "2026-05-06T18:04:00.000Z",
+        "expires": "2026-05-06T21:01",
+        "expires_iso": "2026-05-06T19:01:00.000Z",
+        "location": "sachsen-anhalt,thuringen",
+        "hail": "1-2cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "this thunderstorm is headed east near leipzig in the direction of cottbus, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T18:06:24.554Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.32666,
+              51.37178
+            ],
+            [
+              12.337646,
+              51.213766
+            ],
+            [
+              13.52417,
+              51.234407
+            ],
+            [
+              13.31543,
+              51.801822
+            ],
+            [
+              12.32666,
+              51.37178
             ]
           ]
         ]
