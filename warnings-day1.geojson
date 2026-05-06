@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-05T22:34:45.286Z",
+  "generated_at": "2026-05-06T06:53:48.128Z",
   "features": [
     {
       "type": "Feature",
@@ -6050,6 +6050,63 @@
             [
               5.218506,
               51.323747
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778050378631",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T08:51",
+        "issued_iso": "2026-05-06T06:51:00.000Z",
+        "expires": "2026-05-06T09:30",
+        "expires_iso": "2026-05-06T07:30:00.000Z",
+        "location": "Genova",
+        "hail": "None",
+        "wind": "60 km/h possible",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "Thunderstorm moving into Genova as of now, moving north-north east, radar shows dBZ up to 55.",
+        "hazards": {
+          "hail": "None",
+          "wind": "60 km/h possible",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T06:53:42.763Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.683976,
+              44.379887
+            ],
+            [
+              9.117977,
+              44.363046
+            ],
+            [
+              9.572834,
+              45.040753
+            ],
+            [
+              8.719443,
+              45.108423
+            ],
+            [
+              8.683976,
+              44.379887
             ]
           ]
         ]
