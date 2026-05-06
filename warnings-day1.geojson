@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T15:37:08.721Z",
+  "generated_at": "2026-05-06T15:37:39.372Z",
   "features": [
     {
       "type": "Feature",
@@ -9275,55 +9275,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778080664834",
+        "id": "warning-poly-1778081639171",
         "type": "Thunderstorm Warning",
-        "issued": "2026-05-06T17:10",
-        "issued_iso": "2026-05-06T15:10:00.000Z",
-        "expires": "2026-05-06T18:10",
-        "expires_iso": "2026-05-06T16:10:00.000Z",
-        "location": "",
-        "hail": "",
-        "wind": "",
-        "tornado_probability": "",
-        "rotation": "",
+        "issued": "2026-05-06T17:32",
+        "issued_iso": "2026-05-06T15:32:00.000Z",
+        "expires": "2026-05-06T18:00",
+        "expires_iso": "2026-05-06T16:00:00.000Z",
+        "location": "Baden-Wurttemberg,Bayern",
+        "hail": "1-3cm",
+        "wind": "40-60km/h",
+        "tornado_probability": "Low",
+        "rotation": "Weak rotation",
         "md_number": "",
-        "text": "",
+        "text": "a line of thunderstorms is making its way northeast just south of ulm, producing hail and lightning.",
         "hazards": {
-          "hail": "",
-          "wind": "",
-          "tornado_probability": "",
-          "rotation": ""
+          "hail": "1-3cm",
+          "wind": "40-60km/h",
+          "tornado_probability": "Low",
+          "rotation": "Weak rotation"
         },
-        "forecaster": "obamak",
-        "forecaster_name": "OBAMAK",
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
         "forecaster_role": "nowcaster",
-        "issued_by": "OBAMAK",
+        "issued_by": "Trein",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T15:17:44.834Z"
+        "updated_at": "2026-05-06T15:35:00.403Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              15.36438,
-              50.155786
+              9.733887,
+              48.327039
             ],
             [
-              15.661011,
-              50.138185
+              9.810791,
+              48.748945
             ],
             [
-              15.825806,
-              50.474987
+              10.964355,
+              48.348948
             ],
             [
-              15.342407,
-              50.522158
+              10.404053,
+              48.026672
             ],
             [
-              15.36438,
-              50.155786
+              9.733887,
+              48.327039
             ]
           ]
         ]
@@ -9332,55 +9332,112 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778081128847",
+        "id": "warning-poly-1778080698663",
         "type": "Thunderstorm Warning",
-        "issued": "2026-05-06T17:10",
-        "issued_iso": "2026-05-06T15:10:00.000Z",
-        "expires": "2026-05-06T18:10",
-        "expires_iso": "2026-05-06T16:10:00.000Z",
-        "location": "West of Hradec Králové",
-        "hail": "0",
-        "wind": "60",
+        "issued": "2026-05-06T17:20",
+        "issued_iso": "2026-05-06T15:20:00.000Z",
+        "expires": "2026-05-06T18:05",
+        "expires_iso": "2026-05-06T16:05:00.000Z",
+        "location": "Venezia, Italy",
+        "hail": "1cm",
+        "wind": "<60km/h",
         "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "Dying storm (40dbz+) with a little lightning activity",
+        "text": "Two thunderstorm cells active next to each other, 58-60 dBZ, moderate lightning activity, ENE to NE movement.",
         "hazards": {
-          "hail": "0",
-          "wind": "60",
+          "hail": "1cm",
+          "wind": "<60km/h",
           "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "obamak",
-        "forecaster_name": "OBAMAK",
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
         "forecaster_role": "nowcaster",
-        "issued_by": "OBAMAK",
+        "issued_by": "Joseph",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T15:25:28.847Z"
+        "updated_at": "2026-05-06T15:23:07.680Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              14.864502,
-              50.007739
+              10.678711,
+              45.191716
             ],
             [
-              15.262756,
-              50.013034
+              10.8078,
+              45.02695
             ],
             [
-              15.36438,
-              50.369993
+              11.557617,
+              45.180101
             ],
             [
-              14.732666,
-              50.362985
+              11.307678,
+              45.535213
             ],
             [
-              14.864502,
-              50.007739
+              10.678711,
+              45.191716
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778081267910",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T17:30",
+        "issued_iso": "2026-05-06T15:30:00.000Z",
+        "expires": "2026-05-06T18:35",
+        "expires_iso": "2026-05-06T16:35:00.000Z",
+        "location": "Como, North of Milano, Italy",
+        "hail": "2-3cm",
+        "wind": "<80km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "Very strong thunderstorm, 60 dBZ+, slow NE movement, currently close to Como, Italy. Hail risk is high.",
+        "hazards": {
+          "hail": "2-3cm",
+          "wind": "<80km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T15:30:57.781Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.036255,
+              45.698507
+            ],
+            [
+              9.234009,
+              45.467836
+            ],
+            [
+              10.134888,
+              45.67932
+            ],
+            [
+              9.632263,
+              46.132267
+            ],
+            [
+              9.036255,
+              45.698507
             ]
           ]
         ]
