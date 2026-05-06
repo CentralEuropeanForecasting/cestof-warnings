@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T14:12:50.759Z",
+  "generated_at": "2026-05-06T14:16:54.652Z",
   "features": [
     {
       "type": "Feature",
@@ -8070,6 +8070,63 @@
             [
               8.734131,
               48.908059
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778076910858",
+        "type": "Tornado Warning",
+        "issued": "2026-05-06T16:15",
+        "issued_iso": "2026-05-06T14:15:00.000Z",
+        "expires": "2026-05-06T16:30",
+        "expires_iso": "2026-05-06T14:30:00.000Z",
+        "location": "bayern",
+        "hail": "2-3cm",
+        "wind": "65km/h",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "a tornado warning has been issued for a rotating thunderstorm south of munchen. a tornado might already be on the ground/forming above. this is because of the intense rotation that the radar measured.",
+        "hazards": {
+          "hail": "2-3cm",
+          "wind": "65km/h",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T14:16:52.462Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.401062,
+              47.918183
+            ],
+            [
+              11.711426,
+              48.131268
+            ],
+            [
+              11.878967,
+              47.918183
+            ],
+            [
+              11.436768,
+              47.872144
+            ],
+            [
+              11.401062,
+              47.918183
             ]
           ]
         ]
