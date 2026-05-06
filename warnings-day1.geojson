@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T15:20:10.249Z",
+  "generated_at": "2026-05-06T15:22:17.195Z",
   "features": [
     {
       "type": "Feature",
@@ -9047,55 +9047,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778080664834",
-        "type": "Thunderstorm Warning",
-        "issued": "2026-05-06T17:10",
-        "issued_iso": "2026-05-06T15:10:00.000Z",
-        "expires": "2026-05-06T18:10",
-        "expires_iso": "2026-05-06T16:10:00.000Z",
-        "location": "",
-        "hail": "",
-        "wind": "",
-        "tornado_probability": "",
-        "rotation": "",
+        "id": "warning-poly-1778080331224",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T17:21",
+        "issued_iso": "2026-05-06T15:21:00.000Z",
+        "expires": "2026-05-06T18:21",
+        "expires_iso": "2026-05-06T16:21:00.000Z",
+        "location": "Stredocesky kraj near prague. Moving north east",
+        "hail": "2-4cm",
+        "wind": "60km/h",
+        "tornado_probability": "Elevated",
+        "rotation": "Observed rotating wall cloud",
         "md_number": "",
-        "text": "",
+        "text": "Severe thunderstorm moving onto prague. weather spotter confirmed wall cloud.",
         "hazards": {
-          "hail": "",
-          "wind": "",
-          "tornado_probability": "",
-          "rotation": ""
+          "hail": "2-4cm",
+          "wind": "60km/h",
+          "tornado_probability": "Elevated",
+          "rotation": "Observed rotating wall cloud"
         },
-        "forecaster": "obamak",
-        "forecaster_name": "OBAMAK",
+        "forecaster": "S64",
+        "forecaster_name": "S64",
         "forecaster_role": "nowcaster",
-        "issued_by": "OBAMAK",
+        "issued_by": "S64",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T15:17:44.834Z"
+        "updated_at": "2026-05-06T15:22:11.382Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              15.36438,
-              50.155786
+              14.300079,
+              49.822923
             ],
             [
-              15.661011,
-              50.138185
+              14.626923,
+              49.75288
             ],
             [
-              15.825806,
-              50.474987
+              15.191345,
+              50.245448
             ],
             [
-              15.342407,
-              50.522158
+              14.427795,
+              50.341955
             ],
             [
-              15.36438,
-              50.155786
+              14.300079,
+              49.822923
             ]
           ]
         ]
