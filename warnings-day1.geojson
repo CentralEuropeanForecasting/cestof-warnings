@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T14:40:54.685Z",
+  "generated_at": "2026-05-06T14:45:27.679Z",
   "features": [
     {
       "type": "Feature",
@@ -8412,6 +8412,120 @@
             [
               11.612463,
               47.914386
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778078142224",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T16:30",
+        "issued_iso": "2026-05-06T14:30:00.000Z",
+        "expires": "2026-05-06T17:00",
+        "expires_iso": "2026-05-06T15:00:00.000Z",
+        "location": "Thüringen",
+        "hail": "2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this storm is moing east near erfurt in the direction of leipzig, producing hail and lightning",
+        "hazards": {
+          "hail": "2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T14:36:40.084Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.096191,
+              51.131108
+            ],
+            [
+              11.590576,
+              51.47454
+            ],
+            [
+              11.733398,
+              50.986099
+            ],
+            [
+              11.162109,
+              50.965346
+            ],
+            [
+              11.096191,
+              51.131108
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778078711951",
+        "type": "Tornado Warning",
+        "issued": "2026-05-06T16:45",
+        "issued_iso": "2026-05-06T14:45:00.000Z",
+        "expires": "2026-05-06T18:00",
+        "expires_iso": "2026-05-06T16:00:00.000Z",
+        "location": "bayern",
+        "hail": "4cm",
+        "wind": "70km/h",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "a tornado warning has been issued for a rotating thunderstorm south of munchen. a tornado might already be on the ground/forming above. this is because of the intense rotation that the radar measured.",
+        "hazards": {
+          "hail": "4cm",
+          "wind": "70km/h",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T14:45:22.519Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.718292,
+              47.98073
+            ],
+            [
+              11.759834,
+              47.924625
+            ],
+            [
+              12.150879,
+              47.954984
+            ],
+            [
+              11.925659,
+              48.175244
+            ],
+            [
+              11.718292,
+              47.98073
             ]
           ]
         ]
