@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T14:37:09.173Z",
+  "generated_at": "2026-05-06T14:39:38.712Z",
   "features": [
     {
       "type": "Feature",
@@ -8363,55 +8363,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778078142224",
-        "type": "Thunderstorm Warning",
-        "issued": "2026-05-06T16:30",
-        "issued_iso": "2026-05-06T14:30:00.000Z",
-        "expires": "2026-05-06T17:00",
-        "expires_iso": "2026-05-06T15:00:00.000Z",
-        "location": "Thüringen",
-        "hail": "2cm",
-        "wind": "50km/h",
-        "tornado_probability": "Very low",
-        "rotation": "Weak rotation",
+        "id": "warning-poly-1778078163608",
+        "type": "Tornado Warning",
+        "issued": "2026-05-06T16:33",
+        "issued_iso": "2026-05-06T14:33:00.000Z",
+        "expires": "2026-05-06T17:15",
+        "expires_iso": "2026-05-06T15:15:00.000Z",
+        "location": "Otterfing,Bavaria",
+        "hail": "2,10cm",
+        "wind": "",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
         "md_number": "",
-        "text": "this storm is moing east near erfurt in the direction of leipzig, producing hail and lightning",
+        "text": "possible tornado forming near Otterfing, take shelfter now! this is serious",
         "hazards": {
-          "hail": "2cm",
-          "wind": "50km/h",
-          "tornado_probability": "Very low",
-          "rotation": "Weak rotation"
+          "hail": "2,10cm",
+          "wind": "",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
         },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
         "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
+        "issued_by": "Matyáš",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T14:36:40.084Z"
+        "updated_at": "2026-05-06T14:36:03.608Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              11.096191,
-              51.131108
+              11.612463,
+              47.914386
             ],
             [
-              11.590576,
-              51.47454
+              11.696234,
+              47.873641
             ],
             [
-              11.733398,
-              50.986099
+              11.89991,
+              47.992679
             ],
             [
-              11.162109,
-              50.965346
+              11.669197,
+              48.065232
             ],
             [
-              11.096191,
-              51.131108
+              11.612463,
+              47.914386
             ]
           ]
         ]
