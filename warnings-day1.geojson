@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T16:45:21.784Z",
+  "generated_at": "2026-05-06T16:47:33.348Z",
   "features": [
     {
       "type": "Feature",
@@ -10203,6 +10203,63 @@
             [
               11.766357,
               49.546598
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778085950011",
+        "type": "Tornado Warning",
+        "issued": "2026-05-06T18:45",
+        "issued_iso": "2026-05-06T16:45:00.000Z",
+        "expires": "2026-05-06T19:00",
+        "expires_iso": "2026-05-06T17:00:00.000Z",
+        "location": "bayern",
+        "hail": "2-3cm",
+        "wind": "60km/h",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "radar indicated a weaker rotation north of the main circulation. Although the rotation is weaker then its brother, it is still strong enough to produce a tornado.",
+        "hazards": {
+          "hail": "2-3cm",
+          "wind": "60km/h",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T16:47:30.166Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.278351,
+              48.420087
+            ],
+            [
+              13.30719,
+              48.38909
+            ],
+            [
+              13.662872,
+              48.461084
+            ],
+            [
+              13.433533,
+              48.618385
+            ],
+            [
+              13.278351,
+              48.420087
             ]
           ]
         ]
