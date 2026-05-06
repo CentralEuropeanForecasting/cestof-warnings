@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T20:28:42.933Z",
+  "generated_at": "2026-05-06T22:18:17.468Z",
   "features": [
     {
       "type": "Feature",
@@ -12790,6 +12790,63 @@
             [
               17.522602,
               50.852617
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778105854949",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-07T00:15",
+        "issued_iso": "2026-05-06T22:15:00.000Z",
+        "expires": "2026-05-07T01:15",
+        "expires_iso": "2026-05-06T23:15:00.000Z",
+        "location": "",
+        "hail": "None",
+        "wind": "<40km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm being observed in Teplice, dBZ: 55+, low lightning activity 0,3-1/min.\nMoving ENE.",
+        "hazards": {
+          "hail": "None",
+          "wind": "<40km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T22:18:07.578Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.722699,
+              50.661379
+            ],
+            [
+              13.844098,
+              50.490095
+            ],
+            [
+              14.464617,
+              50.607336
+            ],
+            [
+              14.222201,
+              50.905342
+            ],
+            [
+              13.722699,
+              50.661379
             ]
           ]
         ]
