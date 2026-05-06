@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T15:48:24.105Z",
+  "generated_at": "2026-05-06T15:50:04.032Z",
   "features": [
     {
       "type": "Feature",
@@ -9446,55 +9446,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778082266706",
-        "type": "Tornado Warning",
-        "issued": "2026-05-06T17:36",
-        "issued_iso": "2026-05-06T15:36:00.000Z",
-        "expires": "2026-05-06T18:00",
-        "expires_iso": "2026-05-06T16:00:00.000Z",
-        "location": "Baden-Wurttemberg,Bayern",
-        "hail": "1-3cm",
-        "wind": "40-60km/h",
+        "id": "warning-poly-1778082461379",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T17:47",
+        "issued_iso": "2026-05-06T15:47:00.000Z",
+        "expires": "2026-05-06T18:45",
+        "expires_iso": "2026-05-06T16:45:00.000Z",
+        "location": "North of Pilsen",
+        "hail": "2cm+",
+        "wind": "<70km/h",
         "tornado_probability": "Low",
-        "rotation": "Weak rotation",
+        "rotation": "Broad rotation",
         "md_number": "",
-        "text": "a line of thunderstorms is making its way northeast just south of ulm, producing hail and lightning.",
+        "text": "A strengthening cell now close to Pilsen, Czechia - It has a pretty strong rotation, pushing 61 dBZ. Meteopool 2/5 rot",
         "hazards": {
-          "hail": "1-3cm",
-          "wind": "40-60km/h",
+          "hail": "2cm+",
+          "wind": "<70km/h",
           "tornado_probability": "Low",
-          "rotation": "Weak rotation"
+          "rotation": "Broad rotation"
         },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
         "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
+        "issued_by": "Joseph",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T15:44:26.706Z"
+        "updated_at": "2026-05-06T15:49:59.691Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              12.388458,
-              48.234736
+              12.892456,
+              49.873398
             ],
             [
-              12.448196,
-              48.132642
+              13.09021,
+              49.738682
             ],
             [
-              12.974854,
-              48.140432
+              13.601074,
+              49.938848
             ],
             [
-              12.755127,
-              48.452887
+              13.235779,
+              50.168102
             ],
             [
-              12.388458,
-              48.234736
+              12.892456,
+              49.873398
             ]
           ]
         ]
