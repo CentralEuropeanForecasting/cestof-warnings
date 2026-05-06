@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T09:34:50.790Z",
+  "generated_at": "2026-05-06T11:49:46.977Z",
   "features": [
     {
       "type": "Feature",
@@ -6355,6 +6355,63 @@
             [
               8.239746,
               45.429299
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778068071290",
+        "type": "Thunderstorm Watch",
+        "issued": "2026-05-06T00:10",
+        "issued_iso": "2026-05-05T22:10:00.000Z",
+        "expires": "2026-05-06T01:10",
+        "expires_iso": "2026-05-05T23:10:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "obamak",
+        "forecaster_name": "OBAMAK",
+        "forecaster_role": "nowcaster",
+        "issued_by": "OBAMAK",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T11:47:51.290Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.709574,
+              49.266916
+            ],
+            [
+              13.872996,
+              49.247198
+            ],
+            [
+              13.986979,
+              49.396683
+            ],
+            [
+              13.742533,
+              49.409194
+            ],
+            [
+              13.709574,
+              49.266916
             ]
           ]
         ]
