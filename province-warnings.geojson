@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-05-06T17:45:10.056Z",
+  "generated_at": "2026-05-06T17:46:05.863Z",
   "features": [
     {
       "type": "Feature",
@@ -129,7 +129,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-PL",
         "province_name": "Plzeňský",
-        "warning_count": 3,
+        "warning_count": 4,
         "warnings": [
           {
             "id": "prov-warn-1778072505803-ad2b39249ddd1",
@@ -189,6 +189,26 @@
             "issued_by": "CAPE",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-06T17:45:05.559Z",
+            "province_id": "CZ-PL"
+          },
+          {
+            "id": "prov-warn-1778089563390-8d13cdb3f61cb8",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-06T19:44",
+            "issued_iso": "2026-05-06T17:44:00.000Z",
+            "expires": "2026-05-06T20:40",
+            "expires_iso": "2026-05-06T18:40:00.000Z",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": "Thunderstorms may form as new cells are popping up",
+            "forecaster": "cape",
+            "forecaster_name": "CAPE",
+            "forecaster_role": "owner",
+            "issued_by": "CAPE",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-06T17:46:03.390Z",
             "province_id": "CZ-PL"
           }
         ]
@@ -30675,7 +30695,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-US",
         "province_name": "Ústecký",
-        "warning_count": 2,
+        "warning_count": 3,
         "warnings": [
           {
             "id": "prov-warn-1778080564884-7c2174f682f808",
@@ -30715,6 +30735,26 @@
             "issued_by": "CAPE",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-06T17:45:05.559Z",
+            "province_id": "CZ-US"
+          },
+          {
+            "id": "prov-warn-1778089563390-8d13cdb3f61cb8",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-06T19:44",
+            "issued_iso": "2026-05-06T17:44:00.000Z",
+            "expires": "2026-05-06T20:40",
+            "expires_iso": "2026-05-06T18:40:00.000Z",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": "Thunderstorms may form as new cells are popping up",
+            "forecaster": "cape",
+            "forecaster_name": "CAPE",
+            "forecaster_role": "owner",
+            "issued_by": "CAPE",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-06T17:46:03.390Z",
             "province_id": "CZ-US"
           }
         ]
@@ -35899,7 +35939,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-KA",
         "province_name": "Karlovarský",
-        "warning_count": 2,
+        "warning_count": 3,
         "warnings": [
           {
             "id": "prov-warn-1778080564884-7c2174f682f808",
@@ -35939,6 +35979,26 @@
             "issued_by": "CAPE",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-06T17:45:05.559Z",
+            "province_id": "CZ-KA"
+          },
+          {
+            "id": "prov-warn-1778089563390-8d13cdb3f61cb8",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-06T19:44",
+            "issued_iso": "2026-05-06T17:44:00.000Z",
+            "expires": "2026-05-06T20:40",
+            "expires_iso": "2026-05-06T18:40:00.000Z",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": "Thunderstorms may form as new cells are popping up",
+            "forecaster": "cape",
+            "forecaster_name": "CAPE",
+            "forecaster_role": "owner",
+            "issued_by": "CAPE",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-06T17:46:03.390Z",
             "province_id": "CZ-KA"
           }
         ]
@@ -36879,7 +36939,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-KR",
         "province_name": "Královéhradecký",
-        "warning_count": 2,
+        "warning_count": 3,
         "warnings": [
           {
             "id": "prov-warn-1778080564884-7c2174f682f808",
@@ -36919,6 +36979,26 @@
             "issued_by": "CAPE",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-06T17:45:05.559Z",
+            "province_id": "CZ-KR"
+          },
+          {
+            "id": "prov-warn-1778089563390-8d13cdb3f61cb8",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-06T19:44",
+            "issued_iso": "2026-05-06T17:44:00.000Z",
+            "expires": "2026-05-06T20:40",
+            "expires_iso": "2026-05-06T18:40:00.000Z",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": "Thunderstorms may form as new cells are popping up",
+            "forecaster": "cape",
+            "forecaster_name": "CAPE",
+            "forecaster_role": "owner",
+            "issued_by": "CAPE",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-06T17:46:03.390Z",
             "province_id": "CZ-KR"
           }
         ]
