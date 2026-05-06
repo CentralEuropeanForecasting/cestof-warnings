@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T15:35:03.612Z",
+  "generated_at": "2026-05-06T15:37:08.721Z",
   "features": [
     {
       "type": "Feature",
@@ -9275,55 +9275,112 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778081639171",
+        "id": "warning-poly-1778080664834",
         "type": "Thunderstorm Warning",
-        "issued": "2026-05-06T17:32",
-        "issued_iso": "2026-05-06T15:32:00.000Z",
-        "expires": "2026-05-06T18:00",
-        "expires_iso": "2026-05-06T16:00:00.000Z",
-        "location": "Baden-Wurttemberg,Bayern",
-        "hail": "1-3cm",
-        "wind": "40-60km/h",
-        "tornado_probability": "Low",
-        "rotation": "Weak rotation",
+        "issued": "2026-05-06T17:10",
+        "issued_iso": "2026-05-06T15:10:00.000Z",
+        "expires": "2026-05-06T18:10",
+        "expires_iso": "2026-05-06T16:10:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
         "md_number": "",
-        "text": "a line of thunderstorms is making its way northeast just south of ulm, producing hail and lightning.",
+        "text": "",
         "hazards": {
-          "hail": "1-3cm",
-          "wind": "40-60km/h",
-          "tornado_probability": "Low",
-          "rotation": "Weak rotation"
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
         },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
+        "forecaster": "obamak",
+        "forecaster_name": "OBAMAK",
         "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
+        "issued_by": "OBAMAK",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T15:35:00.403Z"
+        "updated_at": "2026-05-06T15:17:44.834Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              9.733887,
-              48.327039
+              15.36438,
+              50.155786
             ],
             [
-              9.810791,
-              48.748945
+              15.661011,
+              50.138185
             ],
             [
-              10.964355,
-              48.348948
+              15.825806,
+              50.474987
             ],
             [
-              10.404053,
-              48.026672
+              15.342407,
+              50.522158
             ],
             [
-              9.733887,
-              48.327039
+              15.36438,
+              50.155786
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778081128847",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T17:10",
+        "issued_iso": "2026-05-06T15:10:00.000Z",
+        "expires": "2026-05-06T18:10",
+        "expires_iso": "2026-05-06T16:10:00.000Z",
+        "location": "West of Hradec Králové",
+        "hail": "0",
+        "wind": "60",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Dying storm (40dbz+) with a little lightning activity",
+        "hazards": {
+          "hail": "0",
+          "wind": "60",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "obamak",
+        "forecaster_name": "OBAMAK",
+        "forecaster_role": "nowcaster",
+        "issued_by": "OBAMAK",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T15:25:28.847Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.864502,
+              50.007739
+            ],
+            [
+              15.262756,
+              50.013034
+            ],
+            [
+              15.36438,
+              50.369993
+            ],
+            [
+              14.732666,
+              50.362985
+            ],
+            [
+              14.864502,
+              50.007739
             ]
           ]
         ]
