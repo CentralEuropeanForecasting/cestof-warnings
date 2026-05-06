@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T15:22:17.195Z",
+  "generated_at": "2026-05-06T15:22:36.993Z",
   "features": [
     {
       "type": "Feature",
@@ -9049,11 +9049,11 @@
       "properties": {
         "id": "warning-poly-1778080331224",
         "type": "Severe Thunderstorm Warning",
-        "issued": "2026-05-06T17:21",
-        "issued_iso": "2026-05-06T15:21:00.000Z",
-        "expires": "2026-05-06T18:21",
-        "expires_iso": "2026-05-06T16:21:00.000Z",
-        "location": "Stredocesky kraj near prague. Moving north east",
+        "issued": "2026-05-06T17:18",
+        "issued_iso": "2026-05-06T15:18:00.000Z",
+        "expires": "2026-05-06T18:18",
+        "expires_iso": "2026-05-06T16:18:00.000Z",
+        "location": "Stredocesky kraj near prague.",
         "hail": "2-4cm",
         "wind": "60km/h",
         "tornado_probability": "Elevated",
@@ -9071,31 +9071,88 @@
         "forecaster_role": "nowcaster",
         "issued_by": "S64",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T15:22:11.382Z"
+        "updated_at": "2026-05-06T15:18:07.216Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              14.300079,
-              49.822923
+              14.28772,
+              49.797223
             ],
             [
-              14.626923,
-              49.75288
+              14.60907,
+              49.713825
             ],
             [
-              15.191345,
-              50.245448
+              15.161133,
+              50.208549
             ],
             [
-              14.427795,
-              50.341955
+              14.425049,
+              50.310392
             ],
             [
-              14.300079,
-              49.822923
+              14.28772,
+              49.797223
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778080808357",
+        "type": "Tornado Warning",
+        "issued": "2026-05-06T17:20",
+        "issued_iso": "2026-05-06T15:20:00.000Z",
+        "expires": "2026-05-06T17:46",
+        "expires_iso": "2026-05-06T15:46:00.000Z",
+        "location": "bayern",
+        "hail": "4cm",
+        "wind": "70km/h",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "!!A tornado might already be forming/on the ground!!\na strong rotating supercell west of Munchen is making its way northeast to the austrian-german border. the chance of an actual tornado on the ground is high, due to the strong rotation.",
+        "hazards": {
+          "hail": "4cm",
+          "wind": "70km/h",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T15:22:33.311Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.062988,
+              48.085419
+            ],
+            [
+              12.098694,
+              48.010138
+            ],
+            [
+              12.516174,
+              48.037692
+            ],
+            [
+              12.370605,
+              48.270397
+            ],
+            [
+              12.062988,
+              48.085419
             ]
           ]
         ]
