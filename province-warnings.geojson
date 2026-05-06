@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-05-06T13:09:33.018Z",
+  "generated_at": "2026-05-06T13:33:18.770Z",
   "features": [
     {
       "type": "Feature",
@@ -6167,7 +6167,7 @@
         "FCLASS_TLC": null,
         "province_id": "DE-BY",
         "province_name": "Bayern",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778072961878-0c4b9f1fbb85e",
@@ -6187,6 +6187,26 @@
             "issued_by": "Trein",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-06T13:09:21.878Z",
+            "province_id": "DE-BY"
+          },
+          {
+            "id": "prov-warn-1778074394426-abf023556f026",
+            "type": "Tornado Watch",
+            "issued": "2026-05-06T15:32",
+            "issued_iso": "2026-05-06T13:32:00.000Z",
+            "expires": "2026-05-06T16:00",
+            "expires_iso": "2026-05-06T14:00:00.000Z",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "Low",
+            "rotation": "",
+            "text": "the ingredients for tornado formation are present, due to the formation of rotating thunderstorms in the region.",
+            "forecaster": "trein",
+            "forecaster_name": "Trein",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Trein",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-06T13:33:14.426Z",
             "province_id": "DE-BY"
           }
         ]
