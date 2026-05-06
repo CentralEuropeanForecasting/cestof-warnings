@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T13:29:39.653Z",
+  "generated_at": "2026-05-06T13:31:34.946Z",
   "features": [
     {
       "type": "Feature",
@@ -7185,55 +7185,71 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778074047038",
-        "type": "Severe Thunderstorm Warning",
-        "issued": "2026-05-06T15:22",
-        "issued_iso": "2026-05-06T13:22:00.000Z",
-        "expires": "2026-05-06T16:00",
-        "expires_iso": "2026-05-06T14:00:00.000Z",
-        "location": "bayern",
-        "hail": "3-4cm",
-        "wind": "60km/h",
+        "id": "warning-poly-1778074248115",
+        "type": "Tornado Watch",
+        "issued": "2026-05-06T15:30",
+        "issued_iso": "2026-05-06T13:30:00.000Z",
+        "expires": "2026-05-06T16:30",
+        "expires_iso": "2026-05-06T14:30:00.000Z",
+        "location": "Sedlice, Blatna, Mirovice, CHKO Brdy",
+        "hail": "Unknown",
+        "wind": "Estimated to be 50km/h",
         "tornado_probability": "Low",
         "rotation": "Broad rotation",
         "md_number": "",
-        "text": "a severe rotating thunderstorm is moving trough baden-wurttemberg going northeast to ellwangen, producing lightning, damaging winds and really large hail. the chance of a tornado to form is low, but not 0,",
+        "text": "Tornado risk visible on AROME and CZBRD",
         "hazards": {
-          "hail": "3-4cm",
-          "wind": "60km/h",
+          "hail": "Unknown",
+          "wind": "Estimated to be 50km/h",
           "tornado_probability": "Low",
           "rotation": "Broad rotation"
         },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
+        "forecaster": "elidoesbnuuy",
+        "forecaster_name": "EliDoesBnuuy",
         "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
+        "issued_by": "EliDoesBnuuy",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T13:29:34.913Z"
+        "updated_at": "2026-05-06T13:30:58.442Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              9.272461,
-              48.676454
+              13.712311,
+              49.233741
             ],
             [
-              9.909668,
-              49.15297
+              13.771362,
+              49.518076
             ],
             [
-              10.546875,
-              48.654686
+              14.0625,
+              49.562634
             ],
             [
-              9.470215,
-              48.451066
+              14.341278,
+              49.546598
             ],
             [
-              9.272461,
-              48.676454
+              14.221802,
+              49.199654
+            ],
+            [
+              14.078979,
+              49.200551
+            ],
+            [
+              13.922424,
+              49.248983
+            ],
+            [
+              13.893585,
+              49.163747
+            ],
+            [
+              13.712311,
+              49.233741
             ]
           ]
         ]
