@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T15:47:25.985Z",
+  "generated_at": "2026-05-06T15:47:59.385Z",
   "features": [
     {
       "type": "Feature",
@@ -9446,55 +9446,112 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778082266706",
-        "type": "Tornado Warning",
-        "issued": "2026-05-06T17:36",
-        "issued_iso": "2026-05-06T15:36:00.000Z",
-        "expires": "2026-05-06T18:00",
-        "expires_iso": "2026-05-06T16:00:00.000Z",
-        "location": "Baden-Wurttemberg,Bayern",
-        "hail": "1-3cm",
-        "wind": "40-60km/h",
-        "tornado_probability": "Low",
-        "rotation": "Weak rotation",
+        "id": "warning-poly-1778079461272",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T16:33",
+        "issued_iso": "2026-05-06T14:33:00.000Z",
+        "expires": "2026-05-06T17:15",
+        "expires_iso": "2026-05-06T15:15:00.000Z",
+        "location": "Otterfing,Bavaria",
+        "hail": "2,10cm",
+        "wind": "",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
         "md_number": "",
-        "text": "a line of thunderstorms is making its way northeast just south of ulm, producing hail and lightning.",
+        "text": "possible tornado forming near Otterfing, take shelfter now! this is serious",
         "hazards": {
-          "hail": "1-3cm",
-          "wind": "40-60km/h",
-          "tornado_probability": "Low",
-          "rotation": "Weak rotation"
+          "hail": "2,10cm",
+          "wind": "",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
         },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
         "forecaster_role": "nowcaster",
-        "issued_by": "Trein",
+        "issued_by": "Matyáš",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-06T15:44:26.706Z"
+        "updated_at": "2026-05-06T14:57:41.272Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              12.388458,
-              48.234736
+              15.662727,
+              49.839311
             ],
             [
-              12.448196,
-              48.132642
+              15.798683,
+              49.801212
             ],
             [
-              12.974854,
-              48.140432
+              16.116257,
+              50.027152
             ],
             [
-              12.755127,
-              48.452887
+              15.759201,
+              50.080057
             ],
             [
-              12.388458,
-              48.234736
+              15.662727,
+              49.839311
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778082466587",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T17:42",
+        "issued_iso": "2026-05-06T15:42:00.000Z",
+        "expires": "2026-05-06T18:00",
+        "expires_iso": "2026-05-06T16:00:00.000Z",
+        "location": "Kladruby,Lomnička, Plzeň",
+        "hail": "1,1cm",
+        "wind": "20-35kmh",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "Severe thunderstorm warning for Lomnička and Kladruby Plzeňský kraj,Hail up to 1cm and winds up to 20-30kmh.",
+        "hazards": {
+          "hail": "1,1cm",
+          "wind": "20-35kmh",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T15:47:46.587Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.804565,
+              49.674738
+            ],
+            [
+              13.046265,
+              49.617828
+            ],
+            [
+              13.397827,
+              49.94415
+            ],
+            [
+              12.892456,
+              49.94415
+            ],
+            [
+              12.804565,
+              49.674738
             ]
           ]
         ]
