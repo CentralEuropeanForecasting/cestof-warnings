@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T07:36:12.204Z",
+  "generated_at": "2026-05-06T07:59:48.484Z",
   "features": [
     {
       "type": "Feature",
@@ -6241,6 +6241,63 @@
             [
               8.897493,
               44.586642
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778054330163",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T10:00",
+        "issued_iso": "2026-05-06T08:00:00.000Z",
+        "expires": "2026-05-06T10:40",
+        "expires_iso": "2026-05-06T08:40:00.000Z",
+        "location": "Cicagna, Torriglia, Ottone - Italy",
+        "hail": "None",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm north of Rapallo has formed and is producing a lot of lighning strikes as of now, it doesnt have much reflectivity though. Dbz 48-50. Some heavy rain is predicted.",
+        "hazards": {
+          "hail": "None",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T07:59:44.256Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.231859,
+              44.402479
+            ],
+            [
+              9.722941,
+              44.269941
+            ],
+            [
+              10.242883,
+              44.924017
+            ],
+            [
+              9.352032,
+              45.074297
+            ],
+            [
+              9.231859,
+              44.402479
             ]
           ]
         ]
