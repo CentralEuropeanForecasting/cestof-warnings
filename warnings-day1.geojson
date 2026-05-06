@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T16:10:01.867Z",
+  "generated_at": "2026-05-06T16:20:25.108Z",
   "features": [
     {
       "type": "Feature",
@@ -9898,6 +9898,63 @@
             [
               22.922974,
               53.763325
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778084232920",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T18:17",
+        "issued_iso": "2026-05-06T16:17:00.000Z",
+        "expires": "2026-05-06T19:00",
+        "expires_iso": "2026-05-06T17:00:00.000Z",
+        "location": "Sachsen north west of Dresden.",
+        "hail": "0.5-2cm",
+        "wind": "40-60km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "Intesifying storm moving east north of Dresden. with good enviroment we cant rule out it being a supercell",
+        "hazards": {
+          "hail": "0.5-2cm",
+          "wind": "40-60km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "S64",
+        "forecaster_name": "S64",
+        "forecaster_role": "nowcaster",
+        "issued_by": "S64",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T16:20:10.011Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.826538,
+              51.310013
+            ],
+            [
+              12.903442,
+              51.2
+            ],
+            [
+              13.287964,
+              51.165567
+            ],
+            [
+              13.265991,
+              51.488224
+            ],
+            [
+              12.826538,
+              51.310013
             ]
           ]
         ]
