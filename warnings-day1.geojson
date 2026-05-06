@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T15:41:16.733Z",
+  "generated_at": "2026-05-06T15:41:54.074Z",
   "features": [
     {
       "type": "Feature",
@@ -9438,6 +9438,120 @@
             [
               9.036255,
               45.698507
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778081255174",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T17:30",
+        "issued_iso": "2026-05-06T15:30:00.000Z",
+        "expires": "2026-05-06T18:15",
+        "expires_iso": "2026-05-06T16:15:00.000Z",
+        "location": "Germany. Sachsen north west of Dresden moving north east.",
+        "hail": "0.5-1cm",
+        "wind": "40km/h",
+        "tornado_probability": "Low",
+        "rotation": "",
+        "md_number": "",
+        "text": "A developing thunderstorm with heavy rainfall. small hail is spotted near leipzig.",
+        "hazards": {
+          "hail": "0.5-1cm",
+          "wind": "40km/h",
+          "tornado_probability": "Low",
+          "rotation": ""
+        },
+        "forecaster": "S64",
+        "forecaster_name": "S64",
+        "forecaster_role": "nowcaster",
+        "issued_by": "S64",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T15:41:41.115Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.601318,
+              51.248163
+            ],
+            [
+              12.738647,
+              51.139725
+            ],
+            [
+              13.293457,
+              51.28597
+            ],
+            [
+              13.021545,
+              51.546335
+            ],
+            [
+              12.601318,
+              51.248163
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778081501244",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T17:39",
+        "issued_iso": "2026-05-06T15:39:00.000Z",
+        "expires": "2026-05-06T18:20",
+        "expires_iso": "2026-05-06T16:20:00.000Z",
+        "location": "Sachsen Germany east of dresden moving north east",
+        "hail": "0.5-1cm",
+        "wind": "40km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "Small thunderstorm is getting stronger with heavy rainfall and small hail possible.",
+        "hazards": {
+          "hail": "0.5-1cm",
+          "wind": "40km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "S64",
+        "forecaster_name": "S64",
+        "forecaster_role": "nowcaster",
+        "issued_by": "S64",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T15:41:52.091Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.111938,
+              50.986099
+            ],
+            [
+              14.241028,
+              50.887441
+            ],
+            [
+              14.694214,
+              51.072468
+            ],
+            [
+              14.425049,
+              51.232688
+            ],
+            [
+              14.111938,
+              50.986099
             ]
           ]
         ]
