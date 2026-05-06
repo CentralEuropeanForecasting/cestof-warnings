@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T07:16:39.736Z",
+  "generated_at": "2026-05-06T07:33:31.934Z",
   "features": [
     {
       "type": "Feature",
@@ -6184,6 +6184,63 @@
             [
               12.963068,
               46.143136
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778052691139",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T09:33",
+        "issued_iso": "2026-05-06T07:33:00.000Z",
+        "expires": "2026-05-06T10:10",
+        "expires_iso": "2026-05-06T08:10:00.000Z",
+        "location": "North of Genova",
+        "hail": "None",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm now leaving Genova, i have decided to prolong the warning due to the activity of the thunderstorm not weakening as much as i anticipated before. Hail risk - 0%\ndBZ - 53+",
+        "hazards": {
+          "hail": "None",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T07:33:29.238Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.897493,
+              44.586642
+            ],
+            [
+              9.236,
+              44.558119
+            ],
+            [
+              9.66885,
+              45.194425
+            ],
+            [
+              8.932602,
+              45.257876
+            ],
+            [
+              8.897493,
+              44.586642
             ]
           ]
         ]
