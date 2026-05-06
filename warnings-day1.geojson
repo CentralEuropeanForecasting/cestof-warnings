@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T16:50:28.600Z",
+  "generated_at": "2026-05-06T17:06:49.673Z",
   "features": [
     {
       "type": "Feature",
@@ -10260,6 +10260,348 @@
             [
               13.278351,
               48.420087
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778086499356",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T18:57",
+        "issued_iso": "2026-05-06T16:57:00.000Z",
+        "expires": "2026-05-06T20:00",
+        "expires_iso": "2026-05-06T18:00:00.000Z",
+        "location": "Bayern",
+        "hail": "3-4cm",
+        "wind": "65km/h",
+        "tornado_probability": "Elevated",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "this severe rotating supercell is moving northeast to Nurnberg, producing damaging winds, large hail and lightning. the chance for a tornado is present.",
+        "hazards": {
+          "hail": "3-4cm",
+          "wind": "65km/h",
+          "tornado_probability": "Elevated",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T16:56:11.451Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.59082,
+              48.552978
+            ],
+            [
+              11.008301,
+              48.443778
+            ],
+            [
+              12.546387,
+              49.274973
+            ],
+            [
+              10.887451,
+              49.667628
+            ],
+            [
+              10.59082,
+              48.552978
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778086616402",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T18:59",
+        "issued_iso": "2026-05-06T16:59:00.000Z",
+        "expires": "2026-05-06T20:00",
+        "expires_iso": "2026-05-06T18:00:00.000Z",
+        "location": "Bayern",
+        "hail": "1-4cm",
+        "wind": "40-70km/h",
+        "tornado_probability": "Elevated",
+        "rotation": "",
+        "md_number": "",
+        "text": "this line of supercells is travelling northeast to Nurnberg, producing lightning, hail and damaging winds.",
+        "hazards": {
+          "hail": "1-4cm",
+          "wind": "40-70km/h",
+          "tornado_probability": "Elevated",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T16:58:18.037Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.239014,
+              48.414619
+            ],
+            [
+              12.7771,
+              49.138597
+            ],
+            [
+              9.887695,
+              49.731581
+            ],
+            [
+              9.700928,
+              48.57479
+            ],
+            [
+              11.239014,
+              48.414619
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778086711136",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T18:59",
+        "issued_iso": "2026-05-06T16:59:00.000Z",
+        "expires": "2026-05-06T20:00",
+        "expires_iso": "2026-05-06T18:00:00.000Z",
+        "location": "Bayern, czechia",
+        "hail": "1-3cm",
+        "wind": "40-55km/h",
+        "tornado_probability": "Low",
+        "rotation": "",
+        "md_number": "",
+        "text": "this smaller group of thunderstorms is travelling northeast, into czechia, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-3cm",
+          "wind": "40-55km/h",
+          "tornado_probability": "Low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T17:01:37.595Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.392822,
+              49.880478
+            ],
+            [
+              12.128906,
+              49.532339
+            ],
+            [
+              13.590088,
+              50.050085
+            ],
+            [
+              12.106934,
+              50.680797
+            ],
+            [
+              11.392822,
+              49.880478
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778086870792",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T18:59",
+        "issued_iso": "2026-05-06T16:59:00.000Z",
+        "expires": "2026-05-06T20:00",
+        "expires_iso": "2026-05-06T18:00:00.000Z",
+        "location": "Bayern, czechia",
+        "hail": "3cm",
+        "wind": "55km/h",
+        "tornado_probability": "Low",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "this severe thunderstorm is travelling northeast into czechia, producing hail and lightning.",
+        "hazards": {
+          "hail": "3cm",
+          "wind": "55km/h",
+          "tornado_probability": "Low",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T17:02:20.138Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.843262,
+              49.759978
+            ],
+            [
+              12.062988,
+              49.632062
+            ],
+            [
+              13.502197,
+              50.092393
+            ],
+            [
+              12.568359,
+              50.478483
+            ],
+            [
+              11.843262,
+              49.759978
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778086981108",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-06T18:59",
+        "issued_iso": "2026-05-06T16:59:00.000Z",
+        "expires": "2026-05-06T20:00",
+        "expires_iso": "2026-05-06T18:00:00.000Z",
+        "location": "Bayern, Oberösterreich, Jihocesky kraj, plzensky kraj",
+        "hail": "5cm",
+        "wind": "70km/h",
+        "tornado_probability": "Elevated",
+        "rotation": "Strong rotation",
+        "md_number": "",
+        "text": "this severe rotating supercell is heading northeast to the czech border, producing large hail, damaging winds and lightning. tornadoes are possible within this storm.",
+        "hazards": {
+          "hail": "5cm",
+          "wind": "70km/h",
+          "tornado_probability": "Elevated",
+          "rotation": "Strong rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T17:04:58.260Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.392578,
+              48.69096
+            ],
+            [
+              13.19458,
+              47.997274
+            ],
+            [
+              15.919189,
+              48.654686
+            ],
+            [
+              13.480225,
+              50.000678
+            ],
+            [
+              12.392578,
+              48.69096
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778087123020",
+        "type": "Tornado Warning",
+        "issued": "2026-05-06T18:05",
+        "issued_iso": "2026-05-06T16:05:00.000Z",
+        "expires": "2026-05-06T19:32",
+        "expires_iso": "2026-05-06T17:32:00.000Z",
+        "location": "Bayern, Oberösterreich, Jihocesky kraj, plzensky kraj",
+        "hail": "4cm",
+        "wind": "70km/h",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "!!A tornado might already be forming/on the ground!!\nthis severe rotating supercell is heading northeast to the czech border, producing large hail, damaging winds and lightning. tornadoes are possible within this storm.",
+        "hazards": {
+          "hail": "4cm",
+          "wind": "70km/h",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T17:06:43.616Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.336029,
+              48.214608
+            ],
+            [
+              13.443146,
+              48.133101
+            ],
+            [
+              14.80957,
+              48.451066
+            ],
+            [
+              13.963623,
+              48.958581
+            ],
+            [
+              13.336029,
+              48.214608
             ]
           ]
         ]
