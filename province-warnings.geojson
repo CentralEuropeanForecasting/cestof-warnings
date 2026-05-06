@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-05-06T12:18:29.046Z",
+  "generated_at": "2026-05-06T12:23:27.985Z",
   "features": [
     {
       "type": "Feature",
@@ -78421,7 +78421,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-PL",
         "province_name": "Plzeňský",
-        "warning_count": 2,
+        "warning_count": 3,
         "warnings": [
           {
             "id": "prov-warn-1778000178042-6d41d336c0d56",
@@ -78461,6 +78461,26 @@
             "issued_by": "Trein",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-05T18:50:34.966Z",
+            "province_id": "CZ-PL"
+          },
+          {
+            "id": "prov-warn-1778070204637-1988bf8d80a27",
+            "type": "Thunderstorm Watch",
+            "issued": "2026-05-06T14:22",
+            "issued_iso": "2026-05-06T12:22:00.000Z",
+            "expires": "2026-05-06T15:20",
+            "expires_iso": "2026-05-06T13:20:00.000Z",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": "Thunderstorms are firing up in Bohemia.",
+            "forecaster": "cape",
+            "forecaster_name": "CAPE",
+            "forecaster_role": "owner",
+            "issued_by": "CAPE",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-06T12:23:24.637Z",
             "province_id": "CZ-PL"
           }
         ]
@@ -79885,7 +79905,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-JC",
         "province_name": "Jihočeský",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778000178042-6d41d336c0d56",
@@ -79905,6 +79925,26 @@
             "issued_by": "Trein",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-05T16:56:18.042Z",
+            "province_id": "CZ-JC"
+          },
+          {
+            "id": "prov-warn-1778070204637-1988bf8d80a27",
+            "type": "Thunderstorm Watch",
+            "issued": "2026-05-06T14:22",
+            "issued_iso": "2026-05-06T12:22:00.000Z",
+            "expires": "2026-05-06T15:20",
+            "expires_iso": "2026-05-06T13:20:00.000Z",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": "Thunderstorms are firing up in Bohemia.",
+            "forecaster": "cape",
+            "forecaster_name": "CAPE",
+            "forecaster_role": "owner",
+            "issued_by": "CAPE",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-06T12:23:24.637Z",
             "province_id": "CZ-JC"
           }
         ]
@@ -84433,7 +84473,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-PA",
         "province_name": "Pardubický",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778000178042-6d41d336c0d56",
@@ -84453,6 +84493,26 @@
             "issued_by": "Trein",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-05T16:56:18.042Z",
+            "province_id": "CZ-PA"
+          },
+          {
+            "id": "prov-warn-1778070204637-1988bf8d80a27",
+            "type": "Thunderstorm Watch",
+            "issued": "2026-05-06T14:22",
+            "issued_iso": "2026-05-06T12:22:00.000Z",
+            "expires": "2026-05-06T15:20",
+            "expires_iso": "2026-05-06T13:20:00.000Z",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": "Thunderstorms are firing up in Bohemia.",
+            "forecaster": "cape",
+            "forecaster_name": "CAPE",
+            "forecaster_role": "owner",
+            "issued_by": "CAPE",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-06T12:23:24.637Z",
             "province_id": "CZ-PA"
           }
         ]
@@ -89385,7 +89445,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-VY",
         "province_name": "Vysočina",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778000178042-6d41d336c0d56",
@@ -89405,6 +89465,26 @@
             "issued_by": "Trein",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-05T16:56:18.042Z",
+            "province_id": "CZ-VY"
+          },
+          {
+            "id": "prov-warn-1778070204637-1988bf8d80a27",
+            "type": "Thunderstorm Watch",
+            "issued": "2026-05-06T14:22",
+            "issued_iso": "2026-05-06T12:22:00.000Z",
+            "expires": "2026-05-06T15:20",
+            "expires_iso": "2026-05-06T13:20:00.000Z",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": "Thunderstorms are firing up in Bohemia.",
+            "forecaster": "cape",
+            "forecaster_name": "CAPE",
+            "forecaster_role": "owner",
+            "issued_by": "CAPE",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-06T12:23:24.637Z",
             "province_id": "CZ-VY"
           }
         ]
@@ -90945,7 +91025,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-ST",
         "province_name": "Středočeský",
-        "warning_count": 2,
+        "warning_count": 3,
         "warnings": [
           {
             "id": "prov-warn-1778000178042-6d41d336c0d56",
@@ -90985,6 +91065,26 @@
             "issued_by": "Trein",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-05T18:50:34.966Z",
+            "province_id": "CZ-ST"
+          },
+          {
+            "id": "prov-warn-1778070204637-1988bf8d80a27",
+            "type": "Thunderstorm Watch",
+            "issued": "2026-05-06T14:22",
+            "issued_iso": "2026-05-06T12:22:00.000Z",
+            "expires": "2026-05-06T15:20",
+            "expires_iso": "2026-05-06T13:20:00.000Z",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": "Thunderstorms are firing up in Bohemia.",
+            "forecaster": "cape",
+            "forecaster_name": "CAPE",
+            "forecaster_role": "owner",
+            "issued_by": "CAPE",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-06T12:23:24.637Z",
             "province_id": "CZ-ST"
           }
         ]
