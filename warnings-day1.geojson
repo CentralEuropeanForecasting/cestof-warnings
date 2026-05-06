@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T15:33:23.885Z",
+  "generated_at": "2026-05-06T15:35:03.612Z",
   "features": [
     {
       "type": "Feature",
@@ -9267,6 +9267,63 @@
             [
               10.391693,
               48.841221
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778081639171",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-06T17:32",
+        "issued_iso": "2026-05-06T15:32:00.000Z",
+        "expires": "2026-05-06T18:00",
+        "expires_iso": "2026-05-06T16:00:00.000Z",
+        "location": "Baden-Wurttemberg,Bayern",
+        "hail": "1-3cm",
+        "wind": "40-60km/h",
+        "tornado_probability": "Low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "a line of thunderstorms is making its way northeast just south of ulm, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-3cm",
+          "wind": "40-60km/h",
+          "tornado_probability": "Low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T15:35:00.403Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.733887,
+              48.327039
+            ],
+            [
+              9.810791,
+              48.748945
+            ],
+            [
+              10.964355,
+              48.348948
+            ],
+            [
+              10.404053,
+              48.026672
+            ],
+            [
+              9.733887,
+              48.327039
             ]
           ]
         ]
