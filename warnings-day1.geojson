@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-07T11:58:49.289Z",
+  "generated_at": "2026-05-07T12:02:50.650Z",
   "features": [
     {
       "type": "Feature",
@@ -592,6 +592,63 @@
             [
               18.099976,
               51.096623
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778154977294",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-07T13:06",
+        "issued_iso": "2026-05-07T11:06:00.000Z",
+        "expires": "2026-05-07T13:25",
+        "expires_iso": "2026-05-07T11:25:00.000Z",
+        "location": "Košický Kraj",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunderstorm with medium lightning activity heading Towards Košice",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-07T11:57:37.062Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.324707,
+              48.392738
+            ],
+            [
+              20.489502,
+              48.290503
+            ],
+            [
+              21.368408,
+              48.763431
+            ],
+            [
+              20.775146,
+              48.973006
+            ],
+            [
+              20.324707,
+              48.392738
             ]
           ]
         ]
