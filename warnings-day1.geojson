@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-07T11:57:38.922Z",
+  "generated_at": "2026-05-07T11:58:49.289Z",
   "features": [
     {
       "type": "Feature",
@@ -539,55 +539,59 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778154977294",
+        "id": "warning-poly-1778154942707",
         "type": "Thunderstorm Warning",
-        "issued": "2026-05-07T13:06",
-        "issued_iso": "2026-05-07T11:06:00.000Z",
-        "expires": "2026-05-07T13:25",
-        "expires_iso": "2026-05-07T11:25:00.000Z",
-        "location": "Košický Kraj",
-        "hail": "",
+        "issued": "2026-05-07T13:55",
+        "issued_iso": "2026-05-07T11:55:00.000Z",
+        "expires": "2026-05-06T14:15",
+        "expires_iso": "2026-05-06T12:15:00.000Z",
+        "location": "Wielun,Byczyna",
+        "hail": "1,2cm",
         "wind": "",
         "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "Thunderstorm with medium lightning activity heading Towards Košice",
+        "text": "A thunderstorm was located near Wielun and Byczyna Poland, this storm has 1,2cm sized hail, watch out!",
         "hazards": {
-          "hail": "",
+          "hail": "1,2cm",
           "wind": "",
           "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "cape",
-        "forecaster_name": "CAPE",
-        "forecaster_role": "owner",
-        "issued_by": "CAPE",
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Matyáš",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-07T11:57:37.062Z"
+        "updated_at": "2026-05-07T11:58:33.739Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              20.324707,
-              48.392738
+              18.099976,
+              51.096623
             ],
             [
-              20.489502,
-              48.290503
+              18.363647,
+              50.958427
             ],
             [
-              21.368408,
-              48.763431
+              18.759155,
+              51.138001
             ],
             [
-              20.775146,
-              48.973006
+              19.052353,
+              51.25504
             ],
             [
-              20.324707,
-              48.392738
+              18.444672,
+              51.488224
+            ],
+            [
+              18.099976,
+              51.096623
             ]
           ]
         ]
