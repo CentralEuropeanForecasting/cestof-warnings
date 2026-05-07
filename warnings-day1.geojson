@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-07T16:36:08.544Z",
+  "generated_at": "2026-05-07T16:42:11.979Z",
   "features": [
     {
       "type": "Feature",
@@ -1425,6 +1425,67 @@
             [
               17.886138,
               49.847001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778172088617",
+        "type": "Mesoscale Discussion",
+        "issued": "2026-05-07T18:40",
+        "issued_iso": "2026-05-07T16:40:00.000Z",
+        "expires": "2026-05-09T13:40",
+        "expires_iso": "2026-05-09T11:40:00.000Z",
+        "location": "France, Spain",
+        "hail": "Unknown",
+        "wind": "40km/h (estimated)",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "Possible storms for the area for the next few days, showed on AROME",
+        "hazards": {
+          "hail": "Unknown",
+          "wind": "40km/h (estimated)",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "elidoesbnuuy",
+        "forecaster_name": "EliDoesBnuuy",
+        "forecaster_role": "nowcaster",
+        "issued_by": "EliDoesBnuuy",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-07T16:42:08.993Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.339844,
+              41.885921
+            ],
+            [
+              -6.328125,
+              46.920255
+            ],
+            [
+              -0.527344,
+              49.639177
+            ],
+            [
+              6.591797,
+              49.710273
+            ],
+            [
+              6.503906,
+              42.147114
+            ],
+            [
+              -3.339844,
+              41.885921
             ]
           ]
         ]
