@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-07T16:04:05.563Z",
+  "generated_at": "2026-05-07T16:28:13.937Z",
   "features": [
     {
       "type": "Feature",
@@ -1307,6 +1307,63 @@
             [
               18.295395,
               50.295008
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778171194488",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-07T18:26",
+        "issued_iso": "2026-05-07T16:26:00.000Z",
+        "expires": "2026-05-07T19:20",
+        "expires_iso": "2026-05-07T17:20:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Multiple thunderstorms in Eastern Austria, may be severe but we cant say for 100% as theres no radar data in the area",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-07T16:28:11.363Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.72168,
+              47.227029
+            ],
+            [
+              14.985352,
+              47.017716
+            ],
+            [
+              16.226807,
+              47.428087
+            ],
+            [
+              15.644531,
+              47.798397
+            ],
+            [
+              14.72168,
+              47.227029
             ]
           ]
         ]
