@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-06T22:18:23.397Z",
+  "generated_at": "2026-05-07T07:28:18.634Z",
   "features": [
     {
       "type": "Feature",
@@ -12847,6 +12847,63 @@
             [
               13.722699,
               50.661379
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778138634351",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-07T09:23",
+        "issued_iso": "2026-05-07T07:23:00.000Z",
+        "expires": "2026-05-07T10:23",
+        "expires_iso": "2026-05-07T08:23:00.000Z",
+        "location": "East Lithuania",
+        "hail": "?",
+        "wind": "40km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Active thunderstorms in east lithuania, NE motion, moderate ligtning activity. Can't get access to radar imagery as of now.",
+        "hazards": {
+          "hail": "?",
+          "wind": "40km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-07T07:28:14.508Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.206062,
+              54.877309
+            ],
+            [
+              25.683127,
+              54.670372
+            ],
+            [
+              27.136865,
+              55.210919
+            ],
+            [
+              26.040782,
+              55.688045
+            ],
+            [
+              25.206062,
+              54.877309
             ]
           ]
         ]
