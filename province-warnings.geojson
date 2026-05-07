@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-05-07T18:33:02.831Z",
+  "generated_at": "2026-05-07T18:33:43.927Z",
   "features": [
     {
       "type": "Feature",
@@ -27975,7 +27975,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-MO",
         "province_name": "Moravskoslezský",
-        "warning_count": 2,
+        "warning_count": 4,
         "warnings": [
           {
             "id": "prov-warn-1778070902891-5c07e73a8fe458",
@@ -28016,6 +28016,62 @@
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-07T16:34:25.153Z",
             "province_id": "CZ-MO",
+            "affected_provinces": [
+              "Moravskoslezský"
+            ],
+            "affected_province_ids": [
+              "CZ-MO"
+            ],
+            "affected_provinces_text": "Moravskoslezský"
+          },
+          {
+            "id": "prov-warn-1778178818667-f6ff6fefbe5ee8",
+            "type": "Thunderstorm Watch",
+            "issued": "2026-05-07T20:31",
+            "issued_iso": "2026-05-07T18:31:00.000Z",
+            "expires": "2026-05-07T21:00",
+            "expires_iso": "2026-05-07T19:00:00.000Z",
+            "hail": "1cm",
+            "wind": "50kph",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": "",
+            "forecaster": "bearmax",
+            "forecaster_name": "Bearmax",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Bearmax",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-07T18:33:38.667Z",
+            "province_id": "CZ-MO",
+            "province_name": "Moravskoslezský",
+            "affected_provinces": [
+              "Moravskoslezský"
+            ],
+            "affected_province_ids": [
+              "CZ-MO"
+            ],
+            "affected_provinces_text": "Moravskoslezský"
+          },
+          {
+            "id": "prov-warn-1778178820341-2aedd5d11d152",
+            "type": "Thunderstorm Watch",
+            "issued": "2026-05-07T20:31",
+            "issued_iso": "2026-05-07T18:31:00.000Z",
+            "expires": "2026-05-07T21:00",
+            "expires_iso": "2026-05-07T19:00:00.000Z",
+            "hail": "1cm",
+            "wind": "50kph",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": "",
+            "forecaster": "bearmax",
+            "forecaster_name": "Bearmax",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Bearmax",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-07T18:33:40.341Z",
+            "province_id": "CZ-MO",
+            "province_name": "Moravskoslezský",
             "affected_provinces": [
               "Moravskoslezský"
             ],
