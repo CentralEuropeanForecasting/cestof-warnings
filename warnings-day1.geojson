@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-07T12:04:29.709Z",
+  "generated_at": "2026-05-07T12:08:59.845Z",
   "features": [
     {
       "type": "Feature",
@@ -726,6 +726,177 @@
             [
               18.387032,
               50.976383
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778154977294",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-07T13:06",
+        "issued_iso": "2026-05-07T11:06:00.000Z",
+        "expires": "2026-05-07T13:25",
+        "expires_iso": "2026-05-07T11:25:00.000Z",
+        "location": "Košický Kraj",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunderstorm with medium lightning activity heading Towards Košice",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-07T11:57:37.062Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.324707,
+              48.392738
+            ],
+            [
+              20.489502,
+              48.290503
+            ],
+            [
+              21.368408,
+              48.763431
+            ],
+            [
+              20.775146,
+              48.973006
+            ],
+            [
+              20.324707,
+              48.392738
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778155679406",
+        "type": "Thunderstorm Watch",
+        "issued": "2026-05-07T14:08",
+        "issued_iso": "2026-05-07T12:08:00.000Z",
+        "expires": "2026-05-07T14:35",
+        "expires_iso": "2026-05-07T12:35:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-07T12:08:52.048Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.523926,
+              47.546872
+            ],
+            [
+              14.666748,
+              47.346267
+            ],
+            [
+              15.490723,
+              47.598755
+            ],
+            [
+              15.205078,
+              47.857403
+            ],
+            [
+              14.523926,
+              47.546872
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778155705093",
+        "type": "Thunderstorm Watch",
+        "issued": "2026-05-07T14:08",
+        "issued_iso": "2026-05-07T12:08:00.000Z",
+        "expires": "2026-05-07T14:34",
+        "expires_iso": "2026-05-07T12:34:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-07T12:08:57.218Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.908203,
+              47.724545
+            ],
+            [
+              16.040039,
+              47.546872
+            ],
+            [
+              16.907959,
+              47.835283
+            ],
+            [
+              16.523438,
+              48.092757
+            ],
+            [
+              15.908203,
+              47.724545
             ]
           ]
         ]
