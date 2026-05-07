@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-07T13:31:05.750Z",
+  "generated_at": "2026-05-07T13:57:05.457Z",
   "features": [
     {
       "type": "Feature",
@@ -1189,6 +1189,63 @@
             [
               16.858521,
               49.930008
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778162062678",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-07T15:54",
+        "issued_iso": "2026-05-07T13:54:00.000Z",
+        "expires": "2026-05-07T16:30",
+        "expires_iso": "2026-05-07T14:30:00.000Z",
+        "location": "Łódź Region, Heading towards Piotrków",
+        "hail": "0.5 cm",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunderstorm with Frequent lightning activity, seems to be strengthening.\nStill doesnt have the parameters for a Severe Thunderstorm Warning, but may get one in the coming minutes.",
+        "hazards": {
+          "hail": "0.5 cm",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-07T13:56:57.865Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              19.006348,
+              51.165567
+            ],
+            [
+              19.281006,
+              51.048301
+            ],
+            [
+              20.258789,
+              51.406059
+            ],
+            [
+              19.643555,
+              51.672555
+            ],
+            [
+              19.006348,
+              51.165567
             ]
           ]
         ]
