@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-07T12:02:50.650Z",
+  "generated_at": "2026-05-07T12:04:29.709Z",
   "features": [
     {
       "type": "Feature",
@@ -600,55 +600,132 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778154977294",
+        "id": "warning-poly-1778155086630",
         "type": "Thunderstorm Warning",
-        "issued": "2026-05-07T13:06",
-        "issued_iso": "2026-05-07T11:06:00.000Z",
-        "expires": "2026-05-07T13:25",
-        "expires_iso": "2026-05-07T11:25:00.000Z",
-        "location": "Košický Kraj",
-        "hail": "",
-        "wind": "",
+        "issued": "2026-05-07T13:56",
+        "issued_iso": "2026-05-07T11:56:00.000Z",
+        "expires": "2026-05-07T14:56",
+        "expires_iso": "2026-05-07T12:56:00.000Z",
+        "location": "",
+        "hail": "1cm",
+        "wind": "35kph",
         "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "Thunderstorm with medium lightning activity heading Towards Košice",
+        "text": "",
         "hazards": {
-          "hail": "",
-          "wind": "",
+          "hail": "1cm",
+          "wind": "35kph",
           "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "cape",
-        "forecaster_name": "CAPE",
-        "forecaster_role": "owner",
-        "issued_by": "CAPE",
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Bearmax",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-07T11:57:37.062Z"
+        "updated_at": "2026-05-07T11:58:36.545Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              20.324707,
-              48.392738
+              18.059673,
+              49.325961
             ],
             [
-              20.489502,
-              48.290503
+              18.038532,
+              49.323312
             ],
             [
-              21.368408,
-              48.763431
+              17.821075,
+              49.428919
             ],
             [
-              20.775146,
-              48.973006
+              18.301693,
+              49.640969
             ],
             [
-              20.324707,
-              48.392738
+              18.485038,
+              49.725653
+            ],
+            [
+              18.674455,
+              49.493982
+            ],
+            [
+              18.407149,
+              49.413336
+            ],
+            [
+              18.122219,
+              49.320761
+            ],
+            [
+              18.059673,
+              49.325961
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778155459120",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-07T14:00",
+        "issued_iso": "2026-05-07T12:00:00.000Z",
+        "expires": "2026-05-07T15:00",
+        "expires_iso": "2026-05-07T13:00:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-07T12:04:27.590Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.387032,
+              50.976383
+            ],
+            [
+              18.117804,
+              51.086825
+            ],
+            [
+              18.478345,
+              51.461592
+            ],
+            [
+              18.810367,
+              51.465604
+            ],
+            [
+              19.019896,
+              51.375259
+            ],
+            [
+              18.387032,
+              50.976383
             ]
           ]
         ]
