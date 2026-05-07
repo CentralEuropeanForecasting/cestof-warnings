@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-07T18:37:44.583Z",
+  "generated_at": "2026-05-07T18:41:48.361Z",
   "features": [
     {
       "type": "Feature",
@@ -1730,6 +1730,63 @@
             [
               17.114528,
               47.682581
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778179091267",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-07T20:37",
+        "issued_iso": "2026-05-07T18:37:00.000Z",
+        "expires": "2026-05-07T21:37",
+        "expires_iso": "2026-05-07T19:37:00.000Z",
+        "location": "around the Tripoint between Austria, Slovakia and Hungary",
+        "hail": "1-1.5cm",
+        "wind": "<70km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunderstorm moving NE in this location, it is 57 dbz+ and has a pretty high lightning activity, it can bring some strong rain and hail is possible with high winds.",
+        "hazards": {
+          "hail": "1-1.5cm",
+          "wind": "<70km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-07T18:41:44.655Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.704712,
+              47.813155
+            ],
+            [
+              16.99585,
+              47.61357
+            ],
+            [
+              17.841797,
+              48.078079
+            ],
+            [
+              17.215576,
+              48.348948
+            ],
+            [
+              16.704712,
+              47.813155
             ]
           ]
         ]
