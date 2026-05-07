@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-05-07T16:36:17.781Z",
+  "generated_at": "2026-05-07T16:40:05.009Z",
   "features": [
     {
       "type": "Feature",
@@ -27975,7 +27975,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-MO",
         "province_name": "Moravskoslezský",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778070902891-5c07e73a8fe458",
@@ -27996,6 +27996,33 @@
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-06T12:35:02.896Z",
             "province_id": "CZ-MO"
+          },
+          {
+            "id": "prov-warn-1778171665153-178153c9708e78",
+            "type": "Thunderstorm Watch",
+            "issued": "2026-05-07T18:33",
+            "issued_iso": "2026-05-07T16:33:00.000Z",
+            "expires": "2026-05-07T19:25",
+            "expires_iso": "2026-05-07T17:25:00.000Z",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": "Few cells are developing, producing few lightnings. This region is being monitored in case cells develop into stronger thunderstorms",
+            "forecaster": "cape",
+            "forecaster_name": "CAPE",
+            "forecaster_role": "owner",
+            "issued_by": "CAPE",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-07T16:34:25.153Z",
+            "province_id": "CZ-MO",
+            "affected_provinces": [
+              "Moravskoslezský"
+            ],
+            "affected_province_ids": [
+              "CZ-MO"
+            ],
+            "affected_provinces_text": "Moravskoslezský"
           }
         ],
         "connected": false
