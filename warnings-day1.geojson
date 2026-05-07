@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-07T16:42:11.979Z",
+  "generated_at": "2026-05-07T17:05:17.239Z",
   "features": [
     {
       "type": "Feature",
@@ -1486,6 +1486,63 @@
             [
               -3.339844,
               41.885921
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778173304077",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-07T19:05",
+        "issued_iso": "2026-05-07T17:05:00.000Z",
+        "expires": "2026-05-07T19:25",
+        "expires_iso": "2026-05-07T17:25:00.000Z",
+        "location": "Velký Újezd,Olomoucký kraj",
+        "hail": "1,4cm",
+        "wind": "11kmh",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm was located near Olomouc, it produced few lightning right now producing hail up to 1,5cm, winds are relatively weak",
+        "hazards": {
+          "hail": "1,4cm",
+          "wind": "11kmh",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-07T17:05:15.716Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.254028,
+              49.489538
+            ],
+            [
+              17.358742,
+              49.455628
+            ],
+            [
+              17.799225,
+              49.60003
+            ],
+            [
+              17.475128,
+              49.710273
+            ],
+            [
+              17.254028,
+              49.489538
             ]
           ]
         ]
