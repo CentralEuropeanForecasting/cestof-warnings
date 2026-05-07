@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-05-07T08:14:17.673Z",
+  "generated_at": "2026-05-07T10:27:17.103Z",
   "features": [
     {
       "type": "Feature",
@@ -34995,7 +34995,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-LI",
         "province_name": "Liberecký",
-        "warning_count": 2,
+        "warning_count": 3,
         "warnings": [
           {
             "id": "prov-warn-1778080564884-7c2174f682f808",
@@ -35035,6 +35035,26 @@
             "issued_by": "CAPE",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-06T19:31:34.408Z",
+            "province_id": "CZ-LI"
+          },
+          {
+            "id": "prov-warn-1778149633139-c9e608f6c30ca8",
+            "type": "Thunderstorm Watch",
+            "issued": "2026-05-07T12:26",
+            "issued_iso": "2026-05-07T10:26:00.000Z",
+            "expires": "2026-05-07T13:00",
+            "expires_iso": "2026-05-07T11:00:00.000Z",
+            "hail": "",
+            "wind": "",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": "The enviroment is favourable for thunderstorm initiation. Few cells are already forming",
+            "forecaster": "cape",
+            "forecaster_name": "CAPE",
+            "forecaster_role": "owner",
+            "issued_by": "CAPE",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-07T10:27:13.139Z",
             "province_id": "CZ-LI"
           }
         ]
