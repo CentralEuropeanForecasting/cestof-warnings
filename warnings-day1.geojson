@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-07T13:29:00.402Z",
+  "generated_at": "2026-05-07T13:31:05.750Z",
   "features": [
     {
       "type": "Feature",
@@ -1147,14 +1147,14 @@
         "expires": "2026-05-07T16:25",
         "expires_iso": "2026-05-07T14:25:00.000Z",
         "location": "Šumperk,Vrbo nad Pradědem Olomoucký kraj",
-        "hail": "1,3cm",
+        "hail": "2cm",
         "wind": "10-15kmh",
         "tornado_probability": "",
         "rotation": "",
         "md_number": "",
         "text": "A thunderstorm was located near Šumperk and Vrbo pod Pradědem,only hazards are wind gust's up to 15kmh and 1,3cm hail",
         "hazards": {
-          "hail": "1,3cm",
+          "hail": "2cm",
           "wind": "10-15kmh",
           "tornado_probability": "",
           "rotation": ""
@@ -1164,7 +1164,7 @@
         "forecaster_role": "nowcaster",
         "issued_by": "Matyáš",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-07T13:27:40.733Z"
+        "updated_at": "2026-05-07T13:31:04.045Z"
       },
       "geometry": {
         "type": "Polygon",
