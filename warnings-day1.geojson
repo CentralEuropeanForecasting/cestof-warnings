@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-07T12:09:24.902Z",
+  "generated_at": "2026-05-07T12:57:16.883Z",
   "features": [
     {
       "type": "Feature",
@@ -897,6 +897,63 @@
             [
               15.908203,
               47.724545
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778158414900",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-07T14:52",
+        "issued_iso": "2026-05-07T12:52:00.000Z",
+        "expires": "2026-05-07T15:52",
+        "expires_iso": "2026-05-07T13:52:00.000Z",
+        "location": "Dauhinava Belarus",
+        "hail": "2,9cm",
+        "wind": "25-40kmh",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "A severe thunderstorm was issued for Dauhinava in Belarus, the tornadoes are possible near Huby, 3cm hail and high winds are the hazards for the storm",
+        "hazards": {
+          "hail": "2,9cm",
+          "wind": "25-40kmh",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-07T12:57:15.333Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.94397,
+              54.629338
+            ],
+            [
+              27.537231,
+              54.412537
+            ],
+            [
+              29.329376,
+              54.949231
+            ],
+            [
+              27.626495,
+              55.422779
+            ],
+            [
+              26.94397,
+              54.629338
             ]
           ]
         ]
