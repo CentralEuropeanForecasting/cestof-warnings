@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-07T13:04:26.604Z",
+  "generated_at": "2026-05-07T13:17:39.270Z",
   "features": [
     {
       "type": "Feature",
@@ -1075,6 +1075,63 @@
             [
               24.889526,
               53.794162
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778159687901",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-07T15:15",
+        "issued_iso": "2026-05-07T13:15:00.000Z",
+        "expires": "2026-05-07T15:35",
+        "expires_iso": "2026-05-07T13:35:00.000Z",
+        "location": "Pajeczno Poland",
+        "hail": "2,9cm",
+        "wind": "25-35kmh",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "a Severe thunderstorm warning was issued For Pajeczno and dzialoszyn Poland,Tornado possibilty very low high winds and hail up to 3cm",
+        "hazards": {
+          "hail": "2,9cm",
+          "wind": "25-35kmh",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-07T13:17:31.845Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.682251,
+              51.124213
+            ],
+            [
+              18.880005,
+              51.041394
+            ],
+            [
+              19.631195,
+              51.241286
+            ],
+            [
+              19.043427,
+              51.505323
+            ],
+            [
+              18.682251,
+              51.124213
             ]
           ]
         ]
