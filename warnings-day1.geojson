@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-07T18:45:39.400Z",
+  "generated_at": "2026-05-07T18:49:51.992Z",
   "features": [
     {
       "type": "Feature",
@@ -1787,6 +1787,63 @@
             [
               16.704712,
               47.813155
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778179651352",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-07T20:49",
+        "issued_iso": "2026-05-07T18:49:00.000Z",
+        "expires": "2026-05-07T21:50",
+        "expires_iso": "2026-05-07T19:50:00.000Z",
+        "location": "Jennersdorf, Austria - Zalaovo, Zalaegerszeg, Hungary",
+        "hail": "<1cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunderstorm moving into Hungary from Austria, it is moving east and has around 52-54 dBZ in radar scans, it can bring winds up to 60km/h, maybe a bit more. Lightning activity is fairly strong.",
+        "hazards": {
+          "hail": "<1cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-07T18:49:46.000Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.748901,
+              46.942762
+            ],
+            [
+              15.787354,
+              46.694667
+            ],
+            [
+              16.990356,
+              46.694667
+            ],
+            [
+              16.924438,
+              47.249407
+            ],
+            [
+              15.748901,
+              46.942762
             ]
           ]
         ]
