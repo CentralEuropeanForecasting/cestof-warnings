@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-07T10:51:44.927Z",
+  "generated_at": "2026-05-07T10:58:43.777Z",
   "features": [
     {
       "type": "Feature",
@@ -454,6 +454,63 @@
             [
               14.933081,
               50.659255
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778069816324",
+        "type": "Thunderstorm Watch",
+        "issued": "2026-05-06T14:17",
+        "issued_iso": "2026-05-06T12:17:00.000Z",
+        "expires": "2026-05-06T14:40",
+        "expires_iso": "2026-05-06T12:40:00.000Z",
+        "location": "",
+        "hail": "0.4 cm",
+        "wind": "26 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A cell is in a development. Could Intensify in the next few minutes",
+        "hazards": {
+          "hail": "0.4 cm",
+          "wind": "26 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-06T12:17:20.924Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.897461,
+              51.11042
+            ],
+            [
+              15.062256,
+              51.082822
+            ],
+            [
+              15.556641,
+              51.433464
+            ],
+            [
+              14.941406,
+              51.590723
+            ],
+            [
+              14.897461,
+              51.11042
             ]
           ]
         ]
