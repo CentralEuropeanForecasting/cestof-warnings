@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-07T12:57:16.883Z",
+  "generated_at": "2026-05-07T13:04:26.604Z",
   "features": [
     {
       "type": "Feature",
@@ -954,6 +954,127 @@
             [
               26.94397,
               54.629338
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778158966829",
+        "type": "Tornado Watch",
+        "issued": "2026-05-07T15:01",
+        "issued_iso": "2026-05-07T13:01:00.000Z",
+        "expires": "2026-05-07T15:29",
+        "expires_iso": "2026-05-07T13:29:00.000Z",
+        "location": "north western side of Belarus",
+        "hail": "1,4cm",
+        "wind": "",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "Tornadoes are possible,Radar indicated rotation and strong supercells could lead up to possible tornadoes",
+        "hazards": {
+          "hail": "1,4cm",
+          "wind": "",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-07T13:04:19.556Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.889526,
+              53.794162
+            ],
+            [
+              25.131226,
+              53.376775
+            ],
+            [
+              25.350952,
+              52.99495
+            ],
+            [
+              25.790405,
+              52.88902
+            ],
+            [
+              26.295776,
+              52.981723
+            ],
+            [
+              26.998901,
+              53.140181
+            ],
+            [
+              27.89978,
+              53.245495
+            ],
+            [
+              28.339233,
+              53.820112
+            ],
+            [
+              29.30603,
+              54.091617
+            ],
+            [
+              30.2948,
+              54.591163
+            ],
+            [
+              30.426636,
+              55.09723
+            ],
+            [
+              30.514526,
+              55.795105
+            ],
+            [
+              29.976196,
+              55.702355
+            ],
+            [
+              29.185181,
+              55.615589
+            ],
+            [
+              28.7677,
+              55.862982
+            ],
+            [
+              27.097778,
+              55.627996
+            ],
+            [
+              26.416626,
+              55.341642
+            ],
+            [
+              25.977173,
+              54.775346
+            ],
+            [
+              25.383911,
+              54.278055
+            ],
+            [
+              24.966431,
+              54.188155
+            ],
+            [
+              24.889526,
+              53.794162
             ]
           ]
         ]
