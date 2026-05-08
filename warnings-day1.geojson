@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T12:57:37.154Z",
+  "generated_at": "2026-05-08T13:10:48.558Z",
   "features": [
     {
       "type": "Feature",
@@ -2076,6 +2076,63 @@
             [
               25.966187,
               43.106999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778245654993",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T15:10",
+        "issued_iso": "2026-05-08T13:10:00.000Z",
+        "expires": "2026-05-08T16:30",
+        "expires_iso": "2026-05-08T14:30:00.000Z",
+        "location": "Todi, Marsciano, Orvieto - Italy",
+        "hail": "None",
+        "wind": "<40km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A few thunderstorms are currently around Todi, Marsciano, Orvieto, Italy. They appear to be very slow moving, North-West motion, dBZ scans arent high, only around <50 dBZ, lightning activity is moderate.",
+        "hazards": {
+          "hail": "None",
+          "wind": "<40km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T13:10:45.049Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.469482,
+              42.508552
+            ],
+            [
+              12.848511,
+              42.75508
+            ],
+            [
+              12.44751,
+              43.189158
+            ],
+            [
+              11.931152,
+              42.722804
+            ],
+            [
+              12.469482,
+              42.508552
             ]
           ]
         ]
