@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T17:28:25.589Z",
+  "generated_at": "2026-05-08T17:34:29.418Z",
   "features": [
     {
       "type": "Feature",
@@ -3175,6 +3175,63 @@
             [
               -3.960571,
               48.516604
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778261505199",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T19:30",
+        "issued_iso": "2026-05-08T17:30:00.000Z",
+        "expires": "2026-05-08T20:30",
+        "expires_iso": "2026-05-08T18:30:00.000Z",
+        "location": "Clermont-Ferrand, Gerzat, Riom - France",
+        "hail": "0-0.5cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm is active over Clermont-Ferrand, reflectivity is around 55 dBZ, which puts a low risk at hail as of now. Lightning activity is moderate. North motion.",
+        "hazards": {
+          "hail": "0-0.5cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T17:34:27.957Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.996521,
+              45.777102
+            ],
+            [
+              3.419495,
+              45.777102
+            ],
+            [
+              3.581543,
+              46.452997
+            ],
+            [
+              2.752075,
+              46.418926
+            ],
+            [
+              2.996521,
+              45.777102
             ]
           ]
         ]
