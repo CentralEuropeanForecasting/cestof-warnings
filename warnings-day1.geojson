@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T17:57:29.986Z",
+  "generated_at": "2026-05-08T18:04:49.209Z",
   "features": [
     {
       "type": "Feature",
@@ -3460,6 +3460,63 @@
             [
               -2.889404,
               48.063397
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778263339821",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-08T20:00",
+        "issued_iso": "2026-05-08T18:00:00.000Z",
+        "expires": "2026-05-08T21:10",
+        "expires_iso": "2026-05-08T19:10:00.000Z",
+        "location": "north of Saint-Girons, France",
+        "hail": "<4cm",
+        "wind": "<80km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A very strong thunderstorm is active north of Saint-Girons in France, it has reflectivity up to 65 dBZ, which can be a sign of bigger hail. (up to 3cm or more) Very high risk of hail. Lightning activity is moderate. Movement is: North",
+        "hazards": {
+          "hail": "<4cm",
+          "wind": "<80km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T18:04:45.535Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.873413,
+              43.068888
+            ],
+            [
+              1.307373,
+              43.044805
+            ],
+            [
+              1.549072,
+              43.596306
+            ],
+            [
+              0.76355,
+              43.604262
+            ],
+            [
+              0.873413,
+              43.068888
             ]
           ]
         ]
