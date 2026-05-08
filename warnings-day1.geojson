@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T15:05:19.580Z",
+  "generated_at": "2026-05-08T15:11:53.912Z",
   "features": [
     {
       "type": "Feature",
@@ -2418,6 +2418,63 @@
             [
               22.994385,
               43.261206
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778252996601",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T17:11",
+        "issued_iso": "2026-05-08T15:11:00.000Z",
+        "expires": "2026-05-08T18:11",
+        "expires_iso": "2026-05-08T16:11:00.000Z",
+        "location": "Knezha, Bulgaria",
+        "hail": "1-2cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A newly formed thunderstorm is moving north-west, into Knezha in Bulgaria. radar scans show 59-61 dBZ, which can be from hail. Hail is definetly possible. Some wind can also happen from this storm. Lightning activity is low to moderate.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T15:11:48.123Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.076538,
+              43.309191
+            ],
+            [
+              24.395142,
+              43.436966
+            ],
+            [
+              24.197388,
+              43.897892
+            ],
+            [
+              23.648071,
+              43.675818
+            ],
+            [
+              24.076538,
+              43.309191
             ]
           ]
         ]
