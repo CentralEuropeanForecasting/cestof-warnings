@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T17:37:53.440Z",
+  "generated_at": "2026-05-08T17:43:15.132Z",
   "features": [
     {
       "type": "Feature",
@@ -3289,6 +3289,63 @@
             [
               1.219482,
               46.392411
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778261978699",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T19:35",
+        "issued_iso": "2026-05-08T17:35:00.000Z",
+        "expires": "2026-05-08T20:40",
+        "expires_iso": "2026-05-08T18:40:00.000Z",
+        "location": "La Chaux-de-Fonds, Switzerland",
+        "hail": "<1-2cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm is active over Le Chaux de Fonds in Switzerland, it has reflectivity up to 62 dBZ, which can produce hail. Lightning activity is low.",
+        "hazards": {
+          "hail": "<1-2cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T17:42:56.674Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.632996,
+              47.115
+            ],
+            [
+              6.937866,
+              46.926821
+            ],
+            [
+              7.542114,
+              47.271775
+            ],
+            [
+              6.943359,
+              47.557994
+            ],
+            [
+              6.632996,
+              47.115
             ]
           ]
         ]
