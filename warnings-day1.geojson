@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T18:34:54.109Z",
+  "generated_at": "2026-05-08T18:39:28.662Z",
   "features": [
     {
       "type": "Feature",
@@ -3696,6 +3696,63 @@
             [
               -1.224976,
               44.653024
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778265396924",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T20:38",
+        "issued_iso": "2026-05-08T18:38:00.000Z",
+        "expires": "2026-05-08T21:40",
+        "expires_iso": "2026-05-08T19:40:00.000Z",
+        "location": "west of Dax, France",
+        "hail": "<1-2cm",
+        "wind": "<60-70km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Borderline severe thunderstorms are active west of Dex, France. earlier scans showed 64 dBZ, now it is around 60 dBZ. Hail is possible if it maintains its strength. North motion with low to moderate lightning activity is present.",
+        "hazards": {
+          "hail": "<1-2cm",
+          "wind": "<60-70km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T18:39:26.623Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.472168,
+              43.683764
+            ],
+            [
+              -1.175537,
+              43.667872
+            ],
+            [
+              -0.911865,
+              44.194021
+            ],
+            [
+              -1.582031,
+              44.221584
+            ],
+            [
+              -1.472168,
+              43.683764
             ]
           ]
         ]
