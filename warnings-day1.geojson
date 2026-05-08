@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T15:38:50.949Z",
+  "generated_at": "2026-05-08T15:45:18.395Z",
   "features": [
     {
       "type": "Feature",
@@ -2760,6 +2760,63 @@
             [
               26.358948,
               45.251688
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778254977828",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T17:45",
+        "issued_iso": "2026-05-08T15:45:00.000Z",
+        "expires": "2026-05-08T18:40",
+        "expires_iso": "2026-05-08T16:40:00.000Z",
+        "location": "southeast of Besancon, France",
+        "hail": "None",
+        "wind": "<50km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm is present close to Besancon, France. It is producing moderate activity of lightning strikes and its reflectivity is around 53 dBZ+. Hail is almost set to zero probability. Movement is North-East.",
+        "hazards": {
+          "hail": "None",
+          "wind": "<50km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T15:45:13.327Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.190796,
+              47.077604
+            ],
+            [
+              6.49292,
+              46.897739
+            ],
+            [
+              7.190552,
+              47.23449
+            ],
+            [
+              6.498413,
+              47.576526
+            ],
+            [
+              6.190796,
+              47.077604
             ]
           ]
         ]
