@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T15:21:20.316Z",
+  "generated_at": "2026-05-08T15:24:54.229Z",
   "features": [
     {
       "type": "Feature",
@@ -2589,6 +2589,63 @@
             [
               -0.906372,
               43.165123
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778253765554",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T17:24",
+        "issued_iso": "2026-05-08T15:24:00.000Z",
+        "expires": "2026-05-08T18:25",
+        "expires_iso": "2026-05-08T16:25:00.000Z",
+        "location": "Lourdes, Tarbes - France",
+        "hail": "<1cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A pack of thunderstorms is newely forming and producing lightning strikes. They are moving north and radar scans show around 55 dBZ+. They can strengthen further and produce hail later on. Lightning activity is minor-low-moderate depending on different storm cells.",
+        "hazards": {
+          "hail": "<1cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T15:24:52.073Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.274658,
+              43.044805
+            ],
+            [
+              0.521851,
+              42.988576
+            ],
+            [
+              0.85144,
+              43.707594
+            ],
+            [
+              -0.307617,
+              43.747289
+            ],
+            [
+              -0.274658,
+              43.044805
             ]
           ]
         ]
