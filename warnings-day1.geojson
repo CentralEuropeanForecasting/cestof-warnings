@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T15:55:12.383Z",
+  "generated_at": "2026-05-08T16:19:50.201Z",
   "features": [
     {
       "type": "Feature",
@@ -2874,6 +2874,67 @@
             [
               6.190796,
               47.077604
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778257174595",
+        "type": "Mesoscale Discussion",
+        "issued": "2026-05-07T18:40",
+        "issued_iso": "2026-05-07T16:40:00.000Z",
+        "expires": "2026-05-09T13:40",
+        "expires_iso": "2026-05-09T11:40:00.000Z",
+        "location": "France, Spain",
+        "hail": "Unknown",
+        "wind": "40km/h (estimated)",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "MSLCAL #202, possible TSTORMS",
+        "hazards": {
+          "hail": "Unknown",
+          "wind": "40km/h (estimated)",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "elidoesbnuuy",
+        "forecaster_name": "EliDoesBnuuy",
+        "forecaster_role": "nowcaster",
+        "issued_by": "EliDoesBnuuy",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T16:19:47.892Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.241211,
+              41.013066
+            ],
+            [
+              -8.217773,
+              49.894634
+            ],
+            [
+              0.483398,
+              51.508742
+            ],
+            [
+              10.195313,
+              49.894634
+            ],
+            [
+              8.964844,
+              41.869561
+            ],
+            [
+              -2.241211,
+              41.013066
             ]
           ]
         ]
