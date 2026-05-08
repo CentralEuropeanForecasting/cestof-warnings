@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T18:39:28.662Z",
+  "generated_at": "2026-05-08T18:46:45.672Z",
   "features": [
     {
       "type": "Feature",
@@ -3753,6 +3753,63 @@
             [
               -1.472168,
               43.683764
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778265883953",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T20:45",
+        "issued_iso": "2026-05-08T18:45:00.000Z",
+        "expires": "2026-05-08T21:45",
+        "expires_iso": "2026-05-08T19:45:00.000Z",
+        "location": "north of Bern, Switzerland.",
+        "hail": "<1-2cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunderstorms active north of Bern, Switzerland - affecting Solothurn, Burgdorf... dbz 60+, moderate-slightly high lightning activity. Hail is possible up to 2cm.",
+        "hazards": {
+          "hail": "<1-2cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T18:46:43.202Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.196045,
+              47.040182
+            ],
+            [
+              7.56958,
+              46.942762
+            ],
+            [
+              8.118896,
+              47.517201
+            ],
+            [
+              7.311401,
+              47.62838
+            ],
+            [
+              7.196045,
+              47.040182
             ]
           ]
         ]
