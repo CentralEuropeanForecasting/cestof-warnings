@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T13:10:53.566Z",
+  "generated_at": "2026-05-08T13:22:23.858Z",
   "features": [
     {
       "type": "Feature",
@@ -2133,6 +2133,63 @@
             [
               12.469482,
               42.508552
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778246390483",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T15:20",
+        "issued_iso": "2026-05-08T13:20:00.000Z",
+        "expires": "2026-05-08T16:20",
+        "expires_iso": "2026-05-08T14:20:00.000Z",
+        "location": "around Babruysk, Bulgaria",
+        "hail": "<2cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Few strong thunderstorm cells are forming around Babruysk, Belarus. They can bring hail as some of the scans show over 60 dBZ. Hail is definetly possible and winds are also possible.",
+        "hazards": {
+          "hail": "<2cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T13:22:18.683Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.88855,
+              53.065976
+            ],
+            [
+              29.561462,
+              52.920495
+            ],
+            [
+              30.319519,
+              53.667426
+            ],
+            [
+              29.171448,
+              53.849286
+            ],
+            [
+              28.88855,
+              53.065976
             ]
           ]
         ]
