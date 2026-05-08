@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T15:33:41.645Z",
+  "generated_at": "2026-05-08T15:38:50.949Z",
   "features": [
     {
       "type": "Feature",
@@ -2703,6 +2703,63 @@
             [
               -3.197021,
               43.032761
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778254631935",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T17:37",
+        "issued_iso": "2026-05-08T15:37:00.000Z",
+        "expires": "2026-05-08T18:40",
+        "expires_iso": "2026-05-08T16:40:00.000Z",
+        "location": "Buzau, Romania",
+        "hail": "<1cm",
+        "wind": "<50-60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A new thunderstorm has formed close to Buzau, Romania. It has reflectivity up to 60 dBZ, the storm is new, so hail has a low probability to be present. Lightning activity is minor to low.",
+        "hazards": {
+          "hail": "<1cm",
+          "wind": "<50-60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T15:38:44.304Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.358948,
+              45.251688
+            ],
+            [
+              26.367188,
+              45.046359
+            ],
+            [
+              26.968689,
+              44.976457
+            ],
+            [
+              26.954956,
+              45.394593
+            ],
+            [
+              26.358948,
+              45.251688
             ]
           ]
         ]
