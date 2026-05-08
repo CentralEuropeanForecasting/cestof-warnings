@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T13:22:28.214Z",
+  "generated_at": "2026-05-08T13:33:22.257Z",
   "features": [
     {
       "type": "Feature",
@@ -2190,6 +2190,63 @@
             [
               28.88855,
               53.065976
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778246789091",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-08T15:20",
+        "issued_iso": "2026-05-08T13:20:00.000Z",
+        "expires": "2026-05-08T16:30",
+        "expires_iso": "2026-05-08T14:30:00.000Z",
+        "location": "Iasi, Romania, moving into Moldova",
+        "hail": "<4cm",
+        "wind": "<90km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "This strong line of thunderstorm has maintained its strength and is pushing 63+ dBZ in radar scans, a potential bow echo is forming, which can bring very strong winds, so be cautious! Lightning activity is fairly low.",
+        "hazards": {
+          "hail": "<4cm",
+          "wind": "<90km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T13:33:08.946Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.322754,
+              46.762443
+            ],
+            [
+              27.207642,
+              46.916503
+            ],
+            [
+              27.251587,
+              47.583937
+            ],
+            [
+              28.358459,
+              47.783635
+            ],
+            [
+              28.322754,
+              46.762443
             ]
           ]
         ]
