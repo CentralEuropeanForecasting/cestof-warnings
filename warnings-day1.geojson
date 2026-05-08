@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T12:47:32.215Z",
+  "generated_at": "2026-05-08T12:53:57.921Z",
   "features": [
     {
       "type": "Feature",
@@ -2019,6 +2019,63 @@
             [
               26.5979,
               45.449341
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778244632820",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T14:50",
+        "issued_iso": "2026-05-08T12:50:00.000Z",
+        "expires": "2026-05-08T15:50",
+        "expires_iso": "2026-05-08T13:50:00.000Z",
+        "location": "Razdeltsi, Bulgaria",
+        "hail": "<2cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Strong thunderstorm with radar scans showing up to 62 dBZ. It can produce hail as it is still intensifying. If it intensifies further a severe tstm warning can be issued.\nFew more cells are forming around it.",
+        "hazards": {
+          "hail": "<2cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T12:53:52.711Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.966187,
+              43.106999
+            ],
+            [
+              26.196899,
+              42.992595
+            ],
+            [
+              26.688538,
+              43.281204
+            ],
+            [
+              26.119995,
+              43.502745
+            ],
+            [
+              25.966187,
+              43.106999
             ]
           ]
         ]
