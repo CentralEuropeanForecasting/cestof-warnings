@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T14:23:03.754Z",
+  "generated_at": "2026-05-08T14:47:34.330Z",
   "features": [
     {
       "type": "Feature",
@@ -2304,6 +2304,63 @@
             [
               25.883789,
               47.746711
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778251487872",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T16:45",
+        "issued_iso": "2026-05-08T14:45:00.000Z",
+        "expires": "2026-05-08T17:45",
+        "expires_iso": "2026-05-08T15:45:00.000Z",
+        "location": "Cornesti, Calarasi, Moldova",
+        "hail": "<1-2cm",
+        "wind": "<60km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "A weakened line of storms is moving into Moldova, the southern part is pushing 60+ dBZ though. lightning activity is low. in the southern part of the storms, hail is possible and even up to 2cm. Wind is also possible.",
+        "hazards": {
+          "hail": "<1-2cm",
+          "wind": "<60km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T14:47:32.905Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.664948,
+              46.847982
+            ],
+            [
+              27.674561,
+              47.435519
+            ],
+            [
+              28.553467,
+              47.583937
+            ],
+            [
+              28.517761,
+              46.702202
+            ],
+            [
+              27.664948,
+              46.847982
             ]
           ]
         ]
