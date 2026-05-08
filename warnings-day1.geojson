@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T18:52:29.232Z",
+  "generated_at": "2026-05-08T18:55:51.714Z",
   "features": [
     {
       "type": "Feature",
@@ -3867,6 +3867,63 @@
             [
               -1.94458,
               47.055154
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778266466919",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T20:56",
+        "issued_iso": "2026-05-08T18:56:00.000Z",
+        "expires": "2026-05-08T21:55",
+        "expires_iso": "2026-05-08T19:55:00.000Z",
+        "location": "Hufingen, Geisingen - Germany",
+        "hail": "<1cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Fairly strong thunderstorm in Hufingen, Germany. It has moderate/slightly high lightning activity, dbz: 55-60, hail risk: slight",
+        "hazards": {
+          "hail": "<1cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T18:55:47.331Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.421021,
+              47.750405
+            ],
+            [
+              8.22876,
+              47.971537
+            ],
+            [
+              8.76709,
+              48.264913
+            ],
+            [
+              9.151611,
+              47.838971
+            ],
+            [
+              8.421021,
+              47.750405
             ]
           ]
         ]
