@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T18:55:51.714Z",
+  "generated_at": "2026-05-08T19:59:03.689Z",
   "features": [
     {
       "type": "Feature",
@@ -3924,6 +3924,63 @@
             [
               8.421021,
               47.750405
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778270126200",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T21:55",
+        "issued_iso": "2026-05-08T19:55:00.000Z",
+        "expires": "2026-05-08T22:55",
+        "expires_iso": "2026-05-08T20:55:00.000Z",
+        "location": "Geisingen, Tengen - Germany",
+        "hail": "<1cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunderstorm is active in Germany, in cities: Geisingen, Tengen and villages around it. It is moderately active in lightning strikes, dbz is 55-57 which puts a small risk for hail. Max 1cm is possible. East movement",
+        "hazards": {
+          "hail": "<1cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T19:59:01.081Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.517151,
+              47.960502
+            ],
+            [
+              8.528137,
+              47.755945
+            ],
+            [
+              9.157104,
+              47.691277
+            ],
+            [
+              9.135132,
+              48.140432
+            ],
+            [
+              8.517151,
+              47.960502
             ]
           ]
         ]
