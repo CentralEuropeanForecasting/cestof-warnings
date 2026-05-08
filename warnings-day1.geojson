@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T18:31:52.018Z",
+  "generated_at": "2026-05-08T18:34:54.109Z",
   "features": [
     {
       "type": "Feature",
@@ -3639,6 +3639,63 @@
             [
               1.159058,
               45.073521
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778265201666",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T20:30",
+        "issued_iso": "2026-05-08T18:30:00.000Z",
+        "expires": "2026-05-08T21:30",
+        "expires_iso": "2026-05-08T19:30:00.000Z",
+        "location": "Andernos-les-Bains",
+        "hail": "<2cm",
+        "wind": "<70km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Fairly strong thunderstorms are present in Andernos-les-Bains, France. Dbz is 60-62 which supports hail, hail risk is high with moderate lightning activity. North motion",
+        "hazards": {
+          "hail": "<2cm",
+          "wind": "<70km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T18:34:52.782Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.224976,
+              44.653024
+            ],
+            [
+              -0.928345,
+              44.637391
+            ],
+            [
+              -0.708618,
+              45.151053
+            ],
+            [
+              -1.312866,
+              45.166547
+            ],
+            [
+              -1.224976,
+              44.653024
             ]
           ]
         ]
