@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T17:43:19.556Z",
+  "generated_at": "2026-05-08T17:53:29.002Z",
   "features": [
     {
       "type": "Feature",
@@ -3346,6 +3346,63 @@
             [
               6.632996,
               47.115
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778262622583",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T19:50",
+        "issued_iso": "2026-05-08T17:50:00.000Z",
+        "expires": "2026-05-08T20:50",
+        "expires_iso": "2026-05-08T18:50:00.000Z",
+        "location": "Schwyz, Switzerland",
+        "hail": "None",
+        "wind": "<50km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm with 2 cores is active over Schwyz, peak reflectivity is 50 dBZ, so no hail will be present. Lightning activity is pretty active, moderate. It is very slow NE moving.",
+        "hazards": {
+          "hail": "None",
+          "wind": "<50km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T17:53:24.968Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.442993,
+              47.010226
+            ],
+            [
+              8.860474,
+              46.860191
+            ],
+            [
+              9.365845,
+              47.256864
+            ],
+            [
+              8.607788,
+              47.472663
+            ],
+            [
+              8.442993,
+              47.010226
             ]
           ]
         ]
