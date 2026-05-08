@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T15:24:54.229Z",
+  "generated_at": "2026-05-08T15:33:41.645Z",
   "features": [
     {
       "type": "Feature",
@@ -2646,6 +2646,63 @@
             [
               -0.274658,
               43.044805
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778254239147",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T17:30",
+        "issued_iso": "2026-05-08T15:30:00.000Z",
+        "expires": "2026-05-08T18:30",
+        "expires_iso": "2026-05-08T16:30:00.000Z",
+        "location": "Bilbao, Spain",
+        "hail": "<1cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A fairly strong thunderstorm is moving over Bilbao. It has reflectivity up to 58 dBZ, small hail is possible. The cell is moving north and further into Bilbao, soon it is going to cross into the sea. Moderate lightning activity is present.",
+        "hazards": {
+          "hail": "<1cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T15:33:37.450Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.197021,
+              43.032761
+            ],
+            [
+              -2.658691,
+              43.036776
+            ],
+            [
+              -2.400513,
+              43.743321
+            ],
+            [
+              -3.334351,
+              43.739352
+            ],
+            [
+              -3.197021,
+              43.032761
             ]
           ]
         ]
