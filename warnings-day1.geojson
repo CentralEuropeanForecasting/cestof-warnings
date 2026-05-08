@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T17:53:32.427Z",
+  "generated_at": "2026-05-08T17:57:29.986Z",
   "features": [
     {
       "type": "Feature",
@@ -3403,6 +3403,63 @@
             [
               8.442993,
               47.010226
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778262903341",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T19:56",
+        "issued_iso": "2026-05-08T17:56:00.000Z",
+        "expires": "2026-05-08T20:56",
+        "expires_iso": "2026-05-08T18:56:00.000Z",
+        "location": "Loudéac, France",
+        "hail": "None",
+        "wind": "<50km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm has formed over Loudeac, France, it is fairly strong in lightning activity, im going to give it moderate activity, highest reflectivity is only 50 dBZ, currently no/very low risk of hail. It is moving north.",
+        "hazards": {
+          "hail": "None",
+          "wind": "<50km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T17:57:27.469Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.889404,
+              48.063397
+            ],
+            [
+              -2.384033,
+              48.041365
+            ],
+            [
+              -2.175293,
+              48.625647
+            ],
+            [
+              -2.966309,
+              48.618385
+            ],
+            [
+              -2.889404,
+              48.063397
             ]
           ]
         ]
