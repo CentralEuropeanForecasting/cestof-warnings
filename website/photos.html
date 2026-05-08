@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photos - CESTOF</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <style>
+    /* ===== BASE (INDEX LAYOUT) ===== */
+    body{
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #dfe6ee url("img/bg.jpg") center/cover fixed no-repeat;
+      color:#111;
+    }
+    body::before{
+      content:"";
+      position:fixed;
+      inset:0;
+      background: rgba(0,0,0,.38);
+      pointer-events:none;
+      z-index:-1;
+    }
+    .wrap{
+      max-width:1000px;
+      margin:16px auto;
+      padding:0 12px 18px;
+    }
+
+    /* ===== HEADER (INDEX) ===== */
+    header{
+      background: rgba(255,255,255,.88);
+      border:2px solid #000;
+    }
+    .header-top{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      padding:10px;
+    }
+    .header-top .logo{ height:48px; }
+    .title-img{
+      display:block;
+      height:34px;
+      max-width:100%;
+    }
+    header .sub{
+      margin:4px 0 0;
+      font-style:italic;
+      color:#333;
+    }
+    .header-meta{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:10px;
+      padding:8px 10px;
+      background:#f2f2f2;
+      border-top:2px solid #000;
+    }
+    .tagline{ margin:0; font-size:.95rem; color:#222; }
+    .last-updated{ margin:0; font-size:.9rem; }
+    .last-updated b{ font-weight:bold; }
+
+    /* ===== NAV (INDEX) ===== */
+    nav{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      justify-content:center;
+      background:#f4f4f4;
+      border-top:2px solid #000;
+      border-bottom:2px solid #000;
+      padding:8px 0;
+    }
+    nav a{
+      text-decoration:none;
+      color:#000;
+      font-weight:bold;
+      padding:5px 10px;
+    }
+    nav a:hover{
+      background:#000;
+      color:#fff;
+    }
+
+    /* ===== MAIN / SECTIONS (INDEX) ===== */
+    main{ margin-top:14px; }
+    .section{
+      background: rgba(255,255,255,.86);
+      border:1px solid #000;
+      margin-bottom:14px;
+      padding:14px;
+    }
+    .section h2{
+      margin:0 0 10px;
+      border-bottom:2px solid #000;
+      padding-bottom:4px;
+    }
+
+    /* ===== PHOTOS GRID ===== */
+    .photos{
+      display:grid;
+      gap:10px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      margin-top:10px;
+    }
+    .photos img{
+      width:100%;
+      border:1px solid #777;
+      cursor:pointer;
+      transition: .15s;
+      display:block;
+      background:#fff;
+    }
+    .photos img:hover{ opacity:.85; }
+
+    /* ===== FULLSCREEN OVERLAY ===== */
+    #fullscreen{
+      display:none;
+      position:fixed;
+      z-index:1000;
+      inset:0;
+      background: rgba(0,0,0,.92);
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      text-align:center;
+      padding:16px;
+    }
+    #fullscreen img{
+      max-width:92%;
+      max-height:82%;
+      border:2px solid #fff;
+      margin-bottom:10px;
+    }
+    #caption{
+      color:#fff;
+      font-size:.95rem;
+      font-style:italic;
+    }
+
+    /* ===== FOOTER (INDEX) ===== */
+    footer{
+      text-align:center;
+      color:#eee;
+      font-size:.9rem;
+      margin-top:14px;
+      text-shadow:0 1px 1px rgba(0,0,0,.7);
+    }
+
+    @media (max-width:520px){
+      .title-img{ height:30px; }
+    }
+  
+    header,.section,.controls,.active-warnings,.forecast-meta,.map,.discussion,.archive-item,.article-card,.tile,.map-switcher,.photos img,.tab,.btn,.select,.aw-item,.tabs .tab{
+      border-radius:12px;
+    }
+    header,.section,.controls,.active-warnings,.forecast-meta,.map,.discussion,.archive-item,.article-card,.tile,.map-switcher,.photos img,.aw-item{
+      box-shadow:0 10px 24px rgba(0,0,0,.12);
+    }
+    header{overflow:hidden;backdrop-filter:blur(5px)}
+    .section{backdrop-filter:blur(4px)}
+    nav a{border-radius:999px;transition:background .16s,color .16s,transform .16s,box-shadow .16s}
+    nav a:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(0,0,0,.18)}
+    .tab,.btn,.switch-btn,.select{border-radius:10px;transition:transform .14s,background .14s,box-shadow .14s}
+    .tab:hover,.btn:hover,.switch-btn:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(0,0,0,.12)}
+    .tile,.article-card,.archive-item,.aw-item{transition:transform .16s,box-shadow .16s,background .16s}
+    .tile:hover,.article-card:hover,.archive-item:hover,.aw-item:hover{transform:translateY(-2px);box-shadow:0 14px 26px rgba(0,0,0,.16)}
+    .map img,.tile img,.article-card img,.photos img,.archive-item img{border-radius:10px}
+    .section h2{letter-spacing:.2px}
+
+  
+    nav a.active{
+      background:#000;
+      color:#fff;
+      box-shadow:0 6px 14px rgba(0,0,0,.18);
+    }
+    
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="header-top">
+      <img class="logo" src="img/logo.png" alt="CESTOF logo">
+      <div>
+        <img class="title-img" src="img/cestof-title.png" alt="CESTOF">
+        <p class="sub">Central European Storm Forecasts</p>
+      </div>
+    </div>
+
+    <div class="header-meta">
+      <p class="tagline">Storm photography highlights & galleries.</p>
+      <p class="last-updated"><b>Last updated:</b> <span id="lastUpdated">—</span></p>
+    </div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="forecast.html">Forecasts</a>
+    <a href="outlook.html">Outlook</a>
+    <a href="radar.html">Radar</a>
+    <a href="warning.html">Warnings</a>
+    <a href="lightning.html">Lightning</a>
+    <a href="archive.html">Archive</a>
+    <a href="tornadoes.html">Tornadoes</a>
+    <a href="photos.html" class="active" >Photos</a>
+  </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>Storm Photography</h2>
+
+      <div class="photos" id="photosGrid">
+        <img src="img/photos/Ferrarius1.jpg" alt="" onclick="openFullscreen(this, 'Photo by ferrarius')">
+        <img src="img/photos/Ferrarius2.jpg" alt="" onclick="openFullscreen(this, 'Photo by ferrarius')">
+        <img src="img/photos/Ferrarius3.jpg" alt="" onclick="openFullscreen(this, 'Photo by ferrarius')">
+        <img src="img/photos/Obamak2.jpg" alt="" onclick="openFullscreen(this, 'Photo by Storm Chasers (S.I.T)')">
+        <img src="img/photos/CSW1.JPG" alt="" onclick="openFullscreen(this, 'Photo by CSW')">
+        <img src="img/photos/CSW2.JPG" alt="" onclick="openFullscreen(this, 'Photo by CSW')">
+        <img src="img/photos/CSW3.JPG" alt="" onclick="openFullscreen(this, 'Photo by CSW')">
+        <img src="img/photos/Obamak3.jpg" alt="" onclick="openFullscreen(this, 'Photo by Storm Chasers (S.I.T)')">
+        <img src="img/photos/Obamak4.jpg" alt="" onclick="openFullscreen(this, 'Photo by Storm Chasers (S.I.T)')">
+        <img src="img/photos/dji.jpg" alt="" onclick="openFullscreen(this, 'Photo by CSW')">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Central European Storm Forecasts | Cell Spot</p>
+  </footer>
+
+</div>
+
+<!-- Fullscreen overlay -->
+<div id="fullscreen" onclick="closeFullscreen()">
+  <img id="fullscreen-img" src="" alt="">
+  <div id="caption"></div>
+</div>
+
+<script>
+(function(){
+  const lu = document.getElementById("lastUpdated");
+  if (!lu) return;
+
+  const d = new Date(document.lastModified);
+  const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const t = `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()} ${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
+  lu.textContent = t;
+})();
+
+  const RAW_BASE = "https://raw.githubusercontent.com/CentralEuropeanForecasting/cestof-warnings/main";
+  const PHOTOS_JSON_URL = `${RAW_BASE}/data/photos.json`;
+
+  function escapePhotoText(s){
+    return String(s || "").replace(/[&<>"']/g, (m) => ({
+      "&":"&amp;",
+      "<":"&lt;",
+      ">":"&gt;",
+      "\"":"&quot;",
+      "'":"&#039;"
+    }[m]));
+  }
+
+  function photoCaption(photo){
+    return photo.caption || photo.credit || photo.title || "";
+  }
+
+  async function loadPhotosFromGitHub(){
+    const grid = document.getElementById("photosGrid");
+    if(!grid) return;
+
+    try{
+      const res = await fetch(PHOTOS_JSON_URL + "?v=" + Date.now(), { cache:"no-store" });
+      if(!res.ok) throw new Error("Missing photos.json");
+
+      const data = await res.json();
+      const photos = Array.isArray(data) ? data : (Array.isArray(data.photos) ? data.photos : []);
+      if(!photos.length) return;
+
+      grid.innerHTML = "";
+      photos.forEach(photo => {
+        const src = String(photo.src || photo.url || "").trim();
+        if(!src) return;
+
+        const img = document.createElement("img");
+        img.src = src.startsWith("http") ? src : `${RAW_BASE}/${src.replace(/^\//, "")}`;
+        img.alt = photo.title || photo.caption || photo.credit || "Storm photo";
+        img.loading = "lazy";
+        img.addEventListener("click", () => openFullscreen(img, photoCaption(photo)));
+        grid.appendChild(img);
+      });
+    }catch(e){
+      console.warn("Could not load data/photos.json, keeping default photos:", e);
+    }
+  }
+
+  loadPhotosFromGitHub();
+
+  function openFullscreen(img, credit) {
+    document.getElementById("fullscreen-img").src = img.src;
+    document.getElementById("caption").textContent = credit || "";
+    document.getElementById("fullscreen").style.display = "flex";
+  }
+  function closeFullscreen() {
+    document.getElementById("fullscreen").style.display = "none";
+  }
+  document.addEventListener('keydown',(e)=>{ if(e.key==='Escape'){ closeFullscreen(); }});
+</script>
+
+
+
+
+<script>
+    (function(){
+      const current = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
+      document.querySelectorAll('nav a').forEach(a => {
+        const href = (a.getAttribute('href') || '').toLowerCase();
+        if (href === current) {
+          a.style.background = '#000';
+          a.style.color = '#fff';
+          a.style.boxShadow = '0 6px 14px rgba(0,0,0,.18)';
+        }
+      });
+    })();
+</script>
+
+<script>
+(function(){
+  document.querySelectorAll("nav a").forEach(a => {
+    if ((a.getAttribute("href") || "").trim() === "photos.html") {
+      a.classList.add("active");
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

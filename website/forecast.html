@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Forecasts - CESTOF</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CESTOF Day 1 convective forecast map.">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #dfe6ee url("img/bg.jpg") center/cover fixed no-repeat;
+      color:#111;
+    }
+    body::before{
+      content:"";
+      position:fixed;
+      inset:0;
+      background: rgba(0,0,0,.38);
+      pointer-events:none;
+      z-index:-1;
+    }
+    .wrap{
+      max-width:1100px;
+      margin:16px auto;
+      padding:0 12px 18px;
+    }
+
+    header{
+      background: rgba(255,255,255,.88);
+      border:2px solid #000;
+    }
+    .header-top{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      padding:10px;
+    }
+    .header-top .logo{ height:48px; }
+    .title-img{
+      display:block;
+      height:34px;
+      max-width:100%;
+    }
+    header .sub{
+      margin:4px 0 0;
+      font-style:italic;
+      color:#333;
+    }
+    .header-meta{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:10px;
+      padding:8px 10px;
+      background:#f2f2f2;
+      border-top:2px solid #000;
+    }
+    .tagline{ margin:0; font-size:.95rem; color:#222; }
+    .last-updated{ margin:0; font-size:.9rem; }
+    .last-updated b{ font-weight:bold; }
+
+    nav{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      justify-content:center;
+      background:#f4f4f4;
+      border-top:2px solid #000;
+      border-bottom:2px solid #000;
+      padding:8px 0;
+    }
+    nav a{
+      text-decoration:none;
+      color:#000;
+      font-weight:bold;
+      padding:5px 10px;
+    }
+    nav a:hover{
+      background:#000;
+      color:#fff;
+    }
+    nav a.active{
+      background:#000;
+      color:#fff;
+      box-shadow:0 6px 14px rgba(0,0,0,.18);
+    }
+
+    main{ margin-top:14px; }
+    .section{
+      background: rgba(255,255,255,.86);
+      border:1px solid #000;
+      margin-bottom:14px;
+      padding:14px;
+    }
+    .section h2{
+      margin:0 0 10px;
+      border-bottom:2px solid #000;
+      padding-bottom:4px;
+    }
+
+    .controls{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      border:1px solid #777;
+      background:#fff;
+      padding:10px;
+      margin-bottom:10px;
+    }
+    .control-row{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      align-items:center;
+    }
+    .row-label{
+      font-weight:bold;
+      min-width:64px;
+    }
+    .btn{
+      border:1px solid #000;
+      background:#f2f2f2;
+      padding:6px 10px;
+      font-weight:bold;
+      cursor:pointer;
+      user-select:none;
+      border-radius:10px;
+      transition:transform .14s,background .14s,box-shadow .14s;
+    }
+    .btn:hover{
+      background:#e6e6e6;
+      transform:translateY(-1px);
+      box-shadow:0 6px 14px rgba(0,0,0,.12);
+    }
+    .btn.active{
+      background:#000;
+      color:#fff;
+      outline:2px solid #000;
+    }
+    .hazard-btn{
+      min-width:110px;
+      text-align:center;
+    }
+
+    .archive-btn{
+      min-width:150px;
+      text-align:center;
+      background:#111;
+      color:#fff;
+    }
+    .archive-btn:hover{
+      background:#222;
+      color:#fff;
+    }
+
+    .forecast-meta{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      align-items:center;
+      justify-content:space-between;
+      margin:0 0 10px;
+      padding:8px 10px;
+      border:1px solid #777;
+      background:#fff;
+    }
+    .forecast-meta p{ margin:0; }
+
+    #forecastMap{
+      height:650px;
+      border:1px solid #000;
+      outline:1px solid rgba(0,0,0,.25);
+      background:#fff;
+      border-radius:12px;
+      box-shadow:0 10px 24px rgba(0,0,0,.12);
+    }
+
+    .hint{
+      margin:8px 0 0;
+      color:#333;
+      font-size:.9rem;
+      line-height:1.4;
+    }
+    .status-line{
+      margin:8px 0 0;
+      font-size:.9rem;
+      color:#222;
+      background:#fff;
+      border:1px solid #777;
+      padding:8px 10px;
+      border-radius:12px;
+    }
+
+    .discussion{
+      margin-top:10px;
+      border:1px solid #777;
+      background:#fff;
+      padding:10px;
+      border-radius:12px;
+      box-shadow:0 10px 24px rgba(0,0,0,.12);
+    }
+    .discussion p{ margin:8px 0; }
+    .discussion .label{ margin-top:0; }
+
+    .forecast-discussion-box{
+      margin-top:12px;
+      border:1px solid #777;
+      background:#fff;
+      padding:12px;
+      border-radius:12px;
+      box-shadow:0 10px 24px rgba(0,0,0,.12);
+    }
+    .forecast-discussion-box h3{
+      margin:0 0 8px;
+      border-bottom:2px solid #000;
+      padding-bottom:4px;
+      font-family:Arial,Helvetica,sans-serif;
+    }
+    .forecast-discussion-text{
+      margin:0;
+      white-space:pre-wrap;
+      font-family:"Courier New", Courier, monospace;
+      font-size:.96rem;
+      line-height:1.45;
+      color:#111;
+    }
+
+    .leaflet-control.legend{
+      background:rgba(255,255,255,.95);
+      border:1px solid #000;
+      padding:7px 8px 6px;
+      box-shadow:none;
+      border-radius:12px;
+    }
+    .legend h3{
+      margin:0 0 6px;
+      font-size:.85rem;
+      border-bottom:2px solid #000;
+      padding-bottom:3px;
+    }
+    .legend .row{
+      display:flex;
+      align-items:center;
+      gap:6px;
+      margin:4px 0;
+      font-size:.80rem;
+      color:#111;
+    }
+    .swatch{
+      width:14px;
+      height:10px;
+      border:1px solid #000;
+      flex:0 0 auto;
+      background:#ccc;
+      position:relative;
+      overflow:hidden;
+    }
+    .single-hatch::after,
+    .black-hatch::after{
+      content:"";
+      position:absolute;
+      inset:0;
+      background-image:repeating-linear-gradient(30deg,rgba(0,0,0,.85) 0,rgba(0,0,0,.85) 1px,transparent 1px,transparent 7px);
+      pointer-events:none;
+      z-index:1;
+    }
+    .double-hatch::before,
+    .double-hatch::after{
+      content:"";
+      position:absolute;
+      inset:0;
+      pointer-events:none;
+      z-index:1;
+    }
+    .double-hatch::before{background-image:repeating-linear-gradient(30deg,rgba(0,0,0,.85) 0,rgba(0,0,0,.85) 1px,transparent 1px,transparent 7px)}
+    .double-hatch::after{background-image:repeating-linear-gradient(-30deg,rgba(0,0,0,.85) 0,rgba(0,0,0,.85) 1px,transparent 1px,transparent 7px)}
+
+    .risk-blue{background:#39ff14}
+    .risk-green{background:#1f8f3a;color:#fff}
+    .risk-yellow{background:#ffe600}
+    .risk-orange{background:#ff9900}
+    .risk-red{background:#b30000;color:#fff}
+    .risk-magenta{background:#ff00ff}
+    .hazard-2{background:#bde0fe;color:#000}
+    .hazard-5{background:#76c893;color:#000}
+    .hazard-15{background:#ffe600;color:#000}
+    .hazard-30{background:#ff9900;color:#000}
+    .hazard-50{background:#d00000;color:#fff}
+    .hazard-severe{background:#111;color:#fff}
+
+    .popup-matrix{border-collapse:collapse;margin-top:8px}
+    .popup-matrix td,.popup-matrix th{border:1px solid #000;width:28px;height:28px;text-align:center;vertical-align:middle;position:relative;font-size:11px;font-weight:700;overflow:hidden}
+    .popup-matrix .axis-top,.popup-matrix .axis-left,.popup-matrix .head{background:#f2f2f2;color:#111}
+    .popup-matrix .axis-left{writing-mode:vertical-rl;transform:rotate(180deg);width:18px;font-size:10px}
+    .popup-matrix .blank{background:#ddd}
+    .popup-matrix .selected-cell::before{content:"X";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:900;color:#000;text-shadow:0 0 2px rgba(255,255,255,.7);z-index:3;pointer-events:none}
+
+    .cestof-poly{
+      filter:drop-shadow(0 0 1px rgba(0,0,0,.35)) drop-shadow(0 3px 8px rgba(0,0,0,.18));
+      stroke-linejoin:round;
+      stroke-linecap:round;
+    }
+
+    footer{
+      text-align:center;
+      color:#eee;
+      font-size:.9rem;
+      margin-top:14px;
+      text-shadow:0 1px 1px rgba(0,0,0,.7);
+    }
+
+    header,.section,.controls,.forecast-meta,.discussion{
+      border-radius:12px;
+      box-shadow:0 10px 24px rgba(0,0,0,.12);
+    }
+    header{overflow:hidden;backdrop-filter:blur(5px)}
+    .section{backdrop-filter:blur(4px)}
+    nav a{border-radius:999px;transition:background .16s,color .16s,transform .16s,box-shadow .16s}
+    nav a:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(0,0,0,.18)}
+
+    @media (max-width:700px){
+      #forecastMap{height:540px}
+      .title-img{height:30px}
+      .forecast-meta{gap:6px}
+    }
+  </style>
+</head>
+
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="header-top">
+      <img class="logo" src="img/logo.png" alt="CESTOF logo">
+      <div>
+        <img class="title-img" src="img/cestof-title.png" alt="CESTOF">
+        <p class="sub">Central European Storm Forecasts</p>
+      </div>
+    </div>
+
+    <div class="header-meta">
+      <p class="tagline">Day 1 convective forecast map for Central Europe.</p>
+      <p class="last-updated"><b>Last updated:</b> <span id="lastUpdated">—</span></p>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="forecast.html" class="active">Forecasts</a>
+      <a href="outlook.html">Outlook</a>
+      <a href="radar.html">Radar</a>
+      <a href="warning.html">Warnings</a>
+      <a href="lightning.html">Lightning</a>
+      <a href="archive.html">Archive</a>
+      <a href="tornadoes.html">Tornadoes</a>
+      <a href="photos.html">Photos</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>Today’s Forecast</h2>
+
+      <div class="forecast-meta">
+        <p><strong>Forecast:</strong> Day 1</p>
+        <p><strong>Displayed hazard:</strong> <span id="activeHazardLabel">General</span></p>
+        <p><strong>Updated:</strong> <span id="mapUpdated">—</span></p>
+      </div>
+
+      <div class="controls">
+        <div class="control-row" id="hazardRow">
+          <span class="row-label">Hazard:</span>
+        </div>
+        <div class="control-row" id="archiveQuickRow">
+          <span class="row-label">Archive:</span>
+        </div>
+      </div>
+
+      <div id="forecastMap"></div>
+
+      <p class="hint">
+
+      </p>
+      <p class="status-line" id="statusLine">Loading forecast polygons...</p>
+
+
+      <div class="forecast-discussion-box">
+        <h3>Discussion</h3>
+        <p class="forecast-discussion-text" id="forecastDiscussionText">Loading discussion...</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Central European Storm Forecasts | CESTOF</p>
+  </footer>
+
+</div>
+
+<script>
+const RAW_BASE = "https://raw.githubusercontent.com/CentralEuropeanForecasting/cestof-warnings/main";
+const FORECAST_DISCUSSION_URL = `${RAW_BASE}/data/forecast_discussion.json`;
+const FALLBACK_CENTER = [49.6, 15.3];
+const FALLBACK_ZOOM = 6;
+
+const HAZARDS = [
+  { key:"general", label:"General", suffix:"", file:"qgis_polygons.geojson" },
+  { key:"tornado", label:"Tornadoes", suffix:"_tornado", file:"qgis_polygons_tornado.geojson" },
+  { key:"hail", label:"Hail", suffix:"_hail", file:"qgis_polygons_hail.geojson" },
+  { key:"wind", label:"Severe Wind", suffix:"_wind", file:"qgis_polygons_wind.geojson" }
+];
+
+let currentHazard = "general";
+let currentLayer = null;
+const cache = {};
+
+function escapeHTML(s){
+  return String(s).replace(/[&<>"']/g, (m) => ({
+    "&":"&amp;",
+    "<":"&lt;",
+    ">":"&gt;",
+    "\"":"&quot;",
+    "'":"&#039;"
+  }[m]));
+}
+
+function fmtLocalDate(d){
+  if(!(d instanceof Date)) d = new Date(d);
+  if(Number.isNaN(d.getTime())) return "—";
+  const months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  return `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()} ${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
+}
+
+document.getElementById("lastUpdated").textContent = fmtLocalDate(new Date(document.lastModified || Date.now()));
+
+const map = L.map("forecastMap", { zoomControl:true, preferCanvas:false, maxZoom:19 }).setView(FALLBACK_CENTER, FALLBACK_ZOOM);
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom:19,
+  attribution:"© OpenStreetMap contributors"
+}).addTo(map);
+
+const outlookPane = map.createPane("outlookPane");
+outlookPane.style.zIndex = 420;
+
+const COLOR_MAP = {
+  "risk-blue":"#39ff14",
+  "risk-green":"#1f8f3a",
+  "risk-yellow":"#ffe600",
+  "risk-orange":"#ff9900",
+  "risk-red":"#b30000",
+  "risk-magenta":"#ff00ff",
+  "hazard-2":"#bde0fe",
+  "hazard-5":"#76c893",
+  "hazard-15":"#ffe600",
+  "hazard-30":"#ff9900",
+  "hazard-50":"#d00000",
+  "hazard-severe":"#111111",
+  "hatch-only":"#ffffff"
+};
+
+const HAZARD_PROB_LEVELS = [
+  { value:"2", label:"2%", cls:"hazard-2", hatch:"none", rank:1 },
+  { value:"5", label:"5%", cls:"hazard-5", hatch:"none", rank:2 },
+  { value:"15", label:"15%", cls:"hazard-15", hatch:"none", rank:3 },
+  { value:"30", label:"30%", cls:"hazard-30", hatch:"none", rank:4 },
+  { value:"50", label:"50%", cls:"hazard-50", hatch:"none", rank:5 },
+  { value:"severe", label:"Severe hatched", cls:"hazard-severe", hatch:"black", rank:6 }
+];
+
+const MATRIX_PROB_ROWS = [">50","45","30","15","5","<5"];
+const MATRIX_INT_COLS = ["1","2","3","4","5","6"];
+const MATRIX = {
+  ">50": {"1":{cls:"risk-green",label:"General Risk",hatch:"none"},"2":{cls:"risk-green",label:"General Risk",hatch:"none"},"3":{cls:"risk-yellow",label:"Slight Risk",hatch:"none"},"4":{cls:"risk-orange",label:"Enhanced Risk",hatch:"none"},"5":{cls:"risk-red",label:"Moderate Risk",hatch:"none"},"6":{cls:"risk-magenta",label:"Severe Risk",hatch:"none"}},
+  "45": {"1":{cls:"risk-green",label:"General Risk",hatch:"none"},"2":{cls:"risk-green",label:"General Risk",hatch:"none"},"3":{cls:"risk-yellow",label:"Slight Risk",hatch:"none"},"4":{cls:"risk-orange",label:"Enhanced Risk",hatch:"none"},"5":{cls:"risk-red",label:"Moderate Risk",hatch:"none"},"6":{cls:"risk-magenta",label:"Severe Risk",hatch:"none"}},
+  "30": {"1":{cls:"risk-green",label:"General Risk",hatch:"none"},"2":{cls:"risk-green",label:"General Risk",hatch:"none"},"3":{cls:"risk-yellow",label:"Slight Risk",hatch:"none"},"4":{cls:"risk-orange",label:"Enhanced Risk",hatch:"none"},"5":{cls:"risk-red",label:"Moderate Risk",hatch:"none"},"6":{cls:"risk-magenta",label:"Severe Risk",hatch:"none"}},
+  "15": {"1":{cls:"risk-blue",label:"T-Storm Risk",hatch:"none"},"2":{cls:"risk-green",label:"General Risk",hatch:"none"},"3":{cls:"risk-yellow",label:"Slight Risk",hatch:"none"},"4":{cls:"risk-yellow",label:"Slight Risk",hatch:"none"},"5":{cls:"risk-orange",label:"Enhanced Risk",hatch:"none"},"6":{cls:"risk-red",label:"Moderate Risk",hatch:"none"}},
+  "5": {"1":{cls:"risk-blue",label:"T-Storm Risk",hatch:"none"},"2":{cls:"risk-blue",label:"T-Storm Risk",hatch:"none"},"3":{cls:"risk-green",label:"General Risk",hatch:"none"},"4":{cls:"risk-yellow",label:"Slight Risk",hatch:"none"},"5":{cls:"risk-orange",label:"Enhanced Risk",hatch:"none"},"6":{cls:"risk-red",label:"Moderate Risk",hatch:"none"}},
+  "<5": {"1":{cls:"risk-blue",label:"T-Storm Risk",hatch:"none"},"2":{cls:"risk-blue",label:"T-Storm Risk",hatch:"none"},"3":{cls:"risk-blue",label:"T-Storm Risk",hatch:"none"},"4":{cls:"risk-green",label:"General Risk",hatch:"none"},"5":{cls:"risk-yellow",label:"Slight Risk",hatch:"none"},"6":{cls:"risk-orange",label:"Enhanced Risk",hatch:"none"}}
+};
+
+const RISK_BY_LABEL = {
+  "t-storm risk": { cls:"risk-blue", label:"T-Storm Risk", hatch:"none" },
+  "general risk": { cls:"risk-green", label:"General Risk", hatch:"none" },
+  "slight risk": { cls:"risk-yellow", label:"Slight Risk", hatch:"none" },
+  "enhanced risk": { cls:"risk-orange", label:"Enhanced Risk", hatch:"none" },
+  "moderate risk": { cls:"risk-red", label:"Moderate Risk", hatch:"none" },
+  "severe risk": { cls:"risk-magenta", label:"Severe Risk", hatch:"none" }
+};
+
+function classToColor(cls){ return COLOR_MAP[cls] || "#666666"; }
+function getHazardConfig(key){ return HAZARDS.find(h => h.key === key) || HAZARDS[0]; }
+function isHazardProbabilityMode(key = currentHazard){ return key && key !== "general"; }
+
+function normalizeHazardProbabilityValue(value){
+  const raw = String(value ?? "").trim().toLowerCase().replace("%","");
+  if(["2","5","15","30","50"].includes(raw)) return raw;
+  if(raw.includes("severe") || raw.includes("hatched") || raw === "sig" || raw === "significant") return "severe";
+  return "";
+}
+function getHazardProbMeta(value){
+  const v = normalizeHazardProbabilityValue(value);
+  const found = HAZARD_PROB_LEVELS.find(x => x.value === v);
+  return found ? { ...found } : null;
+}
+
+function normalizeLegacyRisk(v){
+  const n = Number(v);
+  if(Number.isNaN(n)) return null;
+  if(n < 5) return 0;
+  if(n === 5) return 5;
+  if(n === 15) return 15;
+  if(n === 30) return 30;
+  if(n === 45) return 45;
+  if(n >= 50) return 50;
+  return null;
+}
+function metaFromLegacyRisk(risk){
+  if(risk === 0) return { cls:"risk-blue", label:"T-Storm Risk", hatch:"none" };
+  if(risk === 5) return { cls:"risk-green", label:"General Risk", hatch:"none" };
+  if(risk === 15) return { cls:"risk-yellow", label:"Slight Risk", hatch:"none" };
+  if(risk === 30) return { cls:"risk-orange", label:"Enhanced Risk", hatch:"none" };
+  if(risk === 45) return { cls:"risk-red", label:"Moderate Risk", hatch:"none" };
+  if(risk === 50) return { cls:"risk-magenta", label:"Severe Risk", hatch:"none" };
+  return null;
+}
+
+function getMetaFromProps(props = {}){
+  const hazardKey = props.hazard || currentHazard;
+
+  if(isHazardProbabilityMode(hazardKey)){
+    const meta = getHazardProbMeta(props.hazardProbability ?? props.probability ?? props.risk ?? props.prob ?? props.riskLabel);
+    if(meta) return meta;
+  }
+
+  const probability = String(props.probability || "").trim();
+  const intensity = String(props.intensity || "").trim();
+  if(probability && intensity && MATRIX[probability] && MATRIX[probability][intensity]){
+    const meta = { ...MATRIX[probability][intensity] };
+    if(props.doubleHatch) meta.hatch = "double";
+    else if(props.hatched) meta.hatch = "single";
+    return meta;
+  }
+
+  const legacyRisk = normalizeLegacyRisk(props.risk ?? props.prob);
+  if(legacyRisk !== null){
+    const meta = metaFromLegacyRisk(legacyRisk);
+    if(props.doubleHatch) meta.hatch = "double";
+    else if(props.hatched) meta.hatch = "single";
+    return meta;
+  }
+
+  const label = String(props.riskLabel || "").trim().toLowerCase();
+  if(label && RISK_BY_LABEL[label]){
+    const meta = { ...RISK_BY_LABEL[label] };
+    if(props.doubleHatch) meta.hatch = "double";
+    else if(props.hatched) meta.hatch = "single";
+    return meta;
+  }
+
+  // Hatch-only overlays from the toolbox may intentionally have no risk/matrix value.
+  // Keep them visible as their own hatched polygon instead of falling back to grey fill.
+  if(props.doubleHatch || String(props.hatch || "").toLowerCase() === "double"){
+    return { cls:"hatch-only", label:"Double hatched area", hatch:"double", hatchOnly:true };
+  }
+  if(props.hatched || props.hatchOnly || String(props.hatch || "").toLowerCase() === "single"){
+    return { cls:"hatch-only", label:"Hatched area", hatch:"single", hatchOnly:true };
+  }
+
+  return null;
+}
+
+function styleByProps(props = {}){
+  const meta = getMetaFromProps(props);
+  if(meta){
+    const isHatchOnly = meta.hatchOnly || meta.cls === "hatch-only";
+    const color = isHatchOnly ? "#111111" : classToColor(meta.cls);
+    const fillColor = isHatchOnly ? "#ffffff" : color;
+    const hatch = meta.hatch && meta.hatch !== "none";
+    const isLower = meta.cls === "risk-blue" || meta.cls === "risk-green" || meta.cls === "hazard-2" || meta.cls === "hazard-5";
+    return {
+      pane:"outlookPane",
+      color,
+      weight: isHatchOnly ? 3.2 : (hatch ? 4 : (isLower ? 2.6 : 3.6)),
+      opacity:0.98,
+      fillColor,
+      fillOpacity:hatch ? (isHatchOnly ? 0.01 : 0.18) : 0.28,
+      lineCap:"round",
+      lineJoin:"round",
+      className:"cestof-poly"
+    };
+  }
+
+  return {
+    pane:"outlookPane",
+    color:"#4c4c4c",
+    weight:2.8,
+    opacity:0.9,
+    fillColor:"#7a7a7a",
+    fillOpacity:0.14,
+    lineCap:"round",
+    lineJoin:"round",
+    className:"cestof-poly"
+  };
+}
+
+function ensureSvgPattern(id, bgColor, mode){
+  const renderer = map.getRenderer(map);
+  if(!renderer || !renderer._container) return null;
+  const svg = renderer._container;
+  let defs = svg.querySelector("defs");
+  if(!defs){
+    defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
+    svg.insertBefore(defs, svg.firstChild);
+  }
+  let pattern = defs.querySelector("#" + id);
+  if(pattern) return id;
+  pattern = document.createElementNS("http://www.w3.org/2000/svg", "pattern");
+  pattern.setAttribute("id", id);
+  pattern.setAttribute("patternUnits", "userSpaceOnUse");
+  pattern.setAttribute("width", "12");
+  pattern.setAttribute("height", "12");
+
+  const bg = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+  bg.setAttribute("width", "12");
+  bg.setAttribute("height", "12");
+  bg.setAttribute("fill", bgColor);
+  bg.setAttribute("fill-opacity", "0.22");
+  pattern.appendChild(bg);
+
+  const mkLine = (x1,y1,x2,y2) => {
+    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    line.setAttribute("x1", x1);
+    line.setAttribute("y1", y1);
+    line.setAttribute("x2", x2);
+    line.setAttribute("y2", y2);
+    line.setAttribute("stroke", "#000");
+    line.setAttribute("stroke-width", "1.2");
+    line.setAttribute("stroke-opacity", "0.9");
+    return line;
+  };
+
+  pattern.appendChild(mkLine(0,12,12,0));
+  pattern.appendChild(mkLine(-6,12,6,0));
+  pattern.appendChild(mkLine(6,12,18,0));
+  if(mode === "double"){
+    pattern.appendChild(mkLine(0,0,12,12));
+    pattern.appendChild(mkLine(-6,0,6,12));
+    pattern.appendChild(mkLine(6,0,18,12));
+  }
+  defs.appendChild(pattern);
+  return id;
+}
+
+function applyHatch(layer, props){
+  const meta = getMetaFromProps(props);
+  if(!meta || !meta.hatch || meta.hatch === "none") return;
+  requestAnimationFrame(() => {
+    if(!layer || !layer._path) return;
+    const color = meta.hatchOnly || meta.cls === "hatch-only" ? "#ffffff" : classToColor(meta.cls);
+    const id = "hatch-" + meta.cls + "-" + meta.hatch;
+    const patternId = ensureSvgPattern(id, color, meta.hatch === "double" ? "double" : "single");
+    if(patternId){
+      layer._path.setAttribute("fill", "url(#" + patternId + ")");
+      layer._path.setAttribute("fill-opacity", "1");
+    }
+  });
+}
+
+function matrixTableHTML(selectedProb, selectedIntensity){
+  let html = "<table class='popup-matrix'>";
+  html += "<tr><th class='blank'></th><th class='axis-top' colspan='7'>Intensity</th></tr>";
+  html += "<tr><th class='axis-left' rowspan='7'>Probability</th><th class='blank'></th>";
+  MATRIX_INT_COLS.forEach(c => html += `<th class="head">${escapeHTML(c)}</th>`);
+  html += "</tr>";
+  MATRIX_PROB_ROWS.forEach(prob => {
+    html += `<tr><th class="head">${escapeHTML(prob)}</th>`;
+    MATRIX_INT_COLS.forEach(intensity => {
+      const meta = MATRIX[prob][intensity];
+      const classes = [meta.cls];
+      if(String(selectedProb) === String(prob) && String(selectedIntensity) === String(intensity)) classes.push("selected-cell");
+      html += `<td class="${classes.join(" ")}"></td>`;
+    });
+    html += "</tr>";
+  });
+  html += "</table>";
+  return html;
+}
+
+function popupHTML(props){
+  const meta = getMetaFromProps(props) || {};
+  const hazard = getHazardConfig(props.hazard || currentHazard);
+  let html = `<div style="font-family:Arial,Helvetica,sans-serif;min-width:240px;">`;
+  html += `<div style="font-weight:900;margin-bottom:6px;">${escapeHTML(props.title || meta.label || hazard.label || "Day 1 Forecast")}</div>`;
+  html += `<div><b>Hazard:</b> ${escapeHTML(hazard.label)}</div>`;
+  if(meta.label) html += `<div><b>Risk:</b> ${escapeHTML(meta.label)}</div>`;
+  if(props.probability || props.intensity) html += `<div><b>Probability:</b> ${escapeHTML(props.probability || "-")} &nbsp; <b>Intensity:</b> ${escapeHTML(props.intensity || "-")}</div>`;
+  if(props.hazardProbability) html += `<div><b>Probability:</b> ${escapeHTML(String(props.hazardProbability).replace("severe","Severe hatched"))}</div>`;
+  if(props.doubleHatch) html += `<div><b>Hatching:</b> Double hatched</div>`;
+  else if(props.hatched) html += `<div><b>Hatching:</b> Hatched</div>`;
+  if(props.description) html += `<div style="margin-top:8px;color:#222;">${escapeHTML(props.description)}</div>`;
+  if(currentHazard === "general" && props.probability && props.intensity) html += matrixTableHTML(props.probability, props.intensity);
+  html += `</div>`;
+  return html;
+}
+
+
+async function loadForecastDiscussion(){
+  const el = document.getElementById("forecastDiscussionText");
+  if (!el) return;
+  try{
+    const res = await fetch(FORECAST_DISCUSSION_URL + "?v=" + Date.now(), { cache:"no-store" });
+    if (!res.ok) throw new Error("Missing discussion file");
+    const data = await res.json();
+    const discussion = String(data.discussion || data.text || "").trim();
+    el.textContent = discussion || "No written discussion has been issued for the current Day 1 forecast.";
+  }catch(e){
+    el.textContent = "No written discussion has been issued for the current Day 1 forecast.";
+  }
+}
+
+function setArchiveNavLink(){
+  const archiveLink = document.querySelector('nav a[href="archive.html"], nav a[href^="archive.html?"]');
+  if(archiveLink) archiveLink.setAttribute("href", `archive.html?hazard=${encodeURIComponent(currentHazard)}`);
+}
+
+function openArchiveWithHazard(hazardKey){
+  const hazard = getHazardConfig(hazardKey).key;
+  window.location.href = `archive.html?hazard=${encodeURIComponent(hazard)}`;
+}
+
+function renderArchiveButtons(){
+  const row = document.getElementById("archiveQuickRow");
+  if(!row) return;
+  row.innerHTML = `<span class="row-label">Archive:</span>`;
+  HAZARDS.forEach(hazard => {
+    const btn = document.createElement("button");
+    btn.className = "btn archive-btn";
+    btn.type = "button";
+    btn.textContent = `Open ${hazard.label} archive`;
+    btn.addEventListener("click", () => openArchiveWithHazard(hazard.key));
+    row.appendChild(btn);
+  });
+}
+
+function renderHazardButtons(){
+  const row = document.getElementById("hazardRow");
+  row.innerHTML = `<span class="row-label">Hazard:</span>`;
+
+  HAZARDS.forEach(hazard => {
+    const btn = document.createElement("button");
+    btn.className = "btn hazard-btn" + (hazard.key === currentHazard ? " active" : "");
+    btn.type = "button";
+    btn.textContent = hazard.label;
+    btn.addEventListener("click", () => {
+      currentHazard = hazard.key;
+      renderHazardButtons();
+      setArchiveNavLink();
+      loadDay1Forecast();
+    });
+    row.appendChild(btn);
+  });
+  setArchiveNavLink();
+}
+
+function getFileUrl(){
+  const hazard = getHazardConfig(currentHazard);
+  return `${RAW_BASE}/${hazard.file}`;
+}
+
+function renderLegend(){
+  const hazard = getHazardConfig(currentHazard);
+  let html = `<h3>${escapeHTML(hazard.label)}</h3>`;
+
+  if(currentHazard === "general"){
+    html += `
+      <div class="row"><span class="swatch risk-blue"></span>T-storm Risk</div>
+      <div class="row"><span class="swatch risk-green"></span>General Risk</div>
+      <div class="row"><span class="swatch risk-yellow"></span>Slight Risk</div>
+      <div class="row"><span class="swatch risk-orange"></span>Enhanced Risk</div>
+      <div class="row"><span class="swatch risk-red"></span>Moderate Risk</div>
+      <div class="row"><span class="swatch risk-magenta"></span>Severe Risk</div>
+      <div class="row"><span class="swatch single-hatch"></span>Hatched</div>
+      <div class="row"><span class="swatch double-hatch"></span>Double hatched</div>
+    `;
+  }else{
+    HAZARD_PROB_LEVELS.forEach(level => {
+      const hatch = level.hatch === "black" ? " black-hatch" : "";
+      html += `<div class="row"><span class="swatch ${level.cls}${hatch}"></span>${escapeHTML(level.label)}</div>`;
+    });
+  }
+
+  if(legendDiv) legendDiv.innerHTML = html;
+}
+
+let legendDiv = null;
+const legend = L.control({ position:"bottomright" });
+legend.onAdd = function(){
+  legendDiv = L.DomUtil.create("div", "legend leaflet-control");
+  renderLegend();
+  return legendDiv;
+};
+legend.addTo(map);
+
+async function loadDay1Forecast(){
+  const hazard = getHazardConfig(currentHazard);
+  document.getElementById("activeHazardLabel").textContent = hazard.label;
+  document.getElementById("statusLine").textContent = `Loading Day 1 ${hazard.label.toLowerCase()} forecast...`;
+  document.getElementById("mapUpdated").textContent = fmtLocalDate(new Date());
+  renderLegend();
+
+  if(currentLayer){
+    map.removeLayer(currentLayer);
+    currentLayer = null;
+  }
+
+  try{
+    let data;
+    if(cache[currentHazard]){
+      data = cache[currentHazard];
+    }else{
+      const res = await fetch(getFileUrl() + "?v=" + Date.now(), { cache:"no-store" });
+      if(!res.ok) throw new Error("Missing Day 1 file");
+      data = await res.json();
+      cache[currentHazard] = data;
+    }
+
+    const features = Array.isArray(data.features) ? data.features : [];
+    currentLayer = L.geoJSON(data, {
+      style: feature => styleByProps(feature.properties || {}),
+      onEachFeature: (feature, layer) => {
+        const props = feature.properties || {};
+        layer.bindPopup(popupHTML(props));
+        layer.on("add", () => applyHatch(layer, props));
+      }
+    }).addTo(map);
+
+    if(features.length && currentLayer.getBounds().isValid()){
+      map.fitBounds(currentLayer.getBounds(), { padding:[24,24], maxZoom:8 });
+    }else{
+      map.setView(FALLBACK_CENTER, FALLBACK_ZOOM);
+    }
+
+    document.getElementById("statusLine").textContent = features.length
+      ? `Loaded ${features.length} Day 1 ${hazard.label.toLowerCase()} forecast polygon(s).`
+      : `No Day 1 ${hazard.label.toLowerCase()} polygons currently available.`;
+  }catch(e){
+    map.setView(FALLBACK_CENTER, FALLBACK_ZOOM);
+    document.getElementById("statusLine").textContent = `No Day 1 ${hazard.label.toLowerCase()} forecast file found yet.`;
+  }
+}
+
+renderHazardButtons();
+renderArchiveButtons();
+loadDay1Forecast();
+loadForecastDiscussion();
+setInterval(() => {
+  cache[currentHazard] = null;
+  loadDay1Forecast();
+  loadForecastDiscussion();
+}, 60000);
+</script>
+
+</body>
+</html>

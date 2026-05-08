@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CESTOF Outlook</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="CESTOF convective outlook map." />
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+
+  <style>
+    body{
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      background:#dfe6ee url("img/bg.jpg") center/cover fixed no-repeat;
+      color:#111;
+    }
+    body::before{
+      content:"";
+      position:fixed;
+      inset:0;
+      background:rgba(0,0,0,.38);
+      pointer-events:none;
+      z-index:-1;
+    }
+
+    .wrap{
+      max-width:1100px;
+      margin:16px auto;
+      padding:0 12px 18px;
+    }
+
+    header{
+      background:rgba(255,255,255,.88);
+      border:2px solid #000;
+    }
+    .header-top{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      padding:10px;
+    }
+    .header-top .logo{height:48px}
+    .title-img{
+      display:block;
+      height:34px;
+      max-width:100%;
+    }
+    header .sub{
+      margin:4px 0 0;
+      font-style:italic;
+      color:#333;
+    }
+    .header-meta{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:10px;
+      padding:8px 10px;
+      background:#f2f2f2;
+      border-top:2px solid #000;
+    }
+    .tagline{margin:0;font-size:.95rem;color:#222}
+    .last-updated{margin:0;font-size:.9rem}
+    .last-updated b{font-weight:bold}
+
+    nav{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      justify-content:center;
+      background:#f4f4f4;
+      border-top:2px solid #000;
+      border-bottom:2px solid #000;
+      padding:8px 0;
+    }
+    nav a{
+      text-decoration:none;
+      color:#000;
+      font-weight:bold;
+      padding:5px 10px;
+      position:relative;
+      overflow:hidden;
+    }
+    nav a:hover{
+      background:#000;
+      color:#fff;
+    }
+
+    main{margin-top:14px}
+    .section{
+      background:rgba(255,255,255,.86);
+      border:1px solid #000;
+      margin-bottom:14px;
+      padding:14px;
+    }
+    .section h2{
+      margin:0 0 10px;
+      border-bottom:2px solid #000;
+      padding-bottom:4px;
+    }
+
+    .controls{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      border:1px solid #777;
+      background:#fff;
+      padding:10px;
+      margin-bottom:10px;
+    }
+
+    .control-row{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      align-items:center;
+    }
+
+    .row-label{
+      font-weight:bold;
+      min-width:64px;
+    }
+
+    .btn{
+      border:1px solid #000;
+      background:#f2f2f2;
+      padding:6px 10px;
+      font-weight:bold;
+      cursor:pointer;
+      user-select:none;
+    }
+    .btn:hover{background:#e6e6e6}
+    .btn.active{
+      outline:2px solid #000;
+    }
+
+    .day-btn{
+      min-width:82px;
+      text-align:center;
+      position:relative;
+      overflow:hidden;
+    }
+
+    .hazard-btn{
+      min-width:110px;
+      text-align:center;
+      position:relative;
+      overflow:hidden;
+      background:#f2f2f2 !important;
+      color:#000 !important;
+    }
+
+    #map{
+      height:640px;
+      border:1px solid #000;
+      outline:1px solid rgba(0,0,0,.25);
+      background:#fff;
+    }
+
+    .hint{
+      margin:8px 0 0;
+      color:#333;
+      font-size:.9rem;
+      line-height:1.4;
+    }
+
+    .leaflet-control.legend{
+      background:rgba(255,255,255,.95);
+      border:1px solid #000;
+      padding:7px 8px 6px;
+      box-shadow:none;
+    }
+    .legend h3{
+      margin:0 0 6px;
+      font-size:.85rem;
+      border-bottom:2px solid #000;
+      padding-bottom:3px;
+    }
+    .legend .row{
+      display:flex;
+      align-items:center;
+      gap:6px;
+      margin:4px 0;
+      font-size:.80rem;
+      color:#111;
+    }
+    .swatch{
+      width:14px;
+      height:10px;
+      border:1px solid #000;
+      flex:0 0 auto;
+      background:#ccc;
+      position:relative;
+      overflow:hidden;
+    }
+    .swatch.line{
+      height:0;
+      border-top:3px solid #000;
+      border-left:none;
+      border-right:none;
+      border-bottom:none;
+      width:14px;
+      background:transparent;
+    }
+
+    .single-hatch::after{
+      content:"";
+      position:absolute;
+      inset:0;
+      background-image:repeating-linear-gradient(
+        30deg,
+        rgba(0,0,0,.75) 0,
+        rgba(0,0,0,.75) 1px,
+        transparent 1px,
+        transparent 8px
+      );
+      pointer-events:none;
+      z-index:1;
+    }
+
+    .double-hatch::before,
+    .double-hatch::after{
+      content:"";
+      position:absolute;
+      inset:0;
+      pointer-events:none;
+      z-index:1;
+    }
+    .double-hatch::before{
+      background-image:repeating-linear-gradient(
+        30deg,
+        rgba(0,0,0,.78) 0,
+        rgba(0,0,0,.78) 1px,
+        transparent 1px,
+        transparent 8px
+      );
+    }
+    .double-hatch::after{
+      background-image:repeating-linear-gradient(
+        -30deg,
+        rgba(0,0,0,.78) 0,
+        rgba(0,0,0,.78) 1px,
+        transparent 1px,
+        transparent 8px
+      );
+    }
+
+    .popup-matrix{
+      border-collapse:collapse;
+      margin-top:8px;
+    }
+    .popup-matrix td,
+    .popup-matrix th{
+      border:1px solid #000;
+      width:28px;
+      height:28px;
+      text-align:center;
+      vertical-align:middle;
+      position:relative;
+      font-size:11px;
+      font-weight:700;
+      overflow:hidden;
+    }
+    .popup-matrix .axis-top{background:#f2f2f2;color:#111}
+    .popup-matrix .axis-left{
+      background:#f2f2f2;
+      color:#111;
+      writing-mode:vertical-rl;
+      transform:rotate(180deg);
+      width:18px;
+      font-size:10px;
+    }
+    .popup-matrix .blank{background:#ddd}
+    .popup-matrix .head{background:#e6e6e6}
+    .popup-matrix .selected-cell::before{
+      content:"X";
+      position:absolute;
+      inset:0;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:18px;
+      font-weight:900;
+      color:#000;
+      text-shadow:0 0 2px rgba(255,255,255,.7);
+      z-index:3;
+      pointer-events:none;
+    }
+
+    .risk-blue{background:#39ff14}
+    .risk-green{background:#1f8f3a;color:#fff}
+    .risk-yellow{background:#ffe600}
+    .risk-orange{background:#ff9900}
+    .risk-red{background:#b30000;color:#fff}
+    .risk-magenta{background:#ff00ff}
+    .hazard-2{background:#bde0fe;color:#000}
+    .hazard-5{background:#76c893;color:#000}
+    .hazard-15{background:#ffe600;color:#000}
+    .hazard-30{background:#ff9900;color:#000}
+    .hazard-50{background:#d00000;color:#fff}
+    .hazard-severe{background:#111;color:#fff}
+    .black-hatch::after{content:"";position:absolute;inset:0;background-image:repeating-linear-gradient(30deg,rgba(0,0,0,.9) 0,rgba(0,0,0,.9) 2px,transparent 2px,transparent 8px);pointer-events:none;z-index:1}
+
+
+    .hazard-prob-grid,
+    .general-legend-grid{
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:7px;
+      margin-top:6px;
+    }
+    .legend-box{
+      border:2px solid #000;
+      min-height:30px;
+      padding:4px 6px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      font-size:.78rem;
+      font-weight:900;
+      position:relative;
+      overflow:hidden;
+      color:#000;
+      background:#fff;
+    }
+    .legend-box.dark{color:#fff}
+    .legend-box.hatch-only{background:#fff;color:#000}
+    .legend-box.hatch-only::after{content:"";position:absolute;inset:0;background-image:repeating-linear-gradient(30deg,rgba(0,0,0,.9) 0,rgba(0,0,0,.9) 2px,transparent 2px,transparent 8px);pointer-events:none;z-index:1}
+    .legend-box.double-hatch-only{background:#fff;color:#000}
+    .legend-box.double-hatch-only::before,.legend-box.double-hatch-only::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:1}
+    .legend-box.double-hatch-only::before{background-image:repeating-linear-gradient(30deg,rgba(0,0,0,.9) 0,rgba(0,0,0,.9) 2px,transparent 2px,transparent 8px)}
+    .legend-box.double-hatch-only::after{background-image:repeating-linear-gradient(-30deg,rgba(0,0,0,.9) 0,rgba(0,0,0,.9) 2px,transparent 2px,transparent 8px)}
+
+    footer{
+      text-align:center;
+      color:#eee;
+      font-size:.9rem;
+      margin-top:14px;
+      text-shadow:0 1px 1px rgba(0,0,0,.7);
+    }
+
+    @media (max-width:700px){
+      #map{height:540px}
+      .title-img{height:30px}
+    }
+  
+    header,.section,.controls,.active-warnings,.forecast-meta,.map,.discussion,.archive-item,.article-card,.tile,.map-switcher,.photos img,.tab,.btn,.select,.aw-item,.tabs .tab{
+      border-radius:12px;
+    }
+    header,.section,.controls,.active-warnings,.forecast-meta,.map,.discussion,.archive-item,.article-card,.tile,.map-switcher,.photos img,.aw-item{
+      box-shadow:0 10px 24px rgba(0,0,0,.12);
+    }
+    header{overflow:hidden;backdrop-filter:blur(5px)}
+    .section{backdrop-filter:blur(4px)}
+    nav a{border-radius:999px;transition:background .16s,color .16s,transform .16s,box-shadow .16s}
+    nav a:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(0,0,0,.18)}
+    .tab,.btn,.switch-btn,.select{border-radius:10px;transition:transform .14s,background .14s,box-shadow .14s}
+    .tab:hover,.btn:hover,.switch-btn:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(0,0,0,.12)}
+    .tile,.article-card,.archive-item,.aw-item{transition:transform .16s,box-shadow .16s,background .16s}
+    .tile:hover,.article-card:hover,.archive-item:hover,.aw-item:hover{transform:translateY(-2px);box-shadow:0 14px 26px rgba(0,0,0,.16)}
+    .map img,.tile img,.article-card img,.photos img,.archive-item img{border-radius:10px}
+    .section h2{letter-spacing:.2px}
+
+  
+    .cestof-poly{
+      filter:drop-shadow(0 0 1px rgba(0,0,0,.35)) drop-shadow(0 3px 8px rgba(0,0,0,.18));
+      transition:filter .14s ease, stroke-width .14s ease;
+      stroke-linejoin:round;
+      stroke-linecap:round;
+    }
+    .cestof-poly.is-selected{
+      filter:drop-shadow(0 0 0 rgba(0,0,0,0)) drop-shadow(0 0 10px rgba(255,255,255,.95)) drop-shadow(0 0 14px rgba(0,0,0,.38));
+    }
+
+  
+    nav a.active{
+      background:#000;
+      color:#fff;
+      box-shadow:0 6px 14px rgba(0,0,0,.18);
+    }
+    
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="header-top">
+        <img class="logo" src="img/logo.png" alt="CESTOF logo" />
+        <div>
+          <img class="title-img" src="img/cestof-title.png" alt="CESTOF" />
+          <p class="sub">Central European Storm Forecasts</p>
+        </div>
+      </div>
+
+      <div class="header-meta">
+        <p class="tagline">Convective outlooks by day and hazard.</p>
+        <p class="last-updated"><b>Last updated:</b> <span id="lastUpdated">—</span></p>
+      </div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="forecast.html" >Forecasts</a>
+    <a href="outlook.html" class="active" >Outlook</a>
+    <a href="radar.html">Radar</a>
+    <a href="warning.html">Warnings</a>
+    <a href="lightning.html">Lightning</a>
+    <a href="archive.html">Archive</a>
+    <a href="tornadoes.html">Tornadoes</a>
+    <a href="photos.html">Photos</a>
+  </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <h2>Convective Outlook</h2>
+
+        <div class="controls">
+          <div class="control-row" id="dayRow">
+            <span class="row-label">Day:</span>
+            <button class="btn day-btn" data-day="day1" id="day1" type="button">Day 1</button>
+            <button class="btn day-btn" data-day="day2" id="day2" type="button">Day 2</button>
+            <button class="btn day-btn" data-day="day3" id="day3" type="button">Day 3</button>
+          </div>
+
+          <div class="control-row" id="hazardRow">
+            <span class="row-label">Hazard:</span>
+          </div>
+        </div>
+
+        <div id="map"></div>
+
+        <p class="hint">
+        
+          
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Central European Storm Forecasts</p>
+    </footer>
+  </div>
+
+  <script>
+    function escapeHTML(s){
+      return String(s).replace(/[&<>"']/g, (m) => ({
+        "&":"&amp;",
+        "<":"&lt;",
+        ">":"&gt;",
+        "\"":"&quot;",
+        "'":"&#039;"
+      }[m]));
+    }
+
+    function fmtLocalDate(d){
+      const months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+      return `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()} ${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
+    }
+
+    (function(){
+      const d = new Date(document.lastModified || Date.now());
+      const lu = document.getElementById("lastUpdated");
+      if(lu) lu.textContent = fmtLocalDate(d);
+    })();
+
+    const RAW_BASE = "https://raw.githubusercontent.com/CentralEuropeanForecasting/cestof-warnings/main";
+    const DAY_KEYS = ["day1","day2","day3"];
+    const HAZARDS = [
+      { key:"general", label:"General", suffix:"" },
+      { key:"tornado", label:"Tornado", suffix:"_tornado" },
+      { key:"hail", label:"Hail", suffix:"_hail" },
+      { key:"wind", label:"Severe Wind", suffix:"_wind" }
+    ];
+
+    function initialDayFromURL(){
+      const params = new URLSearchParams(window.location.search);
+      const fromQuery = (params.get("day") || "").toLowerCase();
+      const fromHash = (window.location.hash || "").replace("#", "").toLowerCase();
+      const wanted = fromQuery || fromHash;
+      return DAY_KEYS.includes(wanted) ? wanted : "day1";
+    }
+
+    let currentDay = initialDayFromURL();
+    let currentHazard = "general";
+    let currentLayer = null;
+    const cache = {};
+
+    const map = L.map("map", { zoomControl:true, preferCanvas:false, maxZoom:19 });
+    map.setView([49.6, 15.3], 6);
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom:19,
+      attribution:"© OpenStreetMap contributors"
+    }).addTo(map);
+
+    const outlookPane = map.createPane("outlookPane");
+    outlookPane.style.zIndex = 420;
+
+    const COLOR_MAP = {
+      'risk-blue':'#39ff14',
+      'risk-green':'#1f8f3a',
+      'risk-yellow':'#ffe600',
+      'risk-orange':'#ff9900',
+      'risk-red':'#b30000',
+      'risk-magenta':'#ff00ff',
+      'hazard-2':'#bde0fe',
+      'hazard-5':'#76c893',
+      'hazard-15':'#ffe600',
+      'hazard-30':'#ff9900',
+      'hazard-50':'#d00000',
+      'hazard-severe':'#111111'
+    };
+
+    const HAZARD_PROB_LEVELS = [
+      { value:'2', label:'2%', cls:'hazard-2', hatch:'none', rank:1 },
+      { value:'5', label:'5%', cls:'hazard-5', hatch:'none', rank:2 },
+      { value:'15', label:'15%', cls:'hazard-15', hatch:'none', rank:3 },
+      { value:'30', label:'30%', cls:'hazard-30', hatch:'none', rank:4 },
+      { value:'50', label:'50%', cls:'hazard-50', hatch:'none', rank:5 },
+      { value:'severe', label:'Severe hatched', cls:'hazard-severe', hatch:'black', rank:6 }
+    ];
+
+    function isHazardProbabilityMode(hazardKey = currentHazard){ return hazardKey && hazardKey !== 'general'; }
+    function normalizeHazardProbabilityValue(value){
+      const raw = String(value ?? '').trim().toLowerCase().replace('%','');
+      if (raw === '2' || raw === '5' || raw === '15' || raw === '30' || raw === '50') return raw;
+      if (raw.includes('severe') || raw.includes('hatched') || raw === 'sig' || raw === 'significant') return 'severe';
+      return '';
+    }
+    function getHazardProbMeta(value){
+      const v = normalizeHazardProbabilityValue(value);
+      const found = HAZARD_PROB_LEVELS.find(x => x.value === v);
+      return found ? { ...found } : null;
+    }
+
+    function mergeGeneralHatch(meta, props = {}){
+      if (!meta) return meta;
+      if (isHazardProbabilityMode(props.hazard || currentHazard)) return meta;
+      const out = { ...meta };
+      if (props.doubleHatch || String(props.hatch || '').toLowerCase() === 'double') out.hatch = 'double';
+      else if (props.hatched || String(props.hatch || '').toLowerCase() === 'single') out.hatch = 'single';
+      return out;
+    }
+
+    const MATRIX_PROB_ROWS = ['>50','45','30','15','5','<5'];
+    const MATRIX_INT_COLS = ['1','2','3','4','5','6'];
+
+    const MATRIX = {
+      '>50': {
+        '1': { cls:'risk-green', label:'General Risk', hatch:'none' },
+        '2': { cls:'risk-green', label:'General Risk', hatch:'none' },
+        '3': { cls:'risk-yellow', label:'Slight Risk', hatch:'none' },
+        '4': { cls:'risk-orange', label:'Enhanced Risk', hatch:'none' },
+        '5': { cls:'risk-red', label:'Moderate Risk', hatch:'none' },
+        '6': { cls:'risk-magenta', label:'Severe Risk', hatch:'none' }
+      },
+      '45': {
+        '1': { cls:'risk-green', label:'General Risk', hatch:'none' },
+        '2': { cls:'risk-green', label:'General Risk', hatch:'none' },
+        '3': { cls:'risk-yellow', label:'Slight Risk', hatch:'none' },
+        '4': { cls:'risk-orange', label:'Enhanced Risk', hatch:'none' },
+        '5': { cls:'risk-red', label:'Moderate Risk', hatch:'none' },
+        '6': { cls:'risk-magenta', label:'Severe Risk', hatch:'none' }
+      },
+      '30': {
+        '1': { cls:'risk-green', label:'General Risk', hatch:'none' },
+        '2': { cls:'risk-green', label:'General Risk', hatch:'none' },
+        '3': { cls:'risk-yellow', label:'Slight Risk', hatch:'none' },
+        '4': { cls:'risk-orange', label:'Enhanced Risk', hatch:'none' },
+        '5': { cls:'risk-red', label:'Moderate Risk', hatch:'none' },
+        '6': { cls:'risk-magenta', label:'Severe Risk', hatch:'none' }
+      },
+      '15': {
+        '1': { cls:'risk-blue', label:'T-Storm Risk', hatch:'none' },
+        '2': { cls:'risk-green', label:'General Risk', hatch:'none' },
+        '3': { cls:'risk-yellow', label:'Slight Risk', hatch:'none' },
+        '4': { cls:'risk-yellow', label:'Slight Risk', hatch:'none' },
+        '5': { cls:'risk-orange', label:'Enhanced Risk', hatch:'none' },
+        '6': { cls:'risk-red', label:'Moderate Risk', hatch:'none' }
+      },
+      '5': {
+        '1': { cls:'risk-blue', label:'T-Storm Risk', hatch:'none' },
+        '2': { cls:'risk-blue', label:'T-Storm Risk', hatch:'none' },
+        '3': { cls:'risk-green', label:'General Risk', hatch:'none' },
+        '4': { cls:'risk-yellow', label:'Slight Risk', hatch:'none' },
+        '5': { cls:'risk-orange', label:'Enhanced Risk', hatch:'none' },
+        '6': { cls:'risk-red', label:'Moderate Risk', hatch:'none' }
+      },
+      '<5': {
+        '1': { cls:'risk-blue', label:'T-Storm Risk', hatch:'none' },
+        '2': { cls:'risk-blue', label:'T-Storm Risk', hatch:'none' },
+        '3': { cls:'risk-blue', label:'T-Storm Risk', hatch:'none' },
+        '4': { cls:'risk-green', label:'General Risk', hatch:'none' },
+        '5': { cls:'risk-yellow', label:'Slight Risk', hatch:'none' },
+        '6': { cls:'risk-orange', label:'Enhanced Risk', hatch:'none' }
+      }
+    };
+
+    const RISK_BY_LABEL = {
+      "t-storm risk": { cls:"risk-blue", label:"T-Storm Risk", hatch:"none" },
+      "general risk": { cls:"risk-green", label:"General Risk", hatch:"none" },
+      "slight risk": { cls:"risk-yellow", label:"Slight Risk", hatch:"none" },
+      "enhanced risk": { cls:"risk-orange", label:"Enhanced Risk", hatch:"none" },
+      "moderate risk": { cls:"risk-red", label:"Moderate Risk", hatch:"none" },
+      "severe risk": { cls:"risk-magenta", label:"Severe Risk", hatch:"none" }
+    };
+
+    function classToColor(cls){
+      return COLOR_MAP[cls] || "#666666";
+    }
+
+    function getHazardConfig(key){
+      return HAZARDS.find(h => h.key === key) || HAZARDS[0];
+    }
+
+    function fileDate(offsetDays){
+      const d = new Date();
+      d.setHours(12,0,0,0);
+      d.setDate(d.getDate() + offsetDays);
+      const y = d.getFullYear();
+      const m = String(d.getMonth()+1).padStart(2,"0");
+      const day = String(d.getDate()).padStart(2,"0");
+      return `${y}-${m}-${day}`;
+    }
+
+    function getFileUrl(dayKey, hazardKey){
+      const hazard = getHazardConfig(hazardKey);
+      if (dayKey === "day1") {
+        return `${RAW_BASE}/qgis_polygons${hazard.suffix}.geojson`;
+      }
+      const idx = DAY_KEYS.indexOf(dayKey);
+      return `${RAW_BASE}/${fileDate(idx)}${hazard.suffix}.geojson`;
+    }
+
+    function normalizeLegacyRisk(v){
+      const n = Number(v);
+      if (Number.isNaN(n)) return null;
+      if (n < 5) return 0;
+      if (n === 5) return 5;
+      if (n === 15) return 15;
+      if (n === 30) return 30;
+      if (n === 45) return 45;
+      if (n >= 50) return 50;
+      return null;
+    }
+
+    function metaFromLegacyRisk(risk){
+      if (risk === 0) return { cls:"risk-blue", label:"T-Storm Risk", hatch:"none" };
+      if (risk === 5) return { cls:"risk-green", label:"General Risk", hatch:"none" };
+      if (risk === 15) return { cls:"risk-yellow", label:"Slight Risk", hatch:"none" };
+      if (risk === 30) return { cls:"risk-orange", label:"Enhanced Risk", hatch:"none" };
+      if (risk === 45) return { cls:"risk-red", label:"Moderate Risk", hatch:"none" };
+      if (risk === 50) return { cls:"risk-magenta", label:"Severe Risk", hatch:"none" };
+      return null;
+    }
+
+    function getMetaFromProps(props = {}){
+      const hazardKey = props.hazard || currentHazard;
+
+      if (isHazardProbabilityMode(hazardKey)) {
+        const meta = getHazardProbMeta(props.hazardProbability ?? props.probability ?? props.risk ?? props.prob ?? props.riskLabel);
+        if (meta) return meta;
+      }
+
+      const probability = String(props.probability || "").trim();
+      const intensity = String(props.intensity || "").trim();
+
+      if (probability && intensity && MATRIX[probability] && MATRIX[probability][intensity]) {
+        return mergeGeneralHatch(MATRIX[probability][intensity], props);
+      }
+
+      const legacyRisk = normalizeLegacyRisk(props.risk ?? props.prob);
+      if (legacyRisk !== null) {
+        return mergeGeneralHatch(metaFromLegacyRisk(legacyRisk), props);
+      }
+
+      const label = String(props.riskLabel || "").trim().toLowerCase();
+      if (label && RISK_BY_LABEL[label]) {
+        return mergeGeneralHatch(RISK_BY_LABEL[label], props);
+      }
+
+      return null;
+    }
+
+    function getRankFromMeta(meta){
+      if (typeof meta?.rank === "number") return meta.rank;
+      return {
+        "risk-blue":1,
+        "risk-green":2,
+        "risk-yellow":3,
+        "risk-orange":4,
+        "risk-red":5,
+        "risk-magenta":6,
+        "hazard-2":1,
+        "hazard-5":2,
+        "hazard-15":3,
+        "hazard-30":4,
+        "hazard-50":5,
+        "hazard-severe":6
+      }[meta?.cls] || 0;
+    }
+
+    function styleByProps(props = {}){
+      const meta = getMetaFromProps(props);
+      if (meta) {
+        const baseColor = classToColor(meta.cls);
+        const isLower = meta.cls === "risk-blue" || meta.cls === "risk-green";
+        return {
+          pane:"outlookPane",
+          color: baseColor,
+          weight: isLower ? 2.6 : 3.6,
+          opacity: 0.98,
+          fillColor: baseColor,
+          fillOpacity: meta.hatch && meta.hatch !== "none" ? 0.20 : 0.28,
+          lineCap:"round",
+          lineJoin:"round",
+          dashArray: meta.hatch === "single" ? "8 5" : null,
+          className:"cestof-poly"
+        };
+      }
+      return {
+        pane:"outlookPane",
+        color:"#4c4c4c",
+        weight:2.8,
+        opacity:0.9,
+        fillColor:"#7a7a7a",
+        fillOpacity:0.14,
+        lineCap:"round",
+        lineJoin:"round",
+        className:"cestof-poly"
+      };
+    }
+
+    function ensureSvgPattern(id, bgColor, mode){
+      const renderer = map.getRenderer(map);
+      if (!renderer || !renderer._container) return null;
+
+      const svg = renderer._container;
+      let defs = svg.querySelector("defs");
+      if (!defs) {
+        defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
+        svg.insertBefore(defs, svg.firstChild);
+      }
+
+      let pattern = defs.querySelector("#" + id);
+      if (pattern) return id;
+
+      pattern = document.createElementNS("http://www.w3.org/2000/svg", "pattern");
+      pattern.setAttribute("id", id);
+      pattern.setAttribute("patternUnits", "userSpaceOnUse");
+      pattern.setAttribute("width", "12");
+      pattern.setAttribute("height", "12");
+
+      const bg = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+      bg.setAttribute("width", "12");
+      bg.setAttribute("height", "12");
+      bg.setAttribute("fill", bgColor);
+      bg.setAttribute("fill-opacity", "0.40");
+      pattern.appendChild(bg);
+
+      const mkLine = (x1,y1,x2,y2) => {
+        const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+        line.setAttribute("x1", x1);
+        line.setAttribute("y1", y1);
+        line.setAttribute("x2", x2);
+        line.setAttribute("y2", y2);
+        line.setAttribute("stroke", "#000000");
+        line.setAttribute("stroke-width", "1");
+        line.setAttribute("stroke-opacity", "0.82");
+        return line;
+      };
+
+      pattern.appendChild(mkLine(0,12,12,0));
+      pattern.appendChild(mkLine(-6,12,6,0));
+      pattern.appendChild(mkLine(6,12,18,0));
+
+      if (mode === "double") {
+        pattern.appendChild(mkLine(0,0,12,12));
+        pattern.appendChild(mkLine(-6,0,6,12));
+        pattern.appendChild(mkLine(6,0,18,12));
+      }
+
+      defs.appendChild(pattern);
+      return id;
+    }
+
+    function applyHatchVisual(layer, props = {}){
+      requestAnimationFrame(() => {
+        if (!layer || !layer._path) return;
+        layer._path.classList.toggle("is-selected", !!layer.isPopupOpen && layer.isPopupOpen());
+
+        const meta = getMetaFromProps(props);
+        if (!meta) return;
+
+        if (!meta.hatch || meta.hatch === "none") {
+          layer._path.setAttribute("fill", classToColor(meta.cls));
+          layer._path.setAttribute("fill-opacity", "0.40");
+          return;
+        }
+
+        const patternId = ensureSvgPattern(
+          `outlook-${meta.cls}-${meta.hatch}`,
+          classToColor(meta.cls),
+          meta.hatch
+        );
+        if (!patternId) return;
+        layer._path.setAttribute("fill", `url(#${patternId})`);
+        layer._path.setAttribute("fill-opacity", "1");
+      });
+    }
+
+    function matrixTableHTML(selected){
+      let html = '<table class="popup-matrix">';
+      html += '<tr><th class="blank"></th><th class="axis-top" colspan="7">Intensity</th></tr>';
+      html += '<tr><th class="axis-left" rowspan="7">Probability</th><th class="blank"></th>';
+      MATRIX_INT_COLS.forEach(col => html += `<th class="head">${col}</th>`);
+      html += '</tr>';
+
+      MATRIX_PROB_ROWS.forEach(prob => {
+        html += `<tr><th class="head">${escapeHTML(prob)}</th>`;
+        MATRIX_INT_COLS.forEach(intensity => {
+          const meta = MATRIX[prob][intensity];
+          const classes = [meta.cls];
+          if (meta.hatch === "single") classes.push("single-hatch");
+          if (meta.hatch === "double") classes.push("double-hatch");
+          if (selected && selected.prob === prob && selected.intensity === intensity) {
+            classes.push("selected-cell");
+          }
+          html += `<td class="${classes.join(" ")}"></td>`;
+        });
+        html += "</tr>";
+      });
+
+      html += "</table>";
+      return html;
+    }
+
+    function inferPopupSelection(props = {}){
+      const probability = String(props.probability || "").trim();
+      const intensity = String(props.intensity || "").trim();
+
+      if (probability && intensity && MATRIX[probability] && MATRIX[probability][intensity]) {
+        return { prob: probability, intensity: intensity };
+      }
+
+      const legacyRisk = normalizeLegacyRisk(props.risk ?? props.prob);
+      if (legacyRisk === 0) return { prob:"<5", intensity:"1" };
+      if (legacyRisk === 5) return { prob:"5", intensity:"3" };
+      if (legacyRisk === 15) return { prob:"15", intensity:"3" };
+      if (legacyRisk === 30) return { prob:"30", intensity:"4" };
+      if (legacyRisk === 45) return { prob:"45", intensity:"5" };
+      if (legacyRisk === 50) return { prob:">50", intensity:"6" };
+
+      return null;
+    }
+
+    function popupHTMLFromProps(props = {}){
+      const meta = getMetaFromProps(props);
+      const risk = String(props.riskLabel || meta?.label || "Area").trim();
+      const title = String(props.title || risk).trim();
+      const description = String(props.description || "").trim();
+
+      let html = `<div style="font-family:Arial,Helvetica,sans-serif;min-width:240px;">`;
+      if (title) html += `<div style="font-weight:800;margin-bottom:6px;">${escapeHTML(title)}</div>`;
+      const hazardMode = isHazardProbabilityMode(props.hazard || currentHazard);
+      if (risk) html += `<div><b>${hazardMode ? "Probability" : "Risk"}:</b> ${escapeHTML(risk)}</div>`;
+
+      const probability = String(props.probability || "").trim();
+      const intensity = String(props.intensity || "").trim();
+      if (!hazardMode && (probability || intensity)) {
+        html += `<div><b>Probability:</b> ${escapeHTML(probability || "-")} &nbsp; <b>Intensity:</b> ${escapeHTML(intensity || "-")}</div>`;
+      }
+
+      if (description) {
+        html += `<div style="margin-top:8px;color:#222;">${escapeHTML(description)}</div>`;
+      }
+
+      const selected = hazardMode ? null : inferPopupSelection(props);
+      if (selected) html += matrixTableHTML(selected);
+
+      html += `</div>`;
+      return html;
+    }
+
+    async function fetchGeoJSON(dayKey, hazardKey){
+      const cacheKey = `${dayKey}__${hazardKey}`;
+      const url = getFileUrl(dayKey, hazardKey);
+
+      try {
+        const res = await fetch(url + "?v=" + Date.now(), { cache:"no-store" });
+        if (!res.ok) {
+          cache[cacheKey] = null;
+          return null;
+        }
+        const gj = await res.json();
+        if (!gj || !Array.isArray(gj.features) || !gj.features.length) {
+          cache[cacheKey] = null;
+          return null;
+        }
+        cache[cacheKey] = gj;
+        return gj;
+      } catch (e) {
+        cache[cacheKey] = null;
+        return null;
+      }
+    }
+
+    async function preloadButtonStates(){
+      const tasks = [];
+      for (const dayKey of DAY_KEYS) {
+        tasks.push(fetchGeoJSON(dayKey, currentHazard));
+      }
+      await Promise.all(tasks);
+      updateDayButtonColors();
+    }
+
+    function getHighestMetaFromGeoJSON(gj){
+      if (!gj || !Array.isArray(gj.features)) return null;
+
+      let best = null;
+      let bestRank = 0;
+
+      for (const f of gj.features) {
+        const meta = getMetaFromProps(f?.properties || {});
+        const rank = getRankFromMeta(meta);
+        if (rank > bestRank) {
+          bestRank = rank;
+          best = meta;
+        }
+      }
+      return best;
+    }
+
+    function updateDayButtonColors(){
+      document.querySelectorAll("#dayRow .day-btn").forEach((btn) => {
+        const dayKey = btn.dataset.day;
+        const cacheKey = `${dayKey}__${currentHazard}`;
+        const gj = cache[cacheKey];
+        const meta = getHighestMetaFromGeoJSON(gj);
+
+        btn.style.background = meta ? classToColor(meta.cls) : "#f2f2f2";
+        btn.style.color = meta && meta.cls !== "risk-yellow" ? "#fff" : "#000";
+        btn.classList.remove("single-hatch", "double-hatch", "black-hatch");
+
+        if (meta?.hatch === "double") btn.classList.add("double-hatch");
+        else if (meta?.hatch === "single") btn.classList.add("single-hatch");
+        else if (meta?.hatch === "black") btn.classList.add("black-hatch");
+      });
+    }
+
+    function resetHazardButtonsNeutral(){
+      document.querySelectorAll("#hazardRow .hazard-btn").forEach((btn) => {
+        btn.style.background = "#f2f2f2";
+        btn.style.color = "#000";
+        btn.classList.remove("single-hatch", "double-hatch", "black-hatch");
+      });
+    }
+
+    function removeCurrentLayer(){
+      if (currentLayer) {
+        map.removeLayer(currentLayer);
+        currentLayer = null;
+      }
+    }
+
+    async function loadCurrentOutlook(){
+      removeCurrentLayer();
+
+      const cacheKey = `${currentDay}__${currentHazard}`;
+      let gj = cache[cacheKey];
+
+      if (gj === undefined) {
+        gj = await fetchGeoJSON(currentDay, currentHazard);
+      }
+
+      if (!gj || !Array.isArray(gj.features) || !gj.features.length) {
+        updateDayButtonColors();
+        resetHazardButtonsNeutral();
+        return;
+      }
+
+      currentLayer = L.geoJSON(gj, {
+        style: (feature) => styleByProps(feature?.properties || {}),
+        onEachFeature: (feature, layer) => {
+          const props = feature.properties || {};
+          layer.bindPopup(popupHTMLFromProps(props));
+        }
+      }).addTo(map);
+
+      currentLayer.eachLayer((layer) => {
+        applyHatchVisual(layer, layer.feature?.properties || {});
+        if (layer.bringToFront) layer.bringToFront();
+      });
+
+      if (currentLayer.bringToFront) currentLayer.bringToFront();
+
+      // Always focus the map on the full displayed forecast polygon area.
+      try {
+        const bounds = currentLayer.getBounds();
+        if (bounds && bounds.isValid()) {
+          map.fitBounds(bounds.pad(0.12), { padding:[28,28], maxZoom:8 });
+        } else {
+          map.setView([49.6, 15.3], 6);
+        }
+      } catch (e) {
+        map.setView([49.6, 15.3], 6);
+      }
+
+      updateDayButtonColors();
+      resetHazardButtonsNeutral();
+    }
+
+    function renderDayButtons(){
+      const row = document.getElementById("dayRow");
+      row.innerHTML = '<span class="row-label">Day:</span>';
+      DAY_KEYS.forEach((dayKey, i) => {
+        const btn = document.createElement("button");
+        btn.className = "btn day-btn" + (dayKey === currentDay ? " active" : "");
+        btn.dataset.day = dayKey;
+        btn.id = dayKey;
+        btn.textContent = "Day " + (i + 1);
+        btn.addEventListener("click", async () => {
+          currentDay = dayKey;
+          history.replaceState(null, "", `?day=${dayKey}#${dayKey}`);
+          renderControls();
+          await loadCurrentOutlook();
+        });
+        row.appendChild(btn);
+      });
+    }
+
+    function renderHazardButtons(){
+      const row = document.getElementById("hazardRow");
+      row.innerHTML = '<span class="row-label">Hazard:</span>';
+      HAZARDS.forEach((hazard) => {
+        const btn = document.createElement("button");
+        btn.className = "btn hazard-btn" + (hazard.key === currentHazard ? " active" : "");
+        btn.dataset.hazard = hazard.key;
+        btn.textContent = hazard.label;
+        btn.addEventListener("click", async () => {
+          currentHazard = hazard.key;
+          renderLegend();
+          renderControls();
+          await preloadButtonStates();
+          await loadCurrentOutlook();
+        });
+        row.appendChild(btn);
+      });
+    }
+
+    function renderControls(){
+      document.querySelectorAll("#dayRow .day-btn").forEach((btn) => {
+        btn.classList.toggle("active", btn.dataset.day === currentDay);
+      });
+      document.querySelectorAll("#hazardRow .hazard-btn").forEach((btn) => {
+        btn.classList.toggle("active", btn.dataset.hazard === currentHazard);
+      });
+    }
+
+    const legend = L.control({ position:"bottomright" });
+    legend.onAdd = function () {
+      const div = L.DomUtil.create("div", "legend leaflet-control");
+      div.id = "outlookLegend";
+      L.DomEvent.disableClickPropagation(div);
+      return div;
+    };
+    legend.addTo(map);
+
+    function renderLegend(){
+      const div = document.getElementById("outlookLegend");
+      if (!div) return;
+
+      if (isHazardProbabilityMode(currentHazard)){
+        div.innerHTML = `
+          <h3>${escapeHTML(getHazardConfig(currentHazard).label)} probability</h3>
+          <div class="row"><span class="swatch" style="background:#bde0fe"></span>2%</div>
+          <div class="row"><span class="swatch" style="background:#76c893"></span>5%</div>
+          <div class="row"><span class="swatch" style="background:#ffe600"></span>15%</div>
+          <div class="row"><span class="swatch" style="background:#ff9900"></span>30%</div>
+          <div class="row"><span class="swatch" style="background:#d00000"></span>50%</div>
+          <div class="row"><span class="swatch black-hatch" style="background:#fff"></span>Severe hatched</div>
+        `;
+      } else {
+        div.innerHTML = `
+          <h3>General outlook</h3>
+          <div class="row"><span class="swatch" style="background:#39ff14"></span>T-storm Risk</div>
+          <div class="row"><span class="swatch" style="background:#1f8f3a"></span>General Risk</div>
+          <div class="row"><span class="swatch" style="background:#ffe600"></span>Slight Risk</div>
+          <div class="row"><span class="swatch" style="background:#ff9900"></span>Enhanced Risk</div>
+          <div class="row"><span class="swatch" style="background:#b30000"></span>Moderate Risk</div>
+          <div class="row"><span class="swatch" style="background:#ff00ff"></span>Severe Risk</div>
+          <div class="row"><span class="swatch single-hatch" style="background:#fff"></span>Hatched</div>
+          <div class="row"><span class="swatch double-hatch" style="background:#fff"></span>Double hatched</div>
+        `;
+      }
+    }
+
+
+    (async function init(){
+      renderDayButtons();
+      renderHazardButtons();
+      renderControls();
+      renderLegend();
+      await preloadButtonStates();
+      await loadCurrentOutlook();
+      const selectedBtn = document.querySelector(`#dayRow .day-btn[data-day="${currentDay}"]`);
+      if(selectedBtn) selectedBtn.scrollIntoView({ block:"nearest", inline:"center" });
+    })();
+  </script>
+<script>
+    (function(){
+      const current = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
+      document.querySelectorAll('nav a').forEach(a => {
+        const href = (a.getAttribute('href') || '').toLowerCase();
+        if (href === current) {
+          a.style.background = '#000';
+          a.style.color = '#fff';
+          a.style.boxShadow = '0 6px 14px rgba(0,0,0,.18)';
+        }
+      });
+    })();
+</script>
+
+<script>
+(function(){
+  document.querySelectorAll("nav a").forEach(a => {
+    if ((a.getAttribute("href") || "").trim() === "outlook.html") {
+      a.classList.add("active");
+    }
+  });
+})();
+</script>
+
+
+<script>
+(function(){
+  function emergencyRenderButtons(){
+    const dayRow = document.getElementById('dayRow');
+    const hazardRow = document.getElementById('hazardRow');
+    if (dayRow && !dayRow.querySelector('.day-btn')){
+      dayRow.innerHTML = '<span class="row-label">Day:</span>';
+      ['day1','day2','day3'].forEach((d,i)=>{
+        const b=document.createElement('button'); b.className='btn day-btn'; b.dataset.day=d; b.id=d; b.type='button'; b.textContent='Day '+(i+1);
+        b.onclick=()=>{ location.href='?day='+d+'#'+d; };
+        dayRow.appendChild(b);
+      });
+    }
+    if (hazardRow && !hazardRow.querySelector('.hazard-btn')){
+      hazardRow.innerHTML = '<span class="row-label">Hazard:</span>';
+      [['general','General'],['tornado','Tornado'],['hail','Hail'],['wind','Severe Wind']].forEach(([k,l])=>{
+        const b=document.createElement('button'); b.className='btn hazard-btn'; b.dataset.hazard=k; b.type='button'; b.textContent=l;
+        hazardRow.appendChild(b);
+      });
+    }
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', emergencyRenderButtons);
+  else emergencyRenderButtons();
+  setTimeout(emergencyRenderButtons, 500);
+})();
+</script>
+</body>
+</html>

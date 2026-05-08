@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Articles - CESTOF</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="img/favicon.png">
+
+<style>
+
+/* ===== BASE ===== */
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#dfe6ee url("img/bg.jpg") center/cover fixed no-repeat;
+  color:#111;
+}
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.42);
+  z-index:-1;
+}
+
+.wrap{
+  max-width:1050px;
+  margin:16px auto;
+  padding:0 12px 20px;
+}
+
+/* ===== HEADER ===== */
+header{
+  background:rgba(255,255,255,.9);
+  border:2px solid #000;
+  border-radius:14px;
+  overflow:hidden;
+  backdrop-filter:blur(6px);
+}
+
+.header-top{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:12px;
+}
+.logo{ height:48px; }
+
+.title-img{
+  height:34px;
+}
+
+.sub{
+  margin:4px 0 0;
+  font-style:italic;
+  color:#333;
+}
+
+.header-meta{
+  display:flex;
+  justify-content:space-between;
+  padding:8px 12px;
+  background:#f2f2f2;
+  border-top:2px solid #000;
+  font-size:.95rem;
+}
+
+/* ===== NAV ===== */
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:10px;
+  background:#f4f4f4;
+  border-top:2px solid #000;
+  border-bottom:2px solid #000;
+  padding:8px 0;
+}
+
+nav a{
+  text-decoration:none;
+  color:#000;
+  font-weight:bold;
+  padding:6px 12px;
+  border-radius:999px;
+  transition:.15s;
+}
+
+nav a:hover{
+  background:#000;
+  color:#fff;
+  transform:translateY(-1px);
+}
+
+nav a.active{
+  background:#000;
+  color:#fff;
+}
+
+/* ===== SECTION ===== */
+.section{
+  margin-top:14px;
+  background:rgba(255,255,255,.88);
+  border:1px solid #000;
+  border-radius:14px;
+  padding:16px;
+  backdrop-filter:blur(5px);
+}
+
+.section h2{
+  margin:0 0 12px;
+  border-bottom:2px solid #000;
+  padding-bottom:5px;
+}
+
+/* ===== GRID ===== */
+.list{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+  gap:14px;
+}
+
+/* ===== CARD ===== */
+.article-card{
+  display:flex;
+  flex-direction:column;
+  text-decoration:none;
+  color:#000;
+  background:#fff;
+  border:1px solid #aaa;
+  border-radius:14px;
+  overflow:hidden;
+  transition:.2s;
+  opacity:0;
+  transform:translateY(10px);
+}
+
+.article-card.show{
+  opacity:1;
+  transform:translateY(0);
+}
+
+.article-card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 14px 30px rgba(0,0,0,.18);
+}
+
+.article-card img{
+  width:100%;
+  height:160px;
+  object-fit:cover;
+}
+
+.article-info{
+  padding:12px;
+}
+
+.article-info h3{
+  margin:0 0 6px;
+  font-size:1.1rem;
+}
+
+.article-info p{
+  margin:0;
+  font-size:.95rem;
+  color:#444;
+}
+
+/* ===== STATES ===== */
+.loading,
+.empty{
+  text-align:center;
+  padding:30px;
+  color:#444;
+  font-size:1rem;
+}
+
+/* ===== FOOTER ===== */
+footer{
+  text-align:center;
+  color:#eee;
+  font-size:.9rem;
+  margin-top:14px;
+}
+
+/* ===== MOBILE ===== */
+@media(max-width:520px){
+  .title-img{ height:30px; }
+}
+
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+<header>
+  <div class="header-top">
+    <img class="logo" src="img/logo.png">
+    <div>
+      <img class="title-img" src="img/cestof-title.png">
+      <p class="sub">Central European Storm Forecasts</p>
+    </div>
+  </div>
+
+  <div class="header-meta">
+    <p>Articles, education & case studies</p>
+    <p><b>Updated:</b> <span id="lastUpdated">—</span></p>
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="forecast.html">Forecasts</a>
+    <a href="outlook.html">Outlook</a>
+    <a href="radar.html">Radar</a>
+    <a href="lightning.html">Lightning</a>
+    <a href="warning.html">Warnings</a>
+    <a href="archive.html">Archive</a>
+    <a href="tornadoes.html">Tornadoes</a>
+    <a href="articles.html" class="active">Articles</a>
+    <a href="photos.html">Photos</a>
+  </nav>
+</header>
+
+<main>
+  <section class="section">
+    <h2>Articles</h2>
+
+    <div id="articleList" class="list">
+      <div class="loading">Loading articles...</div>
+    </div>
+
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 CESTOF | Central European Storm Forecasts</p>
+</footer>
+
+</div>
+
+<script>
+
+/* LAST UPDATED */
+document.getElementById("lastUpdated").textContent =
+  new Date(document.lastModified).toLocaleString();
+
+/* LOAD ARTICLES */
+async function loadArticles(){
+  const list = document.getElementById("articleList");
+
+  try{
+    const res = await fetch("data/articles.json?v=" + Date.now());
+    const articles = await res.json();
+
+    if(!articles.length){
+      list.innerHTML = `<div class="empty">No articles yet.</div>`;
+      return;
+    }
+
+    articles.sort((a,b)=> new Date(b.date) - new Date(a.date));
+
+    list.innerHTML = "";
+
+    articles.forEach((article,i)=>{
+      const card = document.createElement("a");
+      card.className = "article-card";
+      card.href = article.link;
+
+      card.innerHTML = `
+        <img src="${article.image}">
+        <div class="article-info">
+          <h3>${article.title}</h3>
+          <p>${article.description}</p>
+        </div>
+      `;
+
+      list.appendChild(card);
+
+      setTimeout(()=>{
+        card.classList.add("show");
+      }, i * 80);
+    });
+
+  }catch(err){
+    list.innerHTML = `<div class="empty">Failed to load articles.</div>`;
+    console.error(err);
+  }
+}
+
+loadArticles();
+
+</script>
+
+</body>
+</html>

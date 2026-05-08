@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tornado Archive — CESTOF</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="CESTOF tornado archive map with International Fujita scale polygons." />
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+
+  <style>
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#dfe6ee url("img/bg.jpg") center/cover fixed no-repeat;color:#111}
+    body::before{content:"";position:fixed;inset:0;background:rgba(0,0,0,.38);pointer-events:none;z-index:-1}
+    .wrap{max-width:1180px;margin:16px auto;padding:0 12px 18px}
+
+    header{background:rgba(255,255,255,.88);border:2px solid #000}
+    .header-top{display:flex;align-items:center;gap:12px;padding:10px}
+    .header-top .logo{height:48px}
+    .title-img{display:block;height:34px;max-width:100%}
+    header .sub{margin:4px 0 0;font-style:italic;color:#333}
+    .header-meta{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 10px;background:#f2f2f2;border-top:2px solid #000}
+    .tagline{margin:0;font-size:.95rem;color:#222}
+    .last-updated{margin:0;font-size:.9rem}
+    .last-updated b{font-weight:bold}
+
+    nav{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;background:#f4f4f4;border-top:2px solid #000;border-bottom:2px solid #000;padding:8px 0}
+    nav a{text-decoration:none;color:#000;font-weight:bold;padding:5px 10px}
+    nav a:hover{background:#000;color:#fff}
+    nav a.active{background:#000;color:#fff;box-shadow:0 6px 14px rgba(0,0,0,.18)}
+
+    main{margin-top:14px}
+    .section{background:rgba(255,255,255,.86);border:1px solid #000;margin-bottom:14px;padding:14px}
+    .section h2{margin:0 0 10px;border-bottom:2px solid #000;padding-bottom:4px}
+
+    .layout{display:grid;grid-template-columns:1fr 340px;gap:14px;align-items:start}
+    #map{height:690px;border:1px solid #000;outline:1px solid rgba(0,0,0,.25);background:#fff}
+
+    .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:end;border:1px solid #777;background:#fff;padding:10px;margin-bottom:10px}
+    .control-group{display:flex;flex-direction:column;gap:4px;min-width:120px}
+    .control-group label{font-weight:bold;font-size:.86rem}
+    .select,.input{border:1px solid #000;padding:6px 8px;background:#fff;font-weight:bold;font-family:Arial,Helvetica,sans-serif;width:100%;box-sizing:border-box}
+    .btn{border:1px solid #000;background:#f2f2f2;padding:6px 10px;font-weight:bold;cursor:pointer;user-select:none}
+    .btn:hover{background:#e6e6e6}
+    .btn.primary{background:#000;color:#fff}
+    .btn.primary:hover{background:#222;color:#fff}
+
+    .sidebox{background:rgba(255,255,255,.92);border:1px solid #000;padding:12px;margin-bottom:12px}
+    .sidebox h3{margin:0 0 8px;font-size:1rem;border-bottom:1px solid #999;padding-bottom:4px}
+    .stats{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+    .stat{border:1px solid #000;background:#fff;padding:8px}
+    .stat b{font-size:1.25rem;display:block}
+    .small{font-size:.9rem;color:#333;line-height:1.4}
+
+    .tor-list{display:flex;flex-direction:column;gap:8px;max-height:560px;overflow:auto}
+    .tor-item{border:1px solid #000;background:#fff;padding:8px;cursor:pointer}
+    .tor-item:hover{background:#f2f2f2}
+    .tor-title{font-weight:900;margin-bottom:4px}
+    .tor-meta{font-size:.85rem;color:#222;line-height:1.35}
+    .if-chip{display:inline-block;border:1px solid #000;border-radius:999px;padding:2px 7px;font-weight:900;background:#fff;color:#000}
+    .popup-tornado-title{font-size:1.18rem;font-weight:900;margin-bottom:8px;line-height:1.15}
+    .popup-if-chip{display:inline-block;border:1px solid #000;border-radius:999px;padding:2px 8px;font-weight:900;color:#000;box-shadow:0 2px 6px rgba(0,0,0,.15)}
+    .photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin-top:7px}
+    .photo-card{display:block;width:100%;text-align:left;text-decoration:none;color:#111;border:1px solid #000;background:#fff;padding:4px;border-radius:8px;overflow:hidden;font-family:Arial,Helvetica,sans-serif}
+    .photo-card img{display:block;width:100%;height:86px;object-fit:cover;border:1px solid #999;border-radius:6px;margin-bottom:4px}
+    .photo-caption{font-size:11px;line-height:1.25;color:#222}
+    .photo-card{cursor:zoom-in}
+    .lightbox{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,.82);z-index:9999;padding:24px}
+    .lightbox.active{display:flex}
+    .lightbox-inner{max-width:min(1100px,96vw);max-height:92vh;background:rgba(255,255,255,.96);border:2px solid #000;border-radius:14px;padding:12px;box-shadow:0 22px 70px rgba(0,0,0,.55);position:relative}
+    .lightbox img{display:block;max-width:calc(96vw - 40px);max-height:76vh;object-fit:contain;border:1px solid #000;background:#fff}
+    .lightbox-caption{margin-top:8px;font-size:.95rem;color:#111;line-height:1.35;max-width:calc(96vw - 40px)}
+    .lightbox-close{position:absolute;top:8px;right:8px;border:1px solid #000;background:#fff;color:#000;border-radius:999px;width:34px;height:34px;font-weight:900;cursor:pointer}
+    .lightbox-close:hover{background:#000;color:#fff}
+
+    .leaflet-control.legend{background:rgba(255,255,255,.95);border:1px solid #000;padding:7px 8px 6px;box-shadow:none}
+    .legend h3{margin:0 0 6px;font-size:.85rem;border-bottom:2px solid #000;padding-bottom:3px}
+    .legend .row{display:flex;align-items:center;gap:6px;margin:4px 0;font-size:.80rem;color:#111}
+    .swatch{width:16px;height:12px;border:1px solid #000;flex:0 0 auto}
+
+    .tor-marker{
+      width:18px;
+      height:18px;
+      border:2px solid #000;
+      border-radius:999px;
+      box-shadow:0 0 0 2px rgba(255,255,255,.85),0 6px 14px rgba(0,0,0,.35);
+    }
+    .tor-marker-label{
+      margin-left:24px;
+      margin-top:-20px;
+      display:inline-block;
+      white-space:nowrap;
+      background:rgba(255,255,255,.92);
+      border:1px solid #000;
+      border-radius:999px;
+      padding:2px 6px;
+      font-size:11px;
+      font-weight:900;
+      color:#000;
+      box-shadow:0 4px 10px rgba(0,0,0,.18);
+    }
+
+    .hint{margin:8px 0 0;color:#333;font-size:.9rem;line-height:1.35}
+    footer{text-align:center;color:#eee;font-size:.9rem;margin-top:14px;text-shadow:0 1px 1px rgba(0,0,0,.7)}
+
+    header,.section,.controls,.sidebox,.tor-item,.btn,.select,.input{border-radius:12px}
+    header,.section,.controls,.sidebox,.tor-item{box-shadow:0 10px 24px rgba(0,0,0,.12)}
+    nav a{border-radius:999px;transition:background .16s,color .16s,transform .16s,box-shadow .16s}
+    nav a:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(0,0,0,.18)}
+    .btn,.select{transition:transform .14s,background .14s,box-shadow .14s}
+    .btn:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(0,0,0,.12)}
+    .tor-item{transition:transform .16s,box-shadow .16s,background .16s}
+    .tor-item:hover{transform:translateY(-2px);box-shadow:0 14px 26px rgba(0,0,0,.16)}
+
+    @media (max-width:950px){
+      .layout{grid-template-columns:1fr}
+      #map{height:560px}
+      .title-img{height:30px}
+      .stats{grid-template-columns:1fr 1fr}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="header-top">
+        <img class="logo" src="img/logo.png" alt="CESTOF logo" />
+        <div>
+          <img class="title-img" src="img/cestof-title.png" alt="CESTOF" />
+          <p class="sub">Central European Storm Forecasts</p>
+        </div>
+      </div>
+
+      <div class="header-meta">
+        <p class="tagline">Tornado archive with International Fujita scale damage polygons.</p>
+        <p class="last-updated"><b>Last updated:</b> <span id="lastUpdated">—</span></p>
+      </div>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="forecast.html">Forecasts</a>
+        <a href="outlook.html">Outlook</a>
+        <a href="radar.html">Radar</a>
+        <a href="warning.html">Warnings</a>
+        <a href="lightning.html">Lightning</a>
+        <a href="archive.html">Archive</a>
+        <a href="tornadoes.html" class="active">Tornadoes</a>
+        <a href="photos.html">Photos</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <h2>Tornado Archive</h2>
+
+        <div class="controls">
+          <div class="control-group">
+            <label for="yearFilter">Year</label>
+            <select class="select" id="yearFilter"><option value="all">All years</option></select>
+          </div>
+
+          <div class="control-group">
+            <label for="monthFilter">Month</label>
+            <select class="select" id="monthFilter"><option value="all">All months</option></select>
+          </div>
+
+          <div class="control-group">
+            <label for="dayFilter">Exact day</label>
+            <input class="input" id="dayFilter" type="date" />
+          </div>
+
+          <div class="control-group">
+            <label for="ifFilter">Max IF scale</label>
+            <select class="select" id="ifFilter">
+              <option value="all">All IF ratings</option>
+              <option value="IF0">IF0</option>
+              <option value="IF0.5">IF0.5</option>
+              <option value="IF1">IF1</option>
+              <option value="IF1.5">IF1.5</option>
+              <option value="IF2">IF2</option>
+              <option value="IF2.5">IF2.5</option>
+              <option value="IF3">IF3</option>
+              <option value="IF4">IF4</option>
+              <option value="IF5">IF5</option>
+            </select>
+          </div>
+
+          <button class="btn primary" id="reloadBtn" type="button">Reload</button>
+          <button class="btn" id="resetBtn" type="button">Reset filters</button>
+        </div>
+
+        <div class="layout">
+          <div>
+            <div id="map"></div>
+            <p class="hint">
+            
+            </p>
+          </div>
+
+          <div>
+            <div class="sidebox">
+              <h3>Statistics</h3>
+              <div class="stats">
+                <div class="stat"><b id="torCount">0</b><span>Tornadoes</span></div>
+                <div class="stat"><b id="maxIF">—</b><span>Highest IF</span></div>
+              </div>
+            </div>
+
+            <div class="sidebox">
+              <h3>Tornado list</h3>
+              <div id="tornadoList" class="tor-list">
+                <div class="small">Loading tornado archive...</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Central European Storm Forecasts | Tornado Archive</p>
+    </footer>
+  </div>
+
+
+  <div class="lightbox" id="photoLightbox" aria-hidden="true">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" id="photoLightboxClose" type="button" aria-label="Close photo">×</button>
+      <img id="photoLightboxImg" src="" alt="Tornado damage photo enlarged" />
+      <div class="lightbox-caption" id="photoLightboxCaption"></div>
+    </div>
+  </div>
+
+  <script>
+    function escapeHTML(s){
+      return String(s).replace(/[&<>"']/g, (m) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        "\"": "&quot;",
+        "'": "&#039;"
+      }[m]));
+    }
+
+    function openPhotoLightbox(url, caption){
+      const lb = document.getElementById("photoLightbox");
+      const img = document.getElementById("photoLightboxImg");
+      const cap = document.getElementById("photoLightboxCaption");
+      if(!lb || !img || !url) return;
+      img.src = url;
+      cap.textContent = caption || "";
+      lb.classList.add("active");
+      lb.setAttribute("aria-hidden", "false");
+    }
+
+    function closePhotoLightbox(){
+      const lb = document.getElementById("photoLightbox");
+      const img = document.getElementById("photoLightboxImg");
+      if(!lb || !img) return;
+      lb.classList.remove("active");
+      lb.setAttribute("aria-hidden", "true");
+      img.src = "";
+    }
+
+    document.addEventListener("click", (e) => {
+      const card = e.target.closest?.(".photo-card[data-photo-url]");
+      if(card){
+        e.preventDefault();
+        openPhotoLightbox(card.dataset.photoUrl, card.dataset.photoCaption || "");
+        return;
+      }
+      if(e.target && (e.target.id === "photoLightbox" || e.target.id === "photoLightboxClose")){
+        closePhotoLightbox();
+      }
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if(e.key === "Escape") closePhotoLightbox();
+    });
+
+    function fmtLocal(d){
+      const months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+      return `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()} ${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
+    }
+
+    document.getElementById("lastUpdated").textContent = fmtLocal(new Date(document.lastModified || Date.now()));
+
+    const RAW_BASE = "https://raw.githubusercontent.com/CentralEuropeanForecasting/cestof-warnings/main";
+    const TORNADO_URL = `${RAW_BASE}/data/tornadoes.geojson`;
+    const DEFAULT_CENTER = [49.8, 15.2];
+    const DEFAULT_ZOOM = 6;
+    const MARKER_MAX_ZOOM = 6;
+
+    const IF_SCALE_ORDER = ["IF0","IF0.5","IF1","IF1.5","IF2","IF2.5","IF3","IF4","IF5"];
+    function getIFRank(scale){ return IF_SCALE_ORDER.indexOf(String(scale || "")); }
+    function getIFColor(scale){
+      return {
+        "IF0":"#bde0fe",
+        "IF0.5":"#90dbf4",
+        "IF1":"#76c893",
+        "IF1.5":"#52b788",
+        "IF2":"#ffd166",
+        "IF2.5":"#fca311",
+        "IF3":"#e85d04",
+        "IF4":"#d00000",
+        "IF5":"#6a00f4"
+      }[scale] || "#777";
+    }
+
+    function getIFTextColor(scale){
+      return ["IF3","IF4","IF5"].includes(String(scale || "")) ? "#fff" : "#000";
+    }
+
+    function photoURLToRaw(url){
+      let u = String(url || "").trim();
+      if(!u) return "";
+      u = u.replace(/\\/g, "/");
+
+      // GitHub normal page URL -> raw URL
+      // https://github.com/OWNER/REPO/blob/main/img/tornadoes/photo.jpg
+      if(/^https?:\/\/github\.com\//i.test(u) && u.includes("/blob/")){
+        u = u.replace("https://github.com/", "https://raw.githubusercontent.com/").replace("/blob/", "/");
+      }
+
+      // Already a raw/image/data URL
+      if(/^https?:\/\//i.test(u) || /^data:image\//i.test(u)) return u;
+
+      // Relative paths saved in GeoJSON -> GitHub raw destination
+      u = u.replace(/^\.\//, "").replace(/^\//, "");
+      if(/^img\//i.test(u) || /^data\//i.test(u)) return RAW_BASE + "/" + u;
+
+      // Filename only fallback: assume tornado image folder
+      return RAW_BASE + "/img/tornadoes/" + u;
+    }
+
+    function getCaptionListFromProps(props = {}){
+      const raw = props.photo_captions || props.photoCaptions || props.captions || props.photo_descriptions || props.photoDescriptions || props.descriptions || props.photo_text || props.photoText || "";
+      if(!raw) return [];
+      if(Array.isArray(raw)) return raw.map(v => String(v || "").trim());
+      if(typeof raw === "string"){
+        const txt = raw.trim();
+        if(!txt) return [];
+        if((txt.startsWith("[") && txt.endsWith("]")) || (txt.startsWith("{") && txt.endsWith("}"))){
+          try{
+            const parsed = JSON.parse(txt);
+            if(Array.isArray(parsed)) return parsed.map(v => String(v || "").trim());
+          }catch(e){}
+        }
+        return txt.split(/\r?\n/).map(v => v.trim());
+      }
+      return [];
+    }
+
+    function normalizePhotos(photos, props = {}){
+      let raw = photos;
+      const captionList = getCaptionListFromProps(props);
+      if(!raw){
+        raw = props.photos || props.photo || props.photo_url || props.photo_urls || props.image || props.image_url || props.images || props.img || props.img_url || props.picture || props.pictures;
+      }
+      if(!raw) return [];
+      if(typeof raw === "string"){
+        const txt = raw.trim();
+        if(!txt) return [];
+        if((txt.startsWith("[") && txt.endsWith("]")) || (txt.startsWith("{") && txt.endsWith("}"))){
+          try{ raw = JSON.parse(txt); }
+          catch(e){ raw = txt.split(/\\r?\\n|,/).map(v => v.trim()).filter(Boolean); }
+        }else{
+          raw = txt.split(/\\r?\\n|,/).map(v => v.trim()).filter(Boolean);
+        }
+      }
+      if(!Array.isArray(raw)) raw = [raw];
+      return raw.map((p, i) => {
+        if(typeof p === "string") return { url: photoURLToRaw(p), caption: captionList[i] || "" };
+        const caption = String(p.caption || p.description || p.desc || p.text || p.label || p.comment || p.alt || p.photo_caption || p.photoDescription || captionList[i] || "").trim();
+        return { url: photoURLToRaw(p.url || p.href || p.src || p.raw_url || p.path || p.file || p.filename || p.image || p.photo || ""), caption };
+      }).filter(p => p.url);
+    }
+
+    function photoGalleryHTML(photos, props = {}){
+      const list = normalizePhotos(photos, props);
+      if(!list.length) return "";
+      return `<div style="margin-top:10px;border-top:1px solid #999;padding-top:8px;"><b>Photos:</b><div class="photo-grid">${list.map(photo => `
+        <button type="button" class="photo-card" data-photo-url="${escapeHTML(photo.url)}" data-photo-caption="${escapeHTML(photo.caption || '')}">
+          <img src="${escapeHTML(photo.url)}" alt="${escapeHTML(photo.caption || 'Tornado damage photo')}" loading="lazy" onerror="this.style.display='none'; this.parentNode.insertAdjacentHTML('beforeend','<div class=&quot;photo-caption&quot;>Image could not load</div>');" />
+          ${photo.caption ? `<div class="photo-caption">${escapeHTML(photo.caption)}</div>` : ``}
+        </button>`).join("")}</div></div>`;
+    }
+
+    function parseDate(dateString){
+      if(!dateString) return null;
+      const d = new Date(String(dateString).slice(0,10) + "T12:00:00Z");
+      return Number.isNaN(d.getTime()) ? null : d;
+    }
+
+    function formatDateDMY(dateString){
+      const d = parseDate(dateString);
+      if(!d) return "";
+      const dd = String(d.getUTCDate()).padStart(2,"0");
+      const mm = String(d.getUTCMonth() + 1).padStart(2,"0");
+      const yy = d.getUTCFullYear();
+      return `${dd}-${mm}-${yy}`;
+    }
+
+    function getYear(dateString){
+      const d = parseDate(dateString);
+      return d ? String(d.getUTCFullYear()) : "";
+    }
+
+    function getMonth(dateString){
+      const d = parseDate(dateString);
+      return d ? String(d.getUTCMonth() + 1).padStart(2,"0") : "";
+    }
+
+    function monthName(mm){
+      const names = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+      const i = Number(mm) - 1;
+      return names[i] || mm;
+    }
+
+    const map = L.map("map", { zoomControl:true, preferCanvas:false, maxZoom:19 }).setView(DEFAULT_CENTER, DEFAULT_ZOOM);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom:19,
+      attribution:"© OpenStreetMap"
+    }).addTo(map);
+
+    let allFeatures = [];
+    let currentGroups = [];
+    let layerGroup = L.featureGroup().addTo(map);
+    let markerGroup = L.featureGroup().addTo(map);
+
+    function normalizeFeature(feature){
+      feature.properties = feature.properties || {};
+      const p = feature.properties;
+      p.kind = "tornado";
+      p.type = p.type || "tornado_archive";
+      p.tornado_id = p.tornado_id || p.name || "Unnamed tornado";
+      p.name = p.tornado_id;
+      p.scale = p.scale || "IF0";
+      p.date = String(p.date || "").slice(0,10);
+      p.location = p.location || "";
+      p.damage_type = p.damage_type || "General damage";
+      p.notes = p.notes || "";
+      p.photos = normalizePhotos(p.photos, p);
+      return feature;
+    }
+
+    function groupTornadoes(features){
+      const groups = new Map();
+
+      features.forEach(f => {
+        const p = f.properties || {};
+        const id = p.tornado_id || p.name || "Unnamed tornado";
+        if(!groups.has(id)){
+          groups.set(id, {
+            id,
+            features: [],
+            dates: new Set(),
+            locations: new Set(),
+            maxScale: "IF0",
+            maxRank: -1,
+            bounds: null,
+            center: null
+          });
+        }
+
+        const g = groups.get(id);
+        g.features.push(f);
+        if(p.date) g.dates.add(p.date);
+        if(p.location) g.locations.add(p.location);
+
+        const r = getIFRank(p.scale);
+        if(r > g.maxRank){
+          g.maxRank = r;
+          g.maxScale = p.scale;
+        }
+      });
+
+      const arr = [...groups.values()];
+      arr.forEach(g => {
+        const temp = L.featureGroup();
+        g.features.forEach(f => {
+          L.geoJSON(f).eachLayer(l => temp.addLayer(l));
+        });
+        try{
+          g.bounds = temp.getBounds();
+          g.center = g.bounds.getCenter();
+        }catch(e){
+          g.bounds = null;
+          g.center = null;
+        }
+      });
+
+      return arr.sort((a,b) => {
+        const da = [...a.dates].sort()[0] || "";
+        const db = [...b.dates].sort()[0] || "";
+        return db.localeCompare(da) || b.maxRank - a.maxRank;
+      });
+    }
+
+    function populateFilters(features){
+      const years = new Set();
+      const months = new Set();
+
+      features.forEach(f => {
+        const p = f.properties || {};
+        const y = getYear(p.date);
+        const m = getMonth(p.date);
+        if(y) years.add(y);
+        if(m) months.add(m);
+      });
+
+      fillSelect("yearFilter", "All years", [...years].sort((a,b)=>b.localeCompare(a)));
+      fillSelect("monthFilter", "All months", [...months].sort());
+    }
+
+    function fillSelect(id, firstLabel, values){
+      const el = document.getElementById(id);
+      const old = el.value;
+      el.innerHTML = `<option value="all">${firstLabel}</option>`;
+      values.forEach(v => {
+        const opt = document.createElement("option");
+        opt.value = v;
+        opt.textContent = id === "monthFilter" ? monthName(v) : v;
+        el.appendChild(opt);
+      });
+      if([...el.options].some(o => o.value === old)) el.value = old;
+    }
+
+    function tornadoPassesFilters(group){
+      const year = document.getElementById("yearFilter").value;
+      const month = document.getElementById("monthFilter").value;
+      const day = document.getElementById("dayFilter").value;
+      const ifScale = document.getElementById("ifFilter").value;
+
+      if(ifScale !== "all" && group.maxScale !== ifScale) return false;
+
+      if(year !== "all"){
+        const hasYear = [...group.dates].some(d => getYear(d) === year);
+        if(!hasYear) return false;
+      }
+
+      if(month !== "all"){
+        const hasMonth = [...group.dates].some(d => getMonth(d) === month);
+        if(!hasMonth) return false;
+      }
+
+      if(day){
+        const hasDay = [...group.dates].some(d => String(d).slice(0,10) === day);
+        if(!hasDay) return false;
+      }
+
+      return true;
+    }
+
+    function styleFeature(feature){
+      const p = feature.properties || {};
+      const c = getIFColor(p.scale);
+      return {
+        color:c,
+        fill:true,
+        fillColor:c,
+        fillOpacity:0.26,
+        opacity:1,
+        weight:3,
+        lineCap:"round",
+        lineJoin:"round"
+      };
+    }
+
+    function popupHTML(feature, group){
+      const p = feature.properties || {};
+      const dates = [...group.dates].sort().map(formatDateDMY).filter(Boolean).join(", ");
+      const locations = [...group.locations].sort().join(", ");
+      const polygonColor = getIFColor(p.scale);
+      const maxColor = getIFColor(group.maxScale);
+      return `
+        <div style="font-family:Arial,Helvetica,sans-serif;min-width:245px;">
+          <div class="popup-tornado-title">${escapeHTML(group.id)}</div>
+          <div><b>Polygon IF:</b> <span class="popup-if-chip" style="background:${polygonColor};">${escapeHTML(p.scale || "-")}</span></div>
+          <div><b>Tornado max IF:</b> <span class="popup-if-chip" style="background:${maxColor};">${escapeHTML(group.maxScale)}</span></div>
+          ${dates ? `<div><b>Date:</b> ${escapeHTML(dates)}</div>` : ""}
+          ${locations ? `<div><b>Location:</b> ${escapeHTML(locations)}</div>` : ""}
+          ${p.damage_type ? `<div><b>Damage type:</b> ${escapeHTML(p.damage_type)}</div>` : ""}
+          ${p.notes ? `<div style="margin-top:8px;color:#222;">${escapeHTML(p.notes)}</div>` : ""}
+          ${photoGalleryHTML(p.photos, p)}
+        </div>
+      `;
+    }
+
+    function focusTornado(group){
+      if(!group || !group.bounds) return;
+      try{
+        map.fitBounds(group.bounds, { padding:[18,18], maxZoom:14 });
+      }catch(e){}
+    }
+
+    function render(){
+      layerGroup.clearLayers();
+      markerGroup.clearLayers();
+
+      const groups = groupTornadoes(allFeatures).filter(tornadoPassesFilters);
+      currentGroups = groups;
+      const visibleFeatures = groups.flatMap(g => g.features);
+
+      groups.forEach(group => {
+        group.features.forEach(feature => {
+          const layer = L.geoJSON(feature, {
+            style: styleFeature,
+            onEachFeature: (f, l) => {
+              l.bindPopup(popupHTML(f, group));
+              l.on("click", () => focusTornado(group));
+            }
+          });
+          layerGroup.addLayer(layer);
+        });
+      });
+
+      renderZoomMarkers(groups);
+      renderList(groups);
+      renderStats(groups);
+      updateMarkerVisibility();
+
+      // Do not auto-zoom to tornadoes. Keep the default Central Europe map unless the user clicks a tornado.
+    }
+
+    function renderZoomMarkers(groups){
+      markerGroup.clearLayers();
+
+      groups.forEach(group => {
+        if(!group.center) return;
+        const color = getIFColor(group.maxScale);
+        const label = escapeHTML(group.maxScale);
+        const icon = L.divIcon({
+          className:"",
+          html:`<div class="tor-marker" style="background:${color}"></div><span class="tor-marker-label">${label}</span>`,
+          iconSize:[18,18],
+          iconAnchor:[9,9]
+        });
+        const marker = L.marker(group.center, { icon, title:group.id });
+        marker.bindPopup(`
+          <div style="font-family:Arial,Helvetica,sans-serif;min-width:220px;">
+            <div style="font-weight:900;margin-bottom:6px;">${escapeHTML(group.id)}</div>
+            <div><b>Max IF:</b> <span class="if-chip" style="background:${getIFColor(group.maxScale)};color:${getIFTextColor(group.maxScale)};">${escapeHTML(group.maxScale)}</span></div>
+            <div><b>Date:</b> ${escapeHTML([...group.dates].sort().map(formatDateDMY).filter(Boolean).join(", ") || "-")}</div>
+            <div style="margin-top:8px;"><b>Click this marker to zoom to the full tornado.</b></div>
+          </div>
+        `);
+        marker.on("click", () => focusTornado(group));
+        markerGroup.addLayer(marker);
+      });
+    }
+
+    function updateMarkerVisibility(){
+      const shouldShow = map.getZoom() <= MARKER_MAX_ZOOM;
+      if(shouldShow){
+        if(!map.hasLayer(markerGroup)) markerGroup.addTo(map);
+      }else{
+        if(map.hasLayer(markerGroup)) map.removeLayer(markerGroup);
+      }
+    }
+
+    map.on("zoomend", updateMarkerVisibility);
+
+    function renderList(groups){
+      const box = document.getElementById("tornadoList");
+
+      if(!groups.length){
+        box.innerHTML = `<div class="small">No tornadoes match the selected filters.</div>`;
+        return;
+      }
+
+      box.innerHTML = "";
+      groups.forEach(group => {
+        const div = document.createElement("div");
+        div.className = "tor-item";
+
+        const dates = [...group.dates].sort().map(formatDateDMY).filter(Boolean);
+        const locations = [...group.locations].sort();
+        div.innerHTML = `
+          <div class="tor-title">${escapeHTML(group.id)} <span class="if-chip" style="background:${getIFColor(group.maxScale)};color:${getIFTextColor(group.maxScale)};">${escapeHTML(group.maxScale)}</span></div>
+          <div class="tor-meta">
+            ${dates.length ? `<b>Date:</b> ${escapeHTML(dates.join(", "))}<br>` : ""}
+            ${locations.length ? `<b>Location:</b> ${escapeHTML(locations.join(", "))}<br>` : ""}
+            <b>Click to zoom to the full tornado</b>
+          </div>
+        `;
+
+        div.addEventListener("click", () => focusTornado(group));
+        box.appendChild(div);
+      });
+    }
+
+    function renderStats(groups){
+      document.getElementById("torCount").textContent = groups.length;
+
+      let maxScale = "—";
+      let maxRank = -1;
+      groups.forEach(g => {
+        if(g.maxRank > maxRank){
+          maxRank = g.maxRank;
+          maxScale = g.maxScale;
+        }
+      });
+
+      const maxEl = document.getElementById("maxIF");
+      if(maxScale === "—"){
+        maxEl.textContent = "—";
+      }else{
+        maxEl.innerHTML = `<span class="if-chip" style="background:${getIFColor(maxScale)};color:${getIFTextColor(maxScale)};">${escapeHTML(maxScale)}</span>`;
+      }
+    }
+
+    async function loadTornadoes(){
+      try{
+        const res = await fetch(TORNADO_URL + "?v=" + Date.now(), { cache:"no-store" });
+        if(!res.ok) throw new Error("Missing tornadoes.geojson");
+        const gj = await res.json();
+        allFeatures = (gj.features || []).map(normalizeFeature);
+        populateFilters(allFeatures);
+        map.setView(DEFAULT_CENTER, DEFAULT_ZOOM);
+        render();
+      }catch(e){
+        allFeatures = [];
+        layerGroup.clearLayers();
+        markerGroup.clearLayers();
+        map.setView(DEFAULT_CENTER, DEFAULT_ZOOM);
+        document.getElementById("tornadoList").innerHTML = `<div class="small"><b>Could not load tornado archive.</b></div>`;
+        renderStats([]);
+      }
+    }
+
+    ["yearFilter","monthFilter","dayFilter","ifFilter"].forEach(id => {
+      document.getElementById(id).addEventListener("change", render);
+    });
+
+    document.getElementById("reloadBtn").addEventListener("click", loadTornadoes);
+
+    document.getElementById("resetBtn").addEventListener("click", () => {
+      document.getElementById("yearFilter").value = "all";
+      document.getElementById("monthFilter").value = "all";
+      document.getElementById("dayFilter").value = "";
+      document.getElementById("ifFilter").value = "all";
+      map.setView(DEFAULT_CENTER, DEFAULT_ZOOM);
+      render();
+    });
+
+    const legend = L.control({ position:"bottomright" });
+    legend.onAdd = function(){
+      const div = L.DomUtil.create("div","legend leaflet-control");
+      div.innerHTML = `<h3>IF Scale</h3>` + IF_SCALE_ORDER.map(scale => {
+        return `<div class="row"><span class="swatch" style="background:${getIFColor(scale)}"></span>${scale}</div>`;
+      }).join("");
+      return div;
+    };
+    legend.addTo(map);
+
+    loadTornadoes();
+  </script>
+</body>
+</html>

@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Home - CESTOF</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Welcome to CESTOF — convective forecasts, outlooks, warnings, articles and monitoring.">
+<link rel="icon" type="image/png" href="img/favicon.png">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<style>
+body{
+ margin:0;
+ font-family: Arial, Helvetica, sans-serif;
+ background: #dfe6ee url("img/bg.jpg") center/cover fixed no-repeat;
+ color:#111;
+}
+body::before{
+ content:"";
+ position:fixed;
+ inset:0;
+ background: rgba(0,0,0,.38);
+ pointer-events:none;
+ z-index:-1;
+}
+.wrap{
+ max-width:1000px;
+ margin:16px auto;
+ padding:0 12px 18px;
+}
+
+header{
+ background: rgba(255,255,255,.88);
+ border:2px solid #000;
+}
+.header-top{
+ display:flex;
+ align-items:center;
+ gap:12px;
+ padding:10px;
+}
+.header-top .logo{
+ height:48px;
+}
+.title-img{
+ display:block;
+ height: 34px;
+ max-width: 100%;
+}
+header .sub{
+ margin:4px 0 0;
+ font-style:italic;
+ color:#333;
+}
+.header-meta{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ gap:10px;
+ padding:8px 10px;
+ background:#f2f2f2;
+ border-top:2px solid #000;
+}
+.tagline{
+ margin:0;
+ font-size:.95rem;
+ color:#222;
+}
+.last-updated{
+ margin:0;
+ font-size:.9rem;
+}
+.last-updated b{ font-weight:bold; }
+
+nav{
+ display:flex;
+ flex-wrap:wrap;
+ gap:10px;
+ justify-content:center;
+ background:#f4f4f4;
+ border-top:2px solid #000;
+ border-bottom:2px solid #000;
+ padding:8px 0;
+}
+nav a{
+ text-decoration:none;
+ color:#000;
+ font-weight:bold;
+ padding:5px 10px;
+}
+nav a:hover{
+ background:#000;
+ color:#fff;
+}
+
+main{
+ margin-top:14px;
+}
+.section{
+ background: rgba(255,255,255,.86);
+ border:1px solid #000;
+ margin-bottom:14px;
+ padding:14px;
+}
+.section h2{
+ margin:0 0 10px;
+ border-bottom:2px solid #000;
+ padding-bottom:4px;
+}
+
+.outlook-tabs{
+ display:grid;
+ gap:10px;
+ grid-template-columns:repeat(auto-fit,minmax(130px,1fr));
+}
+.outlook-day{
+ border:1px solid #000;
+ background:rgba(248,248,248,.95);
+ color:#000;
+ text-decoration:none;
+ padding:12px 10px;
+ min-height:74px;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ gap:5px;
+ position:relative;
+ overflow:hidden;
+}
+.outlook-day:hover{
+ background:#e8e8e8;
+}
+.outlook-day strong{
+ font-size:1.05rem;
+}
+.outlook-day span{
+ font-size:.86rem;
+ color:#333;
+}
+.outlook-day small{
+ font-size:.78rem;
+ color:#555;
+}
+.outlook-risk-name{
+ font-size:.88rem;
+ font-weight:800;
+ color:#111;
+ font-style:normal;
+}
+.outlook-day.has-outlook{
+ color:#000;
+ border-color:#000;
+ box-shadow:0 14px 28px rgba(0,0,0,.22);
+}
+.outlook-day.has-outlook span,
+.outlook-day.has-outlook small,
+.outlook-day.has-outlook .outlook-risk-name{
+ color:#000;
+}
+.outlook-day.dark-risk,
+.outlook-day.dark-risk span,
+.outlook-day.dark-risk small,
+.outlook-day.dark-risk .outlook-risk-name{
+ color:#fff;
+}
+.outlook-day.single-hatch::after{
+ content:"";
+ position:absolute;
+ inset:0;
+ background-image:repeating-linear-gradient(30deg, rgba(0,0,0,.55) 0, rgba(0,0,0,.55) 1px, transparent 1px, transparent 8px);
+ pointer-events:none;
+}
+.outlook-day.double-hatch::before,
+.outlook-day.double-hatch::after{
+ content:"";
+ position:absolute;
+ inset:0;
+ pointer-events:none;
+}
+.outlook-day.double-hatch::before{
+ background-image:repeating-linear-gradient(30deg, rgba(0,0,0,.55) 0, rgba(0,0,0,.55) 1px, transparent 1px, transparent 8px);
+}
+.outlook-day.double-hatch::after{
+ background-image:repeating-linear-gradient(-30deg, rgba(0,0,0,.55) 0, rgba(0,0,0,.55) 1px, transparent 1px, transparent 8px);
+}
+.outlook-day > *{
+ position:relative;
+ z-index:1;
+}
+
+.severity-lightning-grid{
+ display:grid;
+ grid-template-columns:minmax(280px,1.05fr) minmax(280px,.95fr);
+ gap:14px;
+ align-items:stretch;
+}
+.severity-panel,.lightning-panel{
+ border:1px solid #777;
+ background:rgba(255,255,255,.94);
+ padding:12px;
+}
+.severity-head{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ gap:10px;
+ flex-wrap:wrap;
+ margin-bottom:10px;
+}
+.severity-head h3,.lightning-panel h3{
+ margin:0;
+ font-size:1rem;
+}
+.severity-toggle{
+ display:flex;
+ gap:6px;
+ flex-wrap:wrap;
+}
+.severity-toggle button{
+ border:1px solid #000;
+ background:#f2f2f2;
+ color:#000;
+ font-weight:800;
+ padding:6px 9px;
+ cursor:pointer;
+ border-radius:9px;
+}
+.severity-toggle button.active{
+ background:#000;
+ color:#fff;
+}
+.calendar-meta{
+ margin:0 0 8px;
+ font-size:.86rem;
+ color:#333;
+}
+.calendar-weekdays,.severity-calendar{
+ display:grid;
+ grid-template-columns:repeat(7,1fr);
+ gap:5px;
+}
+.calendar-weekdays span{
+ text-align:center;
+ font-size:.75rem;
+ font-weight:800;
+ color:#444;
+}
+.calendar-day{
+ min-height:44px;
+ border:1px solid rgba(0,0,0,.35);
+ background:#eee;
+ padding:5px;
+ display:flex;
+ flex-direction:column;
+ justify-content:space-between;
+ gap:4px;
+ font-size:.75rem;
+ color:#000;
+ position:relative;
+ overflow:hidden;
+}
+.calendar-day.empty{
+ border-color:transparent;
+ background:transparent;
+}
+.calendar-day.today{
+ outline:2px solid #000;
+}
+.calendar-day.max-day{
+ outline:3px solid #ff0000 !important;
+ box-shadow:0 0 12px rgba(255,0,0,.85), inset 0 0 0 1px rgba(255,255,255,.45);
+}
+.calendar-day.dark{
+ color:#fff;
+ text-shadow:0 1px 1px rgba(0,0,0,.55);
+}
+.calendar-num{
+ font-weight:900;
+ font-size:.85rem;
+}
+.calendar-value{
+ font-weight:800;
+ line-height:1.05;
+}
+.severity-legend{
+ display:flex;
+ flex-wrap:wrap;
+ gap:6px;
+ margin-top:10px;
+ font-size:.75rem;
+ color:#222;
+}
+.legend-chip{
+ display:flex;
+ align-items:center;
+ gap:4px;
+}
+.legend-chip i{
+ width:13px;
+ height:10px;
+ border:1px solid rgba(0,0,0,.35);
+ display:inline-block;
+}
+
+.lightning-map-box{
+ margin-top:10px;
+ border:1px solid #777;
+ background:#111;
+ height:360px;
+ overflow:hidden;
+}
+#todayLightningMap{
+ width:100%;
+ height:100%;
+}
+.lightning-caption{
+ margin:8px 0 0;
+ font-size:.85rem;
+ color:#333;
+}
+.lightning-status{
+ margin:7px 0 0;
+ font-size:.82rem;
+ color:#333;
+}
+.lightning-counter{
+ background:rgba(255,255,255,.94);
+ border:1px solid #000;
+ padding:7px 10px;
+ font-size:.82rem;
+ line-height:1.15;
+ text-align:center;
+ color:#000;
+ border-radius:10px;
+ box-shadow:0 4px 12px rgba(0,0,0,.25);
+}
+.lightning-counter b{
+ font-size:1.15rem;
+}
+.lightning-plus-marker{
+ color:#000;
+ font-size:15px;
+ font-weight:900;
+ line-height:15px;
+ text-align:center;
+ text-shadow:
+   0 0 2px rgba(255,255,255,.9),
+   0 0 4px rgba(255,255,255,.7);
+}
+
+.articles-grid{
+ display:grid;
+ gap:10px;
+ grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+}
+.article-card{
+ border:1px solid #777;
+ background:#f8f8f8;
+ text-decoration:none;
+ color:#000;
+ display:flex;
+ flex-direction:column;
+}
+.article-card:hover{
+ background:#e8e8e8;
+}
+.article-card img{
+ width:100%;
+ height:110px;
+ object-fit:cover;
+ border-bottom:1px solid #777;
+ display:block;
+}
+.article-info{
+ padding:8px;
+}
+.article-info h3{
+ margin:0 0 4px;
+ font-size:.95rem;
+}
+.article-info p{
+ margin:0;
+ font-size:.85rem;
+ color:#333;
+}
+
+.photos{
+ display:grid;
+ gap:8px;
+ grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+}
+.photos img{
+ width:100%;
+ border:1px solid #777;
+ display:block;
+}
+
+.radar{
+ position:relative;
+ width:100%;
+ padding-bottom:56.25%;
+ border:1px solid #777;
+ background:#fff;
+}
+.radar iframe{
+ position:absolute;
+ inset:0;
+ width:100%;
+ height:100%;
+ border:0;
+}
+
+footer{
+ text-align:center;
+ color:#eee;
+ font-size:.9rem;
+ margin-top:14px;
+ text-shadow:0 1px 1px rgba(0,0,0,.7);
+}
+
+header,.section,.tile,.map-switcher,.photos img,.article-card,.severity-panel,.lightning-panel{
+ border-radius:12px;
+}
+header,.section,.tile,.map-switcher,.photos img,.article-card,.severity-panel,.lightning-panel{
+ box-shadow:0 10px 24px rgba(0,0,0,.12);
+}
+header{
+ overflow:hidden;
+ backdrop-filter:blur(5px);
+}
+.section{
+ backdrop-filter:blur(4px);
+}
+nav a{
+ border-radius:999px;
+ transition:background .16s,color .16s,transform .16s,box-shadow .16s;
+}
+nav a:hover{
+ transform:translateY(-1px);
+ box-shadow:0 6px 14px rgba(0,0,0,.18);
+}
+.article-card{
+ transition:transform .16s,box-shadow .16s,background .16s;
+}
+.article-card:hover{
+ transform:translateY(-2px);
+ box-shadow:0 14px 26px rgba(0,0,0,.16);
+}
+.article-card img,.photos img{
+ border-radius:10px;
+}
+.section h2{
+ letter-spacing:.2px;
+}
+nav a.active{
+ background:#000;
+ color:#fff;
+ box-shadow:0 6px 14px rgba(0,0,0,.18);
+}
+
+@media (max-width:760px){
+ .severity-lightning-grid{grid-template-columns:1fr}
+ .calendar-day{min-height:38px}
+ .lightning-map-box{height:330px}
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+<header>
+ <div class="header-top">
+   <img class="logo" src="img/logo.png" alt="CESTOF logo">
+   <div>
+     <img class="title-img" src="img/cestof-title.png" alt="CESTOF">
+     <p class="sub">Central European Storm Forecasts</p>
+   </div>
+ </div>
+
+ <div class="header-meta">
+   <p class="tagline">Convective forecasts, outlooks, warnings & articles for Central Europe.</p>
+   <p class="last-updated"><b>Last updated:</b> <span id="lastUpdated">—</span></p>
+ </div>
+
+  <nav>
+    <a href="index.html" class="active" >Home</a>
+    <a href="forecast.html">Forecasts</a>
+    <a href="outlook.html">Outlook</a>
+    <a href="radar.html">Radar</a>
+    <a href="warning.html">Warnings</a>
+    <a href="lightning.html">Lightning</a>
+    <a href="archive.html">Archive</a>
+    <a href="tornadoes.html">Tornadoes</a>
+    <a href="photos.html">Photos</a>
+  </nav>
+</header>
+
+<main>
+
+ <section class="section">
+   <h2>6-Day Convective Outlook</h2>
+   <div class="outlook-tabs" id="outlookTabs">
+     <a class="outlook-day" data-day="day1" href="outlook.html?day=day1#day1"><strong>Day 1</strong><span id="outlook-date-1">Today</span><em class="outlook-risk-name" id="outlook-risk-1">Checking outlook...</em><small>Open outlook map</small></a>
+     <a class="outlook-day" data-day="day2" href="outlook.html?day=day2#day2"><strong>Day 2</strong><span id="outlook-date-2">Tomorrow</span><em class="outlook-risk-name" id="outlook-risk-2">Checking outlook...</em><small>Open outlook map</small></a>
+     <a class="outlook-day" data-day="day3" href="outlook.html?day=day3#day3"><strong>Day 3</strong><span id="outlook-date-3">—</span><em class="outlook-risk-name" id="outlook-risk-3">Checking outlook...</em><small>Open outlook map</small></a>
+     <a class="outlook-day" data-day="day4" href="outlook.html?day=day4#day4"><strong>Day 4</strong><span id="outlook-date-4">—</span><em class="outlook-risk-name" id="outlook-risk-4">Checking outlook...</em><small>Open outlook map</small></a>
+     <a class="outlook-day" data-day="day5" href="outlook.html?day=day5#day5"><strong>Day 5</strong><span id="outlook-date-5">—</span><em class="outlook-risk-name" id="outlook-risk-5">Checking outlook...</em><small>Open outlook map</small></a>
+     <a class="outlook-day" data-day="day6" href="outlook.html?day=day6#day6"><strong>Day 6</strong><span id="outlook-date-6">—</span><em class="outlook-risk-name" id="outlook-risk-6">Checking outlook...</em><small>Open outlook map</small></a>
+   </div>
+ </section>
+
+ <section class="section">
+   <h2>Day Severity & Lightning</h2>
+   <div class="severity-lightning-grid">
+     <div class="severity-panel">
+       <div class="severity-head">
+         <h3>Monthly Severity Heatmap</h3>
+         <div class="severity-toggle" aria-label="Severity mode">
+           <button type="button" class="active" data-severity-mode="outlook">Outlook severity</button>
+           <button type="button" data-severity-mode="lightning">Lightning strikes</button>
+         </div>
+       </div>
+       <p class="calendar-meta" id="calendarMeta">Loading month severity...</p>
+       <div class="calendar-weekdays"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div>
+       <div class="severity-calendar" id="severityCalendar"></div>
+       <div class="severity-legend" id="severityLegend"></div>
+     </div>
+
+     <div class="lightning-panel">
+       <h3>Today's Lightning Map</h3>
+       <div class="lightning-map-box">
+         <div id="todayLightningMap"></div>
+       </div>
+       <p class="lightning-status" id="todayLightningStatus">Loading latest lightning strikes...</p>
+       <p class="lightning-caption"></p>
+     </div>
+   </div>
+ </section>
+
+ <section class="section">
+   <h2>Photo Highlights</h2>
+   <div class="photos">
+     <a href="photos.html"><img src="img/photos/Obamak3.jpg" alt="Photo taken by Storm Chasers (S.I.T)"></a>
+     <a href="photos.html"><img src="img/photos/Ferrarius2.jpg" alt="Photo taken by ferrarius"></a>
+     <a href="photos.html"><img src="img/photos/Ferrarius3.jpg" alt="Photo taken by ferrarius"></a>
+     <a href="photos.html"><img src="img/photos/dji.jpg" alt="Photo taken by CSW"></a>
+     <a href="photos.html"><img src="img/photos/CSW1.JPG" alt="Photo taken by CSW"></a>
+   </div>
+ </section>
+
+ <section class="section">
+   <h2>Live Radar</h2>
+   <div class="radar">
+     <iframe
+       src="https://embed.ventusky.com/?p=48.1;12.8;4&l=radar"
+       loading="lazy"
+       title="Ventusky Radar"></iframe>
+   </div>
+ </section>
+
+</main>
+
+<footer>
+ <p>© 2025 Central European Storm Forecasts | Cell Spot</p>
+</footer>
+
+</div>
+
+<script>
+const RAW_BASE = "https://raw.githubusercontent.com/CentralEuropeanForecasting/cestof-warnings/main";
+const DAY_KEYS = ["day1","day2","day3","day4","day5","day6"];
+const HAZARDS = [
+  { key:"general", suffix:"" },
+  { key:"tornado", suffix:"_tornado" },
+  { key:"hail", suffix:"_hail" },
+  { key:"wind", suffix:"_wind" }
+];
+
+const COLOR_MAP = {
+  "risk-blue":"#39ff14",
+  "risk-green":"#1f8f3a",
+  "risk-yellow":"#ffe600",
+  "risk-orange":"#ff9900",
+  "risk-red":"#b30000",
+  "risk-magenta":"#ff00ff"
+};
+
+const MATRIX = {
+  ">50": {"1":{cls:"risk-green",label:"General Risk",hatch:"none"},"2":{cls:"risk-green",label:"General Risk",hatch:"none"},"3":{cls:"risk-yellow",label:"Slight Risk",hatch:"none"},"4":{cls:"risk-orange",label:"Enhanced Risk",hatch:"none"},"5":{cls:"risk-red",label:"Moderate Risk",hatch:"single"},"6":{cls:"risk-magenta",label:"Severe Risk",hatch:"double"}},
+  "45":  {"1":{cls:"risk-green",label:"General Risk",hatch:"none"},"2":{cls:"risk-green",label:"General Risk",hatch:"none"},"3":{cls:"risk-yellow",label:"Slight Risk",hatch:"none"},"4":{cls:"risk-orange",label:"Enhanced Risk",hatch:"none"},"5":{cls:"risk-red",label:"Moderate Risk",hatch:"none"},"6":{cls:"risk-magenta",label:"Severe Risk",hatch:"single"}},
+  "30":  {"1":{cls:"risk-green",label:"General Risk",hatch:"none"},"2":{cls:"risk-green",label:"General Risk",hatch:"none"},"3":{cls:"risk-yellow",label:"Slight Risk",hatch:"none"},"4":{cls:"risk-orange",label:"Enhanced Risk",hatch:"none"},"5":{cls:"risk-red",label:"Moderate Risk",hatch:"none"},"6":{cls:"risk-magenta",label:"Severe Risk",hatch:"none"}},
+  "15":  {"1":{cls:"risk-blue",label:"T-Storm Risk",hatch:"none"},"2":{cls:"risk-green",label:"General Risk",hatch:"none"},"3":{cls:"risk-yellow",label:"Slight Risk",hatch:"none"},"4":{cls:"risk-yellow",label:"Slight Risk",hatch:"none"},"5":{cls:"risk-orange",label:"Enhanced Risk",hatch:"none"},"6":{cls:"risk-red",label:"Moderate Risk",hatch:"none"}},
+  "5":   {"1":{cls:"risk-blue",label:"T-Storm Risk",hatch:"none"},"2":{cls:"risk-blue",label:"T-Storm Risk",hatch:"none"},"3":{cls:"risk-green",label:"General Risk",hatch:"none"},"4":{cls:"risk-yellow",label:"Slight Risk",hatch:"none"},"5":{cls:"risk-orange",label:"Enhanced Risk",hatch:"none"},"6":{cls:"risk-red",label:"Moderate Risk",hatch:"none"}},
+  "<5":  {"1":{cls:"risk-blue",label:"T-Storm Risk",hatch:"none"},"2":{cls:"risk-blue",label:"T-Storm Risk",hatch:"none"},"3":{cls:"risk-blue",label:"T-Storm Risk",hatch:"none"},"4":{cls:"risk-green",label:"General Risk",hatch:"none"},"5":{cls:"risk-yellow",label:"Slight Risk",hatch:"none"},"6":{cls:"risk-orange",label:"Enhanced Risk",hatch:"none"}}
+};
+
+const RISK_BY_LABEL = {
+  "t-storm risk": { cls:"risk-blue", label:"T-Storm Risk", hatch:"none" },
+  "tstorm risk": { cls:"risk-blue", label:"T-Storm Risk", hatch:"none" },
+  "thunderstorm risk": { cls:"risk-blue", label:"T-Storm Risk", hatch:"none" },
+  "general risk": { cls:"risk-green", label:"General Risk", hatch:"none" },
+  "slight risk": { cls:"risk-yellow", label:"Slight Risk", hatch:"none" },
+  "enhanced risk": { cls:"risk-orange", label:"Enhanced Risk", hatch:"none" },
+  "moderate risk": { cls:"risk-red", label:"Moderate Risk", hatch:"none" },
+  "severe risk": { cls:"risk-magenta", label:"Severe Risk", hatch:"none" }
+};
+
+function fmtDisplay(iso){
+  if(!iso) return "—";
+  const d = new Date(iso);
+  if(Number.isNaN(d.getTime())) return "—";
+  const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  return `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()} ${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
+}
+function fmtOutlookDate(offset){
+  const d = new Date(); d.setHours(12,0,0,0); d.setDate(d.getDate()+offset);
+  const days=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+  return `${days[d.getDay()]} ${String(d.getDate()).padStart(2,"0")}/${String(d.getMonth()+1).padStart(2,"0")}`;
+}
+function fileDate(offsetDays){
+  const d = new Date(); d.setHours(12,0,0,0); d.setDate(d.getDate()+offsetDays);
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+}
+function getFileUrl(dayKey, suffix){
+  if(dayKey === "day1") return `${RAW_BASE}/qgis_polygons${suffix}.geojson`;
+  return `${RAW_BASE}/${fileDate(DAY_KEYS.indexOf(dayKey))}${suffix}.geojson`;
+}
+function normalizeLegacyRisk(v){
+  const n=Number(v); if(Number.isNaN(n)) return null;
+  if(n<5) return 0; if(n===5) return 5; if(n===15) return 15; if(n===30) return 30; if(n===45) return 45; if(n>=50) return 50;
+  return null;
+}
+function metaFromLegacyRisk(risk){
+  if(risk===0) return {cls:"risk-blue",label:"T-Storm Risk",hatch:"none"};
+  if(risk===5) return {cls:"risk-green",label:"General Risk",hatch:"none"};
+  if(risk===15) return {cls:"risk-yellow",label:"Slight Risk",hatch:"none"};
+  if(risk===30) return {cls:"risk-orange",label:"Enhanced Risk",hatch:"none"};
+  if(risk===45) return {cls:"risk-red",label:"Moderate Risk",hatch:"none"};
+  if(risk===50) return {cls:"risk-magenta",label:"Severe Risk",hatch:"none"};
+  return null;
+}
+function getMetaFromProps(props={}){
+  const probability=String(props.probability||"").trim();
+  const intensity=String(props.intensity||"").trim();
+  if(probability && intensity && MATRIX[probability] && MATRIX[probability][intensity]) return MATRIX[probability][intensity];
+  const legacyRisk=normalizeLegacyRisk(props.risk ?? props.prob);
+  if(legacyRisk !== null) return metaFromLegacyRisk(legacyRisk);
+  const label=String(props.riskLabel || props.risk_label || props.label || "").trim().toLowerCase();
+  if(label && RISK_BY_LABEL[label]) return RISK_BY_LABEL[label];
+  return null;
+}
+function getRankFromMeta(meta){ return {"risk-blue":1,"risk-green":2,"risk-yellow":3,"risk-orange":4,"risk-red":5,"risk-magenta":6}[meta?.cls] || 0; }
+function classToColor(cls){ return COLOR_MAP[cls] || "rgba(248,248,248,.95)"; }
+async function fetchGeoJSON(url){
+  try{
+    const res=await fetch(url+"?v="+Date.now(),{cache:"no-store"});
+    if(!res.ok) return null;
+    const gj=await res.json();
+    return (gj?.features?.length ? gj : null);
+  }catch(e){
+    return null;
+  }
+}
+function highestMetaFromGeoJSON(gj){
+  let best=null, bestRank=0;
+  for(const f of gj?.features || []){
+    const meta=getMetaFromProps(f.properties||{});
+    const rank=getRankFromMeta(meta);
+    if(rank>bestRank){best=meta; bestRank=rank;}
+  }
+  return best;
+}
+async function loadHighestOutlookForDay(dayKey){
+  const metas = await Promise.all(HAZARDS.map(async h => highestMetaFromGeoJSON(await fetchGeoJSON(getFileUrl(dayKey,h.suffix)))));
+  return metas.reduce((best, meta) => getRankFromMeta(meta) > getRankFromMeta(best) ? meta : best, null);
+}
+function applyOutlookTab(dayNumber, meta){
+  const tab=document.querySelector(`.outlook-day[data-day="day${dayNumber}"]`);
+  const label=document.getElementById(`outlook-risk-${dayNumber}`);
+  if(!tab || !label) return;
+  tab.classList.remove("has-outlook","dark-risk","single-hatch","double-hatch");
+  if(!meta){
+    tab.style.background="rgba(248,248,248,.95)";
+    label.textContent="No active outlook";
+    return;
+  }
+  tab.classList.add("has-outlook");
+  if(meta.cls==="risk-green" || meta.cls==="risk-red" || meta.cls==="risk-magenta") tab.classList.add("dark-risk");
+  if(meta.hatch==="single") tab.classList.add("single-hatch");
+  if(meta.hatch==="double") tab.classList.add("double-hatch");
+  tab.style.background=classToColor(meta.cls);
+  label.textContent=meta.label || "Active Outlook";
+}
+async function initHomeOutlookTabs(){
+  const last=document.getElementById("lastUpdated");
+  if(last) last.textContent=fmtDisplay(new Date(document.lastModified || Date.now()));
+  for(let i=1;i<=6;i++){
+    const el=document.getElementById(`outlook-date-${i}`);
+    if(el) el.textContent=fmtOutlookDate(i-1);
+  }
+  await Promise.all(DAY_KEYS.map(async (dayKey,idx)=>applyOutlookTab(idx+1, await loadHighestOutlookForDay(dayKey))));
+}
+initHomeOutlookTabs();
+setInterval(initHomeOutlookTabs, 5*60*1000);
+</script>
+
+<script>
+const LIGHTNING_CSV_FOLDER = RAW_BASE + "/data";
+let severityMode = "outlook";
+let lightningDailyCounts = {};
+let outlookDailyMeta = {};
+
+const LIGHTNING_SCALE = [
+  {min:1,max:100,label:"1–100",color:"#b7afd9",dark:false},
+  {min:101,max:250,label:"101–250",color:"#6f79d8",dark:true},
+  {min:251,max:500,label:"251–500",color:"#5fa0dc",dark:true},
+  {min:501,max:1000,label:"501–1k",color:"#64c75d",dark:true},
+  {min:1001,max:2500,label:"1k–2.5k",color:"#b9e754",dark:false},
+  {min:2501,max:5000,label:"2.5k–5k",color:"#f1cc5c",dark:false},
+  {min:5001,max:10000,label:"5k–10k",color:"#ff985c",dark:false},
+  {min:10001,max:15000,label:"10k–15k",color:"#ff5b63",dark:true},
+  {min:15001,max:20000,label:"15k–20k",color:"#e60039",dark:true},
+  {min:20001,max:30000,label:"20k–30k",color:"#b0005c",dark:true},
+  {min:30001,max:Infinity,label:"30k+",color:"#ff00ff",dark:true}
+];
+
+const OUTLOOK_LEGEND = [
+  {label:"None",color:"#eeeeee"},
+  {label:"T-Storm",color:COLOR_MAP["risk-blue"]},
+  {label:"General",color:COLOR_MAP["risk-green"]},
+  {label:"Slight",color:COLOR_MAP["risk-yellow"]},
+  {label:"Enhanced",color:COLOR_MAP["risk-orange"]},
+  {label:"Moderate",color:COLOR_MAP["risk-red"]},
+  {label:"Severe",color:COLOR_MAP["risk-magenta"]}
+];
+
+function ymd(d){return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;}
+function monthLabel(d){return d.toLocaleString("en-GB",{month:"long",year:"numeric"});}
+function parseCSVLine(line){
+ const out=[]; let cur="", q=false;
+ for(let i=0;i<line.length;i++){
+   const ch=line[i];
+   if(ch === '"' && line[i+1] === '"'){ cur += '"'; i++; }
+   else if(ch === '"'){ q = !q; }
+   else if(ch === "," && !q){ out.push(cur.trim()); cur=""; }
+   else cur += ch;
+ }
+ out.push(cur.trim());
+ return out;
+}
+async function loadLightningCSV(){
+ const now=new Date(), y=now.getFullYear(), m=now.getMonth(), days=new Date(y,m+1,0).getDate();
+ const data={};
+ const tasks=[];
+ for(let day=1; day<=days; day++){
+   const dateStr=`${y}-${String(m+1).padStart(2,"0")}-${String(day).padStart(2,"0")}`;
+   const url=`${LIGHTNING_CSV_FOLDER}/${dateStr}.csv?v=${Date.now()}`;
+   tasks.push(fetch(url,{cache:"no-store"})
+     .then(res=>res.ok ? res.text() : "")
+     .then(text=>{
+       const lines=text.split(/\r?\n/).filter(l=>l.trim());
+       let count=0;
+       for(const line of lines){
+         const c=parseCSVLine(line);
+         if(c.length < 3) continue;
+         const lat=Number(c[0]), lon=Number(c[1]);
+         if(Number.isFinite(lat) && Number.isFinite(lon)) count++;
+       }
+       data[dateStr]=count;
+     })
+     .catch(()=>{ data[dateStr]=0; })
+   );
+ }
+ await Promise.all(tasks);
+ return data;
+}
+function lightningMeta(n){
+ if(!n || n<1) return {label:"0",color:"#eeeeee",dark:false};
+ return LIGHTNING_SCALE.find(x=>n>=x.min && n<=x.max) || LIGHTNING_SCALE[LIGHTNING_SCALE.length-1];
+}
+async function loadOutlookMetaForDate(dateStr){
+ const today=ymd(new Date());
+ const metas=await Promise.all(HAZARDS.map(async h=>{
+   const url=dateStr===today ? `${RAW_BASE}/qgis_polygons${h.suffix}.geojson` : `${RAW_BASE}/${dateStr}${h.suffix}.geojson`;
+   return highestMetaFromGeoJSON(await fetchGeoJSON(url));
+ }));
+ return metas.reduce((best,meta)=>getRankFromMeta(meta)>getRankFromMeta(best)?meta:best,null);
+}
+async function preloadMonthOutlooks(){
+ const now=new Date(), y=now.getFullYear(), m=now.getMonth(), days=new Date(y,m+1,0).getDate();
+ const tasks=[];
+ for(let day=1; day<=days; day++){
+   const key=ymd(new Date(y,m,day,12));
+   tasks.push(loadOutlookMetaForDate(key).then(meta=>{outlookDailyMeta[key]=meta;}));
+ }
+ await Promise.all(tasks);
+}
+function renderLegend(){
+ const el=document.getElementById("severityLegend");
+ if(!el) return;
+ const scale=severityMode==="lightning" ? [{label:"0",color:"#eeeeee"},...LIGHTNING_SCALE] : OUTLOOK_LEGEND;
+ el.innerHTML=scale.map(x=>`<span class="legend-chip"><i style="background:${x.color}"></i>${x.label}</span>`).join("");
+}
+function renderSeverityCalendar(){
+ const cal=document.getElementById("severityCalendar"), metaEl=document.getElementById("calendarMeta");
+ if(!cal) return;
+ const now=new Date(), y=now.getFullYear(), m=now.getMonth(), first=new Date(y,m,1), days=new Date(y,m+1,0).getDate(), start=(first.getDay()+6)%7;
+ let maxLightningCount = 0;
+ if(severityMode === "lightning"){
+   for(let day=1; day<=days; day++){
+     const key=ymd(new Date(y,m,day,12));
+     const strikes=Number(lightningDailyCounts[key] || 0);
+     if(strikes > maxLightningCount) maxLightningCount = strikes;
+   }
+ }
+ cal.innerHTML="";
+ for(let i=0;i<start;i++){
+   const e=document.createElement("div");
+   e.className="calendar-day empty";
+   cal.appendChild(e);
+ }
+ for(let day=1; day<=days; day++){
+   const d=new Date(y,m,day,12), key=ymd(d), cell=document.createElement("div");
+   cell.className="calendar-day";
+   if(key===ymd(now)) cell.classList.add("today");
+   let txt="None", bg="#eeeeee", dark=false, title="";
+   if(severityMode==="lightning"){
+     const strikes=lightningDailyCounts[key] || 0, lm=lightningMeta(strikes);
+     if(strikes > 0 && strikes === maxLightningCount) cell.classList.add("max-day");
+     bg=lm.color; dark=lm.dark; txt=strikes ? `${strikes.toLocaleString()} strikes` : "0 strikes";
+     title=`${key}: ${txt}`;
+   }else{
+     const om=outlookDailyMeta[key];
+     if(om){ bg=classToColor(om.cls); dark=(om.cls==="risk-green" || om.cls==="risk-red" || om.cls==="risk-magenta"); txt=om.label; }
+     title=`${key}: ${txt}`;
+   }
+   cell.style.background=bg;
+   cell.title=title;
+   if(dark) cell.classList.add("dark");
+   cell.innerHTML=`<span class="calendar-num">${day}</span><span class="calendar-value">${txt}</span>`;
+   cal.appendChild(cell);
+ }
+ if(metaEl) metaEl.textContent = severityMode==="lightning"
+   ? `${monthLabel(now)} — based on daily lightning strike counts from CELightning.`
+   : `${monthLabel(now)} — based on the highest CESTOF outlook risk for each day.`;
+ renderLegend();
+}
+async function initSeverityCalendar(){
+ document.querySelectorAll("[data-severity-mode]").forEach(btn=>btn.addEventListener("click",()=>{
+   severityMode=btn.dataset.severityMode;
+   document.querySelectorAll("[data-severity-mode]").forEach(b=>b.classList.toggle("active",b===btn));
+   renderSeverityCalendar();
+ }));
+ renderSeverityCalendar();
+ lightningDailyCounts=await loadLightningCSV();
+ renderSeverityCalendar();
+ await preloadMonthOutlooks();
+ renderSeverityCalendar();
+}
+initSeverityCalendar();
+</script>
+
+<script>
+/* TODAY LIGHTNING OSM MAP */
+const TODAY_LIGHTNING_GEOJSON = `${RAW_BASE}/data/latest_europe.geojson`;
+
+const lightningMap = L.map("todayLightningMap", {
+  zoomControl: true,
+  attributionControl: true
+});
+
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 12,
+  attribution: "&copy; OpenStreetMap"
+}).addTo(lightningMap);
+
+const counterControl = L.control({position:"topright"});
+counterControl.onAdd = function(){
+  const div = L.DomUtil.create("div", "lightning-counter");
+  div.id = "lightningCounter";
+  div.innerHTML = "Today<br><b>0</b> strikes";
+  return div;
+};
+counterControl.addTo(lightningMap);
+
+const centralEuropeBounds = [
+  [42.0, 2.0],
+  [56.5, 28.5]
+];
+
+lightningMap.fitBounds(centralEuropeBounds);
+
+let todayLightningLayer = null;
+
+function lightningPointStyle(feature, latlng){
+  return L.marker(latlng, {
+    icon: L.divIcon({
+      className: "lightning-plus-marker",
+      html: "+",
+      iconSize: [16, 16],
+      iconAnchor: [8, 8],
+      popupAnchor: [0, -8]
+    })
+  });
+}
+
+function lightningPopup(feature){
+  const p = feature.properties || {};
+  const time = p.time || p.strike_time || p.datetime || p.date || "Unknown time";
+  const intensity = p.intensity ?? p.amp ?? p.current ?? p.col5 ?? "N/A";
+
+  return `
+    <b>Lightning strike</b><br>
+    Time: ${time}<br>
+    Intensity: ${intensity}
+  `;
+}
+
+async function loadTodayLightningMap(){
+  const status = document.getElementById("todayLightningStatus");
+  const counter = document.getElementById("lightningCounter");
+
+  try{
+    if(status) status.textContent = "Loading latest lightning strikes...";
+
+    const res = await fetch(TODAY_LIGHTNING_GEOJSON + "?v=" + Date.now(), {cache:"no-store"});
+    if(!res.ok) throw new Error("GeoJSON not found");
+
+    const gj = await res.json();
+
+    if(todayLightningLayer){
+      lightningMap.removeLayer(todayLightningLayer);
+    }
+
+    todayLightningLayer = L.geoJSON(gj, {
+      pointToLayer: lightningPointStyle,
+      onEachFeature: function(feature, layer){
+        layer.bindPopup(lightningPopup(feature));
+      }
+    }).addTo(lightningMap);
+
+    const count = gj.features ? gj.features.length : 0;
+
+    if(counter){
+      counter.innerHTML = `Today<br><b>${count.toLocaleString()}</b> strikes`;
+    }
+
+    if(count > 0){
+      const b = todayLightningLayer.getBounds();
+      if(b.isValid()) lightningMap.fitBounds(b.pad(0.2));
+      if(status) status.textContent = `${count.toLocaleString()} lightning strikes loaded today.`;
+    }else{
+      lightningMap.fitBounds(centralEuropeBounds);
+      if(status) status.textContent = "No lightning strikes currently available today.";
+    }
+
+  }catch(err){
+    if(counter){
+      counter.innerHTML = "Today<br><b>0</b> strikes";
+    }
+    lightningMap.fitBounds(centralEuropeBounds);
+    if(status) status.textContent = "Lightning GeoJSON could not be loaded.";
+  }
+}
+
+loadTodayLightningMap();
+setInterval(loadTodayLightningMap, 5 * 60 * 1000);
+</script>
+
+<script>
+(function(){
+  const current = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
+  document.querySelectorAll('nav a').forEach(a => {
+    const href = (a.getAttribute('href') || '').toLowerCase();
+    if (href === current) {
+      a.style.background = '#000';
+      a.style.color = '#fff';
+      a.style.boxShadow = '0 6px 14px rgba(0,0,0,.18)';
+    }
+  });
+})();
+</script>
+
+<script>
+(function(){
+  document.querySelectorAll("nav a").forEach(a => {
+    if ((a.getAttribute("href") || "").trim() === "index.html") {
+      a.classList.add("active");
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

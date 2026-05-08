@@ -1,0 +1,2523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CESTOF Nowcasting System — Nowcaster</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.css" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js" crossorigin=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
+  <style>
+    :root{
+      --bg:#050505;
+      --panel:rgba(255,255,255,.90);
+      --panel2:rgba(255,255,255,.96);
+      --border:#000;
+      --text:#0b0b0b;
+      --muted:#333;
+      --shadow:0 8px 22px rgba(0,0,0,.22);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      background:#070707 url("img/bg.jpg") center/cover fixed no-repeat;
+      color:var(--text);
+    }
+    body::before{
+      content:"";
+      position:fixed;
+      inset:0;
+      background:rgba(0,0,0,.66);
+      pointer-events:none;
+      z-index:-1;
+    }
+    .wrap{
+      max-width:1500px;
+      margin:14px auto;
+      padding:0 12px 18px;
+    }
+    header{
+      background:var(--panel);
+      border:2px solid #000;
+      box-shadow:var(--shadow);
+    }
+    .header-top{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      padding:10px;
+    }
+    .logo{
+      height:54px;
+      width:auto;
+      object-fit:contain;
+    }
+    .title-wrap h1{
+      margin:0;
+      font-size:1.85rem;
+      letter-spacing:.04em;
+      text-transform:uppercase;
+      line-height:1.05;
+    }
+    .title-wrap .sub{
+      margin:4px 0 0;
+      font-style:italic;
+      color:#222;
+      font-weight:700;
+    }
+    .header-meta{
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+      flex-wrap:wrap;
+      padding:8px 10px;
+      border-top:2px solid #000;
+      background:#f3f3f3;
+      font-size:.92rem;
+    }
+    .section{
+      margin-top:14px;
+      background:var(--panel);
+      border:2px solid #000;
+      padding:12px;
+      box-shadow:var(--shadow);
+    }
+    .section h2{
+      margin:0 0 10px;
+      border-bottom:2px solid #000;
+      padding-bottom:5px;
+      text-transform:uppercase;
+      letter-spacing:.03em;
+    }
+    .toolbar{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      flex-wrap:wrap;
+      gap:10px;
+      background:var(--panel2);
+      border:1px solid #000;
+      padding:10px;
+      margin-bottom:12px;
+    }
+    .left,.right{
+      display:flex;
+      align-items:center;
+      flex-wrap:wrap;
+      gap:8px;
+    }
+    .modebtn,.btn{
+      border:1px solid #000;
+      background:#fff;
+      color:#000;
+      padding:7px 11px;
+      font-weight:900;
+      cursor:pointer;
+      user-select:none;
+      transition:.12s ease;
+    }
+    .modebtn:hover,.btn:hover{
+      transform:translateY(-1px);
+      box-shadow:0 5px 10px rgba(0,0,0,.18);
+    }
+    .modebtn.active,.btn.primary{
+      background:#000;
+      color:#fff;
+    }
+    .logout-btn{
+      background:#000 !important;
+      color:#fff !important;
+      border:1px solid #000;
+    }
+    .btn.warn{
+      background:#fff2c9;
+    }
+    .btn.danger{
+      background:#ffe0e0;
+    }
+    .select,.input,.textarea{
+      width:100%;
+      border:1px solid #000;
+      background:#fff;
+      color:#000;
+      padding:7px 8px;
+      font-family:Arial,Helvetica,sans-serif;
+      font-weight:700;
+    }
+    .textarea{
+      resize:vertical;
+      min-height:88px;
+      font-weight:500;
+      line-height:1.38;
+    }
+    .small{font-size:.86rem;color:#222}
+    .radar-status{
+      border:1px solid #000;
+      background:#fff;
+      padding:5px 8px;
+      font-size:.82rem;
+      font-weight:900;
+    }
+    .layout{
+      display:grid;
+      grid-template-columns:1fr 405px;
+      gap:12px;
+      align-items:start;
+    }
+    #map{
+      height:760px;
+      border:2px solid #000;
+      background:#fff;
+      box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);
+    }
+    .sidebox{
+      background:var(--panel2);
+      border:1px solid #000;
+      padding:12px;
+      margin-bottom:12px;
+    }
+    .sidebox h3{
+      margin:0 0 8px;
+      font-size:1rem;
+      border-bottom:1px solid #999;
+      padding-bottom:5px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:6px;
+    }
+    .sidebox label{
+      display:block;
+      font-weight:900;
+      font-size:.88rem;
+      margin:8px 0 4px;
+    }
+    .warning-badge{
+      display:inline-block;
+      border:1px solid #000;
+      background:#111;
+      color:#fff;
+      padding:2px 8px;
+      font-size:.72rem;
+      font-weight:900;
+      letter-spacing:.04em;
+      text-transform:uppercase;
+      white-space:nowrap;
+    }
+    .warning-help{
+      font-size:.82rem;
+      color:#222;
+      line-height:1.35;
+      background:#f5f5f5;
+      border-left:4px solid #000;
+      padding:7px 8px;
+      margin-bottom:8px;
+    }
+    .warning-form-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:8px;
+    }
+    .warning-form-grid .full{grid-column:1/-1}
+    .warning-actions{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:10px;
+    }
+    .warning-status{
+      margin-top:8px;
+      border:1px solid #000;
+      background:#f2f2f2;
+      color:#111;
+      font-size:.82rem;
+      font-weight:900;
+      padding:7px 8px;
+      line-height:1.35;
+    }
+    .warning-status.saved{background:#e8ffe8}
+    .warning-status.warn{background:#fff4cc}
+    .warning-status.error{background:#ffe1e1}
+    .poly-list{
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+      max-height:290px;
+      overflow:auto;
+    }
+    .poly-item{
+      border:1px solid #000;
+      background:#fff;
+      padding:8px;
+      cursor:pointer;
+    }
+    .poly-item:hover{background:#f1f1f1}
+    .poly-item.active{outline:2px solid #000;background:#fff}
+    .poly-title{font-weight:900;margin-bottom:4px}
+    .poly-meta{font-size:.83rem;color:#222;line-height:1.35}
+    .province-select-row{
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      align-items:center;
+      margin:8px 0 10px;
+    }
+    .province-selected-summary{
+      border:1px solid #000;
+      background:#fff;
+      padding:6px 8px;
+      font-size:.85rem;
+      font-weight:900;
+    }
+    .province-selected-list{
+      border:1px solid #000;
+      background:#fff;
+      max-height:105px;
+      overflow:auto;
+      padding:6px;
+      margin:7px 0 10px;
+      font-size:.84rem;
+      line-height:1.35;
+    }
+    .province-selected-pill{
+      display:inline-block;
+      border:1px solid #000;
+      border-radius:999px;
+      padding:2px 7px;
+      margin:2px;
+      background:#f6f6f6;
+      font-weight:800;
+    }
+    .province-warning-entry{
+      border:1px solid #000;
+      background:#fff;
+      padding:8px;
+      margin-top:8px;
+    }
+    .province-warning-entry-title{font-weight:900;margin-bottom:4px}
+    .province-warning-entry-meta{
+      font-size:.84rem;
+      line-height:1.35;
+      color:#222;
+      border-top:1px solid #ccc;
+      margin-top:6px;
+      padding-top:6px;
+    }
+    .province-warning-remove{
+      margin-top:6px;
+      border:1px solid #000;
+      background:#ffe8e8;
+      padding:4px 8px;
+      font-weight:900;
+      cursor:pointer;
+      border-radius:8px;
+    }
+    .province-warning-remove:hover{
+      background:#ffd2d2;
+      transform:translateY(-1px);
+    }
+    .legend .row{
+      display:flex;
+      align-items:center;
+      gap:7px;
+      margin:5px 0;
+      font-size:.83rem;
+      color:#111;
+    }
+    .swatch{
+      width:18px;
+      height:13px;
+      border:1px solid #000;
+      flex:0 0 auto;
+    }
+    .hint{
+      margin:9px 0 0;
+      color:#e8e8e8;
+      font-size:.88rem;
+      line-height:1.35;
+      background:rgba(0,0,0,.45);
+      border:1px solid rgba(255,255,255,.18);
+      padding:7px 9px;
+    }
+    .leaflet-overlay-pane svg path.cestof-warning,
+    .leaflet-overlay-pane svg path.cestof-province{
+      vector-effect:non-scaling-stroke;
+      paint-order:stroke fill markers;
+      filter:drop-shadow(0 0 2px rgba(0,0,0,.72)) drop-shadow(0 0 9px rgba(255,255,255,.20));
+    }
+    .leaflet-overlay-pane svg path.cestof-selected{
+      filter:drop-shadow(0 0 9px rgba(255,255,255,.95)) drop-shadow(0 0 15px rgba(0,0,0,.65)) !important;
+    }
+    .leaflet-overlay-pane svg path.warning-severe-thunderstorm{stroke-dasharray:12 6}
+    .leaflet-overlay-pane svg path.warning-tornado{stroke-dasharray:6 4}
+    .leaflet-overlay-pane svg path.warning-thunderstorm{stroke-dasharray:10 5}
+    .leaflet-overlay-pane svg path.warning-watch{stroke-dasharray:4 7}
+    .leaflet-overlay-pane svg path.warning-mesoscale-discussion{stroke-dasharray:3 8}
+    @media (max-width:1100px){
+      .layout{grid-template-columns:1fr}
+      #map{height:610px}
+    }
+    @media (max-width:560px){
+      .warning-form-grid{grid-template-columns:1fr}
+      .header-top{align-items:flex-start}
+      .logo{height:44px}
+      .title-wrap h1{font-size:1.45rem}
+      #map{height:540px}
+    }
+  
+    .nowcaster-guard{
+      position:fixed;
+      inset:0;
+      z-index:999999;
+      background:rgba(0,0,0,.82);
+      display:none;
+      align-items:center;
+      justify-content:center;
+      padding:18px;
+      font-family:Arial,Helvetica,sans-serif;
+    }
+    .nowcaster-guard-card{
+      width:min(460px,94vw);
+      background:#fff;
+      border:2px solid #000;
+      border-radius:14px;
+      padding:18px;
+      box-shadow:0 18px 44px rgba(0,0,0,.4);
+      text-align:left;
+    }
+    .nowcaster-guard-card h2{margin:0 0 8px;text-transform:uppercase;}
+    .nowcaster-guard-card p{line-height:1.4;}
+    .nowcaster-guard-card a{
+      display:inline-block;
+      margin-top:10px;
+      background:#000;
+      color:#fff;
+      padding:9px 12px;
+      border:1px solid #000;
+      border-radius:10px;
+      text-decoration:none;
+      font-weight:900;
+    }
+</style>
+</head>
+
+<body>
+<div class="nowcaster-guard" id="nowcasterGuard">
+  <div class="nowcaster-guard-card">
+    <h2>Admin login required</h2>
+    <p>You must log in from <b>radar.html</b> before opening the CESTOF Nowcasting System.</p>
+    <p>This prevents normal direct access to the nowcasting tool.</p>
+    <a href="radar.html">Go to Radar Login</a>
+  </div>
+</div>
+<div class="wrap">
+  <header>
+    <div class="header-top">
+      <img class="logo" src="img/logo.png" alt="CESTOF logo" onerror="this.style.display='none'" />
+      <div class="title-wrap">
+        <h1>CESTOF Nowcasting System</h1>
+        <p class="sub">Nowcaster warning workspace — upload warnings through secure endpoint</p>
+      </div>
+    </div>
+    <div class="header-meta">
+      <div><b>Status:</b> nowcaster workspace — GitHub token stays server-side</div>
+      <div><b>Last updated:</b> <span id="lastUpdated">—</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>Nowcasting Map</h2>
+
+      <div class="toolbar">
+        <div class="left">
+          <button class="modebtn active" id="modeWarnings" type="button">Warning polygons</button>
+          <button class="modebtn" id="modeProvinceWarnings" type="button">Province warnings</button>
+
+          <span class="small"><b>Radar:</b></span>
+          <select class="select" id="radarToggle" style="width:auto;">
+            <option value="on" selected>On</option>
+            <option value="off">Off</option>
+          </select>
+
+          <span class="small"><b>Opacity:</b></span>
+          <select class="select" id="radarOpacity" style="width:auto;">
+            <option value="0.35">35%</option>
+            <option value="0.5" selected>50%</option>
+            <option value="0.65">65%</option>
+            <option value="0.8">80%</option>
+            <option value="1">100%</option>
+          </select>
+
+          <span class="radar-status" id="radarStatus">Radar: loading…</span>
+        </div>
+
+        <div class="right">
+          <button class="btn" id="btnImportGeoJSON" type="button">Import GeoJSON</button>
+          <button class="btn" id="btnSaveLocal" type="button">Save local</button>
+          <button class="btn" id="btnClear" type="button">Clear map</button>
+          <button class="btn" id="btnExport" type="button">Export warnings</button>
+          <button class="btn primary" id="btnUploadWarningsEndpoint" type="button">Upload warnings</button>
+          <button class="btn primary" id="btnUploadProvinceWarningsEndpoint" type="button">Upload province warnings</button>
+          <button class="btn" id="btnExportProvinceWarningsLocal" type="button">Download province warnings</button>
+          <button class="btn logout-btn" id="btnLogoutNowcaster" type="button">Logout</button>
+          <button class="btn danger" id="btnResetNowcasterUpload" type="button">Upload auth info</button>
+        </div>
+      </div>
+
+      <input id="importFile" type="file" accept=".json,.geojson" style="display:none;" />
+
+      <div class="layout">
+        <div>
+          <div id="map"></div>
+          <p class="hint">
+            Draw warning polygons directly on the map, or switch to province warnings and click one or more provinces.
+          </p>
+        </div>
+
+        <aside>
+          <div class="sidebox warning-maker-panel" id="warningPanel">
+            <h3>Warning Polygon Maker <span class="warning-badge">polygon</span></h3>
+            <div class="warning-help">
+              Draw or select a warning polygon, fill in the fields, then click <b>Apply warning details</b>.
+              Export downloads <b>warnings-day1.geojson</b>, which can be sent to the CESTOF owner for review.
+            </div>
+
+            <div class="warning-form-grid">
+              <div class="full">
+                <label for="warnTypeSelect">Warning type</label>
+                <select class="select" id="warnTypeSelect">
+                  <option value="Thunderstorm Watch">Thunderstorm Watch</option>
+                  <option value="Thunderstorm Warning">Thunderstorm Warning</option>
+                  <option value="Severe Thunderstorm Warning">Severe Thunderstorm Warning</option>
+                  <option value="Tornado Watch">Tornado Watch</option>
+                  <option value="Tornado Warning">Tornado Warning</option>
+                  <option value="Severe Wind Gusts Warning">Severe Wind Gusts Warning</option>
+                  <option value="Large Hail Warning">Large Hail Warning</option>
+                  <option value="Heavy Rain Warning">Heavy Rain Warning</option>
+                  <option value="Flooding / Flash Flood Warning">Flooding / Flash Flood Warning</option>
+                  <option value="Mesoscale Discussion">Mesoscale Discussion</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="warnIssued">Issued date/time</label>
+                <input class="input" id="warnIssued" type="datetime-local" />
+              </div>
+              <div>
+                <label for="warnExpires">Expiry date/time</label>
+                <input class="input" id="warnExpires" type="datetime-local" />
+              </div>
+
+              <div class="full">
+                <label for="warnLocation">Location / affected area</label>
+                <input class="input" id="warnLocation" type="text" placeholder="e.g. South Moravia, near Brno moving east" />
+              </div>
+
+              <div>
+                <label for="warnHail">Max hail</label>
+                <input class="input" id="warnHail" type="text" placeholder="e.g. 2–4 cm" />
+              </div>
+              <div>
+                <label for="warnWind">Wind gusts</label>
+                <input class="input" id="warnWind" type="text" placeholder="e.g. 80–100 km/h" />
+              </div>
+              <div>
+                <label for="warnTornadoProb">Tornado probability</label>
+                <select class="select" id="warnTornadoProb">
+                  <option value="">Not mentioned</option>
+                  <option value="Very low">Very low</option>
+                  <option value="Low">Low</option>
+                  <option value="Elevated">Elevated</option>
+                  <option value="Possible">Possible</option>
+                </select>
+              </div>
+              <div>
+                <label for="warnRotation">Rotation</label>
+                <select class="select" id="warnRotation">
+                  <option value="">Not mentioned</option>
+                  <option value="Weak rotation">Weak rotation</option>
+                  <option value="Broad rotation">Broad rotation</option>
+                  <option value="Strong rotation">Strong rotation</option>
+                  <option value="Radar-indicated rotation">Radar-indicated rotation</option>
+                  <option value="Observed rotating wall cloud">Observed rotating wall cloud</option>
+                </select>
+              </div>
+              <div>
+                <label for="mdNumber">MD number</label>
+                <input class="input" id="mdNumber" type="text" placeholder="Auto if blank" />
+              </div>
+
+              <div class="full">
+                <label for="warnText">Warning text / discussion</label>
+                <textarea class="textarea" id="warnText" placeholder="Severe thunderstorms are ongoing. Main risks include hail, damaging wind gusts and frequent lightning..."></textarea>
+              </div>
+            </div>
+
+            <div class="warning-actions">
+              <button class="btn primary" id="applyWarningBtn" type="button">Apply warning details</button>
+              <button class="btn danger" id="deleteWarningBtn" type="button">Delete selected warning</button>
+              <button class="btn" id="fillWarningTimesBtn" type="button">Now + 60 min</button>
+              <button class="btn primary" id="btnExportWarningPolygonsPNG" type="button">Export warning PNG</button>
+            </div>
+            <div class="warning-status warn" id="warningSaveStatus">No warning polygon selected.</div>
+          </div>
+
+          <div class="sidebox warning-maker-panel" id="provinceWarningPanel" style="display:none">
+            <h3>Province Warnings <span class="warning-badge">province</span></h3>
+            <div class="warning-help">
+              Put your province borders in GitHub as <b>data/provinces.geojson</b>.
+              Click provinces to toggle them on/off. For fast work, use <b>Select visible provinces</b>, <b>Invert visible</b>, or <b>Select all loaded</b>. Export downloads <b>province-warnings.geojson</b>, which can be sent to the CESTOF owner for review.
+            </div>
+
+            <label for="provinceNameBox">Last clicked province</label>
+            <input class="input" id="provinceNameBox" type="text" readonly placeholder="Click one or more provinces on the map" />
+
+            <div class="province-select-row">
+              <button class="btn primary" id="btnSelectAllVisibleProvinces" type="button">Select visible provinces</button>
+              <button class="btn" id="btnInvertVisibleProvinces" type="button">Invert visible</button>
+              <button class="btn" id="btnSelectAllLoadedProvinces" type="button">Select all loaded</button>
+              <button class="btn danger" id="btnClearProvinceSelection" type="button">Clear selection</button>
+              <span class="province-selected-summary" id="provinceSelectedCount">0 provinces selected</span>
+            </div>
+            <div class="province-selected-list" id="provinceSelectedList"><span style="color:#333;">No provinces selected.</span></div>
+
+            <div class="warning-form-grid">
+              <div class="full">
+                <label for="provinceWarnType">Warning type</label>
+                <select class="select" id="provinceWarnType">
+                  <option value="Thunderstorm Watch">Thunderstorm Watch</option>
+                  <option value="Thunderstorm Warning">Thunderstorm Warning</option>
+                  <option value="Severe Thunderstorm Warning">Severe Thunderstorm Warning</option>
+                  <option value="Tornado Watch">Tornado Watch</option>
+                  <option value="Tornado Warning">Tornado Warning</option>
+                  <option value="Severe Wind Gusts Warning">Severe Wind Gusts Warning</option>
+                  <option value="Large Hail Warning">Large Hail Warning</option>
+                  <option value="Heavy Rain Warning">Heavy Rain Warning</option>
+                  <option value="Flooding / Flash Flood Warning">Flooding / Flash Flood Warning</option>
+                  <option value="Mesoscale Discussion">Mesoscale Discussion</option>
+                </select>
+              </div>
+              <div><label for="provinceWarnIssued">Issued date/time</label><input class="input" id="provinceWarnIssued" type="datetime-local" /></div>
+              <div><label for="provinceWarnExpires">Expiry date/time</label><input class="input" id="provinceWarnExpires" type="datetime-local" /></div>
+              <div><label for="provinceWarnHail">Max hail</label><input class="input" id="provinceWarnHail" type="text" placeholder="e.g. 2–4 cm" /></div>
+              <div><label for="provinceWarnWind">Wind gusts</label><input class="input" id="provinceWarnWind" type="text" placeholder="e.g. 80–100 km/h" /></div>
+              <div><label for="provinceWarnTornado">Tornado probability</label><select class="select" id="provinceWarnTornado"><option value="">Not mentioned</option><option value="Very low">Very low</option><option value="Low">Low</option><option value="Elevated">Elevated</option><option value="Possible">Possible</option></select></div>
+              <div><label for="provinceWarnRotation">Rotation</label><select class="select" id="provinceWarnRotation"><option value="">Not mentioned</option><option value="Weak rotation">Weak rotation</option><option value="Broad rotation">Broad rotation</option><option value="Strong rotation">Strong rotation</option><option value="Radar-indicated rotation">Radar-indicated rotation</option><option value="Observed rotating wall cloud">Observed rotating wall cloud</option></select></div>
+              <div class="full"><label for="provinceWarnText">Warning text</label><textarea class="textarea" id="provinceWarnText" placeholder="Main threats, timing, affected areas inside the selected province(s)..."></textarea></div>
+            </div>
+
+            <div class="warning-actions">
+              <button class="btn primary" id="btnAddProvinceWarning" type="button">Add warning to selected province(s)</button>
+              <button class="btn" id="btnProvinceWarnTimes" type="button">Now + 60 min</button>
+              <button class="btn warn" id="btnRemoveProvinceWarningType" type="button">Remove this type</button>
+              <button class="btn danger" id="btnClearProvinceWarnings" type="button">Clear selected warnings</button>
+              <button class="btn" id="btnLoadProvinces" type="button">Reload province borders</button>
+              <button class="btn primary" id="btnExportProvinceWarningsPNG" type="button">Export selected warning PNG</button>
+            </div>
+            <div class="warning-status warn" id="provinceWarningStatus">No province selected.</div>
+            <div class="province-warning-list" id="provinceWarningList"><div class="small">No province selected.</div></div>
+          </div>
+
+
+          <div class="sidebox">
+            <h3>Nowcaster Upload <span class="warning-badge">safe</span></h3>
+            <div class="warning-help">
+              Each nowcaster has their own account and password. All accounts are <b>controlled and monitored by CESTOF</b>. <b>NO TROLLING, GRIEFING, OR UNAUTHORIZED WARNINGS.</b>
+            </div>
+          </div>
+          <div class="sidebox legend">
+            <h3>Legend</h3>
+            <div class="row"><span class="swatch" style="background:#FFA500"></span>Thunderstorm Watch</div>
+            <div class="row"><span class="swatch" style="background:#0a6a0a"></span>Thunderstorm Warning</div>
+            <div class="row"><span class="swatch" style="background:#8B0000"></span>Severe Thunderstorm Warning</div>
+            <div class="row"><span class="swatch" style="background:#b58d00"></span>Tornado Watch</div>
+            <div class="row"><span class="swatch" style="background:#5b0061"></span>Tornado Warning</div>
+            <div class="row"><span class="swatch" style="background:#9a5200"></span>Severe Wind Gusts Warning</div>
+            <div class="row"><span class="swatch" style="background:#006d8b"></span>Large Hail Warning</div>
+            <div class="row"><span class="swatch" style="background:#005c99"></span>Heavy Rain Warning</div>
+            <div class="row"><span class="swatch" style="background:#003c96"></span>Flooding / Flash Flood Warning</div>
+            <div class="row"><span class="swatch" style="background:#b58d00"></span>Mesoscale Discussion</div>
+          </div>
+
+          <div class="sidebox">
+            <h3>Current warning polygons</h3>
+            <div id="polygonList" class="poly-list"><div class="small">No polygons.</div></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script>
+function enforceNowcasterLogin(){
+  const loggedIn = sessionStorage.getItem("CESTOF_NOWCASTER_LOGGED_IN") === "1";
+  if(!loggedIn){
+    const guard = document.getElementById("nowcasterGuard");
+    if(guard) guard.style.display = "flex";
+    document.body.style.overflow = "hidden";
+    throw new Error("CESTOF Nowcasting blocked: login required.");
+  }
+}
+enforceNowcasterLogin();
+
+function getLoggedInNowcaster(){
+  return {
+    username: sessionStorage.getItem("CESTOF_NOWCASTER_USERNAME") || "unknown",
+    displayName: sessionStorage.getItem("CESTOF_NOWCASTER_DISPLAY_NAME") || sessionStorage.getItem("CESTOF_NOWCASTER_USERNAME") || "Unknown nowcaster",
+    role: sessionStorage.getItem("CESTOF_NOWCASTER_ROLE") || "nowcaster"
+  };
+}
+
+function logoutNowcaster(){
+  sessionStorage.removeItem("CESTOF_NOWCASTER_LOGGED_IN");
+  sessionStorage.removeItem("CESTOF_NOWCASTER_USERNAME");
+  sessionStorage.removeItem("CESTOF_NOWCASTER_DISPLAY_NAME");
+  sessionStorage.removeItem("CESTOF_NOWCASTER_ROLE");
+  window.location.href = "radar.html";
+}
+
+
+
+/* =========================
+   CESTOF NOWCASTING CONFIG
+   ========================= */
+const GITHUB_OWNER = "CentralEuropeanForecasting";
+const GITHUB_REPO = "cestof-warnings";
+const GITHUB_BRANCH = "main";
+
+const WARNINGS_FILE = "warnings-day1.geojson";
+const PROVINCES_URL = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/data/provinces.geojson`;
+const PROVINCE_WARNINGS_FILE = "province-warnings.geojson";
+
+// Fixed CESTOF secure upload endpoint.
+// Nowcasters do not need to paste the endpoint after login.
+const CESTOF_UPLOAD_ENDPOINT = "https://cestof-nowcasting-upload.lucas-papadakis08.workers.dev/upload";
+/* Upload key removed: admin login is the authorization gate. */
+
+/*
+  OPERATOR VERSION:
+  No GitHub token is used here.
+  Operators can create warnings and download GeoJSON/PNG files,
+  but they cannot push changes to GitHub from this page.
+*/
+
+/* =========================
+   BASIC HELPERS
+   ========================= */
+function $(id){ return document.getElementById(id); }
+function escapeHTML(s){
+  return String(s ?? "").replace(/[&<>"']/g, m => ({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
+  }[m]));
+}
+function pad(n){ return String(n).padStart(2,"0"); }
+function fmtLocal(d){
+  const months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  return `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+function nowDatetimeLocalPlus(minutes){
+  const d = new Date(Date.now() + minutes * 60000);
+  d.setSeconds(0,0);
+  return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+function downloadText(filename, text, mime="application/json"){
+  const blob = new Blob([text], {type:mime});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 200);
+}
+function warningDateLabel(value){
+  if(!value) return "";
+  const d = new Date(value);
+  if(!Number.isNaN(d.getTime())){
+    return d.toLocaleString([], {year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"});
+  }
+  return String(value);
+}
+function warningTimeRangeText(w){
+  const a = warningDateLabel(w.issued_iso || w.issued);
+  const b = warningDateLabel(w.expires_iso || w.expires);
+  if(a && b) return `${a} → ${b}`;
+  if(a) return `Issued ${a}`;
+  if(b) return `Expires ${b}`;
+  return "No time set";
+}
+function setStatus(el, text, cls="warn"){
+  el.classList.remove("saved","warn","error");
+  el.classList.add(cls);
+  el.textContent = text;
+}
+$("lastUpdated").textContent = fmtLocal(new Date());
+
+/* =========================
+   MAP + RADAR
+   ========================= */
+const EUROPE_BOUNDS = L.latLngBounds(
+  L.latLng(34.0, -12.5),  // southwest Europe view limit
+  L.latLng(72.0,  45.0)   // northeast Europe view limit
+);
+
+const CENTRAL_EUROPE_BOUNDS = L.latLngBounds(
+  L.latLng(42.0, 2.0),
+  L.latLng(56.5, 28.5)
+);
+
+const map = L.map("map", {
+  zoomControl:true,
+  preferCanvas:false,
+  maxZoom:19,
+  minZoom:4,
+  maxBounds:EUROPE_BOUNDS,
+  maxBoundsViscosity:1.0
+}).fitBounds(CENTRAL_EUROPE_BOUNDS);
+
+const whiteBase = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom:19,
+  attribution:'© OpenStreetMap'
+}).addTo(map);
+
+map.createPane("radarPane").style.zIndex = 320;
+map.createPane("warningPane").style.zIndex = 430;
+map.createPane("provincePane").style.zIndex = 420;
+
+const drawGroup = L.featureGroup().addTo(map);
+const provinceLayerGroup = L.featureGroup().addTo(map);
+let radarLayer = null;
+let currentRadarOpacity = 0.5;
+let radarEnabled = true;
+
+const drawControl = new L.Control.Draw({
+  position:"topleft",
+  draw:{
+    polygon:{
+      allowIntersection:false,
+      showArea:true,
+      shapeOptions:{
+        pane:"warningPane",
+        color:"#0a6a0a",
+        weight:3.4,
+        opacity:1,
+        fill:false,
+        fillOpacity:0,
+        lineCap:"round",
+        lineJoin:"round",
+        className:"cestof-warning warning-thunderstorm"
+      }
+    },
+    polyline:false,
+    rectangle:false,
+    circle:false,
+    circlemarker:false,
+    marker:false
+  },
+  edit:{featureGroup:drawGroup}
+});
+map.addControl(drawControl);
+
+function setRadarStatus(text){ $("radarStatus").textContent = text; }
+function removeRadarLayer(){
+  if(radarLayer){ map.removeLayer(radarLayer); radarLayer = null; }
+}
+function rainviewerFrameTime(frame){
+  const t = Number(frame?.time || 0);
+  if(!t) return "latest";
+  try{ return new Date(t*1000).toLocaleTimeString([], {hour:"2-digit",minute:"2-digit"}); }
+  catch(e){ return "latest"; }
+}
+async function loadRainViewerLatest(){
+  if(!radarEnabled) return;
+  setRadarStatus("Radar: loading…");
+  try{
+    const res = await fetch("https://api.rainviewer.com/public/weather-maps.json?ts=" + Date.now(), {cache:"no-store", mode:"cors"});
+    if(!res.ok) throw new Error("RainViewer API returned " + res.status);
+    const data = await res.json();
+    const host = String(data?.host || "https://tilecache.rainviewer.com").replace(/\/$/,"");
+    const past = Array.isArray(data?.radar?.past) ? data.radar.past : [];
+    const nowcast = Array.isArray(data?.radar?.nowcast) ? data.radar.nowcast : [];
+    const frames = past.length ? past : nowcast;
+    const frame = frames[frames.length - 1];
+    if(!frame || !frame.path) throw new Error("No radar frame found");
+
+    removeRadarLayer();
+    radarLayer = L.tileLayer(`${host}${frame.path}/256/{z}/{x}/{y}/2/1_1.png`, {
+      pane:"radarPane",
+      opacity:currentRadarOpacity,
+      zIndex:320,
+      maxNativeZoom:10,
+      maxZoom:19,
+      tileSize:256,
+      keepBuffer:2,
+      crossOrigin:true,
+      attribution:'Radar: <a href="https://www.rainviewer.com/" target="_blank" rel="noopener">RainViewer</a>',
+      errorTileUrl:"data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+    });
+    radarLayer.once("tileload", () => setRadarStatus(`Radar: ${rainviewerFrameTime(frame)}`));
+    radarLayer.addTo(map);
+    setTimeout(() => {
+      if(radarLayer && $("radarStatus").textContent === "Radar: loading…"){
+        setRadarStatus(`Radar: ${rainviewerFrameTime(frame)}`);
+      }
+    }, 1200);
+  }catch(e){
+    console.warn(e);
+    removeRadarLayer();
+    setRadarStatus("Radar error");
+  }
+}
+$("radarToggle").addEventListener("change", e => {
+  radarEnabled = e.target.value === "on";
+  if(!radarEnabled){
+    removeRadarLayer();
+    setRadarStatus("Radar: off");
+  }else{
+    loadRainViewerLatest();
+  }
+});
+$("radarOpacity").addEventListener("change", e => {
+  currentRadarOpacity = parseFloat(e.target.value);
+  if(radarLayer) radarLayer.setOpacity(currentRadarOpacity);
+});
+
+/* =========================
+   WARNING STYLE + POPUPS
+   ========================= */
+function warningTypeStyle(type){
+  const m = {
+    "Thunderstorm Watch": {color:"#FFA500", weight:2.9, cls:"warning-watch"},
+    "Thunderstorm Warning": {color:"#0a6a0a", weight:3.0, cls:"warning-thunderstorm"},
+    "Severe Thunderstorm Warning": {color:"#8B0000", weight:3.5, cls:"warning-severe-thunderstorm"},
+    "Tornado Watch": {color:"#b58d00", weight:3.0, cls:"warning-watch"},
+    "Tornado Warning": {color:"#5b0061", weight:3.7, cls:"warning-tornado"},
+    "Severe Wind Gusts Warning": {color:"#9a5200", weight:3.2, cls:"warning-severe-thunderstorm"},
+    "Large Hail Warning": {color:"#006d8b", weight:3.2, cls:"warning-severe-thunderstorm"},
+    "Heavy Rain Warning": {color:"#005c99", weight:3.1, cls:"warning-thunderstorm"},
+    "Flooding / Flash Flood Warning": {color:"#003c96", weight:3.1, cls:"warning-thunderstorm"},
+    "Mesoscale Discussion": {color:"#b58d00", weight:3.0, cls:"warning-mesoscale-discussion"}
+  };
+  const s = m[type] || m["Thunderstorm Warning"];
+  return {
+    pane:"warningPane",
+    color:s.color,
+    weight:s.weight,
+    opacity:1,
+    fill:false,
+    fillOpacity:0,
+    className:`cestof-warning ${s.cls}`
+  };
+}
+function buildWarningPopup(props){
+  const hazards = props.hazards || {};
+  const hail = props.hail || hazards.hail || "";
+  const wind = props.wind || hazards.wind || "";
+  const tornadoProb = props.tornado_probability || hazards.tornado_probability || "";
+  const rotation = props.rotation || hazards.rotation || props.rotation_signature || "";
+  let html = `<div style="font-family:Arial,Helvetica,sans-serif;min-width:250px;">`;
+  html += `<div style="font-weight:900;margin-bottom:6px;border-bottom:2px solid #000;padding-bottom:4px;">${escapeHTML(props.type || "Warning")}</div>`;
+  if(props.issued || props.issued_iso) html += `<div><b>Issued:</b> ${escapeHTML(warningDateLabel(props.issued_iso || props.issued))}</div>`;
+  if(props.expires || props.expires_iso) html += `<div><b>Expires:</b> ${escapeHTML(warningDateLabel(props.expires_iso || props.expires))}</div>`;
+  if(props.location) html += `<div><b>Area:</b> ${escapeHTML(props.location)}</div>`;
+  if(hail || wind || tornadoProb || rotation){
+    html += `<div style="margin-top:8px;border-top:1px solid #999;padding-top:6px;"><b>Details:</b>`;
+    if(hail) html += `<div>Hail: ${escapeHTML(hail)}</div>`;
+    if(wind) html += `<div>Wind: ${escapeHTML(wind)}</div>`;
+    if(tornadoProb) html += `<div>Tornado: ${escapeHTML(tornadoProb)}</div>`;
+    if(rotation) html += `<div>Rotation: ${escapeHTML(rotation)}</div>`;
+    html += `</div>`;
+  }
+  if(props.md_number) html += `<div><b>MD:</b> ${escapeHTML(props.md_number)}</div>`;
+  const forecaster = props.forecaster_name || props.issued_by || props.forecaster || props.nowcaster_name || "";
+  if(forecaster) html += `<div><b>Forecaster:</b> ${escapeHTML(forecaster)}</div>`;
+  if(props.text) html += `<div style="margin-top:8px;color:#222;white-space:pre-wrap;">${escapeHTML(props.text)}</div>`;
+  html += `</div>`;
+  return html;
+}
+function styleLayerByProps(layer){
+  const props = layer.feature?.properties || {};
+  const st = warningTypeStyle(props.type);
+  layer.setStyle(st);
+  if(layer._path){
+    layer._path.classList.add("cestof-warning");
+  }
+  layer.bindPopup(buildWarningPopup(props));
+}
+function setSelectedWarningLayer(layer){
+  if(selectedLayer && selectedLayer._path) selectedLayer._path.classList.remove("cestof-selected");
+  selectedLayer = layer;
+  if(layer && layer._path) layer._path.classList.add("cestof-selected");
+  loadSelectedWarningIntoForm();
+  renderPolygonList();
+}
+
+/* =========================
+   WARNING POLYGON STATE
+   ========================= */
+let currentMode = "warnings";
+let selectedLayer = null;
+let warningsState = {type:"FeatureCollection", name:"CESTOF Warnings", features:[]};
+
+function getWarningFormProps(){
+  const type = $("warnTypeSelect").value;
+  const nowcaster = getLoggedInNowcaster();
+  return {
+    type,
+    issued: $("warnIssued").value,
+    issued_iso: $("warnIssued").value ? new Date($("warnIssued").value).toISOString() : "",
+    expires: $("warnExpires").value,
+    expires_iso: $("warnExpires").value ? new Date($("warnExpires").value).toISOString() : "",
+    location: $("warnLocation").value.trim(),
+    hail: $("warnHail").value.trim(),
+    wind: $("warnWind").value.trim(),
+    tornado_probability: $("warnTornadoProb").value,
+    rotation: $("warnRotation").value,
+    md_number: $("mdNumber").value.trim(),
+    text: $("warnText").value.trim(),
+    hazards:{
+      hail:$("warnHail").value.trim(),
+      wind:$("warnWind").value.trim(),
+      tornado_probability:$("warnTornadoProb").value,
+      rotation:$("warnRotation").value
+    },
+    forecaster:nowcaster.username,
+    forecaster_name:nowcaster.displayName,
+    forecaster_role:nowcaster.role,
+    issued_by:nowcaster.displayName,
+    source:"CESTOF Nowcasting System Nowcaster Direct Upload",
+    updated_at:new Date().toISOString()
+  };
+}
+function loadSelectedWarningIntoForm(){
+  if(!selectedLayer){
+    setStatus($("warningSaveStatus"), "No warning polygon selected.", "warn");
+    return;
+  }
+  const p = selectedLayer.feature?.properties || {};
+  $("warnTypeSelect").value = p.type || "Thunderstorm Warning";
+  $("warnIssued").value = p.issued || "";
+  $("warnExpires").value = p.expires || "";
+  $("warnLocation").value = p.location || "";
+  $("warnHail").value = p.hail || p.hazards?.hail || "";
+  $("warnWind").value = p.wind || p.hazards?.wind || "";
+  $("warnTornadoProb").value = p.tornado_probability || p.hazards?.tornado_probability || "";
+  $("warnRotation").value = p.rotation || p.hazards?.rotation || "";
+  $("mdNumber").value = p.md_number || "";
+  $("warnText").value = p.text || "";
+  setStatus($("warningSaveStatus"), "Warning polygon selected. Edit fields and apply.", "saved");
+}
+function applyWarningDetails(){
+  if(!selectedLayer){
+    alert("Draw or select a warning polygon first.");
+    return;
+  }
+  selectedLayer.feature = selectedLayer.feature || selectedLayer.toGeoJSON();
+  selectedLayer.feature.properties = {...(selectedLayer.feature.properties || {}), ...getWarningFormProps()};
+  styleLayerByProps(selectedLayer);
+  saveWarningsLocal();
+  renderPolygonList();
+  setStatus($("warningSaveStatus"), "Warning details applied. Export when ready.", "saved");
+}
+function deleteSelectedWarning(){
+  if(!selectedLayer){
+    alert("Select a warning polygon first.");
+    return;
+  }
+  drawGroup.removeLayer(selectedLayer);
+  selectedLayer = null;
+  saveWarningsLocal();
+  renderPolygonList();
+  setStatus($("warningSaveStatus"), "Warning polygon deleted.", "warn");
+}
+function warningsGeoJSON(){
+  const gj = drawGroup.toGeoJSON();
+  gj.name = "CESTOF Warning Polygons";
+  gj.generated_at = new Date().toISOString();
+  gj.features = (gj.features || []).map((f, i) => ({
+    ...f,
+    properties:{
+      id:f.properties?.id || `warning-poly-${i+1}`,
+      ...(f.properties || {}),
+      source:"CESTOF Nowcasting System Nowcaster Direct Upload"
+    }
+  }));
+  return gj;
+}
+function loadWarningsFromGeoJSON(gj, fit=true){
+  drawGroup.clearLayers();
+  selectedLayer = null;
+  if(!gj || !Array.isArray(gj.features)) return;
+  L.geoJSON(gj, {
+    pane:"warningPane",
+    style:f => warningTypeStyle(f.properties?.type),
+    onEachFeature:(feature, layer) => {
+      layer.feature = feature;
+      styleLayerByProps(layer);
+      layer.on("click", () => setSelectedWarningLayer(layer));
+      drawGroup.addLayer(layer);
+    }
+  });
+  if(fit && drawGroup.getLayers().length){
+    map.fitBounds(drawGroup.getBounds().pad(0.12));
+  }
+  renderPolygonList();
+}
+function saveWarningsLocal(){
+  warningsState = warningsGeoJSON();
+  localStorage.setItem("CESTOF_NOWCAST_WARNINGS", JSON.stringify(warningsState));
+}
+function loadWarningsLocal(){
+  try{
+    const raw = localStorage.getItem("CESTOF_NOWCAST_WARNINGS");
+    if(raw) loadWarningsFromGeoJSON(JSON.parse(raw), false);
+  }catch(e){ console.warn(e); }
+}
+function renderPolygonList(){
+  const box = $("polygonList");
+  const layers = drawGroup.getLayers();
+  if(!layers.length){
+    box.innerHTML = `<div class="small">No polygons.</div>`;
+    return;
+  }
+  box.innerHTML = "";
+  layers.forEach((layer, idx) => {
+    const p = layer.feature?.properties || {};
+    const div = document.createElement("div");
+    div.className = "poly-item" + (layer === selectedLayer ? " active" : "");
+    div.innerHTML = `
+      <div class="poly-title">${escapeHTML(p.type || "Warning polygon")} #${idx+1}</div>
+      <div class="poly-meta">
+        ${escapeHTML(p.location || "No location")}<br>
+        ${escapeHTML(warningTimeRangeText(p))}
+      </div>`;
+    div.addEventListener("click", () => {
+      setSelectedWarningLayer(layer);
+      if(layer.getBounds) map.fitBounds(layer.getBounds().pad(0.15));
+    });
+    box.appendChild(div);
+  });
+}
+
+/* draw events */
+map.on(L.Draw.Event.CREATED, e => {
+  if(currentMode !== "warnings"){
+    alert("Switch to Warning polygons mode before drawing polygons.");
+    return;
+  }
+  const layer = e.layer;
+  const props = getWarningFormProps();
+  layer.feature = layer.toGeoJSON();
+  layer.feature.properties = {
+    id:`warning-poly-${Date.now()}`,
+    ...props
+  };
+  styleLayerByProps(layer);
+  layer.on("click", () => setSelectedWarningLayer(layer));
+  drawGroup.addLayer(layer);
+  setSelectedWarningLayer(layer);
+  saveWarningsLocal();
+});
+map.on(L.Draw.Event.EDITED, () => {
+  saveWarningsLocal();
+  renderPolygonList();
+});
+map.on(L.Draw.Event.DELETED, () => {
+  selectedLayer = null;
+  saveWarningsLocal();
+  renderPolygonList();
+});
+
+/* =========================
+   PROVINCE WARNING SYSTEM
+   ========================= */
+let provincesSource = {type:"FeatureCollection", features:[]};
+let selectedProvinceIds = new Set();
+let selectedProvinceFeatures = new Map();
+let provinceWarnings = {};
+const PROVINCE_WARNINGS_LOCAL_KEY = "CESTOF_NOWCAST_PROVINCE_WARNINGS";
+
+function provinceNameFromFeature(feature){
+  const p = feature.properties || {};
+  return p.name || p.NAME || p.Name || p.nazev || p.NAZEV || p.province || p.Province || p.region || p.REGION || p.id || "Unnamed province";
+}
+function provinceIdFromFeature(feature){
+  const p = feature.properties || {};
+  return String(p.id || p.ID || p.iso_3166_2 || p.ISO_3166_2 || p.adm1_code || p.ADM1_CODE || provinceNameFromFeature(feature)).trim();
+}
+function loadProvinceWarningsLocal(){
+  try{
+    provinceWarnings = JSON.parse(localStorage.getItem(PROVINCE_WARNINGS_LOCAL_KEY) || "{}");
+  }catch(e){
+    provinceWarnings = {};
+  }
+}
+function saveProvinceWarningsLocal(){
+  localStorage.setItem(PROVINCE_WARNINGS_LOCAL_KEY, JSON.stringify(provinceWarnings));
+}
+function getActiveProvinceWarnings(id){
+  const arr = Array.isArray(provinceWarnings[id]) ? provinceWarnings[id] : [];
+  const now = Date.now();
+  return arr.filter(w => {
+    if(!w.expires_iso) return true;
+    const t = Date.parse(w.expires_iso);
+    return Number.isNaN(t) || t >= now;
+  });
+}
+function provinceStyle(feature){
+  const id = provinceIdFromFeature(feature);
+  const warnings = getActiveProvinceWarnings(id);
+  const selected = selectedProvinceIds.has(id);
+
+  let color = "#111111";
+  let fillColor = "#ffffff";
+  let weight = selected ? 4.8 : 1.3;
+  let fillOpacity = selected ? 0.30 : 0.02;
+
+  if(warnings.length){
+    const main = warnings[warnings.length - 1];
+    color = warningTypeStyle(main.type).color;
+    fillColor = color;
+    weight = selected ? 5.4 : 3.4;
+    fillOpacity = selected ? 0.34 : 0.12;
+  }
+
+  if(selected && !warnings.length){
+    color = "#000000";
+    fillColor = "#111111";
+  }
+
+  return {
+    pane:"provincePane",
+    color,
+    weight,
+    opacity:1,
+    fill:true,
+    fillColor,
+    fillOpacity,
+    className:"cestof-province"
+  };
+}
+function buildProvincePopup(feature){
+  const id = provinceIdFromFeature(feature);
+  const name = provinceNameFromFeature(feature);
+  const warnings = getActiveProvinceWarnings(id);
+  let html = `<div style="font-family:Arial,Helvetica,sans-serif;min-width:240px;">`;
+  html += `<div style="font-weight:900;border-bottom:2px solid #000;margin-bottom:6px;padding-bottom:4px;">${escapeHTML(name)}</div>`;
+  if(!warnings.length){
+    html += `<div>No active province warning.</div>`;
+  }else{
+    html += `<div><b>${warnings.length}</b> active warning(s)</div>`;
+    warnings.forEach(w => {
+      html += `<div style="margin-top:7px;border-top:1px solid #999;padding-top:6px;">
+        <b>${escapeHTML(w.type || "Warning")}</b><br>
+        <span>${escapeHTML(warningTimeRangeText(w))}</span>`;
+      const forecaster = w.forecaster_name || w.issued_by || w.forecaster || w.nowcaster_name || "";
+      if(forecaster) html += `<div><b>Forecaster:</b> ${escapeHTML(forecaster)}</div>`;
+      if(w.text) html += `<div style="white-space:pre-wrap;margin-top:4px;">${escapeHTML(w.text)}</div>`;
+      html += `</div>`;
+    });
+  }
+  html += `</div>`;
+  return html;
+}
+function toggleProvinceSelection(feature, layer){
+  const id = provinceIdFromFeature(feature);
+  if(selectedProvinceIds.has(id)){
+    selectedProvinceIds.delete(id);
+    selectedProvinceFeatures.delete(id);
+  }else{
+    selectedProvinceIds.add(id);
+    selectedProvinceFeatures.set(id, feature);
+  }
+  $("provinceNameBox").value = provinceNameFromFeature(feature);
+  renderProvinceLayer(false);
+  updateProvinceSelectionUI();
+  renderProvinceWarningList();
+}
+async function loadProvincesFromGitHub(){
+  setStatus($("provinceWarningStatus"), "Loading province borders from GitHub…", "warn");
+  try{
+    const res = await fetch(PROVINCES_URL + "?ts=" + Date.now(), {cache:"no-store"});
+    if(!res.ok) throw new Error("Could not load data/provinces.geojson (" + res.status + ")");
+    provincesSource = await res.json();
+    if(!Array.isArray(provincesSource.features)) throw new Error("Invalid province GeoJSON");
+    renderProvinceLayer(true);
+    setStatus($("provinceWarningStatus"), `Loaded ${provincesSource.features.length} province borders.`, "saved");
+  }catch(e){
+    console.error(e);
+    setStatus($("provinceWarningStatus"), "Province load failed: " + e.message, "error");
+  }
+}
+function renderProvinceLayer(fit=false){
+  provinceLayerGroup.clearLayers();
+  if(!provincesSource.features || !provincesSource.features.length) return;
+
+  L.geoJSON(provincesSource, {
+    pane:"provincePane",
+    style:provinceStyle,
+    onEachFeature:(feature, layer) => {
+      layer.bindPopup(() => buildProvincePopup(feature));
+      layer.on("click", () => toggleProvinceSelection(feature, layer));
+      layer.on("mouseover", () => {
+        layer.setStyle({weight: Math.max((layer.options.weight || 2) + 1.2, 3), fillOpacity: Math.max(layer.options.fillOpacity || 0, 0.18)});
+        if(layer._path) layer._path.style.cursor = "pointer";
+      });
+      layer.on("mouseout", () => {
+        layer.setStyle(provinceStyle(feature));
+      });
+      provinceLayerGroup.addLayer(layer);
+    }
+  });
+
+  if(fit){
+    map.fitBounds(CENTRAL_EUROPE_BOUNDS);
+  }
+}
+function updateProvinceSelectionUI(){
+  $("provinceSelectedCount").textContent = `${selectedProvinceIds.size} province${selectedProvinceIds.size === 1 ? "" : "s"} selected`;
+  if(!selectedProvinceIds.size){
+    $("provinceSelectedList").innerHTML = `<span style="color:#333;">No provinces selected.</span>`;
+    return;
+  }
+  const items = [...selectedProvinceFeatures.values()].map(f => provinceNameFromFeature(f)).sort();
+  $("provinceSelectedList").innerHTML = items.map(x => `<span class="province-selected-pill">${escapeHTML(x)}</span>`).join("");
+}
+function getProvinceWarningForm(){
+  const nowcaster = getLoggedInNowcaster();
+  return {
+    id:`prov-warn-${Date.now()}-${Math.random().toString(16).slice(2)}`,
+    type:$("provinceWarnType").value,
+    issued:$("provinceWarnIssued").value,
+    issued_iso:$("provinceWarnIssued").value ? new Date($("provinceWarnIssued").value).toISOString() : "",
+    expires:$("provinceWarnExpires").value,
+    expires_iso:$("provinceWarnExpires").value ? new Date($("provinceWarnExpires").value).toISOString() : "",
+    hail:$("provinceWarnHail").value.trim(),
+    wind:$("provinceWarnWind").value.trim(),
+    tornado_probability:$("provinceWarnTornado").value,
+    rotation:$("provinceWarnRotation").value,
+    text:$("provinceWarnText").value.trim(),
+    forecaster:nowcaster.username,
+    forecaster_name:nowcaster.displayName,
+    forecaster_role:nowcaster.role,
+    issued_by:nowcaster.displayName,
+    source:"CESTOF Nowcasting System Nowcaster Direct Upload",
+    updated_at:new Date().toISOString()
+  };
+}
+function addWarningToSelectedProvince(){
+  const ids = [...selectedProvinceIds];
+  if(!ids.length){
+    alert("Select at least one province first.");
+    return;
+  }
+  const w = getProvinceWarningForm();
+  ids.forEach(id => {
+    if(!Array.isArray(provinceWarnings[id])) provinceWarnings[id] = [];
+    provinceWarnings[id].push({...w, province_id:id});
+  });
+  saveProvinceWarningsLocal();
+  renderProvinceLayer(false);
+  renderProvinceWarningList();
+  setStatus($("provinceWarningStatus"), `Added ${w.type} to ${ids.length} selected province(s). Download/export when ready.`, "saved");
+}
+function removeProvinceWarningTypeFromSelected(){
+  const ids = [...selectedProvinceIds];
+  if(!ids.length){
+    alert("Select at least one province first.");
+    return;
+  }
+  const type = $("provinceWarnType").value;
+  if(!confirm(`Remove ${type} from ${ids.length} selected province(s)?`)) return;
+  let removed = 0;
+  ids.forEach(id => {
+    const before = (provinceWarnings[id] || []).length;
+    provinceWarnings[id] = (provinceWarnings[id] || []).filter(w => (w.type || "") !== type);
+    removed += before - provinceWarnings[id].length;
+  });
+  saveProvinceWarningsLocal();
+  renderProvinceLayer(false);
+  renderProvinceWarningList();
+  setStatus($("provinceWarningStatus"), `Removed ${removed} warning(s). Download/export when ready.`, "saved");
+}
+function clearProvinceWarningsFromSelected(){
+  const ids = [...selectedProvinceIds];
+  if(!ids.length){
+    alert("Select at least one province first.");
+    return;
+  }
+  if(!confirm(`Clear all warnings from ${ids.length} selected province(s)?`)) return;
+  ids.forEach(id => { provinceWarnings[id] = []; });
+  saveProvinceWarningsLocal();
+  renderProvinceLayer(false);
+  renderProvinceWarningList();
+  setStatus($("provinceWarningStatus"), "Cleared selected province warning(s). Download/export when ready.", "saved");
+}
+
+function removeSpecificProvinceWarning(provinceId, warningId){
+  if(!provinceId || !warningId) return;
+  const provinceName = selectedProvinceFeatures.get(provinceId) ? provinceNameFromFeature(selectedProvinceFeatures.get(provinceId)) : provinceId;
+  if(!confirm(`Remove this warning from ${provinceName}?`)) return;
+
+  const before = Array.isArray(provinceWarnings[provinceId]) ? provinceWarnings[provinceId].length : 0;
+  provinceWarnings[provinceId] = (provinceWarnings[provinceId] || []).filter(w => String(w.id || "") !== String(warningId));
+  const after = provinceWarnings[provinceId].length;
+
+  saveProvinceWarningsLocal();
+  renderProvinceLayer(false);
+  renderProvinceWarningList();
+  setStatus($("provinceWarningStatus"), `Removed ${before - after} warning from ${provinceName}. Upload/export when ready.`, "saved");
+}
+
+function renderProvinceWarningList(){
+  const box = $("provinceWarningList");
+  const ids = [...selectedProvinceIds];
+  if(!ids.length){
+    box.innerHTML = `<div class="small">No province selected.</div>`;
+    return;
+  }
+  let html = "";
+  ids.forEach(id => {
+    const feature = selectedProvinceFeatures.get(id);
+    const name = feature ? provinceNameFromFeature(feature) : id;
+    const warnings = getActiveProvinceWarnings(id);
+    html += `<div class="province-warning-entry">
+      <div class="province-warning-entry-title">${escapeHTML(name)}</div>`;
+    if(!warnings.length){
+      html += `<div class="small">No active warnings.</div>`;
+    }else{
+      warnings.forEach(w => {
+        html += `<div class="province-warning-entry-meta">
+          <b>${escapeHTML(w.type || "Warning")}</b><br>
+          ${escapeHTML(warningTimeRangeText(w))}
+          ${w.hail ? `<br>Hail: ${escapeHTML(w.hail)}` : ""}
+          ${w.wind ? `<br>Wind: ${escapeHTML(w.wind)}` : ""}
+          ${w.tornado_probability ? `<br>Tornado: ${escapeHTML(w.tornado_probability)}` : ""}
+          ${w.rotation ? `<br>Rotation: ${escapeHTML(w.rotation)}` : ""}
+          ${w.text ? `<br><span style="white-space:pre-wrap;">${escapeHTML(w.text)}</span>` : ""}
+          <br><button class="province-warning-remove" type="button" onclick="removeSpecificProvinceWarning('${String(id).replace(/'/g, "\\'")}', '${String(w.id || "").replace(/'/g, "\\'")}')">Remove this warning</button>
+        </div>`;
+      });
+    }
+    html += `</div>`;
+  });
+  box.innerHTML = html;
+}
+function featureIntersectsMapView(feature){
+  try{
+    const rings = geoToLatLngs(feature.geometry).flat();
+    if(!rings.length) return false;
+    const b = L.latLngBounds(rings);
+    return map.getBounds().intersects(b);
+  }catch(e){
+    return false;
+  }
+}
+
+function selectAllVisibleProvinces(){
+  if(!provincesSource.features || !provincesSource.features.length){
+    alert("Load province borders first.");
+    return;
+  }
+  let added = 0;
+  provincesSource.features.forEach(f => {
+    if(!featureIntersectsMapView(f)) return;
+    const id = provinceIdFromFeature(f);
+    if(!selectedProvinceIds.has(id)) added++;
+    selectedProvinceIds.add(id);
+    selectedProvinceFeatures.set(id, f);
+  });
+  renderProvinceLayer(false);
+  updateProvinceSelectionUI();
+  renderProvinceWarningList();
+  setStatus($("provinceWarningStatus"), `Selected ${added} visible province(s).`, "saved");
+}
+
+function invertVisibleProvinces(){
+  if(!provincesSource.features || !provincesSource.features.length){
+    alert("Load province borders first.");
+    return;
+  }
+  let changed = 0;
+  provincesSource.features.forEach(f => {
+    if(!featureIntersectsMapView(f)) return;
+    const id = provinceIdFromFeature(f);
+    if(selectedProvinceIds.has(id)){
+      selectedProvinceIds.delete(id);
+      selectedProvinceFeatures.delete(id);
+    }else{
+      selectedProvinceIds.add(id);
+      selectedProvinceFeatures.set(id, f);
+    }
+    changed++;
+  });
+  renderProvinceLayer(false);
+  updateProvinceSelectionUI();
+  renderProvinceWarningList();
+  setStatus($("provinceWarningStatus"), `Inverted ${changed} visible province(s).`, "saved");
+}
+
+function selectAllLoadedProvinces(){
+  if(!provincesSource.features || !provincesSource.features.length){
+    alert("Load province borders first.");
+    return;
+  }
+  provincesSource.features.forEach(f => {
+    const id = provinceIdFromFeature(f);
+    selectedProvinceIds.add(id);
+    selectedProvinceFeatures.set(id, f);
+  });
+  renderProvinceLayer(false);
+  updateProvinceSelectionUI();
+  renderProvinceWarningList();
+  setStatus($("provinceWarningStatus"), `Selected all ${selectedProvinceIds.size} loaded province(s).`, "saved");
+}
+function clearProvinceSelection(){
+  selectedProvinceIds.clear();
+  selectedProvinceFeatures.clear();
+  $("provinceNameBox").value = "";
+  renderProvinceLayer(false);
+  updateProvinceSelectionUI();
+  renderProvinceWarningList();
+}
+function provinceWarningsGeoJSON(){
+  const features = [];
+  (provincesSource.features || []).forEach(feature => {
+    const id = provinceIdFromFeature(feature);
+    const warnings = getActiveProvinceWarnings(id);
+    if(!warnings.length) return;
+
+    const provinceName = provinceNameFromFeature(feature);
+    const props = {...(feature.properties || {})};
+
+    const warningsWithProvinceNames = warnings.map(w => ({
+      ...w,
+      province_id:id,
+      province_name:provinceName,
+      affected_provinces:[provinceName],
+      affected_province_ids:[id],
+      affected_provinces_text:provinceName
+    }));
+
+    props.province_id = id;
+    props.province_name = provinceName;
+    props.province_ids = [id];
+    props.province_names = [provinceName];
+    props.affected_provinces = [provinceName];
+    props.affected_province_ids = [id];
+    props.affected_provinces_text = provinceName;
+    props.connected = false;
+    props.warning_count = warningsWithProvinceNames.length;
+    props.warnings = warningsWithProvinceNames;
+
+    features.push({
+      type:"Feature",
+      properties:props,
+      geometry:feature.geometry
+    });
+  });
+
+  return {
+    type:"FeatureCollection",
+    name:"CESTOF Province Warnings",
+    generated_at:new Date().toISOString(),
+    features
+  };
+}
+
+/* =========================
+   OPERATOR EXPORTS
+   ========================= */
+function exportProvinceWarningsLocal(){
+  if(!provincesSource.features || !provincesSource.features.length){
+    alert("Load province borders first.");
+    return;
+  }
+  const gj = provinceWarningsGeoJSON();
+  downloadText(PROVINCE_WARNINGS_FILE, JSON.stringify(gj,null,2));
+}
+
+function showOperatorExportNotice(){
+  alert("This version uploads through a secure endpoint. The GitHub token is not stored in this HTML.");
+}
+
+function getUploadEndpoint(){
+  return "https://cestof-nowcasting-upload.lucas-papadakis08.workers.dev/upload";
+}
+
+function getNowcasterUploadKey(){
+  return "";
+}
+
+function resetNowcasterUploadSettings(){
+  alert("No upload key is required in this version.");
+}
+
+async function uploadFileThroughEndpoint(filename, geojsonObject, kind){
+  const endpoint = getUploadEndpoint();
+  if(!endpoint){
+    alert("No upload endpoint set.");
+    return;
+  }
+  const payload = {
+    filename,
+    kind,
+    generated_at:new Date().toISOString(),
+    nowcaster:getLoggedInNowcaster(),
+    content:geojsonObject
+  };
+
+  const res = await fetch(endpoint, {
+    method:"POST",
+    headers:{
+      "Content-Type":"application/json"
+    },
+    body:JSON.stringify(payload)
+  });
+
+  const text = await res.text();
+  if(!res.ok){
+    throw new Error("Upload failed: " + res.status + " " + text);
+  }
+
+  alert(filename + " uploaded directly to GitHub.");
+}
+
+
+async function fetchExistingGitHubGeoJSON(filename){
+  const url = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${filename}?v=${Date.now()}`;
+  try{
+    const res = await fetch(url, {cache:"no-store"});
+    if(!res.ok) return {type:"FeatureCollection", features:[]};
+    const gj = await res.json();
+    if(!gj || gj.type !== "FeatureCollection" || !Array.isArray(gj.features)){
+      return {type:"FeatureCollection", features:[]};
+    }
+    return gj;
+  }catch(e){
+    console.warn("Could not fetch existing " + filename + " before merge:", e);
+    return {type:"FeatureCollection", features:[]};
+  }
+}
+
+function stableFeatureKey(feature){
+  const p = feature?.properties || {};
+  const explicit = p.id || p.warning_id || p.uuid || p.md_number || "";
+  if(explicit) return "id:" + String(explicit);
+  return "auto:" + JSON.stringify({
+    type:p.type || "",
+    issued:p.issued_iso || p.issued || "",
+    expires:p.expires_iso || p.expires || "",
+    location:p.location || p.area || p.region || "",
+    text:p.text || "",
+    geometry:feature?.geometry || null
+  });
+}
+
+function mergeWarningPolygonGeoJSON(existing, current){
+  const out = {
+    type:"FeatureCollection",
+    name:"CESTOF Warning Polygons",
+    generated_at:new Date().toISOString(),
+    features:[]
+  };
+  const seen = new Set();
+  function add(gj){
+    (Array.isArray(gj?.features) ? gj.features : []).forEach(feature => {
+      if(!feature || !feature.geometry) return;
+      const key = stableFeatureKey(feature);
+      if(seen.has(key)) return;
+      seen.add(key);
+      out.features.push(feature);
+    });
+  }
+  add(existing);
+  add(current);
+  return out;
+}
+
+function provinceFeatureKey(feature){
+  const p = feature?.properties || {};
+  return String(p.province_id || p.id || p.ID || p.iso_3166_2 || p.ISO_3166_2 || p.province_name || p.name || p.NAME || "").trim();
+}
+
+function stableProvinceWarningKey(w){
+  const explicit = w?.id || w?.warning_id || w?.uuid || "";
+  if(explicit) return "id:" + String(explicit);
+  return "auto:" + JSON.stringify({
+    type:w?.type || "",
+    issued:w?.issued_iso || w?.issued || "",
+    expires:w?.expires_iso || w?.expires || "",
+    text:w?.text || "",
+    hail:w?.hail || "",
+    wind:w?.wind || "",
+    tornado:w?.tornado_probability || "",
+    rotation:w?.rotation || ""
+  });
+}
+
+function mergeProvinceWarningsGeoJSON(existing, current){
+  const out = {
+    type:"FeatureCollection",
+    name:"CESTOF Province Warnings",
+    generated_at:new Date().toISOString(),
+    features:[]
+  };
+
+  const byProvince = new Map();
+
+  function addFeature(feature){
+    if(!feature || !feature.geometry) return;
+    const p = feature.properties || {};
+    const key = String(p.province_id || p.id || p.ID || p.iso_3166_2 || p.ISO_3166_2 || p.province_name || p.name || p.NAME || "").trim();
+    if(!key) return;
+
+    const warnings = Array.isArray(p.warnings) ? p.warnings : [];
+
+    if(!byProvince.has(key)){
+      byProvince.set(key, {
+        ...feature,
+        properties:{
+          ...p,
+          connected:false,
+          warning_count:0,
+          warnings:[]
+        }
+      });
+    }
+
+    const stored = byProvince.get(key);
+    const seen = new Set((stored.properties.warnings || []).map(stableProvinceWarningKey));
+
+    warnings.forEach(w => {
+      const wk = stableProvinceWarningKey(w || {});
+      if(seen.has(wk)) return;
+      seen.add(wk);
+      stored.properties.warnings.push(w);
+    });
+
+    stored.properties.warning_count = stored.properties.warnings.length;
+  }
+
+  (Array.isArray(existing?.features) ? existing.features : []).forEach(addFeature);
+  (Array.isArray(current?.features) ? current.features : []).forEach(addFeature);
+
+  out.features = [...byProvince.values()].filter(f => Array.isArray(f.properties?.warnings) && f.properties.warnings.length);
+  return out;
+}
+
+
+async function uploadWarningsThroughEndpoint(){
+  try{
+    const localGj = warningsGeoJSON();
+    const existingGj = await fetchExistingGitHubGeoJSON(WARNINGS_FILE);
+    const mergedGj = mergeWarningPolygonGeoJSON(existingGj, localGj);
+    await uploadFileThroughEndpoint(WARNINGS_FILE, mergedGj, "warning-polygons");
+  }catch(e){
+    console.error(e);
+    alert(e.message);
+  }
+}
+
+async function uploadProvinceWarningsThroughEndpoint(){
+  try{
+    if(!provincesSource.features || !provincesSource.features.length){
+      await loadProvincesFromGitHub();
+    }
+    const localGj = provinceWarningsGeoJSON();
+    const existingGj = await fetchExistingGitHubGeoJSON(PROVINCE_WARNINGS_FILE);
+    const mergedGj = mergeProvinceWarningsGeoJSON(existingGj, localGj);
+    await uploadFileThroughEndpoint(PROVINCE_WARNINGS_FILE, mergedGj, "province-warnings");
+  }catch(e){
+    console.error(e);
+    alert(e.message);
+  }
+}
+
+
+async function exportWarningPolygonsPNG(){
+  const warningLayers = drawGroup.getLayers().filter(layer => layer && typeof layer.getBounds === "function");
+
+  if(!warningLayers.length){
+    alert("Create or import at least one warning polygon first.");
+    return;
+  }
+
+  if(typeof html2canvas === "undefined"){
+    alert("PNG exporter library did not load. Check your internet connection and try again.");
+    return;
+  }
+
+  let captureBounds = null;
+  warningLayers.forEach(layer => {
+    const b = layer.getBounds();
+    if(!captureBounds) captureBounds = L.latLngBounds(b.getSouthWest(), b.getNorthEast());
+    else captureBounds.extend(b);
+  });
+
+  if(!captureBounds){
+    alert("Could not calculate warning polygon bounds.");
+    return;
+  }
+
+  const oldCenter = map.getCenter();
+  const oldZoom = map.getZoom();
+  const mapEl = document.getElementById("map");
+  const hiddenEls = [];
+
+  function hideForExport(selector){
+    mapEl.querySelectorAll(selector).forEach(el => {
+      hiddenEls.push([el, el.style.display, el.style.visibility, el.style.opacity]);
+      el.style.display = "none";
+    });
+  }
+
+  function restoreHiddenEls(){
+    hiddenEls.forEach(([el, display, visibility, opacity]) => {
+      el.style.display = display;
+      el.style.visibility = visibility;
+      el.style.opacity = opacity;
+    });
+  }
+
+  function hideLayerPaths(layers){
+    return layers.map(layer => {
+      const el = layer.getElement ? layer.getElement() : layer._path;
+      const old = el ? el.style.display : "";
+      if(el) el.style.display = "none";
+      return [el, old];
+    });
+  }
+
+  hideForExport(".leaflet-control-container");
+  hideForExport(".leaflet-draw");
+  hideForExport(".leaflet-control-zoom");
+  hideForExport(".leaflet-control-attribution");
+
+  const oldProvinceDisplay = hideLayerPaths(provinceLayerGroup.getLayers());
+  const oldWarningDisplay = hideLayerPaths(warningLayers);
+
+  try{
+    map.fitBounds(captureBounds.pad(0.55), {animate:false, maxZoom:9});
+    await new Promise(resolve => setTimeout(resolve, 1200));
+    map.invalidateSize();
+    await new Promise(resolve => setTimeout(resolve, 500));
+
+    if(radarEnabled){
+      try{
+        await loadRainViewerLatest();
+        await new Promise(resolve => setTimeout(resolve, 1800));
+      }catch(e){
+        console.warn("Radar reload before PNG failed:", e);
+      }
+    }
+
+    const W = 1600;
+    const H = 1000;
+    const sideW = 455;
+    const mapW = W - sideW;
+
+    const finalCanvas = document.createElement("canvas");
+    finalCanvas.width = W;
+    finalCanvas.height = H;
+    const ctx = finalCanvas.getContext("2d");
+
+    ctx.fillStyle = "#050505";
+    ctx.fillRect(0, 0, W, H);
+
+    let mapCanvas = null;
+    try{
+      mapCanvas = await html2canvas(mapEl, {
+        useCORS:true,
+        allowTaint:false,
+        backgroundColor:"#ffffff",
+        logging:false,
+        scale:2,
+        width:mapEl.clientWidth,
+        height:mapEl.clientHeight,
+        windowWidth:document.documentElement.clientWidth,
+        windowHeight:document.documentElement.clientHeight,
+        ignoreElements:(el) => {
+          return el.classList && (
+            el.classList.contains("leaflet-control-container") ||
+            el.classList.contains("leaflet-draw") ||
+            el.classList.contains("leaflet-control-zoom") ||
+            el.classList.contains("leaflet-control-attribution")
+          );
+        }
+      });
+    }catch(e){
+      console.error(e);
+      alert("Could not capture the Leaflet map. The browser may have blocked map/radar tiles because of CORS.");
+      return;
+    }
+
+    ctx.drawImage(mapCanvas, 0, 0, mapW, H);
+
+    const mapSize = map.getSize();
+    function latLngToExportXY(latlng){
+      const p = map.latLngToContainerPoint(latlng);
+      return [
+        (p.x / mapSize.x) * mapW,
+        (p.y / mapSize.y) * H
+      ];
+    }
+
+    function drawGeoJSONGeometry(geometry, style){
+      const rings = geoToLatLngs(geometry);
+      ctx.strokeStyle = style.color || "#0a6a0a";
+      ctx.fillStyle = (style.color || "#0a6a0a") + "26";
+      ctx.lineWidth = Math.max(4, Number(style.weight || 4));
+      ctx.lineJoin = "round";
+      ctx.lineCap = "round";
+
+      rings.forEach(ring => {
+        ctx.beginPath();
+        ring.forEach((ll, i) => {
+          const [x, y] = latLngToExportXY(ll);
+          if(i === 0) ctx.moveTo(x, y);
+          else ctx.lineTo(x, y);
+        });
+        ctx.closePath();
+        ctx.fill();
+        ctx.stroke();
+      });
+    }
+
+    warningLayers.forEach(layer => {
+      const feature = layer.toGeoJSON ? layer.toGeoJSON() : layer.feature;
+      const props = layer.feature?.properties || feature?.properties || {};
+      const st = warningTypeStyle(props.type);
+      if(feature?.geometry) drawGeoJSONGeometry(feature.geometry, st);
+    });
+
+    ctx.strokeStyle = "#000";
+    ctx.lineWidth = 2;
+    ctx.strokeRect(0, 0, mapW, H);
+
+    ctx.fillStyle = "rgba(255,255,255,.92)";
+    ctx.fillRect(14, H - 44, 285, 30);
+    ctx.strokeStyle = "#000";
+    ctx.strokeRect(14, H - 44, 285, 30);
+    ctx.fillStyle = "#000";
+    ctx.font = "900 13px Arial, Helvetica, sans-serif";
+    ctx.fillText("Leaflet map view / RainViewer", 26, H - 24);
+
+    ctx.fillStyle = "rgba(255,255,255,.97)";
+    ctx.fillRect(mapW, 0, sideW, H);
+    ctx.strokeStyle = "#000";
+    ctx.lineWidth = 2;
+    ctx.strokeRect(mapW, 0, sideW, H);
+
+    let sideX = mapW + 24;
+    let y = 38;
+
+    ctx.fillStyle = "#000";
+    ctx.font = "900 24px Arial, Helvetica, sans-serif";
+    y = wrapCanvasText(ctx, "CESTOF NOWCASTING SYSTEM", sideX, y, sideW - 48, 27, 2);
+
+    y += 4;
+    ctx.font = "800 17px Arial, Helvetica, sans-serif";
+    y = wrapCanvasText(ctx, "Warning Polygon Overview", sideX, y, sideW - 48, 21, 2);
+
+    y += 4;
+    ctx.font = "700 12px Arial, Helvetica, sans-serif";
+    y = wrapCanvasText(ctx, "Generated: " + new Date().toLocaleString(), sideX, y, sideW - 48, 15, 2);
+
+    y += 14;
+
+    const allWarnings = warningLayers.map((layer, idx) => {
+      const p = layer.feature?.properties || {};
+      const threats = {
+        hail:p.hail || p.hazards?.hail || "",
+        wind:p.wind || p.hazards?.wind || "",
+        tornado:p.tornado_probability || p.hazards?.tornado_probability || "",
+        rotation:p.rotation || p.hazards?.rotation || "",
+        movement:p.movement || p.motion || p.hazards?.movement || ""
+      };
+      return {
+        idx,
+        p,
+        threats,
+        title:p.type || "Warning polygon",
+        location:p.location || p.area || p.region || "No location"
+      };
+    });
+
+    const cardH = 132;
+
+    for(let idx = 0; idx < allWarnings.length; idx++){
+      const entry = allWarnings[idx];
+
+      if(y > H - 150){
+        ctx.fillStyle = "#000";
+        ctx.font = "900 14px Arial, Helvetica, sans-serif";
+        ctx.fillText(`+ ${allWarnings.length - idx} more warning(s)`, sideX, H - 92);
+        break;
+      }
+
+      const st = warningTypeStyle(entry.p.type);
+
+      ctx.fillStyle = "#fff";
+      ctx.fillRect(sideX, y, sideW - 48, cardH);
+      ctx.strokeStyle = "#000";
+      ctx.lineWidth = 1.5;
+      ctx.strokeRect(sideX, y, sideW - 48, cardH);
+
+      ctx.fillStyle = st.color;
+      ctx.fillRect(sideX, y, 14, cardH);
+
+      ctx.fillStyle = "#000";
+      ctx.font = "900 15px Arial, Helvetica, sans-serif";
+      let yy = wrapCanvasText(ctx, entry.title, sideX + 24, y + 19, sideW - 90, 17, 2);
+
+      ctx.font = "800 12px Arial, Helvetica, sans-serif";
+      yy = wrapCanvasText(ctx, entry.location, sideX + 24, yy + 1, sideW - 90, 15, 2);
+
+      ctx.font = "700 11px Arial, Helvetica, sans-serif";
+      yy = wrapCanvasText(ctx, warningTimeRangeText(entry.p), sideX + 24, yy + 1, sideW - 90, 14, 2);
+
+      const threatLines = [];
+      if(entry.threats.hail) threatLines.push("Hail: " + entry.threats.hail);
+      if(entry.threats.wind) threatLines.push("Wind: " + entry.threats.wind);
+      if(entry.threats.tornado) threatLines.push("Tornado: " + entry.threats.tornado);
+      if(entry.threats.rotation) threatLines.push("Rotation: " + entry.threats.rotation);
+      if(entry.threats.movement) threatLines.push("Motion: " + entry.threats.movement);
+
+      if(threatLines.length){
+        ctx.font = "900 11px Arial, Helvetica, sans-serif";
+        yy = wrapCanvasText(ctx, "Threats:", sideX + 24, yy + 2, sideW - 90, 13, 1);
+        ctx.font = "700 11px Arial, Helvetica, sans-serif";
+        threatLines.slice(0, 4).forEach(line => {
+          yy = wrapCanvasText(ctx, line, sideX + 24, yy, sideW - 90, 13, 1);
+        });
+      }
+
+      if(entry.p.forecaster_name || entry.p.issued_by || entry.p.forecaster){
+        const fc = entry.p.forecaster_name || entry.p.issued_by || entry.p.forecaster;
+        ctx.font = "800 11px Arial, Helvetica, sans-serif";
+        yy = wrapCanvasText(ctx, "Forecaster: " + fc, sideX + 24, yy + 1, sideW - 90, 13, 1);
+      }
+
+      if(entry.p.text){
+        ctx.font = "11px Arial, Helvetica, sans-serif";
+        wrapCanvasText(ctx, entry.p.text, sideX + 24, yy + 2, sideW - 90, 13, 1);
+      }
+
+      y += cardH + 12;
+    }
+
+    const logo = await loadLogoForCanvas();
+    if(logo){
+      const size = 56;
+      ctx.drawImage(logo, sideX, H - size - 26, size, size);
+    }
+
+    ctx.fillStyle = "#000";
+    ctx.font = "900 13px Arial, Helvetica, sans-serif";
+    ctx.fillText("Central European Storm Forecasts", sideX + 66, H - 55);
+
+    ctx.font = "700 11px Arial, Helvetica, sans-serif";
+    ctx.fillText("Non-official warning product", sideX + 66, H - 37);
+
+    downloadCanvasPNG(finalCanvas, "cestof-warning-polygon.png");
+  }finally{
+    restoreHiddenEls();
+    oldProvinceDisplay.forEach(([el, old]) => {
+      if(el) el.style.display = old;
+    });
+    oldWarningDisplay.forEach(([el, old]) => {
+      if(el) el.style.display = old;
+    });
+    map.setView(oldCenter, oldZoom, {animate:false});
+    setTimeout(() => map.invalidateSize(), 100);
+  }
+}
+
+/* =========================
+   PNG EXPORT FOR PROVINCES
+   ========================= */
+function downloadCanvasPNG(canvas, filename){
+  const a = document.createElement("a");
+  a.download = filename;
+  a.href = canvas.toDataURL("image/png");
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+}
+function geoToLatLngs(geometry){
+  if(!geometry) return [];
+  if(geometry.type === "Polygon") return geometry.coordinates.map(ring => ring.map(c => L.latLng(c[1], c[0])));
+  if(geometry.type === "MultiPolygon") return geometry.coordinates.flatMap(poly => poly.map(ring => ring.map(c => L.latLng(c[1], c[0]))));
+  return [];
+}
+async function loadLogoForCanvas(){
+  return new Promise(resolve => {
+    const img = new Image();
+    img.crossOrigin = "anonymous";
+    img.onload = () => resolve(img);
+    img.onerror = () => resolve(null);
+    img.src = "img/logo.png?ts=" + Date.now();
+  });
+}
+function wrapCanvasText(ctx, text, x, y, maxWidth, lineHeight, maxLines=999){
+  const words = String(text || "").split(/\s+/).filter(Boolean);
+  let line = "";
+  let lines = 0;
+  for(let i=0;i<words.length;i++){
+    const test = line ? line + " " + words[i] : words[i];
+    if(ctx.measureText(test).width > maxWidth && line){
+      ctx.fillText(line, x, y);
+      y += lineHeight;
+      lines++;
+      line = words[i];
+      if(lines >= maxLines) return y;
+    }else{
+      line = test;
+    }
+  }
+  if(line && lines < maxLines){
+    ctx.fillText(line, x, y);
+    y += lineHeight;
+  }
+  return y;
+}
+
+async function exportProvinceWarningsPNG(){
+  const ids = [...selectedProvinceIds];
+  if(!ids.length){
+    alert("Select at least one province first.");
+    return;
+  }
+
+  const selected = ids.map(id => {
+    const feature = selectedProvinceFeatures.get(id);
+    return {
+      id,
+      feature,
+      province: feature ? provinceNameFromFeature(feature) : id,
+      warnings: getActiveProvinceWarnings(id)
+    };
+  }).filter(x => x.feature && x.warnings.length);
+
+  if(!selected.length){
+    alert("Selected provinces have no active warnings.");
+    return;
+  }
+
+  if(typeof html2canvas === "undefined"){
+    alert("PNG exporter library did not load. Check your internet connection and try again.");
+    return;
+  }
+
+  // Calculate bounds only from selected warned provinces.
+  let captureBounds = null;
+  selected.forEach(entry => {
+    geoToLatLngs(entry.feature.geometry).flat().forEach(ll => {
+      if(!captureBounds) captureBounds = L.latLngBounds(ll, ll);
+      else captureBounds.extend(ll);
+    });
+  });
+
+  if(!captureBounds){
+    alert("Could not calculate selected warning bounds.");
+    return;
+  }
+
+  // Save current view so exporting does not permanently mess up the work map.
+  const oldCenter = map.getCenter();
+  const oldZoom = map.getZoom();
+
+  // Temporarily hide province selection borders and map controls.
+  // The selected warning polygons still stay visible because their style is applied through province warning colors.
+  const mapEl = document.getElementById("map");
+  const hiddenEls = [];
+
+  function hideForExport(selector){
+    mapEl.querySelectorAll(selector).forEach(el => {
+      hiddenEls.push([el, el.style.display, el.style.visibility, el.style.opacity]);
+      el.style.display = "none";
+    });
+  }
+
+  function restoreHiddenEls(){
+    hiddenEls.forEach(([el, display, visibility, opacity]) => {
+      el.style.display = display;
+      el.style.visibility = visibility;
+      el.style.opacity = opacity;
+    });
+  }
+
+  // Hide controls/buttons/zoom/edit toolbar/attribution from the captured image.
+  hideForExport(".leaflet-control-container");
+  hideForExport(".leaflet-draw");
+  hideForExport(".leaflet-control-zoom");
+  hideForExport(".leaflet-control-attribution");
+
+  // Hide all normal province borders during export.
+  // Then draw only the selected warning provinces manually on top of the screenshot.
+  const oldProvinceDisplay = provinceLayerGroup.getLayers().map(layer => {
+    const el = layer.getElement ? layer.getElement() : layer._path;
+    const old = el ? el.style.display : "";
+    if(el) el.style.display = "none";
+    return [el, old];
+  });
+
+  try{
+    // Fit selected warning tightly and keep it centered.
+    map.fitBounds(captureBounds.pad(0.22), {animate:false});
+    await new Promise(resolve => setTimeout(resolve, 900));
+    map.invalidateSize();
+    await new Promise(resolve => setTimeout(resolve, 300));
+
+    const W = 1600;
+    const H = 1000;
+    const sideW = 455;
+    const mapW = W - sideW;
+
+    const finalCanvas = document.createElement("canvas");
+    finalCanvas.width = W;
+    finalCanvas.height = H;
+    const ctx = finalCanvas.getContext("2d");
+
+    ctx.fillStyle = "#050505";
+    ctx.fillRect(0, 0, W, H);
+
+    let mapCanvas = null;
+    try{
+      mapCanvas = await html2canvas(mapEl, {
+        useCORS:true,
+        allowTaint:false,
+        backgroundColor:"#ffffff",
+        logging:false,
+        scale:2,
+        width:mapEl.clientWidth,
+        height:mapEl.clientHeight,
+        windowWidth:document.documentElement.clientWidth,
+        windowHeight:document.documentElement.clientHeight,
+        ignoreElements:(el) => {
+          return el.classList && (
+            el.classList.contains("leaflet-control-container") ||
+            el.classList.contains("leaflet-draw") ||
+            el.classList.contains("leaflet-control-zoom") ||
+            el.classList.contains("leaflet-control-attribution")
+          );
+        }
+      });
+    }catch(e){
+      console.error(e);
+      alert("Could not capture the Leaflet map. The browser may have blocked map tiles because of CORS.");
+      return;
+    }
+
+    // Draw the clean Leaflet map screenshot on the left.
+    ctx.drawImage(mapCanvas, 0, 0, mapW, H);
+
+    // Draw ONLY selected warning provinces over the screenshot, centered.
+    const mapSize = map.getSize();
+    function latLngToExportXY(latlng){
+      const containerPoint = map.latLngToContainerPoint(latlng);
+      return [
+        (containerPoint.x / mapSize.x) * mapW,
+        (containerPoint.y / mapSize.y) * H
+      ];
+    }
+
+    selected.forEach(entry => {
+      const main = entry.warnings[entry.warnings.length - 1] || {};
+      const st = warningTypeStyle(main.type);
+      const rings = geoToLatLngs(entry.feature.geometry);
+
+      ctx.strokeStyle = st.color;
+      ctx.fillStyle = st.color + "33";
+      ctx.lineWidth = 5;
+      ctx.lineJoin = "round";
+      ctx.lineCap = "round";
+
+      rings.forEach(ring => {
+        ctx.beginPath();
+        ring.forEach((ll, i) => {
+          const [x, y] = latLngToExportXY(ll);
+          if(i === 0) ctx.moveTo(x, y);
+          else ctx.lineTo(x, y);
+        });
+        ctx.closePath();
+        ctx.fill();
+        ctx.stroke();
+      });
+    });
+
+    // Map border and label.
+    ctx.strokeStyle = "#000";
+    ctx.lineWidth = 2;
+    ctx.strokeRect(0, 0, mapW, H);
+
+    ctx.fillStyle = "rgba(255,255,255,.92)";
+    ctx.fillRect(14, H - 44, 250, 30);
+    ctx.strokeStyle = "#000";
+    ctx.strokeRect(14, H - 44, 250, 30);
+    ctx.fillStyle = "#000";
+    ctx.font = "900 13px Arial, Helvetica, sans-serif";
+    ctx.fillText("Leaflet map view / OSM", 26, H - 24);
+
+    // Right side information panel.
+    ctx.fillStyle = "rgba(255,255,255,.97)";
+    ctx.fillRect(mapW, 0, sideW, H);
+    ctx.strokeStyle = "#000";
+    ctx.lineWidth = 2;
+    ctx.strokeRect(mapW, 0, sideW, H);
+
+    function wrapCanvasText(ctx, text, x, y, maxWidth, lineHeight, maxLines=999){
+      const words = String(text || "").split(/\s+/).filter(Boolean);
+      let line = "";
+      let lines = 0;
+
+      for(let i = 0; i < words.length; i++){
+        const test = line ? line + " " + words[i] : words[i];
+        if(ctx.measureText(test).width > maxWidth && line){
+          ctx.fillText(line, x, y);
+          y += lineHeight;
+          lines++;
+          line = words[i];
+          if(lines >= maxLines) return y;
+        }else{
+          line = test;
+        }
+      }
+
+      if(line && lines < maxLines){
+        ctx.fillText(line, x, y);
+        y += lineHeight;
+      }
+
+      return y;
+    }
+
+    let sideX = mapW + 24;
+    let y = 38;
+
+    ctx.fillStyle = "#000";
+    ctx.font = "900 24px Arial, Helvetica, sans-serif";
+    y = wrapCanvasText(ctx, "CESTOF NOWCASTING SYSTEM", sideX, y, sideW - 48, 27, 2);
+
+    y += 4;
+    ctx.font = "800 17px Arial, Helvetica, sans-serif";
+    y = wrapCanvasText(ctx, "Province Warning Overview", sideX, y, sideW - 48, 21, 2);
+
+    y += 4;
+    ctx.font = "700 12px Arial, Helvetica, sans-serif";
+    y = wrapCanvasText(ctx, "Generated: " + new Date().toLocaleString(), sideX, y, sideW - 48, 15, 2);
+
+    y += 14;
+
+    const allWarnings = [];
+    selected.forEach(entry => {
+      entry.warnings.forEach(w => allWarnings.push({province:entry.province, w}));
+    });
+
+    const cardH = 96;
+
+    for(let idx = 0; idx < allWarnings.length; idx++){
+      const entry = allWarnings[idx];
+
+      if(y > H - 140){
+        ctx.fillStyle = "#000";
+        ctx.font = "900 14px Arial, Helvetica, sans-serif";
+        ctx.fillText(`+ ${allWarnings.length - idx} more warning(s)`, sideX, H - 92);
+        break;
+      }
+
+      const st = warningTypeStyle(entry.w.type);
+
+      ctx.fillStyle = "#fff";
+      ctx.fillRect(sideX, y, sideW - 48, cardH);
+      ctx.strokeStyle = "#000";
+      ctx.lineWidth = 1.5;
+      ctx.strokeRect(sideX, y, sideW - 48, cardH);
+
+      ctx.fillStyle = st.color;
+      ctx.fillRect(sideX, y, 14, cardH);
+
+      ctx.fillStyle = "#000";
+      ctx.font = "900 15px Arial, Helvetica, sans-serif";
+      let yy = wrapCanvasText(ctx, entry.w.type || "Warning", sideX + 24, y + 19, sideW - 90, 17, 2);
+
+      ctx.font = "800 12px Arial, Helvetica, sans-serif";
+      yy = wrapCanvasText(ctx, entry.province, sideX + 24, yy + 1, sideW - 90, 15, 1);
+
+      ctx.font = "700 11px Arial, Helvetica, sans-serif";
+      yy = wrapCanvasText(ctx, warningTimeRangeText(entry.w), sideX + 24, yy + 1, sideW - 90, 14, 2);
+
+      if(entry.w.forecaster_name || entry.w.issued_by || entry.w.forecaster){
+        const fc = entry.w.forecaster_name || entry.w.issued_by || entry.w.forecaster;
+        ctx.font = "800 11px Arial, Helvetica, sans-serif";
+        yy = wrapCanvasText(ctx, "Forecaster: " + fc, sideX + 24, yy + 1, sideW - 90, 13, 1);
+      }
+
+      if(entry.w.text){
+        ctx.font = "11px Arial, Helvetica, sans-serif";
+        wrapCanvasText(ctx, entry.w.text, sideX + 24, yy + 2, sideW - 90, 13, 2);
+      }
+
+      y += cardH + 12;
+    }
+
+    const logo = await loadLogoForCanvas();
+    if(logo){
+      const size = 56;
+      ctx.drawImage(logo, sideX, H - size - 26, size, size);
+    }
+
+    ctx.fillStyle = "#000";
+    ctx.font = "900 13px Arial, Helvetica, sans-serif";
+    ctx.fillText("Central European Storm Forecasts", sideX + 66, H - 55);
+
+    ctx.font = "700 11px Arial, Helvetica, sans-serif";
+    ctx.fillText("Non-official warning product", sideX + 66, H - 37);
+
+    downloadCanvasPNG(finalCanvas, "cestof-province-warning.png");
+  }finally{
+    restoreHiddenEls();
+    oldProvinceDisplay.forEach(([el, old]) => {
+      if(el) el.style.display = old;
+    });
+    map.setView(oldCenter, oldZoom, {animate:false});
+    setTimeout(() => map.invalidateSize(), 100);
+  }
+}
+
+
+/* =========================
+   IMPORT / EXPORT / UI EVENTS
+   ========================= */
+function setMode(mode){
+  currentMode = mode;
+  $("modeWarnings").classList.toggle("active", mode === "warnings");
+  $("modeProvinceWarnings").classList.toggle("active", mode === "province");
+  $("warningPanel").style.display = mode === "warnings" ? "" : "none";
+  $("provinceWarningPanel").style.display = mode === "province" ? "" : "none";
+
+  if(mode === "province"){
+    selectedLayer = null;
+    renderPolygonList();
+
+    // Important fix:
+    // If provinces were already loaded before, switching back from warnings mode
+    // must render them again instead of doing nothing.
+    if(!provincesSource.features || !provincesSource.features.length){
+      loadProvincesFromGitHub();
+    }else{
+      renderProvinceLayer(false);
+      updateProvinceSelectionUI();
+      renderProvinceWarningList();
+    }
+  }else{
+    // Hide province borders while in warning polygon mode,
+    // but do NOT delete selected provinces or loaded province data.
+    provinceLayerGroup.clearLayers();
+    updateProvinceSelectionUI();
+    renderProvinceWarningList();
+  }
+}
+$("modeWarnings").addEventListener("click", () => setMode("warnings"));
+$("modeProvinceWarnings").addEventListener("click", () => setMode("province"));
+
+$("applyWarningBtn").addEventListener("click", applyWarningDetails);
+$("deleteWarningBtn").addEventListener("click", deleteSelectedWarning);
+$("fillWarningTimesBtn").addEventListener("click", () => {
+  $("warnIssued").value = nowDatetimeLocalPlus(0);
+  $("warnExpires").value = nowDatetimeLocalPlus(60);
+});
+$("btnProvinceWarnTimes").addEventListener("click", () => {
+  $("provinceWarnIssued").value = nowDatetimeLocalPlus(0);
+  $("provinceWarnExpires").value = nowDatetimeLocalPlus(60);
+});
+$("btnSaveLocal").addEventListener("click", () => {
+  saveWarningsLocal();
+  saveProvinceWarningsLocal();
+  alert("Saved locally in this browser.");
+});
+$("btnClear").addEventListener("click", () => {
+  if(currentMode === "warnings"){
+    if(confirm("Clear all warning polygons from the map?")){
+      drawGroup.clearLayers();
+      selectedLayer = null;
+      saveWarningsLocal();
+      renderPolygonList();
+    }
+  }else{
+    clearProvinceSelection();
+  }
+});
+$("btnExport").addEventListener("click", () => {
+  const gj = warningsGeoJSON();
+  downloadText(WARNINGS_FILE, JSON.stringify(gj,null,2));
+});
+$("btnExportProvinceWarningsLocal").addEventListener("click", exportProvinceWarningsLocal);
+$("btnUploadWarningsEndpoint").addEventListener("click", uploadWarningsThroughEndpoint);
+$("btnUploadProvinceWarningsEndpoint").addEventListener("click", uploadProvinceWarningsThroughEndpoint);
+$("btnResetNowcasterUpload").addEventListener("click", resetNowcasterUploadSettings);
+$("btnLogoutNowcaster").addEventListener("click", logoutNowcaster);
+$("btnExportWarningPolygonsPNG").addEventListener("click", exportWarningPolygonsPNG);
+$("btnExportProvinceWarningsPNG").addEventListener("click", exportProvinceWarningsPNG);
+
+$("btnLoadProvinces").addEventListener("click", loadProvincesFromGitHub);
+$("btnSelectAllVisibleProvinces").addEventListener("click", selectAllVisibleProvinces);
+$("btnInvertVisibleProvinces").addEventListener("click", invertVisibleProvinces);
+$("btnSelectAllLoadedProvinces").addEventListener("click", selectAllLoadedProvinces);
+$("btnClearProvinceSelection").addEventListener("click", clearProvinceSelection);
+$("btnAddProvinceWarning").addEventListener("click", addWarningToSelectedProvince);
+$("btnRemoveProvinceWarningType").addEventListener("click", removeProvinceWarningTypeFromSelected);
+$("btnClearProvinceWarnings").addEventListener("click", clearProvinceWarningsFromSelected);
+
+$("btnImportGeoJSON").addEventListener("click", () => $("importFile").click());
+$("importFile").addEventListener("change", async e => {
+  const file = e.target.files[0];
+  if(!file) return;
+  try{
+    const text = await file.text();
+    const gj = JSON.parse(text);
+    loadWarningsFromGeoJSON(gj, true);
+    saveWarningsLocal();
+    setMode("warnings");
+  }catch(err){
+    alert("Import failed: " + err.message);
+  }finally{
+    e.target.value = "";
+  }
+});
+
+/* auto update style on type changes */
+$("warnTypeSelect").addEventListener("change", () => {
+  if(selectedLayer){
+    selectedLayer.feature = selectedLayer.feature || selectedLayer.toGeoJSON();
+    selectedLayer.feature.properties = {...(selectedLayer.feature.properties || {}), type:$("warnTypeSelect").value};
+    styleLayerByProps(selectedLayer);
+    renderPolygonList();
+  }
+});
+
+/* =========================
+   STARTUP
+   ========================= */
+loadProvinceWarningsLocal();
+loadWarningsLocal();
+renderPolygonList();
+updateProvinceSelectionUI();
+renderProvinceWarningList();
+$("warnIssued").value = nowDatetimeLocalPlus(0);
+$("warnExpires").value = nowDatetimeLocalPlus(60);
+$("provinceWarnIssued").value = nowDatetimeLocalPlus(0);
+$("provinceWarnExpires").value = nowDatetimeLocalPlus(60);
+loadRainViewerLatest();
+setInterval(loadRainViewerLatest, 5 * 60 * 1000);
+</script>
+</body>
+</html>

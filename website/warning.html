@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Warnings — CESTOF</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="CESTOF active warning polygons and province warnings." />
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <style>
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#dfe6ee url("img/bg.jpg") center/cover fixed no-repeat;color:#111}
+    body::before{content:"";position:fixed;inset:0;background:rgba(0,0,0,.38);pointer-events:none;z-index:-1}
+    .wrap{max-width:1100px;margin:16px auto;padding:0 12px 18px}
+
+    header{background:rgba(255,255,255,.88);border:2px solid #000;overflow:hidden;backdrop-filter:blur(5px);border-radius:12px;box-shadow:0 10px 24px rgba(0,0,0,.12)}
+    .header-top{display:flex;align-items:center;gap:12px;padding:10px}
+    .header-top .logo{height:48px}
+    .title-img{display:block;height:34px;max-width:100%}
+    header .sub{margin:4px 0 0;font-style:italic;color:#333}
+    .header-meta{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 10px;background:#f2f2f2;border-top:2px solid #000}
+    .tagline{margin:0;font-size:.95rem;color:#222}
+    .last-updated{margin:0;font-size:.9rem}
+    .last-updated b{font-weight:bold}
+
+    nav{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;background:#f4f4f4;border-top:2px solid #000;border-bottom:2px solid #000;padding:8px 0}
+    nav a{text-decoration:none;color:#000;font-weight:bold;padding:5px 10px;border-radius:999px;transition:background .16s,color .16s,transform .16s,box-shadow .16s}
+    nav a:hover{background:#000;color:#fff;transform:translateY(-1px);box-shadow:0 6px 14px rgba(0,0,0,.18)}
+    nav a.active{background:#000;color:#fff;box-shadow:0 6px 14px rgba(0,0,0,.18)}
+
+    main{margin-top:14px}
+    .section{background:rgba(255,255,255,.86);border:1px solid #000;margin-bottom:14px;padding:14px;border-radius:12px;box-shadow:0 10px 24px rgba(0,0,0,.12);backdrop-filter:blur(4px)}
+    .section h2{margin:0 0 10px;border-bottom:2px solid #000;padding-bottom:4px;letter-spacing:.2px}
+
+    #map{height:650px;border:1px solid #000;outline:1px solid rgba(0,0,0,.25);background:#fff;border-radius:12px;box-shadow:0 10px 24px rgba(0,0,0,.12)}
+
+    .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;border:1px solid #777;background:#fff;padding:10px;margin-bottom:10px;border-radius:12px;box-shadow:0 10px 24px rgba(0,0,0,.12)}
+    .controls .left,.controls .right{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+    .btn{border:1px solid #000;background:#f2f2f2;padding:6px 10px;font-weight:bold;cursor:pointer;user-select:none;border-radius:10px;transition:transform .14s,background .14s,box-shadow .14s}
+    .btn:hover{background:#e6e6e6;transform:translateY(-1px);box-shadow:0 6px 14px rgba(0,0,0,.12)}
+    .select{border:1px solid #000;padding:6px 8px;background:#fff;font-weight:bold;border-radius:10px}
+
+    .status-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:10px}
+    .status-card{background:#fff;border:1px solid #000;border-radius:12px;padding:10px;box-shadow:0 10px 24px rgba(0,0,0,.10)}
+    .status-card b{display:block;font-size:.82rem;text-transform:uppercase;letter-spacing:.04em;color:#333;margin-bottom:4px}
+    .status-card span{font-weight:900;font-size:1.25rem}
+
+    .active-warnings{border:1px solid #000;background:rgba(255,255,255,.92);padding:10px;margin-top:10px;border-radius:12px;box-shadow:0 10px 24px rgba(0,0,0,.12)}
+    .aw-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:start}
+    .aw-panel{border:1px solid #000;background:#fff;border-radius:12px;padding:10px;min-width:0}
+    .aw-head{display:flex;align-items:center;justify-content:space-between;gap:10px;border-bottom:2px solid #000;padding-bottom:6px;margin-bottom:8px}
+    .aw-left{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+    .aw-count{border:1px solid #000;background:#fff;padding:2px 6px;font-weight:bold;font-size:.85rem;border-radius:999px}
+    .aw-btn{padding:4px 8px;font-size:.85rem}
+    .aw-list{display:flex;flex-direction:column;gap:8px;max-height:300px;overflow:auto}
+    .aw-empty{color:#333;font-size:.9rem}
+    .aw-item{border:1px solid #000;background:#fff;padding:8px;cursor:pointer;border-radius:12px;transition:transform .16s,box-shadow .16s,background .16s}
+    .aw-item:hover{background:#f2f2f2;transform:translateY(-2px);box-shadow:0 14px 26px rgba(0,0,0,.16)}
+    .aw-title{font-weight:900;margin:0 0 4px}
+    .aw-meta{font-size:.85rem;color:#222;margin:0;line-height:1.35}
+    .aw-text{margin:6px 0 0;font-size:.88rem;color:#111}
+    .aw-threats{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}
+    .aw-threat{border:1px solid #000;background:#f7f7f7;border-radius:999px;padding:2px 7px;font-size:.78rem;font-weight:800}
+
+    .warning-popup-detail{margin-top:8px;border-top:1px solid #999;padding-top:7px}
+    .warning-popup-threats{display:grid;grid-template-columns:1fr;gap:4px;margin-top:5px}
+    .warning-popup-threat{border:1px solid #000;background:#f7f7f7;padding:4px 6px;font-size:.86rem}
+    .remaining-good{font-weight:900;color:#004a00}
+    .remaining-warn{font-weight:900;color:#9a5200}
+    .remaining-bad{font-weight:900;color:#b30000}
+
+    .leaflet-control.legend{background:rgba(255,255,255,.95);border:1px solid #000;padding:7px 8px 6px;box-shadow:none;border-radius:10px}
+    .legend h3{margin:0 0 6px;font-size:.85rem;border-bottom:2px solid #000;padding-bottom:3px}
+    .legend .row{display:flex;align-items:center;gap:6px;margin:4px 0;font-size:.80rem;color:#111}
+    .swatch{width:14px;height:10px;border:1px solid #000;flex:0 0 auto;background:#ccc}
+    .swatch.line{height:0;border-top:3px solid #000;border-left:none;border-right:none;border-bottom:none;width:16px;background:transparent}
+
+    .cestof-warning-poly,.cestof-province-warning-poly{filter:drop-shadow(0 0 1px rgba(0,0,0,.42)) drop-shadow(0 4px 10px rgba(0,0,0,.22));stroke-linejoin:round;stroke-linecap:round}
+    .leaflet-overlay-pane svg path{vector-effect:non-scaling-stroke;paint-order:stroke fill markers}
+
+    .hint{margin:8px 0 0;color:#333;font-size:.9rem;line-height:1.35}
+    footer{text-align:center;color:#eee;font-size:.9rem;margin-top:14px;text-shadow:0 1px 1px rgba(0,0,0,.7)}
+
+    @media (max-width:750px){
+      #map{height:560px}
+      .aw-grid,.status-strip{grid-template-columns:1fr}
+      .title-img{height:30px}
+      .header-meta{align-items:flex-start;flex-direction:column}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="header-top">
+        <img class="logo" src="img/logo.png" alt="CESTOF logo" />
+        <div>
+          <img class="title-img" src="img/cestof-title.png" alt="CESTOF" />
+          <p class="sub">Central European Storm Forecasts</p>
+        </div>
+      </div>
+      <div class="header-meta">
+        <p class="tagline">Active warning polygons and province warnings.</p>
+        <p class="last-updated"><b>Last updated:</b> <span id="lastUpdated">—</span></p>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="forecast.html">Forecasts</a>
+        <a href="outlook.html">Outlook</a>
+        <a href="radar.html">Radar</a>
+        <a href="warning.html" class="active">Warnings</a>
+        <a href="lightning.html">Lightning</a>
+        <a href="archive.html">Archive</a>
+        <a href="tornadoes.html">Tornadoes</a>
+        <a href="photos.html">Photos</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <h2>Active Warnings</h2>
+
+        <div class="controls">
+          <div class="left">
+            <label style="font-weight:bold;">Warning polygons:</label>
+            <select class="select" id="warningPolygonsToggle">
+              <option value="on" selected>On</option>
+              <option value="off">Off</option>
+            </select>
+
+            <label style="font-weight:bold;margin-left:6px;">Province warnings:</label>
+            <select class="select" id="provinceWarningsToggle">
+              <option value="on" selected>On</option>
+              <option value="off">Off</option>
+            </select>
+          </div>
+          <div class="right">
+            <button class="btn" id="btnReload" type="button">Reload</button>
+            <button class="btn" id="btnFit" type="button">Fit warnings</button>
+          </div>
+        </div>
+
+        <div class="status-strip">
+          <div class="status-card"><b>Warning polygons</b><span id="topWarningCount">0</span></div>
+          <div class="status-card"><b>Province warnings</b><span id="topProvinceWarningCount">0</span></div>
+          <div class="status-card"><b>Total active</b><span id="topTotalWarningCount">0</span></div>
+        </div>
+
+        <div id="map"></div>
+
+        <div class="active-warnings">
+          <div class="aw-grid">
+            <div class="aw-panel">
+              <div class="aw-head">
+                <div class="aw-left">
+                  <b>Active warning polygons:</b>
+                  <span class="aw-count" id="awCount">0</span>
+                </div>
+                <button class="btn aw-btn" id="awRefresh" type="button">Refresh</button>
+              </div>
+              <div class="aw-list" id="awList"><div class="aw-empty">No active warning polygons.</div></div>
+            </div>
+
+            <div class="aw-panel">
+              <div class="aw-head">
+                <div class="aw-left">
+                  <b>Active province warnings:</b>
+                  <span class="aw-count" id="provinceAwCount">0</span>
+                </div>
+                <button class="btn aw-btn" id="provinceAwRefresh" type="button">Refresh</button>
+              </div>
+              <div class="aw-list" id="provinceAwList"><div class="aw-empty">No active province warnings.</div></div>
+            </div>
+          </div>
+        </div>
+
+        <p class="hint">
+          Warnings are checked automatically every 30 seconds. Remaining time updates every second.<br />
+          <b>THE WARNINGS DISPLAYED HERE ARE NOT OFFICIAL. PLEASE CONSULT YOUR NATIONAL HYDROMETEOROLOGICAL INSTITUTE FOR AUTHORITATIVE INFORMATION.</b>
+        </p>
+      </section>
+    </main>
+
+    <footer><p>© 2025 Central European Storm Forecasts | Cell Spot</p></footer>
+  </div>
+
+<script>
+const RAW_BASE = "https://raw.githubusercontent.com/CentralEuropeanForecasting/cestof-warnings/main";
+const WARNINGS_URL = `${RAW_BASE}/warnings-day1.geojson`;
+const PROVINCE_WARNINGS_URL = `${RAW_BASE}/province-warnings.geojson`;
+const WARNING_FETCH_MS = 30000;
+
+function escapeHTML(s){
+  return String(s ?? "").replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[m]));
+}
+function fmtLocalDate(d){
+  const months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  return `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()} ${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
+}
+document.getElementById("lastUpdated").textContent = fmtLocalDate(new Date());
+
+function firstNonEmpty(...values){
+  for(const v of values){ if(v !== undefined && v !== null && String(v).trim() !== "") return String(v).trim(); }
+  return "";
+}
+function formatWarningDate(value, short=false){
+  if(!value) return "";
+  const s = String(value).trim();
+  if(!s) return "";
+  const parsed = Date.parse(s);
+  if(!Number.isNaN(parsed)){
+    const d = new Date(parsed);
+    if(short) return `${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
+    return d.toLocaleString([], {year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"});
+  }
+  const m = s.match(/^(\d{1,2}):(\d{2})/);
+  if(m) return `${String(m[1]).padStart(2,"0")}:${m[2]}`;
+  return s;
+}
+function getWarningExpiryMs(props = {}){
+  const value = props.expires_iso || props.expires_at || props.expires || props.valid_until || props.until || "";
+  if(!value) return null;
+  const t = Date.parse(String(value));
+  return Number.isNaN(t) ? null : t;
+}
+function isWarningActive(props = {}){
+  const t = getWarningExpiryMs(props);
+  return !t || Date.now() < t;
+}
+function formatRemainingTimeFromMs(ms){
+  if(ms === null || ms === undefined) return "No expiry";
+  if(ms <= 0) return "Expired";
+  const total = Math.floor(ms / 1000);
+  const h = Math.floor(total / 3600);
+  const m = Math.floor((total % 3600) / 60);
+  const s = total % 60;
+  if(h > 0) return `${h} h ${String(m).padStart(2,"0")} min ${String(s).padStart(2,"0")} sec`;
+  if(m > 0) return `${m} min ${String(s).padStart(2,"0")} sec`;
+  return `${s} sec`;
+}
+function warningRemainingHTML(props = {}){
+  const t = getWarningExpiryMs(props);
+  if(!t) return `<span class="remaining-good">No expiry</span>`;
+  const ms = t - Date.now();
+  const cls = ms <= 0 ? "remaining-bad" : (ms <= 15*60*1000 ? "remaining-warn" : "remaining-good");
+  return `<span class="${cls}">${escapeHTML(formatRemainingTimeFromMs(ms))}</span>`;
+}
+function getWarningThreats(props = {}){
+  const hazards = props.hazards || {};
+  return {
+    hail: firstNonEmpty(props.hail, props.max_hail, props.hail_size, props.hailSize, hazards.hail, hazards.max_hail),
+    wind: firstNonEmpty(props.wind, props.wind_gusts, props.max_wind, props.gusts, hazards.wind, hazards.wind_gusts),
+    tornado: firstNonEmpty(props.tornado_probability, props.tornadoProb, props.tornado_prob, props.tornado, hazards.tornado_probability, hazards.tornadoProb),
+    rotation: firstNonEmpty(props.rotation, props.rotation_signature, props.rotationSignature, props.mesocyclone, hazards.rotation, hazards.rotation_signature),
+    movement: firstNonEmpty(props.movement, props.motion, hazards.movement)
+  };
+}
+
+function warningForecasterName(props = {}){
+  return firstNonEmpty(
+    props.forecaster_name,
+    props.forecasterName,
+    props.issued_by,
+    props.issuedBy,
+    props.forecaster,
+    props.nowcaster,
+    props.nowcaster_name,
+    props.nowcaster_display_name
+  );
+}
+
+function warningThreatsHTML(props = {}, compact=false){
+  const t = getWarningThreats(props);
+  const rows = [];
+  if(t.hail) rows.push(`<span class="${compact ? 'aw-threat' : 'warning-popup-threat'}"><b>Hail:</b> ${escapeHTML(t.hail)}</span>`);
+  if(t.wind) rows.push(`<span class="${compact ? 'aw-threat' : 'warning-popup-threat'}"><b>Wind:</b> ${escapeHTML(t.wind)}</span>`);
+  if(t.tornado) rows.push(`<span class="${compact ? 'aw-threat' : 'warning-popup-threat'}"><b>Tornado:</b> ${escapeHTML(t.tornado)}</span>`);
+  if(t.rotation) rows.push(`<span class="${compact ? 'aw-threat' : 'warning-popup-threat'}"><b>Rotation:</b> ${escapeHTML(t.rotation)}</span>`);
+  if(t.movement) rows.push(`<span class="${compact ? 'aw-threat' : 'warning-popup-threat'}"><b>Motion:</b> ${escapeHTML(t.movement)}</span>`);
+  if(!rows.length) return "";
+  if(compact) return `<div class="aw-threats">${rows.join("")}</div>`;
+  return `<div class="warning-popup-detail"><b>Threat details:</b><div class="warning-popup-threats">${rows.join("")}</div></div>`;
+}
+
+const WARNING_TYPES = {
+  "Thunderstorm Watch":{stroke:"#FFA500",rank:1,dash:"8 5"},
+  "Thunderstorm Warning":{stroke:"#0a6a0a",rank:2,dash:null},
+  "Heavy Rain Warning":{stroke:"#005c99",rank:2,dash:null},
+  "Flooding / Flash Flood Warning":{stroke:"#003c96",rank:3,dash:null},
+  "Severe Wind Gusts Warning":{stroke:"#9a5200",rank:3,dash:null},
+  "Large Hail Warning":{stroke:"#006d8b",rank:3,dash:null},
+  "Severe Thunderstorm Warning":{stroke:"#8B0000",rank:4,dash:"12 6"},
+  "Tornado Watch":{stroke:"#b58d00",rank:3,dash:"8 5"},
+  "Tornado Warning":{stroke:"#5b0061",rank:6,dash:"6 4"},
+  "Mesoscale Discussion":{stroke:"#b58d00",rank:1,dash:"3 8"}
+};
+function typeStyle(type){ return WARNING_TYPES[type] || WARNING_TYPES["Thunderstorm Warning"]; }
+function styleWarningByType(type){
+  const t = typeStyle(type);
+  return {color:t.stroke,weight:3.6,opacity:1,fill:false,fillOpacity:0,dashArray:t.dash,lineCap:"round",lineJoin:"round",className:"cestof-warning-poly"};
+}
+function warningDisplayTitle(props = {}){ return props.type || props.title || props.name || "Warning"; }
+
+const map = L.map("map", { zoomControl:true, preferCanvas:true, maxZoom:19 });
+map.setView([49.6, 15.3], 6);
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom:19,
+  attribution:"&copy; OpenStreetMap contributors"
+}).addTo(map);
+
+const warningsGroup = L.featureGroup().addTo(map);
+const provinceWarningsGroup = L.featureGroup().addTo(map);
+let latestWarningsGeoJSON = null;
+let latestProvinceWarningsGeoJSON = null;
+let sharedWarningsLayer = null;
+let sharedProvinceWarningsLayer = null;
+let warningPolygonsEnabled = true;
+let provinceWarningsEnabled = true;
+
+function bindWarningInfo(layer, props){
+  layer.bindPopup(() => {
+    const title = warningDisplayTitle(props);
+    const issued = formatWarningDate(props.issued_iso || props.issued || "");
+    const expires = formatWarningDate(props.expires_iso || props.expires_at || props.expires || "");
+    const location = props.location || props.area || props.region || "";
+    const forecaster = warningForecasterName(props);
+    const text = props.text || props.description || "";
+    return `<div style="font-family:Arial,Helvetica,sans-serif;min-width:260px;max-width:370px;">
+      <div style="font-weight:900;margin-bottom:6px;border-bottom:2px solid #000;padding-bottom:4px;">${escapeHTML(title)}</div>
+      ${location ? `<div><b>Area:</b> ${escapeHTML(location)}</div>` : ""}
+      ${forecaster ? `<div><b>Forecaster:</b> ${escapeHTML(forecaster)}</div>` : ""}
+      ${issued ? `<div><b>Issued:</b> ${escapeHTML(issued)}</div>` : ""}
+      ${expires ? `<div><b>Expires:</b> ${escapeHTML(expires)}</div>` : ""}
+      <div><b>Remaining:</b> ${warningRemainingHTML(props)}</div>
+      ${warningThreatsHTML(props,false)}
+      ${text ? `<div style="white-space:pre-wrap;margin-top:8px;">${escapeHTML(text)}</div>` : ""}
+    </div>`;
+  });
+}
+
+function collectAllLeafletLayers(layer){
+  const out=[];
+  if(!layer) return out;
+  if(layer instanceof L.LayerGroup){ layer.eachLayer(child => out.push(...collectAllLeafletLayers(child))); return out; }
+  out.push(layer);
+  return out;
+}
+function getWarningLayers(){ return collectAllLeafletLayers(warningsGroup).filter(l => l && typeof l.getBounds === "function"); }
+function getProvinceWarningLayers(){ return collectAllLeafletLayers(provinceWarningsGroup).filter(l => l && typeof l.getBounds === "function"); }
+
+async function loadSharedWarnings(){
+  try{
+    const res = await fetch(WARNINGS_URL + "?v=" + Date.now(), {cache:"no-store"});
+    if(!res.ok){ latestWarningsGeoJSON = {type:"FeatureCollection",features:[]}; renderWarningsFromLatest(); return; }
+    latestWarningsGeoJSON = await res.json();
+    renderWarningsFromLatest();
+  }catch(e){ console.warn("Warning polygon load failed:", e); latestWarningsGeoJSON = {type:"FeatureCollection",features:[]}; renderWarningsFromLatest(); }
+}
+function renderWarningsFromLatest(){
+  if(sharedWarningsLayer){ warningsGroup.removeLayer(sharedWarningsLayer); sharedWarningsLayer = null; }
+  const source = latestWarningsGeoJSON;
+  if(!source || !Array.isArray(source.features)){ buildActiveWarningsList(); updateTopCounts(); return; }
+  const filtered = {type:"FeatureCollection",features:source.features.filter(f => isWarningActive(f?.properties || {}))};
+  sharedWarningsLayer = L.geoJSON(filtered, {
+    style: feature => styleWarningByType(feature?.properties?.type),
+    onEachFeature: (feature, lyr) => { const props = feature.properties || {}; lyr.feature = lyr.feature || {type:"Feature",properties:{},geometry:null}; lyr.feature.properties = props; bindWarningInfo(lyr, props); }
+  });
+  warningsGroup.addLayer(sharedWarningsLayer);
+  applyWarningVisibility();
+  buildActiveWarningsList();
+  updateTopCounts();
+}
+function applyWarningVisibility(){
+  if(warningPolygonsEnabled){ if(!map.hasLayer(warningsGroup)) warningsGroup.addTo(map); }
+  else{ if(map.hasLayer(warningsGroup)) map.removeLayer(warningsGroup); }
+}
+
+function provinceActiveWarnings(props = {}){
+  const list = Array.isArray(props.warnings) ? props.warnings : [];
+  return list.filter(w => isWarningActive(w));
+}
+function styleProvinceWarning(feature){
+  const active = provinceActiveWarnings(feature?.properties || {});
+  const strongest = active.slice().sort((a,b)=>(typeStyle(b.type).rank||0)-(typeStyle(a.type).rank||0))[0] || {type:"Thunderstorm Warning"};
+  const t = typeStyle(strongest.type);
+  return {color:t.stroke,weight:3.4,opacity:1,fill:false,fillOpacity:0,dashArray:t.dash,lineCap:"round",lineJoin:"round",className:"cestof-province-warning-poly"};
+}
+function bindProvinceWarningInfo(layer, props){
+  layer.bindPopup(() => {
+    const provinceName = props.province_name || props.name || props.NAME || props.NAZEV || props.KRAJ || props.region || props.area || "Province";
+    const active = provinceActiveWarnings(props);
+    const rows = active.map(w => {
+      const expires = formatWarningDate(w.expires_iso || w.expires_at || w.expires || "");
+      const forecaster = warningForecasterName(w);
+      return `<div style="border-top:1px solid #999;margin-top:7px;padding-top:7px;">
+        <b>${escapeHTML(w.type || "Warning")}</b>
+        ${expires ? `<br><b>Expires:</b> ${escapeHTML(expires)}` : ""}
+        ${forecaster ? `<br><b>Forecaster:</b> ${escapeHTML(forecaster)}` : ""}
+        <br><b>Remaining:</b> ${warningRemainingHTML(w)}
+        ${warningThreatsHTML(w,false)}
+        ${w.text ? `<div style="white-space:pre-wrap;margin-top:6px;">${escapeHTML(w.text)}</div>` : ""}
+      </div>`;
+    }).join("");
+    return `<div style="font-family:Arial,Helvetica,sans-serif;min-width:270px;max-width:380px;">
+      <div style="font-weight:900;margin-bottom:6px;border-bottom:2px solid #000;padding-bottom:4px;">${escapeHTML(provinceName)}</div>
+      <div><b>Province warnings:</b> ${active.length}</div>
+      ${rows || "<div>No active province warnings.</div>"}
+    </div>`;
+  });
+}
+async function loadProvinceWarnings(){
+  try{
+    const res = await fetch(PROVINCE_WARNINGS_URL + "?v=" + Date.now(), {cache:"no-store"});
+    if(!res.ok){ latestProvinceWarningsGeoJSON = {type:"FeatureCollection",features:[]}; renderProvinceWarningsFromLatest(); return; }
+    latestProvinceWarningsGeoJSON = await res.json();
+    renderProvinceWarningsFromLatest();
+  }catch(e){ console.warn("Province warning load failed:", e); latestProvinceWarningsGeoJSON = {type:"FeatureCollection",features:[]}; renderProvinceWarningsFromLatest(); }
+}
+function renderProvinceWarningsFromLatest(){
+  if(sharedProvinceWarningsLayer){ provinceWarningsGroup.removeLayer(sharedProvinceWarningsLayer); sharedProvinceWarningsLayer = null; }
+  const source = latestProvinceWarningsGeoJSON;
+  if(!source || !Array.isArray(source.features)){ buildActiveProvinceWarningsList(); updateTopCounts(); return; }
+  const filtered = {
+    type:"FeatureCollection",
+    features:source.features.map(f => { const props={...(f.properties || {})}; props.warnings = provinceActiveWarnings(props); return {...f,properties:props}; })
+      .filter(f => Array.isArray(f.properties?.warnings) && f.properties.warnings.length)
+  };
+  sharedProvinceWarningsLayer = L.geoJSON(filtered, {
+    style:styleProvinceWarning,
+    onEachFeature:(feature,lyr) => { const props=feature.properties || {}; lyr.feature=lyr.feature || {type:"Feature",properties:{},geometry:null}; lyr.feature.properties={...props,provinceWarning:true,type:"Province Warnings"}; bindProvinceWarningInfo(lyr, props); }
+  });
+  provinceWarningsGroup.addLayer(sharedProvinceWarningsLayer);
+  applyProvinceVisibility();
+  buildActiveProvinceWarningsList();
+  updateTopCounts();
+}
+function applyProvinceVisibility(){
+  if(provinceWarningsEnabled){ if(!map.hasLayer(provinceWarningsGroup)) provinceWarningsGroup.addTo(map); }
+  else{ if(map.hasLayer(provinceWarningsGroup)) map.removeLayer(provinceWarningsGroup); }
+}
+
+function buildActiveWarningsList(){
+  const listEl = document.getElementById("awList");
+  const countEl = document.getElementById("awCount");
+  const topEl = document.getElementById("topWarningCount");
+  if(!listEl || !countEl) return;
+  const layers = getWarningLayers();
+  const items = layers.map(layer => {
+    const props = (layer.feature && layer.feature.properties) ? layer.feature.properties : {};
+    return {layer, props};
+  }).reverse();
+  countEl.textContent = String(items.length);
+  if(topEl) topEl.textContent = String(items.length);
+  if(!items.length){ listEl.innerHTML = `<div class="aw-empty">No active warning polygons.</div>`; return; }
+  listEl.innerHTML = "";
+  items.forEach(({layer,props}) => {
+    const title = warningDisplayTitle(props);
+    const issued = formatWarningDate(props.issued_iso || props.issued || "");
+    const expires = formatWarningDate(props.expires_iso || props.expires_at || props.expires || "");
+    const location = props.location || props.area || props.region || "";
+    const forecaster = warningForecasterName(props);
+    const text = props.text || props.description || "";
+    const div = document.createElement("div");
+    div.className = "aw-item";
+    div.innerHTML = `<div class="aw-title">${escapeHTML(title)}</div>
+      <p class="aw-meta">${issued ? `<b>Issued:</b> ${escapeHTML(issued)} ` : ""}${expires ? `&nbsp; <b>Expires:</b> ${escapeHTML(expires)}` : ""}<br><b>Remaining:</b> ${warningRemainingHTML(props)}</p>
+      ${location ? `<div class="aw-text"><b>Area:</b> ${escapeHTML(location)}</div>` : ""}
+      ${forecaster ? `<div class="aw-text"><b>Forecaster:</b> ${escapeHTML(forecaster)}</div>` : ""}
+      ${warningThreatsHTML(props,true)}
+      ${text ? `<div class="aw-text" style="white-space:pre-wrap;">${escapeHTML(text)}</div>` : ""}`;
+    div.addEventListener("click", () => { try{ const b=layer.getBounds(); if(b&&b.isValid()) map.fitBounds(b.pad(0.15),{maxZoom:10}); setTimeout(()=>{ if(layer.openPopup) layer.openPopup(); },250); }catch(e){} });
+    listEl.appendChild(div);
+  });
+}
+function buildActiveProvinceWarningsList(){
+  const listEl = document.getElementById("provinceAwList");
+  const countEl = document.getElementById("provinceAwCount");
+  const topEl = document.getElementById("topProvinceWarningCount");
+  if(!listEl || !countEl) return;
+  const items = [];
+  getProvinceWarningLayers().forEach(layer => {
+    const props = (layer.feature && layer.feature.properties) ? layer.feature.properties : {};
+    const provinceName = props.province_name || props.name || props.NAME || props.NAZEV || props.KRAJ || props.area || "Province";
+    provinceActiveWarnings(props).forEach(w => items.push({layer, provinceName, w}));
+  });
+  countEl.textContent = String(items.length);
+  if(topEl) topEl.textContent = String(items.length);
+  if(!items.length){ listEl.innerHTML = `<div class="aw-empty">No active province warnings.</div>`; return; }
+  listEl.innerHTML = "";
+  items.forEach(it => {
+    const w = it.w;
+    const expires = formatWarningDate(w.expires_iso || w.expires_at || w.expires || "");
+    const forecaster = warningForecasterName(w);
+    const div = document.createElement("div");
+    div.className = "aw-item";
+    div.innerHTML = `<div class="aw-title">${escapeHTML(w.type || "Warning")}</div>
+      <p class="aw-meta"><b>Province:</b> ${escapeHTML(it.provinceName)}${expires ? `<br><b>Expires:</b> ${escapeHTML(expires)}` : ""}${forecaster ? `<br><b>Forecaster:</b> ${escapeHTML(forecaster)}` : ""}<br><b>Remaining:</b> ${warningRemainingHTML(w)}</p>
+      ${warningThreatsHTML(w,true)}
+      ${w.text ? `<div class="aw-text" style="white-space:pre-wrap;">${escapeHTML(w.text)}</div>` : ""}`;
+    div.addEventListener("click", () => { try{ const b=it.layer.getBounds(); if(b&&b.isValid()) map.fitBounds(b.pad(0.15),{maxZoom:10}); setTimeout(()=>{ if(it.layer.openPopup) it.layer.openPopup(); },250); }catch(e){} });
+    listEl.appendChild(div);
+  });
+}
+function updateTopCounts(){
+  const polygonCount = getWarningLayers().length;
+  let provinceCount = 0;
+  getProvinceWarningLayers().forEach(layer => {
+    const props = (layer.feature && layer.feature.properties) ? layer.feature.properties : {};
+    provinceCount += provinceActiveWarnings(props).length;
+  });
+  document.getElementById("topWarningCount").textContent = String(polygonCount);
+  document.getElementById("topProvinceWarningCount").textContent = String(provinceCount);
+  document.getElementById("topTotalWarningCount").textContent = String(polygonCount + provinceCount);
+}
+function refreshTimeDisplays(){
+  renderWarningsFromLatest();
+  renderProvinceWarningsFromLatest();
+}
+function fitAllWarnings(){
+  const layers = [...getWarningLayers(), ...getProvinceWarningLayers()];
+  const group = L.featureGroup(layers);
+  try{ const b = group.getBounds(); if(b && b.isValid()) map.fitBounds(b.pad(0.15), {maxZoom:9}); }catch(e){}
+}
+
+const legend = L.control({position:"bottomright"});
+legend.onAdd = function(){
+  const div = L.DomUtil.create("div", "legend leaflet-control");
+  div.innerHTML = `<h3>Warnings</h3>
+    <div class="row"><span class="swatch line" style="border-top-color:#FFA500;border-top-style:dashed"></span>Thunderstorm Watch</div>
+    <div class="row"><span class="swatch line" style="border-top-color:#0a6a0a"></span>Thunderstorm Warning</div>
+    <div class="row"><span class="swatch line" style="border-top-color:#8B0000;border-top-style:dashed"></span>Severe T-storm Warning</div>
+    <div class="row"><span class="swatch line" style="border-top-color:#b58d00;border-top-style:dashed"></span>Tornado Watch / MD</div>
+    <div class="row"><span class="swatch line" style="border-top-color:#5b0061;border-top-style:dashed"></span>Tornado Warning</div>
+    <div class="row"><span class="swatch line" style="border-top-color:#9a5200"></span>Severe Wind Gusts</div>
+    <div class="row"><span class="swatch line" style="border-top-color:#006d8b"></span>Large Hail</div>`;
+  L.DomEvent.disableClickPropagation(div);
+  return div;
+};
+legend.addTo(map);
+
+document.getElementById("awRefresh").addEventListener("click", renderWarningsFromLatest);
+document.getElementById("provinceAwRefresh").addEventListener("click", renderProvinceWarningsFromLatest);
+document.getElementById("warningPolygonsToggle").addEventListener("change", e => { warningPolygonsEnabled = e.target.value === "on"; applyWarningVisibility(); });
+document.getElementById("provinceWarningsToggle").addEventListener("change", e => { provinceWarningsEnabled = e.target.value === "on"; applyProvinceVisibility(); });
+document.getElementById("btnReload").addEventListener("click", async () => { await loadSharedWarnings(); await loadProvinceWarnings(); setTimeout(fitAllWarnings, 300); });
+document.getElementById("btnFit").addEventListener("click", fitAllWarnings);
+
+loadSharedWarnings();
+loadProvinceWarnings();
+setTimeout(fitAllWarnings, 1000);
+setInterval(async () => { await loadSharedWarnings(); await loadProvinceWarnings(); }, WARNING_FETCH_MS);
+setInterval(() => { buildActiveWarningsList(); buildActiveProvinceWarningsList(); updateTopCounts(); }, 1000);
+</script>
+</body>
+</html>
