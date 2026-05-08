@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T18:28:18.927Z",
+  "generated_at": "2026-05-08T18:31:48.277Z",
   "features": [
     {
       "type": "Feature",
@@ -3574,6 +3574,71 @@
             [
               3.059692,
               46.004593
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778265017111",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T20:29",
+        "issued_iso": "2026-05-08T18:29:00.000Z",
+        "expires": "2026-05-08T21:29",
+        "expires_iso": "2026-05-08T19:29:00.000Z",
+        "location": "Terrasson-Lavilledieu - France",
+        "hail": "<1cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunderstorms are active over Terrasson-Lavilledieu, France, dbz 60+, hail is possible, north movement. Lightning activity low-moderate.",
+        "hazards": {
+          "hail": "<1cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T18:31:45.441Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.159058,
+              45.073521
+            ],
+            [
+              1.345825,
+              45.081279
+            ],
+            [
+              1.348572,
+              45.13943
+            ],
+            [
+              1.516113,
+              45.162674
+            ],
+            [
+              1.71936,
+              45.560218
+            ],
+            [
+              1.027222,
+              45.529441
+            ],
+            [
+              1.159058,
+              45.073521
             ]
           ]
         ]
