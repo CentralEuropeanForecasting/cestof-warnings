@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T17:20:47.028Z",
+  "generated_at": "2026-05-08T17:24:22.817Z",
   "features": [
     {
       "type": "Feature",
@@ -3118,6 +3118,63 @@
             [
               -3.861694,
               48.487486
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778260920447",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-08T19:21",
+        "issued_iso": "2026-05-08T17:21:00.000Z",
+        "expires": "2026-05-08T20:21",
+        "expires_iso": "2026-05-08T18:21:00.000Z",
+        "location": "Morlaix, France",
+        "hail": "4-5cm",
+        "wind": "<80km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "A very strong cell has formed out of the couple of storms that have been active in this region, reflectivity is showing up to 67+ dBZ, hail is definetly possible, with bigger hail (>3cm), id say theres a chance too. Be cautious if you are in the path of this!! Lightning activity is low-moderate.",
+        "hazards": {
+          "hail": "4-5cm",
+          "wind": "<80km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T17:24:20.653Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.960571,
+              48.516604
+            ],
+            [
+              -3.630981,
+              48.509326
+            ],
+            [
+              -3.389282,
+              49.073866
+            ],
+            [
+              -4.103394,
+              49.06127
+            ],
+            [
+              -3.960571,
+              48.516604
             ]
           ]
         ]
