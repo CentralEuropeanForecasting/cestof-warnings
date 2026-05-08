@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T15:12:01.054Z",
+  "generated_at": "2026-05-08T15:16:11.718Z",
   "features": [
     {
       "type": "Feature",
@@ -2475,6 +2475,63 @@
             [
               24.076538,
               43.309191
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778253245051",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T17:13",
+        "issued_iso": "2026-05-08T15:13:00.000Z",
+        "expires": "2026-05-08T18:13",
+        "expires_iso": "2026-05-08T16:13:00.000Z",
+        "location": "Kubrat, Isperih, Glavinitsa - Bulgaria",
+        "hail": "<1cm, later on <2cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A couple storm cells are fotming around Isperih, Bulgaria, they are moving north-east. Radar scans show up to 60 dbz, which can be an indication of small hail or heavy rain.",
+        "hazards": {
+          "hail": "<1cm, later on <2cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T15:16:07.607Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.482544,
+              43.731414
+            ],
+            [
+              27.020874,
+              43.572432
+            ],
+            [
+              27.58667,
+              44.174325
+            ],
+            [
+              26.537476,
+              44.355278
+            ],
+            [
+              26.482544,
+              43.731414
             ]
           ]
         ]
