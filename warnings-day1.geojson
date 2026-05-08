@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T18:48:02.924Z",
+  "generated_at": "2026-05-08T18:52:29.232Z",
   "features": [
     {
       "type": "Feature",
@@ -3810,6 +3810,63 @@
             [
               7.196045,
               47.040182
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778266283413",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T20:50",
+        "issued_iso": "2026-05-08T18:50:00.000Z",
+        "expires": "2026-05-08T21:50",
+        "expires_iso": "2026-05-08T19:50:00.000Z",
+        "location": "west of Nantes, France",
+        "hail": "<1-2cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "a couple of thunderstorms are active close to Nantes, hail max: 2cm, dbz 59-60+, lightning activity: low/moderate",
+        "hazards": {
+          "hail": "<1-2cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T18:52:26.034Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.94458,
+              47.055154
+            ],
+            [
+              -1.609497,
+              47.122476
+            ],
+            [
+              -1.702881,
+              47.554287
+            ],
+            [
+              -2.285156,
+              47.398349
+            ],
+            [
+              -1.94458,
+              47.055154
             ]
           ]
         ]
