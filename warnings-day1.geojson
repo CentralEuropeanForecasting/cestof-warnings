@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T15:16:11.718Z",
+  "generated_at": "2026-05-08T15:21:20.316Z",
   "features": [
     {
       "type": "Feature",
@@ -2532,6 +2532,63 @@
             [
               26.482544,
               43.731414
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778253512457",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T17:20",
+        "issued_iso": "2026-05-08T15:20:00.000Z",
+        "expires": "2026-05-08T18:20",
+        "expires_iso": "2026-05-08T16:20:00.000Z",
+        "location": "Pau, France",
+        "hail": "<2-3cm",
+        "wind": "<70km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A couple of fairly strong cells are moving North. Pau will be affected by these. Radar scans are pushing up to 62 dBZ+. Lightning activity is moderate.\nHail is possible, and even up to 2-3cm. If they strengthen further, severe warning is going to be issued.",
+        "hazards": {
+          "hail": "<2-3cm",
+          "wind": "<70km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T15:21:15.755Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.906372,
+              43.165123
+            ],
+            [
+              -0.236206,
+              43.141078
+            ],
+            [
+              0.060425,
+              43.905808
+            ],
+            [
+              -0.994263,
+              43.889975
+            ],
+            [
+              -0.906372,
+              43.165123
             ]
           ]
         ]
