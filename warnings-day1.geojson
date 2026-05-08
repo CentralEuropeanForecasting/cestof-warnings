@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T17:06:53.663Z",
+  "generated_at": "2026-05-08T17:14:18.559Z",
   "features": [
     {
       "type": "Feature",
@@ -2992,6 +2992,75 @@
             [
               -0.796509,
               43.604262
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778260384222",
+        "type": "Thunderstorm Watch",
+        "issued": "2026-05-08T19:10",
+        "issued_iso": "2026-05-08T17:10:00.000Z",
+        "expires": "2026-05-08T21:30",
+        "expires_iso": "2026-05-08T19:30:00.000Z",
+        "location": "central France",
+        "hail": "<2cm",
+        "wind": "<70km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunderstorm watch has been issued due to many cells forming in this region, lightning activity is predicted.",
+        "hazards": {
+          "hail": "<2cm",
+          "wind": "<70km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T17:14:13.291Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.126343,
+              44.988113
+            ],
+            [
+              1.323853,
+              44.402392
+            ],
+            [
+              4.108887,
+              44.793531
+            ],
+            [
+              4.438477,
+              46.754917
+            ],
+            [
+              1.675415,
+              47.331377
+            ],
+            [
+              -0.060425,
+              47.047669
+            ],
+            [
+              -0.565796,
+              45.813486
+            ],
+            [
+              -0.126343,
+              44.988113
             ]
           ]
         ]
