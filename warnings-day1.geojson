@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T17:34:32.701Z",
+  "generated_at": "2026-05-08T17:37:53.440Z",
   "features": [
     {
       "type": "Feature",
@@ -3232,6 +3232,63 @@
             [
               2.996521,
               45.777102
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778261750538",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T19:35",
+        "issued_iso": "2026-05-08T17:35:00.000Z",
+        "expires": "2026-05-08T20:35",
+        "expires_iso": "2026-05-08T18:35:00.000Z",
+        "location": "Luzeret, France",
+        "hail": "<1cm",
+        "wind": "<80km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm is active over Luzeret, France and a few other small villages/cities, it has reflectivity of 55-60 dBZ, which puts a small-medium risk of hail. Lightning activity is low-moderate.",
+        "hazards": {
+          "hail": "<1cm",
+          "wind": "<80km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T17:37:49.987Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.219482,
+              46.392411
+            ],
+            [
+              1.516113,
+              46.3962
+            ],
+            [
+              1.669922,
+              46.897739
+            ],
+            [
+              1.087646,
+              46.882723
+            ],
+            [
+              1.219482,
+              46.392411
             ]
           ]
         ]
