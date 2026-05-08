@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T14:47:34.330Z",
+  "generated_at": "2026-05-08T15:02:09.574Z",
   "features": [
     {
       "type": "Feature",
@@ -2361,6 +2361,63 @@
             [
               27.664948,
               46.847982
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778252373729",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T17:00",
+        "issued_iso": "2026-05-08T15:00:00.000Z",
+        "expires": "2026-05-08T18:00",
+        "expires_iso": "2026-05-08T16:00:00.000Z",
+        "location": "Montana, Bulgaria",
+        "hail": "<0,5cm",
+        "wind": "<50km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm is located in Montana, Bulgaria. It is moving north-west. It has a low to moderate lightning activity. radar scans are showing 53-55 dBZ",
+        "hazards": {
+          "hail": "<0,5cm",
+          "wind": "<50km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T15:02:06.475Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.994385,
+              43.261206
+            ],
+            [
+              23.36792,
+              43.377105
+            ],
+            [
+              23.137207,
+              43.949327
+            ],
+            [
+              22.417603,
+              43.671845
+            ],
+            [
+              22.994385,
+              43.261206
             ]
           ]
         ]
