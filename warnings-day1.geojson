@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T17:14:22.026Z",
+  "generated_at": "2026-05-08T17:20:47.028Z",
   "features": [
     {
       "type": "Feature",
@@ -3061,6 +3061,63 @@
             [
               -0.126343,
               44.988113
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778260714752",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T19:20",
+        "issued_iso": "2026-05-08T17:20:00.000Z",
+        "expires": "2026-05-08T20:20",
+        "expires_iso": "2026-05-08T18:20:00.000Z",
+        "location": "Lannion, France",
+        "hail": "<2cm",
+        "wind": "<65km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A couple of thunderstorms are heading for Lannion, France. It is a pretty strong couple of storms. Radar scans are showing reflectivity up to 60+ dBZ. Hail is possible. Lightning activity is moderate.",
+        "hazards": {
+          "hail": "<2cm",
+          "wind": "<65km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T17:20:40.378Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.861694,
+              48.487486
+            ],
+            [
+              -3.279419,
+              48.356249
+            ],
+            [
+              -3.015747,
+              49.037868
+            ],
+            [
+              -3.795776,
+              49.095452
+            ],
+            [
+              -3.861694,
+              48.487486
             ]
           ]
         ]
