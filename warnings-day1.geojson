@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T12:36:22.592Z",
+  "generated_at": "2026-05-08T12:45:49.026Z",
   "features": [
     {
       "type": "Feature",
@@ -1962,6 +1962,63 @@
             [
               26.993408,
               47.554287
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778244259097",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T14:40",
+        "issued_iso": "2026-05-08T12:40:00.000Z",
+        "expires": "2026-05-08T15:40",
+        "expires_iso": "2026-05-08T13:40:00.000Z",
+        "location": "close to Foscani, Romania",
+        "hail": "<0,5cm",
+        "wind": "<50km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm moving east, it is close to Foscani, radar scans show reflectivity up to 53 dBZ+, it can produce small hail, but the chance is low. Lightning activity fairly low.",
+        "hazards": {
+          "hail": "<0,5cm",
+          "wind": "<50km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T12:45:46.966Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.5979,
+              45.449341
+            ],
+            [
+              26.619873,
+              45.664734
+            ],
+            [
+              27.301025,
+              45.790509
+            ],
+            [
+              27.301025,
+              45.359865
+            ],
+            [
+              26.5979,
+              45.449341
             ]
           ]
         ]
