@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T16:19:50.201Z",
+  "generated_at": "2026-05-08T17:06:53.663Z",
   "features": [
     {
       "type": "Feature",
@@ -2935,6 +2935,63 @@
             [
               -2.241211,
               41.013066
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778259683069",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T19:00",
+        "issued_iso": "2026-05-08T17:00:00.000Z",
+        "expires": "2026-05-08T20:05",
+        "expires_iso": "2026-05-08T18:05:00.000Z",
+        "location": "south France",
+        "hail": "1cm",
+        "wind": "<70km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A line of storm cells is present in South France, some are fairly strong with 61 dBZ. But some are slowly dying. all of them are moving north, some faster and some slower.",
+        "hazards": {
+          "hail": "1cm",
+          "wind": "<70km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T17:06:51.980Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.796509,
+              43.604262
+            ],
+            [
+              1.043701,
+              42.892064
+            ],
+            [
+              1.702881,
+              43.937462
+            ],
+            [
+              -0.593262,
+              44.574817
+            ],
+            [
+              -0.796509,
+              43.604262
             ]
           ]
         ]
