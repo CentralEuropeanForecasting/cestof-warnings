@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-08T18:04:53.488Z",
+  "generated_at": "2026-05-08T18:28:15.016Z",
   "features": [
     {
       "type": "Feature",
@@ -3517,6 +3517,63 @@
             [
               0.873413,
               43.068888
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778264806922",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-08T20:20",
+        "issued_iso": "2026-05-08T18:20:00.000Z",
+        "expires": "2026-05-08T21:20",
+        "expires_iso": "2026-05-08T19:20:00.000Z",
+        "location": "Vichy, France",
+        "hail": "<1cm",
+        "wind": "<70km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm is active over Vichy, dbz 61+, hail is possible. Lightning activity is moderate.",
+        "hazards": {
+          "hail": "<1cm",
+          "wind": "<70km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-08T18:28:08.092Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.059692,
+              46.004593
+            ],
+            [
+              3.477173,
+              45.981695
+            ],
+            [
+              3.729858,
+              46.611715
+            ],
+            [
+              3.004761,
+              46.611715
+            ],
+            [
+              3.059692,
+              46.004593
             ]
           ]
         ]
