@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-09T12:23:55.444Z",
+  "generated_at": "2026-05-09T12:30:04.718Z",
   "features": [
     {
       "type": "Feature",
@@ -112,6 +112,63 @@
             [
               15.408325,
               47.569114
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778329492186",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-09T14:25",
+        "issued_iso": "2026-05-09T12:25:00.000Z",
+        "expires": "2026-05-09T15:25",
+        "expires_iso": "2026-05-09T13:25:00.000Z",
+        "location": "Šabac, Serbia",
+        "hail": "<0,5cm",
+        "wind": "<50km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "dBZ: 53+\nHail: <0,5cm if any\nMovement: South-South-East\nLightning activity: Low\nCities affected: Šabac",
+        "hazards": {
+          "hail": "<0,5cm",
+          "wind": "<50km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-09T12:29:52.435Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              19.649048,
+              44.770137
+            ],
+            [
+              19.923706,
+              44.871443
+            ],
+            [
+              20.308228,
+              44.523927
+            ],
+            [
+              19.813843,
+              44.374913
+            ],
+            [
+              19.649048,
+              44.770137
             ]
           ]
         ]
