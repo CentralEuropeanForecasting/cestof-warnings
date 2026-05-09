@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-09T12:20:07.596Z",
+  "generated_at": "2026-05-09T12:23:55.444Z",
   "features": [
     {
       "type": "Feature",
@@ -55,6 +55,63 @@
             [
               15.336914,
               47.754098
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778329180302",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-09T14:23",
+        "issued_iso": "2026-05-09T12:23:00.000Z",
+        "expires": "2026-05-09T14:39",
+        "expires_iso": "2026-05-09T12:39:00.000Z",
+        "location": "Murzzuschlag,Styria",
+        "hail": "1,2cm",
+        "wind": "10-15kmh",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm warning was issued for Murzzuschalg,Styria. Hazards include,1,2cm hail and wind gust's up to 15kmh. Tornado probability is very low",
+        "hazards": {
+          "hail": "1,2cm",
+          "wind": "10-15kmh",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-09T12:23:52.302Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.408325,
+              47.569114
+            ],
+            [
+              15.496216,
+              47.45038
+            ],
+            [
+              16.222687,
+              47.557994
+            ],
+            [
+              15.827179,
+              47.868459
+            ],
+            [
+              15.408325,
+              47.569114
             ]
           ]
         ]
