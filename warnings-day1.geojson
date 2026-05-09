@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-09T12:45:17.199Z",
+  "generated_at": "2026-05-09T18:22:08.389Z",
   "features": [
     {
       "type": "Feature",
@@ -340,6 +340,63 @@
             [
               -3.860537,
               40.221843
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778350909290",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-09T20:21",
+        "issued_iso": "2026-05-09T18:21:00.000Z",
+        "expires": "2026-05-09T21:21",
+        "expires_iso": "2026-05-09T19:21:00.000Z",
+        "location": "Bordeaux",
+        "hail": "N/A",
+        "wind": "40km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "N/A",
+          "wind": "40km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "elidoesbnuuy",
+        "forecaster_name": "EliDoesBnuuy",
+        "forecaster_role": "nowcaster",
+        "issued_by": "EliDoesBnuuy",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-09T18:22:05.587Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.466675,
+              44.15922
+            ],
+            [
+              -1.983032,
+              45.136201
+            ],
+            [
+              0.071411,
+              45.321898
+            ],
+            [
+              0.214233,
+              44.324503
+            ],
+            [
+              -1.466675,
+              44.15922
             ]
           ]
         ]
