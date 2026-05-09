@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-09T18:22:08.389Z",
+  "generated_at": "2026-05-09T18:22:58.966Z",
   "features": [
     {
       "type": "Feature",
@@ -348,23 +348,23 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1778350909290",
-        "type": "Thunderstorm Warning",
+        "id": "warning-poly-1778350958215",
+        "type": "Severe Thunderstorm Warning",
         "issued": "2026-05-09T20:21",
         "issued_iso": "2026-05-09T18:21:00.000Z",
         "expires": "2026-05-09T21:21",
         "expires_iso": "2026-05-09T19:21:00.000Z",
-        "location": "Bordeaux",
+        "location": "Spain",
         "hail": "N/A",
         "wind": "40km/h",
-        "tornado_probability": "Very low",
+        "tornado_probability": "",
         "rotation": "",
         "md_number": "",
         "text": "",
         "hazards": {
           "hail": "N/A",
           "wind": "40km/h",
-          "tornado_probability": "Very low",
+          "tornado_probability": "",
           "rotation": ""
         },
         "forecaster": "elidoesbnuuy",
@@ -372,31 +372,35 @@
         "forecaster_role": "nowcaster",
         "issued_by": "EliDoesBnuuy",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-09T18:22:05.587Z"
+        "updated_at": "2026-05-09T18:22:56.192Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -1.466675,
-              44.15922
+              1.702881,
+              41.064167
             ],
             [
-              -1.983032,
-              45.136201
+              0.86792,
+              42.893406
             ],
             [
-              0.071411,
-              45.321898
+              4.3396,
+              43.819996
             ],
             [
-              0.214233,
-              44.324503
+              8.690186,
+              42.457238
             ],
             [
-              -1.466675,
-              44.15922
+              7.657471,
+              40.881679
+            ],
+            [
+              1.702881,
+              41.064167
             ]
           ]
         ]
