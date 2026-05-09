@@ -1,0 +1,64 @@
+{
+  "type": "FeatureCollection",
+  "name": "CESTOF Warning Polygons",
+  "generated_at": "2026-05-09T12:20:07.596Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778328837174",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-09T14:15",
+        "issued_iso": "2026-05-09T12:15:00.000Z",
+        "expires": "2026-05-09T15:15",
+        "expires_iso": "2026-05-09T13:15:00.000Z",
+        "location": "Mürzzuschlag, Gloggnitz, Ternitz - Austria",
+        "hail": "<1cm",
+        "wind": "<50km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "dBZ: 59+\nHail: <1cm\nMovement: E to slightly ENE\nLightning activity: high\nCities affected: Mürzzuschlag, Gloggnitz, Ternitz and villages around",
+        "hazards": {
+          "hail": "<1cm",
+          "wind": "<50km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-09T12:20:05.477Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.336914,
+              47.754098
+            ],
+            [
+              15.435791,
+              47.383474
+            ],
+            [
+              16.622314,
+              47.390912
+            ],
+            [
+              16.446533,
+              48.019324
+            ],
+            [
+              15.336914,
+              47.754098
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
