@@ -3150,6 +3150,78 @@
         "mcg": 262,
         "sta": 19
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.340412,
+          38.733773
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-05-09 09:46:40.249880064",
+        "hour": 9,
+        "server": 1,
+        "mds": 5481,
+        "mcg": 269,
+        "sta": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.30934,
+          38.724265
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-05-09 09:46:40.554705920",
+        "hour": 9,
+        "server": 1,
+        "mds": 3793,
+        "mcg": 215,
+        "sta": 154
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.300052,
+          38.776013
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-05-09 09:46:40.554726144",
+        "hour": 9,
+        "server": 1,
+        "mds": 6813,
+        "mcg": 230,
+        "sta": 141
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.311295,
+          38.727011
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-05-09 09:46:40.554743808",
+        "hour": 9,
+        "server": 1,
+        "mds": 2417,
+        "mcg": 263,
+        "sta": 93
+      }
     }
   ]
 }
