@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-09T12:30:04.718Z",
+  "generated_at": "2026-05-09T12:32:51.535Z",
   "features": [
     {
       "type": "Feature",
@@ -169,6 +169,63 @@
             [
               19.649048,
               44.770137
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778329904112",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-09T14:31",
+        "issued_iso": "2026-05-09T12:31:00.000Z",
+        "expires": "2026-05-09T15:31",
+        "expires_iso": "2026-05-09T13:31:00.000Z",
+        "location": "Mladenovac, Serbia",
+        "hail": "<0,5cm",
+        "wind": "<50km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "dBZ: 53+\nHail: <0,5cm if any\nMovement: South-South-East\nLightning activity: Low\nCities affected: Mladenovac and villages around it",
+        "hazards": {
+          "hail": "<0,5cm",
+          "wind": "<50km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-09T12:32:47.437Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.533447,
+              44.465151
+            ],
+            [
+              20.830078,
+              44.590467
+            ],
+            [
+              21.19812,
+              44.21371
+            ],
+            [
+              20.747681,
+              44.063907
+            ],
+            [
+              20.533447,
+              44.465151
             ]
           ]
         ]
