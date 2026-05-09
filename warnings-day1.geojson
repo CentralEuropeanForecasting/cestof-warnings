@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-09T12:38:44.315Z",
+  "generated_at": "2026-05-09T12:45:17.199Z",
   "features": [
     {
       "type": "Feature",
@@ -283,6 +283,63 @@
             [
               14.650269,
               47.26432
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778330484305",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-09T14:45",
+        "issued_iso": "2026-05-09T12:45:00.000Z",
+        "expires": "2026-05-09T14:55",
+        "expires_iso": "2026-05-09T12:55:00.000Z",
+        "location": "Parla,Spain",
+        "hail": "1cm",
+        "wind": "25-35kmh",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "a thunderstorm warning was issued for Parla,Spain. Radar product's show dbz up to 52.5,only hazards is wind gust's up to 35kmh and hail size up to 1cm or more",
+        "hazards": {
+          "hail": "1cm",
+          "wind": "25-35kmh",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-09T12:45:15.592Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.860537,
+              40.221843
+            ],
+            [
+              -3.684756,
+              40.121105
+            ],
+            [
+              -3.067932,
+              40.271144
+            ],
+            [
+              -3.633728,
+              40.530502
+            ],
+            [
+              -3.860537,
+              40.221843
             ]
           ]
         ]
