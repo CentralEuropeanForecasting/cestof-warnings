@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-09T12:34:53.699Z",
+  "generated_at": "2026-05-09T12:38:36.268Z",
   "features": [
     {
       "type": "Feature",
@@ -226,6 +226,63 @@
             [
               20.533447,
               44.465151
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778329956657",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-09T14:38",
+        "issued_iso": "2026-05-09T12:38:00.000Z",
+        "expires": "2026-05-09T14:48",
+        "expires_iso": "2026-05-09T12:48:00.000Z",
+        "location": "Knittelfeld,Styria",
+        "hail": "1,9cm",
+        "wind": "",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "a thunderstorm warning was issued for Knittelfeld,Styria. Radar product's show dbz up to 55 and hail up to 1,9cm.Tornado probability is very low",
+        "hazards": {
+          "hail": "1,9cm",
+          "wind": "",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-09T12:38:34.176Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.650269,
+              47.26432
+            ],
+            [
+              14.672241,
+              47.115
+            ],
+            [
+              15.493469,
+              47.212106
+            ],
+            [
+              15.361633,
+              47.587642
+            ],
+            [
+              14.650269,
+              47.26432
             ]
           ]
         ]
