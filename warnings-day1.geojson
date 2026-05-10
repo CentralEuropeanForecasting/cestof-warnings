@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-10T13:26:53.220Z",
+  "generated_at": "2026-05-10T13:29:30.374Z",
   "features": [
     {
       "type": "Feature",
@@ -1328,6 +1328,63 @@
             [
               -1.334839,
               46.987747
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778419645087",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-10T15:27",
+        "issued_iso": "2026-05-10T13:27:00.000Z",
+        "expires": "2026-05-10T16:35",
+        "expires_iso": "2026-05-10T14:35:00.000Z",
+        "location": "SW of Toulouse",
+        "hail": "<3cm",
+        "wind": "<70km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm with a strong hail core, showing reflectivity up to 63-64 dBZ+ is moving NE towards Toulouse. Winds up to 70 km/h is possible, lightning activity is fairly low.",
+        "hazards": {
+          "hail": "<3cm",
+          "wind": "<70km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-10T13:29:28.454Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.653687,
+              43.2932
+            ],
+            [
+              0.884399,
+              43.141078
+            ],
+            [
+              1.658936,
+              43.452919
+            ],
+            [
+              0.955811,
+              43.76316
+            ],
+            [
+              0.653687,
+              43.2932
             ]
           ]
         ]
