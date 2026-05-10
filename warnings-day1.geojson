@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-10T13:30:25.732Z",
+  "generated_at": "2026-05-10T13:33:34.006Z",
   "features": [
     {
       "type": "Feature",
@@ -1385,6 +1385,63 @@
             [
               0.653687,
               43.2932
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778419890620",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-10T15:27",
+        "issued_iso": "2026-05-10T13:27:00.000Z",
+        "expires": "2026-05-10T16:35",
+        "expires_iso": "2026-05-10T14:35:00.000Z",
+        "location": "West of Toulouse",
+        "hail": "<1.5cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm with a fairly strong hail core is active west of Toulouse and is moving north-east. dBZ shows 61 which can be from hail, winds can reach up to 60, maybe 70 km/h. Lightning activity is fairly low.",
+        "hazards": {
+          "hail": "<1.5cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-10T13:33:21.749Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.615234,
+              43.69568
+            ],
+            [
+              0.85144,
+              43.548548
+            ],
+            [
+              1.362305,
+              43.882057
+            ],
+            [
+              0.834961,
+              44.103365
+            ],
+            [
+              0.615234,
+              43.69568
             ]
           ]
         ]
