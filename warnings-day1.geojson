@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-10T11:47:02.804Z",
+  "generated_at": "2026-05-10T13:25:16.813Z",
   "features": [
     {
       "type": "Feature",
@@ -1271,6 +1271,63 @@
             [
               -0.718322,
               47.755437
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778419361868",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-10T15:21",
+        "issued_iso": "2026-05-10T13:21:00.000Z",
+        "expires": "2026-05-10T16:45",
+        "expires_iso": "2026-05-10T14:45:00.000Z",
+        "location": "Nantes Region",
+        "hail": "2cm",
+        "wind": "<70km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A couple of strong thunderstorm cells is moving north, lightning activity is high with dBZ up to 61. Hail is possible up to 2cm. Wind should be under 70 km/h.",
+        "hazards": {
+          "hail": "2cm",
+          "wind": "<70km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-10T13:25:14.514Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.334839,
+              46.987747
+            ],
+            [
+              -0.664673,
+              46.980252
+            ],
+            [
+              -0.384521,
+              47.798397
+            ],
+            [
+              -1.494141,
+              47.798397
+            ],
+            [
+              -1.334839,
+              46.987747
             ]
           ]
         ]
