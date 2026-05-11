@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-05-11T13:14:00.688Z",
+  "generated_at": "2026-05-11T14:34:47.701Z",
   "features": [
     {
       "type": "Feature",
@@ -129,7 +129,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-PL",
         "province_name": "Plzeňský",
-        "warning_count": 8,
+        "warning_count": 9,
         "warnings": [
           {
             "id": "prov-warn-1778072505803-ad2b39249ddd1",
@@ -297,6 +297,34 @@
             "issued_by": "Bearmax",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-11T09:24:16.009Z",
+            "province_id": "CZ-PL",
+            "province_name": "Plzeňský",
+            "affected_provinces": [
+              "Plzeňský"
+            ],
+            "affected_province_ids": [
+              "CZ-PL"
+            ],
+            "affected_provinces_text": "Plzeňský"
+          },
+          {
+            "id": "prov-warn-1778510085215-bbcf291751bc5",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-11T16:33",
+            "issued_iso": "2026-05-11T14:33:00.000Z",
+            "expires": "2026-05-11T19:05",
+            "expires_iso": "2026-05-11T17:05:00.000Z",
+            "hail": "3.5cm",
+            "wind": "65kmh",
+            "tornado_probability": "Very low",
+            "rotation": "Weak rotation",
+            "text": "",
+            "forecaster": "bearmax",
+            "forecaster_name": "Bearmax",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Bearmax",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-11T14:34:45.216Z",
             "province_id": "CZ-PL",
             "province_name": "Plzeňský",
             "affected_provinces": [
@@ -1730,7 +1758,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-JC",
         "province_name": "Jihočeský",
-        "warning_count": 6,
+        "warning_count": 7,
         "warnings": [
           {
             "id": "prov-warn-1778072505803-ad2b39249ddd1",
@@ -1858,6 +1886,34 @@
             "issued_by": "Bearmax",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-11T09:24:16.009Z",
+            "province_id": "CZ-JC",
+            "province_name": "Jihočeský",
+            "affected_provinces": [
+              "Jihočeský"
+            ],
+            "affected_province_ids": [
+              "CZ-JC"
+            ],
+            "affected_provinces_text": "Jihočeský"
+          },
+          {
+            "id": "prov-warn-1778510085215-bbcf291751bc5",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-11T16:33",
+            "issued_iso": "2026-05-11T14:33:00.000Z",
+            "expires": "2026-05-11T19:05",
+            "expires_iso": "2026-05-11T17:05:00.000Z",
+            "hail": "3.5cm",
+            "wind": "65kmh",
+            "tornado_probability": "Very low",
+            "rotation": "Weak rotation",
+            "text": "",
+            "forecaster": "bearmax",
+            "forecaster_name": "Bearmax",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Bearmax",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-11T14:34:45.216Z",
             "province_id": "CZ-JC",
             "province_name": "Jihočeský",
             "affected_provinces": [
@@ -3591,7 +3647,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-ST",
         "province_name": "Středočeský",
-        "warning_count": 6,
+        "warning_count": 7,
         "warnings": [
           {
             "id": "prov-warn-1778072505803-ad2b39249ddd1",
@@ -3719,6 +3775,34 @@
             "issued_by": "Bearmax",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-11T09:24:16.009Z",
+            "province_id": "CZ-ST",
+            "province_name": "Středočeský",
+            "affected_provinces": [
+              "Středočeský"
+            ],
+            "affected_province_ids": [
+              "CZ-ST"
+            ],
+            "affected_provinces_text": "Středočeský"
+          },
+          {
+            "id": "prov-warn-1778510085215-bbcf291751bc5",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-11T16:33",
+            "issued_iso": "2026-05-11T14:33:00.000Z",
+            "expires": "2026-05-11T19:05",
+            "expires_iso": "2026-05-11T17:05:00.000Z",
+            "hail": "3.5cm",
+            "wind": "65kmh",
+            "tornado_probability": "Very low",
+            "rotation": "Weak rotation",
+            "text": "",
+            "forecaster": "bearmax",
+            "forecaster_name": "Bearmax",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Bearmax",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-11T14:34:45.216Z",
             "province_id": "CZ-ST",
             "province_name": "Středočeský",
             "affected_provinces": [
@@ -26662,7 +26746,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-OL",
         "province_name": "Olomoucký",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778070902891-5c07e73a8fe458",
@@ -26683,6 +26767,34 @@
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-06T12:35:02.896Z",
             "province_id": "CZ-OL"
+          },
+          {
+            "id": "prov-warn-1778510085215-bbcf291751bc5",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-11T16:33",
+            "issued_iso": "2026-05-11T14:33:00.000Z",
+            "expires": "2026-05-11T19:05",
+            "expires_iso": "2026-05-11T17:05:00.000Z",
+            "hail": "3.5cm",
+            "wind": "65kmh",
+            "tornado_probability": "Very low",
+            "rotation": "Weak rotation",
+            "text": "",
+            "forecaster": "bearmax",
+            "forecaster_name": "Bearmax",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Bearmax",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-11T14:34:45.216Z",
+            "province_id": "CZ-OL",
+            "province_name": "Olomoucký",
+            "affected_provinces": [
+              "Olomoucký"
+            ],
+            "affected_province_ids": [
+              "CZ-OL"
+            ],
+            "affected_provinces_text": "Olomoucký"
           }
         ],
         "connected": false
@@ -29499,7 +29611,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-ZL",
         "province_name": "Zlínský",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778070902891-5c07e73a8fe458",
@@ -29520,6 +29632,34 @@
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-06T12:35:02.896Z",
             "province_id": "CZ-ZL"
+          },
+          {
+            "id": "prov-warn-1778510085215-bbcf291751bc5",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-11T16:33",
+            "issued_iso": "2026-05-11T14:33:00.000Z",
+            "expires": "2026-05-11T19:05",
+            "expires_iso": "2026-05-11T17:05:00.000Z",
+            "hail": "3.5cm",
+            "wind": "65kmh",
+            "tornado_probability": "Very low",
+            "rotation": "Weak rotation",
+            "text": "",
+            "forecaster": "bearmax",
+            "forecaster_name": "Bearmax",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Bearmax",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-11T14:34:45.216Z",
+            "province_id": "CZ-ZL",
+            "province_name": "Zlínský",
+            "affected_provinces": [
+              "Zlínský"
+            ],
+            "affected_province_ids": [
+              "CZ-ZL"
+            ],
+            "affected_provinces_text": "Zlínský"
           }
         ],
         "connected": false
@@ -30468,7 +30608,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-PR",
         "province_name": "Prague",
-        "warning_count": 4,
+        "warning_count": 5,
         "warnings": [
           {
             "id": "prov-warn-1778078476508-14420dc735ce1",
@@ -30556,6 +30696,34 @@
             "issued_by": "Bearmax",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-11T09:24:16.009Z",
+            "province_id": "CZ-PR",
+            "province_name": "Prague",
+            "affected_provinces": [
+              "Prague"
+            ],
+            "affected_province_ids": [
+              "CZ-PR"
+            ],
+            "affected_provinces_text": "Prague"
+          },
+          {
+            "id": "prov-warn-1778510085215-bbcf291751bc5",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-11T16:33",
+            "issued_iso": "2026-05-11T14:33:00.000Z",
+            "expires": "2026-05-11T19:05",
+            "expires_iso": "2026-05-11T17:05:00.000Z",
+            "hail": "3.5cm",
+            "wind": "65kmh",
+            "tornado_probability": "Very low",
+            "rotation": "Weak rotation",
+            "text": "",
+            "forecaster": "bearmax",
+            "forecaster_name": "Bearmax",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Bearmax",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-11T14:34:45.216Z",
             "province_id": "CZ-PR",
             "province_name": "Prague",
             "affected_provinces": [
@@ -35487,7 +35655,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-LI",
         "province_name": "Liberecký",
-        "warning_count": 5,
+        "warning_count": 6,
         "warnings": [
           {
             "id": "prov-warn-1778080564884-7c2174f682f808",
@@ -35595,6 +35763,34 @@
             "issued_by": "Bearmax",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-11T09:24:16.009Z",
+            "province_id": "CZ-LI",
+            "province_name": "Liberecký",
+            "affected_provinces": [
+              "Liberecký"
+            ],
+            "affected_province_ids": [
+              "CZ-LI"
+            ],
+            "affected_provinces_text": "Liberecký"
+          },
+          {
+            "id": "prov-warn-1778510085215-bbcf291751bc5",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-11T16:33",
+            "issued_iso": "2026-05-11T14:33:00.000Z",
+            "expires": "2026-05-11T19:05",
+            "expires_iso": "2026-05-11T17:05:00.000Z",
+            "hail": "3.5cm",
+            "wind": "65kmh",
+            "tornado_probability": "Very low",
+            "rotation": "Weak rotation",
+            "text": "",
+            "forecaster": "bearmax",
+            "forecaster_name": "Bearmax",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Bearmax",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-11T14:34:45.216Z",
             "province_id": "CZ-LI",
             "province_name": "Liberecký",
             "affected_provinces": [
@@ -37705,7 +37901,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-KR",
         "province_name": "Královéhradecký",
-        "warning_count": 5,
+        "warning_count": 6,
         "warnings": [
           {
             "id": "prov-warn-1778080564884-7c2174f682f808",
@@ -37806,6 +38002,34 @@
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-06T19:31:34.408Z",
             "province_id": "CZ-KR"
+          },
+          {
+            "id": "prov-warn-1778510085215-bbcf291751bc5",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-11T16:33",
+            "issued_iso": "2026-05-11T14:33:00.000Z",
+            "expires": "2026-05-11T19:05",
+            "expires_iso": "2026-05-11T17:05:00.000Z",
+            "hail": "3.5cm",
+            "wind": "65kmh",
+            "tornado_probability": "Very low",
+            "rotation": "Weak rotation",
+            "text": "",
+            "forecaster": "bearmax",
+            "forecaster_name": "Bearmax",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Bearmax",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-11T14:34:45.216Z",
+            "province_id": "CZ-KR",
+            "province_name": "Královéhradecký",
+            "affected_provinces": [
+              "Královéhradecký"
+            ],
+            "affected_province_ids": [
+              "CZ-KR"
+            ],
+            "affected_provinces_text": "Královéhradecký"
           }
         ],
         "connected": false
@@ -39074,7 +39298,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-PA",
         "province_name": "Pardubický",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778080564884-7c2174f682f808",
@@ -39095,6 +39319,34 @@
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-06T15:16:04.884Z",
             "province_id": "CZ-PA"
+          },
+          {
+            "id": "prov-warn-1778510085215-bbcf291751bc5",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-11T16:33",
+            "issued_iso": "2026-05-11T14:33:00.000Z",
+            "expires": "2026-05-11T19:05",
+            "expires_iso": "2026-05-11T17:05:00.000Z",
+            "hail": "3.5cm",
+            "wind": "65kmh",
+            "tornado_probability": "Very low",
+            "rotation": "Weak rotation",
+            "text": "",
+            "forecaster": "bearmax",
+            "forecaster_name": "Bearmax",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Bearmax",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-11T14:34:45.216Z",
+            "province_id": "CZ-PA",
+            "province_name": "Pardubický",
+            "affected_provinces": [
+              "Pardubický"
+            ],
+            "affected_province_ids": [
+              "CZ-PA"
+            ],
+            "affected_provinces_text": "Pardubický"
           }
         ],
         "connected": false
@@ -48821,7 +49073,7 @@
         "FCLASS_TLC": null,
         "province_id": "CZ-VY",
         "province_name": "Vysočina",
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778080564884-7c2174f682f808",
@@ -48842,6 +49094,34 @@
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-06T15:16:04.884Z",
             "province_id": "CZ-VY"
+          },
+          {
+            "id": "prov-warn-1778510085215-bbcf291751bc5",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-11T16:33",
+            "issued_iso": "2026-05-11T14:33:00.000Z",
+            "expires": "2026-05-11T19:05",
+            "expires_iso": "2026-05-11T17:05:00.000Z",
+            "hail": "3.5cm",
+            "wind": "65kmh",
+            "tornado_probability": "Very low",
+            "rotation": "Weak rotation",
+            "text": "",
+            "forecaster": "bearmax",
+            "forecaster_name": "Bearmax",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Bearmax",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-11T14:34:45.216Z",
+            "province_id": "CZ-VY",
+            "province_name": "Vysočina",
+            "affected_provinces": [
+              "Vysočina"
+            ],
+            "affected_province_ids": [
+              "CZ-VY"
+            ],
+            "affected_provinces_text": "Vysočina"
           }
         ],
         "connected": false
@@ -78176,7 +78456,7 @@
         "affected_provinces_text": "Jihomoravský",
         "connected": false,
         "connected_warning_area": true,
-        "warning_count": 2,
+        "warning_count": 3,
         "warnings": [
           {
             "id": "prov-warn-1778171561873-a28d06c917844",
@@ -78223,6 +78503,34 @@
             "issued_by": "CAPE",
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-11T11:01:41.530Z",
+            "province_id": "CZ-JM",
+            "province_name": "Jihomoravský",
+            "affected_provinces": [
+              "Jihomoravský"
+            ],
+            "affected_province_ids": [
+              "CZ-JM"
+            ],
+            "affected_provinces_text": "Jihomoravský"
+          },
+          {
+            "id": "prov-warn-1778510085215-bbcf291751bc5",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-11T16:33",
+            "issued_iso": "2026-05-11T14:33:00.000Z",
+            "expires": "2026-05-11T19:05",
+            "expires_iso": "2026-05-11T17:05:00.000Z",
+            "hail": "3.5cm",
+            "wind": "65kmh",
+            "tornado_probability": "Very low",
+            "rotation": "Weak rotation",
+            "text": "",
+            "forecaster": "bearmax",
+            "forecaster_name": "Bearmax",
+            "forecaster_role": "nowcaster",
+            "issued_by": "Bearmax",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-11T14:34:45.216Z",
             "province_id": "CZ-JM",
             "province_name": "Jihomoravský",
             "affected_provinces": [
