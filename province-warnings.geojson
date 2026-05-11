@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-05-11T09:24:24.223Z",
+  "generated_at": "2026-05-11T11:01:43.162Z",
   "features": [
     {
       "type": "Feature",
@@ -78176,7 +78176,7 @@
         "affected_provinces_text": "Jihomoravský",
         "connected": false,
         "connected_warning_area": true,
-        "warning_count": 1,
+        "warning_count": 2,
         "warnings": [
           {
             "id": "prov-warn-1778171561873-a28d06c917844",
@@ -78197,6 +78197,34 @@
             "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
             "updated_at": "2026-05-07T16:32:41.873Z",
             "province_id": "CZ-JM",
+            "affected_provinces": [
+              "Jihomoravský"
+            ],
+            "affected_province_ids": [
+              "CZ-JM"
+            ],
+            "affected_provinces_text": "Jihomoravský"
+          },
+          {
+            "id": "prov-warn-1778497301530-c0a39417ee75e8",
+            "type": "Thunderstorm Warning",
+            "issued": "2026-05-11T12:58",
+            "issued_iso": "2026-05-11T10:58:00.000Z",
+            "expires": "2026-05-11T13:58",
+            "expires_iso": "2026-05-11T11:58:00.000Z",
+            "hail": "1cm",
+            "wind": "",
+            "tornado_probability": "",
+            "rotation": "",
+            "text": "Thunderstorm with intense lightning activity is present in the region. not all parts will be affected",
+            "forecaster": "cape",
+            "forecaster_name": "CAPE",
+            "forecaster_role": "owner",
+            "issued_by": "CAPE",
+            "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+            "updated_at": "2026-05-11T11:01:41.530Z",
+            "province_id": "CZ-JM",
+            "province_name": "Jihomoravský",
             "affected_provinces": [
               "Jihomoravský"
             ],
