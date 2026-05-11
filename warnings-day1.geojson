@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-11T11:03:51.207Z",
+  "generated_at": "2026-05-11T11:57:25.968Z",
   "features": [
     {
       "type": "Feature",
@@ -1556,6 +1556,63 @@
             [
               15.799745,
               48.918168
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778500604312",
+        "type": "Tornado Watch",
+        "issued": "2026-05-11T13:56",
+        "issued_iso": "2026-05-11T11:56:00.000Z",
+        "expires": "2026-05-11T14:56",
+        "expires_iso": "2026-05-11T12:56:00.000Z",
+        "location": "Ivančice area, Heading to Adamov",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Possible hook echo on radar indicatin a rotation within a storm",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-11T11:57:22.206Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.21582,
+              49.117029
+            ],
+            [
+              16.380615,
+              48.987427
+            ],
+            [
+              16.875,
+              49.239121
+            ],
+            [
+              16.45752,
+              49.460984
+            ],
+            [
+              16.21582,
+              49.117029
             ]
           ]
         ]
