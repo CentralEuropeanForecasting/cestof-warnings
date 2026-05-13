@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-11T13:13:55.917Z",
+  "generated_at": "2026-05-13T14:59:11.815Z",
   "features": [
     {
       "type": "Feature",
@@ -1861,6 +1861,75 @@
             [
               16.910986,
               49.686599
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778684342791",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-13T16:57",
+        "issued_iso": "2026-05-13T14:57:00.000Z",
+        "expires": "2026-05-13T17:57",
+        "expires_iso": "2026-05-13T15:57:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-13T14:59:10.345Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.249996,
+              50.876593
+            ],
+            [
+              3.753574,
+              50.884719
+            ],
+            [
+              3.760021,
+              51.174259
+            ],
+            [
+              4.717406,
+              51.35154
+            ],
+            [
+              5.518552,
+              51.417242
+            ],
+            [
+              5.815116,
+              51.216022
+            ],
+            [
+              5.731304,
+              50.83737
+            ],
+            [
+              4.249996,
+              50.876593
             ]
           ]
         ]
