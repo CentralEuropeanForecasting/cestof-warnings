@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-13T14:59:11.815Z",
+  "generated_at": "2026-05-13T15:00:22.793Z",
   "features": [
     {
       "type": "Feature",
@@ -1930,6 +1930,67 @@
             [
               4.249996,
               50.876593
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778684406632",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-13T16:57",
+        "issued_iso": "2026-05-13T14:57:00.000Z",
+        "expires": "2026-05-13T17:57",
+        "expires_iso": "2026-05-13T15:57:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-13T15:00:20.917Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.380709,
+              50.780356
+            ],
+            [
+              0.387156,
+              51.129176
+            ],
+            [
+              1.952144,
+              50.955435
+            ],
+            [
+              1.863527,
+              50.694782
+            ],
+            [
+              1.663669,
+              50.398142
+            ],
+            [
+              0.380709,
+              50.780356
             ]
           ]
         ]
