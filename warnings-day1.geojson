@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-13T15:02:57.378Z",
+  "generated_at": "2026-05-14T12:49:59.364Z",
   "features": [
     {
       "type": "Feature",
@@ -2113,6 +2113,63 @@
             [
               15.031139,
               52.92482
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778762782788",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-09T14:45",
+        "issued_iso": "2026-05-09T12:45:00.000Z",
+        "expires": "2026-05-09T15:05",
+        "expires_iso": "2026-05-09T13:05:00.000Z",
+        "location": "Chiari,Lombardy",
+        "hail": "2,1cm",
+        "wind": "25-35kmh",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "a severe thunderstorm warning was issued for Chiari,Lombardy.56.5dbz,2,1cm hail and wind gust's approaching 35kmh,tornado chance is very low",
+        "hazards": {
+          "hail": "2,1cm",
+          "wind": "25-35kmh",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-14T12:49:58.010Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.700928,
+              45.614037
+            ],
+            [
+              9.784012,
+              45.469762
+            ],
+            [
+              10.495377,
+              45.540984
+            ],
+            [
+              10.319595,
+              45.903389
+            ],
+            [
+              9.700928,
+              45.614037
             ]
           ]
         ]
