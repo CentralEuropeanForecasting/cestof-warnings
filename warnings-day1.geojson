@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-14T12:49:59.364Z",
+  "generated_at": "2026-05-14T16:12:55.136Z",
   "features": [
     {
       "type": "Feature",
@@ -2170,6 +2170,63 @@
             [
               9.700928,
               45.614037
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1778774820032",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-14T18:10",
+        "issued_iso": "2026-05-14T16:10:00.000Z",
+        "expires": "2026-05-14T19:10",
+        "expires_iso": "2026-05-14T17:10:00.000Z",
+        "location": "Rychněv nad Kněznou, Solnice - Czechia",
+        "hail": "None",
+        "wind": "<40-50 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A line of weak thunderstorm cells is moving almost north, the line is producing some stronger rain, dBZ is around 42-45. Winds up to 50 km/h in gusts are expected. Lightning activity is minor-low.",
+        "hazards": {
+          "hail": "None",
+          "wind": "<40-50 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-14T16:12:48.120Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.952148,
+              50.025388
+            ],
+            [
+              16.386108,
+              49.99185
+            ],
+            [
+              16.567383,
+              50.382254
+            ],
+            [
+              15.872498,
+              50.433017
+            ],
+            [
+              15.952148,
+              50.025388
             ]
           ]
         ]
