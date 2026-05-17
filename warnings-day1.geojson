@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-14T16:13:05.925Z",
+  "generated_at": "2026-05-17T14:28:20.634Z",
   "features": [
     {
       "type": "Feature",
@@ -2227,6 +2227,63 @@
             [
               15.952148,
               50.025388
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1779027924017",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-17T16:27",
+        "issued_iso": "2026-05-17T14:27:00.000Z",
+        "expires": "2026-05-17T16:45",
+        "expires_iso": "2026-05-17T14:45:00.000Z",
+        "location": "Vészto,Hungary",
+        "hail": "4,6cm",
+        "wind": "65kmh+",
+        "tornado_probability": "Low",
+        "rotation": "",
+        "md_number": "",
+        "text": "A severe thunderstorm warning was issued for Vészto Hungary,High winds are expected and large hail.Tornado Possibility is low but watch out!",
+        "hazards": {
+          "hail": "4,6cm",
+          "wind": "65kmh+",
+          "tornado_probability": "Low",
+          "rotation": ""
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-17T14:28:17.376Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.483765,
+              46.762443
+            ],
+            [
+              21.791382,
+              47.062638
+            ],
+            [
+              20.473022,
+              47.41322
+            ],
+            [
+              20.055542,
+              46.890232
+            ],
+            [
+              21.483765,
+              46.762443
             ]
           ]
         ]
