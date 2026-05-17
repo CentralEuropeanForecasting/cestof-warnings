@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-17T14:28:20.634Z",
+  "generated_at": "2026-05-17T16:12:28.191Z",
   "features": [
     {
       "type": "Feature",
@@ -2284,6 +2284,131 @@
             [
               21.483765,
               46.762443
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1779034219305",
+        "type": "Thunderstorm Watch",
+        "issued": "2026-05-17T18:10",
+        "issued_iso": "2026-05-17T16:10:00.000Z",
+        "expires": "2026-05-17T18:25",
+        "expires_iso": "2026-05-17T16:25:00.000Z",
+        "location": "Hungary and Romania",
+        "hail": "4cm",
+        "wind": "30-55kmh",
+        "tornado_probability": "Low",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm watch was issued for Hungary and Romania,severe thunderstorms should form,tornado chance is low",
+        "hazards": {
+          "hail": "4cm",
+          "wind": "30-55kmh",
+          "tornado_probability": "Low",
+          "rotation": ""
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-17T16:12:23.633Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.445557,
+              46.149394
+            ],
+            [
+              19.764404,
+              46.195042
+            ],
+            [
+              19.443054,
+              46.084662
+            ],
+            [
+              19.047546,
+              45.958788
+            ],
+            [
+              18.734436,
+              45.954969
+            ],
+            [
+              18.674011,
+              46.339343
+            ],
+            [
+              18.437805,
+              46.766206
+            ],
+            [
+              18.970642,
+              47.208374
+            ],
+            [
+              19.360657,
+              47.546872
+            ],
+            [
+              20.511475,
+              47.665387
+            ],
+            [
+              21.368408,
+              47.975214
+            ],
+            [
+              21.939697,
+              47.813155
+            ],
+            [
+              22.510986,
+              47.338823
+            ],
+            [
+              22.730713,
+              46.935261
+            ],
+            [
+              23.192139,
+              46.619261
+            ],
+            [
+              23.741455,
+              46.057985
+            ],
+            [
+              24.071045,
+              45.521744
+            ],
+            [
+              23.477783,
+              44.793531
+            ],
+            [
+              22.423096,
+              44.668653
+            ],
+            [
+              21.566162,
+              45.305803
+            ],
+            [
+              20.709229,
+              45.9053
+            ],
+            [
+              20.445557,
+              46.149394
             ]
           ]
         ]
