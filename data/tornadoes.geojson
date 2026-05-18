@@ -436,11 +436,12 @@
         "notes": "General Path of the Tornado",
         "photos": [
           {
-            "url": "https://raw.githubusercontent.com/CentralEuropeanForecasting/cestof-warnings/main/img/tornadoes/eersel/2026-05-13/1779140525021-0-Screenshot-2026-05-18-at-23.23.44.png",
-            "caption": "Photo of the tornado",
-            "description": "Photo of the tornado"
+            "url": "https://raw.githubusercontent.com/CentralEuropeanForecasting/cestof-warnings/main/img/tornadoes/eersel/2026-05-13/1779139897000-0-Screenshot-2026-05-18-at-23.23.44.png",
+            "caption": "Photo of the Tornado",
+            "description": "Photo of the Tornado"
           }
-        ]
+        ],
+        "type": "tornado_archive"
       },
       "id": "0F72F0EDEC3F7259B030"
     },
@@ -505,7 +506,15 @@
           "insetPixels"
         ],
         "icon": "https://earth.google.com/earth/document/icon?color=1976d2&id=2000&scale=4",
-        "kind": "tornado"
+        "kind": "tornado",
+        "type": "tornado_archive",
+        "tornado_id": "Untitled polygon",
+        "scale": "IF0.5",
+        "date": "2026-05-13",
+        "location": "",
+        "damage_type": "General damage",
+        "notes": "",
+        "photos": []
       },
       "id": "0712973E5B3F7264F936"
     },
