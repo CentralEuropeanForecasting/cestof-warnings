@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-18T15:38:58.619Z",
+  "generated_at": "2026-05-18T15:43:30.262Z",
   "features": [
     {
       "type": "Feature",
@@ -2531,107 +2531,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1779118696397",
-        "type": "Mesoscale Discussion",
-        "issued": "2026-05-18T17:34",
-        "issued_iso": "2026-05-18T15:34:00.000Z",
-        "expires": "2026-05-18T20:34",
-        "expires_iso": "2026-05-18T18:34:00.000Z",
-        "location": "",
-        "hail": "",
-        "wind": "",
-        "tornado_probability": "Elevated",
+        "id": "warning-poly-1779118839988",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-18T17:37",
+        "issued_iso": "2026-05-18T15:37:00.000Z",
+        "expires": "2026-05-18T18:37",
+        "expires_iso": "2026-05-18T16:37:00.000Z",
+        "location": "South of Stuttgart moving north east",
+        "hail": "0.7cm",
+        "wind": "70kmh",
+        "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "Severe thunderstorms in progress, Main threats are hail and tornado.",
+        "text": "Thunderstorm with medium lightning activity producing small hail",
         "hazards": {
-          "hail": "",
-          "wind": "",
-          "tornado_probability": "Elevated",
+          "hail": "0.7cm",
+          "wind": "70kmh",
+          "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "cape",
-        "forecaster_name": "CAPE",
-        "forecaster_role": "owner",
-        "issued_by": "CAPE",
+        "forecaster": "obamak",
+        "forecaster_name": "OBAMAK",
+        "forecaster_role": "nowcaster",
+        "issued_by": "OBAMAK",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-18T15:38:56.300Z"
+        "updated_at": "2026-05-18T15:43:22.040Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              26.883545,
-              53.585984
+              8.85498,
+              48.378145
             ],
             [
-              27.13623,
-              53.291489
+              9.294434,
+              48.151428
             ],
             [
-              27.971191,
-              53.14677
+              10.107422,
+              48.632909
             ],
             [
-              29.179688,
-              53.278353
+              9.283447,
+              48.864715
             ],
             [
-              29.794922,
-              53.657661
-            ],
-            [
-              30.366211,
-              54.303704
-            ],
-            [
-              30.432129,
-              54.889246
-            ],
-            [
-              30.432129,
-              55.366625
-            ],
-            [
-              30.146484,
-              55.936895
-            ],
-            [
-              29.575195,
-              56.304349
-            ],
-            [
-              28.916016,
-              56.450349
-            ],
-            [
-              27.949219,
-              56.498892
-            ],
-            [
-              26.784668,
-              56.328721
-            ],
-            [
-              26.477051,
-              56.182254
-            ],
-            [
-              26.125488,
-              55.590763
-            ],
-            [
-              25.949707,
-              54.775346
-            ],
-            [
-              26.05957,
-              54.02068
-            ],
-            [
-              26.883545,
-              53.585984
+              8.85498,
+              48.378145
             ]
           ]
         ]
