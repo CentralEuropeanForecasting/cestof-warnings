@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-18T12:27:49.825Z",
+  "generated_at": "2026-05-18T12:39:15.172Z",
   "features": [
     {
       "type": "Feature",
@@ -2466,6 +2466,63 @@
             [
               7.327881,
               48.04871
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1779107840438",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-18T14:34",
+        "issued_iso": "2026-05-18T12:34:00.000Z",
+        "expires": "2026-05-18T15:34",
+        "expires_iso": "2026-05-18T13:34:00.000Z",
+        "location": "North of Padeborn",
+        "hail": "0.2-0.5cm",
+        "wind": "70kmh",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunderstorm with high lightning activity and heavy rain possibly even small hail",
+        "hazards": {
+          "hail": "0.2-0.5cm",
+          "wind": "70kmh",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "obamak",
+        "forecaster_name": "OBAMAK",
+        "forecaster_role": "nowcaster",
+        "issued_by": "OBAMAK",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-18T12:39:08.460Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.55011,
+              51.784834
+            ],
+            [
+              8.813782,
+              51.76954
+            ],
+            [
+              9.022522,
+              52.067689
+            ],
+            [
+              8.508911,
+              52.077818
+            ],
+            [
+              8.55011,
+              51.784834
             ]
           ]
         ]
