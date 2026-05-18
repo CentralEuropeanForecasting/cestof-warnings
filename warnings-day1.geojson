@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-18T15:46:59.517Z",
+  "generated_at": "2026-05-18T15:49:49.872Z",
   "features": [
     {
       "type": "Feature",
@@ -2588,21 +2588,21 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1779119122333",
+        "id": "warning-poly-1779119314971",
         "type": "Thunderstorm Warning",
         "issued": "2026-05-18T17:37",
         "issued_iso": "2026-05-18T15:37:00.000Z",
         "expires": "2026-05-18T18:37",
         "expires_iso": "2026-05-18T16:37:00.000Z",
-        "location": "South west of wolfsburg moving north",
-        "hail": "0.6cm",
+        "location": "On top of Hamburg moving north",
+        "hail": "0.9cm",
         "wind": "70kmh",
         "tornado_probability": "",
         "rotation": "",
         "md_number": "",
         "text": "Thunderstorm with medium lightning activity producing small hail",
         "hazards": {
-          "hail": "0.6cm",
+          "hail": "0.9cm",
           "wind": "70kmh",
           "tornado_probability": "",
           "rotation": ""
@@ -2612,31 +2612,31 @@
         "forecaster_role": "nowcaster",
         "issued_by": "OBAMAK",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-18T15:46:51.384Z"
+        "updated_at": "2026-05-18T15:49:42.375Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              10.008545,
-              51.991646
+              9.602051,
+              53.46189
             ],
             [
-              10.513916,
-              52.005174
+              10.272217,
+              53.494582
             ],
             [
-              10.810547,
-              52.609719
+              10.305176,
+              53.969012
             ],
             [
-              9.920654,
-              52.583026
+              9.404297,
+              53.93022
             ],
             [
-              10.008545,
-              51.991646
+              9.602051,
+              53.46189
             ]
           ]
         ]
