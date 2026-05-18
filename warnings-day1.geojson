@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-18T15:43:30.262Z",
+  "generated_at": "2026-05-18T15:46:59.517Z",
   "features": [
     {
       "type": "Feature",
@@ -2580,6 +2580,63 @@
             [
               8.85498,
               48.378145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1779119122333",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-18T17:37",
+        "issued_iso": "2026-05-18T15:37:00.000Z",
+        "expires": "2026-05-18T18:37",
+        "expires_iso": "2026-05-18T16:37:00.000Z",
+        "location": "South west of wolfsburg moving north",
+        "hail": "0.6cm",
+        "wind": "70kmh",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunderstorm with medium lightning activity producing small hail",
+        "hazards": {
+          "hail": "0.6cm",
+          "wind": "70kmh",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "obamak",
+        "forecaster_name": "OBAMAK",
+        "forecaster_role": "nowcaster",
+        "issued_by": "OBAMAK",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-18T15:46:51.384Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.008545,
+              51.991646
+            ],
+            [
+              10.513916,
+              52.005174
+            ],
+            [
+              10.810547,
+              52.609719
+            ],
+            [
+              9.920654,
+              52.583026
+            ],
+            [
+              10.008545,
+              51.991646
             ]
           ]
         ]
