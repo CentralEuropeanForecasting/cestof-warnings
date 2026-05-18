@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-18T15:49:49.872Z",
+  "generated_at": "2026-05-18T15:55:42.160Z",
   "features": [
     {
       "type": "Feature",
@@ -2637,6 +2637,67 @@
             [
               9.602051,
               53.46189
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1779119697791",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-18T17:37",
+        "issued_iso": "2026-05-18T15:37:00.000Z",
+        "expires": "2026-05-18T18:37",
+        "expires_iso": "2026-05-18T16:37:00.000Z",
+        "location": "South west of Hamburg moving north",
+        "hail": "1.1cm",
+        "wind": "70kmh",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunderstorm with high lighting activity producing (possibly) small hail",
+        "hazards": {
+          "hail": "1.1cm",
+          "wind": "70kmh",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "obamak",
+        "forecaster_name": "OBAMAK",
+        "forecaster_role": "nowcaster",
+        "issued_by": "OBAMAK",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-18T15:54:57.791Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.294434,
+              53.061025
+            ],
+            [
+              9.898682,
+              53.067627
+            ],
+            [
+              10.107422,
+              53.722717
+            ],
+            [
+              9.063721,
+              53.703211
+            ],
+            [
+              9.327393,
+              53.13359
+            ],
+            [
+              9.294434,
+              53.061025
             ]
           ]
         ]
