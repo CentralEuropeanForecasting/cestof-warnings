@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-17T16:12:28.191Z",
+  "generated_at": "2026-05-18T12:27:49.825Z",
   "features": [
     {
       "type": "Feature",
@@ -2409,6 +2409,63 @@
             [
               20.445557,
               46.149394
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1779106901861",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-18T14:20",
+        "issued_iso": "2026-05-18T12:20:00.000Z",
+        "expires": "2026-05-18T15:20",
+        "expires_iso": "2026-05-18T13:20:00.000Z",
+        "location": "North west of Freiburg im breisgau",
+        "hail": "0.75cm",
+        "wind": "Possible 70kmh",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunderstorm with medium lightning activity producing hail over 0.5cm",
+        "hazards": {
+          "hail": "0.75cm",
+          "wind": "Possible 70kmh",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "obamak",
+        "forecaster_name": "OBAMAK",
+        "forecaster_role": "nowcaster",
+        "issued_by": "OBAMAK",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-18T12:27:30.562Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.327881,
+              48.04871
+            ],
+            [
+              7.668457,
+              47.886881
+            ],
+            [
+              8.360596,
+              48.224673
+            ],
+            [
+              7.77832,
+              48.502048
+            ],
+            [
+              7.327881,
+              48.04871
             ]
           ]
         ]
