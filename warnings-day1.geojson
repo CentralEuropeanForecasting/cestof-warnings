@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-19T14:06:18.723Z",
+  "generated_at": "2026-05-19T14:14:04.256Z",
   "features": [
     {
       "type": "Feature",
@@ -2812,6 +2812,63 @@
             [
               14.579648,
               48.640532
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1779199826748",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-19T15:59",
+        "issued_iso": "2026-05-19T13:59:00.000Z",
+        "expires": "2026-05-19T17:13",
+        "expires_iso": "2026-05-19T15:13:00.000Z",
+        "location": "north west of Jelenia Gora moving north east/east",
+        "hail": "0.5cm+",
+        "wind": "70kmh",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunderstorm with moderate lightning activity (34) moving north east/east at 16kmh",
+        "hazards": {
+          "hail": "0.5cm+",
+          "wind": "70kmh",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "obamak",
+        "forecaster_name": "OBAMAK",
+        "forecaster_role": "nowcaster",
+        "issued_by": "OBAMAK",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-19T14:13:52.377Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.5163,
+              50.994397
+            ],
+            [
+              15.563037,
+              50.908575
+            ],
+            [
+              15.980436,
+              50.965692
+            ],
+            [
+              15.829404,
+              51.095243
+            ],
+            [
+              15.5163,
+              50.994397
             ]
           ]
         ]
