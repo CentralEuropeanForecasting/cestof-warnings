@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-19T13:15:07.056Z",
+  "generated_at": "2026-05-19T14:03:54.617Z",
   "features": [
     {
       "type": "Feature",
@@ -2755,6 +2755,63 @@
             [
               15.420834,
               50.91481
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1779199282386",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-19T15:59",
+        "issued_iso": "2026-05-19T13:59:00.000Z",
+        "expires": "2026-05-19T17:20",
+        "expires_iso": "2026-05-19T15:20:00.000Z",
+        "location": "Near Nove Hrady moving north east",
+        "hail": "1cm",
+        "wind": "70kmh",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunderstorm with low lightning activity (14) moving north east at 14kmh",
+        "hazards": {
+          "hail": "1cm",
+          "wind": "70kmh",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "obamak",
+        "forecaster_name": "OBAMAK",
+        "forecaster_role": "nowcaster",
+        "issued_by": "OBAMAK",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-19T14:03:50.439Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.637315,
+              48.749308
+            ],
+            [
+              14.780109,
+              48.704013
+            ],
+            [
+              15.076682,
+              48.888559
+            ],
+            [
+              14.681251,
+              48.964351
+            ],
+            [
+              14.637315,
+              48.749308
             ]
           ]
         ]
