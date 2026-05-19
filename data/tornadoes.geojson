@@ -430,7 +430,7 @@
         ]
       },
       "properties": {
-        "name": "Untitled polygon",
+        "name": "Dvorce",
         "styleUrl": "#__managed_style_06030F529B3F772E4E06",
         "fill-opacity": 0,
         "fill": "#ffffff",
@@ -446,7 +446,20 @@
           "insetPixels"
         ],
         "icon": "https://earth.google.com/earth/document/icon?color=1976d2&id=2000&scale=4",
-        "kind": "tornado"
+        "kind": "tornado",
+        "tornado_id": "Dvorce",
+        "scale": "IF0.5",
+        "date": "2026-04-19",
+        "location": "",
+        "damage_type": "Trees / forest",
+        "notes": "The first damage by the tornado. Multiple trees damaged, some even slightly debarked",
+        "photos": [
+          {
+            "url": "https://raw.githubusercontent.com/CentralEuropeanForecasting/cestof-warnings/main/img/tornadoes/dvorce/2026-04-19/1779220492478-0-DJI_0099.JPG",
+            "caption": "",
+            "description": ""
+          }
+        ]
       },
       "id": "07A6888A483F10A38CAB"
     },
