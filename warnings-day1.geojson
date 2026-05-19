@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-19T14:03:54.617Z",
+  "generated_at": "2026-05-19T14:06:18.723Z",
   "features": [
     {
       "type": "Feature",
@@ -2763,19 +2763,19 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1779199282386",
+        "id": "warning-poly-1779199488896",
         "type": "Thunderstorm Warning",
         "issued": "2026-05-19T15:59",
         "issued_iso": "2026-05-19T13:59:00.000Z",
-        "expires": "2026-05-19T17:20",
-        "expires_iso": "2026-05-19T15:20:00.000Z",
-        "location": "Near Nove Hrady moving north east",
+        "expires": "2026-05-19T17:05",
+        "expires_iso": "2026-05-19T15:05:00.000Z",
+        "location": "east of Kaplice moving north east",
         "hail": "1cm",
         "wind": "70kmh",
         "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "Thunderstorm with low lightning activity (14) moving north east at 14kmh",
+        "text": "Thunderstorm with low lightning activity moving north east at 15kmh",
         "hazards": {
           "hail": "1cm",
           "wind": "70kmh",
@@ -2787,31 +2787,31 @@
         "forecaster_role": "nowcaster",
         "issued_by": "OBAMAK",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-19T14:03:50.439Z"
+        "updated_at": "2026-05-19T14:06:10.691Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              14.637315,
-              48.749308
+              14.579648,
+              48.640532
             ],
             [
-              14.780109,
-              48.704013
+              14.686743,
+              48.607853
             ],
             [
-              15.076682,
-              48.888559
+              14.8213,
+              48.734818
             ],
             [
-              14.681251,
-              48.964351
+              14.601616,
+              48.772845
             ],
             [
-              14.637315,
-              48.749308
+              14.579648,
+              48.640532
             ]
           ]
         ]
