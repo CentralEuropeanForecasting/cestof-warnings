@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-19T14:14:04.256Z",
+  "generated_at": "2026-05-20T09:58:31.975Z",
   "features": [
     {
       "type": "Feature",
@@ -2869,6 +2869,63 @@
             [
               15.5163,
               50.994397
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1779270972493",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-20T11:54",
+        "issued_iso": "2026-05-20T09:54:00.000Z",
+        "expires": "2026-05-20T12:54",
+        "expires_iso": "2026-05-20T10:54:00.000Z",
+        "location": "South west of Vyškov",
+        "hail": "3cm+-",
+        "wind": "80-70kmh",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunderstorm with low lightning activity (no ground contact only thunder) producing big hail",
+        "hazards": {
+          "hail": "3cm+-",
+          "wind": "80-70kmh",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "obamak",
+        "forecaster_name": "OBAMAK",
+        "forecaster_role": "nowcaster",
+        "issued_by": "OBAMAK",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-20T09:58:29.322Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.912354,
+              49.37522
+            ],
+            [
+              17.002441,
+              49.425267
+            ],
+            [
+              17.197449,
+              49.328702
+            ],
+            [
+              17.04364,
+              49.258843
+            ],
+            [
+              16.912354,
+              49.37522
             ]
           ]
         ]
