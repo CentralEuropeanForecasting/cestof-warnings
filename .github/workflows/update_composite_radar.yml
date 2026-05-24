@@ -3,14 +3,13 @@ name: Update CESTOF composite radar
 on:
   workflow_dispatch:
   schedule:
-    # GitHub Actions minimum practical interval is every 5 minutes.
     - cron: "*/5 * * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: update-composite-radar-main
+  group: update-composite-radar
   cancel-in-progress: false
 
 jobs:
@@ -18,14 +17,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Make sure repository is up to date
-        run: |
-          git pull --rebase origin main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -37,17 +32,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install h5py numpy rasterio pyproj matplotlib beautifulsoup4 requests xarray netCDF4
 
-      - name: Generate latest composite radar frame
-        env:
-          RUN_ONCE: "1"
+      - name: Run composite radar generator
         run: python cestof_composite_radar_generator.py
 
-      - name: Commit and push radar files
+      - name: Commit radar updates
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
 
-          git add radar/radar_index.json radar/radar_frames/*.png radar/radar_frames/*.bounds.json
+          git add radar/radar_index.json radar/radar_frames || true
 
           if git diff --cached --quiet; then
             echo "No radar changes to commit."
