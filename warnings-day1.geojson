@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-27T19:33:16.412Z",
+  "generated_at": "2026-05-27T19:56:06.396Z",
   "features": [
     {
       "type": "Feature",
@@ -3617,6 +3617,63 @@
             [
               -1.746826,
               48.571155
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1779911518006",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-27T21:52",
+        "issued_iso": "2026-05-27T19:52:00.000Z",
+        "expires": "2026-05-27T23:00",
+        "expires_iso": "2026-05-27T21:00:00.000Z",
+        "location": "Granville, France",
+        "hail": "6cm+",
+        "wind": "100km/h is possible",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "Im issuing a PDS severe thunderstorm warning. \nWith an ongoing tornado warning, and 6cm+ hail was observed, i believe this is what suits this storm well.\nPlease, if you are in the path of this extremely strong thunderstorm, please seek shelter, due to the ongoing big hail and a tornado warning!\nStrong wind gusts are also possible, maybe reaching even up to 100 km/h!\n- Hail 6cm+\n- Wind 100km/h+\n- dBZ 64+\n- Echo tops 16km+",
+        "hazards": {
+          "hail": "6cm+",
+          "wind": "100km/h is possible",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-27T19:56:00.871Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.779785,
+              48.748945
+            ],
+            [
+              -1.224976,
+              48.676454
+            ],
+            [
+              -0.873413,
+              49.332282
+            ],
+            [
+              -1.82373,
+              49.403825
+            ],
+            [
+              -1.779785,
+              48.748945
             ]
           ]
         ]
