@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-27T19:16:04.230Z",
+  "generated_at": "2026-05-27T19:33:16.412Z",
   "features": [
     {
       "type": "Feature",
@@ -3560,6 +3560,63 @@
             [
               -2.026978,
               48.392738
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1779910319090",
+        "type": "Tornado Warning",
+        "issued": "2026-05-27T21:30",
+        "issued_iso": "2026-05-27T19:30:00.000Z",
+        "expires": "2026-05-27T22:30",
+        "expires_iso": "2026-05-27T20:30:00.000Z",
+        "location": "Avranches, Champeaux, France",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "Within this very strong thunderstorm, there is radar indicated rotation. Meaning a tornado is possible. Please, seek shelter!",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-27T19:33:10.962Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.746826,
+              48.571155
+            ],
+            [
+              -1.367798,
+              48.523881
+            ],
+            [
+              -1.043701,
+              49.08466
+            ],
+            [
+              -1.71936,
+              49.15297
+            ],
+            [
+              -1.746826,
+              48.571155
             ]
           ]
         ]
