@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-27T12:11:11.586Z",
+  "generated_at": "2026-05-27T19:10:30.118Z",
   "features": [
     {
       "type": "Feature",
@@ -3503,6 +3503,63 @@
             [
               17.468262,
               50.275299
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1779908913951",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-27T21:08",
+        "issued_iso": "2026-05-27T19:08:00.000Z",
+        "expires": "2026-05-27T22:08",
+        "expires_iso": "2026-05-27T20:08:00.000Z",
+        "location": "Avranches, Champeaux, France",
+        "hail": "6cm+",
+        "wind": "90km/h+",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "A very strong thunderstorm is moving almost North, it has scans up to 66 dBZ, hail of 6cm or higher is possible, winds up to 90km/h or more are also possible, please seek shelter if you are in the path of this storm!",
+        "hazards": {
+          "hail": "6cm+",
+          "wind": "90km/h+",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-27T19:10:26.921Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.026978,
+              48.392738
+            ],
+            [
+              -1.203003,
+              48.312428
+            ],
+            [
+              -0.615234,
+              49.239121
+            ],
+            [
+              -2.04895,
+              49.353756
+            ],
+            [
+              -2.026978,
+              48.392738
             ]
           ]
         ]
