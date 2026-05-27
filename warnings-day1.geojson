@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-27T10:14:18.919Z",
+  "generated_at": "2026-05-27T10:23:28.902Z",
   "features": [
     {
       "type": "Feature",
@@ -3269,6 +3269,123 @@
             [
               16.468506,
               50.618103
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1779877392636",
+        "type": "Thunderstorm Watch",
+        "issued": "2026-05-27T12:23",
+        "issued_iso": "2026-05-27T10:23:00.000Z",
+        "expires": "2026-05-27T13:23",
+        "expires_iso": "2026-05-27T11:23:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunderstorms are forming and are present in the area",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-27T10:23:23.761Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.039063,
+              50.085344
+            ],
+            [
+              20.050049,
+              49.894634
+            ],
+            [
+              20.313721,
+              49.696062
+            ],
+            [
+              20.797119,
+              49.50381
+            ],
+            [
+              21.687012,
+              49.267805
+            ],
+            [
+              22.587891,
+              49.081062
+            ],
+            [
+              23.378906,
+              48.987427
+            ],
+            [
+              23.829346,
+              49.073866
+            ],
+            [
+              24.038086,
+              49.267805
+            ],
+            [
+              24.32373,
+              49.460984
+            ],
+            [
+              24.279785,
+              49.632062
+            ],
+            [
+              24.180908,
+              49.802541
+            ],
+            [
+              23.983154,
+              49.993615
+            ],
+            [
+              23.543701,
+              50.212064
+            ],
+            [
+              22.807617,
+              50.310392
+            ],
+            [
+              22.137451,
+              50.338449
+            ],
+            [
+              21.522217,
+              50.338449
+            ],
+            [
+              20.961914,
+              50.338449
+            ],
+            [
+              20.533447,
+              50.282319
+            ],
+            [
+              20.039063,
+              50.085344
             ]
           ]
         ]
