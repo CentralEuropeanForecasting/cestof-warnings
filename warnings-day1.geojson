@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-29T16:01:19.535Z",
+  "generated_at": "2026-05-29T16:11:33.567Z",
   "features": [
     {
       "type": "Feature",
@@ -3731,6 +3731,79 @@
             [
               7.069702,
               52.261434
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780070815742",
+        "type": "Tornado Watch",
+        "issued": "2026-05-29T18:10",
+        "issued_iso": "2026-05-29T16:10:00.000Z",
+        "expires": "2026-05-29T20:00",
+        "expires_iso": "2026-05-29T18:00:00.000Z",
+        "location": "North Rhine-Westphalia",
+        "hail": "4-5cm+",
+        "wind": "<100km/h",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "A lot of strong thunderstorms are moving east into this region, a tornado watch is in effect due to these storms having embedded rotations, a tornado is possible!\nMAX:\nTornado: 10%\nHail: 4-5cm\nWinds: 100km/h",
+        "hazards": {
+          "hail": "4-5cm+",
+          "wind": "<100km/h",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-29T16:11:32.015Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.982056,
+              51.801822
+            ],
+            [
+              6.531372,
+              52.429222
+            ],
+            [
+              7.536621,
+              52.961875
+            ],
+            [
+              8.580322,
+              52.62306
+            ],
+            [
+              8.591309,
+              52.227799
+            ],
+            [
+              8.289185,
+              51.862924
+            ],
+            [
+              7.404785,
+              51.488224
+            ],
+            [
+              6.49292,
+              51.570241
+            ],
+            [
+              5.982056,
+              51.801822
             ]
           ]
         ]
