@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-29T16:12:31.137Z",
+  "generated_at": "2026-05-29T16:15:44.975Z",
   "features": [
     {
       "type": "Feature",
@@ -3804,6 +3804,63 @@
             [
               5.982056,
               51.801822
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780071233415",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-29T18:10",
+        "issued_iso": "2026-05-29T16:10:00.000Z",
+        "expires": "2026-05-29T19:15",
+        "expires_iso": "2026-05-29T17:15:00.000Z",
+        "location": "North Rhine-Westphalia",
+        "hail": "3-4cm",
+        "wind": "<80km/h",
+        "tornado_probability": "Low",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "A couple of strong thunderstorms are producing strong hail and extremely strong activity of lightning strikes, high winds are possible! Movement: East",
+        "hazards": {
+          "hail": "3-4cm",
+          "wind": "<80km/h",
+          "tornado_probability": "Low",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-29T16:15:37.716Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.240234,
+              51.944265
+            ],
+            [
+              6.828003,
+              52.27488
+            ],
+            [
+              7.613525,
+              52.315195
+            ],
+            [
+              7.492676,
+              51.68618
+            ],
+            [
+              6.240234,
+              51.944265
             ]
           ]
         ]
