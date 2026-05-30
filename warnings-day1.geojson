@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-30T17:01:23.074Z",
+  "generated_at": "2026-05-30T17:04:01.194Z",
   "features": [
     {
       "type": "Feature",
@@ -4684,10 +4684,10 @@
       "properties": {
         "id": "warning-poly-1780160336674",
         "type": "Mesoscale Discussion",
-        "issued": "2026-05-30T17:41",
-        "issued_iso": "2026-05-30T15:41:00.000Z",
-        "expires": "2026-05-30T18:30",
-        "expires_iso": "2026-05-30T16:30:00.000Z",
+        "issued": "2026-05-30T19:00",
+        "issued_iso": "2026-05-30T17:00:00.000Z",
+        "expires": "2026-05-30T21:30",
+        "expires_iso": "2026-05-30T19:30:00.000Z",
         "location": "",
         "hail": "",
         "wind": "",
@@ -4706,7 +4706,7 @@
         "forecaster_role": "owner",
         "issued_by": "CAPE",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-05-30T17:01:08.730Z"
+        "updated_at": "2026-05-30T17:03:57.627Z"
       },
       "geometry": {
         "type": "Polygon",
