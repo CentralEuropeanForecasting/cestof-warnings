@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-30T11:20:07.549Z",
+  "generated_at": "2026-05-30T11:36:01.402Z",
   "features": [
     {
       "type": "Feature",
@@ -4284,6 +4284,67 @@
             [
               13.691042,
               49.773265
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780140942938",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-30T13:34",
+        "issued_iso": "2026-05-30T11:34:00.000Z",
+        "expires": "2026-05-30T14:34",
+        "expires_iso": "2026-05-30T12:34:00.000Z",
+        "location": "",
+        "hail": "3-4.5cm",
+        "wind": "55kph",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "Very quickly developing thunderstorm might become a supercell in the next 30 minutes",
+        "hazards": {
+          "hail": "3-4.5cm",
+          "wind": "55kph",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-30T11:35:59.123Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.30689,
+              50.112437
+            ],
+            [
+              10.526089,
+              50.302001
+            ],
+            [
+              11.570509,
+              50.145459
+            ],
+            [
+              11.70912,
+              49.905535
+            ],
+            [
+              11.35131,
+              49.670663
+            ],
+            [
+              10.30689,
+              50.112437
             ]
           ]
         ]
