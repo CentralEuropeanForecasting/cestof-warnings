@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-29T16:16:58.042Z",
+  "generated_at": "2026-05-30T08:30:26.420Z",
   "features": [
     {
       "type": "Feature",
@@ -3861,6 +3861,67 @@
             [
               6.240234,
               51.944265
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780129799140",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-30T10:06",
+        "issued_iso": "2026-05-30T08:06:00.000Z",
+        "expires": "2026-05-30T11:29",
+        "expires_iso": "2026-05-30T09:29:00.000Z",
+        "location": "Going near Domažlice",
+        "hail": "1.5cm",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "1.5cm",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-30T08:30:23.061Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.46659,
+              49.695216
+            ],
+            [
+              12.605201,
+              49.905093
+            ],
+            [
+              13.129222,
+              49.742362
+            ],
+            [
+              13.321744,
+              49.640646
+            ],
+            [
+              13.032943,
+              49.425869
+            ],
+            [
+              12.46659,
+              49.695216
             ]
           ]
         ]
