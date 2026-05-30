@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-30T18:50:15.609Z",
+  "generated_at": "2026-05-30T19:09:26.769Z",
   "features": [
     {
       "type": "Feature",
@@ -4856,6 +4856,87 @@
             [
               2.93335,
               50.53438
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780167942900",
+        "type": "Tornado Watch",
+        "issued": "2026-05-30T21:06",
+        "issued_iso": "2026-05-30T19:06:00.000Z",
+        "expires": "2026-05-30T22:16",
+        "expires_iso": "2026-05-30T20:16:00.000Z",
+        "location": "southwest belgium",
+        "hail": "",
+        "wind": "35-55kmh",
+        "tornado_probability": "Low",
+        "rotation": "",
+        "md_number": "",
+        "text": "a tornado threat is on the way in belgium, watch out for nocturnal tornado!",
+        "hazards": {
+          "hail": "",
+          "wind": "35-55kmh",
+          "tornado_probability": "Low",
+          "rotation": ""
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-30T19:09:22.460Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.026733,
+              50.429518
+            ],
+            [
+              2.993774,
+              50.569283
+            ],
+            [
+              3.224487,
+              50.694718
+            ],
+            [
+              3.532104,
+              50.882243
+            ],
+            [
+              3.949585,
+              51.013755
+            ],
+            [
+              4.65271,
+              51.124213
+            ],
+            [
+              4.53186,
+              50.854509
+            ],
+            [
+              4.246216,
+              50.590212
+            ],
+            [
+              3.729858,
+              50.373496
+            ],
+            [
+              3.224487,
+              50.275299
+            ],
+            [
+              3.026733,
+              50.429518
             ]
           ]
         ]
