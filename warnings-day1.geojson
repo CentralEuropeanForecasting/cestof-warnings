@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-30T19:25:26.711Z",
+  "generated_at": "2026-05-30T19:29:41.283Z",
   "features": [
     {
       "type": "Feature",
@@ -4994,6 +4994,234 @@
             [
               3.479004,
               50.666872
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780168492318",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-30T21:11",
+        "issued_iso": "2026-05-30T19:11:00.000Z",
+        "expires": "2026-05-30T22:11",
+        "expires_iso": "2026-05-30T20:11:00.000Z",
+        "location": "Flanders, brabant",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this severe thunderstorm is moving northeast into the netherlands, producing lightning and hail,",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-30T19:17:41.591Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.438477,
+              51.144894
+            ],
+            [
+              4.658203,
+              50.993014
+            ],
+            [
+              6.119385,
+              51.055207
+            ],
+            [
+              5.350342,
+              51.849353
+            ],
+            [
+              4.438477,
+              51.144894
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780168676044",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-30T21:11",
+        "issued_iso": "2026-05-30T19:11:00.000Z",
+        "expires": "2026-05-30T22:11",
+        "expires_iso": "2026-05-30T20:11:00.000Z",
+        "location": "wallonia,brussels",
+        "hail": "3-5cm",
+        "wind": "80km/h",
+        "tornado_probability": "Elevated",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "this severe thunderstorm is moving northeast into Belgium, producing lightning and very large hail. a hook echo is visible on radar, which indicates strong rotation within the storm.",
+        "hazards": {
+          "hail": "3-5cm",
+          "wind": "80km/h",
+          "tornado_probability": "Elevated",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-30T19:21:20.673Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.35083,
+              50.750359
+            ],
+            [
+              4.441223,
+              51.194836
+            ],
+            [
+              4.812012,
+              50.478483
+            ],
+            [
+              3.449707,
+              50.429518
+            ],
+            [
+              3.35083,
+              50.750359
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780168913592",
+        "type": "Large Hail Warning",
+        "issued": "2026-05-30T21:11",
+        "issued_iso": "2026-05-30T19:11:00.000Z",
+        "expires": "2026-05-30T22:11",
+        "expires_iso": "2026-05-30T20:11:00.000Z",
+        "location": "wallonia,brussels",
+        "hail": "3-5cm",
+        "wind": "",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "3-5cm",
+          "wind": "",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-30T19:22:18.920Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.493652,
+              50.64946
+            ],
+            [
+              3.521118,
+              50.523905
+            ],
+            [
+              4.806519,
+              50.509933
+            ],
+            [
+              4.581299,
+              51.086273
+            ],
+            [
+              3.493652,
+              50.64946
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780169135755",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-30T21:11",
+        "issued_iso": "2026-05-30T19:11:00.000Z",
+        "expires": "2026-05-30T22:11",
+        "expires_iso": "2026-05-30T20:11:00.000Z",
+        "location": "wallonia, limburg",
+        "hail": "3-4cm",
+        "wind": "60km/h",
+        "tornado_probability": "Low",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast, producing hail and lightning. a tornado is possible, but the chances are low.",
+        "hazards": {
+          "hail": "3-4cm",
+          "wind": "60km/h",
+          "tornado_probability": "Low",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-30T19:29:36.019Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.460449,
+              50.53438
+            ],
+            [
+              4.515381,
+              50.310392
+            ],
+            [
+              6.075439,
+              50.261254
+            ],
+            [
+              5.625,
+              50.979182
+            ],
+            [
+              4.460449,
+              50.53438
             ]
           ]
         ]
