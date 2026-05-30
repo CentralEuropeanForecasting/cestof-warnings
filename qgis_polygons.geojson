@@ -6970,7 +6970,7 @@
         "hatched": false,
         "doubleHatch": false,
         "probability": "45",
-        "intensity": "1",
+        "intensity": "2",
         "riskLabel": "General Risk"
       },
       "geometry": {
@@ -16717,13 +16717,14 @@
         "date": "1",
         "kind": "outlook",
         "hazard": "general",
-        "title": "",
+        "title": "Double hatched area",
         "description": "",
         "hatched": false,
-        "doubleHatch": false,
-        "probability": "45",
-        "intensity": "5",
-        "riskLabel": "Moderate Risk"
+        "doubleHatch": true,
+        "probability": "",
+        "intensity": "",
+        "riskLabel": "",
+        "hatchOnly": true
       },
       "geometry": {
         "type": "MultiPolygon",
