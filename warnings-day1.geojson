@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-30T17:04:01.194Z",
+  "generated_at": "2026-05-30T18:50:15.609Z",
   "features": [
     {
       "type": "Feature",
@@ -4799,6 +4799,63 @@
             [
               6.525879,
               51.041394
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780166939594",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-30T20:49",
+        "issued_iso": "2026-05-30T18:49:00.000Z",
+        "expires": "2026-05-30T21:30",
+        "expires_iso": "2026-05-30T19:30:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "Elevated",
+        "rotation": "Strong rotation",
+        "md_number": "",
+        "text": "The thunderstorm is in an environment, very suitable for severe weather",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "Elevated",
+          "rotation": "Strong rotation"
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-30T18:50:13.134Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.93335,
+              50.53438
+            ],
+            [
+              4.119873,
+              50.120578
+            ],
+            [
+              4.174805,
+              50.903033
+            ],
+            [
+              3.383789,
+              50.958427
+            ],
+            [
+              2.93335,
+              50.53438
             ]
           ]
         ]
