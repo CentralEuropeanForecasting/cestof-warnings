@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-30T14:08:11.155Z",
+  "generated_at": "2026-05-30T15:43:36.335Z",
   "features": [
     {
       "type": "Feature",
@@ -4463,6 +4463,103 @@
             [
               11.781006,
               49.267805
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780155705472",
+        "type": "Tornado Watch",
+        "issued": "2026-05-30T17:41",
+        "issued_iso": "2026-05-30T15:41:00.000Z",
+        "expires": "2026-05-30T18:30",
+        "expires_iso": "2026-05-30T16:30:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "Elevated",
+        "rotation": "Strong rotation",
+        "md_number": "",
+        "text": "An active supercell, with hook echo in the region",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "Elevated",
+          "rotation": "Strong rotation"
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-30T15:42:39.513Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.88916,
+              50.590212
+            ],
+            [
+              4.108887,
+              50.324423
+            ],
+            [
+              4.449463,
+              50.148746
+            ],
+            [
+              4.987793,
+              50.035974
+            ],
+            [
+              5.438232,
+              50.099441
+            ],
+            [
+              5.592041,
+              50.268277
+            ],
+            [
+              5.635986,
+              50.422519
+            ],
+            [
+              5.657959,
+              50.652943
+            ],
+            [
+              5.570068,
+              50.819818
+            ],
+            [
+              5.339355,
+              50.972265
+            ],
+            [
+              5.031738,
+              51.006842
+            ],
+            [
+              4.658203,
+              50.979182
+            ],
+            [
+              4.251709,
+              50.868378
+            ],
+            [
+              3.922119,
+              50.729502
+            ],
+            [
+              3.88916,
+              50.590212
             ]
           ]
         ]
