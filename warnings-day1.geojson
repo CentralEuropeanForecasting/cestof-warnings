@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-30T19:33:26.431Z",
+  "generated_at": "2026-05-30T19:52:36.878Z",
   "features": [
     {
       "type": "Feature",
@@ -5222,6 +5222,95 @@
             [
               4.460449,
               50.53438
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780170600947",
+        "type": "Mesoscale Discussion",
+        "issued": "2026-05-30T21:52",
+        "issued_iso": "2026-05-30T19:52:00.000Z",
+        "expires": "2026-05-31T01:00",
+        "expires_iso": "2026-05-30T23:00:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "Possible",
+        "rotation": "",
+        "md_number": "*3005261",
+        "text": "Severe thunderstorms, multiple with a rotation are present are expected to continue until early hours of 31/5/26. \nThe entire area is under a Tornado watch.\nMain risks are large hail, tornado, heavy rain.",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "Possible",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-30T19:52:31.643Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.14502,
+              51.036789
+            ],
+            [
+              4.672852,
+              51.069017
+            ],
+            [
+              3.186035,
+              50.91227
+            ],
+            [
+              2.270508,
+              50.265936
+            ],
+            [
+              1.691895,
+              49.472884
+            ],
+            [
+              2.62207,
+              48.951366
+            ],
+            [
+              3.94043,
+              48.893615
+            ],
+            [
+              5.324707,
+              49.109838
+            ],
+            [
+              6.679688,
+              49.410973
+            ],
+            [
+              7.280273,
+              49.988907
+            ],
+            [
+              7.463379,
+              50.643655
+            ],
+            [
+              6.928711,
+              51.02297
+            ],
+            [
+              6.14502,
+              51.036789
             ]
           ]
         ]
