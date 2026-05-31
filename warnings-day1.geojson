@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-31T20:10:35.542Z",
+  "generated_at": "2026-05-31T20:22:52.126Z",
   "features": [
     {
       "type": "Feature",
@@ -3351,6 +3351,67 @@
             [
               14.188843,
               49.759978
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780258944312",
+        "type": "Heavy Rain Warning",
+        "issued": "2026-05-31T22:15",
+        "issued_iso": "2026-05-31T20:15:00.000Z",
+        "expires": "2026-05-31T23:15",
+        "expires_iso": "2026-05-31T21:15:00.000Z",
+        "location": "Pilsen - bohemian - central region",
+        "hail": "0-2",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "storms mooving across pilsen were spoted with heavy rain fall and few lightnings , flood are expected , hail size is between 0-20mm",
+        "hazards": {
+          "hail": "0-2",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "charles",
+        "forecaster_name": "Charles",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Charles",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-31T20:22:27.071Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.430786,
+              50.120578
+            ],
+            [
+              12.409058,
+              49.823809
+            ],
+            [
+              13.408813,
+              48.922499
+            ],
+            [
+              14.342651,
+              48.763431
+            ],
+            [
+              14.595337,
+              49.759978
+            ],
+            [
+              13.430786,
+              50.120578
             ]
           ]
         ]
