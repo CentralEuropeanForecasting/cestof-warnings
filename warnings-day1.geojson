@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-31T14:30:37.909Z",
+  "generated_at": "2026-05-31T14:36:40.921Z",
   "features": [
     {
       "type": "Feature",
@@ -2149,6 +2149,67 @@
             [
               9.367676,
               51.369494
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780238177626",
+        "type": "Mesoscale Discussion",
+        "issued": "2026-05-31T16:23",
+        "issued_iso": "2026-05-31T14:23:00.000Z",
+        "expires": "2026-05-31T17:23",
+        "expires_iso": "2026-05-31T15:23:00.000Z",
+        "location": "Kassel-Gottingen",
+        "hail": "1-3.2",
+        "wind": "",
+        "tornado_probability": "Elevated",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "multiple cells have been discovered with rotation inside them\nwindspeeds in these rotaion are between 8-11m/s\nwindspeed between these locations are  23-4km/h\nflash floods are possible",
+        "hazards": {
+          "hail": "1-3.2",
+          "wind": "",
+          "tornado_probability": "Elevated",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "charles",
+        "forecaster_name": "Charles",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Charles",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-31T14:36:26.196Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.838501,
+              52.389011
+            ],
+            [
+              7.816772,
+              51.638476
+            ],
+            [
+              9.069214,
+              50.764259
+            ],
+            [
+              10.772095,
+              51.034486
+            ],
+            [
+              10.903931,
+              52.079506
+            ],
+            [
+              8.838501,
+              52.389011
             ]
           ]
         ]
