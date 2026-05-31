@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-31T11:25:31.166Z",
+  "generated_at": "2026-05-31T11:45:33.298Z",
   "features": [
     {
       "type": "Feature",
@@ -132,6 +132,360 @@
             [
               8.360596,
               52.200874
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1779910319090",
+        "type": "Tornado Warning",
+        "issued": "2026-05-27T21:30",
+        "issued_iso": "2026-05-27T19:30:00.000Z",
+        "expires": "2026-05-27T22:30",
+        "expires_iso": "2026-05-27T20:30:00.000Z",
+        "location": "Avranches, Champeaux, France",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "Within this very strong thunderstorm, there is radar indicated rotation. Meaning a tornado is possible. Please, seek shelter!",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-27T19:33:10.962Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.708374,
+              48.552978
+            ],
+            [
+              -1.389771,
+              48.523881
+            ],
+            [
+              -1.159058,
+              49.088258
+            ],
+            [
+              -1.686401,
+              49.102645
+            ],
+            [
+              -1.708374,
+              48.552978
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1779911518006",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-27T21:52",
+        "issued_iso": "2026-05-27T19:52:00.000Z",
+        "expires": "2026-05-27T23:00",
+        "expires_iso": "2026-05-27T21:00:00.000Z",
+        "location": "Granville, France",
+        "hail": "6cm+",
+        "wind": "100km/h is possible",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "Im issuing a PDS severe thunderstorm warning. \nWith an ongoing tornado warning, and 6cm+ hail was observed, i believe this is what suits this storm well.\nPlease, if you are in the path of this extremely strong thunderstorm, please seek shelter, due to the ongoing big hail and a tornado warning!\nStrong wind gusts are also possible, maybe reaching even up to 100 km/h!\n- Hail 6cm+\n- Wind 100km/h+\n- dBZ 64+\n- Echo tops 16km+",
+        "hazards": {
+          "hail": "6cm+",
+          "wind": "100km/h is possible",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-27T19:56:00.871Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.779785,
+              48.748945
+            ],
+            [
+              -1.224976,
+              48.676454
+            ],
+            [
+              -0.873413,
+              49.332282
+            ],
+            [
+              -1.82373,
+              49.403825
+            ],
+            [
+              -1.779785,
+              48.748945
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780070285882",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-29T17:57",
+        "issued_iso": "2026-05-29T15:57:00.000Z",
+        "expires": "2026-05-29T19:20",
+        "expires_iso": "2026-05-29T17:20:00.000Z",
+        "location": "West of Osnabruck",
+        "hail": "4cm+",
+        "wind": "<80km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A couple of damagingly severe thunderstorms are moving east towards osnabruck, Germany, they can bring hail up to 4cm or more, wind gusts of 80km/h are expected, please take cover if these storms are coming for you!",
+        "hazards": {
+          "hail": "4cm+",
+          "wind": "<80km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-29T16:01:13.849Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.069702,
+              52.261434
+            ],
+            [
+              7.069702,
+              52.562995
+            ],
+            [
+              8.33313,
+              52.716331
+            ],
+            [
+              8.157349,
+              52.066
+            ],
+            [
+              7.069702,
+              52.261434
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780070815742",
+        "type": "Tornado Watch",
+        "issued": "2026-05-29T18:10",
+        "issued_iso": "2026-05-29T16:10:00.000Z",
+        "expires": "2026-05-29T20:00",
+        "expires_iso": "2026-05-29T18:00:00.000Z",
+        "location": "North Rhine-Westphalia",
+        "hail": "4-5cm+",
+        "wind": "<100km/h",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "A lot of strong thunderstorms are moving east into this region, a tornado watch is in effect due to these storms having embedded rotations, a tornado is possible!\nMAX:\nTornado: 10%\nHail: 4-5cm\nWinds: 100km/h",
+        "hazards": {
+          "hail": "4-5cm+",
+          "wind": "<100km/h",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-29T16:11:32.015Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.982056,
+              51.801822
+            ],
+            [
+              6.531372,
+              52.429222
+            ],
+            [
+              7.46521,
+              52.882391
+            ],
+            [
+              8.377075,
+              52.663058
+            ],
+            [
+              8.289185,
+              51.862924
+            ],
+            [
+              7.388306,
+              51.385495
+            ],
+            [
+              6.311646,
+              51.481383
+            ],
+            [
+              5.982056,
+              51.801822
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780071233415",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-29T18:10",
+        "issued_iso": "2026-05-29T16:10:00.000Z",
+        "expires": "2026-05-29T19:15",
+        "expires_iso": "2026-05-29T17:15:00.000Z",
+        "location": "North Rhine-Westphalia",
+        "hail": "3-4cm",
+        "wind": "<80km/h",
+        "tornado_probability": "Low",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "A couple of strong thunderstorms are producing strong hail and extremely strong activity of lightning strikes, high winds are possible! Movement: East",
+        "hazards": {
+          "hail": "3-4cm",
+          "wind": "<80km/h",
+          "tornado_probability": "Low",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-29T16:16:57.165Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.240234,
+              51.944265
+            ],
+            [
+              6.828003,
+              52.27488
+            ],
+            [
+              7.613525,
+              52.315195
+            ],
+            [
+              7.492676,
+              51.68618
+            ],
+            [
+              6.240234,
+              51.944265
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780227732437",
+        "type": "Tornado Warning",
+        "issued": "2026-05-31T13:44",
+        "issued_iso": "2026-05-31T11:44:00.000Z",
+        "expires": "2026-05-31T14:45",
+        "expires_iso": "2026-05-31T12:45:00.000Z",
+        "location": "near Bielefield, Germany",
+        "hail": "3-4cm+",
+        "wind": "<90km/h",
+        "tornado_probability": "Elevated",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "A very severe thunderstorm with a fairly strong rotation is close to Bielefield, Germany. On radar a strong rotation is visible.",
+        "hazards": {
+          "hail": "3-4cm+",
+          "wind": "<90km/h",
+          "tornado_probability": "Elevated",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-31T11:45:31.446Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.382568,
+              51.886664
+            ],
+            [
+              8.635254,
+              52.072754
+            ],
+            [
+              9.42627,
+              51.961192
+            ],
+            [
+              9.074707,
+              51.590723
+            ],
+            [
+              8.382568,
+              51.886664
             ]
           ]
         ]
