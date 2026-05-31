@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-31T17:52:37.672Z",
+  "generated_at": "2026-05-31T20:10:35.542Z",
   "features": [
     {
       "type": "Feature",
@@ -3294,6 +3294,63 @@
             [
               11.359863,
               49.368066
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780258217416",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-31T22:03",
+        "issued_iso": "2026-05-31T20:03:00.000Z",
+        "expires": "2026-06-01T01:30",
+        "expires_iso": "2026-05-31T23:30:00.000Z",
+        "location": "central cz",
+        "hail": "0.5-3cm",
+        "wind": "",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "severe thunder storm were spoted near Sedlčany going trough :Sedlčany , Votice , Bystřice , Pelhřimov\ninside the storm was located hail , aproximate size is around 30-35mm,heavy rain fall expected with flash floods , heavy lightning around affected area .",
+        "hazards": {
+          "hail": "0.5-3cm",
+          "wind": "",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "charles",
+        "forecaster_name": "Charles",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Charles",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-31T20:10:24.270Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.188843,
+              49.759978
+            ],
+            [
+              14.760132,
+              49.986552
+            ],
+            [
+              16.397095,
+              49.59647
+            ],
+            [
+              14.716187,
+              48.712713
+            ],
+            [
+              14.188843,
+              49.759978
             ]
           ]
         ]
