@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-31T13:47:48.817Z",
+  "generated_at": "2026-05-31T13:56:46.065Z",
   "features": [
     {
       "type": "Feature",
@@ -669,6 +669,63 @@
             [
               8.926392,
               51.563412
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780235733645",
+        "type": "Tornado Watch",
+        "issued": "2026-05-31T15:55",
+        "issued_iso": "2026-05-31T13:55:00.000Z",
+        "expires": "2026-05-31T16:35",
+        "expires_iso": "2026-05-31T14:35:00.000Z",
+        "location": "Hann. Munden - Witzenhausen",
+        "hail": "0.2-1",
+        "wind": "48",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "Unstable mesocyclone with bottom speeds exceeding 9.0m/s\nexpecting heavy rain fall with small 5-20mm hail\nwind gust should moove around 40-60kph",
+        "hazards": {
+          "hail": "0.2-1",
+          "wind": "48",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "charles",
+        "forecaster_name": "Charles",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Charles",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-31T13:56:14.615Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.662476,
+              51.481383
+            ],
+            [
+              9.442749,
+              51.419764
+            ],
+            [
+              9.574585,
+              50.965346
+            ],
+            [
+              10.387573,
+              51.248163
+            ],
+            [
+              9.662476,
+              51.481383
             ]
           ]
         ]
