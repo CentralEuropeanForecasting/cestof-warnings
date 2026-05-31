@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-31T11:51:56.352Z",
+  "generated_at": "2026-05-31T12:59:34.664Z",
   "features": [
     {
       "type": "Feature",
@@ -543,6 +543,75 @@
             [
               8.33725,
               51.863772
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780232214642",
+        "type": "Tornado Watch",
+        "issued": "2026-05-31T14:57",
+        "issued_iso": "2026-05-31T12:57:00.000Z",
+        "expires": "2026-05-31T16:05",
+        "expires_iso": "2026-05-31T14:05:00.000Z",
+        "location": "Borgentreich, Germany",
+        "hail": "<3-4cm",
+        "wind": "<80km/h",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "A severe thunderstorm with a fairly strong rotation is close to Borgentreich, it is moving ESE-SE, Strong hail up to 3-4cm is possible, lightning activity is very strong!\nTornado Chance: 10%\nHail: 3-4cm\nWinds: up to 80km/h or slightly more\nlightning activity: strong",
+        "hazards": {
+          "hail": "<3-4cm",
+          "wind": "<80km/h",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-31T12:59:29.194Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.893433,
+              51.624837
+            ],
+            [
+              9.069214,
+              51.849353
+            ],
+            [
+              9.475708,
+              51.937492
+            ],
+            [
+              9.898682,
+              51.903613
+            ],
+            [
+              10.294189,
+              51.522416
+            ],
+            [
+              9.876709,
+              51.144894
+            ],
+            [
+              9.085693,
+              51.241286
+            ],
+            [
+              8.893433,
+              51.624837
             ]
           ]
         ]
