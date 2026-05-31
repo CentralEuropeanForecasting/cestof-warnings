@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-31T09:42:14.741Z",
+  "generated_at": "2026-05-31T10:20:43.525Z",
   "features": [
     {
       "type": "Feature",
@@ -5616,6 +5616,99 @@
             [
               9.019716,
               48.694081
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780222831867",
+        "type": "Tornado Warning",
+        "issued": "2026-05-31T12:19",
+        "issued_iso": "2026-05-31T10:19:00.000Z",
+        "expires": "2027-05-31T16:25",
+        "expires_iso": "2027-05-31T14:25:00.000Z",
+        "location": "El Reno",
+        "hail": "El reno size hailed",
+        "wind": "El reno winds",
+        "tornado_probability": "Possible",
+        "rotation": "Observed rotating wall cloud",
+        "md_number": "Alot",
+        "text": "Twistex intercept el reno ef9 9000mph twistex lofted omg rip el reno ef9",
+        "hazards": {
+          "hail": "El reno size hailed",
+          "wind": "El reno winds",
+          "tornado_probability": "Possible",
+          "rotation": "Observed rotating wall cloud"
+        },
+        "forecaster": "elidoesbnuuy",
+        "forecaster_name": "EliDoesBnuuy",
+        "forecaster_role": "nowcaster",
+        "issued_by": "EliDoesBnuuy",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-31T10:20:39.910Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9.279842,
+              38.369476
+            ],
+            [
+              -5.309315,
+              54.494587
+            ],
+            [
+              7.019405,
+              55.625589
+            ],
+            [
+              15.926056,
+              59.719556
+            ],
+            [
+              23.372726,
+              55.445634
+            ],
+            [
+              30.603104,
+              50.727075
+            ],
+            [
+              24.168377,
+              46.342148
+            ],
+            [
+              16.188698,
+              41.446544
+            ],
+            [
+              15.501194,
+              41.295822
+            ],
+            [
+              5.778294,
+              38.641166
+            ],
+            [
+              -3.769512,
+              38.836989
+            ],
+            [
+              -0.617809,
+              45.017871
+            ],
+            [
+              -5.015087,
+              42.045936
+            ],
+            [
+              -9.279842,
+              38.369476
             ]
           ]
         ]
