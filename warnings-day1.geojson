@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-05-31T12:59:34.664Z",
+  "generated_at": "2026-05-31T13:03:35.716Z",
   "features": [
     {
       "type": "Feature",
@@ -612,6 +612,63 @@
             [
               8.893433,
               51.624837
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780232546002",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-05-31T14:57",
+        "issued_iso": "2026-05-31T12:57:00.000Z",
+        "expires": "2026-05-31T16:05",
+        "expires_iso": "2026-05-31T14:05:00.000Z",
+        "location": "Borgentreich, Germany",
+        "hail": "<3-4cm",
+        "wind": "<80km/h",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "A couple of severe thunderstorms are close to Borgentreich, Germany, they are producing hail up to 3cm and a lot of lightning strikes! There is a small tornado chance.\nTornado Chance: 5-10%\nHail: 3cm\nWinds: up to 80km/h or slightly more\nlightning activity: strong",
+        "hazards": {
+          "hail": "<3-4cm",
+          "wind": "<80km/h",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-05-31T13:03:34.225Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.926392,
+              51.563412
+            ],
+            [
+              9.376831,
+              51.801822
+            ],
+            [
+              10.39856,
+              51.549751
+            ],
+            [
+              9.519653,
+              51.138001
+            ],
+            [
+              8.926392,
+              51.563412
             ]
           ]
         ]
