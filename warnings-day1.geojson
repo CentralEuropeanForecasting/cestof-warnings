@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-01T18:37:48.974Z",
+  "generated_at": "2026-06-01T19:36:29.122Z",
   "features": [
     {
       "type": "Feature",
@@ -3863,6 +3863,151 @@
             [
               23.500052,
               44.924957
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780342577191",
+        "type": "Heavy Rain Warning",
+        "issued": "2026-06-01T21:27",
+        "issued_iso": "2026-06-01T19:27:00.000Z",
+        "expires": "2026-06-01T02:27",
+        "expires_iso": "2026-06-01T00:27:00.000Z",
+        "location": "",
+        "hail": "0.5-2",
+        "wind": "12.8-41 kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "storms are mooving trough United Kingdome , Ireland\nestimated hail size shoud be around 5-20mm\nmost places would get only slight rain fall , inside the storms were located heavy rain fall , flooding expected\naround centre of United kingdome going to be wind gust between 30-41 kph . Tstorms possible",
+        "hazards": {
+          "hail": "0.5-2",
+          "wind": "12.8-41 kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "charles",
+        "forecaster_name": "Charles",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Charles",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-01T19:36:21.247Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.185791,
+              58.539595
+            ],
+            [
+              -5.614014,
+              57.373938
+            ],
+            [
+              -6.580811,
+              57.076575
+            ],
+            [
+              -7.218018,
+              56.426054
+            ],
+            [
+              -7.921143,
+              55.191412
+            ],
+            [
+              -10.074463,
+              54.02068
+            ],
+            [
+              -10.272217,
+              51.808615
+            ],
+            [
+              -9.195557,
+              51.481383
+            ],
+            [
+              -6.49292,
+              52.254709
+            ],
+            [
+              -5.108643,
+              51.835778
+            ],
+            [
+              -4.537354,
+              51.013755
+            ],
+            [
+              -5.701904,
+              50.078295
+            ],
+            [
+              -5.042725,
+              49.866317
+            ],
+            [
+              -3.570557,
+              50.148746
+            ],
+            [
+              -3.240967,
+              50.625073
+            ],
+            [
+              -2.406006,
+              50.583237
+            ],
+            [
+              0.296631,
+              50.750359
+            ],
+            [
+              1.417236,
+              51.138001
+            ],
+            [
+              1.636963,
+              52.802761
+            ],
+            [
+              0.20874,
+              53.47497
+            ],
+            [
+              -0.53833,
+              54.521081
+            ],
+            [
+              -1.373291,
+              54.851315
+            ],
+            [
+              -1.636963,
+              55.603178
+            ],
+            [
+              -2.493896,
+              56.0475
+            ],
+            [
+              -1.746826,
+              57.456771
+            ],
+            [
+              -2.230225,
+              58.573981
+            ],
+            [
+              -4.185791,
+              58.539595
             ]
           ]
         ]
