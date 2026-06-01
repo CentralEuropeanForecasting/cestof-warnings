@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-01T13:25:39.126Z",
+  "generated_at": "2026-06-01T18:37:48.974Z",
   "features": [
     {
       "type": "Feature",
@@ -3798,6 +3798,71 @@
             [
               21.887663,
               45.940474
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780338944897",
+        "type": "PDS Warning",
+        "issued": "2026-06-01T20:34",
+        "issued_iso": "2026-06-01T18:34:00.000Z",
+        "expires": "2026-06-01T21:34",
+        "expires_iso": "2026-06-01T19:34:00.000Z",
+        "location": "Going into Râmicu  Vâlcea",
+        "hail": "10cm",
+        "wind": "65kph",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "Very severe thunderstorm with 10cm+ hail \n(Radar indicated) Also with some rotation DBZ is 72 as of the last scan",
+        "hazards": {
+          "hail": "10cm",
+          "wind": "65kph",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-01T18:37:46.974Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.500052,
+              44.924957
+            ],
+            [
+              23.51311,
+              44.799228
+            ],
+            [
+              24.197158,
+              44.591671
+            ],
+            [
+              24.530152,
+              44.693305
+            ],
+            [
+              24.475269,
+              44.938269
+            ],
+            [
+              24.369222,
+              45.048648
+            ],
+            [
+              23.500052,
+              44.924957
             ]
           ]
         ]
