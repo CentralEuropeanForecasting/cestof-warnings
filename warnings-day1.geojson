@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-02T17:41:19.723Z",
+  "generated_at": "2026-06-02T19:04:05.368Z",
   "features": [
     {
       "type": "Feature",
@@ -4642,6 +4642,67 @@
             [
               10.766602,
               51.99841
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780426794610",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-02T21:58",
+        "issued_iso": "2026-06-02T18:58:00.000Z",
+        "expires": "2026-06-02T22:58",
+        "expires_iso": "2026-06-02T19:58:00.000Z",
+        "location": "",
+        "hail": "1-2 cm",
+        "wind": "50-60 km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "radar indicated up to 63 dBZ small to medium hail possible",
+        "hazards": {
+          "hail": "1-2 cm",
+          "wind": "50-60 km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Deyu",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-02T19:02:23.951Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.460571,
+              44.613934
+            ],
+            [
+              26.515503,
+              44.425934
+            ],
+            [
+              27.27356,
+              44.308127
+            ],
+            [
+              27.4823,
+              44.566991
+            ],
+            [
+              26.438599,
+              44.72332
+            ],
+            [
+              26.460571,
+              44.613934
             ]
           ]
         ]
