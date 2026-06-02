@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-02T16:58:36.896Z",
+  "generated_at": "2026-06-02T17:41:19.723Z",
   "features": [
     {
       "type": "Feature",
@@ -4585,6 +4585,63 @@
             [
               11.239014,
               48.908059
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780422039066",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-02T19:40",
+        "issued_iso": "2026-06-02T17:40:00.000Z",
+        "expires": "2026-06-02T20:30",
+        "expires_iso": "2026-06-02T18:30:00.000Z",
+        "location": "Magdenburg",
+        "hail": "2.5cm",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "2.5cm",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-02T17:41:18.375Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.766602,
+              51.99841
+            ],
+            [
+              11.12915,
+              51.856139
+            ],
+            [
+              11.656494,
+              52.415823
+            ],
+            [
+              10.876465,
+              52.536273
+            ],
+            [
+              10.766602,
+              51.99841
             ]
           ]
         ]
