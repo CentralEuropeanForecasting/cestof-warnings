@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-02T14:27:52.704Z",
+  "generated_at": "2026-06-02T14:31:18.116Z",
   "features": [
     {
       "type": "Feature",
@@ -4195,6 +4195,63 @@
             [
               8.673675,
               48.0118
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780410451018",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-05-19T15:57",
+        "issued_iso": "2026-05-19T13:57:00.000Z",
+        "expires": "2026-05-19T16:57",
+        "expires_iso": "2026-05-19T14:57:00.000Z",
+        "location": "West of Durtmund",
+        "hail": "1.5cm",
+        "wind": "90km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Strong squal line with frequent lightning activity (130+ strikes in the last 10 minutes)",
+        "hazards": {
+          "hail": "1.5cm",
+          "wind": "90km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "obamak",
+        "forecaster_name": "OBAMAK",
+        "forecaster_role": "nowcaster",
+        "issued_by": "OBAMAK",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-02T14:31:12.503Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.591797,
+              51.440313
+            ],
+            [
+              6.943359,
+              51.055207
+            ],
+            [
+              7.888184,
+              51.638476
+            ],
+            [
+              6.899414,
+              52.05249
+            ],
+            [
+              6.591797,
+              51.440313
             ]
           ]
         ]
