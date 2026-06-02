@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-02T16:42:10.269Z",
+  "generated_at": "2026-06-02T16:50:18.619Z",
   "features": [
     {
       "type": "Feature",
@@ -4431,6 +4431,63 @@
             [
               10.501017,
               48.545705
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780418852209",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-02T18:45",
+        "issued_iso": "2026-06-02T16:45:00.000Z",
+        "expires": "2026-06-02T19:45",
+        "expires_iso": "2026-06-02T17:45:00.000Z",
+        "location": "",
+        "hail": "1.5cm",
+        "wind": "90km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "Severe thunderstorms with heavy winds and strong lightning activity and abroad rotation",
+        "hazards": {
+          "hail": "1.5cm",
+          "wind": "90km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "obamak",
+        "forecaster_name": "OBAMAK",
+        "forecaster_role": "nowcaster",
+        "issued_by": "OBAMAK",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-02T16:50:15.207Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.173096,
+              48.936935
+            ],
+            [
+              11.425781,
+              48.683708
+            ],
+            [
+              12.480469,
+              49.023461
+            ],
+            [
+              11.887207,
+              49.360912
+            ],
+            [
+              11.173096,
+              48.936935
             ]
           ]
         ]
