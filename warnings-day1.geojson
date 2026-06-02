@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-02T16:50:18.619Z",
+  "generated_at": "2026-06-02T16:51:30.924Z",
   "features": [
     {
       "type": "Feature",
@@ -4439,55 +4439,95 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1780418852209",
-        "type": "Severe Thunderstorm Warning",
-        "issued": "2026-06-02T18:45",
-        "issued_iso": "2026-06-02T16:45:00.000Z",
-        "expires": "2026-06-02T19:45",
-        "expires_iso": "2026-06-02T17:45:00.000Z",
-        "location": "",
-        "hail": "1.5cm",
-        "wind": "90km/h",
-        "tornado_probability": "Very low",
+        "id": "warning-poly-1780419022026",
+        "type": "Tornado Watch",
+        "issued": "2026-06-02T18:50",
+        "issued_iso": "2026-06-02T16:50:00.000Z",
+        "expires": "2026-06-02T20:30",
+        "expires_iso": "2026-06-02T18:30:00.000Z",
+        "location": "Southern Bayern",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "Elevated",
         "rotation": "Broad rotation",
         "md_number": "",
-        "text": "Severe thunderstorms with heavy winds and strong lightning activity and abroad rotation",
+        "text": "Thunderstorms in the area are in a very tornado friendly environment",
         "hazards": {
-          "hail": "1.5cm",
-          "wind": "90km/h",
-          "tornado_probability": "Very low",
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "Elevated",
           "rotation": "Broad rotation"
         },
-        "forecaster": "obamak",
-        "forecaster_name": "OBAMAK",
-        "forecaster_role": "nowcaster",
-        "issued_by": "OBAMAK",
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "issued_by": "CAPE",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-06-02T16:50:15.207Z"
+        "updated_at": "2026-06-02T16:51:27.110Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              11.173096,
-              48.936935
+              11.623535,
+              49.432413
             ],
             [
-              11.425781,
-              48.683708
+              11.04126,
+              49.124219
             ],
             [
-              12.480469,
-              49.023461
+              10.393066,
+              48.640169
             ],
             [
-              11.887207,
-              49.360912
+              10.162354,
+              47.982568
             ],
             [
-              11.173096,
-              48.936935
+              10.623779,
+              47.583937
+            ],
+            [
+              11.107178,
+              47.546872
+            ],
+            [
+              11.986084,
+              47.768868
+            ],
+            [
+              12.711182,
+              48.063397
+            ],
+            [
+              13.139648,
+              48.385442
+            ],
+            [
+              13.205566,
+              48.705463
+            ],
+            [
+              13.249512,
+              49.081062
+            ],
+            [
+              13.062744,
+              49.346599
+            ],
+            [
+              12.843018,
+              49.460984
+            ],
+            [
+              12.469482,
+              49.525208
+            ],
+            [
+              11.623535,
+              49.432413
             ]
           ]
         ]
