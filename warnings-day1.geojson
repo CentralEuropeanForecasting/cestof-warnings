@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-02T14:31:18.116Z",
+  "generated_at": "2026-06-02T15:37:18.950Z",
   "features": [
     {
       "type": "Feature",
@@ -4252,6 +4252,71 @@
             [
               6.591797,
               51.440313
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780414629223",
+        "type": "Tornado Watch",
+        "issued": "2026-06-02T17:35",
+        "issued_iso": "2026-06-02T15:35:00.000Z",
+        "expires": "2026-06-02T18:35",
+        "expires_iso": "2026-06-02T16:35:00.000Z",
+        "location": "",
+        "hail": "3cm",
+        "wind": "75kph",
+        "tornado_probability": "Low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "Broad rotation possible \nHas been strengthening for the last 30 minutes",
+        "hazards": {
+          "hail": "3cm",
+          "wind": "75kph",
+          "tornado_probability": "Low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-02T15:37:17.019Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.691983,
+              48.047433
+            ],
+            [
+              9.795136,
+              48.437651
+            ],
+            [
+              9.250361,
+              48.856679
+            ],
+            [
+              11.152379,
+              50.04639
+            ],
+            [
+              12.654539,
+              49.651972
+            ],
+            [
+              13.054255,
+              48.794113
+            ],
+            [
+              9.691983,
+              48.047433
             ]
           ]
         ]
