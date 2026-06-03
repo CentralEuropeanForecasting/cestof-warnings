@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T14:16:03.867Z",
+  "generated_at": "2026-06-03T14:30:35.965Z",
   "features": [
     {
       "type": "Feature",
@@ -486,6 +486,81 @@
             [
               20.154419,
               44.855869
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780496820455",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T16:25",
+        "issued_iso": "2026-06-03T14:25:00.000Z",
+        "expires": "2026-06-03T17:15",
+        "expires_iso": "2026-06-03T15:15:00.000Z",
+        "location": "First one Near Třinec and second one near Wisla. both moving north-west",
+        "hail": "0.6cm",
+        "wind": "45kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Two ongoing thunderstorms that might collide and form into one. Max hail is around 0.5cm and 50kph wind gusts",
+        "hazards": {
+          "hail": "0.6cm",
+          "wind": "45kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T14:30:32.599Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.468813,
+              49.605221
+            ],
+            [
+              18.649331,
+              49.56974
+            ],
+            [
+              18.787942,
+              49.676105
+            ],
+            [
+              18.910435,
+              49.57809
+            ],
+            [
+              19.065164,
+              49.598961
+            ],
+            [
+              19.300481,
+              50.043457
+            ],
+            [
+              19.003918,
+              50.171473
+            ],
+            [
+              18.688013,
+              50.175597
+            ],
+            [
+              18.468813,
+              49.605221
             ]
           ]
         ]
