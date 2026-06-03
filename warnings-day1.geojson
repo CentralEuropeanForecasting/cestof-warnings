@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T19:16:17.831Z",
+  "generated_at": "2026-06-03T19:18:06.100Z",
   "features": [
     {
       "type": "Feature",
@@ -2580,6 +2580,69 @@
             [
               11.184082,
               55.291628
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780514001331",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T21:12",
+        "issued_iso": "2026-06-03T19:12:00.000Z",
+        "expires": "2026-06-03T22:12",
+        "expires_iso": "2026-06-03T20:12:00.000Z",
+        "location": "Near pades moving into Târgu již and Lupeni",
+        "hail": "0.4cm",
+        "wind": "40kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Small cells developed with unorganized lightning, 0.4cm hail and 40kph wind gusts.\nThey might produce lightning for the next 2 hours",
+        "hazards": {
+          "hail": "0.4cm",
+          "wind": "40kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T19:18:01.974Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.668256,
+              45.121574
+            ],
+            [
+              22.956122,
+              44.732168
+            ],
+            [
+              23.642267,
+              45.002936
+            ],
+            [
+              23.555609,
+              45.328998
+            ],
+            [
+              23.18001,
+              45.437152
+            ],
+            [
+              22.668256,
+              45.121574
             ]
           ]
         ]
