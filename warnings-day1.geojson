@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T16:34:03.463Z",
+  "generated_at": "2026-06-03T16:34:46.367Z",
   "features": [
     {
       "type": "Feature",
@@ -1057,6 +1057,69 @@
             [
               8.657227,
               53.113811
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780504473598",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T19:32",
+        "issued_iso": "2026-06-03T16:32:00.000Z",
+        "expires": "2026-06-03T20:30",
+        "expires_iso": "2026-06-03T17:30:00.000Z",
+        "location": "Caras Severin county, Romania",
+        "hail": "0.5-1 cm",
+        "wind": "50 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A line of storms are moving NE producing small hail, heavy rain and frequent lightning. Also it may produce medium hail isolated.",
+        "hazards": {
+          "hail": "0.5-1 cm",
+          "wind": "50 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Deyu",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T16:34:39.448Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.296997,
+              44.871443
+            ],
+            [
+              21.659546,
+              44.582643
+            ],
+            [
+              22.461548,
+              45.02695
+            ],
+            [
+              22.351685,
+              45.413876
+            ],
+            [
+              22.000122,
+              45.629405
+            ],
+            [
+              21.296997,
+              44.871443
             ]
           ]
         ]
