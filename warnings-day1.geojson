@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T16:30:00.230Z",
+  "generated_at": "2026-06-03T16:33:05.618Z",
   "features": [
     {
       "type": "Feature",
@@ -998,6 +998,65 @@
             [
               21.813354,
               44.449468
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780501132282",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T17:41",
+        "issued_iso": "2026-06-03T15:41:00.000Z",
+        "expires": "2026-06-03T19:00",
+        "expires_iso": "2026-06-03T17:00:00.000Z",
+        "location": "Bremen, Nedersachsen",
+        "hail": "0-1cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast near Bremen in the direction of Hamburg. This storm is producing heavy rain and lightning.",
+        "hazards": {
+          "hail": "0-1cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T15:40:53.936Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.657227,
+              53.113811
+            ],
+            [
+              8.756104,
+              53.008173
+            ],
+            [
+              10.283203,
+              53.067627
+            ],
+            [
+              9.678955,
+              53.742214
+            ],
+            [
+              8.657227,
+              53.113811
             ]
           ]
         ]
