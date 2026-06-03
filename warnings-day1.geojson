@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T13:56:29.532Z",
+  "generated_at": "2026-06-03T14:04:18.611Z",
   "features": [
     {
       "type": "Feature",
@@ -242,6 +242,132 @@
             [
               20.187378,
               46.475699
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780494379425",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T15:44",
+        "issued_iso": "2026-06-03T13:44:00.000Z",
+        "expires": "2026-06-03T17:00",
+        "expires_iso": "2026-06-03T15:00:00.000Z",
+        "location": "Near Katowice moving north",
+        "hail": "1.5cm",
+        "wind": "50kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Ongoing developing thunderstorm near Katowice moving north with 1.5cm hail and 50kph winds",
+        "hazards": {
+          "hail": "1.5cm",
+          "wind": "50kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T13:55:15.908Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.696099,
+              50.271158
+            ],
+            [
+              19.085292,
+              50.213249
+            ],
+            [
+              19.809929,
+              50.844702
+            ],
+            [
+              19.356726,
+              51.110293
+            ],
+            [
+              18.719387,
+              51.006209
+            ],
+            [
+              18.696099,
+              50.271158
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780495344428",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T16:01",
+        "issued_iso": "2026-06-03T14:01:00.000Z",
+        "expires": "2026-06-03T17:00",
+        "expires_iso": "2026-06-03T15:00:00.000Z",
+        "location": "Near myślenice Moving north-west",
+        "hail": "0.75cm",
+        "wind": "50kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Ongoing thunderstorm near myślenice going north-west with hail around 0.75cm and up to 50kph wind gusts",
+        "hazards": {
+          "hail": "0.75cm",
+          "wind": "50kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T14:04:14.033Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              19.438966,
+              50.119121
+            ],
+            [
+              19.848348,
+              49.801087
+            ],
+            [
+              20.774883,
+              50.268533
+            ],
+            [
+              20.559203,
+              50.70225
+            ],
+            [
+              19.918608,
+              50.731883
+            ],
+            [
+              19.438966,
+              50.119121
             ]
           ]
         ]
