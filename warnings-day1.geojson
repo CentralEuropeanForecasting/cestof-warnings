@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T15:43:41.712Z",
+  "generated_at": "2026-06-03T15:44:40.283Z",
   "features": [
     {
       "type": "Feature",
@@ -888,57 +888,65 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1780501132282",
+        "id": "warning-poly-1780501216192",
         "type": "Thunderstorm Warning",
-        "issued": "2026-06-03T17:41",
-        "issued_iso": "2026-06-03T15:41:00.000Z",
-        "expires": "2026-06-03T19:00",
-        "expires_iso": "2026-06-03T17:00:00.000Z",
-        "location": "Bremen, Nedersachsen",
-        "hail": "0-1cm",
-        "wind": "45km/h",
-        "tornado_probability": "Very low",
+        "issued": "2026-06-03T17:39",
+        "issued_iso": "2026-06-03T15:39:00.000Z",
+        "expires": "2026-06-03T18:30",
+        "expires_iso": "2026-06-03T16:30:00.000Z",
+        "location": "Near Lubliniec moving north to klobuck",
+        "hail": "0-0.05cm",
+        "wind": "40kph",
+        "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "this thunderstorm is moving northeast near Bremen in the direction of Hamburg. This storm is producing heavy rain and lightning.",
+        "text": "New small developed thunderstorm with \nMax 0.05cm hail and 35-40kph wind gusts.\nMight die in the next hour",
         "hazards": {
-          "hail": "0-1cm",
-          "wind": "45km/h",
-          "tornado_probability": "Very low",
+          "hail": "0-0.05cm",
+          "wind": "40kph",
+          "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
         "forecaster_role": "nowcaster",
         "forecaster_rank": 1,
         "forecaster_is_owner": false,
-        "issued_by": "Trein",
+        "issued_by": "Bearmax",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-06-03T15:40:53.936Z"
+        "updated_at": "2026-06-03T15:44:37.718Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              8.657227,
-              53.113811
+              18.655904,
+              50.640995
             ],
             [
-              8.756104,
-              53.008173
+              18.920299,
+              50.623816
             ],
             [
-              10.283203,
-              53.067627
+              19.201964,
+              51.011489
             ],
             [
-              9.678955,
-              53.742214
+              19.347595,
+              51.154059
             ],
             [
-              8.657227,
-              53.113811
+              19.067149,
+              51.309285
+            ],
+            [
+              18.715785,
+              51.283115
+            ],
+            [
+              18.655904,
+              50.640995
             ]
           ]
         ]
