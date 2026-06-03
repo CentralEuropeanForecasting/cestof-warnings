@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T17:26:48.905Z",
+  "generated_at": "2026-06-03T17:38:06.152Z",
   "features": [
     {
       "type": "Feature",
@@ -1533,6 +1533,65 @@
             [
               21.593628,
               45.02695
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780508265905",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T20:35",
+        "issued_iso": "2026-06-03T17:35:00.000Z",
+        "expires": "2026-06-03T21:15",
+        "expires_iso": "2026-06-03T18:15:00.000Z",
+        "location": "Serbia/Romania border, Mehedinti county",
+        "hail": "0.3-1 cm",
+        "wind": "40-50 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A storm is moving N-NE crossing in a few moments in Romania producing small hail, heavy rain and frequent lightning.",
+        "hazards": {
+          "hail": "0.3-1 cm",
+          "wind": "40-50 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Deyu",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T17:37:52.107Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.175903,
+              44.190082
+            ],
+            [
+              22.450562,
+              43.98491
+            ],
+            [
+              23.26355,
+              44.41024
+            ],
+            [
+              22.648315,
+              44.660839
+            ],
+            [
+              22.175903,
+              44.190082
             ]
           ]
         ]
