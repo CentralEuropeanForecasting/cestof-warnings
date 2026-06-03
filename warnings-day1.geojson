@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T12:17:15.179Z",
+  "generated_at": "2026-06-03T13:42:02.687Z",
   "features": [
     {
       "type": "Feature",
@@ -124,6 +124,65 @@
             [
               18.319702,
               49.93708
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780494079462",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T16:39",
+        "issued_iso": "2026-06-03T13:39:00.000Z",
+        "expires": "2026-06-03T17:39",
+        "expires_iso": "2026-06-03T14:39:00.000Z",
+        "location": "",
+        "hail": "0.2-0.5 cm",
+        "wind": "50 km/h",
+        "tornado_probability": "",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "Storm moving north, indicated weak rotation on the radar, small hail possible.",
+        "hazards": {
+          "hail": "0.2-0.5 cm",
+          "wind": "50 km/h",
+          "tornado_probability": "",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Deyu",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T13:41:44.496Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.38562,
+              44.918139
+            ],
+            [
+              18.748169,
+              44.801327
+            ],
+            [
+              19.187622,
+              45.251688
+            ],
+            [
+              18.462524,
+              45.483244
+            ],
+            [
+              18.38562,
+              44.918139
             ]
           ]
         ]
