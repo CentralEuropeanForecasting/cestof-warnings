@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T18:54:37.545Z",
+  "generated_at": "2026-06-03T18:57:55.346Z",
   "features": [
     {
       "type": "Feature",
@@ -2064,6 +2064,65 @@
             [
               9.547119,
               57.36209
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780512975145",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T21:04",
+        "issued_iso": "2026-06-03T19:04:00.000Z",
+        "expires": "2026-06-03T22:04",
+        "expires_iso": "2026-06-03T20:04:00.000Z",
+        "location": "fyn, north sea",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast near Odense in the direction of norway. This storm is producing rain/hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T18:57:52.668Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.447998,
+              55.621793
+            ],
+            [
+              10.942383,
+              55.50375
+            ],
+            [
+              12.260742,
+              56.24335
+            ],
+            [
+              10.722656,
+              56.438204
+            ],
+            [
+              10.447998,
+              55.621793
             ]
           ]
         ]
