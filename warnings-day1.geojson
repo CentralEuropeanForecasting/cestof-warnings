@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "name": "CESTOF Warning Polygons",
+  "generated_at": "2026-06-03T04:29:00.906Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780460785995",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T06:25",
+        "issued_iso": "2026-06-03T04:25:00.000Z",
+        "expires": "2026-06-03T07:40",
+        "expires_iso": "2026-06-03T05:40:00.000Z",
+        "location": "",
+        "hail": "0.4cm",
+        "wind": "45kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Ongoing thunderstorm on the coast of Croatia that may intensify in the next 30 minutes. wind gusts around 45kph and hail around 0.4cm (radar indicated)",
+        "hazards": {
+          "hail": "0.4cm",
+          "wind": "45kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T04:28:57.580Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.725737,
+              45.157481
+            ],
+            [
+              13.861124,
+              44.850177
+            ],
+            [
+              14.495178,
+              45.094632
+            ],
+            [
+              14.573522,
+              45.334283
+            ],
+            [
+              14.380742,
+              45.481833
+            ],
+            [
+              14.153614,
+              45.475893
+            ],
+            [
+              13.725737,
+              45.157481
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
