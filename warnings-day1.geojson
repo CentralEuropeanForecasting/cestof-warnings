@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T18:18:36.600Z",
+  "generated_at": "2026-06-03T18:21:34.619Z",
   "features": [
     {
       "type": "Feature",
@@ -1828,6 +1828,65 @@
             [
               10.975342,
               54.977614
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780510809424",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T20:18",
+        "issued_iso": "2026-06-03T18:18:00.000Z",
+        "expires": "2026-06-03T21:06",
+        "expires_iso": "2026-06-03T19:06:00.000Z",
+        "location": "midtjylland",
+        "hail": "0.5-1cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "this thunderstorm is moving north near horsens, in the direction of aarhus. The storm is producing lightning and small hail.",
+        "hazards": {
+          "hail": "0.5-1cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T18:21:32.379Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.84375,
+              55.955351
+            ],
+            [
+              10.129395,
+              55.906115
+            ],
+            [
+              10.744629,
+              56.46249
+            ],
+            [
+              9.876709,
+              56.517079
+            ],
+            [
+              9.84375,
+              55.955351
             ]
           ]
         ]
