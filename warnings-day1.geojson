@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T18:10:56.777Z",
+  "generated_at": "2026-06-03T18:13:08.096Z",
   "features": [
     {
       "type": "Feature",
@@ -1769,6 +1769,65 @@
             [
               9.613037,
               57.733485
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780510297453",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T20:11",
+        "issued_iso": "2026-06-03T18:11:00.000Z",
+        "expires": "2026-06-03T21:11",
+        "expires_iso": "2026-06-03T19:11:00.000Z",
+        "location": "lolland, falster, sjaeland",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast near maribo in the direction of copenhagen.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T18:13:03.044Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.975342,
+              54.977614
+            ],
+            [
+              11.260986,
+              54.826008
+            ],
+            [
+              12.612305,
+              55.153766
+            ],
+            [
+              11.700439,
+              55.615589
+            ],
+            [
+              10.975342,
+              54.977614
             ]
           ]
         ]
