@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T16:49:16.630Z",
+  "generated_at": "2026-06-03T17:02:42.591Z",
   "features": [
     {
       "type": "Feature",
@@ -1297,6 +1297,124 @@
             [
               10.294189,
               54.476422
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780505932174",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T19:00",
+        "issued_iso": "2026-06-03T17:00:00.000Z",
+        "expires": "2026-06-03T20:04",
+        "expires_iso": "2026-06-03T18:04:00.000Z",
+        "location": "fyn",
+        "hail": "1-2cm",
+        "wind": "55km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast near kiel in the direction of Odense. This storm is producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "55km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T17:00:03.973Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.777832,
+              54.933454
+            ],
+            [
+              10.118408,
+              55.609384
+            ],
+            [
+              11.008301,
+              55.185141
+            ],
+            [
+              10.030518,
+              54.84499
+            ],
+            [
+              9.777832,
+              54.933454
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780506070734",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T19:02",
+        "issued_iso": "2026-06-03T17:02:00.000Z",
+        "expires": "2026-06-03T20:02",
+        "expires_iso": "2026-06-03T18:02:00.000Z",
+        "location": "schleswig-holstein, lolland, falster",
+        "hail": "1-3cm",
+        "wind": "45-60km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "this group of thunderstorms is moving northeast near Kiel in the direction of the sea and Denmark. These storm are producing hail and lightning. the chance of a tornado to form is very low.",
+        "hazards": {
+          "hail": "1-3cm",
+          "wind": "45-60km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T17:02:38.012Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.645752,
+              54.527457
+            ],
+            [
+              10.887451,
+              54.393352
+            ],
+            [
+              12.458496,
+              54.616617
+            ],
+            [
+              11.173096,
+              55.241552
+            ],
+            [
+              10.645752,
+              54.527457
             ]
           ]
         ]
