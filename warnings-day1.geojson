@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T14:30:35.965Z",
+  "generated_at": "2026-06-03T14:32:10.328Z",
   "features": [
     {
       "type": "Feature",
@@ -494,73 +494,57 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1780496820455",
+        "id": "warning-poly-1780497117155",
         "type": "Thunderstorm Warning",
-        "issued": "2026-06-03T16:25",
-        "issued_iso": "2026-06-03T14:25:00.000Z",
-        "expires": "2026-06-03T17:15",
-        "expires_iso": "2026-06-03T15:15:00.000Z",
-        "location": "First one Near Třinec and second one near Wisla. both moving north-west",
-        "hail": "0.6cm",
-        "wind": "45kph",
+        "issued": "2026-06-03T17:30",
+        "issued_iso": "2026-06-03T14:30:00.000Z",
+        "expires": "2026-06-03T18:30",
+        "expires_iso": "2026-06-03T15:30:00.000Z",
+        "location": "North of Novi Sad",
+        "hail": "0.5 cm",
+        "wind": "40-50 km/h",
         "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "Two ongoing thunderstorms that might collide and form into one. Max hail is around 0.5cm and 50kph wind gusts",
+        "text": "Storm north of Novi Sad is producing small hail, heavy rain and frequent lightning",
         "hazards": {
-          "hail": "0.6cm",
-          "wind": "45kph",
+          "hail": "0.5 cm",
+          "wind": "40-50 km/h",
           "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "bearmax",
-        "forecaster_name": "Bearmax",
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
         "forecaster_role": "nowcaster",
         "forecaster_rank": 1,
         "forecaster_is_owner": false,
-        "issued_by": "Bearmax",
+        "issued_by": "Deyu",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-06-03T14:30:32.599Z"
+        "updated_at": "2026-06-03T14:32:06.868Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              18.468813,
-              49.605221
+              19.802856,
+              45.127805
             ],
             [
-              18.649331,
-              49.56974
+              20.066528,
+              44.980342
             ],
             [
-              18.787942,
-              49.676105
+              20.484009,
+              45.336702
             ],
             [
-              18.910435,
-              49.57809
+              20.066528,
+              45.56791
             ],
             [
-              19.065164,
-              49.598961
-            ],
-            [
-              19.300481,
-              50.043457
-            ],
-            [
-              19.003918,
-              50.171473
-            ],
-            [
-              18.688013,
-              50.175597
-            ],
-            [
-              18.468813,
-              49.605221
+              19.802856,
+              45.127805
             ]
           ]
         ]
