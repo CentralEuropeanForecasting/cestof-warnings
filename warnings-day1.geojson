@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T18:58:38.855Z",
+  "generated_at": "2026-06-03T19:00:11.170Z",
   "features": [
     {
       "type": "Feature",
@@ -2123,6 +2123,65 @@
             [
               10.447998,
               55.621793
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780513157793",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T21:00",
+        "issued_iso": "2026-06-03T19:00:00.000Z",
+        "expires": "2026-06-03T22:07",
+        "expires_iso": "2026-06-03T20:07:00.000Z",
+        "location": "sjaeland",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast near agerso in the direction of copenhagen.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T18:59:57.797Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.315918,
+              55.160043
+            ],
+            [
+              11.689453,
+              55.053203
+            ],
+            [
+              12.766113,
+              55.347889
+            ],
+            [
+              11.777344,
+              55.714735
+            ],
+            [
+              11.315918,
+              55.160043
             ]
           ]
         ]
