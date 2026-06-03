@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T19:23:32.015Z",
+  "generated_at": "2026-06-03T19:25:47.674Z",
   "features": [
     {
       "type": "Feature",
@@ -2761,6 +2761,73 @@
             [
               22.736206,
               44.347422
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780514565307",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T21:22",
+        "issued_iso": "2026-06-03T19:22:00.000Z",
+        "expires": "2026-06-03T22:22",
+        "expires_iso": "2026-06-03T20:22:00.000Z",
+        "location": "Near Pirot moving north-west to Chiprovtsi",
+        "hail": "0.2cm",
+        "wind": "35kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Small thunderstorm with frequent lightning,\nHail up to 0.2cm and wind gusts 35kph",
+        "hazards": {
+          "hail": "0.2cm",
+          "wind": "35kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T19:25:44.361Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.241229,
+              43.092149
+            ],
+            [
+              22.423603,
+              42.888408
+            ],
+            [
+              23.401218,
+              43.207979
+            ],
+            [
+              23.263296,
+              43.587157
+            ],
+            [
+              22.861787,
+              43.683162
+            ],
+            [
+              22.238357,
+              43.094138
+            ],
+            [
+              22.241229,
+              43.092149
             ]
           ]
         ]
