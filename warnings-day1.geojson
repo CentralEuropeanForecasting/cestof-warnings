@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T15:44:55.639Z",
+  "generated_at": "2026-06-03T15:45:21.768Z",
   "features": [
     {
       "type": "Feature",
@@ -888,65 +888,57 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1780501216192",
+        "id": "warning-poly-1780501463253",
         "type": "Thunderstorm Warning",
-        "issued": "2026-06-03T17:39",
-        "issued_iso": "2026-06-03T15:39:00.000Z",
-        "expires": "2026-06-03T18:30",
+        "issued": "2026-06-03T18:41",
+        "issued_iso": "2026-06-03T15:41:00.000Z",
+        "expires": "2026-06-03T19:30",
         "expires_iso": "2026-06-03T16:30:00.000Z",
-        "location": "Near Lubliniec moving north to klobuck",
-        "hail": "0-0.05cm",
-        "wind": "40kph",
-        "tornado_probability": "",
-        "rotation": "",
+        "location": "North of Arad",
+        "hail": "0.5-1 cm",
+        "wind": "50-60 km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
         "md_number": "",
-        "text": "New small developed thunderstorm with \nMax 0.05cm hail and 35-40kph wind gusts.\nMight die in the next hour",
+        "text": "Storm developed quickly north of Arad, indicating weak rotation on the radar. Small hail and heavy rain expected.",
         "hazards": {
-          "hail": "0-0.05cm",
-          "wind": "40kph",
-          "tornado_probability": "",
-          "rotation": ""
+          "hail": "0.5-1 cm",
+          "wind": "50-60 km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
         },
-        "forecaster": "bearmax",
-        "forecaster_name": "Bearmax",
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
         "forecaster_role": "nowcaster",
         "forecaster_rank": 1,
         "forecaster_is_owner": false,
-        "issued_by": "Bearmax",
+        "issued_by": "Deyu",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-06-03T15:44:37.718Z"
+        "updated_at": "2026-06-03T15:44:50.930Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              18.655904,
-              50.640995
+              20.956421,
+              46.24825
             ],
             [
-              18.920299,
-              50.623816
+              21.384888,
+              46.172223
             ],
             [
-              19.201964,
-              51.011489
+              21.604614,
+              46.672056
             ],
             [
-              19.347595,
-              51.154059
+              20.945435,
+              46.747389
             ],
             [
-              19.067149,
-              51.309285
-            ],
-            [
-              18.715785,
-              51.283115
-            ],
-            [
-              18.655904,
-              50.640995
+              20.956421,
+              46.24825
             ]
           ]
         ]
