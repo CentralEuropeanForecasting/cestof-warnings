@@ -186,7 +186,7 @@
         ]
       },
       "properties": {
-        "name": "Untitled polygon",
+        "name": "Záluží",
         "styleUrl": "#__managed_style_00E559D8A83FC366DC57",
         "fill-opacity": 0.25098039215686274,
         "fill": "#ffffff",
@@ -202,7 +202,15 @@
           "insetPixels"
         ],
         "icon": "https://earth.google.com/earth/document/icon?color=1976d2&id=2000&scale=4",
-        "kind": "tornado"
+        "kind": "tornado",
+        "type": "tornado_archive",
+        "tornado_id": "Záluží",
+        "scale": "IF0",
+        "date": "2026-05-31",
+        "location": "Záluží",
+        "damage_type": "General damage",
+        "notes": "Path of a very weak and brief tornado",
+        "photos": []
       },
       "id": "08E8DBD0BD3FC366DC37"
     },
