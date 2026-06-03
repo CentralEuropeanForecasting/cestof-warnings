@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T04:29:00.906Z",
+  "generated_at": "2026-06-03T12:17:15.179Z",
   "features": [
     {
       "type": "Feature",
@@ -65,6 +65,65 @@
             [
               13.725737,
               45.157481
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780488831897",
+        "type": "Heavy Rain Warning",
+        "issued": "2026-06-03T14:10",
+        "issued_iso": "2026-06-03T12:10:00.000Z",
+        "expires": "2026-06-03T16:10",
+        "expires_iso": "2026-06-03T14:10:00.000Z",
+        "location": "",
+        "hail": "0.5-3",
+        "wind": "9.8 m/s",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Tstorms located near Bielsko bala , hail size going to be in size about 30mm , heavy rain fall expected ,windgust going to be aproximetly 9.8 m/s",
+        "hazards": {
+          "hail": "0.5-3",
+          "wind": "9.8 m/s",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "charles",
+        "forecaster_name": "Charles",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Charles",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T12:17:07.549Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.319702,
+              49.93708
+            ],
+            [
+              18.473511,
+              49.246293
+            ],
+            [
+              20.484009,
+              49.310799
+            ],
+            [
+              20.198364,
+              50.478483
+            ],
+            [
+              18.319702,
+              49.93708
             ]
           ]
         ]
