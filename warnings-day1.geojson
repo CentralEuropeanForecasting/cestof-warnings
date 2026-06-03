@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T15:30:10.006Z",
+  "generated_at": "2026-06-03T15:36:00.854Z",
   "features": [
     {
       "type": "Feature",
@@ -809,6 +809,77 @@
             [
               9.404297,
               54.393352
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780500717920",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T17:29",
+        "issued_iso": "2026-06-03T15:29:00.000Z",
+        "expires": "2026-06-03T18:15",
+        "expires_iso": "2026-06-03T16:15:00.000Z",
+        "location": "Near Banská Bystrica going little north-west",
+        "hail": "0.1cm",
+        "wind": "40kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Dying thunderstorm with lightning starting to become very unorganized \nWith 0.1cm hail and 40kph wind gusts",
+        "hazards": {
+          "hail": "0.1cm",
+          "wind": "40kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T15:35:59.315Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.959635,
+              48.874786
+            ],
+            [
+              19.206939,
+              48.789086
+            ],
+            [
+              19.558512,
+              49.07206
+            ],
+            [
+              19.590602,
+              49.207907
+            ],
+            [
+              19.378888,
+              49.310787
+            ],
+            [
+              19.056877,
+              49.248232
+            ],
+            [
+              18.990162,
+              48.984053
+            ],
+            [
+              18.959635,
+              48.874786
             ]
           ]
         ]
