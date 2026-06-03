@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T13:55:18.545Z",
+  "generated_at": "2026-06-03T13:56:29.532Z",
   "features": [
     {
       "type": "Feature",
@@ -191,61 +191,57 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1780494379425",
+        "id": "warning-poly-1780494972569",
         "type": "Thunderstorm Warning",
-        "issued": "2026-06-03T15:44",
-        "issued_iso": "2026-06-03T13:44:00.000Z",
-        "expires": "2026-06-03T17:00",
-        "expires_iso": "2026-06-03T15:00:00.000Z",
-        "location": "Near Katowice moving north",
-        "hail": "1.5cm",
-        "wind": "50kph",
+        "issued": "2026-06-03T16:53",
+        "issued_iso": "2026-06-03T13:53:00.000Z",
+        "expires": "2026-06-03T17:53",
+        "expires_iso": "2026-06-03T14:53:00.000Z",
+        "location": "",
+        "hail": "0.3-0.5 cm",
+        "wind": "50 km/h",
         "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "Ongoing developing thunderstorm near Katowice moving north with 1.5cm hail and 50kph winds",
+        "text": "A line of storms is moving north, producing small hail and heavy rain.",
         "hazards": {
-          "hail": "1.5cm",
-          "wind": "50kph",
+          "hail": "0.3-0.5 cm",
+          "wind": "50 km/h",
           "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "bearmax",
-        "forecaster_name": "Bearmax",
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
         "forecaster_role": "nowcaster",
         "forecaster_rank": 1,
         "forecaster_is_owner": false,
-        "issued_by": "Bearmax",
+        "issued_by": "Deyu",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-06-03T13:55:15.908Z"
+        "updated_at": "2026-06-03T13:56:22.372Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              18.696099,
-              50.271158
+              20.187378,
+              46.475699
             ],
             [
-              19.085292,
-              50.213249
+              20.681763,
+              46.346928
             ],
             [
-              19.809929,
-              50.844702
+              21.011353,
+              46.875213
             ],
             [
-              19.356726,
-              51.110293
+              20.220337,
+              46.980252
             ],
             [
-              18.719387,
-              51.006209
-            ],
-            [
-              18.696099,
-              50.271158
+              20.187378,
+              46.475699
             ]
           ]
         ]
