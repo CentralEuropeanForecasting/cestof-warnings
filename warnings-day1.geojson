@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T15:17:23.231Z",
+  "generated_at": "2026-06-03T15:21:26.930Z",
   "features": [
     {
       "type": "Feature",
@@ -687,6 +687,69 @@
             [
               18.348026,
               49.780913
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780500072764",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T18:20",
+        "issued_iso": "2026-06-03T15:20:00.000Z",
+        "expires": "2026-06-03T19:20",
+        "expires_iso": "2026-06-03T16:20:00.000Z",
+        "location": "North of Belgrade",
+        "hail": "0.3-0.7 cm",
+        "wind": "50-60 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Storm is moving north, producing small hail, heavy rain and frequent lightning, expected to cross into Romania in aprox. 1 hour.",
+        "hazards": {
+          "hail": "0.3-0.7 cm",
+          "wind": "50-60 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Deyu",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T15:21:18.106Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.53894,
+              45.034715
+            ],
+            [
+              20.86853,
+              44.887012
+            ],
+            [
+              21.571655,
+              45.313529
+            ],
+            [
+              20.98938,
+              45.598666
+            ],
+            [
+              20.604858,
+              45.336702
+            ],
+            [
+              20.53894,
+              45.034715
             ]
           ]
         ]
