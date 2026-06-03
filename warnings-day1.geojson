@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T19:12:12.864Z",
+  "generated_at": "2026-06-03T19:13:57.420Z",
   "features": [
     {
       "type": "Feature",
@@ -2253,57 +2253,333 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1780513920782",
+        "id": "warning-poly-1780501216192",
         "type": "Thunderstorm Warning",
-        "issued": "2026-06-03T22:11",
-        "issued_iso": "2026-06-03T19:11:00.000Z",
-        "expires": "2026-06-03T23:17",
-        "expires_iso": "2026-06-03T20:17:00.000Z",
-        "location": "Mehedinti county/Romania",
-        "hail": "0.2-0.8cm",
-        "wind": "40-60 km/h",
-        "tornado_probability": "Very low",
-        "rotation": "Weak rotation",
+        "issued": "2026-06-03T17:39",
+        "issued_iso": "2026-06-03T15:39:00.000Z",
+        "expires": "2026-06-03T18:30",
+        "expires_iso": "2026-06-03T16:30:00.000Z",
+        "location": "Near Lubliniec moving north to klobuck",
+        "hail": "0-0.05cm",
+        "wind": "40kph",
+        "tornado_probability": "",
+        "rotation": "",
         "md_number": "",
-        "text": "A storm is moving NE, producing small hail, heavy rain and frequent lightning. Radar also indicated weak rotation.",
+        "text": "New small developed thunderstorm with \nMax 0.05cm hail and 35-40kph wind gusts.\nMight die in the next hour",
         "hazards": {
-          "hail": "0.2-0.8cm",
-          "wind": "40-60 km/h",
-          "tornado_probability": "Very low",
-          "rotation": "Weak rotation"
+          "hail": "0-0.05cm",
+          "wind": "40kph",
+          "tornado_probability": "",
+          "rotation": ""
         },
-        "forecaster": "Deyu",
-        "forecaster_name": "Deyu",
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
         "forecaster_role": "nowcaster",
         "forecaster_rank": 1,
         "forecaster_is_owner": false,
-        "issued_by": "Deyu",
+        "issued_by": "Bearmax",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-06-03T19:12:08.365Z"
+        "updated_at": "2026-06-03T15:44:37.718Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              22.505493,
-              44.43378
+              18.655904,
+              50.640995
             ],
             [
-              22.81311,
-              44.158563
+              18.920299,
+              50.623816
             ],
             [
-              23.527222,
-              44.59829
+              19.201964,
+              51.011489
             ],
             [
-              22.802124,
-              44.964798
+              19.347595,
+              51.154059
             ],
             [
-              22.505493,
-              44.43378
+              19.067149,
+              51.309285
+            ],
+            [
+              18.715785,
+              51.283115
+            ],
+            [
+              18.655904,
+              50.640995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780513332457",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T21:01",
+        "issued_iso": "2026-06-03T19:01:00.000Z",
+        "expires": "2026-06-03T22:30",
+        "expires_iso": "2026-06-03T20:30:00.000Z",
+        "location": "Moving into the sea (going to SpongeBob)",
+        "hail": "0.2cm",
+        "wind": "35kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Developed thunderstorm with unorganized lightning. Max hail around 0.1cm and 35kph wind gusts",
+        "hazards": {
+          "hail": "0.2cm",
+          "wind": "35kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T19:04:21.180Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.650979,
+              42.231584
+            ],
+            [
+              15.972032,
+              42.151161
+            ],
+            [
+              15.468388,
+              41.760636
+            ],
+            [
+              17.122873,
+              41.317426
+            ],
+            [
+              17.582902,
+              41.54795
+            ],
+            [
+              17.611211,
+              41.940855
+            ],
+            [
+              17.462045,
+              42.328347
+            ],
+            [
+              16.650979,
+              42.231584
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780513754311",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T21:05",
+        "issued_iso": "2026-06-03T19:05:00.000Z",
+        "expires": "2026-06-03T22:05",
+        "expires_iso": "2026-06-03T20:05:00.000Z",
+        "location": "Near Shkodër moving west to Kulës",
+        "hail": "0.8cm",
+        "wind": "45kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Strong thunderstorm with organized and a few strong lightning strikes per 5 minutes\nHail around 0.85cm and wind gusts around 45kph",
+        "hazards": {
+          "hail": "0.8cm",
+          "wind": "45kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T19:09:14.310Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              19.218579,
+              42.120789
+            ],
+            [
+              19.318836,
+              41.952372
+            ],
+            [
+              19.400528,
+              41.785092
+            ],
+            [
+              20.050095,
+              41.868783
+            ],
+            [
+              20.295423,
+              42.183466
+            ],
+            [
+              20.044162,
+              42.400559
+            ],
+            [
+              19.314658,
+              42.231409
+            ],
+            [
+              19.218579,
+              42.120789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780513808668",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T21:05",
+        "issued_iso": "2026-06-03T19:05:00.000Z",
+        "expires": "2026-06-03T22:05",
+        "expires_iso": "2026-06-03T20:05:00.000Z",
+        "location": "Near Shkodër moving west to Kulës",
+        "hail": "1cm",
+        "wind": "45kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Strong thunderstorm with organized and a few strong lightning strikes per 5 minutes\nHail around 0.85cm and wind gusts around 45kph",
+        "hazards": {
+          "hail": "1cm",
+          "wind": "45kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T19:10:53.079Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.418904,
+              41.89892
+            ],
+            [
+              18.462481,
+              41.645377
+            ],
+            [
+              19.400476,
+              41.725191
+            ],
+            [
+              19.318699,
+              41.899995
+            ],
+            [
+              19.184893,
+              42.116114
+            ],
+            [
+              19.029034,
+              42.161621
+            ],
+            [
+              18.418904,
+              41.89892
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780513966159",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T21:13",
+        "issued_iso": "2026-06-03T19:13:00.000Z",
+        "expires": "2026-06-03T22:13",
+        "expires_iso": "2026-06-03T20:13:00.000Z",
+        "location": "sjaeland",
+        "hail": "1-2cm",
+        "wind": "60km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast near Slagelse in the direction of Roskilde, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "60km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T19:13:54.862Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.184082,
+              55.291628
+            ],
+            [
+              11.414795,
+              55.178868
+            ],
+            [
+              12.183838,
+              55.541065
+            ],
+            [
+              11.447754,
+              55.776573
+            ],
+            [
+              11.184082,
+              55.291628
             ]
           ]
         ]
