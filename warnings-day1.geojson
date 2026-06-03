@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T19:25:47.674Z",
+  "generated_at": "2026-06-03T20:03:24.211Z",
   "features": [
     {
       "type": "Feature",
@@ -2828,6 +2828,124 @@
             [
               22.241229,
               43.092149
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780516829367",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T22:01",
+        "issued_iso": "2026-06-03T20:01:00.000Z",
+        "expires": "2026-06-03T23:01",
+        "expires_iso": "2026-06-03T21:01:00.000Z",
+        "location": "sjaeland",
+        "hail": "0.5-1cm",
+        "wind": "60km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast near Roskilde in the direction of klint, producing hail and lightning.",
+        "hazards": {
+          "hail": "0.5-1cm",
+          "wind": "60km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T20:02:06.466Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.304932,
+              55.578345
+            ],
+            [
+              11.491699,
+              55.509971
+            ],
+            [
+              12.271729,
+              55.91843
+            ],
+            [
+              11.293945,
+              56.035226
+            ],
+            [
+              11.304932,
+              55.578345
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780516953752",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T22:02",
+        "issued_iso": "2026-06-03T20:02:00.000Z",
+        "expires": "2026-06-03T23:02",
+        "expires_iso": "2026-06-03T21:02:00.000Z",
+        "location": "sjaeland",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving north near aalborg, in the direction of skagen, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T20:03:18.127Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.019531,
+              57.255281
+            ],
+            [
+              10.393066,
+              57.219608
+            ],
+            [
+              10.964355,
+              57.727619
+            ],
+            [
+              9.986572,
+              57.762799
+            ],
+            [
+              10.019531,
+              57.255281
             ]
           ]
         ]
