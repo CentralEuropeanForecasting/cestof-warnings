@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T17:57:55.230Z",
+  "generated_at": "2026-06-03T18:04:00.432Z",
   "features": [
     {
       "type": "Feature",
@@ -1651,6 +1651,65 @@
             [
               22.142944,
               44.715514
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780509824543",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T21:01",
+        "issued_iso": "2026-06-03T18:01:00.000Z",
+        "expires": "2026-06-03T21:55",
+        "expires_iso": "2026-06-03T18:55:00.000Z",
+        "location": "Caraș Severin county/ Romania",
+        "hail": "0.3-1 cm",
+        "wind": "40-60 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "The storm continues to go NE, producing small hail, heavy rain and frequent lightning.",
+        "hazards": {
+          "hail": "0.3-1 cm",
+          "wind": "40-60 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Deyu",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T18:03:44.543Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.703491,
+              45.290347
+            ],
+            [
+              22.230835,
+              45.003651
+            ],
+            [
+              22.955933,
+              45.483244
+            ],
+            [
+              22.153931,
+              45.92823
+            ],
+            [
+              21.703491,
+              45.290347
             ]
           ]
         ]
