@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T14:12:10.187Z",
+  "generated_at": "2026-06-03T14:16:03.867Z",
   "features": [
     {
       "type": "Feature",
@@ -427,6 +427,65 @@
             [
               20.714722,
               44.45731
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780496159378",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T17:13",
+        "issued_iso": "2026-06-03T14:13:00.000Z",
+        "expires": "2026-06-03T18:13",
+        "expires_iso": "2026-06-03T15:13:00.000Z",
+        "location": "Belgrade/North of Belgrade",
+        "hail": "0.5-1 cm",
+        "wind": "50 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Storm moving north of Belgrade is producing small hail and heavy rain.",
+        "hazards": {
+          "hail": "0.5-1 cm",
+          "wind": "50 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Deyu",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T14:15:59.377Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.154419,
+              44.855869
+            ],
+            [
+              20.560913,
+              44.715514
+            ],
+            [
+              20.846558,
+              45.05024
+            ],
+            [
+              20.308228,
+              45.205263
+            ],
+            [
+              20.154419,
+              44.855869
             ]
           ]
         ]
