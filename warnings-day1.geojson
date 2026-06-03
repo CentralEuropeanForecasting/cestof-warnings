@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T15:21:26.930Z",
+  "generated_at": "2026-06-03T15:28:40.392Z",
   "features": [
     {
       "type": "Feature",
@@ -750,6 +750,65 @@
             [
               20.53894,
               45.034715
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780500082021",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T17:19",
+        "issued_iso": "2026-06-03T15:19:00.000Z",
+        "expires": "2026-06-03T18:00",
+        "expires_iso": "2026-06-03T16:00:00.000Z",
+        "location": "schleswig-holstein",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast near rendsburg in the direction of kappeln and crossing the sea into denmark. This storm is producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T15:25:11.978Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.404297,
+              54.393352
+            ],
+            [
+              9.656982,
+              54.258807
+            ],
+            [
+              10.678711,
+              54.514704
+            ],
+            [
+              9.733887,
+              54.965002
+            ],
+            [
+              9.404297,
+              54.393352
             ]
           ]
         ]
