@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T16:34:46.367Z",
+  "generated_at": "2026-06-03T16:40:07.325Z",
   "features": [
     {
       "type": "Feature",
@@ -1120,6 +1120,65 @@
             [
               21.296997,
               44.871443
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780504713570",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T18:41",
+        "issued_iso": "2026-06-03T16:41:00.000Z",
+        "expires": "2026-06-03T19:00",
+        "expires_iso": "2026-06-03T17:00:00.000Z",
+        "location": "schleswig-holstein",
+        "hail": "0.5-1cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast near Lubeck in the direction of the sea. This storm is producing hail and lightning.",
+        "hazards": {
+          "hail": "0.5-1cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T16:40:03.911Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.59082,
+              54.007769
+            ],
+            [
+              10.744629,
+              53.917281
+            ],
+            [
+              11.392822,
+              54.02068
+            ],
+            [
+              10.92041,
+              54.329338
+            ],
+            [
+              10.59082,
+              54.007769
             ]
           ]
         ]
