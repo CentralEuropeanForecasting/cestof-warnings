@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T15:45:21.768Z",
+  "generated_at": "2026-06-03T16:30:00.230Z",
   "features": [
     {
       "type": "Feature",
@@ -939,6 +939,65 @@
             [
               20.956421,
               46.24825
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780504186274",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-03T19:27",
+        "issued_iso": "2026-06-03T16:27:00.000Z",
+        "expires": "2026-06-03T20:20",
+        "expires_iso": "2026-06-03T17:20:00.000Z",
+        "location": "Serbia/Romania Border",
+        "hail": "0.5-1.5 cm",
+        "wind": "50-60 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Storm is moving NE producing small to isolated medium hail, heavy rain and frequent lightning. Latest scan showed 64 dBz.",
+        "hazards": {
+          "hail": "0.5-1.5 cm",
+          "wind": "50-60 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Deyu",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-03T16:29:52.812Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.813354,
+              44.449468
+            ],
+            [
+              22.088013,
+              44.253069
+            ],
+            [
+              22.977905,
+              44.660839
+            ],
+            [
+              22.362671,
+              45.058001
+            ],
+            [
+              21.813354,
+              44.449468
             ]
           ]
         ]
