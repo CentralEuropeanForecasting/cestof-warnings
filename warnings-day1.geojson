@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T19:04:23.928Z",
+  "generated_at": "2026-06-03T19:08:03.721Z",
   "features": [
     {
       "type": "Feature",
@@ -2190,136 +2190,61 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1780501216192",
+        "id": "warning-poly-1780513644363",
         "type": "Thunderstorm Warning",
-        "issued": "2026-06-03T17:39",
-        "issued_iso": "2026-06-03T15:39:00.000Z",
-        "expires": "2026-06-03T18:30",
-        "expires_iso": "2026-06-03T16:30:00.000Z",
-        "location": "Near Lubliniec moving north to klobuck",
-        "hail": "0-0.05cm",
-        "wind": "40kph",
+        "issued": "2026-06-03T22:04",
+        "issued_iso": "2026-06-03T19:04:00.000Z",
+        "expires": "2026-06-03T23:17",
+        "expires_iso": "2026-06-03T20:17:00.000Z",
+        "location": "Serbia/Romania border, Caras Severin County/Romania",
+        "hail": "0.5-1.5 cm",
+        "wind": "50-60 km/h",
         "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "New small developed thunderstorm with \nMax 0.05cm hail and 35-40kph wind gusts.\nMight die in the next hour",
+        "text": "A storm is moving north, producing small and isolated medium hail, heavy rain and very frequent lightning.",
         "hazards": {
-          "hail": "0-0.05cm",
-          "wind": "40kph",
+          "hail": "0.5-1.5 cm",
+          "wind": "50-60 km/h",
           "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "bearmax",
-        "forecaster_name": "Bearmax",
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
         "forecaster_role": "nowcaster",
         "forecaster_rank": 1,
         "forecaster_is_owner": false,
-        "issued_by": "Bearmax",
+        "issued_by": "Deyu",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-06-03T15:44:37.718Z"
+        "updated_at": "2026-06-03T19:07:54.584Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              18.655904,
-              50.640995
+              21.362915,
+              44.527843
             ],
             [
-              18.920299,
-              50.623816
+              21.780396,
+              44.355278
             ],
             [
-              19.201964,
-              51.011489
+              22.516479,
+              44.949249
             ],
             [
-              19.347595,
-              51.154059
+              21.813354,
+              45.298075
             ],
             [
-              19.067149,
-              51.309285
+              21.439819,
+              45.127805
             ],
             [
-              18.715785,
-              51.283115
-            ],
-            [
-              18.655904,
-              50.640995
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "warning-poly-1780513332457",
-        "type": "Thunderstorm Warning",
-        "issued": "2026-06-03T21:01",
-        "issued_iso": "2026-06-03T19:01:00.000Z",
-        "expires": "2026-06-03T22:30",
-        "expires_iso": "2026-06-03T20:30:00.000Z",
-        "location": "Moving into the sea (going to SpongeBob)",
-        "hail": "0.2cm",
-        "wind": "35kph",
-        "tornado_probability": "",
-        "rotation": "",
-        "md_number": "",
-        "text": "Developed thunderstorm with unorganized lightning. Max hail around 0.1cm and 35kph wind gusts",
-        "hazards": {
-          "hail": "0.2cm",
-          "wind": "35kph",
-          "tornado_probability": "",
-          "rotation": ""
-        },
-        "forecaster": "bearmax",
-        "forecaster_name": "Bearmax",
-        "forecaster_role": "nowcaster",
-        "forecaster_rank": 1,
-        "forecaster_is_owner": false,
-        "issued_by": "Bearmax",
-        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-06-03T19:04:21.180Z"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              16.650979,
-              42.231584
-            ],
-            [
-              15.972032,
-              42.151161
-            ],
-            [
-              15.468388,
-              41.760636
-            ],
-            [
-              17.122873,
-              41.317426
-            ],
-            [
-              17.582902,
-              41.54795
-            ],
-            [
-              17.611211,
-              41.940855
-            ],
-            [
-              17.462045,
-              42.328347
-            ],
-            [
-              16.650979,
-              42.231584
+              21.362915,
+              44.527843
             ]
           ]
         ]
