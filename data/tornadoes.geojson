@@ -924,7 +924,7 @@
         ]
       },
       "properties": {
-        "name": "Untitled polygon",
+        "name": "Chvalovice",
         "styleUrl": "#__managed_style_00E559D8A83FC366DC57",
         "fill-opacity": 0.25098039215686274,
         "fill": "#ffffff",
@@ -940,7 +940,15 @@
           "insetPixels"
         ],
         "icon": "https://earth.google.com/earth/document/icon?color=1976d2&id=2000&scale=4",
-        "kind": "tornado"
+        "kind": "tornado",
+        "type": "tornado_archive",
+        "tornado_id": "Chvalovice",
+        "scale": "IF0.5",
+        "date": "2026-05-31",
+        "location": "Chvalovice",
+        "damage_type": "Trees / forest",
+        "notes": "Snapped Pines",
+        "photos": []
       },
       "id": "002527A20A3FC36736F8"
     }
