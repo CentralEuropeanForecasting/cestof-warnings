@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Province Warnings",
-  "generated_at": "2026-06-03T18:49:39.812Z",
+  "generated_at": "2026-06-03T19:04:29.910Z",
   "features": [
     {
       "type": "Feature",
@@ -19804,23 +19804,19 @@
         "province_name": "Midtjylland, Nordjylland, Syddanmark, Midtjylland, Syddanmark",
         "area_type": "Province",
         "province_ids": [
-          "province-DK-81|province-DK-82|province-DK-83",
-          "province-DK-82|province-DK-83"
+          "province-DK-81|province-DK-82|province-DK-83|province-DK-82|province-DK-83"
         ],
         "province_names": [
-          "Midtjylland, Nordjylland, Syddanmark",
-          "Midtjylland, Syddanmark"
+          "Midtjylland, Nordjylland, Syddanmark, Midtjylland, Syddanmark"
         ],
         "affected_provinces": [
-          "Midtjylland, Nordjylland, Syddanmark",
-          "Midtjylland, Syddanmark"
+          "Midtjylland, Nordjylland, Syddanmark, Midtjylland, Syddanmark"
         ],
         "affected_province_ids": [
-          "province-DK-81|province-DK-82|province-DK-83",
-          "province-DK-82|province-DK-83"
+          "province-DK-81|province-DK-82|province-DK-83|province-DK-82|province-DK-83"
         ],
         "affected_provinces_text": "Midtjylland, Nordjylland, Syddanmark, Midtjylland, Syddanmark",
-        "connected": true,
+        "connected": false,
         "warning_count": 1,
         "warnings": [
           {
@@ -19845,12 +19841,10 @@
             "updated_at": "2026-06-03T18:28:44.035Z",
             "area_type": "Province",
             "affected_provinces": [
-              "Midtjylland, Nordjylland, Syddanmark",
-              "Midtjylland, Syddanmark"
+              "Midtjylland, Nordjylland, Syddanmark, Midtjylland, Syddanmark"
             ],
             "affected_province_ids": [
-              "province-DK-81|province-DK-82|province-DK-83",
-              "province-DK-82|province-DK-83"
+              "province-DK-81|province-DK-82|province-DK-83|province-DK-82|province-DK-83"
             ],
             "affected_provinces_text": "Midtjylland, Nordjylland, Syddanmark, Midtjylland, Syddanmark"
           }
@@ -26109,23 +26103,19 @@
         "province_name": "Hovedstaden, Sjaælland, Sjaælland",
         "area_type": "Province",
         "province_ids": [
-          "province-DK-84|province-DK-85",
-          "province-DK-85"
+          "province-DK-84|province-DK-85|province-DK-85"
         ],
         "province_names": [
-          "Hovedstaden, Sjaælland",
-          "Sjaælland"
+          "Hovedstaden, Sjaælland, Sjaælland"
         ],
         "affected_provinces": [
-          "Hovedstaden, Sjaælland",
-          "Sjaælland"
+          "Hovedstaden, Sjaælland, Sjaælland"
         ],
         "affected_province_ids": [
-          "province-DK-84|province-DK-85",
-          "province-DK-85"
+          "province-DK-84|province-DK-85|province-DK-85"
         ],
         "affected_provinces_text": "Hovedstaden, Sjaælland, Sjaælland",
-        "connected": true,
+        "connected": false,
         "warning_count": 1,
         "warnings": [
           {
@@ -26150,12 +26140,10 @@
             "updated_at": "2026-06-03T18:28:44.035Z",
             "area_type": "Province",
             "affected_provinces": [
-              "Hovedstaden, Sjaælland",
-              "Sjaælland"
+              "Hovedstaden, Sjaælland, Sjaælland"
             ],
             "affected_province_ids": [
-              "province-DK-84|province-DK-85",
-              "province-DK-85"
+              "province-DK-84|province-DK-85|province-DK-85"
             ],
             "affected_provinces_text": "Hovedstaden, Sjaælland, Sjaælland"
           }
