@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-04T17:16:15.996Z",
+  "generated_at": "2026-06-04T17:24:44.922Z",
   "features": [
     {
       "type": "Feature",
@@ -4438,6 +4438,73 @@
             [
               11.147861,
               53.208183
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780593824824",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T19:18",
+        "issued_iso": "2026-06-04T17:18:00.000Z",
+        "expires": "2026-06-04T20:30",
+        "expires_iso": "2026-06-04T18:30:00.000Z",
+        "location": "Near Luxembourg to Wittlich moving west",
+        "hail": "0.6cm",
+        "wind": "60kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Line of thunderstorms with some strong lightning with 0.6cm may hail and 60kph wind gusts",
+        "hazards": {
+          "hail": "0.6cm",
+          "wind": "60kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T17:24:43.037Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.127036,
+              49.625265
+            ],
+            [
+              7.126987,
+              50.18048
+            ],
+            [
+              8.737792,
+              50.169551
+            ],
+            [
+              8.439904,
+              49.580008
+            ],
+            [
+              7.651452,
+              49.437106
+            ],
+            [
+              7.05087,
+              49.333406
+            ],
+            [
+              6.127036,
+              49.625265
             ]
           ]
         ]
