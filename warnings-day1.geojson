@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-04T12:49:34.865Z",
+  "generated_at": "2026-06-04T12:55:26.462Z",
   "features": [
     {
       "type": "Feature",
@@ -3249,6 +3249,69 @@
             [
               11.146191,
               53.012277
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780577706728",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T14:52",
+        "issued_iso": "2026-06-04T12:52:00.000Z",
+        "expires": "2026-06-04T16:00",
+        "expires_iso": "2026-06-04T14:00:00.000Z",
+        "location": "Near Namur moving north-west",
+        "hail": "1cm",
+        "wind": "70kph",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "Severe thunderstorm with some rotation and a few strong lightning strikes with 1cm hail and 70kph wind gusts",
+        "hazards": {
+          "hail": "1cm",
+          "wind": "70kph",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T12:55:23.920Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.642954,
+              50.391916
+            ],
+            [
+              4.76836,
+              50.215534
+            ],
+            [
+              5.548222,
+              50.285684
+            ],
+            [
+              5.542177,
+              50.537431
+            ],
+            [
+              5.27143,
+              50.626695
+            ],
+            [
+              4.642954,
+              50.391916
             ]
           ]
         ]
