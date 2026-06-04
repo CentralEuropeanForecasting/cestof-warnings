@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-04T14:51:50.106Z",
+  "generated_at": "2026-06-04T14:58:11.035Z",
   "features": [
     {
       "type": "Feature",
@@ -4135,6 +4135,65 @@
             [
               11.700439,
               54.386955
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780585083686",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T17:53",
+        "issued_iso": "2026-06-04T14:53:00.000Z",
+        "expires": "2026-06-04T19:20",
+        "expires_iso": "2026-06-04T16:20:00.000Z",
+        "location": "Northern Bulgaria/ Calarasi, Constanta, Ialomita counties/ Romania",
+        "hail": "0.3-1.3 cm",
+        "wind": "40-70 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "The storm is continuing to move north into Romania producing small to isolated medium hail,heavy rain and frequent lightning. Radar also indicated weak rotation.",
+        "hazards": {
+          "hail": "0.3-1.3 cm",
+          "wind": "40-70 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Deyu",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T14:58:07.960Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.976929,
+              43.699651
+            ],
+            [
+              27.778931,
+              43.572432
+            ],
+            [
+              28.141479,
+              44.284537
+            ],
+            [
+              27.064819,
+              44.504341
+            ],
+            [
+              26.976929,
+              43.699651
             ]
           ]
         ]
