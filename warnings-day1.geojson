@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-04T14:18:06.031Z",
+  "generated_at": "2026-06-04T14:21:46.109Z",
   "features": [
     {
       "type": "Feature",
@@ -3612,57 +3612,57 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1780582590360",
+        "id": "warning-poly-1780582897133",
         "type": "Thunderstorm Warning",
-        "issued": "2026-06-04T14:04",
-        "issued_iso": "2026-06-04T12:04:00.000Z",
-        "expires": "2026-06-04T14:45",
-        "expires_iso": "2026-06-04T12:45:00.000Z",
-        "location": "",
-        "hail": "1 cm",
-        "wind": "88 km/h",
+        "issued": "2026-06-04T17:19",
+        "issued_iso": "2026-06-04T14:19:00.000Z",
+        "expires": "2026-06-04T18:19",
+        "expires_iso": "2026-06-04T15:19:00.000Z",
+        "location": "Ilfov/Prahova county Romania",
+        "hail": "0.3-1 cm",
+        "wind": "40-60 km/h",
         "tornado_probability": "",
-        "rotation": "Weak rotation",
+        "rotation": "",
         "md_number": "",
-        "text": "",
+        "text": "A cell intensified around Bucharest, and its currently producing small to isolated medium hail (radar indicated 68 dBz), heavy rain and frequent lightning.",
         "hazards": {
-          "hail": "1 cm",
-          "wind": "88 km/h",
+          "hail": "0.3-1 cm",
+          "wind": "40-60 km/h",
           "tornado_probability": "",
-          "rotation": "Weak rotation"
+          "rotation": ""
         },
-        "forecaster": "cape",
-        "forecaster_name": "CAPE",
-        "forecaster_role": "owner",
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
+        "forecaster_role": "nowcaster",
         "forecaster_rank": 1,
-        "forecaster_is_owner": true,
-        "issued_by": "CAPE",
+        "forecaster_is_owner": false,
+        "issued_by": "Deyu",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-06-04T14:17:57.802Z"
+        "updated_at": "2026-06-04T14:21:40.888Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              12.227783,
-              51.903613
+              26.054077,
+              44.52001
             ],
             [
-              12.623291,
-              51.788232
+              26.559448,
+              44.488668
             ],
             [
-              13.590088,
-              52.268157
+              26.757202,
+              45.05024
             ],
             [
-              12.623291,
-              52.596375
+              25.9552,
+              45.073521
             ],
             [
-              12.227783,
-              51.903613
+              26.054077,
+              44.52001
             ]
           ]
         ]
