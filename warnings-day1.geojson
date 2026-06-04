@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-03T20:08:40.276Z",
+  "generated_at": "2026-06-04T11:05:17.698Z",
   "features": [
     {
       "type": "Feature",
@@ -2946,6 +2946,69 @@
             [
               10.019531,
               57.255281
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780570769845",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T12:58",
+        "issued_iso": "2026-06-04T10:58:00.000Z",
+        "expires": "2026-06-04T14:00",
+        "expires_iso": "2026-06-04T12:00:00.000Z",
+        "location": "Near Bergen moving north-west",
+        "hail": "1cm",
+        "wind": "50kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Small developing thunderstorm with a few lightning strikes. Hail up to 1cm and wind gusts around 50kph",
+        "hazards": {
+          "hail": "1cm",
+          "wind": "50kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T11:05:13.465Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.528636,
+              52.680008
+            ],
+            [
+              9.795167,
+              52.464957
+            ],
+            [
+              10.433393,
+              52.704957
+            ],
+            [
+              10.319977,
+              52.912144
+            ],
+            [
+              10.021965,
+              52.971421
+            ],
+            [
+              9.528636,
+              52.680008
             ]
           ]
         ]
