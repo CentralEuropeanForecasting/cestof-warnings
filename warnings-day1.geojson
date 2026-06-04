@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-04T19:14:43.700Z",
+  "generated_at": "2026-06-04T19:23:22.516Z",
   "features": [
     {
       "type": "Feature",
@@ -4926,6 +4926,124 @@
             [
               16.040039,
               54.699234
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780600834302",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T21:20",
+        "issued_iso": "2026-06-04T19:20:00.000Z",
+        "expires": "2026-06-04T22:06",
+        "expires_iso": "2026-06-04T20:06:00.000Z",
+        "location": "rheinland-pfalz, france and luxembourg",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is located near thionville, moving northeast to germany, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T19:21:42.896Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.910645,
+              49.482401
+            ],
+            [
+              6.218262,
+              49.167339
+            ],
+            [
+              7.712402,
+              49.339441
+            ],
+            [
+              6.723633,
+              50.176898
+            ],
+            [
+              5.910645,
+              49.482401
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780600947961",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T21:23",
+        "issued_iso": "2026-06-04T19:23:00.000Z",
+        "expires": "2026-06-04T22:06",
+        "expires_iso": "2026-06-04T20:06:00.000Z",
+        "location": "france",
+        "hail": "0.5-1cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is located near nancy, moving northeast to sarrebourg, producing hail and lightning.",
+        "hazards": {
+          "hail": "0.5-1cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T19:23:19.375Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.471191,
+              48.57479
+            ],
+            [
+              5.625,
+              48.312428
+            ],
+            [
+              6.943359,
+              48.400032
+            ],
+            [
+              6.437988,
+              49.05227
+            ],
+            [
+              5.471191,
+              48.57479
             ]
           ]
         ]
