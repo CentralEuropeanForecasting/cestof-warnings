@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-04T14:08:54.011Z",
+  "generated_at": "2026-06-04T14:18:06.031Z",
   "features": [
     {
       "type": "Feature",
@@ -3604,6 +3604,65 @@
             [
               26.471558,
               42.617791
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780582590360",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T14:04",
+        "issued_iso": "2026-06-04T12:04:00.000Z",
+        "expires": "2026-06-04T14:45",
+        "expires_iso": "2026-06-04T12:45:00.000Z",
+        "location": "",
+        "hail": "1 cm",
+        "wind": "88 km/h",
+        "tornado_probability": "",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "1 cm",
+          "wind": "88 km/h",
+          "tornado_probability": "",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": true,
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T14:17:57.802Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.227783,
+              51.903613
+            ],
+            [
+              12.623291,
+              51.788232
+            ],
+            [
+              13.590088,
+              52.268157
+            ],
+            [
+              12.623291,
+              52.596375
+            ],
+            [
+              12.227783,
+              51.903613
             ]
           ]
         ]
