@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-04T12:00:48.270Z",
+  "generated_at": "2026-06-04T12:05:37.089Z",
   "features": [
     {
       "type": "Feature",
@@ -3127,6 +3127,65 @@
             [
               3.810013,
               50.047733
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780574666892",
+        "type": "Tornado Watch",
+        "issued": "2026-06-04T14:04",
+        "issued_iso": "2026-06-04T12:04:00.000Z",
+        "expires": "2026-06-04T14:45",
+        "expires_iso": "2026-06-04T12:45:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "103km/h",
+        "tornado_probability": "Elevated",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "Severe thunderstorm with rotation in multiple angles.",
+        "hazards": {
+          "hail": "",
+          "wind": "103km/h",
+          "tornado_probability": "Elevated",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": true,
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T12:05:34.895Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.777588,
+              52.802761
+            ],
+            [
+              11.019287,
+              52.689702
+            ],
+            [
+              11.57959,
+              52.968492
+            ],
+            [
+              11.074219,
+              53.179704
+            ],
+            [
+              10.777588,
+              52.802761
             ]
           ]
         ]
