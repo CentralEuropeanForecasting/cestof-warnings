@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-04T11:39:04.402Z",
+  "generated_at": "2026-06-04T12:00:16.558Z",
   "features": [
     {
       "type": "Feature",
@@ -3068,6 +3068,65 @@
             [
               10.535889,
               52.676382
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780574404787",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T13:43",
+        "issued_iso": "2026-06-04T11:43:00.000Z",
+        "expires": "2026-06-04T13:59",
+        "expires_iso": "2026-06-04T11:59:00.000Z",
+        "location": "Aisne , nord",
+        "hail": "1-2cm",
+        "wind": "60 kmh",
+        "tornado_probability": "Low",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "thunderstorm are ongoing with strong reflectivity and broad rotation",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "60 kmh",
+          "tornado_probability": "Low",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "stormchase4ever",
+        "forecaster_name": "stormchase4ever",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "stormchase4ever",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T12:00:04.787Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.810013,
+              50.047733
+            ],
+            [
+              4.095531,
+              50.111185
+            ],
+            [
+              4.1077,
+              49.992438
+            ],
+            [
+              3.844144,
+              49.950042
+            ],
+            [
+              3.810013,
+              50.047733
             ]
           ]
         ]
