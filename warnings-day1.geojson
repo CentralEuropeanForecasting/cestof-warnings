@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-04T14:21:46.109Z",
+  "generated_at": "2026-06-04T14:34:00.466Z",
   "features": [
     {
       "type": "Feature",
@@ -3663,6 +3663,360 @@
             [
               26.054077,
               44.52001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780582779104",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T16:17",
+        "issued_iso": "2026-06-04T14:17:00.000Z",
+        "expires": "2026-06-04T17:05",
+        "expires_iso": "2026-06-04T15:05:00.000Z",
+        "location": "Noord-brabant, gelderland",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast near Tilburg in the direction of arnhem, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T14:21:15.024Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.899902,
+              51.706608
+            ],
+            [
+              5.053711,
+              51.549751
+            ],
+            [
+              6.350098,
+              51.727028
+            ],
+            [
+              5.646973,
+              52.281602
+            ],
+            [
+              4.899902,
+              51.706608
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780583004886",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T16:17",
+        "issued_iso": "2026-06-04T14:17:00.000Z",
+        "expires": "2026-06-04T17:05",
+        "expires_iso": "2026-06-04T15:05:00.000Z",
+        "location": "Nordrhein-westfalen",
+        "hail": "1-2cm",
+        "wind": "55km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast near aachenin the direction of cologne, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "55km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T14:25:21.794Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.020508,
+              50.666872
+            ],
+            [
+              6.174316,
+              50.464498
+            ],
+            [
+              7.701416,
+              50.590212
+            ],
+            [
+              6.998291,
+              51.248163
+            ],
+            [
+              6.020508,
+              50.666872
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780583135889",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T16:21",
+        "issued_iso": "2026-06-04T14:21:00.000Z",
+        "expires": "2026-06-04T17:05",
+        "expires_iso": "2026-06-04T15:05:00.000Z",
+        "location": "Nordrhein-westfalen",
+        "hail": "1-2cm",
+        "wind": "55km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast near wuppertal in the direction of Dortmund, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "55km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T14:26:06.530Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.932373,
+              51.323747
+            ],
+            [
+              7.130127,
+              51.138001
+            ],
+            [
+              8.778076,
+              51.289406
+            ],
+            [
+              7.723389,
+              52.032218
+            ],
+            [
+              6.932373,
+              51.323747
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780583240961",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T16:21",
+        "issued_iso": "2026-06-04T14:21:00.000Z",
+        "expires": "2026-06-04T17:05",
+        "expires_iso": "2026-06-04T15:05:00.000Z",
+        "location": "Niedersachsen, hamburg",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast near Bremen in the direction of Hamburg, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T14:28:01.370Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.09668,
+              53.199452
+            ],
+            [
+              9.316406,
+              53.041213
+            ],
+            [
+              10.876465,
+              53.304621
+            ],
+            [
+              9.865723,
+              53.839564
+            ],
+            [
+              9.09668,
+              53.199452
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780583330664",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T16:29",
+        "issued_iso": "2026-06-04T14:29:00.000Z",
+        "expires": "2026-06-04T17:05",
+        "expires_iso": "2026-06-04T15:05:00.000Z",
+        "location": "Hamburg, Schleswig-holstein, Mecklenburg-vorpommern",
+        "hail": "0-2cm",
+        "wind": "40-60km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "this group of thunderstorms is moving northeast near Hamburg in the direction of Lubeck, producing hail and lightning.",
+        "hazards": {
+          "hail": "0-2cm",
+          "wind": "40-60km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T14:32:39.477Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.667969,
+              53.657661
+            ],
+            [
+              10.393066,
+              53.199452
+            ],
+            [
+              11.799316,
+              53.343993
+            ],
+            [
+              10.107422,
+              54.226708
+            ],
+            [
+              9.667969,
+              53.657661
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780583573573",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T16:30",
+        "issued_iso": "2026-06-04T14:30:00.000Z",
+        "expires": "2026-06-04T17:05",
+        "expires_iso": "2026-06-04T15:05:00.000Z",
+        "location": "Hamburg, Schleswig-holstein, Mecklenburg-vorpommern",
+        "hail": "0.5-1cm",
+        "wind": "45km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast near Wilhelmshafen in the direction of the sea, producing small hail and lightning.",
+        "hazards": {
+          "hail": "0.5-1cm",
+          "wind": "45km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T14:33:56.671Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.624512,
+              53.605544
+            ],
+            [
+              7.789307,
+              53.468431
+            ],
+            [
+              8.964844,
+              53.67068
+            ],
+            [
+              8.129883,
+              54.149567
+            ],
+            [
+              7.624512,
+              53.605544
             ]
           ]
         ]
