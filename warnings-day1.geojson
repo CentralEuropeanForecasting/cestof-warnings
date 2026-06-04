@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-04T17:24:44.922Z",
+  "generated_at": "2026-06-04T17:32:29.990Z",
   "features": [
     {
       "type": "Feature",
@@ -4505,6 +4505,69 @@
             [
               6.127036,
               49.625265
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780594194390",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T19:25",
+        "issued_iso": "2026-06-04T17:25:00.000Z",
+        "expires": "2026-06-04T20:30",
+        "expires_iso": "2026-06-04T18:30:00.000Z",
+        "location": "Near Lobez moving north-west",
+        "hail": "0.5cm",
+        "wind": "50kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Slowly dying thunderstorm with some lightning strikes. Max hail: 0.5cm and wind gusts up to 50kph",
+        "hazards": {
+          "hail": "0.5cm",
+          "wind": "50kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T17:32:24.970Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.422137,
+              53.520966
+            ],
+            [
+              15.816323,
+              53.337394
+            ],
+            [
+              16.776081,
+              53.873124
+            ],
+            [
+              16.647543,
+              54.134684
+            ],
+            [
+              16.210511,
+              54.17478
+            ],
+            [
+              15.422137,
+              53.520966
             ]
           ]
         ]
