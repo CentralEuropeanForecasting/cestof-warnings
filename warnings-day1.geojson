@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-04T17:32:29.990Z",
+  "generated_at": "2026-06-04T17:37:45.958Z",
   "features": [
     {
       "type": "Feature",
@@ -4568,6 +4568,69 @@
             [
               15.422137,
               53.520966
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780594530749",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T19:33",
+        "issued_iso": "2026-06-04T17:33:00.000Z",
+        "expires": "2026-06-04T20:35",
+        "expires_iso": "2026-06-04T18:35:00.000Z",
+        "location": "Near Grafice moving north-west",
+        "hail": "0.2cm",
+        "wind": "50kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "3 thunderstorms with the left one being the strongest with 0.3cm hail and 50kph wind gusts",
+        "hazards": {
+          "hail": "0.2cm",
+          "wind": "50kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T17:37:43.640Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.066074,
+              53.841983
+            ],
+            [
+              15.881643,
+              54.078849
+            ],
+            [
+              16.482873,
+              54.605147
+            ],
+            [
+              15.650743,
+              54.680005
+            ],
+            [
+              15.29994,
+              54.589881
+            ],
+            [
+              15.066074,
+              53.841983
             ]
           ]
         ]
