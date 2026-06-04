@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-04T15:45:10.681Z",
+  "generated_at": "2026-06-04T15:57:59.608Z",
   "features": [
     {
       "type": "Feature",
@@ -4253,6 +4253,65 @@
             [
               25.86731,
               44.472991
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780588659918",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T18:55",
+        "issued_iso": "2026-06-04T15:55:00.000Z",
+        "expires": "2026-06-04T19:56",
+        "expires_iso": "2026-06-04T16:56:00.000Z",
+        "location": "Ilfov/Calarasi/Giurgiu counties/ Romania",
+        "hail": "0.5-1 cm",
+        "wind": "40-60 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A slow moving storm south of Bucharest is producing small hail, heavy rain and lightning.",
+        "hazards": {
+          "hail": "0.5-1 cm",
+          "wind": "40-60 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Deyu",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T15:57:44.353Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.109009,
+              43.92955
+            ],
+            [
+              27.020874,
+              43.826601
+            ],
+            [
+              27.185669,
+              44.43378
+            ],
+            [
+              25.768433,
+              44.512176
+            ],
+            [
+              26.109009,
+              43.92955
             ]
           ]
         ]
