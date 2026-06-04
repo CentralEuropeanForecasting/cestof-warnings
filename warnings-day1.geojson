@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-04T16:17:59.971Z",
+  "generated_at": "2026-06-04T17:16:15.996Z",
   "features": [
     {
       "type": "Feature",
@@ -4371,6 +4371,73 @@
             [
               26.965942,
               43.897892
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780593274156",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T19:12",
+        "issued_iso": "2026-06-04T17:12:00.000Z",
+        "expires": "2026-06-04T20:20",
+        "expires_iso": "2026-06-04T18:20:00.000Z",
+        "location": "From Parching to Güstrow moving north-west",
+        "hail": "0.4cm",
+        "wind": "55kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Line of thunderstorms moving north-west with 0.4cm hail and 55kph wind gusts with weak lightning",
+        "hazards": {
+          "hail": "0.4cm",
+          "wind": "55kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T17:16:13.632Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.147861,
+              53.208183
+            ],
+            [
+              12.0732,
+              54.450943
+            ],
+            [
+              13.732733,
+              55.061809
+            ],
+            [
+              14.476037,
+              54.370483
+            ],
+            [
+              14.476037,
+              53.895591
+            ],
+            [
+              13.325911,
+              53.672882
+            ],
+            [
+              11.147861,
+              53.208183
             ]
           ]
         ]
