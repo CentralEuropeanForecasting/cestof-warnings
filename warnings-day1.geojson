@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-04T17:37:45.958Z",
+  "generated_at": "2026-06-04T18:46:01.572Z",
   "features": [
     {
       "type": "Feature",
@@ -4631,6 +4631,65 @@
             [
               15.066074,
               53.841983
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780598442007",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T20:38",
+        "issued_iso": "2026-06-04T18:38:00.000Z",
+        "expires": "2026-06-04T22:38",
+        "expires_iso": "2026-06-04T20:38:00.000Z",
+        "location": "Gottbus-CHosebus-Gorzow Wielkoposlki",
+        "hail": "1-10mm",
+        "wind": "50-85",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunderstorms occured near Gottbus , hail size should be around 0-8 mm , wind gust going to be around 50-85 km/h\nheavy rain fall near Elsenhuttenstadt , Be AWARE of heavy rain fall with small hail and high wind gust",
+        "hazards": {
+          "hail": "1-10mm",
+          "wind": "50-85",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "charles",
+        "forecaster_name": "Charles",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Charles",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T18:45:52.742Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.826294,
+              51.815407
+            ],
+            [
+              14.177856,
+              51.542919
+            ],
+            [
+              15.90271,
+              52.200874
+            ],
+            [
+              14.452515,
+              52.603048
+            ],
+            [
+              13.826294,
+              51.815407
             ]
           ]
         ]
