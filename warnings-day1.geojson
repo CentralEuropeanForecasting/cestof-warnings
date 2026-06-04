@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-04T11:05:17.698Z",
+  "generated_at": "2026-06-04T11:39:04.402Z",
   "features": [
     {
       "type": "Feature",
@@ -3009,6 +3009,65 @@
             [
               9.528636,
               52.680008
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780573001605",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-04T13:38",
+        "issued_iso": "2026-06-04T11:38:00.000Z",
+        "expires": "2026-06-04T14:38",
+        "expires_iso": "2026-06-04T12:38:00.000Z",
+        "location": "Wittingen",
+        "hail": "2.6 cm",
+        "wind": "60 km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "Severe thunderstorm with rotation in multiple angles.",
+        "hazards": {
+          "hail": "2.6 cm",
+          "wind": "60 km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": true,
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T11:39:01.872Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.535889,
+              52.676382
+            ],
+            [
+              10.689697,
+              52.596375
+            ],
+            [
+              11.392822,
+              52.922151
+            ],
+            [
+              10.810547,
+              53.100621
+            ],
+            [
+              10.535889,
+              52.676382
             ]
           ]
         ]
