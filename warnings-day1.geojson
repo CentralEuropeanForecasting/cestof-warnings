@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-04T12:55:26.462Z",
+  "generated_at": "2026-06-04T13:04:54.498Z",
   "features": [
     {
       "type": "Feature",
@@ -3312,6 +3312,180 @@
             [
               4.642954,
               50.391916
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780577901505",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T14:55",
+        "issued_iso": "2026-06-04T12:55:00.000Z",
+        "expires": "2026-06-04T16:00",
+        "expires_iso": "2026-06-04T14:00:00.000Z",
+        "location": "",
+        "hail": "0.8cm",
+        "wind": "65kph",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "0.8cm",
+          "wind": "65kph",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T12:58:21.504Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.551086,
+              50.676042
+            ],
+            [
+              5.661822,
+              50.961602
+            ],
+            [
+              5.584788,
+              51.212296
+            ],
+            [
+              5.632933,
+              51.407672
+            ],
+            [
+              6.351751,
+              52.049277
+            ],
+            [
+              7.490199,
+              52.359093
+            ],
+            [
+              7.698487,
+              52.130154
+            ],
+            [
+              7.703978,
+              51.849365
+            ],
+            [
+              7.473844,
+              51.566788
+            ],
+            [
+              7.169613,
+              51.322789
+            ],
+            [
+              6.664159,
+              51.045669
+            ],
+            [
+              5.551086,
+              50.676042
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780578143815",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T15:01",
+        "issued_iso": "2026-06-04T13:01:00.000Z",
+        "expires": "2026-06-04T16:30",
+        "expires_iso": "2026-06-04T14:30:00.000Z",
+        "location": "Near Achen and Enschede moving north-west",
+        "hail": "1cm",
+        "wind": "65kph",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "Line of thunderstorms with some strong lightning and winds. Hail is up to 1cm",
+        "hazards": {
+          "hail": "1cm",
+          "wind": "65kph",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T13:04:49.744Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.514483,
+              50.730023
+            ],
+            [
+              5.717565,
+              51.044822
+            ],
+            [
+              5.669212,
+              51.457906
+            ],
+            [
+              6.130175,
+              51.789688
+            ],
+            [
+              6.491209,
+              52.180286
+            ],
+            [
+              7.561417,
+              52.3399
+            ],
+            [
+              7.700028,
+              52.045845
+            ],
+            [
+              7.67424,
+              51.747849
+            ],
+            [
+              7.471159,
+              51.449881
+            ],
+            [
+              7.010196,
+              51.170146
+            ],
+            [
+              6.294574,
+              50.839937
+            ],
+            [
+              5.514483,
+              50.730023
             ]
           ]
         ]
