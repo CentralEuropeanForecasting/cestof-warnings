@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-04T18:46:01.572Z",
+  "generated_at": "2026-06-04T19:13:52.431Z",
   "features": [
     {
       "type": "Feature",
@@ -4690,6 +4690,242 @@
             [
               13.826294,
               51.815407
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780600042091",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T21:06",
+        "issued_iso": "2026-06-04T19:06:00.000Z",
+        "expires": "2026-06-04T22:06",
+        "expires_iso": "2026-06-04T20:06:00.000Z",
+        "location": "schleswig-holstein, syddanmark",
+        "hail": "1-2cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is located near husum, moving northeast to denmark, producing hail and lightning",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T19:09:06.841Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.371582,
+              54.622978
+            ],
+            [
+              9.09668,
+              54.41893
+            ],
+            [
+              10.898438,
+              55.203953
+            ],
+            [
+              8.833008,
+              55.751849
+            ],
+            [
+              8.371582,
+              54.622978
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780600162812",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T21:08",
+        "issued_iso": "2026-06-04T19:08:00.000Z",
+        "expires": "2026-06-04T22:06",
+        "expires_iso": "2026-06-04T20:06:00.000Z",
+        "location": "schleswig-holstein",
+        "hail": "1-2cm",
+        "wind": "55km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is located near spiekeroog, moving northeast to denmark, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "55km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T19:10:56.324Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.382813,
+              53.943155
+            ],
+            [
+              7.77832,
+              53.813626
+            ],
+            [
+              9.272461,
+              54.457267
+            ],
+            [
+              7.69043,
+              54.889246
+            ],
+            [
+              7.382813,
+              53.943155
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780600270175",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T21:10",
+        "issued_iso": "2026-06-04T19:10:00.000Z",
+        "expires": "2026-06-04T22:06",
+        "expires_iso": "2026-06-04T20:06:00.000Z",
+        "location": "schleswig-holstein",
+        "hail": "1-2cm",
+        "wind": "55km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is located near ording, moving northeast to denmark, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "55km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T19:11:48.913Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.459473,
+              54.072283
+            ],
+            [
+              8.85498,
+              53.956086
+            ],
+            [
+              10.305176,
+              54.72462
+            ],
+            [
+              8.811035,
+              55.028022
+            ],
+            [
+              8.459473,
+              54.072283
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780600381126",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-04T21:12",
+        "issued_iso": "2026-06-04T19:12:00.000Z",
+        "expires": "2026-06-04T22:06",
+        "expires_iso": "2026-06-04T20:06:00.000Z",
+        "location": "east sea near poland",
+        "hail": "0.5-1cm",
+        "wind": "55km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is located near koszalin, moving northeast to the east sea, producing hail and lightning.",
+        "hazards": {
+          "hail": "0.5-1cm",
+          "wind": "55km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-04T19:13:38.224Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.040039,
+              54.699234
+            ],
+            [
+              16.699219,
+              54.470038
+            ],
+            [
+              18.457031,
+              55.266598
+            ],
+            [
+              16.501465,
+              55.714735
+            ],
+            [
+              16.040039,
+              54.699234
             ]
           ]
         ]
