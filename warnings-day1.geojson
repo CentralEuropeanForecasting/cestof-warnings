@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-04T20:25:55.478Z",
+  "generated_at": "2026-06-05T09:16:02.957Z",
   "features": [
     {
       "type": "Feature",
@@ -5162,6 +5162,65 @@
             [
               8.833008,
               54.303704
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780650778418",
+        "type": "Thunderstorm Watch",
+        "issued": "2026-06-05T11:12",
+        "issued_iso": "2026-06-05T09:12:00.000Z",
+        "expires": "2026-06-05T12:12",
+        "expires_iso": "2026-06-05T10:12:00.000Z",
+        "location": "",
+        "hail": "0.2-2cm",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "few lightnings were spotted inside these cells , expect hail (2-20mm) , in centers of these cells rain fall gonna drop arpoximetly 8kg/m2",
+        "hazards": {
+          "hail": "0.2-2cm",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "charles",
+        "forecaster_name": "Charles",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Charles",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-05T09:15:56.887Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.725708,
+              53.527248
+            ],
+            [
+              22.241821,
+              53.094024
+            ],
+            [
+              23.670044,
+              55.034319
+            ],
+            [
+              21.264038,
+              55.266598
+            ],
+            [
+              20.725708,
+              53.527248
             ]
           ]
         ]
