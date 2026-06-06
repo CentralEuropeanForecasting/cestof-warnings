@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-06T10:39:55.633Z",
+  "generated_at": "2026-06-06T12:36:56.184Z",
   "features": [
     {
       "type": "Feature",
@@ -5607,6 +5607,69 @@
             [
               25.635643,
               43.038129
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780749395043",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-06T15:34",
+        "issued_iso": "2026-06-06T12:34:00.000Z",
+        "expires": "2026-06-06T16:34",
+        "expires_iso": "2026-06-06T13:34:00.000Z",
+        "location": "Central Romania/ Alba county",
+        "hail": "2-4 cm",
+        "wind": "40-60 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Radar indicated 71 dBz reflectifity, medium to isolated large hail possible, along with heavy rain and lightning.",
+        "hazards": {
+          "hail": "2-4 cm",
+          "wind": "40-60 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Deyu",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-06T12:36:52.698Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.589807,
+              46.130143
+            ],
+            [
+              23.836763,
+              45.914321
+            ],
+            [
+              24.537305,
+              46.219847
+            ],
+            [
+              24.40352,
+              46.495328
+            ],
+            [
+              24.053478,
+              46.536594
+            ],
+            [
+              23.589807,
+              46.130143
             ]
           ]
         ]
