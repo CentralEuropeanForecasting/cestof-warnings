@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-06T14:58:29.520Z",
+  "generated_at": "2026-06-06T17:44:09.748Z",
   "features": [
     {
       "type": "Feature",
@@ -5863,6 +5863,124 @@
             [
               11.916412,
               48.142202
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780767658701",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-06T19:38",
+        "issued_iso": "2026-06-06T17:38:00.000Z",
+        "expires": "2026-06-06T21:05",
+        "expires_iso": "2026-06-06T19:05:00.000Z",
+        "location": "schleswig-holstein, fyn,syddanmark",
+        "hail": "1-3cm",
+        "wind": "40-60km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "this group of thunderstorms is moving northeast near flensburg in the direction of odense, producing hail and lighting.",
+        "hazards": {
+          "hail": "1-3cm",
+          "wind": "40-60km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-06T17:42:28.683Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.30542,
+              54.642055
+            ],
+            [
+              9.854736,
+              54.470038
+            ],
+            [
+              11.865234,
+              55.241552
+            ],
+            [
+              9.678955,
+              55.702355
+            ],
+            [
+              9.30542,
+              54.642055
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780767769635",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-06T19:38",
+        "issued_iso": "2026-06-06T17:38:00.000Z",
+        "expires": "2026-06-06T21:05",
+        "expires_iso": "2026-06-06T19:05:00.000Z",
+        "location": "schleswig-holstein",
+        "hail": "0.5-1cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstors is moving northeast near Lubeck in the direction of denmark, producing hail and lighting.",
+        "hazards": {
+          "hail": "0.5-1cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-06T17:43:33.142Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.107422,
+              54.078729
+            ],
+            [
+              10.393066,
+              53.988395
+            ],
+            [
+              12.095947,
+              54.642055
+            ],
+            [
+              10.283203,
+              55.078367
+            ],
+            [
+              10.107422,
+              54.078729
             ]
           ]
         ]
