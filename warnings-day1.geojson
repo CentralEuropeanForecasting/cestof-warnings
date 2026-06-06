@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-06T14:49:47.143Z",
+  "generated_at": "2026-06-06T14:53:53.773Z",
   "features": [
     {
       "type": "Feature",
@@ -5733,6 +5733,73 @@
             [
               24.332351,
               44.222781
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780757463142",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-06T16:50",
+        "issued_iso": "2026-06-06T14:50:00.000Z",
+        "expires": "2026-06-06T18:30",
+        "expires_iso": "2026-06-06T16:30:00.000Z",
+        "location": "Near Agnita moving north-west",
+        "hail": "0.5-2cm",
+        "wind": "30-55kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Many Severe thunderstorms near each other producing heavy rain hail up to 2cm and wind gusts up to 55kph",
+        "hazards": {
+          "hail": "0.5-2cm",
+          "wind": "30-55kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-06T14:53:51.044Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.535457,
+              45.46032
+            ],
+            [
+              24.630342,
+              46.371807
+            ],
+            [
+              25.623545,
+              46.758115
+            ],
+            [
+              25.848768,
+              46.28409
+            ],
+            [
+              25.948678,
+              45.902959
+            ],
+            [
+              25.332372,
+              45.61255
+            ],
+            [
+              24.535457,
+              45.46032
             ]
           ]
         ]
