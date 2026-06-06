@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-05T18:28:38.953Z",
+  "generated_at": "2026-06-06T10:09:06.750Z",
   "features": [
     {
       "type": "Feature",
@@ -5280,6 +5280,77 @@
             [
               12.458496,
               52.729639
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780740406257",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-06T12:04",
+        "issued_iso": "2026-06-06T10:04:00.000Z",
+        "expires": "2026-06-06T13:20",
+        "expires_iso": "2026-06-06T11:20:00.000Z",
+        "location": "Near Clopotiva moving west",
+        "hail": "1.5cm-2.0cm",
+        "wind": "50kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Small line of developing thunderstorms with 2cm max hail and 50kph wind gusts.\nLightning may get big and strong",
+        "hazards": {
+          "hail": "1.5cm-2.0cm",
+          "wind": "50kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-06T10:09:03.568Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.636086,
+              45.047697
+            ],
+            [
+              22.763628,
+              45.856654
+            ],
+            [
+              23.666306,
+              46.094689
+            ],
+            [
+              23.797047,
+              45.885878
+            ],
+            [
+              23.7969,
+              45.679431
+            ],
+            [
+              23.72322,
+              45.409953
+            ],
+            [
+              23.430909,
+              45.280242
+            ],
+            [
+              22.636086,
+              45.047697
             ]
           ]
         ]
