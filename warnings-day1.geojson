@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-06T10:15:07.127Z",
+  "generated_at": "2026-06-06T10:22:08.143Z",
   "features": [
     {
       "type": "Feature",
@@ -5414,6 +5414,69 @@
             [
               26.411838,
               46.694426
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780741163531",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-06T12:17",
+        "issued_iso": "2026-06-06T10:17:00.000Z",
+        "expires": "2026-06-06T13:20",
+        "expires_iso": "2026-06-06T11:20:00.000Z",
+        "location": "West of Bucharest moving west",
+        "hail": "2cm",
+        "wind": "45kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Newly developed thunderstorm that might become a supercell in the next 1 hour \nMax hail 2cm and wind gusts 45kph",
+        "hazards": {
+          "hail": "2cm",
+          "wind": "45kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-06T10:22:06.262Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.027934,
+              44.228734
+            ],
+            [
+              26.105786,
+              44.035951
+            ],
+            [
+              26.859526,
+              44.104511
+            ],
+            [
+              26.958608,
+              44.345112
+            ],
+            [
+              26.82414,
+              44.471349
+            ],
+            [
+              26.027934,
+              44.228734
             ]
           ]
         ]
