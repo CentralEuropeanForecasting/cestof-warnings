@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-06T17:48:15.300Z",
+  "generated_at": "2026-06-06T17:57:25.784Z",
   "features": [
     {
       "type": "Feature",
@@ -5981,6 +5981,65 @@
             [
               10.107422,
               54.078729
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780768399679",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-06T19:52",
+        "issued_iso": "2026-06-06T17:52:00.000Z",
+        "expires": "2026-06-06T21:04",
+        "expires_iso": "2026-06-06T19:04:00.000Z",
+        "location": "france and belgium",
+        "hail": "1-2cm",
+        "wind": "60km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving east, located near nouzonville, moving to bertrix. The storm is producing mainly hail and some lighting.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "60km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-06T17:57:21.091Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.361572,
+              49.887557
+            ],
+            [
+              4.405518,
+              49.703168
+            ],
+            [
+              5.800781,
+              49.632062
+            ],
+            [
+              5.614014,
+              50.303376
+            ],
+            [
+              4.361572,
+              49.887557
             ]
           ]
         ]
