@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-06T12:36:56.184Z",
+  "generated_at": "2026-06-06T14:49:47.143Z",
   "features": [
     {
       "type": "Feature",
@@ -5670,6 +5670,69 @@
             [
               23.589807,
               46.130143
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780757270222",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-06T16:47",
+        "issued_iso": "2026-06-06T14:47:00.000Z",
+        "expires": "2026-06-06T18:00",
+        "expires_iso": "2026-06-06T16:00:00.000Z",
+        "location": "Near Caracal moving west",
+        "hail": "1.5-2cm",
+        "wind": "40kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Strong thunderstorm with up to 2cm hail 40kph wind gusts and a lot of lightning some may even be strong",
+        "hazards": {
+          "hail": "1.5-2cm",
+          "wind": "40kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-06T14:49:44.945Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.332351,
+              44.222781
+            ],
+            [
+              24.158281,
+              43.792086
+            ],
+            [
+              25.1954,
+              43.859109
+            ],
+            [
+              25.239049,
+              44.129989
+            ],
+            [
+              25.264837,
+              44.339537
+            ],
+            [
+              24.332351,
+              44.222781
             ]
           ]
         ]
