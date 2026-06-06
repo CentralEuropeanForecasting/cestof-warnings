@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-06T19:42:00.152Z",
+  "generated_at": "2026-06-06T19:45:36.326Z",
   "features": [
     {
       "type": "Feature",
@@ -6221,6 +6221,69 @@
             [
               24.965984,
               42.798163
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780774995733",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-06T21:42",
+        "issued_iso": "2026-06-06T19:42:00.000Z",
+        "expires": "2026-06-06T22:40",
+        "expires_iso": "2026-06-06T20:40:00.000Z",
+        "location": "",
+        "hail": "0.05-0.2cm",
+        "wind": "Near zwettl moving west",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Dying thunderstorm with weak and unorganized lightning",
+        "hazards": {
+          "hail": "0.05-0.2cm",
+          "wind": "Near zwettl moving west",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-06T19:45:34.027Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.756147,
+              48.945964
+            ],
+            [
+              14.720951,
+              48.679553
+            ],
+            [
+              15.652651,
+              48.56556
+            ],
+            [
+              15.785751,
+              48.783822
+            ],
+            [
+              15.738987,
+              49.005851
+            ],
+            [
+              14.756147,
+              48.945964
             ]
           ]
         ]
