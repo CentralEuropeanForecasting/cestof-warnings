@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-06T14:53:53.773Z",
+  "generated_at": "2026-06-06T14:58:29.520Z",
   "features": [
     {
       "type": "Feature",
@@ -5800,6 +5800,69 @@
             [
               24.535457,
               45.46032
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780757723512",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-06T16:54",
+        "issued_iso": "2026-06-06T14:54:00.000Z",
+        "expires": "2026-06-06T18:00",
+        "expires_iso": "2026-06-06T16:00:00.000Z",
+        "location": "South of Haag moving west",
+        "hail": "0.5-1.5cm",
+        "wind": "50kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Severe developing thunderstorm with lots of lightning some may be strong.\nHail up to 1.5cm and wind gusts up to 50kph",
+        "hazards": {
+          "hail": "0.5-1.5cm",
+          "wind": "50kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-06T14:58:27.272Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.916412,
+              48.142202
+            ],
+            [
+              11.945745,
+              47.946347
+            ],
+            [
+              12.913717,
+              47.939805
+            ],
+            [
+              13.065269,
+              48.112873
+            ],
+            [
+              12.952827,
+              48.298352
+            ],
+            [
+              11.916412,
+              48.142202
             ]
           ]
         ]
