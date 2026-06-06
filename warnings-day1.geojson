@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-06T10:22:08.143Z",
+  "generated_at": "2026-06-06T10:29:33.275Z",
   "features": [
     {
       "type": "Feature",
@@ -5477,6 +5477,73 @@
             [
               26.027934,
               44.228734
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780741458783",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-06T12:23",
+        "issued_iso": "2026-06-06T10:23:00.000Z",
+        "expires": "2026-06-06T13:30",
+        "expires_iso": "2026-06-06T11:30:00.000Z",
+        "location": "Near Bucharest moving west",
+        "hail": "3cm-4.5cm",
+        "wind": "55kph",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "Severe thunderstorm with hail bigger than 3cm and wind gusts 55kph with strong lightning and a flooding risk",
+        "hazards": {
+          "hail": "3cm-4.5cm",
+          "wind": "55kph",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-06T10:29:31.341Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.10654,
+              44.57681
+            ],
+            [
+              26.292125,
+              44.341206
+            ],
+            [
+              26.962883,
+              44.483271
+            ],
+            [
+              27.193826,
+              44.59723
+            ],
+            [
+              27.081167,
+              44.801398
+            ],
+            [
+              26.844726,
+              44.855911
+            ],
+            [
+              26.10654,
+              44.57681
             ]
           ]
         ]
