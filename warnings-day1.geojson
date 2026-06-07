@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-07T11:40:48.034Z",
+  "generated_at": "2026-06-07T13:24:05.993Z",
   "features": [
     {
       "type": "Feature",
@@ -6638,6 +6638,65 @@
             [
               17.116699,
               54.889246
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780838631783",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-07T16:21",
+        "issued_iso": "2026-06-07T13:21:00.000Z",
+        "expires": "2026-06-07T17:55",
+        "expires_iso": "2026-06-07T14:55:00.000Z",
+        "location": "Arges/Dâmbovița county Romania",
+        "hail": "0.5-2.5 cm",
+        "wind": "50-70 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A storm is moving SE producing small to isolated medium hail, heavy rain and frequent lightning.",
+        "hazards": {
+          "hail": "0.5-2.5 cm",
+          "wind": "50-70 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 2,
+        "forecaster_is_owner": false,
+        "issued_by": "Deyu",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-07T13:24:03.251Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.15274,
+              44.84754
+            ],
+            [
+              24.708771,
+              44.719856
+            ],
+            [
+              24.932588,
+              44.094124
+            ],
+            [
+              25.801965,
+              44.449751
+            ],
+            [
+              25.15274,
+              44.84754
             ]
           ]
         ]
