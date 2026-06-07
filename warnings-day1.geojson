@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-07T10:35:49.863Z",
+  "generated_at": "2026-06-07T11:25:16.532Z",
   "features": [
     {
       "type": "Feature",
@@ -6343,6 +6343,242 @@
             [
               25.284951,
               45.28896
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780830716710",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-07T13:10",
+        "issued_iso": "2026-06-07T11:10:00.000Z",
+        "expires": "2026-06-07T14:10",
+        "expires_iso": "2026-06-07T12:10:00.000Z",
+        "location": "poland",
+        "hail": "1-4cm",
+        "wind": "40-70km/h",
+        "tornado_probability": "Low",
+        "rotation": "",
+        "md_number": "",
+        "text": "this line of thunderstorms is pulling trough poland, going northeast to Chojnice. The storms are producing hail, wind gusts and lightning.",
+        "hazards": {
+          "hail": "1-4cm",
+          "wind": "40-70km/h",
+          "tornado_probability": "Low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 2,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-07T11:14:31.431Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.391602,
+              53.91081
+            ],
+            [
+              17.138672,
+              52.955257
+            ],
+            [
+              18.61084,
+              52.981723
+            ],
+            [
+              17.391357,
+              54.386955
+            ],
+            [
+              16.391602,
+              53.91081
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780830948171",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-07T13:15",
+        "issued_iso": "2026-06-07T11:15:00.000Z",
+        "expires": "2026-06-07T14:06",
+        "expires_iso": "2026-06-07T12:06:00.000Z",
+        "location": "poland, near Czarne",
+        "hail": "2-3cm",
+        "wind": "70km/h",
+        "tornado_probability": "Low",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "this severe thunderstorm is located near Czarne and is moving northeast to Chojnice, producing large hail, damaging winds and lightning.",
+        "hazards": {
+          "hail": "2-3cm",
+          "wind": "70km/h",
+          "tornado_probability": "Low",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 2,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-07T11:20:57.646Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.809082,
+              53.579461
+            ],
+            [
+              16.896973,
+              53.455349
+            ],
+            [
+              18.182373,
+              53.46189
+            ],
+            [
+              17.698975,
+              54.09806
+            ],
+            [
+              16.809082,
+              53.579461
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780831311411",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-07T13:20",
+        "issued_iso": "2026-06-07T11:20:00.000Z",
+        "expires": "2026-06-07T14:06",
+        "expires_iso": "2026-06-07T12:06:00.000Z",
+        "location": "poland, near Wroclaw",
+        "hail": "1-2cm",
+        "wind": "55km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is located near Wroclaw and is moving northeast to Kluczbork, producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "55km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 2,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-07T11:25:13.621Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.951904,
+              50.916887
+            ],
+            [
+              17.08374,
+              50.708634
+            ],
+            [
+              18.292236,
+              50.652943
+            ],
+            [
+              17.907715,
+              51.385495
+            ],
+            [
+              16.951904,
+              50.916887
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780831429489",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-07T13:20",
+        "issued_iso": "2026-06-07T11:20:00.000Z",
+        "expires": "2026-06-07T14:06",
+        "expires_iso": "2026-06-07T12:06:00.000Z",
+        "location": "germany, near rostock",
+        "hail": "0-2cm",
+        "wind": "40-60km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "this group of thunderstorms is located near stralsund and is moving northeast to sassnitz, producing hail and lightning.",
+        "hazards": {
+          "hail": "0-2cm",
+          "wind": "40-60km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 2,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-07T11:25:02.952Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.744141,
+              54.329338
+            ],
+            [
+              13.447266,
+              53.917281
+            ],
+            [
+              14.622803,
+              54.046489
+            ],
+            [
+              13.304443,
+              54.749991
+            ],
+            [
+              12.744141,
+              54.329338
             ]
           ]
         ]
