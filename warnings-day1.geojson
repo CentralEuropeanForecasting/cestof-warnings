@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-08T19:08:04.286Z",
+  "generated_at": "2026-06-08T19:10:21.975Z",
   "features": [
     {
       "type": "Feature",
@@ -7573,6 +7573,89 @@
             [
               11.25,
               48.922499
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780945723300",
+        "type": "Flooding / Flash Flood Warning",
+        "issued": "2026-06-08T21:05",
+        "issued_iso": "2026-06-08T19:05:00.000Z",
+        "expires": "2026-06-08T22:05",
+        "expires_iso": "2026-06-08T20:05:00.000Z",
+        "location": "Noordwolde, near Steenwijk",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A rainburst has occured at the warned spot. be aware of floods in the area. more rain has yet to come.",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 2,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-08T19:10:19.832Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.102905,
+              52.865814
+            ],
+            [
+              6.168823,
+              52.852547
+            ],
+            [
+              6.223755,
+              52.865814
+            ],
+            [
+              6.300659,
+              52.88902
+            ],
+            [
+              6.300659,
+              52.932086
+            ],
+            [
+              6.2677,
+              52.978416
+            ],
+            [
+              6.16333,
+              53.004868
+            ],
+            [
+              6.075439,
+              53.001562
+            ],
+            [
+              6.009521,
+              52.958566
+            ],
+            [
+              5.998535,
+              52.918839
+            ],
+            [
+              6.102905,
+              52.865814
             ]
           ]
         ]
