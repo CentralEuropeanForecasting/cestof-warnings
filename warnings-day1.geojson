@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-08T12:00:31.488Z",
+  "generated_at": "2026-06-08T15:22:07.806Z",
   "features": [
     {
       "type": "Feature",
@@ -6815,6 +6815,97 @@
             [
               25.70528,
               45.118826
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780932107280",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-08T17:17",
+        "issued_iso": "2026-06-08T15:17:00.000Z",
+        "expires": "2026-06-08T19:20",
+        "expires_iso": "2026-06-08T17:20:00.000Z",
+        "location": "Southern Baden-Württemberg",
+        "hail": "2cm max",
+        "wind": "<70km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A couple of weak pulse storms are iniciating in this region, they can rarely bring hail up to 2cm. Winds up to 70 km/h are possible in stronger cells. Lightning activity is moderate.",
+        "hazards": {
+          "hail": "2cm max",
+          "wind": "<70km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 2,
+        "forecaster_is_owner": false,
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-08T15:22:06.790Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.463593,
+              47.615421
+            ],
+            [
+              7.601166,
+              47.593199
+            ],
+            [
+              7.559967,
+              47.837127
+            ],
+            [
+              7.749481,
+              48.37997
+            ],
+            [
+              8.190308,
+              48.944151
+            ],
+            [
+              9.091187,
+              48.987427
+            ],
+            [
+              10.046997,
+              48.799627
+            ],
+            [
+              10.134888,
+              48.465637
+            ],
+            [
+              9.838257,
+              47.606163
+            ],
+            [
+              8.805542,
+              47.687579
+            ],
+            [
+              8.504105,
+              47.826064
+            ],
+            [
+              8.364029,
+              47.683881
+            ],
+            [
+              8.463593,
+              47.615421
             ]
           ]
         ]
