@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-08T19:04:06.468Z",
+  "generated_at": "2026-06-08T19:08:04.286Z",
   "features": [
     {
       "type": "Feature",
@@ -7514,6 +7514,65 @@
             [
               6.679688,
               52.48947
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780945515839",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-08T21:05",
+        "issued_iso": "2026-06-08T19:05:00.000Z",
+        "expires": "2026-06-08T22:05",
+        "expires_iso": "2026-06-08T20:05:00.000Z",
+        "location": "bayern",
+        "hail": "0-1cm",
+        "wind": "50km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast near ingolstadt in the direction of regensburg. the storm is producing hail and lightning.",
+        "hazards": {
+          "hail": "0-1cm",
+          "wind": "50km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 2,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-08T19:07:30.365Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.25,
+              48.922499
+            ],
+            [
+              11.326904,
+              48.814099
+            ],
+            [
+              12.711182,
+              48.929718
+            ],
+            [
+              12.11792,
+              49.539469
+            ],
+            [
+              11.25,
+              48.922499
             ]
           ]
         ]
