@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-08T11:49:05.013Z",
+  "generated_at": "2026-06-08T12:00:31.488Z",
   "features": [
     {
       "type": "Feature",
@@ -6756,6 +6756,65 @@
             [
               27.125077,
               45.578068
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780920020114",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-08T14:57",
+        "issued_iso": "2026-06-08T11:57:00.000Z",
+        "expires": "2026-06-08T15:57",
+        "expires_iso": "2026-06-08T12:57:00.000Z",
+        "location": "Dâmbovița county Romania",
+        "hail": "0.5-2 cm",
+        "wind": "45-55 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A storm is moving SE near Târgoviște producing small to isolated medium hail, heavy rain and lightning.",
+        "hazards": {
+          "hail": "0.5-2 cm",
+          "wind": "45-55 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 2,
+        "forecaster_is_owner": false,
+        "issued_by": "Deyu",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-08T12:00:27.913Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.70528,
+              45.118826
+            ],
+            [
+              25.35982,
+              45.03915
+            ],
+            [
+              25.507806,
+              44.436967
+            ],
+            [
+              26.153598,
+              44.734614
+            ],
+            [
+              25.70528,
+              45.118826
             ]
           ]
         ]
