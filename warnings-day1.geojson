@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-08T15:22:07.806Z",
+  "generated_at": "2026-06-08T18:23:42.878Z",
   "features": [
     {
       "type": "Feature",
@@ -6906,6 +6906,124 @@
             [
               8.463593,
               47.615421
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780942698480",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-08T20:18",
+        "issued_iso": "2026-06-08T18:18:00.000Z",
+        "expires": "2026-06-08T21:07",
+        "expires_iso": "2026-06-08T19:07:00.000Z",
+        "location": "bayern",
+        "hail": "1-2cm",
+        "wind": "70km/h",
+        "tornado_probability": "Low",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "This severe thunderstorm is moving northeast near Ingolstadt  in the direction of regensburg. the storm is gradually weakening, but radar still indicated relatively strong rotation, strong wind gusts and some hail.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "70km/h",
+          "tornado_probability": "Low",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 2,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-08T18:22:06.576Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.755615,
+              48.777913
+            ],
+            [
+              10.865479,
+              48.611122
+            ],
+            [
+              12.161865,
+              48.632909
+            ],
+            [
+              11.711426,
+              49.296472
+            ],
+            [
+              10.755615,
+              48.777913
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1780942884743",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-08T20:18",
+        "issued_iso": "2026-06-08T18:18:00.000Z",
+        "expires": "2026-06-08T21:07",
+        "expires_iso": "2026-06-08T19:07:00.000Z",
+        "location": "bayern",
+        "hail": "1-2cm",
+        "wind": "55km/h",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "this thunderstorm is moving northeast near augsburg in the direction of landshut. the storm is producing hail and lightning.",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "55km/h",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 2,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-08T18:23:38.329Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.843506,
+              48.472921
+            ],
+            [
+              10.931396,
+              48.246626
+            ],
+            [
+              12.414551,
+              48.297812
+            ],
+            [
+              11.975098,
+              48.958581
+            ],
+            [
+              10.843506,
+              48.472921
             ]
           ]
         ]
