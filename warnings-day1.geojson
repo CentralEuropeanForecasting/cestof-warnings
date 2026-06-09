@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-09T11:33:38.022Z",
+  "generated_at": "2026-06-09T11:45:49.237Z",
   "features": [
     {
       "type": "Feature",
@@ -7900,6 +7900,65 @@
             [
               17.297836,
               47.486028
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781005145863",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-09T13:38",
+        "issued_iso": "2026-06-09T11:38:00.000Z",
+        "expires": "2026-06-09T14:38",
+        "expires_iso": "2026-06-09T12:38:00.000Z",
+        "location": "Świętokrzyskie Voivodeship province - SE Poland",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunderstorms have organised into smaller line segment. Stronger winds present",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Peter",
+        "forecaster_name": "Peter",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Peter",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-09T11:45:40.523Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.374374,
+              50.271086
+            ],
+            [
+              21.857816,
+              50.453307
+            ],
+            [
+              21.18752,
+              51.436204
+            ],
+            [
+              19.879893,
+              51.037249
+            ],
+            [
+              20.374374,
+              50.271086
             ]
           ]
         ]
