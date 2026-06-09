@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-09T11:19:48.443Z",
+  "generated_at": "2026-06-09T11:28:39.863Z",
   "features": [
     {
       "type": "Feature",
@@ -7719,6 +7719,69 @@
             [
               18.627319,
               50.366489
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781004496107",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-09T14:25",
+        "issued_iso": "2026-06-09T11:25:00.000Z",
+        "expires": "2026-06-09T15:50",
+        "expires_iso": "2026-06-09T12:50:00.000Z",
+        "location": "Tulcea/Constanta counties Romania",
+        "hail": "1-4 cm",
+        "wind": "50-70 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A storm developed quickly, and now is producing small-medium sized hail, heavy rain and lightning. Isolated hail might be in large quantities.",
+        "hazards": {
+          "hail": "1-4 cm",
+          "wind": "50-70 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 2,
+        "forecaster_is_owner": false,
+        "issued_by": "Deyu",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-09T11:28:33.217Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.117393,
+              44.694719
+            ],
+            [
+              28.716682,
+              44.707408
+            ],
+            [
+              28.934543,
+              44.068391
+            ],
+            [
+              28.340981,
+              44.044375
+            ],
+            [
+              28.072265,
+              44.016235
+            ],
+            [
+              28.117393,
+              44.694719
             ]
           ]
         ]
