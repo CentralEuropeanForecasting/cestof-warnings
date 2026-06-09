@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-09T12:33:15.674Z",
+  "generated_at": "2026-06-09T11:30:23.802Z",
   "features": [
     {
       "type": "Feature",
@@ -7841,6 +7841,65 @@
             [
               25.915285,
               45.215044
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781004381263",
+        "type": "Thunderstorm Watch",
+        "issued": "2026-06-09T13:21",
+        "issued_iso": "2026-06-09T11:21:00.000Z",
+        "expires": "2026-06-09T15:21",
+        "expires_iso": "2026-06-09T13:21:00.000Z",
+        "location": "Western and Northern Slovakia, Southeastern Moravia, Southern Poland",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "Widespread initiation of thunderstorms will very soon take place. They might get severe due to heavy rain.",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "Peter",
+        "forecaster_name": "Peter",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Peter",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-09T11:29:19.388Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.297836,
+              47.486028
+            ],
+            [
+              21.627288,
+              49.708852
+            ],
+            [
+              18.385693,
+              50.154378
+            ],
+            [
+              15.484741,
+              48.515149
+            ],
+            [
+              17.297836,
+              47.486028
             ]
           ]
         ]
