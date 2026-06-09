@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-09T11:45:49.237Z",
+  "generated_at": "2026-06-09T15:38:47.563Z",
   "features": [
     {
       "type": "Feature",
@@ -7959,6 +7959,65 @@
             [
               20.374374,
               50.271086
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781019374339",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-09T17:35",
+        "issued_iso": "2026-06-09T15:35:00.000Z",
+        "expires": "2026-06-09T18:35",
+        "expires_iso": "2026-06-09T16:35:00.000Z",
+        "location": "north-brabant, gelderland, utrecht",
+        "hail": "2-3cm",
+        "wind": "70km/h",
+        "tornado_probability": "Low",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "this severe thunderstorm is moving northeast near waalwijk in the direction of apeldoorn, producing lightning and hail.",
+        "hazards": {
+          "hail": "2-3cm",
+          "wind": "70km/h",
+          "tornado_probability": "Low",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 2,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-09T15:38:45.280Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.844971,
+              51.727028
+            ],
+            [
+              5.020752,
+              51.604372
+            ],
+            [
+              6.679688,
+              51.917168
+            ],
+            [
+              5.449219,
+              52.409121
+            ],
+            [
+              4.844971,
+              51.727028
             ]
           ]
         ]
