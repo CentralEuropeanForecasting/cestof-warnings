@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-08T19:14:31.481Z",
+  "generated_at": "2026-06-09T11:19:48.443Z",
   "features": [
     {
       "type": "Feature",
@@ -7656,6 +7656,69 @@
             [
               6.102905,
               52.865814
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781003977164",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-09T13:16",
+        "issued_iso": "2026-06-09T11:16:00.000Z",
+        "expires": "2026-06-09T14:16",
+        "expires_iso": "2026-06-09T12:16:00.000Z",
+        "location": "near hlivice moving north-east",
+        "hail": "0-0.5cm",
+        "wind": "50kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "newly developed thunderstorm that is developing quicly",
+        "hazards": {
+          "hail": "0-0.5cm",
+          "wind": "50kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 2,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-09T11:19:46.075Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.627319,
+              50.366489
+            ],
+            [
+              18.726196,
+              50.268277
+            ],
+            [
+              19.352417,
+              50.35948
+            ],
+            [
+              19.330444,
+              50.485474
+            ],
+            [
+              19.160156,
+              50.57626
+            ],
+            [
+              18.627319,
+              50.366489
             ]
           ]
         ]
