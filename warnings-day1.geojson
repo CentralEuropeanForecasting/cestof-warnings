@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-09T11:28:39.863Z",
+  "generated_at": "2026-06-09T12:33:15.674Z",
   "features": [
     {
       "type": "Feature",
@@ -7782,6 +7782,65 @@
             [
               28.117393,
               44.694719
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781008365321",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-09T15:30",
+        "issued_iso": "2026-06-09T12:30:00.000Z",
+        "expires": "2026-06-09T16:50",
+        "expires_iso": "2026-06-09T13:50:00.000Z",
+        "location": "Prahova county Romania",
+        "hail": "0.5-3.5 cm",
+        "wind": "50-65 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A storm is moving south producing small to isolated medium hail, heavy rain and frequent lightning.",
+        "hazards": {
+          "hail": "0.5-3.5 cm",
+          "wind": "50-65 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 2,
+        "forecaster_is_owner": false,
+        "issued_by": "Deyu",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-09T12:33:10.663Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.915285,
+              45.215044
+            ],
+            [
+              26.415149,
+              45.287068
+            ],
+            [
+              26.905163,
+              44.700342
+            ],
+            [
+              25.974392,
+              44.540202
+            ],
+            [
+              25.915285,
+              45.215044
             ]
           ]
         ]
