@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-10T20:22:18.719Z",
+  "generated_at": "2026-06-10T20:26:21.499Z",
   "features": [
     {
       "type": "Feature",
@@ -8813,6 +8813,89 @@
             [
               15.847778,
               46.897739
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781123147060",
+        "type": "Severe Wind Gusts Warning",
+        "issued": "2026-06-10T22:25",
+        "issued_iso": "2026-06-10T20:25:00.000Z",
+        "expires": "2026-06-10T23:25",
+        "expires_iso": "2026-06-10T21:25:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "100+km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Severe wind gusts are expected as and strong MCS passes through.",
+        "hazards": {
+          "hail": "",
+          "wind": "100+km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": true,
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-10T20:26:18.330Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.122437,
+              46.905246
+            ],
+            [
+              16.122437,
+              46.656977
+            ],
+            [
+              15.979614,
+              46.339343
+            ],
+            [
+              16.44104,
+              46.24825
+            ],
+            [
+              16.737671,
+              46.263443
+            ],
+            [
+              16.990356,
+              46.452997
+            ],
+            [
+              17.001343,
+              46.747389
+            ],
+            [
+              16.902466,
+              46.972756
+            ],
+            [
+              16.682739,
+              47.062638
+            ],
+            [
+              16.342163,
+              47.017716
+            ],
+            [
+              16.122437,
+              46.905246
             ]
           ]
         ]
