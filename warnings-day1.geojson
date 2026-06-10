@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-10T16:33:10.605Z",
+  "generated_at": "2026-06-10T16:41:02.234Z",
   "features": [
     {
       "type": "Feature",
@@ -8313,6 +8313,65 @@
             [
               20.714722,
               49.368066
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781109428085",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-10T18:35",
+        "issued_iso": "2026-06-10T16:35:00.000Z",
+        "expires": "2026-06-10T19:35",
+        "expires_iso": "2026-06-10T17:35:00.000Z",
+        "location": "Northeastern Slovakia/Southeastern Poland",
+        "hail": "2",
+        "wind": "60",
+        "tornado_probability": "Low",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "Supercell swept through cities Spišská Belá and Stará Lubovňa in Slovakia. Now entering Poland. High winds and hail present. Indicated rotation.",
+        "hazards": {
+          "hail": "2",
+          "wind": "60",
+          "tornado_probability": "Low",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "Peter",
+        "forecaster_name": "Peter",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": false,
+        "issued_by": "Peter",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-10T16:40:57.205Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.961914,
+              49.289903
+            ],
+            [
+              21.445313,
+              49.461579
+            ],
+            [
+              21.104736,
+              49.625539
+            ],
+            [
+              20.76416,
+              49.39012
+            ],
+            [
+              20.961914,
+              49.289903
             ]
           ]
         ]
