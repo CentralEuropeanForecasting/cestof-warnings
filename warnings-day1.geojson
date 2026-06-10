@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-10T15:24:02.858Z",
+  "generated_at": "2026-06-10T15:36:33.851Z",
   "features": [
     {
       "type": "Feature",
@@ -8195,6 +8195,65 @@
             [
               12.418284,
               45.608203
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781105773277",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-10T18:30",
+        "issued_iso": "2026-06-10T15:30:00.000Z",
+        "expires": "2026-06-10T19:50",
+        "expires_iso": "2026-06-10T16:50:00.000Z",
+        "location": "North Italy",
+        "hail": "1-4 cm",
+        "wind": "60-80 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A severe storm is moving east producing small and medium hail (can be in large quantities in some places), heavy rain, powerful gusts and very frequent lightning.",
+        "hazards": {
+          "hail": "1-4 cm",
+          "wind": "60-80 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 2,
+        "forecaster_is_owner": false,
+        "issued_by": "Deyu",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-10T15:36:31.428Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.885191,
+              45.769067
+            ],
+            [
+              10.120692,
+              45.24939
+            ],
+            [
+              11.543312,
+              45.365127
+            ],
+            [
+              11.464277,
+              46.301342
+            ],
+            [
+              9.885191,
+              45.769067
             ]
           ]
         ]
