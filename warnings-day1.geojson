@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-10T17:41:44.999Z",
+  "generated_at": "2026-06-10T18:39:45.156Z",
   "features": [
     {
       "type": "Feature",
@@ -8494,6 +8494,124 @@
             [
               20.110474,
               49.001844
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781116740059",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-10T20:38",
+        "issued_iso": "2026-06-10T18:38:00.000Z",
+        "expires": "2026-06-10T21:38",
+        "expires_iso": "2026-06-10T19:38:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "Elevated",
+        "rotation": "Strong rotation",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "Elevated",
+          "rotation": "Strong rotation"
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": true,
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-10T18:39:11.556Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.681519,
+              49.525208
+            ],
+            [
+              22.120972,
+              49.360912
+            ],
+            [
+              22.659302,
+              49.688955
+            ],
+            [
+              22.055054,
+              49.908787
+            ],
+            [
+              21.681519,
+              49.525208
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781116762121",
+        "type": "Tornado Watch",
+        "issued": "2026-06-10T20:38",
+        "issued_iso": "2026-06-10T18:38:00.000Z",
+        "expires": "2026-06-10T21:05",
+        "expires_iso": "2026-06-10T19:05:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "Elevated",
+        "rotation": "Strong rotation",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "Elevated",
+          "rotation": "Strong rotation"
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "forecaster_rank": 1,
+        "forecaster_is_owner": true,
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-10T18:39:42.730Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.890259,
+              49.518076
+            ],
+            [
+              22.077026,
+              49.410973
+            ],
+            [
+              22.494507,
+              49.667628
+            ],
+            [
+              22.164917,
+              49.767074
+            ],
+            [
+              21.890259,
+              49.518076
             ]
           ]
         ]
