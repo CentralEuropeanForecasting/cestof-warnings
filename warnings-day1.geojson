@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-10T13:34:35.012Z",
+  "generated_at": "2026-06-10T15:24:02.858Z",
   "features": [
     {
       "type": "Feature",
@@ -8136,6 +8136,65 @@
             [
               25.869372,
               45.351916
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781105001436",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-10T18:18",
+        "issued_iso": "2026-06-10T15:18:00.000Z",
+        "expires": "2026-06-10T19:50",
+        "expires_iso": "2026-06-10T16:50:00.000Z",
+        "location": "Northeast Italy",
+        "hail": "0.5-4 cm",
+        "wind": "60-80 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A severe storm is moving east producing small to medium sized hail, torential rain, powerful gusts and very frequent lightning.",
+        "hazards": {
+          "hail": "0.5-4 cm",
+          "wind": "60-80 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Deyu",
+        "forecaster_name": "Deyu",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 2,
+        "forecaster_is_owner": false,
+        "issued_by": "Deyu",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-10T15:23:48.961Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.418284,
+              45.608203
+            ],
+            [
+              12.088403,
+              46.128854
+            ],
+            [
+              13.107372,
+              46.59637
+            ],
+            [
+              13.596927,
+              45.789479
+            ],
+            [
+              12.418284,
+              45.608203
             ]
           ]
         ]
