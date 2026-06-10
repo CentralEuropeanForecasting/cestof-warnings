@@ -3789,9 +3789,9 @@
         "description": "",
         "hatched": false,
         "doubleHatch": false,
-        "probability": "45",
+        "probability": ">50",
         "intensity": "2",
-        "riskLabel": "General Risk"
+        "riskLabel": "T-Storm Risk"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7346,7 +7346,7 @@
         "doubleHatch": false,
         "probability": ">50",
         "intensity": "3",
-        "riskLabel": "Slight Risk"
+        "riskLabel": "General Risk"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9534,19 +9534,18 @@
       "type": "Feature",
       "properties": {
         "fid": null,
-        "prob": null,
-        "warning": 1,
-        "date": null,
+        "prob": 30,
+        "warning": 0,
+        "date": "1",
         "kind": "outlook",
         "hazard": "general",
-        "title": "Hatched area",
+        "title": "",
         "description": "",
-        "hatched": true,
+        "hatched": false,
         "doubleHatch": false,
-        "probability": "",
-        "intensity": "",
-        "riskLabel": "",
-        "hatchOnly": true
+        "probability": ">50",
+        "intensity": "4",
+        "riskLabel": "Enhanced Risk"
       },
       "geometry": {
         "type": "MultiPolygon",
