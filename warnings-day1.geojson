@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-11T12:11:56.160Z",
+  "generated_at": "2026-06-14T15:16:50.618Z",
   "features": [
     {
       "type": "Feature",
@@ -8955,6 +8955,69 @@
             [
               25.791294,
               47.846248
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781450174796",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-14T17:12",
+        "issued_iso": "2026-06-14T15:12:00.000Z",
+        "expires": "2026-06-14T19:15",
+        "expires_iso": "2026-06-14T17:15:00.000Z",
+        "location": "Near Koprivnica moving south-east",
+        "hail": "1-2.5cm",
+        "wind": "50-75kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Very severe thunderstorm with over 7k lightning strikes per hour.\nMax hail: 2.5cm\nMax Wind gusts: 75-80kph",
+        "hazards": {
+          "hail": "1-2.5cm",
+          "wind": "50-75kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-14T15:16:48.358Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.799377,
+              46.424867
+            ],
+            [
+              16.05024,
+              46.223038
+            ],
+            [
+              16.643516,
+              45.186732
+            ],
+            [
+              17.551074,
+              45.108352
+            ],
+            [
+              17.911375,
+              45.674379
+            ],
+            [
+              16.799377,
+              46.424867
             ]
           ]
         ]
