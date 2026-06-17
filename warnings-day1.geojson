@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-17T07:50:17.518Z",
+  "generated_at": "2026-06-17T07:55:00.967Z",
   "features": [
     {
       "type": "Feature",
@@ -9081,6 +9081,69 @@
             [
               24.281166,
               42.703599
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781682881551",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-17T09:50",
+        "issued_iso": "2026-06-17T07:50:00.000Z",
+        "expires": "2026-06-17T11:00",
+        "expires_iso": "2026-06-17T09:00:00.000Z",
+        "location": "North of Dospat moving east",
+        "hail": "0.2-1.5cm",
+        "wind": "60kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Very quickly developing thunderstorm with a lot of lightning \nMax hail: 1.5cm\nMax wind gusts: 60kph",
+        "hazards": {
+          "hail": "0.2-1.5cm",
+          "wind": "60kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-17T07:54:59.266Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.084665,
+              41.967823
+            ],
+            [
+              24.078218,
+              41.768836
+            ],
+            [
+              24.945346,
+              41.601857
+            ],
+            [
+              25.02475,
+              41.852702
+            ],
+            [
+              24.900215,
+              42.077839
+            ],
+            [
+              24.084665,
+              41.967823
             ]
           ]
         ]
