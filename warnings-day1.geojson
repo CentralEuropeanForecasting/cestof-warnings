@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-14T15:17:32.817Z",
+  "generated_at": "2026-06-17T07:50:17.518Z",
   "features": [
     {
       "type": "Feature",
@@ -9018,6 +9018,69 @@
             [
               16.799377,
               46.424867
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781682587256",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-17T09:44",
+        "issued_iso": "2026-06-17T07:44:00.000Z",
+        "expires": "2026-06-17T10:45",
+        "expires_iso": "2026-06-17T08:45:00.000Z",
+        "location": "Near Karlovo moving east",
+        "hail": "0-0.5cm",
+        "wind": "55kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Quickly developing thunderstorm with \nmax hail: 0.5cm \nMax wind gusts: 55kph\nMight die in the next 45 minutes",
+        "hazards": {
+          "hail": "0-0.5cm",
+          "wind": "55kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-17T07:50:15.293Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.281166,
+              42.703599
+            ],
+            [
+              24.306954,
+              42.502174
+            ],
+            [
+              25.093492,
+              42.490305
+            ],
+            [
+              25.183751,
+              42.658631
+            ],
+            [
+              25.106386,
+              42.876067
+            ],
+            [
+              24.281166,
+              42.703599
             ]
           ]
         ]
