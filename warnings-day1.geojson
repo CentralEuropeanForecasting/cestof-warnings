@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-18T17:43:39.870Z",
+  "generated_at": "2026-06-18T17:57:29.906Z",
   "features": [
     {
       "type": "Feature",
@@ -9384,6 +9384,125 @@
             [
               2.977295,
               49.852152
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781805367051",
+        "type": "Tornado Watch",
+        "issued": "2026-06-18T19:55",
+        "issued_iso": "2026-06-18T17:55:00.000Z",
+        "expires": "2026-06-18T20:55",
+        "expires_iso": "2026-06-18T18:55:00.000Z",
+        "location": "France,Belgium,Netherlands,Part's of germany",
+        "hail": "",
+        "wind": "70kmh+",
+        "tornado_probability": "Possible",
+        "rotation": "",
+        "md_number": "",
+        "text": "severe thunderstorms with tornadoes today are very possible\nwatch out for flying debri and if a large storm is coming, Be inside!",
+        "hazards": {
+          "hail": "",
+          "wind": "70kmh+",
+          "tornado_probability": "Possible",
+          "rotation": ""
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-18T17:57:28.274Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.131104,
+              46.800059
+            ],
+            [
+              3.768311,
+              47.591346
+            ],
+            [
+              4.603271,
+              47.960502
+            ],
+            [
+              4.976807,
+              48.965794
+            ],
+            [
+              5.679932,
+              49.710273
+            ],
+            [
+              6.075439,
+              50.903033
+            ],
+            [
+              6.470947,
+              51.740636
+            ],
+            [
+              6.536865,
+              52.321911
+            ],
+            [
+              5.372314,
+              53.396432
+            ],
+            [
+              4.273682,
+              52.855864
+            ],
+            [
+              3.526611,
+              52.133488
+            ],
+            [
+              2.977295,
+              51.275662
+            ],
+            [
+              1.94458,
+              50.861444
+            ],
+            [
+              1.263428,
+              50.148746
+            ],
+            [
+              0.340576,
+              49.724479
+            ],
+            [
+              0.340576,
+              48.806863
+            ],
+            [
+              0.911865,
+              48.092757
+            ],
+            [
+              1.680908,
+              47.665387
+            ],
+            [
+              3.197021,
+              46.649436
+            ],
+            [
+              3.131104,
+              46.800059
             ]
           ]
         ]
