@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-18T14:22:06.026Z",
+  "generated_at": "2026-06-18T17:28:26.458Z",
   "features": [
     {
       "type": "Feature",
@@ -9207,6 +9207,124 @@
             [
               14.188994,
               48.905134
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781108960374",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-10T18:28",
+        "issued_iso": "2026-06-10T16:28:00.000Z",
+        "expires": "2026-06-10T19:28",
+        "expires_iso": "2026-06-10T17:28:00.000Z",
+        "location": "Gemerská Poloma,Slovakia",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 2,
+        "forecaster_is_owner": false,
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-10T16:29:20.374Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.3302,
+              48.683708
+            ],
+            [
+              20.462036,
+              48.647428
+            ],
+            [
+              20.707855,
+              48.736267
+            ],
+            [
+              20.375519,
+              48.783342
+            ],
+            [
+              20.3302,
+              48.683708
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781803546148",
+        "type": "Tornado Warning",
+        "issued": "2026-05-30T21:06",
+        "issued_iso": "2026-05-30T19:06:00.000Z",
+        "expires": "2026-05-30T22:16",
+        "expires_iso": "2026-05-30T20:16:00.000Z",
+        "location": "southwest belgium",
+        "hail": "",
+        "wind": "35-55kmh",
+        "tornado_probability": "Low",
+        "rotation": "",
+        "md_number": "",
+        "text": "a tornado threat is on the way in belgium, watch out for nocturnal tornado!",
+        "hazards": {
+          "hail": "",
+          "wind": "35-55kmh",
+          "tornado_probability": "Low",
+          "rotation": ""
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-18T17:25:46.148Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.180542,
+              50.092393
+            ],
+            [
+              3.202515,
+              50.007739
+            ],
+            [
+              3.983917,
+              50.127622
+            ],
+            [
+              3.541718,
+              50.467995
+            ],
+            [
+              3.180542,
+              50.092393
             ]
           ]
         ]
