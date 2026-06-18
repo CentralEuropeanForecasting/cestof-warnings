@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-18T17:58:02.059Z",
+  "generated_at": "2026-06-18T18:01:05.979Z",
   "features": [
     {
       "type": "Feature",
@@ -9503,6 +9503,65 @@
             [
               3.131104,
               46.800059
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781805538522",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-18T19:59",
+        "issued_iso": "2026-06-18T17:59:00.000Z",
+        "expires": "2026-06-18T20:09",
+        "expires_iso": "2026-06-18T18:09:00.000Z",
+        "location": "Alnoye,Aymeries,France",
+        "hail": "6,7cm",
+        "wind": "70kmh+",
+        "tornado_probability": "Low",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "Large hail indicated on Iradar,Watch out for strong winds and large hail!",
+        "hazards": {
+          "hail": "6,7cm",
+          "wind": "70kmh+",
+          "tornado_probability": "Low",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-18T18:01:01.874Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.433228,
+              50.148746
+            ],
+            [
+              3.685913,
+              50.120578
+            ],
+            [
+              4.321747,
+              50.243692
+            ],
+            [
+              3.593903,
+              50.389259
+            ],
+            [
+              3.433228,
+              50.148746
             ]
           ]
         ]
