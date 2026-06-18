@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-17T08:04:20.364Z",
+  "generated_at": "2026-06-18T14:22:06.026Z",
   "features": [
     {
       "type": "Feature",
@@ -9144,6 +9144,69 @@
             [
               24.084665,
               41.967823
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781792488948",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-18T16:12",
+        "issued_iso": "2026-06-18T14:12:00.000Z",
+        "expires": "2026-06-18T17:15",
+        "expires_iso": "2026-06-18T15:15:00.000Z",
+        "location": "Near Lipno nad Vltavou moving south-east",
+        "hail": "0.1-0.5cm",
+        "wind": "50kph",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Small thunderstorm with some lightning moving south-east near Český Krumlov.\nMax hail: 0.5cm\nMax Wind gusts: 50kph",
+        "hazards": {
+          "hail": "0.1-0.5cm",
+          "wind": "50kph",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "bearmax",
+        "forecaster_name": "Bearmax",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Bearmax",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-18T14:22:03.688Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.188994,
+              48.905134
+            ],
+            [
+              13.849665,
+              48.577029
+            ],
+            [
+              14.401564,
+              48.19296
+            ],
+            [
+              14.880636,
+              48.325715
+            ],
+            [
+              14.945878,
+              48.691213
+            ],
+            [
+              14.188994,
+              48.905134
             ]
           ]
         ]
