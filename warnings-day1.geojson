@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-18T17:34:33.803Z",
+  "generated_at": "2026-06-18T17:43:39.870Z",
   "features": [
     {
       "type": "Feature",
@@ -9325,6 +9325,65 @@
             [
               3.180542,
               50.092393
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781804501939",
+        "type": "Tornado Warning",
+        "issued": "2026-06-18T19:42",
+        "issued_iso": "2026-06-18T17:42:00.000Z",
+        "expires": "2026-06-18T19:55",
+        "expires_iso": "2026-06-18T17:55:00.000Z",
+        "location": "Gricourt,france",
+        "hail": "2,3cm",
+        "wind": "50kmh+",
+        "tornado_probability": "Elevated",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "Another rotation near Gricourt, please take shelter and watch out for debri!",
+        "hazards": {
+          "hail": "2,3cm",
+          "wind": "50kmh+",
+          "tornado_probability": "Elevated",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-18T17:43:37.795Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.977295,
+              49.852152
+            ],
+            [
+              3.435287,
+              50.024505
+            ],
+            [
+              3.617935,
+              49.820265
+            ],
+            [
+              3.004074,
+              49.779491
+            ],
+            [
+              2.977295,
+              49.852152
             ]
           ]
         ]
