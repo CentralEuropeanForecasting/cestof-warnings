@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-19T11:33:00.450Z",
+  "generated_at": "2026-06-19T11:34:17.008Z",
   "features": [
     {
       "type": "Feature",
@@ -9896,6 +9896,89 @@
             [
               13.353882,
               53.435719
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781868803110",
+        "type": "Tornado Watch",
+        "issued": "2026-06-19T13:33",
+        "issued_iso": "2026-06-19T11:33:00.000Z",
+        "expires": "2026-06-19T13:53",
+        "expires_iso": "2026-06-19T11:53:00.000Z",
+        "location": "Parts of East germany",
+        "hail": "4,6cm",
+        "wind": "65kmh+",
+        "tornado_probability": "Low",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "tornado watch for parts of germany, watch out!",
+        "hazards": {
+          "hail": "4,6cm",
+          "wind": "65kmh+",
+          "tornado_probability": "Low",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-19T11:34:14.838Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.136902,
+              53.317749
+            ],
+            [
+              13.367615,
+              53.229057
+            ],
+            [
+              13.6203,
+              53.215902
+            ],
+            [
+              13.922424,
+              53.261927
+            ],
+            [
+              14.208069,
+              53.343993
+            ],
+            [
+              14.323425,
+              53.45862
+            ],
+            [
+              14.301453,
+              53.599025
+            ],
+            [
+              14.219055,
+              53.748711
+            ],
+            [
+              13.774109,
+              53.742214
+            ],
+            [
+              13.274231,
+              53.546836
+            ],
+            [
+              13.136902,
+              53.317749
             ]
           ]
         ]
