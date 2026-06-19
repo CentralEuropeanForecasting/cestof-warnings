@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-19T13:13:10.858Z",
+  "generated_at": "2026-06-19T13:27:00.033Z",
   "features": [
     {
       "type": "Feature",
@@ -10097,6 +10097,65 @@
             [
               1.279907,
               48.900838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781875497094",
+        "type": "Tornado Watch",
+        "issued": "2026-06-19T15:26",
+        "issued_iso": "2026-06-19T13:26:00.000Z",
+        "expires": "2026-06-19T15:36",
+        "expires_iso": "2026-06-19T13:36:00.000Z",
+        "location": "Serez,france",
+        "hail": "5,3cm",
+        "wind": "70kmh+",
+        "tornado_probability": "Elevated",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "A tornado watch was issued for serez France,Tornadoes are very possible,watch out for hail,high winds, and flying debri.\nWatch out!",
+        "hazards": {
+          "hail": "5,3cm",
+          "wind": "70kmh+",
+          "tornado_probability": "Elevated",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-19T13:26:59.077Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.30188,
+              48.958581
+            ],
+            [
+              1.422729,
+              48.91528
+            ],
+            [
+              1.714554,
+              49.126915
+            ],
+            [
+              1.346512,
+              49.164645
+            ],
+            [
+              1.30188,
+              48.958581
             ]
           ]
         ]
