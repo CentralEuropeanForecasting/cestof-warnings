@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-19T04:48:37.305Z",
+  "generated_at": "2026-06-19T11:33:00.450Z",
   "features": [
     {
       "type": "Feature",
@@ -9837,6 +9837,65 @@
             [
               0.648193,
               46.905246
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781868640847",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-19T13:32",
+        "issued_iso": "2026-06-19T11:32:00.000Z",
+        "expires": "2026-06-19T13:42",
+        "expires_iso": "2026-06-19T11:42:00.000Z",
+        "location": "Hetzdorf,Germany",
+        "hail": "4,5cm",
+        "wind": "65kmh+",
+        "tornado_probability": "Low",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "A severe thunderstorm warning was issued for Hetzdorf Germany, high winds and 4,5cm hail with a possibility of tornadoes!",
+        "hazards": {
+          "hail": "4,5cm",
+          "wind": "65kmh+",
+          "tornado_probability": "Low",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-19T11:32:57.398Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.353882,
+              53.435719
+            ],
+            [
+              13.437653,
+              53.278353
+            ],
+            [
+              14.39621,
+              53.394794
+            ],
+            [
+              13.986969,
+              53.756831
+            ],
+            [
+              13.353882,
+              53.435719
             ]
           ]
         ]
