@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-19T11:34:17.008Z",
+  "generated_at": "2026-06-19T12:02:51.882Z",
   "features": [
     {
       "type": "Feature",
@@ -9979,6 +9979,65 @@
             [
               13.136902,
               53.317749
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781870254812",
+        "type": "Large Hail Warning",
+        "issued": "2026-06-19T13:57",
+        "issued_iso": "2026-06-19T11:57:00.000Z",
+        "expires": "2026-06-19T15:57",
+        "expires_iso": "2026-06-19T13:57:00.000Z",
+        "location": "dresden-bernsdorf",
+        "hail": "3.3 cm",
+        "wind": "",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "Thunder storms erupted near Dresden , Hail inside these storms going to be 33mm big , expect heavy rain fall , WEAK rotations were spotted near Lomnitz be aware on ongiong situation",
+        "hazards": {
+          "hail": "3.3 cm",
+          "wind": "",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "charles",
+        "forecaster_name": "Charles",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Charles",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-19T12:02:44.748Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.452759,
+              51.082822
+            ],
+            [
+              13.892212,
+              50.909961
+            ],
+            [
+              14.463501,
+              51.337476
+            ],
+            [
+              13.540649,
+              51.508742
+            ],
+            [
+              13.452759,
+              51.082822
             ]
           ]
         ]
