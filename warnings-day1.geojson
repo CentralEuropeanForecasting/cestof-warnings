@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-20T11:43:56.692Z",
+  "generated_at": "2026-06-20T11:46:33.746Z",
   "features": [
     {
       "type": "Feature",
@@ -10424,6 +10424,101 @@
             [
               13.200073,
               50.099441
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781955890868",
+        "type": "Tornado Watch",
+        "issued": "2026-06-20T13:46",
+        "issued_iso": "2026-06-20T11:46:00.000Z",
+        "expires": "2026-06-20T14:16",
+        "expires_iso": "2026-06-20T12:16:00.000Z",
+        "location": "Ústecký kraj,Karlovarský kraj,Plzeňský kraj and Středočeský kraj",
+        "hail": "5,8cm",
+        "wind": "70kmh+",
+        "tornado_probability": "Elevated",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "a tornado watch was issued for parts of Czechia. Tornadoes or Funnels are very possible",
+        "hazards": {
+          "hail": "5,8cm",
+          "wind": "70kmh+",
+          "tornado_probability": "Elevated",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-20T11:46:32.452Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.217926,
+              49.93708
+            ],
+            [
+              13.130035,
+              50.009504
+            ],
+            [
+              13.110809,
+              50.118817
+            ],
+            [
+              13.209686,
+              50.224367
+            ],
+            [
+              13.465118,
+              50.341955
+            ],
+            [
+              13.813934,
+              50.398014
+            ],
+            [
+              14.168243,
+              50.394512
+            ],
+            [
+              14.37973,
+              50.382254
+            ],
+            [
+              14.442902,
+              50.319162
+            ],
+            [
+              14.357758,
+              50.183933
+            ],
+            [
+              13.992462,
+              50.053612
+            ],
+            [
+              13.85788,
+              49.919399
+            ],
+            [
+              13.388214,
+              49.884017
+            ],
+            [
+              13.217926,
+              49.93708
             ]
           ]
         ]
