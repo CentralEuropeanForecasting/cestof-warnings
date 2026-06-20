@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-20T10:18:11.487Z",
+  "generated_at": "2026-06-20T10:20:36.346Z",
   "features": [
     {
       "type": "Feature",
@@ -10215,6 +10215,97 @@
             [
               13.859253,
               48.994636
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781950787115",
+        "type": "Thunderstorm Watch",
+        "issued": "2026-06-20T12:19",
+        "issued_iso": "2026-06-20T10:19:00.000Z",
+        "expires": "2026-06-20T13:19",
+        "expires_iso": "2026-06-20T11:19:00.000Z",
+        "location": "Czechia,Poland,Germany,Austria,Hungary,Slovakia",
+        "hail": "",
+        "wind": "70kmh+",
+        "tornado_probability": "Low",
+        "rotation": "",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "",
+          "wind": "70kmh+",
+          "tornado_probability": "Low",
+          "rotation": ""
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-20T10:20:34.858Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.854004,
+              52.133488
+            ],
+            [
+              10.83252,
+              51.124213
+            ],
+            [
+              10.700684,
+              49.979488
+            ],
+            [
+              11.447754,
+              48.019324
+            ],
+            [
+              12.32666,
+              47.279229
+            ],
+            [
+              13.513184,
+              46.739861
+            ],
+            [
+              16.45752,
+              46.377254
+            ],
+            [
+              18.435059,
+              47.129951
+            ],
+            [
+              19.138184,
+              48.195387
+            ],
+            [
+              18.083496,
+              50.373496
+            ],
+            [
+              15.666504,
+              52.536273
+            ],
+            [
+              12.897949,
+              52.829321
+            ],
+            [
+              12.854004,
+              52.133488
             ]
           ]
         ]
