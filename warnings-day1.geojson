@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-20T12:47:22.647Z",
+  "generated_at": "2026-06-20T22:37:15.649Z",
   "features": [
     {
       "type": "Feature",
@@ -10578,6 +10578,69 @@
             [
               14.683228,
               50.882243
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781994936371",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-04T13:59",
+        "issued_iso": "2026-06-04T11:59:00.000Z",
+        "expires": "2026-06-04T14:15",
+        "expires_iso": "2026-06-04T12:15:00.000Z",
+        "location": "Aisne , nord",
+        "hail": "1-2cm",
+        "wind": "60 kmh",
+        "tornado_probability": "Low",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "thunderstorm are ongoing with strong reflectivity and broad rotation",
+        "hazards": {
+          "hail": "1-2cm",
+          "wind": "60 kmh",
+          "tornado_probability": "Low",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "stormchase4ever",
+        "forecaster_name": "stormchase4ever",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "stormchase4ever",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-20T22:35:36.371Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.678944,
+              50.160478
+            ],
+            [
+              3.096926,
+              50.15344
+            ],
+            [
+              3.239685,
+              50.265936
+            ],
+            [
+              3.635018,
+              50.434183
+            ],
+            [
+              3.986425,
+              50.434183
+            ],
+            [
+              3.678944,
+              50.160478
             ]
           ]
         ]
