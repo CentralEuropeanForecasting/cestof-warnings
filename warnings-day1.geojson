@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-20T05:16:57.234Z",
+  "generated_at": "2026-06-20T10:18:11.487Z",
   "features": [
     {
       "type": "Feature",
@@ -10156,6 +10156,65 @@
             [
               1.30188,
               48.958581
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781950571970",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-20T12:18",
+        "issued_iso": "2026-06-20T10:18:00.000Z",
+        "expires": "2026-06-20T12:28",
+        "expires_iso": "2026-06-20T10:28:00.000Z",
+        "location": "Horní Záblatí,Czechia",
+        "hail": "4,7cm",
+        "wind": "65kmh+",
+        "tornado_probability": "Low",
+        "rotation": "",
+        "md_number": "",
+        "text": "a severe thunderstorm warning was issued for Horní Záblatí,\nhail with strong winds can be dangerous.If you see flying debri stay inside!",
+        "hazards": {
+          "hail": "4,7cm",
+          "wind": "65kmh+",
+          "tornado_probability": "Low",
+          "rotation": ""
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-20T10:18:08.530Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.859253,
+              48.994636
+            ],
+            [
+              13.944054,
+              49.038318
+            ],
+            [
+              14.102669,
+              48.98968
+            ],
+            [
+              13.986626,
+              48.91889
+            ],
+            [
+              13.859253,
+              48.994636
             ]
           ]
         ]
