@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-20T11:41:18.294Z",
+  "generated_at": "2026-06-20T11:43:56.692Z",
   "features": [
     {
       "type": "Feature",
@@ -10365,6 +10365,65 @@
             [
               13.222046,
               49.979488
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781955718804",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-20T13:41",
+        "issued_iso": "2026-06-20T11:41:00.000Z",
+        "expires": "2026-06-20T13:51",
+        "expires_iso": "2026-06-20T11:51:00.000Z",
+        "location": "Kralovice,Czechia",
+        "hail": "5,8cm",
+        "wind": "70kmh+",
+        "tornado_probability": "Low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "a severe thunderstorm warnings was issued for Kralovice,\nLarge hail and high winds are very possible,Even rotation is possible",
+        "hazards": {
+          "hail": "5,8cm",
+          "wind": "70kmh+",
+          "tornado_probability": "Low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-20T11:41:58.804Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.200073,
+              50.099441
+            ],
+            [
+              13.323326,
+              50.061988
+            ],
+            [
+              13.627167,
+              50.187451
+            ],
+            [
+              13.347015,
+              50.227881
+            ],
+            [
+              13.200073,
+              50.099441
             ]
           ]
         ]
