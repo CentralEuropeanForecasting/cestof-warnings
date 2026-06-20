@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-20T11:46:33.746Z",
+  "generated_at": "2026-06-20T12:47:22.647Z",
   "features": [
     {
       "type": "Feature",
@@ -10519,6 +10519,65 @@
             [
               13.217926,
               49.93708
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781959528262",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-20T14:47",
+        "issued_iso": "2026-06-20T12:47:00.000Z",
+        "expires": "2026-06-20T14:57",
+        "expires_iso": "2026-06-20T12:57:00.000Z",
+        "location": "Liberec,Czechia",
+        "hail": "5,6cm",
+        "wind": "70kmh+",
+        "tornado_probability": "Low",
+        "rotation": "",
+        "md_number": "",
+        "text": "a severe thunderstorm warning was issued for Liberec. Large hail with High windspeeds,with possible downbursts!",
+        "hazards": {
+          "hail": "5,6cm",
+          "wind": "70kmh+",
+          "tornado_probability": "Low",
+          "rotation": ""
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-20T12:47:19.462Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.683228,
+              50.882243
+            ],
+            [
+              14.679794,
+              50.825024
+            ],
+            [
+              14.937973,
+              50.744277
+            ],
+            [
+              15.085602,
+              50.889174
+            ],
+            [
+              14.683228,
+              50.882243
             ]
           ]
         ]
