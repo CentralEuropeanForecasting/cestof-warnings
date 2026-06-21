@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-21T11:24:28.107Z",
+  "generated_at": "2026-06-21T13:02:10.875Z",
   "features": [
     {
       "type": "Feature",
@@ -10892,6 +10892,65 @@
             [
               13.543396,
               48.958581
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782046790935",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-21T15:02",
+        "issued_iso": "2026-06-21T13:02:00.000Z",
+        "expires": "2026-06-21T15:12",
+        "expires_iso": "2026-06-21T13:12:00.000Z",
+        "location": "Jarov,Czechia",
+        "hail": "3,6cm",
+        "wind": "65kmh+",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "a severe thunderstorm warning was issued for Jarov Czechia.Hail and high winds are the only hazards.Tornado probability is very low",
+        "hazards": {
+          "hail": "3,6cm",
+          "wind": "65kmh+",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-21T13:02:08.055Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.145142,
+              49.866317
+            ],
+            [
+              13.287964,
+              49.986552
+            ],
+            [
+              13.646393,
+              49.94415
+            ],
+            [
+              13.462372,
+              49.768848
+            ],
+            [
+              13.145142,
+              49.866317
             ]
           ]
         ]
