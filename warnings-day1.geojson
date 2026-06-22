@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-22T13:10:13.531Z",
+  "generated_at": "2026-06-22T13:12:49.522Z",
   "features": [
     {
       "type": "Feature",
@@ -11077,6 +11077,145 @@
             [
               13.664246,
               49.813176
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782133903373",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-22T15:02",
+        "issued_iso": "2026-06-22T13:02:00.000Z",
+        "expires": "2026-06-22T16:02",
+        "expires_iso": "2026-06-22T14:02:00.000Z",
+        "location": "Český krumlov",
+        "hail": "<2cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A couple of thunderstorms with hail potential are active around Český Krumlov and are moving South-East. Hail up to 2cm or slightly more is possible, winds of 60 km/h are possible.",
+        "hazards": {
+          "hail": "<2cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-22T13:12:43.232Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.903198,
+              48.785152
+            ],
+            [
+              14.089966,
+              48.936935
+            ],
+            [
+              14.646149,
+              48.729021
+            ],
+            [
+              14.541435,
+              48.6143
+            ],
+            [
+              14.49955,
+              48.619747
+            ],
+            [
+              14.473457,
+              48.648335
+            ],
+            [
+              14.443245,
+              48.644706
+            ],
+            [
+              14.449425,
+              48.60976
+            ],
+            [
+              14.428825,
+              48.587055
+            ],
+            [
+              14.392433,
+              48.592051
+            ],
+            [
+              14.389,
+              48.57161
+            ],
+            [
+              14.357414,
+              48.572064
+            ],
+            [
+              14.331837,
+              48.551842
+            ],
+            [
+              14.266605,
+              48.580014
+            ],
+            [
+              14.237938,
+              48.581604
+            ],
+            [
+              14.117088,
+              48.591597
+            ],
+            [
+              14.066277,
+              48.601133
+            ],
+            [
+              14.039497,
+              48.626555
+            ],
+            [
+              14.014778,
+              48.639715
+            ],
+            [
+              14.030571,
+              48.651057
+            ],
+            [
+              14.05529,
+              48.651511
+            ],
+            [
+              14.06353,
+              48.673733
+            ],
+            [
+              14.028511,
+              48.681894
+            ],
+            [
+              14.004478,
+              48.707275
+            ],
+            [
+              13.903198,
+              48.785152
             ]
           ]
         ]
