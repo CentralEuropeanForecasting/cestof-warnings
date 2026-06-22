@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-22T15:27:22.603Z",
+  "generated_at": "2026-06-22T20:13:24.382Z",
   "features": [
     {
       "type": "Feature",
@@ -11468,6 +11468,124 @@
             [
               10.38208,
               50.240179
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1781870254812",
+        "type": "Large Hail Warning",
+        "issued": "2026-06-19T13:57",
+        "issued_iso": "2026-06-19T11:57:00.000Z",
+        "expires": "2026-06-19T15:57",
+        "expires_iso": "2026-06-19T13:57:00.000Z",
+        "location": "dresden-bernsdorf",
+        "hail": "3.3 cm",
+        "wind": "",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "Thunder storms erupted near Dresden , Hail inside these storms going to be 33mm big , expect heavy rain fall , WEAK rotations were spotted near Lomnitz be aware on ongiong situation",
+        "hazards": {
+          "hail": "3.3 cm",
+          "wind": "",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "charles",
+        "forecaster_name": "Charles",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Charles",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-19T12:02:44.748Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.452759,
+              51.082822
+            ],
+            [
+              13.892212,
+              50.909961
+            ],
+            [
+              14.463501,
+              51.337476
+            ],
+            [
+              13.540649,
+              51.508742
+            ],
+            [
+              13.452759,
+              51.082822
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782158849227",
+        "type": "Heavy Rain Warning",
+        "issued": "2026-06-05T11:12",
+        "issued_iso": "2026-06-05T09:12:00.000Z",
+        "expires": "2026-06-06T00:30",
+        "expires_iso": "2026-06-05T22:30:00.000Z",
+        "location": "Trento, Verona, Padua, Venice, Treviso",
+        "hail": "9.3 cm",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Thunder storms mooving trough Italy contain large hail and heavy rain fall with severe lightning , be aware of flash floods , if these storms are passing trough your location seek shelter immediately",
+        "hazards": {
+          "hail": "9.3 cm",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "charles",
+        "forecaster_name": "Charles",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Charles",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-22T20:13:08.164Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.321411,
+              46.415139
+            ],
+            [
+              12.771606,
+              46.399988
+            ],
+            [
+              12.299194,
+              44.995883
+            ],
+            [
+              10.838013,
+              45.321254
+            ],
+            [
+              11.321411,
+              46.415139
             ]
           ]
         ]
