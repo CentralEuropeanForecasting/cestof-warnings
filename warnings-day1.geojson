@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-22T13:14:07.813Z",
+  "generated_at": "2026-06-22T13:17:31.137Z",
   "features": [
     {
       "type": "Feature",
@@ -11216,6 +11216,65 @@
             [
               13.903198,
               48.785152
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782134139875",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-22T15:15",
+        "issued_iso": "2026-06-22T13:15:00.000Z",
+        "expires": "2026-06-22T16:15",
+        "expires_iso": "2026-06-22T14:15:00.000Z",
+        "location": "Teplá, Czechia",
+        "hail": "<1-2cm",
+        "wind": "<50km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm is moving southeast into Teplá in the Karlovarský Region, Czechia. If hail happens, it shouldnt be more than 1-2cm. mostly only 1cm. Winds of 50 km/h are expected.",
+        "hazards": {
+          "hail": "<1-2cm",
+          "wind": "<50km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-22T13:17:29.656Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.631531,
+              50.051848
+            ],
+            [
+              12.807312,
+              50.161065
+            ],
+            [
+              13.219299,
+              49.997147
+            ],
+            [
+              12.829285,
+              49.775943
+            ],
+            [
+              12.631531,
+              50.051848
             ]
           ]
         ]
