@@ -3132,6 +3132,114 @@
         "mcg": 190,
         "sta": 377
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.532267,
+          43.87203
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-06-22 02:10:01.376082176",
+        "hour": 2,
+        "server": 11,
+        "mds": 13968,
+        "mcg": 161,
+        "sta": 92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.673606,
+          42.093828
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-06-22 02:10:02.497550848",
+        "hour": 2,
+        "server": 11,
+        "mds": 6311,
+        "mcg": 162,
+        "sta": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.773971,
+          42.014674
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-06-22 02:10:02.743877888",
+        "hour": 2,
+        "server": 11,
+        "mds": 11643,
+        "mcg": 157,
+        "sta": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.532267,
+          43.87203
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-06-22 02:10:01.376082176",
+        "hour": 2,
+        "server": 12,
+        "mds": 13968,
+        "mcg": 161,
+        "sta": 90
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.673606,
+          42.093828
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-06-22 02:10:02.497550848",
+        "hour": 2,
+        "server": 12,
+        "mds": 6311,
+        "mcg": 162,
+        "sta": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.773971,
+          42.014674
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-06-22 02:10:02.743877888",
+        "hour": 2,
+        "server": 12,
+        "mds": 11643,
+        "mcg": 157,
+        "sta": 50
+      }
     }
   ]
 }
