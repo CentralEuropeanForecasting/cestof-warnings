@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-22T20:13:24.382Z",
+  "generated_at": "2026-06-22T20:19:08.620Z",
   "features": [
     {
       "type": "Feature",
@@ -11586,6 +11586,65 @@
             [
               11.321411,
               46.415139
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782159288976",
+        "type": "Tornado Watch",
+        "issued": "2026-06-05T11:12",
+        "issued_iso": "2026-06-05T09:12:00.000Z",
+        "expires": "2026-06-06T00:30",
+        "expires_iso": "2026-06-05T22:30:00.000Z",
+        "location": "Radeče- Novo Mesto",
+        "hail": "2 cm",
+        "wind": "",
+        "tornado_probability": "Very low",
+        "rotation": "Weak rotation",
+        "md_number": "",
+        "text": "In thunderstorm located near Ljubljana were spotted weak rotation , be aware of winds exceeding 100km/h , maximum estimated hai lsize is about 2 cm , inside this storm going to be rainfall (20kg/m2) if  you see that this storm is mooving across your location seek shelter immediately and be aware of situation outside",
+        "hazards": {
+          "hail": "2 cm",
+          "wind": "",
+          "tornado_probability": "Very low",
+          "rotation": "Weak rotation"
+        },
+        "forecaster": "charles",
+        "forecaster_name": "Charles",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Charles",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-22T20:19:00.051Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.108948,
+              46.149394
+            ],
+            [
+              15.493469,
+              46.027482
+            ],
+            [
+              15.361633,
+              45.721522
+            ],
+            [
+              14.988098,
+              45.836454
+            ],
+            [
+              15.108948,
+              46.149394
             ]
           ]
         ]
