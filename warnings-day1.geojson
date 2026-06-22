@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-21T13:02:10.875Z",
+  "generated_at": "2026-06-22T12:03:51.032Z",
   "features": [
     {
       "type": "Feature",
@@ -10951,6 +10951,73 @@
             [
               13.145142,
               49.866317
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782129671622",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-22T14:00",
+        "issued_iso": "2026-06-22T12:00:00.000Z",
+        "expires": "2026-06-22T15:00",
+        "expires_iso": "2026-06-22T13:00:00.000Z",
+        "location": "",
+        "hail": "3cm",
+        "wind": "62km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Strong thunderstorm with very heavy rain supporting local flash floodings.",
+        "hazards": {
+          "hail": "3cm",
+          "wind": "62km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": true,
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-22T12:03:42.462Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.165283,
+              50.160478
+            ],
+            [
+              12.608643,
+              49.960644
+            ],
+            [
+              13.033447,
+              49.64392
+            ],
+            [
+              13.612061,
+              49.651034
+            ],
+            [
+              14.033203,
+              49.915862
+            ],
+            [
+              13.824463,
+              50.158132
+            ],
+            [
+              13.165283,
+              50.160478
             ]
           ]
         ]
