@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-22T12:03:51.032Z",
+  "generated_at": "2026-06-22T13:06:50.675Z",
   "features": [
     {
       "type": "Feature",
@@ -11018,6 +11018,65 @@
             [
               13.165283,
               50.160478
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782133436845",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-06-22T15:02",
+        "issued_iso": "2026-06-22T13:02:00.000Z",
+        "expires": "2026-06-22T16:02",
+        "expires_iso": "2026-06-22T14:02:00.000Z",
+        "location": "Příbram",
+        "hail": "<2cm",
+        "wind": "<60km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm is moving southeast, its lightning activity is moderate, scans show up to 62 dBZ, echo 14km. Hail is possible, but it wont be more than 2cm.",
+        "hazards": {
+          "hail": "<2cm",
+          "wind": "<60km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-22T13:06:44.260Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.664246,
+              49.813176
+            ],
+            [
+              13.908691,
+              49.98302
+            ],
+            [
+              14.466248,
+              49.793677
+            ],
+            [
+              14.0625,
+              49.496675
+            ],
+            [
+              13.664246,
+              49.813176
             ]
           ]
         ]
