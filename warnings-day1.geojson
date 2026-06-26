@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-22T20:19:08.620Z",
+  "generated_at": "2026-06-26T20:06:36.692Z",
   "features": [
     {
       "type": "Feature",
@@ -11645,6 +11645,65 @@
             [
               15.108948,
               46.149394
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782504031527",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-26T22:00",
+        "issued_iso": "2026-06-26T20:00:00.000Z",
+        "expires": "2026-06-26T23:04",
+        "expires_iso": "2026-06-26T21:04:00.000Z",
+        "location": "Nordrhein-westfalen",
+        "hail": "3-5cm",
+        "wind": "70km/h",
+        "tornado_probability": "Low",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "this severe thunderstorm is moving northeast along with one other thunderstorm that is currently merging with the other one. You can expect large hail, strong winds and frequent lightning.",
+        "hazards": {
+          "hail": "3-5cm",
+          "wind": "70km/h",
+          "tornado_probability": "Low",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-26T20:06:33.767Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.405029,
+              51.508742
+            ],
+            [
+              6.690674,
+              51.37178
+            ],
+            [
+              7.624512,
+              51.713416
+            ],
+            [
+              6.646729,
+              52.072754
+            ],
+            [
+              6.405029,
+              51.508742
             ]
           ]
         ]
