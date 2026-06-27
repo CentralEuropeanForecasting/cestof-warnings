@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-27T21:16:12.878Z",
+  "generated_at": "2026-06-27T22:02:29.279Z",
   "features": [
     {
       "type": "Feature",
@@ -12584,6 +12584,69 @@
             [
               1.516113,
               50.106488
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782597631408",
+        "type": "PDS Warning",
+        "issued": "2026-06-27T23:16",
+        "issued_iso": "2026-06-27T21:16:00.000Z",
+        "expires": "2026-06-28T23:30",
+        "expires_iso": "2026-06-28T21:30:00.000Z",
+        "location": "North France, Saint-Quentin",
+        "hail": "",
+        "wind": "140km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Very strong QLCS with a clearly visible bow echo. Winds are up to 145km/h, which means very destructive.\n\nIF YOURE IN THIS WARNING WE ADVISE TO SEEK SHELTER FOR YOUR SAFETY!",
+        "hazards": {
+          "hail": "",
+          "wind": "140km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": true,
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-27T22:02:27.083Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.010254,
+              50.134664
+            ],
+            [
+              3.208008,
+              49.94415
+            ],
+            [
+              3.22998,
+              49.667628
+            ],
+            [
+              3.955078,
+              49.75288
+            ],
+            [
+              3.636475,
+              50.380502
+            ],
+            [
+              3.010254,
+              50.134664
             ]
           ]
         ]
