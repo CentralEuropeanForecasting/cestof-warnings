@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-27T12:51:53.694Z",
+  "generated_at": "2026-06-27T13:06:54.550Z",
   "features": [
     {
       "type": "Feature",
@@ -12012,6 +12012,65 @@
             [
               8.611221,
               51.431752
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782565486432",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-27T15:04",
+        "issued_iso": "2026-06-27T13:04:00.000Z",
+        "expires": "2026-06-27T16:04",
+        "expires_iso": "2026-06-27T14:04:00.000Z",
+        "location": "Marsberg Area",
+        "hail": "2cm",
+        "wind": "",
+        "tornado_probability": "Very low",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "Semi-stationary severe thunderstorm, suspected to be a supercell.\nHeavy rain and a flash flood risk is also present.",
+        "hazards": {
+          "hail": "2cm",
+          "wind": "",
+          "tornado_probability": "Very low",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": true,
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-27T13:06:47.391Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.565674,
+              51.458571
+            ],
+            [
+              8.745117,
+              51.2367
+            ],
+            [
+              9.32373,
+              51.419764
+            ],
+            [
+              8.935547,
+              51.713416
+            ],
+            [
+              8.565674,
+              51.458571
             ]
           ]
         ]
