@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-27T11:08:44.941Z",
+  "generated_at": "2026-06-27T12:01:34.106Z",
   "features": [
     {
       "type": "Feature",
@@ -11894,6 +11894,65 @@
             [
               8.986816,
               52.829321
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782561351354",
+        "type": "Tornado Watch",
+        "issued": "2026-06-27T13:54",
+        "issued_iso": "2026-06-27T11:54:00.000Z",
+        "expires": "2026-06-27T14:54",
+        "expires_iso": "2026-06-27T12:54:00.000Z",
+        "location": "Adorf-Warburg",
+        "hail": "54mm",
+        "wind": "",
+        "tornado_probability": "Elevated",
+        "rotation": "Broad rotation",
+        "md_number": "",
+        "text": "Severe thunderstorm mooving trough Adorf - Warburg , contain large hail (54mm) , frequent lighting , and heavy rain fall exceeding 60 KG/M2 , flash floods are expected , inside this thunderstorm were radar spotted rotation , be aware on ongoing situation",
+        "hazards": {
+          "hail": "54mm",
+          "wind": "",
+          "tornado_probability": "Elevated",
+          "rotation": "Broad rotation"
+        },
+        "forecaster": "charles",
+        "forecaster_name": "Charles",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Charles",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-27T12:01:13.092Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.699799,
+              51.416338
+            ],
+            [
+              8.817902,
+              51.299711
+            ],
+            [
+              9.276581,
+              51.455718
+            ],
+            [
+              9.001923,
+              51.618017
+            ],
+            [
+              8.699799,
+              51.416338
             ]
           ]
         ]
