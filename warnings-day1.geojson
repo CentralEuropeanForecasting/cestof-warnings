@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-27T12:01:34.106Z",
+  "generated_at": "2026-06-27T12:35:18.088Z",
   "features": [
     {
       "type": "Feature",
@@ -11953,6 +11953,65 @@
             [
               8.699799,
               51.416338
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782563611397",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-27T14:35",
+        "issued_iso": "2026-06-27T12:35:00.000Z",
+        "expires": "2026-06-27T14:45",
+        "expires_iso": "2026-06-27T12:45:00.000Z",
+        "location": "beringhausen,Germany",
+        "hail": "6,2cm",
+        "wind": "70kmh+",
+        "tornado_probability": "Low",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "6,2cm",
+          "wind": "70kmh+",
+          "tornado_probability": "Low",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-27T12:35:16.962Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.611221,
+              51.431752
+            ],
+            [
+              8.741684,
+              51.314305
+            ],
+            [
+              9.608231,
+              51.432608
+            ],
+            [
+              9.141312,
+              51.715118
+            ],
+            [
+              8.611221,
+              51.431752
             ]
           ]
         ]
