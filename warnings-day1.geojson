@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-27T14:01:33.537Z",
+  "generated_at": "2026-06-27T14:03:59.068Z",
   "features": [
     {
       "type": "Feature",
@@ -12138,153 +12138,57 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "warning-poly-1782568342071",
-        "type": "Mesoscale Discussion",
-        "issued": "2026-06-27T15:52",
-        "issued_iso": "2026-06-27T13:52:00.000Z",
-        "expires": "2026-06-27T18:00",
-        "expires_iso": "2026-06-27T16:00:00.000Z",
-        "location": "Benelux",
-        "hail": "6cm",
-        "wind": "120km/h",
-        "tornado_probability": "Low",
+        "id": "warning-poly-1782568845729",
+        "type": "Tornado Watch",
+        "issued": "2026-06-27T15:59",
+        "issued_iso": "2026-06-27T13:59:00.000Z",
+        "expires": "2026-06-27T16:59",
+        "expires_iso": "2026-06-27T14:59:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
         "rotation": "",
         "md_number": "",
-        "text": "with cape-levels up to 2000 cape, regional even 4000+, a dew point around 21 degrees and many other paramaters create a very strong thunderstorm-supporting enviroment.\n\nThese thunderstorms will bring severe weather with them. Including hail up to 6cm, wind gusts in excess of 120km/h, frequent lightning strikes and even tornadoes.\n\nBecause of a strong SRH (storm-relative helicity) in the area, the enviroment becomes favourabe for tornado formation. Because of this, a tornado watch could be issued later on in the day.\n\nThunderstorm watch: 90>%\nTornado watch: 40%",
+        "text": "",
         "hazards": {
-          "hail": "6cm",
-          "wind": "120km/h",
-          "tornado_probability": "Low",
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
           "rotation": ""
         },
-        "forecaster": "trein",
-        "forecaster_name": "Trein",
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
         "forecaster_role": "nowcaster",
         "forecaster_rank": 3,
         "forecaster_is_owner": false,
-        "issued_by": "Trein",
+        "issued_by": "Matyáš",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-06-27T14:01:10.111Z"
+        "updated_at": "2026-06-27T14:00:45.728Z"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              6.503906,
-              53.330873
+              8.537064,
+              51.546335
             ],
             [
-              6.811523,
-              53.330873
+              8.65242,
+              51.510452
             ],
             [
-              7.053223,
-              53.107217
+              8.905106,
+              51.621427
             ],
             [
-              7.075195,
-              52.86913
+              8.710098,
+              51.653815
             ],
             [
-              6.965332,
-              52.656394
-            ],
-            [
-              6.965332,
-              52.442618
-            ],
-            [
-              6.745605,
-              52.254709
-            ],
-            [
-              6.679688,
-              52.093008
-            ],
-            [
-              6.437988,
-              51.944265
-            ],
-            [
-              6.064453,
-              51.849353
-            ],
-            [
-              5.778809,
-              51.68618
-            ],
-            [
-              5.537109,
-              51.549751
-            ],
-            [
-              5.185547,
-              51.399206
-            ],
-            [
-              4.790039,
-              51.37178
-            ],
-            [
-              4.482422,
-              51.412912
-            ],
-            [
-              4.416504,
-              51.590723
-            ],
-            [
-              4.328613,
-              51.75424
-            ],
-            [
-              4.328613,
-              52.025459
-            ],
-            [
-              4.372559,
-              52.227799
-            ],
-            [
-              4.460449,
-              52.402419
-            ],
-            [
-              4.592285,
-              52.589701
-            ],
-            [
-              4.746094,
-              52.762892
-            ],
-            [
-              5.053711,
-              52.975108
-            ],
-            [
-              5.273438,
-              53.067627
-            ],
-            [
-              5.712891,
-              53.238921
-            ],
-            [
-              6.031494,
-              53.330873
-            ],
-            [
-              6.229248,
-              53.337433
-            ],
-            [
-              6.37207,
-              53.350551
-            ],
-            [
-              6.503906,
-              53.330873
+              8.537064,
+              51.546335
             ]
           ]
         ]
