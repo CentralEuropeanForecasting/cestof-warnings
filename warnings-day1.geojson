@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-27T14:06:58.983Z",
+  "generated_at": "2026-06-27T14:12:41.069Z",
   "features": [
     {
       "type": "Feature",
@@ -12189,6 +12189,65 @@
             [
               8.537064,
               51.546335
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782569312848",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-27T16:08",
+        "issued_iso": "2026-06-27T14:08:00.000Z",
+        "expires": "2026-06-27T17:08",
+        "expires_iso": "2026-06-27T15:08:00.000Z",
+        "location": "Paderborn",
+        "hail": "2cm",
+        "wind": "<80km/h",
+        "tornado_probability": "Elevated",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "A strong thunderstorm with an embedded rotation is moving slowly North-East towards Paderborn, Germany. It has a potential of stronger hail and winds, severe warning issued due to a rotation and a hook echo visible on radar.",
+        "hazards": {
+          "hail": "2cm",
+          "wind": "<80km/h",
+          "tornado_probability": "Elevated",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-27T14:11:20.451Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.513031,
+              51.595842
+            ],
+            [
+              8.692932,
+              51.508742
+            ],
+            [
+              9.203796,
+              51.728729
+            ],
+            [
+              8.787689,
+              51.898529
+            ],
+            [
+              8.513031,
+              51.595842
             ]
           ]
         ]
