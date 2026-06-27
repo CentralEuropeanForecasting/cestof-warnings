@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-27T13:06:54.550Z",
+  "generated_at": "2026-06-27T13:10:30.708Z",
   "features": [
     {
       "type": "Feature",
@@ -12071,6 +12071,65 @@
             [
               8.565674,
               51.458571
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782565786883",
+        "type": "Flooding / Flash Flood Warning",
+        "issued": "2026-06-27T15:07",
+        "issued_iso": "2026-06-27T13:07:00.000Z",
+        "expires": "2026-06-27T16:07",
+        "expires_iso": "2026-06-27T14:07:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "Possible flash flooding under a semi-stationary thunderstorm.",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": true,
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-27T13:10:26.576Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.574829,
+              51.485944
+            ],
+            [
+              8.811035,
+              51.319169
+            ],
+            [
+              9.228516,
+              51.423189
+            ],
+            [
+              8.853149,
+              51.631657
+            ],
+            [
+              8.574829,
+              51.485944
             ]
           ]
         ]
