@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-26T20:11:55.461Z",
+  "generated_at": "2026-06-27T11:03:30.723Z",
   "features": [
     {
       "type": "Feature",
@@ -11763,6 +11763,137 @@
             [
               6.514893,
               51.495065
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782557307642",
+        "type": "Mesoscale Discussion",
+        "issued": "2026-06-27T12:42",
+        "issued_iso": "2026-06-27T10:42:00.000Z",
+        "expires": "2026-06-27T14:42",
+        "expires_iso": "2026-06-27T12:42:00.000Z",
+        "location": "germany",
+        "hail": "0-3cm",
+        "wind": "40-100km/h",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "With cape amounts well in the 2000s and in some places in the 3000s, a dew point of around 18 and a storm-supporting enviroment, thunderstorms could pop up around 3-4PM CET in germany.\n\nThese thunderstorms will bring hail, wind gusts and severe weather with them. With frequent lighting strikes, hail up to 3cm and wind gusts in excess of 100kph. Tornadoes could be possible with the storm relative helicity being around 200, but the chances of tornadoes forming are still really low.\n\n A thunderstorm watch will likely be issued later on the afternoon/ in the beginning of the evening.\n\nThunderstorm watch: 80%\nTornado watch: <5%",
+        "hazards": {
+          "hail": "0-3cm",
+          "wind": "40-100km/h",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "trein",
+        "forecaster_name": "Trein",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Trein",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-27T11:03:23.901Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.986816,
+              52.829321
+            ],
+            [
+              8.283691,
+              52.696361
+            ],
+            [
+              7.756348,
+              52.429222
+            ],
+            [
+              7.382813,
+              52.106505
+            ],
+            [
+              6.965332,
+              51.76784
+            ],
+            [
+              6.789551,
+              51.37178
+            ],
+            [
+              6.767578,
+              51.013755
+            ],
+            [
+              6.855469,
+              50.708634
+            ],
+            [
+              7.097168,
+              50.513427
+            ],
+            [
+              7.470703,
+              50.331436
+            ],
+            [
+              7.998047,
+              50.176898
+            ],
+            [
+              8.723145,
+              50.092393
+            ],
+            [
+              9.382324,
+              50.176898
+            ],
+            [
+              9.821777,
+              50.457504
+            ],
+            [
+              10.085449,
+              50.750359
+            ],
+            [
+              10.349121,
+              51.206883
+            ],
+            [
+              10.568848,
+              51.536086
+            ],
+            [
+              10.700684,
+              51.849353
+            ],
+            [
+              10.722656,
+              52.227799
+            ],
+            [
+              10.612793,
+              52.48278
+            ],
+            [
+              10.217285,
+              52.776186
+            ],
+            [
+              9.470215,
+              52.855864
+            ],
+            [
+              8.986816,
+              52.829321
             ]
           ]
         ]
