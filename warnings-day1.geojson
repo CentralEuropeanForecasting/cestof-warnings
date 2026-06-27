@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-27T14:52:46.661Z",
+  "generated_at": "2026-06-27T20:21:30.519Z",
   "features": [
     {
       "type": "Feature",
@@ -12307,6 +12307,283 @@
             [
               8.268585,
               51.6129
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782467612280",
+        "type": "Thunderstorm Watch",
+        "issued": "2026-06-26T11:43",
+        "issued_iso": "2026-06-26T09:43:00.000Z",
+        "expires": "2026-06-26T12:43",
+        "expires_iso": "2026-06-26T10:43:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": true,
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-26T09:53:32.280Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.091797,
+              48.741701
+            ],
+            [
+              29.311523,
+              48.79239
+            ],
+            [
+              29.674072,
+              48.545705
+            ],
+            [
+              29.256592,
+              48.43649
+            ],
+            [
+              29.091797,
+              48.741701
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782467938939",
+        "type": "Thunderstorm Watch",
+        "issued": "2026-06-26T11:43",
+        "issued_iso": "2026-06-26T09:43:00.000Z",
+        "expires": "2026-06-26T12:43",
+        "expires_iso": "2026-06-26T10:43:00.000Z",
+        "location": "",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": true,
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-26T09:58:58.939Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.256592,
+              48.305121
+            ],
+            [
+              29.399414,
+              48.341646
+            ],
+            [
+              29.619141,
+              48.231991
+            ],
+            [
+              29.355469,
+              48.158757
+            ],
+            [
+              29.256592,
+              48.305121
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782590413873",
+        "type": "Mesoscale Discussion",
+        "issued": "2026-06-27T22:10",
+        "issued_iso": "2026-06-27T20:10:00.000Z",
+        "expires": "2026-06-27T04:00",
+        "expires_iso": "2026-06-27T02:00:00.000Z",
+        "location": "North France, through the Benelux region to North West Germany",
+        "hail": "up to 5 cm possible",
+        "wind": "120+km/h possible",
+        "tornado_probability": "Low",
+        "rotation": "",
+        "md_number": "MD#270626",
+        "text": "Multiple thunderstorms already developing in both France and Benelux.\n\nLLS is very strong prompting a tornado threat is also present in the area.\n\nSevere damaging wind gusts are expected tonight into early morning.",
+        "hazards": {
+          "hail": "up to 5 cm possible",
+          "wind": "120+km/h possible",
+          "tornado_probability": "Low",
+          "rotation": ""
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": true,
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-27T20:21:27.229Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.516113,
+              50.106488
+            ],
+            [
+              0.769043,
+              49.624946
+            ],
+            [
+              0.483398,
+              48.965794
+            ],
+            [
+              0.593262,
+              48.327039
+            ],
+            [
+              0.812988,
+              47.960502
+            ],
+            [
+              1.73584,
+              47.353711
+            ],
+            [
+              2.636719,
+              47.368594
+            ],
+            [
+              3.120117,
+              47.754098
+            ],
+            [
+              3.669434,
+              48.210032
+            ],
+            [
+              4.196777,
+              48.676454
+            ],
+            [
+              5.29541,
+              49.59647
+            ],
+            [
+              6.04248,
+              50.485474
+            ],
+            [
+              7.185059,
+              51.289406
+            ],
+            [
+              8.327637,
+              52.093008
+            ],
+            [
+              9.909668,
+              53.343993
+            ],
+            [
+              10.085449,
+              53.891391
+            ],
+            [
+              9.558105,
+              54.149567
+            ],
+            [
+              8.415527,
+              54.02068
+            ],
+            [
+              7.03125,
+              53.67068
+            ],
+            [
+              5.712891,
+              53.370221
+            ],
+            [
+              4.899902,
+              53.225768
+            ],
+            [
+              4.724121,
+              52.722986
+            ],
+            [
+              4.416504,
+              52.268157
+            ],
+            [
+              4.174805,
+              51.835778
+            ],
+            [
+              3.383789,
+              51.549751
+            ],
+            [
+              2.702637,
+              51.220647
+            ],
+            [
+              1.955566,
+              51.055207
+            ],
+            [
+              1.647949,
+              50.819818
+            ],
+            [
+              1.647949,
+              50.625073
+            ],
+            [
+              1.516113,
+              50.106488
             ]
           ]
         ]
