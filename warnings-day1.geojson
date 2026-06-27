@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-27T14:12:41.069Z",
+  "generated_at": "2026-06-27T14:50:25.319Z",
   "features": [
     {
       "type": "Feature",
@@ -12248,6 +12248,65 @@
             [
               8.513031,
               51.595842
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782571723986",
+        "type": "Severe Thunderstorm Warning",
+        "issued": "2026-06-27T16:48",
+        "issued_iso": "2026-06-27T14:48:00.000Z",
+        "expires": "2026-06-27T17:48",
+        "expires_iso": "2026-06-27T15:48:00.000Z",
+        "location": "Eringerfeld",
+        "hail": "3-4cm+",
+        "wind": "<80km/h",
+        "tornado_probability": "Elevated",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "A strong thunderstorm is moving slowly north-east, it has a strong hail core which is producing hail of 3cm or more, a rotation has been also detected via a radar, so tornado chance is elevated.",
+        "hazards": {
+          "hail": "3-4cm+",
+          "wind": "<80km/h",
+          "tornado_probability": "Elevated",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "joseph",
+        "forecaster_name": "Joseph",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Joseph",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-27T14:50:22.632Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.291931,
+              51.588163
+            ],
+            [
+              8.421707,
+              51.528397
+            ],
+            [
+              8.843994,
+              51.675962
+            ],
+            [
+              8.496552,
+              51.817954
+            ],
+            [
+              8.291931,
+              51.588163
             ]
           ]
         ]
