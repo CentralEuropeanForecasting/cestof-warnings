@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "name": "CSWR Severe Weather Reports",
+  "updated_at": "2026-06-29T17:08:39.829Z",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5896,
+          49.40092
+        ]
+      },
+      "properties": {
+        "id": "cswr-mqzgwyli-sr8pfk",
+        "title": "Flash flood report",
+        "type": "Flash flood",
+        "status": "pending",
+        "date": "2026-06-29",
+        "time": "19:04",
+        "location": "Jihlava",
+        "country": "CZ",
+        "magnitude": "Max water depth (cm): 10 · Rainfall total (mm): 140 · Affected roads / places: Roads",
+        "parameters": {
+          "water_depth_cm": "10",
+          "rainfall_total_mm": "140",
+          "affected_roads": "Roads"
+        },
+        "source": "Social Media",
+        "description": "",
+        "photos": [
+          {
+            "src": "img/cswr_reports/2026-06-29T17-08-34-993Z-734388311_1390510449558321_5873012733332101489_n.jpeg",
+            "caption": "",
+            "name": "734388311_1390510449558321_5873012733332101489_n.jpeg"
+          }
+        ],
+        "created_at": "2026-06-29T17:04:38.694Z",
+        "updated_at": "2026-06-29T17:08:33.435Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.54453,
+          48.75393
+        ]
+      },
+      "properties": {
+        "id": "cswr-mqz9j2na-y6fe13",
+        "title": "Large hail report",
+        "type": "Large hail",
+        "status": "verified",
+        "date": "2026-06-29",
+        "time": "15:37",
+        "location": "South Bohemia",
+        "country": "CZ",
+        "magnitude": "Max hail size (cm): 5 · Hail duration (min): 5 · Stone shape: Round",
+        "parameters": {
+          "max_hail_cm": "5",
+          "hail_duration_min": "5",
+          "largest_stone_shape": "Round"
+        },
+        "source": "CHMI",
+        "description": "Large hail with an estimated maximum diameter of up to 5 cm occurred in the area near Kaplice, South Bohemia, Czechia. At the time of reporting, no damage had been confirmed.",
+        "photos": [
+          {
+            "src": "img/cswr_reports/2026-06-29T17-08-37-510Z-rer.png",
+            "caption": "",
+            "name": "rer.png"
+          }
+        ],
+        "created_at": "2026-06-29T13:37:53.446Z",
+        "updated_at": "2026-06-29T17:07:44.682Z"
+      }
+    }
+  ]
+}
