@@ -1,0 +1,66 @@
+{
+  "type": "FeatureCollection",
+  "name": "CESTOF Warning Polygons",
+  "generated_at": "2026-06-30T18:26:53.446Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782843859921",
+        "type": "Tornado Warning",
+        "issued": "2026-06-30T20:23",
+        "issued_iso": "2026-06-30T18:23:00.000Z",
+        "expires": "2026-06-30T21:23",
+        "expires_iso": "2026-06-30T19:23:00.000Z",
+        "location": "Śrem Region",
+        "hail": "",
+        "wind": "",
+        "tornado_probability": "Elevated",
+        "rotation": "Strong rotation",
+        "md_number": "",
+        "text": "Tight velocity couplet has been observed on radar within the storm in multiple angles and scans.",
+        "hazards": {
+          "hail": "",
+          "wind": "",
+          "tornado_probability": "Elevated",
+          "rotation": "Strong rotation"
+        },
+        "forecaster": "cape",
+        "forecaster_name": "CAPE",
+        "forecaster_role": "owner",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": true,
+        "issued_by": "CAPE",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-06-30T18:26:46.808Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.66626,
+              52.038977
+            ],
+            [
+              16.907959,
+              51.937492
+            ],
+            [
+              17.457275,
+              52.187405
+            ],
+            [
+              16.951904,
+              52.295042
+            ],
+            [
+              16.66626,
+              52.038977
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
