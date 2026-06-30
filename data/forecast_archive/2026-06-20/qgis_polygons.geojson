@@ -16943,7 +16943,14 @@
         "warning": 0,
         "date": "1",
         "kind": "outlook",
-        "hazard": "general"
+        "hazard": "general",
+        "title": "",
+        "description": "",
+        "hatched": false,
+        "doubleHatch": false,
+        "probability": "30",
+        "intensity": "3",
+        "riskLabel": "Slight Risk"
       },
       "geometry": {
         "type": "MultiPolygon",
