@@ -1,0 +1,110 @@
+name: Fetch ESWD Reports
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 4 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download ESWD reports
+        env:
+          ESWD_TOKEN: ${{ secrets.ESWD_TOKEN }}
+        run: |
+          mkdir -p data/eswd_reports
+
+          python3 <<'PY'
+          import os, json, urllib.parse, urllib.request
+          from datetime import datetime, timedelta
+          from zoneinfo import ZoneInfo
+
+          token = os.environ["ESWD_TOKEN"]
+
+          tz = ZoneInfo("Europe/Prague")
+          utc = ZoneInfo("UTC")
+
+          now = datetime.now(tz)
+
+          # latest finished 06:00 -> 06:00 period
+          end = now.replace(hour=6, minute=0, second=0, microsecond=0)
+          if now < end:
+              end -= timedelta(days=1)
+
+          start = end - timedelta(days=1)
+
+          forecast_date = start.date().isoformat()
+
+          params = {
+              "sd": start.astimezone(utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+              "ed": end.astimezone(utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+              "countries": "CZ,SK,PL,DE,AT,HU,SI,HR,CH,LI",
+              "levels": "QC0,QC0+,QC1,QC2",
+              "types": "TORNADO,FUNNEL,GUSTNADO,HAIL,RAIN,WIND,LIGHTNING,DEVIL"
+          }
+
+          url = "https://eswd.eu/api/v2/reportList?" + urllib.parse.urlencode(params)
+
+          req = urllib.request.Request(
+              url,
+              headers={
+                  "Authorization": f"Bearer {token}",
+                  "Accept": "application/json"
+              }
+          )
+
+          with urllib.request.urlopen(req, timeout=90) as r:
+              data = json.loads(r.read().decode("utf-8"))
+
+          reports = []
+          for x in data:
+              if x.get("LATITUDE") is None or x.get("LONGITUDE") is None:
+                  continue
+
+              reports.append({
+                  "lat": x.get("LATITUDE"),
+                  "lon": x.get("LONGITUDE"),
+                  "type": x.get("TYPE_EVENT"),
+                  "time": x.get("TIME_EVENT"),
+                  "country": x.get("COUNTRY"),
+                  "qc": x.get("QC_LEVEL"),
+                  "place": x.get("PLACE"),
+                  "description": x.get("EVENT_DESCRIPTION")
+              })
+
+          out = {
+              "forecast_date": forecast_date,
+              "window_start": start.isoformat(),
+              "window_end": end.isoformat(),
+              "report_count": len(reports),
+              "reports": reports
+          }
+
+          path = f"data/eswd_reports/{forecast_date}.json"
+
+          with open(path, "w", encoding="utf-8") as f:
+              json.dump(out, f, ensure_ascii=False, indent=2)
+
+          print("Saved", path)
+          PY
+
+      - name: Commit file
+        run: |
+          git config user.name "CESTOF ESWD Bot"
+          git config user.email "actions@github.com"
+
+          git add data/eswd_reports/*.json
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update ESWD reports"
+            git push
+          fi
