@@ -13,7 +13,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Download ESWD reports
         env:
@@ -22,18 +23,25 @@ jobs:
           mkdir -p data/eswd_reports
 
           python3 <<'PY'
-          import os, json, urllib.parse, urllib.request
+          import os
+          import json
+          import urllib.parse
+          import urllib.request
           from datetime import datetime, timedelta
           from zoneinfo import ZoneInfo
 
-          token = os.environ["ESWD_TOKEN"]
+          token = os.environ.get("ESWD_TOKEN")
+          if not token:
+              raise SystemExit("Missing ESWD_TOKEN secret")
+
+          token = token.strip()
 
           tz = ZoneInfo("Europe/Prague")
           utc = ZoneInfo("UTC")
 
           now = datetime.now(tz)
 
-          # latest finished 06:00 -> 06:00 period
+          # Latest finished 06:00 -> 06:00 CEST/CET period
           end = now.replace(hour=6, minute=0, second=0, microsecond=0)
           if now < end:
               end -= timedelta(days=1)
@@ -52,23 +60,37 @@ jobs:
 
           url = "https://eswd.eu/api/v2/reportList?" + urllib.parse.urlencode(params)
 
+          print("Fetching:")
+          print(url)
+
           req = urllib.request.Request(
               url,
               headers={
-                  "Authorization": f"Bearer {token}",
-                  "Accept": "application/json"
+                  "Authorization": token,
+                  "Accept": "application/json",
+                  "User-Agent": "CESTOF forecast verification"
               }
           )
 
-          with urllib.request.urlopen(req, timeout=90) as r:
-              data = json.loads(r.read().decode("utf-8"))
+          try:
+              with urllib.request.urlopen(req, timeout=90) as r:
+                  raw = r.read().decode("utf-8")
+          except urllib.error.HTTPError as e:
+              print("HTTP error:", e.code, e.reason)
+              print("Response:")
+              print(e.read().decode("utf-8", errors="replace"))
+              raise
+
+          data = json.loads(raw)
 
           reports = []
+
           for x in data:
               if x.get("LATITUDE") is None or x.get("LONGITUDE") is None:
                   continue
 
               reports.append({
+                  "id": x.get("id"),
                   "lat": x.get("LATITUDE"),
                   "lon": x.get("LONGITUDE"),
                   "type": x.get("TYPE_EVENT"),
@@ -76,13 +98,21 @@ jobs:
                   "country": x.get("COUNTRY"),
                   "qc": x.get("QC_LEVEL"),
                   "place": x.get("PLACE"),
-                  "description": x.get("EVENT_DESCRIPTION")
+                  "place_accuracy": x.get("PLACE_ACCURACY"),
+                  "time_accuracy": x.get("TIME_ACCURACY"),
+                  "description": x.get("EVENT_DESCRIPTION"),
+                  "info_source": x.get("INFO_SOURCE"),
+                  "references": x.get("REFERENCE")
               })
 
-          out = {
+          output = {
               "forecast_date": forecast_date,
-              "window_start": start.isoformat(),
-              "window_end": end.isoformat(),
+              "window_start_local": start.isoformat(),
+              "window_end_local": end.isoformat(),
+              "window_start_utc": start.astimezone(utc).isoformat(),
+              "window_end_utc": end.astimezone(utc).isoformat(),
+              "source": "ESWD",
+              "raw_count": len(data),
               "report_count": len(reports),
               "reports": reports
           }
@@ -90,12 +120,13 @@ jobs:
           path = f"data/eswd_reports/{forecast_date}.json"
 
           with open(path, "w", encoding="utf-8") as f:
-              json.dump(out, f, ensure_ascii=False, indent=2)
+              json.dump(output, f, ensure_ascii=False, indent=2)
 
-          print("Saved", path)
+          print("Saved:", path)
+          print("Reports:", len(reports))
           PY
 
-      - name: Commit file
+      - name: Commit ESWD report file
         run: |
           git config user.name "CESTOF ESWD Bot"
           git config user.email "actions@github.com"
@@ -103,7 +134,7 @@ jobs:
           git add data/eswd_reports/*.json
 
           if git diff --cached --quiet; then
-            echo "No changes"
+            echo "No changes to commit."
           else
             git commit -m "Update ESWD reports"
             git push
