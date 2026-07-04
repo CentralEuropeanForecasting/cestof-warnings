@@ -1,0 +1,33 @@
+{
+  "forecast_date": "2026-07-03",
+  "window_start_local": "2026-07-03T06:00:00+02:00",
+  "window_end_local": "2026-07-04T06:00:00+02:00",
+  "window_start_utc": "2026-07-03T04:00:00+00:00",
+  "window_end_utc": "2026-07-04T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 1,
+  "report_count": 1,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-03T14:45:00.000Z\", s\"01KWMAREGR7H1GT7JPN6KT7TBH\" ]",
+      "lat": 54.4398,
+      "lon": 16.3772,
+      "type": "WIND",
+      "time": "2026-07-03T14:45:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Darłówko",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "IMGW-PIB automatic weather station (254160020) recorded a nonconvective wind gust of 25,5 m/s. Mean 10-min wind: 18,7 m/s. ",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "WXSVC"
+      ],
+      "references": [
+        "Hydro IMGW-PIB, date of access: 03 JUL 2026."
+      ]
+    }
+  ]
+}
