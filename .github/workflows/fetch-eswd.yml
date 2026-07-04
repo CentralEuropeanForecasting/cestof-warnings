@@ -55,7 +55,7 @@ jobs:
               "ed": end.astimezone(utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
               "countries": "CZ,SK,PL,DE,AT,HU,SI,HR,CH,LI",
               "levels": "QC0,QC0+,QC1,QC2",
-              "types": "TORNADO,FUNNEL,GUSTNADO,HAIL,RAIN,WIND,LIGHTNING,DEVIL"
+              "types": "TORNADO,FUNNEL,GUSTNADO,HAIL,PRECIP,WIND,LIGHTNING,DEVIL"
           }
 
           url = "https://eswd.eu/api/v2/reportList?" + urllib.parse.urlencode(params)
