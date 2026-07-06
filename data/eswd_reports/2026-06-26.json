@@ -1,0 +1,151 @@
+{
+  "forecast_date": "2026-06-26",
+  "window_start_local": "2026-06-26T06:00:00+02:00",
+  "window_end_local": "2026-06-27T06:00:00+02:00",
+  "window_start_utc": "2026-06-26T04:00:00+00:00",
+  "window_end_utc": "2026-06-27T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 8,
+  "report_count": 8,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-06-26T20:25:00.000Z\", s\"01KW2V8BTEEZC9D5237QVEGTNE\" ]",
+      "lat": 51.5134,
+      "lon": 6.5065,
+      "type": "HAIL",
+      "time": "2026-06-26T20:25:00.000Z",
+      "country": "DE",
+      "place": "Niederkamp",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 26 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-26T20:20:00.000Z\", s\"01KW2V3WFCCHFF6T3YQTDVKAQZ\" ]",
+      "lat": 51.6295,
+      "lon": 6.5721,
+      "type": "HAIL",
+      "time": "2026-06-26T20:20:00.000Z",
+      "country": "DE",
+      "place": "Büderich",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 26 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-26T19:55:00.000Z\", s\"01KW2V0W1A6ZQMPRQ8HQN5SV2J\" ]",
+      "lat": 51.5006,
+      "lon": 6.5653,
+      "type": "HAIL",
+      "time": "2026-06-26T19:55:00.000Z",
+      "country": "DE",
+      "place": "Kamp-Lintfort",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 26 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-26T19:50:00.000Z\", s\"01KW2RTXKYNAGPJBE81YAVQDR9\" ]",
+      "lat": 51.5036,
+      "lon": 6.5158,
+      "type": "HAIL",
+      "time": "2026-06-26T19:50:00.000Z",
+      "country": "DE",
+      "place": "Kamp",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 26 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-26T19:34:00.000Z\", s\"01KW2QGAFWMW9Z2VJP7EEBYXPD\" ]",
+      "lat": 48.2213,
+      "lon": 7.7778,
+      "type": "HAIL",
+      "time": "2026-06-26T19:34:00.000Z",
+      "country": "DE",
+      "place": "Herbolzheim",
+      "description": "Large hail 2 cm i.d.. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 26 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-26T17:50:00.000Z\", s\"01KW46WAYEG2WJD5TPYJS6B4A6\" ]",
+      "lat": 50.7628,
+      "lon": 6.9891,
+      "type": "WIND",
+      "time": "2026-06-26T17:50:00.000Z",
+      "country": "DE",
+      "place": "Bornheim",
+      "description": "Tree fell on a car. A woman inside the car was injured",
+      "info_source": [
+        "NWSP",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Umstürzender Baum schließt Fahrerin im Auto ein\", GENERAL-ANZEIGER, 26 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-26T17:46:00.000Z\", s\"01KW2NGMPD2GQ56DMPZGT79TZA\" ]",
+      "lat": 50.4853,
+      "lon": 7.3267,
+      "type": "HAIL",
+      "time": "2026-06-26T17:46:00.000Z",
+      "country": "DE",
+      "place": "Brohl",
+      "description": "Large hail up to 2 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 26 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-26T17:38:00.000Z\", s\"01KW2HDVJW5X1SAJABJ0N6DJPB\" ]",
+      "lat": 50.4749,
+      "lon": 7.3023,
+      "type": "HAIL",
+      "time": "2026-06-26T17:38:00.000Z",
+      "country": "DE",
+      "place": "Niederlützingen",
+      "description": "Large hail up to 2 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 26 JUN 2026"
+      ]
+    }
+  ]
+}

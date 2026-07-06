@@ -1,0 +1,114 @@
+{
+  "forecast_date": "2026-06-23",
+  "window_start_local": "2026-06-23T06:00:00+02:00",
+  "window_end_local": "2026-06-24T06:00:00+02:00",
+  "window_start_utc": "2026-06-23T04:00:00+00:00",
+  "window_end_utc": "2026-06-24T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 6,
+  "report_count": 6,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-06-23T16:25:00.000Z\", s\"01KVWAMD5TD4N7XM8YK820YBG9\" ]",
+      "lat": 46.461,
+      "lon": 13.9394,
+      "type": "HAIL",
+      "time": "2026-06-23T16:25:00.000Z",
+      "country": "SI",
+      "place": "Mojstrana",
+      "description": "Large hail up to at least 3 cm i.d. was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 24 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-23T15:10:00.000Z\", s\"01KVZETD6XSPXA1JS488FTJ27R\" ]",
+      "lat": 46.2936,
+      "lon": 13.558,
+      "type": "LIGHTNING",
+      "time": "2026-06-23T15:10:00.000Z",
+      "country": "SI",
+      "place": "Kobarid",
+      "description": "About 90 sheep were killed by lightning strike",
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"V Posočju poginilo okoli 90 ovac: domnevajo, da je v živali udarila strela\", DNEVNIK, 24 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-23T13:39:00.000Z\", s\"01KVW86SMNA7FBCTFR306BQP1E\" ]",
+      "lat": 47.769,
+      "lon": 8.705,
+      "type": "PRECIP",
+      "time": "2026-06-23T13:39:00.000Z",
+      "country": "DE",
+      "place": "Hilzingen",
+      "description": "PWS recorded a rain amount of 25,7 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"wetter im weidenbühl - IHILZI12\", Wunderground, date of access: 24 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-23T13:19:00.000Z\", s\"01KVW8ARNH5RV8MKTHH02QS2ME\" ]",
+      "lat": 47.632,
+      "lon": 8.072,
+      "type": "PRECIP",
+      "time": "2026-06-23T13:19:00.000Z",
+      "country": "DE",
+      "place": "Görwihl",
+      "description": "PWS recorded a rain amount of 37,3 mm in 50 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"WeatherScreen PRO - IGRWIH9\", Wunderground, date of access: 24 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-23T13:19:00.000Z\", s\"01KVW81W8ZDH5FGX8R8017A1QB\" ]",
+      "lat": 47.815,
+      "lon": 8.682,
+      "type": "PRECIP",
+      "time": "2026-06-23T13:19:00.000Z",
+      "country": "DE",
+      "place": "Tengen",
+      "description": "PWS recorded a rain amount of 35,3 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Vogelwiese Blumenfeld - ITENGE7\", Wunderground, date of access: 24 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-23T11:49:00.000Z\", s\"01KVW88925QYKDNC3HQ6Q476XC\" ]",
+      "lat": 47.73,
+      "lon": 8.163,
+      "type": "PRECIP",
+      "time": "2026-06-23T11:49:00.000Z",
+      "country": "DE",
+      "place": "Höchenschwand",
+      "description": "PWS recorded a rain amount of 27,7 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"EasyWeatherPro-8DA1F5 - IHCHEN3\", Wunderground, date of access: 24 JUN 2026."
+      ]
+    }
+  ]
+}

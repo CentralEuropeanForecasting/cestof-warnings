@@ -1,0 +1,2008 @@
+{
+  "forecast_date": "2026-06-27",
+  "window_start_local": "2026-06-27T06:00:00+02:00",
+  "window_end_local": "2026-06-28T06:00:00+02:00",
+  "window_start_utc": "2026-06-27T04:00:00+00:00",
+  "window_end_utc": "2026-06-28T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 156,
+  "report_count": 156,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-06-28T02:25:00.000Z\", s\"01KWGZEX7JZ1596W9JTJDH7PCP\" ]",
+      "lat": 53.7635,
+      "lon": 10.1824,
+      "type": "WIND",
+      "time": "2026-06-28T02:25:00.000Z",
+      "country": "DE",
+      "place": "Bargfeld-Stegen",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Hitzegewitter in SH: Mehr als 300 Unwetter-Einsätze\", NDR, 28 / 29 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T02:22:00.000Z\", s\"01KWF10BPX1B2BA9FGYWZ3J1JQ\" ]",
+      "lat": 54.2768,
+      "lon": 10.0797,
+      "type": "LIGHTNING",
+      "time": "2026-06-28T02:22:00.000Z",
+      "country": "DE",
+      "place": "Molfsee Rammsee",
+      "description": "Lightning hit historical building of Freilichtmuseum Molfsee historical landmark. The building was fully destroyed by fire",
+      "info_source": [
+        "TV",
+        "DMGPHOTO",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Blitzeinschlag: Hunderte Jahre alte Kate in Molfsee abgebrannt\", SAT 1, 29 JUN 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T02:12:00.000Z\", s\"01KWCG721SJT4H61N9WRMSC37S\" ]",
+      "lat": 53.2152,
+      "lon": 7.4314,
+      "type": "HAIL",
+      "time": "2026-06-28T02:12:00.000Z",
+      "country": "DE",
+      "place": "Leer (Ostfriesland)",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 28 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T02:05:00.000Z\", s\"01KWM2EMVTTER3826BZ1N5X4MC\" ]",
+      "lat": 53.9313,
+      "lon": 9.5246,
+      "type": "PRECIP",
+      "time": "2026-06-28T02:05:00.000Z",
+      "country": "DE",
+      "place": "Klosterforst",
+      "description": null,
+      "info_source": [
+        "GOV"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Itzehoe. Checked: checked 03 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T02:05:00.000Z\", s\"01KWM2DGCFGWDZ6VN78BJ636SM\" ]",
+      "lat": 53.9504,
+      "lon": 9.5085,
+      "type": "PRECIP",
+      "time": "2026-06-28T02:05:00.000Z",
+      "country": "DE",
+      "place": "Edendorf",
+      "description": null,
+      "info_source": [
+        "GOV"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Itzehoe. Checked: checked 03 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T02:01:00.000Z\", s\"01KWF1J89HNKBQ3ZZ6YF727NYE\" ]",
+      "lat": 53.9421,
+      "lon": 9.8868,
+      "type": "LIGHTNING",
+      "time": "2026-06-28T02:01:00.000Z",
+      "country": "DE",
+      "place": "Fuhlendorf",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Blitzeinschlag in Fuhlendorf: Feuerwehr löscht beginnenden Dachstuhlbrand\", KIELER NACHRICHTEN, 29 JUN 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T02:00:00.000Z\", s\"01KWCG5A8D6XDCXW4SAZH7KKPX\" ]",
+      "lat": 53.5772,
+      "lon": 7.1184,
+      "type": "HAIL",
+      "time": "2026-06-28T02:00:00.000Z",
+      "country": "DE",
+      "place": "Westermarsch II",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 28 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T01:33:00.000Z\", s\"01KWM1GVV47QBK3DZAK2WQ0Q8E\" ]",
+      "lat": 52.9844,
+      "lon": 9.8399,
+      "type": "WIND",
+      "time": "2026-06-28T01:33:00.000Z",
+      "country": "DE",
+      "place": "Soltau",
+      "description": null,
+      "info_source": [
+        "GOV",
+        "WWW"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Soltau (Facebook). Checked: 03 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T01:31:00.000Z\", s\"01KWKN0GMZVEVNQDSCGESECGFF\" ]",
+      "lat": 52.9933,
+      "lon": 9.5876,
+      "type": "LIGHTNING",
+      "time": "2026-06-28T01:31:00.000Z",
+      "country": "DE",
+      "place": "Visselhövede",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Polizei-News Visselhövede, 28.06.26: Blitzeinschlag verursacht Dachbrand in Visselhövede, Feuerwehr verhindert größere Schäden \", news.de, 28 JUN 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T01:30:00.000Z\", s\"01KWGZZ82PF94KSAK2E0V99372\" ]",
+      "lat": 54.597,
+      "lon": 10.02,
+      "type": "WIND",
+      "time": "2026-06-28T01:30:00.000Z",
+      "country": "DE",
+      "place": "Schubystrand",
+      "description": "Camper slided and flipped to one side. Also trees uprooted on that location",
+      "info_source": [
+        "NWSP",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Hitzegewitter in SH: Mehr als 300 Unwetter-Einsätze\", NDR, 28 / 29 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T01:30:00.000Z\", s\"01KWBZW0MZG885EN8JF69Z4DKY\" ]",
+      "lat": 53.5796,
+      "lon": 9.6073,
+      "type": "LIGHTNING",
+      "time": "2026-06-28T01:30:00.000Z",
+      "country": "DE",
+      "place": "Grünendeich",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WXSVC",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "kachelmannwetter.com",
+        "\"Blitz schlägt in Wohnhaus in Grünendeich ein \", KREIZEITUNG WOCHBLATT, 29 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T01:00:00.000Z\", s\"01KWM2BXBC1A8F1Y3QJM01P5N9\" ]",
+      "lat": 53.9104,
+      "lon": 9.4981,
+      "type": "WIND",
+      "time": "2026-06-28T01:00:00.000Z",
+      "country": "DE",
+      "place": "Itzehoe",
+      "description": null,
+      "info_source": [
+        "GOV"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Itzehoe. Checked: checked 03 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T01:00:00.000Z\", s\"01KWGYX4T5RKWDJJT65AMQ1Q5Q\" ]",
+      "lat": 53.8688,
+      "lon": 8.6983,
+      "type": "PRECIP",
+      "time": "2026-06-28T01:00:00.000Z",
+      "country": "DE",
+      "place": "Cuxhaven",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter sorgt für Feuerwehreinsätze im Nordwesten\", BUTEN UND BINNEN, 28 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T01:00:00.000Z\", s\"01KWCHH53B3WAWZVYA14WDJGP9\" ]",
+      "lat": 54.0265,
+      "lon": 9.6063,
+      "type": "HAIL",
+      "time": "2026-06-28T01:00:00.000Z",
+      "country": "DE",
+      "place": "Peissen",
+      "description": "Large hail 2 cm i.d. reported. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 28 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:55:00.000Z\", s\"01KWF1S7VZQ7KND90N53WPAH5Y\" ]",
+      "lat": 52.6868,
+      "lon": 9.2141,
+      "type": "LIGHTNING",
+      "time": "2026-06-28T00:55:00.000Z",
+      "country": "DE",
+      "place": "Drakenburg",
+      "description": "Water supply area damaged",
+      "info_source": [
+        "NWSP",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Nach dem Blitzeinschlag im Drakenburger Wasserwerk: Wasserverband gibt noch keine Entwarnung\", DIE HARKE, 30 JUN 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:55:00.000Z\", s\"01KWCHEQBT097FX4K302A9F07W\" ]",
+      "lat": 54.3249,
+      "lon": 9.355,
+      "type": "HAIL",
+      "time": "2026-06-28T00:55:00.000Z",
+      "country": "DE",
+      "place": "Ekel",
+      "description": "Large hail reported. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 28 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:43:00.000Z\", s\"01KWM2A9DZ4KDG0EYVQGGKH0QW\" ]",
+      "lat": 53.9082,
+      "lon": 9.4848,
+      "type": "WIND",
+      "time": "2026-06-28T00:43:00.000Z",
+      "country": "DE",
+      "place": "Wellenkamp",
+      "description": null,
+      "info_source": [
+        "GOV"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Itzehoe. Checked: checked 03 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:41:00.000Z\", s\"01KWCHK5JTHMTNZ1DR6BRQYS0G\" ]",
+      "lat": 54.1614,
+      "lon": 9.2448,
+      "type": "HAIL",
+      "time": "2026-06-28T00:41:00.000Z",
+      "country": "DE",
+      "place": "Arkebek",
+      "description": "Large hail 3 cm i.d. reported. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 28 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:40:00.000Z\", s\"01KWM20K2RNHDVPVJS3AZBBNKT\" ]",
+      "lat": 53.247,
+      "lon": 8.8168,
+      "type": "WIND",
+      "time": "2026-06-28T00:40:00.000Z",
+      "country": "DE",
+      "place": "Pennigbüttel",
+      "description": null,
+      "info_source": [
+        "GOV"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Osterholz-Scharmbeck. Checked: 03 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:40:00.000Z\", s\"01KWHTQ7KR6D4ND7BA4CX18M0F\" ]",
+      "lat": 53.8922,
+      "lon": 9.2539,
+      "type": "WIND",
+      "time": "2026-06-28T00:40:00.000Z",
+      "country": "DE",
+      "place": "Sankt Margarethen",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Feuerwehr St. Margarethen: Überschwemmte Straße und umgestürzte Bäume \", SHZ, 29 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:38:00.000Z\", s\"01KWM1YMX6RSEQTAZWXPZF3JYK\" ]",
+      "lat": 52.9954,
+      "lon": 8.8639,
+      "type": "WIND",
+      "time": "2026-06-28T00:38:00.000Z",
+      "country": "DE",
+      "place": "Kirchweyhe",
+      "description": null,
+      "info_source": [
+        "GOV"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Kirchweyhe. Checked: 03 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:38:00.000Z\", s\"01KWHTQFZ99E6MFB7NY4DHP6K6\" ]",
+      "lat": 53.8999,
+      "lon": 9.2276,
+      "type": "WIND",
+      "time": "2026-06-28T00:38:00.000Z",
+      "country": "DE",
+      "place": "Büttel",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Feuerwehr St. Margarethen: Überschwemmte Straße und umgestürzte Bäume \", SHZ, 29 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:30:00.000Z\", s\"01KWM1NNH53QS1YHBF8WZD63TX\" ]",
+      "lat": 53.8973,
+      "lon": 9.1395,
+      "type": "WIND",
+      "time": "2026-06-28T00:30:00.000Z",
+      "country": "DE",
+      "place": "Brunsbüttel",
+      "description": null,
+      "info_source": [
+        "GOV",
+        "WWW"
+      ],
+      "references": [
+        "feuerwehr_brunsbuettel (Instagram). Checked: 03 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:30:00.000Z\", s\"01KWKSSHMMXT07WS0W7A37MWMW\" ]",
+      "lat": 52.6133,
+      "lon": 8.4038,
+      "type": "WIND",
+      "time": "2026-06-28T00:30:00.000Z",
+      "country": "DE",
+      "place": "Sankt Hülfer Neufeld",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Stadt Diepholz. checked: 03 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:30:00.000Z\", s\"01KWBZ1BDR12TP065CXMGANWQN\" ]",
+      "lat": 53.5736,
+      "lon": 8.2588,
+      "type": "WIND",
+      "time": "2026-06-28T00:30:00.000Z",
+      "country": "DE",
+      "place": "Butjadingen - Tossens",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Butjadingen (Facebook), checked: 30 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:30:00.000Z\", s\"01KWBZ0NYEPN35GW1AZ7K0DHPT\" ]",
+      "lat": 53.5686,
+      "lon": 8.3808,
+      "type": "WIND",
+      "time": "2026-06-28T00:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:30:00.000Z\", s\"01KWBZ09XR83GZF7QKJ2Y6EE56\" ]",
+      "lat": 53.556,
+      "lon": 8.3693,
+      "type": "WIND",
+      "time": "2026-06-28T00:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:30:00.000Z\", s\"01KWBYZG4CHARQMYZB5P938F66\" ]",
+      "lat": 53.536,
+      "lon": 8.3866,
+      "type": "WIND",
+      "time": "2026-06-28T00:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:30:00.000Z\", s\"01KWBYYAQZXHSRTCJA8HGHM47G\" ]",
+      "lat": 53.5782,
+      "lon": 8.2667,
+      "type": "WIND",
+      "time": "2026-06-28T00:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:30:00.000Z\", s\"01KWBYXP7E9D03GCVSGW9AMC69\" ]",
+      "lat": 53.5272,
+      "lon": 8.3897,
+      "type": "WIND",
+      "time": "2026-06-28T00:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:30:00.000Z\", s\"01KWBYX01HVGND06HAZ1X4R4P7\" ]",
+      "lat": 53.5524,
+      "lon": 8.3935,
+      "type": "WIND",
+      "time": "2026-06-28T00:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:30:00.000Z\", s\"01KWBYWM3HKW7Q3MFT672BE106\" ]",
+      "lat": 53.5504,
+      "lon": 8.392,
+      "type": "WIND",
+      "time": "2026-06-28T00:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:30:00.000Z\", s\"01KWBYVRAR08XTG5A000C97W61\" ]",
+      "lat": 53.5662,
+      "lon": 8.256,
+      "type": "WIND",
+      "time": "2026-06-28T00:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:30:00.000Z\", s\"01KWBYTATM8JBF89VR7MZV02GC\" ]",
+      "lat": 53.5757,
+      "lon": 8.2547,
+      "type": "WIND",
+      "time": "2026-06-28T00:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:30:00.000Z\", s\"01KWBYS4KFWGXDQNM0AF9Q2WYF\" ]",
+      "lat": 53.591,
+      "lon": 8.3245,
+      "type": "WIND",
+      "time": "2026-06-28T00:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:30:00.000Z\", s\"01KWBYR768E695NYKPXRXY8K5K\" ]",
+      "lat": 53.5722,
+      "lon": 8.264,
+      "type": "WIND",
+      "time": "2026-06-28T00:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:30:00.000Z\", s\"01KWBYPYGBTK7SBMHXZ05XQ3HG\" ]",
+      "lat": 53.57,
+      "lon": 8.2671,
+      "type": "WIND",
+      "time": "2026-06-28T00:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:30:00.000Z\", s\"01KWBYPJMC4AYWNH3X9SJEVXY5\" ]",
+      "lat": 53.5911,
+      "lon": 8.2782,
+      "type": "WIND",
+      "time": "2026-06-28T00:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:30:00.000Z\", s\"01KWBYP57G6VM7HKKSWKSPH9V3\" ]",
+      "lat": 53.5388,
+      "lon": 8.2917,
+      "type": "WIND",
+      "time": "2026-06-28T00:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:23:00.000Z\", s\"01KWGZ05XM0C1W4KV2VFSR40NA\" ]",
+      "lat": 53.6002,
+      "lon": 8.7452,
+      "type": "LIGHTNING",
+      "time": "2026-06-28T00:23:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:14:00.000Z\", s\"01KWCG31SPW7ZF6C370WZV79HH\" ]",
+      "lat": 53.7388,
+      "lon": 8.9191,
+      "type": "HAIL",
+      "time": "2026-06-28T00:14:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:12:00.000Z\", s\"01KWKV0FJTMS5PKCJQSYVW4NCM\" ]",
+      "lat": 53.5765,
+      "lon": 7.9814,
+      "type": "WIND",
+      "time": "2026-06-28T00:12:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:12:00.000Z\", s\"01KWKTZZF1SD8NW538JEG1P9ZW\" ]",
+      "lat": 53.5527,
+      "lon": 7.9913,
+      "type": "WIND",
+      "time": "2026-06-28T00:12:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:09:00.000Z\", s\"01KWM1V7X9WNFRY85E7DBQMRV4\" ]",
+      "lat": 53.5394,
+      "lon": 8.0373,
+      "type": "WIND",
+      "time": "2026-06-28T00:09:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:00:00.000Z\", s\"01KWKV3WWZJHP3025V5KW95B97\" ]",
+      "lat": 53.4895,
+      "lon": 8.6971,
+      "type": "WIND",
+      "time": "2026-06-28T00:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:00:00.000Z\", s\"01KWKR9B4B950P5B41581KZBDX\" ]",
+      "lat": 53.4969,
+      "lon": 8.7187,
+      "type": "WIND",
+      "time": "2026-06-28T00:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-28T00:00:00.000Z\", s\"01KWKR835C2XM2GZXN4C1RF06A\" ]",
+      "lat": 53.4919,
+      "lon": 8.6973,
+      "type": "WIND",
+      "time": "2026-06-28T00:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T23:53:00.000Z\", s\"01KWCG0PNRD4G9QFECKTD05EF7\" ]",
+      "lat": 53.6117,
+      "lon": 8.6032,
+      "type": "HAIL",
+      "time": "2026-06-27T23:53:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T23:50:00.000Z\", s\"01KWCFYG28ZFEF27HR4YZHZ9MS\" ]",
+      "lat": 53.4708,
+      "lon": 7.3527,
+      "type": "HAIL",
+      "time": "2026-06-27T23:50:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T23:36:00.000Z\", s\"01KWCG1N8C58M0YAQ6D3QR8A41\" ]",
+      "lat": 53.5472,
+      "lon": 8.335,
+      "type": "HAIL",
+      "time": "2026-06-27T23:36:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T23:30:00.000Z\", s\"01KWCGCYNZ15B66HRTTK64YDFG\" ]",
+      "lat": 53.3367,
+      "lon": 7.3691,
+      "type": "HAIL",
+      "time": "2026-06-27T23:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T22:40:00.000Z\", s\"01KWF3Y9APNS5ZPDZE876G3FKW\" ]",
+      "lat": 53.7961,
+      "lon": 8.6443,
+      "type": "LIGHTNING",
+      "time": "2026-06-27T22:40:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T21:32:00.000Z\", s\"01KWC2X2X3KN5N1P8G0Y1VZSPH\" ]",
+      "lat": 53.5418,
+      "lon": 7.7599,
+      "type": "HAIL",
+      "time": "2026-06-27T21:32:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T21:11:00.000Z\", s\"01KWCDMQBQCXWZ387X167598DX\" ]",
+      "lat": 54.5413,
+      "lon": 9.8158,
+      "type": "HAIL",
+      "time": "2026-06-27T21:11:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T21:11:00.000Z\", s\"01KWC2V28XKJPBR93JZSTFJQGB\" ]",
+      "lat": 53.4635,
+      "lon": 7.5506,
+      "type": "HAIL",
+      "time": "2026-06-27T21:11:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T21:10:00.000Z\", s\"01KWC2S5NDHM22S6FXFXV54E08\" ]",
+      "lat": 53.4732,
+      "lon": 7.5188,
+      "type": "HAIL",
+      "time": "2026-06-27T21:10:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T21:05:00.000Z\", s\"01KWC2SEJQWNPH4K61GGT727MC\" ]",
+      "lat": 53.454,
+      "lon": 7.5014,
+      "type": "HAIL",
+      "time": "2026-06-27T21:05:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T21:05:00.000Z\", s\"01KWC2PKE78VVYRZ9GB5B0X13G\" ]",
+      "lat": 53.4374,
+      "lon": 7.5055,
+      "type": "HAIL",
+      "time": "2026-06-27T21:05:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T20:50:00.000Z\", s\"01KWH0DB9WVBBCAE9Y0VSXWP3Z\" ]",
+      "lat": 53.476,
+      "lon": 7.3985,
+      "type": "LIGHTNING",
+      "time": "2026-06-27T20:50:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T20:35:00.000Z\", s\"01KWCDPJGHHHYE78CRVGYCAV42\" ]",
+      "lat": 54.5465,
+      "lon": 9.7243,
+      "type": "HAIL",
+      "time": "2026-06-27T20:35:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T20:25:00.000Z\", s\"01KWCDNK16NTFFTXG7QMWKMPG9\" ]",
+      "lat": 54.5668,
+      "lon": 9.6862,
+      "type": "HAIL",
+      "time": "2026-06-27T20:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T20:22:00.000Z\", s\"01KWC23020N842WHREH4N81VZN\" ]",
+      "lat": 52.4754,
+      "lon": 13.1766,
+      "type": "HAIL",
+      "time": "2026-06-27T20:22:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T20:18:00.000Z\", s\"01KWHRT8SXGES5TBH6TSDM2VMK\" ]",
+      "lat": 52.4942,
+      "lon": 13.1224,
+      "type": "WIND",
+      "time": "2026-06-27T20:18:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T20:05:00.000Z\", s\"01KWHRRSYGD1ZFV3YBD4XPD3S0\" ]",
+      "lat": 52.4464,
+      "lon": 13.0452,
+      "type": "WIND",
+      "time": "2026-06-27T20:05:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T20:04:00.000Z\", s\"01KWHRV45TR3BXM84022A1RT3J\" ]",
+      "lat": 52.4682,
+      "lon": 13.0119,
+      "type": "WIND",
+      "time": "2026-06-27T20:04:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T20:03:00.000Z\", s\"01KWGZ6NKEVW3WWNC9QHPY7TQA\" ]",
+      "lat": 54.7216,
+      "lon": 9.9011,
+      "type": "LIGHTNING",
+      "time": "2026-06-27T20:03:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T20:02:00.000Z\", s\"01KWHRVKN3RFS6WSTRVZ7M10SG\" ]",
+      "lat": 52.4638,
+      "lon": 12.9628,
+      "type": "WIND",
+      "time": "2026-06-27T20:02:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T19:40:00.000Z\", s\"01KWHS3NHZ9T5J9NNPB4MBVJGR\" ]",
+      "lat": 52.4456,
+      "lon": 12.7712,
+      "type": "WIND",
+      "time": "2026-06-27T19:40:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T19:35:00.000Z\", s\"01KWHRZV8A784HSKHV44G22X7A\" ]",
+      "lat": 54.3914,
+      "lon": 9.5984,
+      "type": "WIND",
+      "time": "2026-06-27T19:35:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T19:33:00.000Z\", s\"01KWHS0BKHVJDY82KN5EBZ9M61\" ]",
+      "lat": 54.3977,
+      "lon": 9.579,
+      "type": "WIND",
+      "time": "2026-06-27T19:33:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T19:33:00.000Z\", s\"01KWC296Z6ED89S0BZ721FXSBM\" ]",
+      "lat": 52.3483,
+      "lon": 12.6324,
+      "type": "HAIL",
+      "time": "2026-06-27T19:33:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T19:31:00.000Z\", s\"01KWCDEJY59K0203WRESXZQ9F8\" ]",
+      "lat": 54.3914,
+      "lon": 9.5984,
+      "type": "HAIL",
+      "time": "2026-06-27T19:31:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T19:27:00.000Z\", s\"01KWCDD9VK3TYJ5PYY8AX28WDQ\" ]",
+      "lat": 54.6967,
+      "lon": 9.5655,
+      "type": "HAIL",
+      "time": "2026-06-27T19:27:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T19:06:00.000Z\", s\"01KWCDBE34EKSW7XSJBHNDD1HB\" ]",
+      "lat": 54.7651,
+      "lon": 9.3504,
+      "type": "HAIL",
+      "time": "2026-06-27T19:06:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T19:05:00.000Z\", s\"01KWC26WKWGWM24NMR00M7Y4E4\" ]",
+      "lat": 52.1499,
+      "lon": 12.787,
+      "type": "HAIL",
+      "time": "2026-06-27T19:05:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T19:02:00.000Z\", s\"01KWHRN2EDPNBK782JZWBEB1Q0\" ]",
+      "lat": 52.3758,
+      "lon": 12.4228,
+      "type": "WIND",
+      "time": "2026-06-27T19:02:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T18:51:00.000Z\", s\"01KWHRHSRZ3PXX8G2E15A51F23\" ]",
+      "lat": 54.224,
+      "lon": 9.1169,
+      "type": "WIND",
+      "time": "2026-06-27T18:51:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T18:50:00.000Z\", s\"01KWH94Y3S1549T1CFN3W8A5NF\" ]",
+      "lat": 52.5827,
+      "lon": 12.0373,
+      "type": "WIND",
+      "time": "2026-06-27T18:50:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T18:40:00.000Z\", s\"01KWH8VHWJTHPCQ766PQJDY2PY\" ]",
+      "lat": 52.6146,
+      "lon": 11.8449,
+      "type": "PRECIP",
+      "time": "2026-06-27T18:40:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T18:40:00.000Z\", s\"01KWH8TMXZZ73CWGFSFZYEP5MM\" ]",
+      "lat": 52.6051,
+      "lon": 11.8594,
+      "type": "PRECIP",
+      "time": "2026-06-27T18:40:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T18:40:00.000Z\", s\"01KW568B9EP2R8FG5JNA6X193J\" ]",
+      "lat": 52.5909,
+      "lon": 11.8451,
+      "type": "PRECIP",
+      "time": "2026-06-27T18:40:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T18:40:00.000Z\", s\"01KW5664ZBG2J3QBK1TZXHVQD6\" ]",
+      "lat": 52.5887,
+      "lon": 11.8241,
+      "type": "PRECIP",
+      "time": "2026-06-27T18:40:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T18:35:00.000Z\", s\"01KWH8SBA4VW6MRNV24P3CJKYF\" ]",
+      "lat": 52.586,
+      "lon": 11.7899,
+      "type": "PRECIP",
+      "time": "2026-06-27T18:35:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T18:34:00.000Z\", s\"01KWC3D8RWNN4RQDJ3QNBNC58R\" ]",
+      "lat": 52.4676,
+      "lon": 12.0203,
+      "type": "HAIL",
+      "time": "2026-06-27T18:34:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T18:25:00.000Z\", s\"01KWC2AWW56PSH5CW7XCD6RQS8\" ]",
+      "lat": 52.7509,
+      "lon": 12.3411,
+      "type": "HAIL",
+      "time": "2026-06-27T18:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T18:25:00.000Z\", s\"01KW9TBY85YTRJ07EAZPV87F31\" ]",
+      "lat": 53.1511,
+      "lon": 16.738,
+      "type": "LIGHTNING",
+      "time": "2026-06-27T18:25:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T18:22:00.000Z\", s\"01KWH8ZFDKAF4EJNQDXBWWW0YF\" ]",
+      "lat": 52.5427,
+      "lon": 11.8916,
+      "type": "WIND",
+      "time": "2026-06-27T18:22:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T18:10:00.000Z\", s\"01KWCDVWH0DPJXJ6248S3WK0BP\" ]",
+      "lat": 52.593,
+      "lon": 11.7462,
+      "type": "HAIL",
+      "time": "2026-06-27T18:10:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T18:10:00.000Z\", s\"01KWC381B4P4D8YZ1N9V423S37\" ]",
+      "lat": 52.5076,
+      "lon": 11.8532,
+      "type": "HAIL",
+      "time": "2026-06-27T18:10:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T18:10:00.000Z\", s\"01KW9VAPKY3NGKRXZP4NE7W9X8\" ]",
+      "lat": 53.2032,
+      "lon": 16.5814,
+      "type": "HAIL",
+      "time": "2026-06-27T18:10:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T18:00:00.000Z\", s\"01KWH91TNGS6JCZNETY5YQFHCJ\" ]",
+      "lat": 52.6166,
+      "lon": 11.7378,
+      "type": "WIND",
+      "time": "2026-06-27T18:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T17:59:00.000Z\", s\"01KWC3A8RBECT3CWM09HHVHQEY\" ]",
+      "lat": 52.5565,
+      "lon": 11.8059,
+      "type": "HAIL",
+      "time": "2026-06-27T17:59:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T17:57:00.000Z\", s\"01KWC336KC2EVJCXZJNXRQVA04\" ]",
+      "lat": 50.8913,
+      "lon": 7.0797,
+      "type": "HAIL",
+      "time": "2026-06-27T17:57:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T17:56:00.000Z\", s\"01KWC31KDH1KBHCMPR2VCCSPFP\" ]",
+      "lat": 50.8809,
+      "lon": 7.0816,
+      "type": "HAIL",
+      "time": "2026-06-27T17:56:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T17:55:00.000Z\", s\"01KWC30V9TGEADGYA1AFBTW0P3\" ]",
+      "lat": 50.881,
+      "lon": 7.0614,
+      "type": "HAIL",
+      "time": "2026-06-27T17:55:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T17:51:00.000Z\", s\"01KWH97TB8XE17Y8GR0HFDPG7N\" ]",
+      "lat": 52.4472,
+      "lon": 11.7081,
+      "type": "LIGHTNING",
+      "time": "2026-06-27T17:51:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T17:44:00.000Z\", s\"01KWH8XEM5J5RZN3P7V36NP7WQ\" ]",
+      "lat": 52.5629,
+      "lon": 11.7491,
+      "type": "WIND",
+      "time": "2026-06-27T17:44:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T17:44:00.000Z\", s\"01KWC3B2FFPHQ9SP2DGD6C4JVE\" ]",
+      "lat": 52.5614,
+      "lon": 11.7528,
+      "type": "HAIL",
+      "time": "2026-06-27T17:44:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T17:30:00.000Z\", s\"01KWHTHBB1WMDW3DFG6PM67H8M\" ]",
+      "lat": 53.2945,
+      "lon": 11.8002,
+      "type": "WIND",
+      "time": "2026-06-27T17:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T17:30:00.000Z\", s\"01KWHTH3CDKVGBCMVS8VYERVFB\" ]",
+      "lat": 53.2601,
+      "lon": 11.8077,
+      "type": "WIND",
+      "time": "2026-06-27T17:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T17:15:00.000Z\", s\"01KWHTJZA32Y98B4WVXV3P2Z3H\" ]",
+      "lat": 53.2122,
+      "lon": 11.7162,
+      "type": "WIND",
+      "time": "2026-06-27T17:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T17:15:00.000Z\", s\"01KWHTDGG193YC7ND3N7V58KXB\" ]",
+      "lat": 53.2778,
+      "lon": 11.5627,
+      "type": "PRECIP",
+      "time": "2026-06-27T17:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:58:00.000Z\", s\"01KW517X3V7FHAEN6JPYSEAQRW\" ]",
+      "lat": 52.8799,
+      "lon": 12.0523,
+      "type": "HAIL",
+      "time": "2026-06-27T16:58:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:47:00.000Z\", s\"01KW50N6W0APY9SJ5CYJ9GZXZT\" ]",
+      "lat": 52.9043,
+      "lon": 10.5843,
+      "type": "HAIL",
+      "time": "2026-06-27T16:47:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:42:00.000Z\", s\"01KW511PP3C89W35XCHEPG63KX\" ]",
+      "lat": 53.8706,
+      "lon": 10.333,
+      "type": "HAIL",
+      "time": "2026-06-27T16:42:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:36:00.000Z\", s\"01KW513DC3GBTVRVETT8HXJZV4\" ]",
+      "lat": 53.8362,
+      "lon": 10.3411,
+      "type": "HAIL",
+      "time": "2026-06-27T16:36:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:36:00.000Z\", s\"01KW503CCZNB9Z2FK4MJ41510Y\" ]",
+      "lat": 52.8929,
+      "lon": 11.9853,
+      "type": "HAIL",
+      "time": "2026-06-27T16:36:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:29:00.000Z\", s\"01KW50TM9JS7Q53SXJQGTGWDS1\" ]",
+      "lat": 53.798,
+      "lon": 10.2386,
+      "type": "HAIL",
+      "time": "2026-06-27T16:29:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:28:00.000Z\", s\"01KW50VWZ28P20AP6PWJN84GRF\" ]",
+      "lat": 53.783,
+      "lon": 10.2397,
+      "type": "HAIL",
+      "time": "2026-06-27T16:28:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:26:00.000Z\", s\"01KW50RSJ2GBWWFPP6MZXSGHZR\" ]",
+      "lat": 53.7779,
+      "lon": 10.2273,
+      "type": "HAIL",
+      "time": "2026-06-27T16:26:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:25:00.000Z\", s\"01KW50XPQQH7M5HZAR88NJHR13\" ]",
+      "lat": 53.765,
+      "lon": 10.202,
+      "type": "HAIL",
+      "time": "2026-06-27T16:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:20:00.000Z\", s\"01KW50092R9FVNE0AWDNNXTEA9\" ]",
+      "lat": 52.9653,
+      "lon": 11.7954,
+      "type": "HAIL",
+      "time": "2026-06-27T16:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:19:00.000Z\", s\"01KW508FJWWNEWWRH5ESMBDH72\" ]",
+      "lat": 53.7654,
+      "lon": 10.2634,
+      "type": "HAIL",
+      "time": "2026-06-27T16:19:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:17:00.000Z\", s\"01KW50K4NB5XQWAZTV9AS56W3T\" ]",
+      "lat": 53.7374,
+      "lon": 10.1947,
+      "type": "HAIL",
+      "time": "2026-06-27T16:17:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:15:00.000Z\", s\"01KW50HVJ28RZ819EDKXQKPZT2\" ]",
+      "lat": 53.6101,
+      "lon": 10.1929,
+      "type": "HAIL",
+      "time": "2026-06-27T16:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:14:00.000Z\", s\"01KW50CA341EBPZSMX9Y8D43JB\" ]",
+      "lat": 53.6308,
+      "lon": 10.1827,
+      "type": "HAIL",
+      "time": "2026-06-27T16:14:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:13:00.000Z\", s\"01KW50FWEGQFJS1SCBMY5RZP6N\" ]",
+      "lat": 53.6141,
+      "lon": 10.17,
+      "type": "HAIL",
+      "time": "2026-06-27T16:13:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:11:00.000Z\", s\"01KWHM69WXQ84KCKG2KWTPH5PB\" ]",
+      "lat": 53.2404,
+      "lon": 10.8457,
+      "type": "HAIL",
+      "time": "2026-06-27T16:11:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:10:00.000Z\", s\"01KW50AKR4HNGV2JC2CZZ8EYN6\" ]",
+      "lat": 53.6083,
+      "lon": 10.1376,
+      "type": "HAIL",
+      "time": "2026-06-27T16:10:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:05:00.000Z\", s\"01KW5718JKDZ4FWH1T8QKVEFP0\" ]",
+      "lat": 53.2833,
+      "lon": 10.7402,
+      "type": "PRECIP",
+      "time": "2026-06-27T16:05:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:05:00.000Z\", s\"01KW55KZMPJ4994BA8CM1ED0W0\" ]",
+      "lat": 53.2246,
+      "lon": 10.7024,
+      "type": "PRECIP",
+      "time": "2026-06-27T16:05:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T16:00:00.000Z\", s\"01KW9ZJ2WZ12N32Y0M5D196VDS\" ]",
+      "lat": 50.1333,
+      "lon": 9.0333,
+      "type": "DEVIL",
+      "time": "2026-06-27T16:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T15:55:00.000Z\", s\"01KWHM7MXRDJ79SP4VBCM31FTM\" ]",
+      "lat": 53.2827,
+      "lon": 10.7289,
+      "type": "HAIL",
+      "time": "2026-06-27T15:55:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T15:55:00.000Z\", s\"01KW56RPR1ATXJS68RJDH830M8\" ]",
+      "lat": 53.3086,
+      "lon": 10.6096,
+      "type": "PRECIP",
+      "time": "2026-06-27T15:55:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T15:50:00.000Z\", s\"01KW56TJVVEEAEZYGQWFT7TD71\" ]",
+      "lat": 53.2901,
+      "lon": 10.6536,
+      "type": "PRECIP",
+      "time": "2026-06-27T15:50:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T15:47:00.000Z\", s\"01KW4YVGT7JW1K8EJN66M984BF\" ]",
+      "lat": 51.6142,
+      "lon": 7.5228,
+      "type": "HAIL",
+      "time": "2026-06-27T15:47:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T15:45:00.000Z\", s\"01KW4YYWAT709DVK9VF8VE192V\" ]",
+      "lat": 51.6135,
+      "lon": 7.4979,
+      "type": "HAIL",
+      "time": "2026-06-27T15:45:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T15:40:00.000Z\", s\"01KW4XZ3YWW41BKFHZ5ZBYD994\" ]",
+      "lat": 51.6062,
+      "lon": 7.5177,
+      "type": "HAIL",
+      "time": "2026-06-27T15:40:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T15:35:00.000Z\", s\"01KW4YX15CNWN9JP2XA27Y5QWQ\" ]",
+      "lat": 51.5911,
+      "lon": 7.5309,
+      "type": "HAIL",
+      "time": "2026-06-27T15:35:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T15:35:00.000Z\", s\"01KW4YSQRSNKVX5RHEFHMEPJTJ\" ]",
+      "lat": 51.5848,
+      "lon": 7.5073,
+      "type": "HAIL",
+      "time": "2026-06-27T15:35:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T15:34:00.000Z\", s\"01KW4X2CMS8AVQVG7H7SKVGFMR\" ]",
+      "lat": 53.2653,
+      "lon": 10.6246,
+      "type": "HAIL",
+      "time": "2026-06-27T15:34:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T15:33:00.000Z\", s\"01KW4X4P6WB0KJC7FF4ZNB6AJD\" ]",
+      "lat": 53.2329,
+      "lon": 10.6593,
+      "type": "HAIL",
+      "time": "2026-06-27T15:33:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T15:30:00.000Z\", s\"01KW4Z0575TG67AJ5J1VGQTDAE\" ]",
+      "lat": 51.5691,
+      "lon": 7.5216,
+      "type": "HAIL",
+      "time": "2026-06-27T15:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T15:20:00.000Z\", s\"01KW4WXXSXA6GYJRXKF29DVW21\" ]",
+      "lat": 53.2121,
+      "lon": 10.3909,
+      "type": "HAIL",
+      "time": "2026-06-27T15:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T15:15:00.000Z\", s\"01KW4WZZ8RJH8V70P34SC2VCB8\" ]",
+      "lat": 53.282,
+      "lon": 10.4543,
+      "type": "HAIL",
+      "time": "2026-06-27T15:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T14:58:00.000Z\", s\"01KW4XPTKRDV7J13RNWC0F2CQ0\" ]",
+      "lat": 51.602,
+      "lon": 7.5546,
+      "type": "HAIL",
+      "time": "2026-06-27T14:58:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T14:55:00.000Z\", s\"01KW4XKY7WX02ZHJW23KGS1MCK\" ]",
+      "lat": 51.5925,
+      "lon": 7.5669,
+      "type": "HAIL",
+      "time": "2026-06-27T14:55:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T14:35:00.000Z\", s\"01KW51E4X2R9WTA1738W3WG07J\" ]",
+      "lat": 51.8682,
+      "lon": 10.9086,
+      "type": "HAIL",
+      "time": "2026-06-27T14:35:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T14:35:00.000Z\", s\"01KW4SJJX3DPQD1TD98B3PF7JF\" ]",
+      "lat": 51.8665,
+      "lon": 10.8931,
+      "type": "HAIL",
+      "time": "2026-06-27T14:35:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T14:34:00.000Z\", s\"01KW4WKZKQNW8P07NHAY49NXY8\" ]",
+      "lat": 53.36,
+      "lon": 10.2033,
+      "type": "HAIL",
+      "time": "2026-06-27T14:34:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T14:30:00.000Z\", s\"01KW4WTMTP9YMTZQ8NJCZJW694\" ]",
+      "lat": 53.3322,
+      "lon": 10.2022,
+      "type": "HAIL",
+      "time": "2026-06-27T14:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T14:28:00.000Z\", s\"01KW4WRTPK6W81DQKRS4XW8A7Z\" ]",
+      "lat": 53.345,
+      "lon": 10.1701,
+      "type": "HAIL",
+      "time": "2026-06-27T14:28:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T14:20:00.000Z\", s\"01KW4WEQX0K1WX65HWM5HTRA7R\" ]",
+      "lat": 53.3238,
+      "lon": 10.1414,
+      "type": "HAIL",
+      "time": "2026-06-27T14:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T14:17:00.000Z\", s\"01KW4WCVYYGX5F1EB391RHGP33\" ]",
+      "lat": 53.3471,
+      "lon": 10.1392,
+      "type": "HAIL",
+      "time": "2026-06-27T14:17:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T14:15:00.000Z\", s\"01KW4WH9VY9WB7CXXVXH1PDVM0\" ]",
+      "lat": 53.2993,
+      "lon": 10.0464,
+      "type": "HAIL",
+      "time": "2026-06-27T14:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T14:15:00.000Z\", s\"01KW4WAR7NNP3QKX38HDH9G93A\" ]",
+      "lat": 53.3214,
+      "lon": 10.0655,
+      "type": "HAIL",
+      "time": "2026-06-27T14:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T14:14:00.000Z\", s\"01KW4VZR7FAK22QPP3NH06TDG3\" ]",
+      "lat": 53.3323,
+      "lon": 10.079,
+      "type": "HAIL",
+      "time": "2026-06-27T14:14:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T14:05:00.000Z\", s\"01KW4VTPEZT1N71DN421N6WEW4\" ]",
+      "lat": 53.3589,
+      "lon": 10.1228,
+      "type": "HAIL",
+      "time": "2026-06-27T14:05:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T14:02:00.000Z\", s\"01KW4VN8CD0V2Y5DHWVVZ06TR3\" ]",
+      "lat": 53.3566,
+      "lon": 10.1098,
+      "type": "HAIL",
+      "time": "2026-06-27T14:02:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T13:24:00.000Z\", s\"01KW4MNVJPK3QF39F24WZ8737C\" ]",
+      "lat": 54.7469,
+      "lon": 9.897,
+      "type": "HAIL",
+      "time": "2026-06-27T13:24:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T13:06:00.000Z\", s\"01KW4N1DT0BHEAAZ9AQHJXXEN0\" ]",
+      "lat": 51.4771,
+      "lon": 8.7509,
+      "type": "HAIL",
+      "time": "2026-06-27T13:06:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T12:33:00.000Z\", s\"01KW4MENWKXHHAS6MK4B6NR4BP\" ]",
+      "lat": 54.8095,
+      "lon": 9.1734,
+      "type": "HAIL",
+      "time": "2026-06-27T12:33:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T11:55:00.000Z\", s\"01KW4N59QFYZ9K6EAHNHRHXAAH\" ]",
+      "lat": 51.4375,
+      "lon": 8.891,
+      "type": "HAIL",
+      "time": "2026-06-27T11:55:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T11:50:00.000Z\", s\"01KW4N3KN0DTJVCMC9SW53AS0J\" ]",
+      "lat": 51.4105,
+      "lon": 8.831,
+      "type": "HAIL",
+      "time": "2026-06-27T11:50:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T06:32:00.000Z\", s\"01KW4MM1KVVEJ9PFFVVE8WXYZ1\" ]",
+      "lat": 53.6215,
+      "lon": 8.043,
+      "type": "HAIL",
+      "time": "2026-06-27T06:32:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-27T06:16:00.000Z\", s\"01KW4MHHF4J436RXJHSMYX2SFG\" ]",
+      "lat": 53.3786,
+      "lon": 8.5087,
+      "type": "HAIL",
+      "time": "2026-06-27T06:16:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    }
+  ]
+}
