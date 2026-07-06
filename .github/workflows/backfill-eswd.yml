@@ -1,0 +1,151 @@
+name: Backfill ESWD Reports
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_date:
+        description: "Start date, example 2026-06-01"
+        required: true
+        type: string
+      end_date:
+        description: "End date, example 2026-07-03"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Backfill ESWD reports
+        env:
+          ESWD_TOKEN: ${{ secrets.ESWD_TOKEN }}
+          START_DATE: ${{ inputs.start_date }}
+          END_DATE: ${{ inputs.end_date }}
+        run: |
+          mkdir -p data/eswd_reports
+
+          python3 <<'PY'
+          import os
+          import json
+          import time
+          import urllib.parse
+          import urllib.request
+          from datetime import datetime, timedelta
+          from zoneinfo import ZoneInfo
+
+          token = os.environ.get("ESWD_TOKEN", "").strip()
+          if not token:
+              raise SystemExit("Missing ESWD_TOKEN secret")
+
+          start_date = datetime.strptime(os.environ["START_DATE"], "%Y-%m-%d").date()
+          end_date = datetime.strptime(os.environ["END_DATE"], "%Y-%m-%d").date()
+
+          if end_date < start_date:
+              raise SystemExit("end_date is before start_date")
+
+          tz = ZoneInfo("Europe/Prague")
+          utc = ZoneInfo("UTC")
+
+          countries = "CZ,SK,PL,DE,AT,HU,SI,HR,CH,LI"
+          levels = "QC0,QC0+,QC1,QC2"
+          types = "TORNADO,FUNNEL,GUSTNADO,HAIL,PRECIP,WIND,LIGHTNING,DEVIL"
+
+          current = start_date
+
+          while current <= end_date:
+              start_local = datetime(current.year, current.month, current.day, 6, 0, tzinfo=tz)
+              end_local = start_local + timedelta(days=1)
+
+              forecast_date = current.isoformat()
+              path = f"data/eswd_reports/{forecast_date}.json"
+
+              params = {
+                  "sd": start_local.astimezone(utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                  "ed": end_local.astimezone(utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                  "countries": countries,
+                  "levels": levels,
+                  "types": types
+              }
+
+              url = "https://eswd.eu/api/v2/reportList?" + urllib.parse.urlencode(params)
+
+              print("Fetching", forecast_date)
+              print(url)
+
+              req = urllib.request.Request(
+                  url,
+                  headers={
+                      "Authorization": token,
+                      "Accept": "application/json",
+                      "User-Agent": "CESTOF forecast verification backfill"
+                  }
+              )
+
+              try:
+                  with urllib.request.urlopen(req, timeout=90) as r:
+                      data = json.loads(r.read().decode("utf-8"))
+              except urllib.error.HTTPError as e:
+                  print("HTTP error:", e.code, e.reason)
+                  print(e.read().decode("utf-8", errors="replace"))
+                  raise
+
+              reports = []
+
+              for x in data:
+                  if x.get("LATITUDE") is None or x.get("LONGITUDE") is None:
+                      continue
+
+                  reports.append({
+                      "id": x.get("id"),
+                      "lat": x.get("LATITUDE"),
+                      "lon": x.get("LONGITUDE"),
+                      "type": x.get("TYPE_EVENT"),
+                      "time": x.get("TIME_EVENT"),
+                      "country": x.get("COUNTRY"),
+                      "place": x.get("PLACE"),
+                      "description": x.get("EVENT_DESCRIPTION"),
+                      "info_source": x.get("INFO_SOURCE"),
+                      "references": x.get("REFERENCE")
+                  })
+
+              output = {
+                  "forecast_date": forecast_date,
+                  "window_start_local": start_local.isoformat(),
+                  "window_end_local": end_local.isoformat(),
+                  "window_start_utc": start_local.astimezone(utc).isoformat(),
+                  "window_end_utc": end_local.astimezone(utc).isoformat(),
+                  "source": "ESWD",
+                  "raw_count": len(data),
+                  "report_count": len(reports),
+                  "reports": reports
+              }
+
+              with open(path, "w", encoding="utf-8") as f:
+                  json.dump(output, f, ensure_ascii=False, indent=2)
+
+              print("Saved", path, "reports:", len(reports))
+
+              current += timedelta(days=1)
+              time.sleep(1)
+          PY
+
+      - name: Commit backfilled reports
+        run: |
+          git config user.name "CESTOF ESWD Bot"
+          git config user.email "actions@github.com"
+
+          git add data/eswd_reports/*.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Backfill ESWD reports"
+            git push
+          fi
