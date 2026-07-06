@@ -1,0 +1,156 @@
+{
+  "forecast_date": "2026-06-08",
+  "window_start_local": "2026-06-08T06:00:00+02:00",
+  "window_end_local": "2026-06-09T06:00:00+02:00",
+  "window_start_utc": "2026-06-08T04:00:00+00:00",
+  "window_end_utc": "2026-06-09T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 8,
+  "report_count": 8,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-06-08T17:55:00.000Z\", s\"01KTP466YVJ0ZEVAC0P1SSCHD7\" ]",
+      "lat": 46.7137,
+      "lon": 14.2669,
+      "type": "WIND",
+      "time": "2026-06-08T17:55:00.000Z",
+      "country": "AT",
+      "place": "Zweikirchen",
+      "description": "fire department came into action",
+      "info_source": [
+        "NWSP",
+        "WWW"
+      ],
+      "references": [
+        "„Standen im Dauereinsatz“: Unwetter fordern Kärntner Florianis, 5min.at, 9 June 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-08T17:55:00.000Z\", s\"01KTP3WP8KCJA1GGJS2PPA0H2Z\" ]",
+      "lat": 46.762,
+      "lon": 14.3304,
+      "type": "WIND",
+      "time": "2026-06-08T17:55:00.000Z",
+      "country": "AT",
+      "place": "Treffelsdorf",
+      "description": "fire department came into action several times",
+      "info_source": [
+        "NWSP",
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "„Standen im Dauereinsatz“: Unwetter fordern Kärntner Florianis, 5min.at, 9 June 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-08T17:55:00.000Z\", s\"01KTP3T4V19YWH53K47PFK5CGE\" ]",
+      "lat": 46.7377,
+      "lon": 14.2896,
+      "type": "WIND",
+      "time": "2026-06-08T17:55:00.000Z",
+      "country": "AT",
+      "place": "Liebenfels",
+      "description": "fire department came into action several times",
+      "info_source": [
+        "NWSP",
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "„Standen im Dauereinsatz“: Unwetter fordern Kärntner Florianis, 5min.at, 9 June 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-08T17:45:00.000Z\", s\"01KTP422XXYNWA1WB4THGEYXP5\" ]",
+      "lat": 46.7651,
+      "lon": 14.2745,
+      "type": "WIND",
+      "time": "2026-06-08T17:45:00.000Z",
+      "country": "AT",
+      "place": "Sörg",
+      "description": "fire department came into action",
+      "info_source": [
+        "NWSP",
+        "WWW"
+      ],
+      "references": [
+        "„Standen im Dauereinsatz“: Unwetter fordern Kärntner Florianis, 5min.at, 9 June 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-08T17:25:00.000Z\", s\"01KTS6KBXN2H34WZPN383NP2FT\" ]",
+      "lat": 47.3905,
+      "lon": 11.8517,
+      "type": "WIND",
+      "time": "2026-06-08T17:25:00.000Z",
+      "country": "AT",
+      "place": "Bruck am Ziller",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Unwetter fegt über Tirol – Baum blockiert Straße,  Heute, 9 June 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-08T17:25:00.000Z\", s\"01KTS6CN5K5FWERK98AJGETK72\" ]",
+      "lat": 47.3772,
+      "lon": 11.8407,
+      "type": "WIND",
+      "time": "2026-06-08T17:25:00.000Z",
+      "country": "AT",
+      "place": "Schlitters",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Unwetter fegt über Tirol – Baum blockiert Straße,  Heute, 9 June 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-08T13:05:00.000Z\", s\"01KTKZ5JZZ1MRS7PG0X051QYWB\" ]",
+      "lat": 47.3345,
+      "lon": 7.2838,
+      "type": "PRECIP",
+      "time": "2026-06-08T13:05:00.000Z",
+      "country": "CH",
+      "place": "Courfaivre",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS ICOURF1 (wounderground.com), 08 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-08T12:55:00.000Z\", s\"01KTKZ6WMP2ZHRS0C5FGE04WDT\" ]",
+      "lat": 47.3371,
+      "lon": 7.2441,
+      "type": "PRECIP",
+      "time": "2026-06-08T12:55:00.000Z",
+      "country": "CH",
+      "place": "Bassecourt",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IBASSE42 (wounderground.com), 08 JUN 2026"
+      ]
+    }
+  ]
+}

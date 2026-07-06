@@ -1,0 +1,66 @@
+{
+  "forecast_date": "2026-05-16",
+  "window_start_local": "2026-05-16T06:00:00+02:00",
+  "window_end_local": "2026-05-17T06:00:00+02:00",
+  "window_start_utc": "2026-05-16T04:00:00+00:00",
+  "window_end_utc": "2026-05-17T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 3,
+  "report_count": 3,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-16T09:40:00.000Z\", s\"01KRTS31Y0N0Q1E6P33QWHWXN8\" ]",
+      "lat": 45.4212,
+      "lon": 13.389,
+      "type": "TORNADO",
+      "time": "2026-05-16T09:40:00.000Z",
+      "country": "HR",
+      "place": "Dajla",
+      "description": "at least three waterspouts observed, 2 of which were at the same time next to each other; This is a report for 3/3;",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Maja Kraljik (on Facebook), 16 MAY 2026;"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-16T09:35:00.000Z\", s\"01KRTS19YQVVQVMACEV5J3WE9Y\" ]",
+      "lat": 45.3843,
+      "lon": 13.3757,
+      "type": "TORNADO",
+      "time": "2026-05-16T09:35:00.000Z",
+      "country": "HR",
+      "place": "Dajla",
+      "description": "at least three waterspouts observed, 2 of which were at the same time next to each other; This is a report for 2/3;",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Maja Kraljik (on Facebook), 16 MAY 2026;"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-16T09:35:00.000Z\", s\"01KRTRXAYGYCV142YRAA81B2WK\" ]",
+      "lat": 45.3815,
+      "lon": 13.3956,
+      "type": "TORNADO",
+      "time": "2026-05-16T09:35:00.000Z",
+      "country": "HR",
+      "place": "Dajla",
+      "description": "at least three waterspouts observed, 2 of which were at the same time next to each other; This is a report for 1/3;",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Maja Kraljik (on Facebook), 16 MAY 2026;"
+      ]
+    }
+  ]
+}

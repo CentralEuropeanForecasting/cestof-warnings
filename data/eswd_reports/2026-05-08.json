@@ -1,0 +1,30 @@
+{
+  "forecast_date": "2026-05-08",
+  "window_start_local": "2026-05-08T06:00:00+02:00",
+  "window_end_local": "2026-05-09T06:00:00+02:00",
+  "window_start_utc": "2026-05-08T04:00:00+00:00",
+  "window_end_utc": "2026-05-09T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 1,
+  "report_count": 1,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-08T16:15:00.000Z\", s\"01KR4B1QJFXA4FNXE66S5Y6PMH\" ]",
+      "lat": 46.4534,
+      "lon": 7.4452,
+      "type": "HAIL",
+      "time": "2026-05-08T16:15:00.000Z",
+      "country": "CH",
+      "place": "Lenk im Simmental",
+      "description": "Reported as 1cm, but photo shows hail up to 2cm",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. MeteoSwiss App (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 08 MAY 2026"
+      ]
+    }
+  ]
+}

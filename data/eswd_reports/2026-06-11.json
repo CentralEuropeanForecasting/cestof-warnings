@@ -1,0 +1,219 @@
+{
+  "forecast_date": "2026-06-11",
+  "window_start_local": "2026-06-11T06:00:00+02:00",
+  "window_end_local": "2026-06-12T06:00:00+02:00",
+  "window_start_utc": "2026-06-11T04:00:00+00:00",
+  "window_end_utc": "2026-06-12T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 12,
+  "report_count": 12,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-06-11T19:35:00.000Z\", s\"01KTXAZZM6JZZGN8DWA2B3ZVV7\" ]",
+      "lat": 46.2227,
+      "lon": 15.585,
+      "type": "WIND",
+      "time": "2026-06-11T19:35:00.000Z",
+      "country": "SI",
+      "place": "Kristan Vrh",
+      "description": "Downed trees were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "PGD Kristan Vrh (on Facebook), 11 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-11T18:05:00.000Z\", s\"01KTY01JEWV0EVH63X0841XTNW\" ]",
+      "lat": 43.0544,
+      "lon": 17.6508,
+      "type": "LIGHTNING",
+      "time": "2026-06-11T18:05:00.000Z",
+      "country": "HR",
+      "place": "Metković",
+      "description": "During the storm, a lightning strike caused a fire on the roof of the family house.\n",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Metkovic NEWS, 11 Jun 2026",
+        "Grom udario u obiteljsku kuću, Vrisak Info, 12 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-11T17:50:00.000Z\", s\"01KTXB4Z215H8Y1JZYH4YC9HY7\" ]",
+      "lat": 46.1219,
+      "lon": 14.1865,
+      "type": "WIND",
+      "time": "2026-06-11T17:50:00.000Z",
+      "country": "SI",
+      "place": "Poljane nad Škofjo Loko",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Gasilska Enota Poljane (on Facebook), 11 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-11T17:26:00.000Z\", s\"01KTXQKQBWS199N3N52GQN2XWE\" ]",
+      "lat": 48.4173,
+      "lon": 12.904,
+      "type": "LIGHTNING",
+      "time": "2026-06-11T17:26:00.000Z",
+      "country": "DE",
+      "place": "Postmünster",
+      "description": null,
+      "info_source": [
+        "TV",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Blitzeinschlag im Rottal - Bewohnerin bleibt unverletzt\", OLDIE WELLE, 12 JUN 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-11T15:35:00.000Z\", s\"01KV5CNP0D4CSPNG94QSK9FR3N\" ]",
+      "lat": 48.3491,
+      "lon": 14.6554,
+      "type": "LIGHTNING",
+      "time": "2026-06-11T15:35:00.000Z",
+      "country": "AT",
+      "place": "Riegl",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Blitzeinschlag verursacht Glimmbrand bei Hütte am Rieglhofer Teich\", FOTO KERSCHI, 13 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-11T13:50:00.000Z\", s\"01KV84EVXQEWBN4TVGYSZAEWPN\" ]",
+      "lat": 53.1592,
+      "lon": 17.4492,
+      "type": "HAIL",
+      "time": "2026-06-11T13:50:00.000Z",
+      "country": "PL",
+      "place": "Sadki",
+      "description": "Significant damage to crops was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "\"3 minuty i po plonach. Grad ściął buraki i zniszczył 80 proc. jęczmienia\", Tygodnik Poradnik Rolniczy, 15 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-11T13:00:00.000Z\", s\"01KTVF26F01V1HK7DHSTA94Q4J\" ]",
+      "lat": 43.8117,
+      "lon": 16.6175,
+      "type": "PRECIP",
+      "time": "2026-06-11T13:00:00.000Z",
+      "country": "HR",
+      "place": "Gornji Bitelići",
+      "description": "Severe storm caused heavy rain in short period of time.",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "CIP"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-11T12:45:00.000Z\", s\"01KTWBWD05HWEVKJA55S0C9PWY\" ]",
+      "lat": 51.4385,
+      "lon": 14.1007,
+      "type": "LIGHTNING",
+      "time": "2026-06-11T12:45:00.000Z",
+      "country": "DE",
+      "place": "Torno",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WXSVC",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Blitz schlägt in Wohnhaus in Lauta ein – Gebäude nach Brand unbewohnbar\", SÄCHSISCHE, 11 JUN 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-11T12:35:00.000Z\", s\"01KTY09Q1AF5JAMB3KKYAZBVH2\" ]",
+      "lat": 49.4089,
+      "lon": 12.1691,
+      "type": "HAIL",
+      "time": "2026-06-11T12:35:00.000Z",
+      "country": "DE",
+      "place": "Wölsendorf",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness report. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 11 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-11T12:25:00.000Z\", s\"01KTVF9EKQG7V1S6ART0Y11C3Y\" ]",
+      "lat": 51.283,
+      "lon": 12.936,
+      "type": "PRECIP",
+      "time": "2026-06-11T12:25:00.000Z",
+      "country": "DE",
+      "place": "Wermsdorf",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IWERMS1 (wunderground.com), 11 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-11T12:15:00.000Z\", s\"01KTY0EF7RZ1QNGYKG6061ZDHD\" ]",
+      "lat": 51.2914,
+      "lon": 13.1131,
+      "type": "HAIL",
+      "time": "2026-06-11T12:15:00.000Z",
+      "country": "DE",
+      "place": "Oschatz",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness report. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 11 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-11T12:03:00.000Z\", s\"01KTY0CZBS82SSJ065HVB8GPBG\" ]",
+      "lat": 51.2709,
+      "lon": 12.9344,
+      "type": "HAIL",
+      "time": "2026-06-11T12:03:00.000Z",
+      "country": "DE",
+      "place": "Reckwitz",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness report. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 11 JUN 2026"
+      ]
+    }
+  ]
+}

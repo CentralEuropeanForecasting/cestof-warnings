@@ -1,0 +1,799 @@
+{
+  "forecast_date": "2026-05-27",
+  "window_start_local": "2026-05-27T06:00:00+02:00",
+  "window_end_local": "2026-05-28T06:00:00+02:00",
+  "window_start_utc": "2026-05-27T04:00:00+00:00",
+  "window_end_utc": "2026-05-28T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 52,
+  "report_count": 52,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-27T16:50:00.000Z\", s\"01KST0Q90MHJA7Z3118A22DYX8\" ]",
+      "lat": 45.826,
+      "lon": 15.19,
+      "type": "LIGHTNING",
+      "time": "2026-05-27T16:50:00.000Z",
+      "country": "SI",
+      "place": "Novo mesto",
+      "description": "A lightning struck a tree causing fire and damage.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Udar strele, poškodba otroka, prometna nesreča, alarm zaradi beguncev ...\", Dolenjski List, 28 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T16:25:00.000Z\", s\"01KSR0QN01KDMB2EHFAMN9XFWF\" ]",
+      "lat": 47.0455,
+      "lon": 11.334,
+      "type": "LIGHTNING",
+      "time": "2026-05-27T16:25:00.000Z",
+      "country": "AT",
+      "place": "Gschnitz",
+      "description": "Wild fire / Forest fire",
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Blitzeinschlag im Wald: Feuerwehr in Gschnitz mit Hubschrauber zum Einsatzort geflogen\", TIROLER TAGESZEITUNG, 28 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T16:20:00.000Z\", s\"01KSPEMHNXQQSVQE8NWFRT6FJH\" ]",
+      "lat": 45.55828,
+      "lon": 14.85681,
+      "type": "PRECIP",
+      "time": "2026-05-27T16:20:00.000Z",
+      "country": "SI",
+      "place": "Iskrba",
+      "description": null,
+      "info_source": [
+        "GOV"
+      ],
+      "references": [
+        "Official measurement, facebook Meteoinfo 27. 5. 2026  20.00"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T15:49:00.000Z\", s\"01KSN3D4PFFVT8M6TA20EZ92C1\" ]",
+      "lat": 46.064,
+      "lon": 14.31,
+      "type": "PRECIP",
+      "time": "2026-05-27T15:49:00.000Z",
+      "country": "SI",
+      "place": "Polhov Gradec",
+      "description": "PWS recorded a rain amount of 28,2 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"S53CO - IDOBRO79\", Wunderground, date of access: 27 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T15:15:00.000Z\", s\"01KSN36J6E4V4286YECJWYFWEJ\" ]",
+      "lat": 46.2961,
+      "lon": 14.8058,
+      "type": "HAIL",
+      "time": "2026-05-27T15:15:00.000Z",
+      "country": "SI",
+      "place": "Gornji Grad",
+      "description": "Large hal up to 3,5 cm i.d. was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 27 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T15:09:00.000Z\", s\"01KSPTZQTZ25DETY7HZ135AC0G\" ]",
+      "lat": 46.248,
+      "lon": 14.4981,
+      "type": "PRECIP",
+      "time": "2026-05-27T15:09:00.000Z",
+      "country": "SI",
+      "place": "Pšenična Polica",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS ICERKL18 (wunderground.com), 28 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T14:00:00.000Z\", s\"01KSMZTC4FRHMGWKVZ1SCXMXT0\" ]",
+      "lat": 46.91,
+      "lon": 18.041,
+      "type": "WIND",
+      "time": "2026-05-27T14:00:00.000Z",
+      "country": "HU",
+      "place": "Siófok",
+      "description": "WS recorded a wind gust of 27 m/s (+/- 0,5 m/s)",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Ogimet, date of access: 27 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T13:45:00.000Z\", s\"01KSR0P4AKG8BSXYE3S9NY4EXJ\" ]",
+      "lat": 46.6239,
+      "lon": 14.3076,
+      "type": "WIND",
+      "time": "2026-05-27T13:45:00.000Z",
+      "country": "AT",
+      "place": "Klagenfurt am Wörthersee",
+      "description": "some trees were uprooted, at least 1 roof was damaged (tar paper partly torn from roof)",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "NWSP"
+      ],
+      "references": [
+        "Feuerwehreinsatzkräfte stehen im Dauereinsatz, MeinBezirk, 28 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T13:35:00.000Z\", s\"01KSQDVHDVMHTCCRYZ00XRWJ1Q\" ]",
+      "lat": 47.1473,
+      "lon": 18.8311,
+      "type": "HAIL",
+      "time": "2026-05-27T13:35:00.000Z",
+      "country": "HU",
+      "place": "Iváncsa",
+      "description": "Large hail up to at least 3 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via MetNet (on Facebook), 27 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T13:30:00.000Z\", s\"01KSR40H6CH7AFCH1XG4F1T30X\" ]",
+      "lat": 46.7791,
+      "lon": 14.4126,
+      "type": "HAIL",
+      "time": "2026-05-27T13:30:00.000Z",
+      "country": "AT",
+      "place": "St. Veit an der Glan Region",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "NWSP"
+      ],
+      "references": [
+        "Hagelschäden von 700.000 Euro in Bezirken Oberwart und Güssing, MeinBezirk, 28 May 2026.",
+        "Österreichische Hagelversicherung.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T13:30:00.000Z\", s\"01KSR2PBK7BE2MK9Z3PWPHRTJN\" ]",
+      "lat": 46.6373,
+      "lon": 14.1157,
+      "type": "WIND",
+      "time": "2026-05-27T13:30:00.000Z",
+      "country": "AT",
+      "place": "Techelsberg am Wörther See",
+      "description": "tree fell onto motorway",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "NWSP"
+      ],
+      "references": [
+        "Kärnten von Unwettern getroffen: Zahlreiche Schäden nach Sturm und Hagel, 5min.at, 28 May 2026.",
+        "Freiwillige Feuerwehr Pörtschach am Wörthersee.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T13:30:00.000Z\", s\"01KSPW161VTN708ZSPNQWYWW16\" ]",
+      "lat": 47.1821,
+      "lon": 18.8255,
+      "type": "HAIL",
+      "time": "2026-05-27T13:30:00.000Z",
+      "country": "HU",
+      "place": "Beloiannisz",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Roland Virágh (Facebook), checked 28 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T13:29:00.000Z\", s\"01KSN0WPWRWNWNMP2HZ64X3TK4\" ]",
+      "lat": 46.495,
+      "lon": 15.826,
+      "type": "PRECIP",
+      "time": "2026-05-27T13:29:00.000Z",
+      "country": "SI",
+      "place": "Destrnik",
+      "description": "PWS recorded a rain amount of 26,7 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"MCeh - IDESTR4\", Wunderground, date of access: 27 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T13:20:00.000Z\", s\"01KSR0Y5RB78CJB4R749MEVJTG\" ]",
+      "lat": 46.7725,
+      "lon": 14.3581,
+      "type": "WIND",
+      "time": "2026-05-27T13:20:00.000Z",
+      "country": "AT",
+      "place": "Zensweg",
+      "description": "tree fell onto fence and road",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "NWSP"
+      ],
+      "references": [
+        "Feuerwehreinsatzkräfte stehen im Dauereinsatz, MeinBezirk, 28 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T13:18:00.000Z\", s\"01KSR1RE2EHGFBKB1E7WVF21K2\" ]",
+      "lat": 46.7383,
+      "lon": 14.2867,
+      "type": "WIND",
+      "time": "2026-05-27T13:18:00.000Z",
+      "country": "AT",
+      "place": "Liebenfels",
+      "description": "several trees were uprooted",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "NWSP"
+      ],
+      "references": [
+        "Kärnten von Unwettern getroffen: Zahlreiche Schäden nach Sturm und Hagel, 5min.at, 28 May 2026.",
+        "FF Liebenfels.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T13:10:00.000Z\", s\"01KSPVMRWBP8AS6134M9KE5R55\" ]",
+      "lat": 47.1555,
+      "lon": 18.6386,
+      "type": "HAIL",
+      "time": "2026-05-27T13:10:00.000Z",
+      "country": "HU",
+      "place": "Csiribpuszta",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness report. IDÖKÉP, checked 28 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T13:10:00.000Z\", s\"01KSN41QVFXEETBMF8FGC0S19D\" ]",
+      "lat": 46.5033,
+      "lon": 15.7479,
+      "type": "WIND",
+      "time": "2026-05-27T13:10:00.000Z",
+      "country": "SI",
+      "place": "Duplek",
+      "description": "Downed trees were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "\"Močnejše nevihte nad severovzhodno, zahodno in osrednjo Slovenijo\", RTV Slo, 27 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T13:09:00.000Z\", s\"01KSN0ZHCX890HB9DHHCE2ZRA4\" ]",
+      "lat": 46.567,
+      "lon": 15.815,
+      "type": "PRECIP",
+      "time": "2026-05-27T13:09:00.000Z",
+      "country": "SI",
+      "place": "Lenart",
+      "description": "PWS recorded a rain amount of 35,6 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"SWS 12500 Lrm5b - ILENAR4\", Wunderground, date of access: 27 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T13:00:00.000Z\", s\"01KSR46QE7P228EFRBT6YEYZDT\" ]",
+      "lat": 46.6366,
+      "lon": 14.6888,
+      "type": "HAIL",
+      "time": "2026-05-27T13:00:00.000Z",
+      "country": "AT",
+      "place": "Völkermarkt Region",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "NWSP"
+      ],
+      "references": [
+        "Hagelschäden von 700.000 Euro in Bezirken Oberwart und Güssing, MeinBezirk, 28 May 2026.",
+        "Österreichische Hagelversicherung.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T13:00:00.000Z\", s\"01KSR24Z4RXFJHNDERWBJKKXHJ\" ]",
+      "lat": 46.7038,
+      "lon": 14.7308,
+      "type": "WIND",
+      "time": "2026-05-27T13:00:00.000Z",
+      "country": "AT",
+      "place": "Griffen",
+      "description": "tree fell onto power line",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "NWSP"
+      ],
+      "references": [
+        "Kärnten von Unwettern getroffen: Zahlreiche Schäden nach Sturm und Hagel, 5min.at, 28 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T13:00:00.000Z\", s\"01KSR2471YY7FHJ2GEY33XK0MK\" ]",
+      "lat": 46.6049,
+      "lon": 14.7113,
+      "type": "WIND",
+      "time": "2026-05-27T13:00:00.000Z",
+      "country": "AT",
+      "place": "Mittlern",
+      "description": "tree fell onto road",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "NWSP"
+      ],
+      "references": [
+        "Feuerwehreinsatzkräfte stehen im Dauereinsatz, MeinBezirk, 28 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:55:00.000Z\", s\"01KSPZJKZKH484T6H5F36DFE2D\" ]",
+      "lat": 47.6868,
+      "lon": 13.0772,
+      "type": "HAIL",
+      "time": "2026-05-27T12:55:00.000Z",
+      "country": "DE",
+      "place": "Obergrub",
+      "description": "Large hail 2 cm i.d. reported. Radar checked",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter (operated by Deutscher Wetterdienst, DWD), 27 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:55:00.000Z\", s\"01KSN0CVZT9A85JZGD7227JE8W\" ]",
+      "lat": 46.6063,
+      "lon": 15.7841,
+      "type": "WIND",
+      "time": "2026-05-27T12:55:00.000Z",
+      "country": "SI",
+      "place": "Jurovski Dol",
+      "description": "Damaged roofs and uprooted trees were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Meteoinfo Slovenija (on Facebook), 27 MAY 2026.",
+        "\"Peklenska vročina, nato hude nevihte: s Štajerske se že pomikajo proti zahodu\", N1 Info, 27 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:45:00.000Z\", s\"01KSN3YBKTX7A1YRF6N2Q8BBBN\" ]",
+      "lat": 46.5764,
+      "lon": 15.831,
+      "type": "WIND",
+      "time": "2026-05-27T12:45:00.000Z",
+      "country": "SI",
+      "place": "Lenart",
+      "description": "Downed trees were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "\"Močnejše nevihte nad severovzhodno, zahodno in osrednjo Slovenijo\", RTV Slo, 27 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:42:00.000Z\", s\"01KSNH5A0QDZK2B1RMPV3XCWPA\" ]",
+      "lat": 47.1278,
+      "lon": 16.2697,
+      "type": "WIND",
+      "time": "2026-05-27T12:42:00.000Z",
+      "country": "AT",
+      "place": "Sankt Michael im Burgenland",
+      "description": "several trees fell onto roads, roofs were damaged (including roof structure), 1 weak outbuilding completely collapsed, multiple trees were downed",
+      "info_source": [
+        "WWW",
+        "NWSP"
+      ],
+      "references": [
+        "Unwetter sorgte für zahlreiche Feuerwehreinsätze im Bezirk Güssing, BVZ, 27 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:40:00.000Z\", s\"01KSPVX73CT18G31D3D64SX6JJ\" ]",
+      "lat": 46.9752,
+      "lon": 16.5046,
+      "type": "HAIL",
+      "time": "2026-05-27T12:40:00.000Z",
+      "country": "HU",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:40:00.000Z\", s\"01KSN3K1FX72VDQMED5E6T48D8\" ]",
+      "lat": 46.6804,
+      "lon": 15.6529,
+      "type": "WIND",
+      "time": "2026-05-27T12:40:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:36:00.000Z\", s\"01KTXN2Q5K4NYFWM5SDGCJBK48\" ]",
+      "lat": 46.7089,
+      "lon": 15.6311,
+      "type": "WIND",
+      "time": "2026-05-27T12:36:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:33:00.000Z\", s\"01KSNGQEZE1ZMDG3T8PJYEHWJD\" ]",
+      "lat": 47.1611,
+      "lon": 16.1676,
+      "type": "WIND",
+      "time": "2026-05-27T12:33:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:30:00.000Z\", s\"01KSR3P4E14TS4F9X04C4AK81P\" ]",
+      "lat": 47.0868,
+      "lon": 16.2866,
+      "type": "HAIL",
+      "time": "2026-05-27T12:30:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:30:00.000Z\", s\"01KSNGMGXN6DHCV1JGSZ4HQGFW\" ]",
+      "lat": 47.1878,
+      "lon": 16.157,
+      "type": "WIND",
+      "time": "2026-05-27T12:30:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:30:00.000Z\", s\"01KSN3HHPKBS2JPC4H430WG5DC\" ]",
+      "lat": 46.677,
+      "lon": 15.9913,
+      "type": "WIND",
+      "time": "2026-05-27T12:30:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:25:00.000Z\", s\"01KSSV49N9FTT91ZHK3Y2E0MRP\" ]",
+      "lat": 46.6445,
+      "lon": 15.8436,
+      "type": "WIND",
+      "time": "2026-05-27T12:25:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:25:00.000Z\", s\"01KSSV3GVNP7V430ZNV8Y71GWF\" ]",
+      "lat": 46.6471,
+      "lon": 15.8486,
+      "type": "WIND",
+      "time": "2026-05-27T12:25:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:20:00.000Z\", s\"01KTXP7WDKNAT3EVVD3FDF351V\" ]",
+      "lat": 46.7329,
+      "lon": 15.9066,
+      "type": "WIND",
+      "time": "2026-05-27T12:20:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:20:00.000Z\", s\"01KSR3FPFGZYBM3AD90NNM7YQH\" ]",
+      "lat": 47.2741,
+      "lon": 16.2031,
+      "type": "HAIL",
+      "time": "2026-05-27T12:20:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:20:00.000Z\", s\"01KSQF2B4G723TZZYMA63XD9SF\" ]",
+      "lat": 47.132401,
+      "lon": 13.124242,
+      "type": "LIGHTNING",
+      "time": "2026-05-27T12:20:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:20:00.000Z\", s\"01KSN2P2KR1VTZTNVMQ3NEAPC7\" ]",
+      "lat": 46.6903,
+      "lon": 15.8121,
+      "type": "WIND",
+      "time": "2026-05-27T12:20:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:18:00.000Z\", s\"01KTXP8DWHWB5VTMVA22GZEFY5\" ]",
+      "lat": 46.7458,
+      "lon": 15.9049,
+      "type": "WIND",
+      "time": "2026-05-27T12:18:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:15:00.000Z\", s\"01KSNNE88YGA9CVPCTT157AH73\" ]",
+      "lat": 46.7585,
+      "lon": 15.9233,
+      "type": "WIND",
+      "time": "2026-05-27T12:15:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:08:00.000Z\", s\"01KSMXN4Z267NHARDF1E1J10R6\" ]",
+      "lat": 49.6572,
+      "lon": 21.6603,
+      "type": "HAIL",
+      "time": "2026-05-27T12:08:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:07:00.000Z\", s\"01KTXP0HF777TA179RWSB3B4PT\" ]",
+      "lat": 46.7965,
+      "lon": 15.88,
+      "type": "WIND",
+      "time": "2026-05-27T12:07:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:05:00.000Z\", s\"01KTXNZZFQ0NWRBJA9AFZS60XT\" ]",
+      "lat": 46.8026,
+      "lon": 15.8817,
+      "type": "WIND",
+      "time": "2026-05-27T12:05:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:05:00.000Z\", s\"01KTXNZE5JK9FFS02EFGJJZAZW\" ]",
+      "lat": 46.8075,
+      "lon": 15.8698,
+      "type": "WIND",
+      "time": "2026-05-27T12:05:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:05:00.000Z\", s\"01KSNPWYT7X6WGC32N4S3RQ7GD\" ]",
+      "lat": 46.7993,
+      "lon": 15.8948,
+      "type": "WIND",
+      "time": "2026-05-27T12:05:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T12:00:00.000Z\", s\"01KSNPVTCXEJ5FVVNVYN5RBYTV\" ]",
+      "lat": 46.8075,
+      "lon": 15.8698,
+      "type": "WIND",
+      "time": "2026-05-27T12:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T11:20:00.000Z\", s\"01KSSVPYR7BGPWND7DS4J3JVRZ\" ]",
+      "lat": 49.8161,
+      "lon": 17.1786,
+      "type": "WIND",
+      "time": "2026-05-27T11:20:00.000Z",
+      "country": "CZ",
+      "place": "Dlouhá Loučka",
+      "description": "Damaged roofs were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Bouřka na Olomoucku utrhla obří kus střechy, hasiči povolali speciální techniku\", Olomoucky Denik, 28 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T11:20:00.000Z\", s\"01KSNCVG1MGWH439A9REAWEXRS\" ]",
+      "lat": 49.5568,
+      "lon": 18.0605,
+      "type": "HAIL",
+      "time": "2026-05-27T11:20:00.000Z",
+      "country": "CZ",
+      "place": "Životice u Nového Jičína",
+      "description": "Large hal up to 2,5 cm i.d. was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Český hydrometeorologický ústav (on Facebook), 27 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T11:20:00.000Z\", s\"01KSNCSA1H0MGVM4YRB12C66QX\" ]",
+      "lat": 49.5386,
+      "lon": 18.0237,
+      "type": "WIND",
+      "time": "2026-05-27T11:20:00.000Z",
+      "country": "CZ",
+      "place": "Hodslavice",
+      "description": "Downed trees were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Český hydrometeorologický ústav (on Facebook), 27 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T11:05:00.000Z\", s\"01KSN0J59NJG2MZ5SGMYFZ2FVX\" ]",
+      "lat": 49.8339,
+      "lon": 20.6731,
+      "type": "WIND",
+      "time": "2026-05-27T11:05:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T11:02:00.000Z\", s\"01KSPQV46PYZ6NF807CQ96AXDR\" ]",
+      "lat": 47.2459,
+      "lon": 15.6574,
+      "type": "LIGHTNING",
+      "time": "2026-05-27T11:02:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-27T11:02:00.000Z\", s\"01KSNMBNFHG7NQRXGCDSAV7540\" ]",
+      "lat": 47.2609,
+      "lon": 11.4038,
+      "type": "LIGHTNING",
+      "time": "2026-05-27T11:02:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    }
+  ]
+}

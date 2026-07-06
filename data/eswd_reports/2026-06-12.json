@@ -1,0 +1,30 @@
+{
+  "forecast_date": "2026-06-12",
+  "window_start_local": "2026-06-12T06:00:00+02:00",
+  "window_end_local": "2026-06-13T06:00:00+02:00",
+  "window_start_utc": "2026-06-12T04:00:00+00:00",
+  "window_end_utc": "2026-06-13T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 1,
+  "report_count": 1,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-06-12T15:00:00.000Z\", s\"01KV7HS5WQCDA5CMFEPNGGKKDZ\" ]",
+      "lat": 46.0371,
+      "lon": 17.9571,
+      "type": "HAIL",
+      "time": "2026-06-12T15:00:00.000Z",
+      "country": "HU",
+      "place": "Kacsóta",
+      "description": null,
+      "info_source": [
+        "EVTPHOTO",
+        "WWW",
+        "EYEWTN"
+      ],
+      "references": [
+        "Photo report by Kovács Józsefné Erika on Facebook"
+      ]
+    }
+  ]
+}

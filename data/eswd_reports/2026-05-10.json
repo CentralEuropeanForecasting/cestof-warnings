@@ -1,0 +1,274 @@
+{
+  "forecast_date": "2026-05-10",
+  "window_start_local": "2026-05-10T06:00:00+02:00",
+  "window_end_local": "2026-05-11T06:00:00+02:00",
+  "window_start_utc": "2026-05-10T04:00:00+00:00",
+  "window_end_utc": "2026-05-11T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 15,
+  "report_count": 15,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-10T19:14:00.000Z\", s\"01KRBQAK5TP1KPG2JHC36NYXJM\" ]",
+      "lat": 49.238,
+      "lon": 7.569,
+      "type": "PRECIP",
+      "time": "2026-05-10T19:14:00.000Z",
+      "country": "DE",
+      "place": "Petersberg",
+      "description": "PWS recorded a rain amount of 53,6 mm in 60 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Wi-Fi-Wetterstation WeatherScreen PRO - IPETER128\", Wunderground, date of access: 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-10T19:11:00.000Z\", s\"01KRCA019BN7ZJDM1646PJ9Q7F\" ]",
+      "lat": 49.8252,
+      "lon": 7.9006,
+      "type": "LIGHTNING",
+      "time": "2026-05-10T19:11:00.000Z",
+      "country": "DE",
+      "place": "Hackenheim",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Unwetter in Rheinhessen und an der Nahe: Was war los?\", ALLGEMEINE ZEITUNG, 11 MAY 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-10T19:10:00.000Z\", s\"01KRCA31D4GV7MPZNHT4R7BPJF\" ]",
+      "lat": 49.9031,
+      "lon": 8.2028,
+      "type": "WIND",
+      "time": "2026-05-10T19:10:00.000Z",
+      "country": "DE",
+      "place": "Nieder-Olm",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter in Rheinhessen und an der Nahe: Was war los?\", ALLGEMEINE ZEITUNG, 11 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-10T18:34:00.000Z\", s\"01KRBQS6HBCBC6MR3ME9EFG0YN\" ]",
+      "lat": 49.637,
+      "lon": 7.62,
+      "type": "PRECIP",
+      "time": "2026-05-10T18:34:00.000Z",
+      "country": "DE",
+      "place": "Hohenöllen",
+      "description": "PWS recorded a rain amount of 26,9 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Sulzhof - IHOHEN394\", Wunderground, date of access: 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-10T18:04:00.000Z\", s\"01KRBQPWTYSSXYC9S7SHPMHQSQ\" ]",
+      "lat": 49.576,
+      "lon": 7.623,
+      "type": "PRECIP",
+      "time": "2026-05-10T18:04:00.000Z",
+      "country": "DE",
+      "place": "Wolfstein",
+      "description": "PWS recorded a rain amount of 30 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Roßbacher Wetter - IWOLFS112\", Wunderground, date of access: 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-10T18:00:00.000Z\", s\"01KRG9FS17NXF505AP13DFHT2K\" ]",
+      "lat": 49.1913,
+      "lon": 7.578,
+      "type": "PRECIP",
+      "time": "2026-05-10T18:00:00.000Z",
+      "country": "DE",
+      "place": "Winzeln",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "\"Feuerwehr Pirmasens im Dauereinsatz am Muttertag: 16 Alarmierungen \", WOCHENBLATT-REPORTER.de, 12 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-10T18:00:00.000Z\", s\"01KRG9EBE5J0XKZKD0SESY92Y8\" ]",
+      "lat": 49.203,
+      "lon": 7.605,
+      "type": "PRECIP",
+      "time": "2026-05-10T18:00:00.000Z",
+      "country": "DE",
+      "place": "Pirmasens",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "\"Feuerwehr Pirmasens im Dauereinsatz am Muttertag: 16 Alarmierungen \", WOCHENBLATT-REPORTER.de, 12 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-10T17:49:00.000Z\", s\"01KRBQN134S6GCTBGG3CA8AXJK\" ]",
+      "lat": 49.216,
+      "lon": 7.624,
+      "type": "PRECIP",
+      "time": "2026-05-10T17:49:00.000Z",
+      "country": "DE",
+      "place": "Pirmasens",
+      "description": "PWS recorded a rain amount of 35,1 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Eurochrom - IPIRMA8\", Wunderground, date of access: 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-10T17:39:00.000Z\", s\"01KRBQ0EEM2X602SCKZ4A847QS\" ]",
+      "lat": 49.1997,
+      "lon": 7.6088,
+      "type": "PRECIP",
+      "time": "2026-05-10T17:39:00.000Z",
+      "country": "DE",
+      "place": "Pirmasens",
+      "description": "PWS recorded a rain amount of 32 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Stefan - IRPPIRMA5\", Wunderground, date of access: 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-10T15:09:00.000Z\", s\"01KRBPYFYGSQV693K0MKCHME1X\" ]",
+      "lat": 49.385,
+      "lon": 6.927,
+      "type": "PRECIP",
+      "time": "2026-05-10T15:09:00.000Z",
+      "country": "DE",
+      "place": "Lebach",
+      "description": "PWS recorded a rain amount of 42,7 mm in 50 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Landweiler - ILEBAC29\", Wunderground, date of access: 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-10T14:34:00.000Z\", s\"01KRBRH6QTWDQCAMBYP85FJSYN\" ]",
+      "lat": 47,
+      "lon": 15.523,
+      "type": "PRECIP",
+      "time": "2026-05-10T14:34:00.000Z",
+      "country": "AT",
+      "place": "Vasoldsberg",
+      "description": "PWS recorded a rain amount of 29,5 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Kitai‘s Weather - IVASOL3\", Wunderground, date of access: 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-10T14:29:00.000Z\", s\"01KRBRBP82FPV4RBYGBRHWNRRN\" ]",
+      "lat": 47.012,
+      "lon": 15.358,
+      "type": "PRECIP",
+      "time": "2026-05-10T14:29:00.000Z",
+      "country": "AT",
+      "place": "Niederberg",
+      "description": "PWS recorded a rain amount of 44,7 mm in 60 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Mark Bergmoser - IHITZE23\", Wunderground, date of access: 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-10T14:19:00.000Z\", s\"01KRBREZKZV31G9AZGZSDQPQP4\" ]",
+      "lat": 47.032,
+      "lon": 15.391,
+      "type": "PRECIP",
+      "time": "2026-05-10T14:19:00.000Z",
+      "country": "AT",
+      "place": "Webling",
+      "description": "PWS recorded a rain amount of 38,1 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Salfeldstrasse 54a - IGRAZ152\", Wunderground, date of access: 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-10T13:54:00.000Z\", s\"01KRBRJNNDEBC0MWMS4D2JBHVJ\" ]",
+      "lat": 47.276,
+      "lon": 15.508,
+      "type": "PRECIP",
+      "time": "2026-05-10T13:54:00.000Z",
+      "country": "AT",
+      "place": "Passail",
+      "description": "PWS recorded a rain amount of 31,5 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Mr. Bulldops - IPASSA122\", Wunderground, date of access: 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-10T12:00:00.000Z\", s\"01KRDD07YGT6TRE4BCGWG7FZCA\" ]",
+      "lat": 49.4939,
+      "lon": 16.6726,
+      "type": "DEVIL",
+      "time": "2026-05-10T12:00:00.000Z",
+      "country": "CZ",
+      "place": "Boskovice",
+      "description": "Weak wooden horse shed destroyed by dust devil.",
+      "info_source": [
+        "WWW",
+        "TV",
+        "EVTPHOTO",
+        "DMGPHOTO",
+        "EYEWTN",
+        "GOV"
+      ],
+      "references": [
+        "Prachový ďábel se prohnal westernovým městečkem v Boskovicích. Zničil stavbu, deník.cz, 11 MAY 2026;",
+        "Smršť ve westernovém městečku. Prachový ďábel nadělal z přístřešku třísky, media24.cz, 11 MAY 2026",
+        "Boskovickým westernem se prohnal Prachový ďábel. Zničil přístřešek pro koně, blanensky.denik.cz, 11 MAY 2026",
+        "Westernové městečko Boskovice (on facebook), 11 MAY 2026"
+      ]
+    }
+  ]
+}

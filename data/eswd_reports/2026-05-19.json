@@ -1,0 +1,31 @@
+{
+  "forecast_date": "2026-05-19",
+  "window_start_local": "2026-05-19T06:00:00+02:00",
+  "window_end_local": "2026-05-20T06:00:00+02:00",
+  "window_start_utc": "2026-05-19T04:00:00+00:00",
+  "window_end_utc": "2026-05-20T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 1,
+  "report_count": 1,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-19T12:13:00.000Z\", s\"01KS14N6KMPSJ9M8682RE1WVTF\" ]",
+      "lat": 43.5111,
+      "lon": 16.2497,
+      "type": "LIGHTNING",
+      "time": "2026-05-19T12:13:00.000Z",
+      "country": "HR",
+      "place": "Trogir",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Udar groma izazvao požar u Trogiru, vatrogasci brzo reagirali\", PORTAL TROGIR, 19 MAY 2026",
+        "kachelmannwetter.com"
+      ]
+    }
+  ]
+}

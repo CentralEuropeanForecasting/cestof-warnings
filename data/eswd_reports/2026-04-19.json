@@ -1,0 +1,627 @@
+{
+  "forecast_date": "2026-04-19",
+  "window_start_local": "2026-04-19T06:00:00+02:00",
+  "window_end_local": "2026-04-20T06:00:00+02:00",
+  "window_start_utc": "2026-04-19T04:00:00+00:00",
+  "window_end_utc": "2026-04-20T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 39,
+  "report_count": 39,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-04-19T17:24:00.000Z\", s\"01KPNNX9127M9FRW39VQ6S6Y6W\" ]",
+      "lat": 46.0191,
+      "lon": 8.9744,
+      "type": "HAIL",
+      "time": "2026-04-19T17:24:00.000Z",
+      "country": "CH",
+      "place": "Pregassona",
+      "description": "Large hail reported as 2cm i.d. Radar checked",
+      "info_source": [
+        "WWW",
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness report. Crowd source MeteoSchweiz/Swiss (operated by Meteo Swiss), 19 APR 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T15:25:00.000Z\", s\"01KPMWJ9BSTB6T46B0G5VMEA6D\" ]",
+      "lat": 50.443,
+      "lon": 15.4092,
+      "type": "TORNADO",
+      "time": "2026-04-19T15:25:00.000Z",
+      "country": "CZ",
+      "place": "Dvorce",
+      "description": "A weak tornado associated with a small convective cell (without thunderstorm activity). Given the extent of the phenomenon, the damage to the grassland/field is minimal (only a few broken trees).",
+      "info_source": [
+        "EVTPHOTO",
+        "WXSVC",
+        "WWW",
+        "DMGSVY"
+      ],
+      "references": [
+        "Český hydrometeorologický ústav (on Facebook), 20 Apr 2026",
+        "Lovci bouřek CZ (on Facebook), 20 Apr 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T15:00:00.000Z\", s\"01KPRAZZQXY9JQFBZZSEYQMHXD\" ]",
+      "lat": 46.2518,
+      "lon": 15.1632,
+      "type": "WIND",
+      "time": "2026-04-19T15:00:00.000Z",
+      "country": "SI",
+      "place": "Žalec",
+      "description": "Uprooted trees were reported. The time was based on local PWS data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Jače nevreme i grad pogodili Sloveniju: Vetar čupao drveće\", Telegraf, 20 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T14:35:00.000Z\", s\"01KPRB27WMDPKENMY8MMMEW4VZ\" ]",
+      "lat": 46.6094,
+      "lon": 15.1655,
+      "type": "WIND",
+      "time": "2026-04-19T14:35:00.000Z",
+      "country": "SI",
+      "place": "Muta",
+      "description": "Uprooted trees were reported. The time was based on local PWS data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Jače nevreme i grad pogodili Sloveniju: Vetar čupao drveće\", Telegraf, 20 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T14:34:00.000Z\", s\"01KPNKD6EH05GY850KBMJ0JT7Z\" ]",
+      "lat": 47.2398,
+      "lon": 9.5263,
+      "type": "HAIL",
+      "time": "2026-04-19T14:34:00.000Z",
+      "country": "LI",
+      "place": "Ruggell",
+      "description": "Large hail reported as 2cm i.d. Radar checked",
+      "info_source": [
+        "WWW",
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness report. Crowd source MeteoSchweiz/Swiss (operated by Meteo Swiss), 19 APR 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T14:25:00.000Z\", s\"01KPRAY9CYJCCM6G865QY31TBA\" ]",
+      "lat": 46.5091,
+      "lon": 15.0791,
+      "type": "WIND",
+      "time": "2026-04-19T14:25:00.000Z",
+      "country": "SI",
+      "place": "Slovenj Gradec",
+      "description": "Uprooted trees were reported. The time was based on local PWS data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Jače nevreme i grad pogodili Sloveniju: Vetar čupao drveće\", Telegraf, 20 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T14:00:00.000Z\", s\"01KPKW3BQGQ3REMJ7PBYQW6A3Y\" ]",
+      "lat": 46.544208,
+      "lon": 14.606098,
+      "type": "WIND",
+      "time": "2026-04-19T14:00:00.000Z",
+      "country": "AT",
+      "place": "Sittersdorf/Žitara vas",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "TV"
+      ],
+      "references": [
+        "\"Gewitter mit Starkregen und Sturmböen\", ORF Kärnten, 19 APR 2026.",
+        "ACG Niederschlagsradar, Kachelmannwetter"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T13:55:00.000Z\", s\"01KPN9ZJN57F5S36Q96V91W80R\" ]",
+      "lat": 46.3547,
+      "lon": 15.0913,
+      "type": "HAIL",
+      "time": "2026-04-19T13:55:00.000Z",
+      "country": "SI",
+      "place": "Podkraj pri Velenju",
+      "description": "Large hail up to at least 2 cm i.d. (roughly estimated) was reported.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 19 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T13:45:00.000Z\", s\"01KPKVXYHCR4XQGQVGG73GFW71\" ]",
+      "lat": 46.610414,
+      "lon": 14.543908,
+      "type": "WIND",
+      "time": "2026-04-19T13:45:00.000Z",
+      "country": "AT",
+      "place": "Stein im Jauntal",
+      "description": "several trees downed",
+      "info_source": [
+        "WWW",
+        "TV"
+      ],
+      "references": [
+        "\"Gewitter mit Starkregen und Sturmböen\", ORF Kärnten, 19 APR 2026.",
+        "ACG Niederschlagsradar, Kachelmannwetter"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T13:45:00.000Z\", s\"01KPKTRNN8R1CYJTNWRXW40RJS\" ]",
+      "lat": 46.52772,
+      "lon": 14.45912,
+      "type": "LIGHTNING",
+      "time": "2026-04-19T13:45:00.000Z",
+      "country": "AT",
+      "place": "Zell-Freibach",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "TV"
+      ],
+      "references": [
+        "\"Gewitter mit Starkregen und Sturmböen\", ORF Kärnten, 19 APR 2026.",
+        "ALDIS Blitzortung, Kachelmannwetter"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T13:45:00.000Z\", s\"01KPKTG3P1MMFX43W4TPN2KPN2\" ]",
+      "lat": 46.65912,
+      "lon": 14.77837,
+      "type": "LIGHTNING",
+      "time": "2026-04-19T13:45:00.000Z",
+      "country": "AT",
+      "place": "Ruden",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "TV"
+      ],
+      "references": [
+        "\"Gewitter mit Starkregen und Sturmböen\", ORF Kärnten, 19 APR 2026.",
+        "ALDIS Blitzortung, Kachelmannwetter"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T13:30:00.000Z\", s\"01KPKVEJP3GKW32SGFYAKJHSMA\" ]",
+      "lat": 46.62506,
+      "lon": 14.3036,
+      "type": "WIND",
+      "time": "2026-04-19T13:30:00.000Z",
+      "country": "AT",
+      "place": "Klagenfurt",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "TV",
+        "NWSP"
+      ],
+      "references": [
+        "\"Gewitter mit Starkregen und Sturmböen\", ORF Kärnten, 19 APR 2026.",
+        "Sturm zog über Kärnten und deckte Dächer ab, MeinBezirk, 20 Apr 2026.",
+        "ACG Niederschlagsradar, Kachelmannwetter."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T13:30:00.000Z\", s\"01KPKVCZ66G3BEYPCKGN43BASW\" ]",
+      "lat": 46.62506,
+      "lon": 14.3036,
+      "type": "PRECIP",
+      "time": "2026-04-19T13:30:00.000Z",
+      "country": "AT",
+      "place": "Klagenfurt",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "TV"
+      ],
+      "references": [
+        "\"Gewitter mit Starkregen und Sturmböen\", ORF Kärnten, 19 APR 2026.",
+        "ACG Niederschlagsradar, Kachelmannwetter"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T13:30:00.000Z\", s\"01KPKT6QRYH8QCXDYJC1HR0BGA\" ]",
+      "lat": 46.56144,
+      "lon": 14.23465,
+      "type": "LIGHTNING",
+      "time": "2026-04-19T13:30:00.000Z",
+      "country": "AT",
+      "place": "Köttmannsdorf",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "TV"
+      ],
+      "references": [
+        "\"Gewitter mit Starkregen und Sturmböen\", ORF Kärnten, 19 APR 2026.",
+        "ALDIS Blitzortung, Kachelmannwetter"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T13:15:00.000Z\", s\"01KPKVP1QV8CA6C747TH8TJNTX\" ]",
+      "lat": 46.60491,
+      "lon": 14.35866,
+      "type": "WIND",
+      "time": "2026-04-19T13:15:00.000Z",
+      "country": "AT",
+      "place": "Ebenthal",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "TV"
+      ],
+      "references": [
+        "\"Gewitter mit Starkregen und Sturmböen\", ORF Kärnten, 19 APR 2026.",
+        "ACG Niederschlagsradar, Kachelmannwetter"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T13:15:00.000Z\", s\"01KPKVJEX8S2D43DK6Q5YYG8Z6\" ]",
+      "lat": 46.65677,
+      "lon": 14.17502,
+      "type": "WIND",
+      "time": "2026-04-19T13:15:00.000Z",
+      "country": "AT",
+      "place": "Moosburg",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "TV"
+      ],
+      "references": [
+        "\"Gewitter mit Starkregen und Sturmböen\", ORF Kärnten, 19 APR 2026.",
+        "ACG Niederschlagsradar, Kachelmannwetter"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T12:49:00.000Z\", s\"01KPN1A4H0VH5HDZ7HGX2CPF7Y\" ]",
+      "lat": 46.972,
+      "lon": 8.766,
+      "type": "LIGHTNING",
+      "time": "2026-04-19T12:49:00.000Z",
+      "country": "CH",
+      "place": "Muotathal",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV",
+        "WXSVC",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Muotathal SZ: Blitz schlägt ein – Dachstock eines Mehrfamilienhauses brennt\", POLIZEI.news, 19 APR 2025",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T12:20:00.000Z\", s\"01KPN4G0P7H20SJ7S0R4XGS14W\" ]",
+      "lat": 47.6968,
+      "lon": 10.3441,
+      "type": "HAIL",
+      "time": "2026-04-19T12:20:00.000Z",
+      "country": "DE",
+      "place": "Durach",
+      "description": "Large hail reported as 2cm i.d.. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness report. WarnWetter (operated by Deutscher Wetterdienst DWD), 19 APR 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T12:15:00.000Z\", s\"01KPN332VS8CX3Y3Q2N34YTS9Q\" ]",
+      "lat": 47.7078,
+      "lon": 10.2881,
+      "type": "HAIL",
+      "time": "2026-04-19T12:15:00.000Z",
+      "country": "DE",
+      "place": "Bucharts",
+      "description": "Large hail 3cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness report. WarnWetter (operated by Deutscher Wetterdienst DWD), 19 APR 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T12:14:00.000Z\", s\"01KPN4B161KGZ3FCCMP9YVMYPN\" ]",
+      "lat": 47.7099,
+      "lon": 10.2562,
+      "type": "HAIL",
+      "time": "2026-04-19T12:14:00.000Z",
+      "country": "DE",
+      "place": "Jägers",
+      "description": "Large hail reported as 2cm i.d.. Radar checked",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness report. WarnWetter (operated by Deutscher Wetterdienst DWD), 19 APR 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T12:07:00.000Z\", s\"01KPN56QVZT369SM3P9X5YHR55\" ]",
+      "lat": 46.9946,
+      "lon": 8.4283,
+      "type": "HAIL",
+      "time": "2026-04-19T12:07:00.000Z",
+      "country": "CH",
+      "place": "Ennetbürgen",
+      "description": "Large hail reported as 2cm i.d.. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness report. Crowd source MeteoSchweiz/Swiss (operated by Meteo Swiss), 19 APR 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T12:06:00.000Z\", s\"01KPQG94Z0RCD2JAYZY9KVTR2X\" ]",
+      "lat": 51.0757,
+      "lon": 13.4336,
+      "type": "LIGHTNING",
+      "time": "2026-04-19T12:06:00.000Z",
+      "country": "DE",
+      "place": "Burkhardswalde",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WXSVC"
+      ],
+      "references": [
+        "kachelmannwetter.com",
+        "\"Baumbrand nach Blitzschlag in Burkhardswalde\", DIE SACHSEN NEWS, 20 APR 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T12:05:00.000Z\", s\"01KPN57NN8PN6BJSF8P09K3DXC\" ]",
+      "lat": 46.9826,
+      "lon": 8.3627,
+      "type": "HAIL",
+      "time": "2026-04-19T12:05:00.000Z",
+      "country": "CH",
+      "place": "Obbürgen",
+      "description": "Large hail reported as 2cm i.d.. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness report. Crowd source MeteoSchweiz/Swiss (operated by Meteo Swiss), 19 APR 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T12:00:00.000Z\", s\"01KPN3HZ991A72JCRZ4VXCDCXK\" ]",
+      "lat": 47.7339,
+      "lon": 10.1889,
+      "type": "HAIL",
+      "time": "2026-04-19T12:00:00.000Z",
+      "country": "DE",
+      "place": "Oberkürnach",
+      "description": "Large hail reported as 2cm i.d.. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness report. WarnWetter (operated by Deutscher Wetterdienst DWD), 19 APR 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T11:58:00.000Z\", s\"01KPN59T2S8WFMSK504ZTQ69C0\" ]",
+      "lat": 47.0131,
+      "lon": 8.3349,
+      "type": "HAIL",
+      "time": "2026-04-19T11:58:00.000Z",
+      "country": "CH",
+      "place": "Kastanienbaum",
+      "description": "Large hail reported as 2cm i.d.. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness report. Crowd source MeteoSchweiz/Swiss (operated by Meteo Swiss), 19 APR 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T11:55:00.000Z\", s\"01KPN5EACR7TFN44Q2H6EFCD1P\" ]",
+      "lat": 47.0129,
+      "lon": 8.3168,
+      "type": "HAIL",
+      "time": "2026-04-19T11:55:00.000Z",
+      "country": "CH",
+      "place": "Winkel",
+      "description": "Large hail reported as 2cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness report. Crowd source MeteoSchweiz/Swiss (operated by Meteo Swiss), 19 APR 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T11:55:00.000Z\", s\"01KPN594P46WKX31SVE7KXY32E\" ]",
+      "lat": 46.9856,
+      "lon": 8.3121,
+      "type": "HAIL",
+      "time": "2026-04-19T11:55:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T11:55:00.000Z\", s\"01KPN58EPRNHKRR6BW2XTHZASG\" ]",
+      "lat": 47.0126,
+      "lon": 8.3213,
+      "type": "HAIL",
+      "time": "2026-04-19T11:55:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T11:54:00.000Z\", s\"01KPN5CVEEZRRCA8XXDWCT89T1\" ]",
+      "lat": 47.1005,
+      "lon": 8.5148,
+      "type": "HAIL",
+      "time": "2026-04-19T11:54:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T11:44:00.000Z\", s\"01KPN5JR0MGY6PVSXVQD9R6EVN\" ]",
+      "lat": 47.5785,
+      "lon": 9.1675,
+      "type": "HAIL",
+      "time": "2026-04-19T11:44:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T11:44:00.000Z\", s\"01KPN5GWPJSTNKSQD0S210WWMV\" ]",
+      "lat": 47.1248,
+      "lon": 8.4495,
+      "type": "HAIL",
+      "time": "2026-04-19T11:44:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T11:30:00.000Z\", s\"01KPNNEKJDTDKH650KBKY5CBA2\" ]",
+      "lat": 46.0514,
+      "lon": 8.9448,
+      "type": "HAIL",
+      "time": "2026-04-19T11:30:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T11:30:00.000Z\", s\"01KPN5MY766Q4Y2124P3PSKA3X\" ]",
+      "lat": 47.6088,
+      "lon": 9.0644,
+      "type": "HAIL",
+      "time": "2026-04-19T11:30:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T11:19:00.000Z\", s\"01KPN5Q6K1RZVBKHAQ9B035MCM\" ]",
+      "lat": 47.6236,
+      "lon": 8.9382,
+      "type": "HAIL",
+      "time": "2026-04-19T11:19:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T11:12:00.000Z\", s\"01KPQFXD1WBSZJNE0GDQDWTYXB\" ]",
+      "lat": 46.94,
+      "lon": 8.3547,
+      "type": "LIGHTNING",
+      "time": "2026-04-19T11:12:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T10:51:00.000Z\", s\"01KPR193N36TRP1649NXN1B218\" ]",
+      "lat": 50.6652,
+      "lon": 13.0805,
+      "type": "HAIL",
+      "time": "2026-04-19T10:51:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T10:38:00.000Z\", s\"01KPN2ZF14E2RXT42PJBZ044TP\" ]",
+      "lat": 47.9131,
+      "lon": 10.168,
+      "type": "HAIL",
+      "time": "2026-04-19T10:38:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T10:33:00.000Z\", s\"01KPN13FJ5E01ZZ4KW8QBYXS8C\" ]",
+      "lat": 47.4595,
+      "lon": 9.3875,
+      "type": "LIGHTNING",
+      "time": "2026-04-19T10:33:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-19T10:15:00.000Z\", s\"01KPN36SC3K0S3BJWC2NGP4VTW\" ]",
+      "lat": 48.0124,
+      "lon": 10.6075,
+      "type": "HAIL",
+      "time": "2026-04-19T10:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    }
+  ]
+}

@@ -1,0 +1,2161 @@
+{
+  "forecast_date": "2026-04-05",
+  "window_start_local": "2026-04-05T06:00:00+02:00",
+  "window_end_local": "2026-04-06T06:00:00+02:00",
+  "window_start_utc": "2026-04-05T04:00:00+00:00",
+  "window_end_utc": "2026-04-06T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 168,
+  "report_count": 168,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-04-05T21:22:00.000Z\", s\"01KNJE223CV20VAY5GNNVNGCGJ\" ]",
+      "lat": 51.1983,
+      "lon": 13.1969,
+      "type": "WIND",
+      "time": "2026-04-05T21:22:00.000Z",
+      "country": "DE",
+      "place": "Zschochau",
+      "description": null,
+      "info_source": [
+        "GOV",
+        "DMGPHOTO",
+        "WWW"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Ostrau (Facebook), checked: 07 APR 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T21:20:00.000Z\", s\"01KNKX6KZF7JBH99XN9XW1W1RP\" ]",
+      "lat": 50.9844,
+      "lon": 20.5406,
+      "type": "WIND",
+      "time": "2026-04-05T21:20:00.000Z",
+      "country": "PL",
+      "place": "Ćmińsk",
+      "description": "A downed tree was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "OSP KSRG Bobrza (on Facebook), 06 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T19:10:00.000Z\", s\"01KNKWCPM1FK2HQM5N67AKZVE9\" ]",
+      "lat": 52.2439,
+      "lon": 21.7078,
+      "type": "LIGHTNING",
+      "time": "2026-04-05T19:10:00.000Z",
+      "country": "PL",
+      "place": "Rządza",
+      "description": "Wind turbine has caught fire. Most probable cause is lightning strike. There was an active storm in this area at the time of fire report. Some observers have seen CG lightning in the area of wind turbine.",
+      "info_source": [
+        "DMGEYEWTN",
+        "DMGPHOTO",
+        "GOV"
+      ],
+      "references": [
+        "OSP Wiśniew (on Facebook), 05 APR 2026.",
+        "OSP Jakubów (on Facebook), 05 APR 2026.",
+        "Ratownictwo Powiatu Mińskiego (on Facebook), 05 APR 2026.",
+        "Eyewitness report (on Facebook), 05 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T19:00:00.000Z\", s\"01KNRP7H9KY8AQ6T9SH3K4SE28\" ]",
+      "lat": 52.0613,
+      "lon": 19.855,
+      "type": "WIND",
+      "time": "2026-04-05T19:00:00.000Z",
+      "country": "PL",
+      "place": "Dąbkowice Górne",
+      "description": "A downed tree was reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Legionowski: Powalone i uszkodzone drzewa. Pogoda niemiło zaskoczyła\", Legio24, 06 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T19:00:00.000Z\", s\"01KNKYQF35MYHR0DE9YYSBKJM1\" ]",
+      "lat": 52.7976,
+      "lon": 22.3123,
+      "type": "WIND",
+      "time": "2026-04-05T19:00:00.000Z",
+      "country": "PL",
+      "place": "Czyżew",
+      "description": "A downed tree on a road was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "GOV"
+      ],
+      "references": [
+        "OSP KSRG Czyżew (on Facebook), 05 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T19:00:00.000Z\", s\"01KNHB27RWDJ2TN88H4JJV24Z5\" ]",
+      "lat": 48.36,
+      "lon": 14.2576,
+      "type": "WIND",
+      "time": "2026-04-05T19:00:00.000Z",
+      "country": "AT",
+      "place": "Lichtenberg",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Einsätze der letzten 2 Tage, Oö. Landes Feuerwehr Verband, 6 Apr 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T18:30:00.000Z\", s\"01KNJ02VJQT0971TZPH9YE56C2\" ]",
+      "lat": 48.675,
+      "lon": 15.644,
+      "type": "WIND",
+      "time": "2026-04-05T18:30:00.000Z",
+      "country": "AT",
+      "place": "Horn-Wasserwerk",
+      "description": "95.4 km/h",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Ws. report by Geosphere Austria, 5 Apr 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T18:30:00.000Z\", s\"01KNHBFVMJX2WBNYWWYACXV5S5\" ]",
+      "lat": 48.3313,
+      "lon": 14.6221,
+      "type": "WIND",
+      "time": "2026-04-05T18:30:00.000Z",
+      "country": "AT",
+      "place": "Tragwein",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Einsätze der letzten 2 Tage, Oö. Landes Feuerwehr Verband, 6 Apr 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T18:30:00.000Z\", s\"01KNHBCZHBF2KXN8PY1XRK10GK\" ]",
+      "lat": 48.3201,
+      "lon": 14.8162,
+      "type": "WIND",
+      "time": "2026-04-05T18:30:00.000Z",
+      "country": "AT",
+      "place": "Pabneukirchen",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Einsätze der letzten 2 Tage, Oö. Landes Feuerwehr Verband, 6 Apr 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T18:25:00.000Z\", s\"01KNKXY01CKMYP4MARN2VZXJ7A\" ]",
+      "lat": 51.6167,
+      "lon": 20.5796,
+      "type": "WIND",
+      "time": "2026-04-05T18:25:00.000Z",
+      "country": "PL",
+      "place": "Nowe Miasto nad Pilicą",
+      "description": "A downed tree on a road was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "GOV"
+      ],
+      "references": [
+        "Osp Nowe Miasto nad Pilica (on Facebook), 05 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T18:20:00.000Z\", s\"01KNHAEEDEA4W7EFV29E68QC9Y\" ]",
+      "lat": 48.3792,
+      "lon": 14.1918,
+      "type": "WIND",
+      "time": "2026-04-05T18:20:00.000Z",
+      "country": "AT",
+      "place": "Gramastetten",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Einsätze der letzten 2 Tage, Oö. Landes Feuerwehr Verband, 6 Apr 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T18:15:00.000Z\", s\"01KNHAJZ4KBGAQ6X1FJEPVHK3G\" ]",
+      "lat": 48.3623,
+      "lon": 14.0031,
+      "type": "WIND",
+      "time": "2026-04-05T18:15:00.000Z",
+      "country": "AT",
+      "place": "Hartkirchen",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Einsätze der letzten 2 Tage, Oö. Landes Feuerwehr Verband, 6 Apr 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T18:15:00.000Z\", s\"01KNHABC3BH1BDHM504T3EBPH6\" ]",
+      "lat": 48.4779,
+      "lon": 14.7265,
+      "type": "WIND",
+      "time": "2026-04-05T18:15:00.000Z",
+      "country": "AT",
+      "place": "Weitersfelden",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Einsätze der letzten 2 Tage, Oö. Landes Feuerwehr Verband, 6 Apr 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T18:15:00.000Z\", s\"01KNHA8CRV7AF2YN4784M96W76\" ]",
+      "lat": 48.3802,
+      "lon": 14.1325,
+      "type": "WIND",
+      "time": "2026-04-05T18:15:00.000Z",
+      "country": "AT",
+      "place": "St. Gotthard im Mühlkreis",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Einsätze der letzten 2 Tage, Oö. Landes Feuerwehr Verband, 6 Apr 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T18:00:00.000Z\", s\"01KNHA4FV1KBJSY3FB8BB744RM\" ]",
+      "lat": 48.458,
+      "lon": 14.3467,
+      "type": "WIND",
+      "time": "2026-04-05T18:00:00.000Z",
+      "country": "AT",
+      "place": "Reichenau im Mühlkreis",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Einsätze der letzten 2 Tage, Oö. Landes Feuerwehr Verband, 6 Apr 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T18:00:00.000Z\", s\"01KNHA157F85DCSATKXKTCT6KZ\" ]",
+      "lat": 48.4592,
+      "lon": 14.292,
+      "type": "WIND",
+      "time": "2026-04-05T18:00:00.000Z",
+      "country": "AT",
+      "place": "Sonnberg im Mühlkreis",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Einsätze der letzten 2 Tage, Oö. Landes Feuerwehr Verband, 6 Apr 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T18:00:00.000Z\", s\"01KNH9X678KZ282XND2QR89KCB\" ]",
+      "lat": 48.274,
+      "lon": 13.7267,
+      "type": "WIND",
+      "time": "2026-04-05T18:00:00.000Z",
+      "country": "AT",
+      "place": "Neumarkt im Hausruckkreis",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Einsätze der letzten 2 Tage, Oö. Landes Feuerwehr Verband, 6 Apr 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T18:00:00.000Z\", s\"01KNH9Q6Z7Y2EYDVCHKWYT4R9H\" ]",
+      "lat": 48.5113,
+      "lon": 14.5048,
+      "type": "WIND",
+      "time": "2026-04-05T18:00:00.000Z",
+      "country": "AT",
+      "place": "Freistadt",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Einsätze der letzten 2 Tage, Oö. Landes Feuerwehr Verband, 6 Apr 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T17:50:00.000Z\", s\"01KNH9KNYQ73MEC3E3F4JCSEDM\" ]",
+      "lat": 48.5365,
+      "lon": 14.5365,
+      "type": "WIND",
+      "time": "2026-04-05T17:50:00.000Z",
+      "country": "AT",
+      "place": "Grünbach",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Einsätze der letzten 2 Tage, Oö. Landes Feuerwehr Verband, 6 Apr 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T17:50:00.000Z\", s\"01KNH9CQ4XJVJ5JDXNKSG9DS97\" ]",
+      "lat": 48.4399,
+      "lon": 13.6593,
+      "type": "WIND",
+      "time": "2026-04-05T17:50:00.000Z",
+      "country": "AT",
+      "place": "Kopfing im Innkreis",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Einsätze der letzten 2 Tage, Oö. Landes Feuerwehr Verband, 6 Apr 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T17:40:00.000Z\", s\"01KNRJKFZ42Y33NBTY3N70EAZP\" ]",
+      "lat": 53.2678,
+      "lon": 11.6424,
+      "type": "WIND",
+      "time": "2026-04-05T17:40:00.000Z",
+      "country": "DE",
+      "place": "Prislich",
+      "description": null,
+      "info_source": [
+        "EYEWTN",
+        "DMGEYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness report. Crowd source WarnWetter App (operated by Deutsche Wetterdienst, DWD), 05 APR 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T17:30:00.000Z\", s\"01KNHAQEF64GRR3DPEKR9GDGGA\" ]",
+      "lat": 48.5038,
+      "lon": 13.8262,
+      "type": "WIND",
+      "time": "2026-04-05T17:30:00.000Z",
+      "country": "AT",
+      "place": "Pfarrkirchen im Mühlkreis",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Einsätze der letzten 2 Tage, Oö. Landes Feuerwehr Verband, 6 Apr 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T17:30:00.000Z\", s\"01KNH9G765J4HK01PYPDP22W6P\" ]",
+      "lat": 48.5288,
+      "lon": 13.7563,
+      "type": "WIND",
+      "time": "2026-04-05T17:30:00.000Z",
+      "country": "AT",
+      "place": "Neustift im Mühlkreis",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Einsätze der letzten 2 Tage, Oö. Landes Feuerwehr Verband, 6 Apr 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T17:20:00.000Z\", s\"01KNH8TMNK24MJYJCPW85VJS8C\" ]",
+      "lat": 48.4853,
+      "lon": 13.969,
+      "type": "WIND",
+      "time": "2026-04-05T17:20:00.000Z",
+      "country": "AT",
+      "place": "Altenfelden",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Einsätze der letzten 2 Tage, Oö. Landes Feuerwehr Verband, 6 Apr 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T17:00:00.000Z\", s\"01KNH95C9VYQGXAJPT0BMSRJYN\" ]",
+      "lat": 48.5659,
+      "lon": 13.5123,
+      "type": "WIND",
+      "time": "2026-04-05T17:00:00.000Z",
+      "country": "AT",
+      "place": "Freinberg",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Einsätze der letzten 2 Tage, Oö. Landes Feuerwehr Verband, 6 Apr 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T16:52:00.000Z\", s\"01KNRJRYAT0V5S1AQT6J4SRMS0\" ]",
+      "lat": 53.8979,
+      "lon": 12.729,
+      "type": "WIND",
+      "time": "2026-04-05T16:52:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T16:45:00.000Z\", s\"01KNHBMK1FZWNRPDNV3JW79YA3\" ]",
+      "lat": 48.457,
+      "lon": 13.4318,
+      "type": "WIND",
+      "time": "2026-04-05T16:45:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T16:00:00.000Z\", s\"01KNM6YTMW9QW2GS03D55ZA3KQ\" ]",
+      "lat": 53.7085,
+      "lon": 18.1748,
+      "type": "WIND",
+      "time": "2026-04-05T16:00:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T15:01:00.000Z\", s\"01KNRJZ8D450R7930SD9Z6PZD9\" ]",
+      "lat": 54.3555,
+      "lon": 13.2062,
+      "type": "WIND",
+      "time": "2026-04-05T15:01:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T15:00:00.000Z\", s\"01KNRKS92C51XK1219794BGCPD\" ]",
+      "lat": 54.6354,
+      "lon": 9.7752,
+      "type": "WIND",
+      "time": "2026-04-05T15:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T14:56:00.000Z\", s\"01KNRKSVJM5T3MVKRYY5EGJB5G\" ]",
+      "lat": 54.7355,
+      "lon": 9.9659,
+      "type": "WIND",
+      "time": "2026-04-05T14:56:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T14:47:00.000Z\", s\"01KNRK06FVJF97301DN2WPJXYK\" ]",
+      "lat": 54.6263,
+      "lon": 13.3716,
+      "type": "WIND",
+      "time": "2026-04-05T14:47:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T14:39:00.000Z\", s\"01KNRJVJHAHX1PWHEG5VM1PYTX\" ]",
+      "lat": 54.2435,
+      "lon": 12.4312,
+      "type": "WIND",
+      "time": "2026-04-05T14:39:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T14:14:00.000Z\", s\"01KNRKK9TAXJAS55JVE218GVVP\" ]",
+      "lat": 54.4023,
+      "lon": 10.2257,
+      "type": "WIND",
+      "time": "2026-04-05T14:14:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T13:50:00.000Z\", s\"01KNRKRR97NA32DZ4X02ZTQB81\" ]",
+      "lat": 54.5995,
+      "lon": 9.7449,
+      "type": "WIND",
+      "time": "2026-04-05T13:50:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T13:37:00.000Z\", s\"01KNRJT33PJJRR60X099G0CPA3\" ]",
+      "lat": 54.1567,
+      "lon": 12.0163,
+      "type": "WIND",
+      "time": "2026-04-05T13:37:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T13:23:00.000Z\", s\"01KNPS6SFN2K5RS7TAME6DS9FM\" ]",
+      "lat": 52.2077,
+      "lon": 8.8725,
+      "type": "WIND",
+      "time": "2026-04-05T13:23:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T13:18:00.000Z\", s\"01KNJE3RX2C40JC8KSAQV8H7E5\" ]",
+      "lat": 50.2488,
+      "lon": 11.0002,
+      "type": "WIND",
+      "time": "2026-04-05T13:18:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T13:13:00.000Z\", s\"01KNRKDAZXS9RWS0M0N7FDMVJG\" ]",
+      "lat": 53.8876,
+      "lon": 10.6796,
+      "type": "WIND",
+      "time": "2026-04-05T13:13:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T13:08:00.000Z\", s\"01KNJDJSZ1VPK9GC138WD2QNEJ\" ]",
+      "lat": 51.3228,
+      "lon": 14.8416,
+      "type": "WIND",
+      "time": "2026-04-05T13:08:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T13:03:00.000Z\", s\"01KNJDQRJNRS5ESKA06NW0YXD7\" ]",
+      "lat": 52.0946,
+      "lon": 8.2863,
+      "type": "WIND",
+      "time": "2026-04-05T13:03:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T12:55:00.000Z\", s\"01KNPSCX7A83YPVZC7ZS05S3X7\" ]",
+      "lat": 54.8047,
+      "lon": 9.3915,
+      "type": "WIND",
+      "time": "2026-04-05T12:55:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T12:48:00.000Z\", s\"01KNJDWBPJSG6GTKDSNVHZ9T0W\" ]",
+      "lat": 53.7508,
+      "lon": 9.9581,
+      "type": "WIND",
+      "time": "2026-04-05T12:48:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T12:32:00.000Z\", s\"01KNRM6F9Z495KJ7BBBDTEFN7Z\" ]",
+      "lat": 53.9268,
+      "lon": 9.0402,
+      "type": "WIND",
+      "time": "2026-04-05T12:32:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T12:30:00.000Z\", s\"01KNJDN8HKKTSH611SRGSSX93P\" ]",
+      "lat": 52.6991,
+      "lon": 13.2918,
+      "type": "WIND",
+      "time": "2026-04-05T12:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T12:23:00.000Z\", s\"01KNRMJ1S9TE4B01G9C43AP3G8\" ]",
+      "lat": 54.4116,
+      "lon": 9.5093,
+      "type": "WIND",
+      "time": "2026-04-05T12:23:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T12:19:00.000Z\", s\"01KNRMK1WZ5VDSNMP09YC6ZK1S\" ]",
+      "lat": 54.5386,
+      "lon": 9.4962,
+      "type": "WIND",
+      "time": "2026-04-05T12:19:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T12:14:00.000Z\", s\"01KNRK9YXFSPWY4FJQR7PSK923\" ]",
+      "lat": 53.5243,
+      "lon": 10.1712,
+      "type": "WIND",
+      "time": "2026-04-05T12:14:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T12:13:00.000Z\", s\"01KNRKYDASMBPS52HWARRMYZE3\" ]",
+      "lat": 53.6127,
+      "lon": 9.8378,
+      "type": "WIND",
+      "time": "2026-04-05T12:13:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T11:52:00.000Z\", s\"01KNJDZ4ZCW3AG9QW8PBQZ274J\" ]",
+      "lat": 53.9246,
+      "lon": 10.7415,
+      "type": "WIND",
+      "time": "2026-04-05T11:52:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T11:38:00.000Z\", s\"01KNRJY8PBAAPTRC3QSPFA2M33\" ]",
+      "lat": 53.6304,
+      "lon": 14.0113,
+      "type": "WIND",
+      "time": "2026-04-05T11:38:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T11:30:00.000Z\", s\"01KNJD4ZC199K4G9CS8Y6TMB74\" ]",
+      "lat": 54.6599,
+      "lon": 9.2953,
+      "type": "WIND",
+      "time": "2026-04-05T11:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T11:28:00.000Z\", s\"01KNRJQJYSKF5Z29P9D3WFNNKE\" ]",
+      "lat": 53.355,
+      "lon": 12.6897,
+      "type": "WIND",
+      "time": "2026-04-05T11:28:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T11:18:00.000Z\", s\"01KNJE84RYRFWH4SETZ62NCC4V\" ]",
+      "lat": 54.2202,
+      "lon": 10.736,
+      "type": "WIND",
+      "time": "2026-04-05T11:18:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T11:01:00.000Z\", s\"01KNJDT28117ZBQXVTGHAHPZ5K\" ]",
+      "lat": 50.5337,
+      "lon": 12.5283,
+      "type": "WIND",
+      "time": "2026-04-05T11:01:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T11:00:00.000Z\", s\"01KNMA8KA0J74EDKVS726Q0ZT4\" ]",
+      "lat": 54.14,
+      "lon": 10.4899,
+      "type": "WIND",
+      "time": "2026-04-05T11:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T11:00:00.000Z\", s\"01KNMA8BW510HJJ7R6Y5PXBXK6\" ]",
+      "lat": 54.2979,
+      "lon": 10.5834,
+      "type": "WIND",
+      "time": "2026-04-05T11:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T11:00:00.000Z\", s\"01KNMA82Q67PRZJG46V7998F9K\" ]",
+      "lat": 54.1581,
+      "lon": 10.4177,
+      "type": "WIND",
+      "time": "2026-04-05T11:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T11:00:00.000Z\", s\"01KNMA7SZD0GAN648WZZ8JX2Q7\" ]",
+      "lat": 54.2367,
+      "lon": 10.5163,
+      "type": "WIND",
+      "time": "2026-04-05T11:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:53:00.000Z\", s\"01KNRKPB7KKGN7TBTSW8D3A3QM\" ]",
+      "lat": 54.4627,
+      "lon": 10.0041,
+      "type": "WIND",
+      "time": "2026-04-05T10:53:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:50:00.000Z\", s\"01KNRJR0J88NJW3R0298JWYPYH\" ]",
+      "lat": 53.4161,
+      "lon": 12.5982,
+      "type": "WIND",
+      "time": "2026-04-05T10:50:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:42:00.000Z\", s\"01KNPS9MYZHEH6414D90T2QZK9\" ]",
+      "lat": 54.0228,
+      "lon": 9.2222,
+      "type": "WIND",
+      "time": "2026-04-05T10:42:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:34:00.000Z\", s\"01KNRMC1MSPHKQRN40V69H4ZFW\" ]",
+      "lat": 54.8283,
+      "lon": 8.6475,
+      "type": "WIND",
+      "time": "2026-04-05T10:34:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:32:00.000Z\", s\"01KNRKFTBJW9Z6YEFEH7FKTDFG\" ]",
+      "lat": 53.8834,
+      "lon": 10.467,
+      "type": "WIND",
+      "time": "2026-04-05T10:32:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:30:00.000Z\", s\"01KNRMB90T54QM3RNWZEXDEQDS\" ]",
+      "lat": 54.7307,
+      "lon": 8.7131,
+      "type": "WIND",
+      "time": "2026-04-05T10:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:23:00.000Z\", s\"01KNRJMTZYVCWF1B857SQZMSTE\" ]",
+      "lat": 53.5685,
+      "lon": 11.3611,
+      "type": "WIND",
+      "time": "2026-04-05T10:23:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:22:00.000Z\", s\"01KNPS8PGEJVRJC83GYT950AYS\" ]",
+      "lat": 53.8688,
+      "lon": 8.6983,
+      "type": "WIND",
+      "time": "2026-04-05T10:22:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:19:00.000Z\", s\"01KNRM728PA8Y5FHE2HZGB59TT\" ]",
+      "lat": 54.1506,
+      "lon": 9.0826,
+      "type": "WIND",
+      "time": "2026-04-05T10:19:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:13:00.000Z\", s\"01KNRKH9Q7EP269P62WAT747WW\" ]",
+      "lat": 54.3717,
+      "lon": 10.9809,
+      "type": "WIND",
+      "time": "2026-04-05T10:13:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:12:00.000Z\", s\"01KNPSDWRRAW0T94EHS280BTQZ\" ]",
+      "lat": 53.9277,
+      "lon": 10.9766,
+      "type": "WIND",
+      "time": "2026-04-05T10:12:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:05:00.000Z\", s\"01KNRJX56P2PTR05EQW9700PK4\" ]",
+      "lat": 54.0958,
+      "lon": 13.3815,
+      "type": "WIND",
+      "time": "2026-04-05T10:05:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:01:00.000Z\", s\"01KNRMEJAJKRDG9TXVQBF53Z6F\" ]",
+      "lat": 54.2159,
+      "lon": 9.7943,
+      "type": "WIND",
+      "time": "2026-04-05T10:01:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:00:00.000Z\", s\"01KP8AJVNWGTD2H91P4BMKTFCA\" ]",
+      "lat": 48.0521,
+      "lon": 19.0441,
+      "type": "WIND",
+      "time": "2026-04-05T10:00:00.000Z",
+      "country": "HU",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:00:00.000Z\", s\"01KNMAQA1HCAYVY1X28DTNWZSP\" ]",
+      "lat": 54.3224,
+      "lon": 10.0532,
+      "type": "WIND",
+      "time": "2026-04-05T10:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:00:00.000Z\", s\"01KNMABPE5R1PR8NNMNPG287N3\" ]",
+      "lat": 54.2099,
+      "lon": 10.4897,
+      "type": "WIND",
+      "time": "2026-04-05T10:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:00:00.000Z\", s\"01KNMAB23VYA6YV3WS31EMDJRW\" ]",
+      "lat": 54.3693,
+      "lon": 10.2026,
+      "type": "WIND",
+      "time": "2026-04-05T10:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:00:00.000Z\", s\"01KNMAAHZSKG4G420ZBRXQVCSK\" ]",
+      "lat": 54.3906,
+      "lon": 10.2506,
+      "type": "WIND",
+      "time": "2026-04-05T10:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:00:00.000Z\", s\"01KNMAA1N67TG8226JD34HSP2C\" ]",
+      "lat": 54.222,
+      "lon": 10.3236,
+      "type": "WIND",
+      "time": "2026-04-05T10:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:00:00.000Z\", s\"01KNMA9RCV0ERE2J1Q9874V1NC\" ]",
+      "lat": 54.1915,
+      "lon": 10.314,
+      "type": "WIND",
+      "time": "2026-04-05T10:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:00:00.000Z\", s\"01KNMA9CG1XJ4X8JP3F6VY0H7K\" ]",
+      "lat": 54.1902,
+      "lon": 10.2635,
+      "type": "WIND",
+      "time": "2026-04-05T10:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T10:00:00.000Z\", s\"01KNMA922ZTF6YHFJ1C45RN67V\" ]",
+      "lat": 54.2359,
+      "lon": 10.2818,
+      "type": "WIND",
+      "time": "2026-04-05T10:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T09:55:00.000Z\", s\"01KNRM1YWJZCCC5BDK3E6FX3VP\" ]",
+      "lat": 53.9501,
+      "lon": 10.0897,
+      "type": "WIND",
+      "time": "2026-04-05T09:55:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T09:55:00.000Z\", s\"01KNRJWPQ3YVPA6WT4F4B10JZX\" ]",
+      "lat": 54.1601,
+      "lon": 13.3353,
+      "type": "WIND",
+      "time": "2026-04-05T09:55:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T09:50:00.000Z\", s\"01KNRKZM538G7RS6HQ3GW6GKTC\" ]",
+      "lat": 53.6342,
+      "lon": 9.5962,
+      "type": "WIND",
+      "time": "2026-04-05T09:50:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T09:49:00.000Z\", s\"01KNRK8BYFTAMY9AZDAACHQEA2\" ]",
+      "lat": 53.379,
+      "lon": 10.5514,
+      "type": "WIND",
+      "time": "2026-04-05T09:49:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T09:43:00.000Z\", s\"01KNRKYZ0V4D78GZDTB65KW71D\" ]",
+      "lat": 53.6803,
+      "lon": 9.7622,
+      "type": "WIND",
+      "time": "2026-04-05T09:43:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T09:39:00.000Z\", s\"01KNRN40NGD2S6A9G5BJZR1ED0\" ]",
+      "lat": 53.4341,
+      "lon": 8.8183,
+      "type": "WIND",
+      "time": "2026-04-05T09:39:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T09:32:00.000Z\", s\"01KNRJJ3WFS044821VP8PP1QX7\" ]",
+      "lat": 53.3024,
+      "lon": 11.0843,
+      "type": "WIND",
+      "time": "2026-04-05T09:32:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T09:30:00.000Z\", s\"01KNJD43GT2MECBENJDWF9A8XH\" ]",
+      "lat": 54.0481,
+      "lon": 10.4207,
+      "type": "WIND",
+      "time": "2026-04-05T09:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T09:30:00.000Z\", s\"01KNJCT0AZHVHGK2700F3NW2A7\" ]",
+      "lat": 54.4538,
+      "lon": 9.5389,
+      "type": "WIND",
+      "time": "2026-04-05T09:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T09:20:00.000Z\", s\"01KNRKMNEFADGKRCEN04C6RG7K\" ]",
+      "lat": 54.3957,
+      "lon": 10.1188,
+      "type": "WIND",
+      "time": "2026-04-05T09:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T09:18:00.000Z\", s\"01KNRK959ZHZD15CKWGMB5536Y\" ]",
+      "lat": 53.5114,
+      "lon": 10.2504,
+      "type": "WIND",
+      "time": "2026-04-05T09:18:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T09:15:00.000Z\", s\"01KNRJW3MEFP3TYEZKC776KVZQ\" ]",
+      "lat": 54.3037,
+      "lon": 12.8042,
+      "type": "WIND",
+      "time": "2026-04-05T09:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:59:00.000Z\", s\"01KNRN705QBF5J9VQ6B71C6FXK\" ]",
+      "lat": 53.4039,
+      "lon": 9.7106,
+      "type": "WIND",
+      "time": "2026-04-05T08:59:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:59:00.000Z\", s\"01KNRJM7C55BQGEEF03PG7BZ33\" ]",
+      "lat": 53.5109,
+      "lon": 11.3993,
+      "type": "WIND",
+      "time": "2026-04-05T08:59:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:55:00.000Z\", s\"01KNRKF781CCNABDF4QR7DPE6J\" ]",
+      "lat": 53.9633,
+      "lon": 10.7177,
+      "type": "WIND",
+      "time": "2026-04-05T08:55:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:50:00.000Z\", s\"01KNRM066JESRPHNA2JVA00RSG\" ]",
+      "lat": 53.7889,
+      "lon": 9.7704,
+      "type": "WIND",
+      "time": "2026-04-05T08:50:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:49:00.000Z\", s\"01KNRJSCXSEJZDCV1MATPS1AZJ\" ]",
+      "lat": 54.0646,
+      "lon": 12.0488,
+      "type": "WIND",
+      "time": "2026-04-05T08:49:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:40:00.000Z\", s\"01KNPS630W9ZS239GMB4QHV0K6\" ]",
+      "lat": 53.0758,
+      "lon": 8.8072,
+      "type": "WIND",
+      "time": "2026-04-05T08:40:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:38:00.000Z\", s\"01KNRNA27VRYVPJKJRREV57EAK\" ]",
+      "lat": 53.2663,
+      "lon": 10.2227,
+      "type": "WIND",
+      "time": "2026-04-05T08:38:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:37:00.000Z\", s\"01KNMACRPA7D29YFDNNJ3GEYWG\" ]",
+      "lat": 54.1572,
+      "lon": 10.2342,
+      "type": "WIND",
+      "time": "2026-04-05T08:37:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:35:00.000Z\", s\"01KNRM42TBKNDGP3QYD8R5ZV5Z\" ]",
+      "lat": 53.9667,
+      "lon": 9.6167,
+      "type": "WIND",
+      "time": "2026-04-05T08:35:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:30:00.000Z\", s\"01KNJD1AMD3HDVMJ0ERY1WXBYR\" ]",
+      "lat": 54.3174,
+      "lon": 9.7794,
+      "type": "WIND",
+      "time": "2026-04-05T08:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:30:00.000Z\", s\"01KNJBWMSVCH0B98D4A65W4D7C\" ]",
+      "lat": 54.7051,
+      "lon": 9.6176,
+      "type": "WIND",
+      "time": "2026-04-05T08:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:29:00.000Z\", s\"01KNRJP8JTECJH5FRG1NTP1M4S\" ]",
+      "lat": 53.7031,
+      "lon": 11.1079,
+      "type": "WIND",
+      "time": "2026-04-05T08:29:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:28:00.000Z\", s\"01KNRKQ21FDQ3SVPSB3ZTXVZHD\" ]",
+      "lat": 54.3996,
+      "lon": 9.8555,
+      "type": "WIND",
+      "time": "2026-04-05T08:28:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:26:00.000Z\", s\"01KNPS7RKKBPPP1D6XNR74DB02\" ]",
+      "lat": 52.5046,
+      "lon": 9.4617,
+      "type": "WIND",
+      "time": "2026-04-05T08:26:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:25:00.000Z\", s\"01KNPSAVRGWVTE91VP7YAJZVMT\" ]",
+      "lat": 54.319,
+      "lon": 9.2101,
+      "type": "WIND",
+      "time": "2026-04-05T08:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:23:00.000Z\", s\"01KNRKQV1ZZ5J1ZX0N104C7YDS\" ]",
+      "lat": 54.52,
+      "lon": 9.888,
+      "type": "WIND",
+      "time": "2026-04-05T08:23:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:15:00.000Z\", s\"01KNRMFN3S21GAD2Y61VF7NDH4\" ]",
+      "lat": 54.3982,
+      "lon": 9.4339,
+      "type": "WIND",
+      "time": "2026-04-05T08:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:15:00.000Z\", s\"01KNPS8998PXXGPN9DJT4QWB99\" ]",
+      "lat": 53.3333,
+      "lon": 9.8667,
+      "type": "WIND",
+      "time": "2026-04-05T08:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:13:00.000Z\", s\"01KNRKNA4GAD352KAGXYDX90QW\" ]",
+      "lat": 54.4141,
+      "lon": 10.0933,
+      "type": "WIND",
+      "time": "2026-04-05T08:13:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:11:00.000Z\", s\"01KNRN7EAMBHH05WNW3MMTJQ6F\" ]",
+      "lat": 53.4767,
+      "lon": 9.7004,
+      "type": "WIND",
+      "time": "2026-04-05T08:11:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:10:00.000Z\", s\"01KNRM4MH96FGJR1MCSD8CQ7YQ\" ]",
+      "lat": 53.9988,
+      "lon": 9.4889,
+      "type": "WIND",
+      "time": "2026-04-05T08:10:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:07:00.000Z\", s\"01KNRJTMT4T1NKCTFFBJVRSX33\" ]",
+      "lat": 54.1549,
+      "lon": 12.0493,
+      "type": "WIND",
+      "time": "2026-04-05T08:07:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:05:00.000Z\", s\"01KNRM5AKBFE1BTTK85B84XXRM\" ]",
+      "lat": 54.046,
+      "lon": 9.4812,
+      "type": "WIND",
+      "time": "2026-04-05T08:05:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:04:00.000Z\", s\"01KNRMZEKVXTPN50K8J4Q9AXMY\" ]",
+      "lat": 53.3063,
+      "lon": 7.5919,
+      "type": "WIND",
+      "time": "2026-04-05T08:04:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:02:00.000Z\", s\"01KNRM5SZV68X0T2X651EEEWA3\" ]",
+      "lat": 54.0823,
+      "lon": 9.2961,
+      "type": "WIND",
+      "time": "2026-04-05T08:02:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T08:02:00.000Z\", s\"01KNPSA84YXCAAVZ785FJGWQDX\" ]",
+      "lat": 54.3173,
+      "lon": 8.6255,
+      "type": "WIND",
+      "time": "2026-04-05T08:02:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:57:00.000Z\", s\"01KNRKE12R3XTWVY7Q871SPJ7J\" ]",
+      "lat": 53.9634,
+      "lon": 10.875,
+      "type": "WIND",
+      "time": "2026-04-05T07:57:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:56:00.000Z\", s\"01KNRM0WD7CTYMFC2DRRT3NVJT\" ]",
+      "lat": 53.829,
+      "lon": 9.9388,
+      "type": "WIND",
+      "time": "2026-04-05T07:56:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:56:00.000Z\", s\"01KNRKEN4VJCM74YX5PYNHE3H0\" ]",
+      "lat": 53.9903,
+      "lon": 10.7954,
+      "type": "WIND",
+      "time": "2026-04-05T07:56:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:54:00.000Z\", s\"01KNPS5KGQ6ZP1W4ABM63VJZ27\" ]",
+      "lat": 53.139,
+      "lon": 8.2146,
+      "type": "WIND",
+      "time": "2026-04-05T07:54:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:51:00.000Z\", s\"01KNPS97MTYKM8DTXP84PE7QQM\" ]",
+      "lat": 53.9194,
+      "lon": 9.5172,
+      "type": "WIND",
+      "time": "2026-04-05T07:51:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:50:00.000Z\", s\"01KNRKM3E0V0QY6TYAX6T6Q608\" ]",
+      "lat": 54.3693,
+      "lon": 10.2026,
+      "type": "WIND",
+      "time": "2026-04-05T07:50:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:48:00.000Z\", s\"01KNRJNPN3TG3ZJSSN3MJ0JRRQ\" ]",
+      "lat": 53.6543,
+      "lon": 11.3407,
+      "type": "WIND",
+      "time": "2026-04-05T07:48:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:48:00.000Z\", s\"01KNPSCG574YN5GCJSE4NJGECC\" ]",
+      "lat": 54.7696,
+      "lon": 8.7534,
+      "type": "WIND",
+      "time": "2026-04-05T07:48:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:45:00.000Z\", s\"01KNRN8WZW231R8HNTN60S00PW\" ]",
+      "lat": 53.1707,
+      "lon": 9.6696,
+      "type": "WIND",
+      "time": "2026-04-05T07:45:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:44:00.000Z\", s\"01KNRN143ZQKZYW5Z1Z69C9HGN\" ]",
+      "lat": 53.7892,
+      "lon": 7.9016,
+      "type": "WIND",
+      "time": "2026-04-05T07:44:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:43:00.000Z\", s\"01KNRN60VYNVF9W3HRAATQ7Y4B\" ]",
+      "lat": 53.5278,
+      "lon": 9.3905,
+      "type": "WIND",
+      "time": "2026-04-05T07:43:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:41:00.000Z\", s\"01KNRMWBV4M6ZNMZZGDNMN3J04\" ]",
+      "lat": 53.6034,
+      "lon": 7.2851,
+      "type": "WIND",
+      "time": "2026-04-05T07:41:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:41:00.000Z\", s\"01KNPSDCS5GP58PVKBYA3KEQDE\" ]",
+      "lat": 54.816,
+      "lon": 9.6957,
+      "type": "WIND",
+      "time": "2026-04-05T07:41:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:40:00.000Z\", s\"01KNRN8FCYYPZ6XNR3GHAK3C48\" ]",
+      "lat": 53.237,
+      "lon": 9.803,
+      "type": "WIND",
+      "time": "2026-04-05T07:40:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:34:00.000Z\", s\"01KNRMDMWHFQN9T71T99C5FVA3\" ]",
+      "lat": 54.0842,
+      "lon": 9.7883,
+      "type": "WIND",
+      "time": "2026-04-05T07:34:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:30:00.000Z\", s\"01KNPS40PV243M2R7HP0R45JE1\" ]",
+      "lat": 53.3671,
+      "lon": 7.2058,
+      "type": "WIND",
+      "time": "2026-04-05T07:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:30:00.000Z\", s\"01KNJCW91QG56J1B5ZGY46VWET\" ]",
+      "lat": 53.8152,
+      "lon": 8.1942,
+      "type": "WIND",
+      "time": "2026-04-05T07:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:30:00.000Z\", s\"01KNJCQPR0DPSKVSXRH9RP8F5D\" ]",
+      "lat": 54.8222,
+      "lon": 9.4981,
+      "type": "WIND",
+      "time": "2026-04-05T07:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:24:00.000Z\", s\"01KNMADBV25NZ49T9DBRF9BN1T\" ]",
+      "lat": 54.1483,
+      "lon": 10.3423,
+      "type": "WIND",
+      "time": "2026-04-05T07:24:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:22:00.000Z\", s\"01KNRN30N6XM4FXT5WKG8QHQJF\" ]",
+      "lat": 53.5588,
+      "lon": 8.3,
+      "type": "WIND",
+      "time": "2026-04-05T07:22:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:21:00.000Z\", s\"01KNPS4M6C5849SXCRPK8VTBEV\" ]",
+      "lat": 53.4846,
+      "lon": 7.3485,
+      "type": "WIND",
+      "time": "2026-04-05T07:21:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:20:00.000Z\", s\"01KNRMYV7CCM4DZ9Q09H5NAN5R\" ]",
+      "lat": 53.4696,
+      "lon": 7.4824,
+      "type": "WIND",
+      "time": "2026-04-05T07:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:20:00.000Z\", s\"01KNRMVTW7RV4VG177GQ7PAE79\" ]",
+      "lat": 53.5337,
+      "lon": 7.2642,
+      "type": "WIND",
+      "time": "2026-04-05T07:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:17:00.000Z\", s\"01KNRKJT3D4D471F1H0HQ23X0Z\" ]",
+      "lat": 54.3599,
+      "lon": 10.273,
+      "type": "WIND",
+      "time": "2026-04-05T07:17:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:16:00.000Z\", s\"01KNRKV1HJ6ZJ88GKVSEYMNK25\" ]",
+      "lat": 54.8,
+      "lon": 9.6333,
+      "type": "WIND",
+      "time": "2026-04-05T07:16:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:14:00.000Z\", s\"01KNRMJKK9GASKB49EPQ2H9T7K\" ]",
+      "lat": 54.5175,
+      "lon": 9.4583,
+      "type": "WIND",
+      "time": "2026-04-05T07:14:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:14:00.000Z\", s\"01KNRM3J4J9C5E0M3T142FWJZQ\" ]",
+      "lat": 53.9723,
+      "lon": 9.5065,
+      "type": "WIND",
+      "time": "2026-04-05T07:14:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:11:00.000Z\", s\"01KNRN6CREA1NV884MW921YTCJ\" ]",
+      "lat": 53.509,
+      "lon": 9.2983,
+      "type": "WIND",
+      "time": "2026-04-05T07:11:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:03:00.000Z\", s\"01KNRMA7RY4TY7C67KFY322Y8N\" ]",
+      "lat": 54.6534,
+      "lon": 8.9044,
+      "type": "WIND",
+      "time": "2026-04-05T07:03:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T07:03:00.000Z\", s\"01KNPSC00PEVQXJVJSBQAQHSXA\" ]",
+      "lat": 54.3053,
+      "lon": 9.9273,
+      "type": "WIND",
+      "time": "2026-04-05T07:03:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T06:56:00.000Z\", s\"01KNRN7YDMCGWE3BAA4QZ1SHAM\" ]",
+      "lat": 53.5328,
+      "lon": 9.6814,
+      "type": "WIND",
+      "time": "2026-04-05T06:56:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T06:41:00.000Z\", s\"01KNRMYBMZ7YMWV0BGN5AZH5ZG\" ]",
+      "lat": 53.6743,
+      "lon": 7.5745,
+      "type": "WIND",
+      "time": "2026-04-05T06:41:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T06:33:00.000Z\", s\"01KNRMXQRC001KAX6QPRBBD608\" ]",
+      "lat": 53.5998,
+      "lon": 7.4735,
+      "type": "WIND",
+      "time": "2026-04-05T06:33:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T06:30:00.000Z\", s\"01KNJD0DYHYZ91DBME9RA58Q1F\" ]",
+      "lat": 54.6468,
+      "lon": 9.7209,
+      "type": "WIND",
+      "time": "2026-04-05T06:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T06:30:00.000Z\", s\"01KNJCWZAYW32DD60THNNYQXME\" ]",
+      "lat": 53.7711,
+      "lon": 7.6947,
+      "type": "WIND",
+      "time": "2026-04-05T06:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T06:30:00.000Z\", s\"01KNJCM78CWG96R0W9T4HV2F6A\" ]",
+      "lat": 54.4968,
+      "lon": 8.8078,
+      "type": "WIND",
+      "time": "2026-04-05T06:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T06:30:00.000Z\", s\"01KNJCKJ50KQM19DEQ6TSENR9V\" ]",
+      "lat": 54.568,
+      "lon": 8.545,
+      "type": "WIND",
+      "time": "2026-04-05T06:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T06:27:00.000Z\", s\"01KNRN5C6R2YWJV8SQBD5WF0SP\" ]",
+      "lat": 53.1248,
+      "lon": 8.9893,
+      "type": "WIND",
+      "time": "2026-04-05T06:27:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T06:14:00.000Z\", s\"01KNRMKMYA801VXPB37RMV85K9\" ]",
+      "lat": 54.5035,
+      "lon": 9.5961,
+      "type": "WIND",
+      "time": "2026-04-05T06:14:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T06:13:00.000Z\", s\"01KNRN28B71NV0V7KWZ37RT0FF\" ]",
+      "lat": 53.4151,
+      "lon": 8.2858,
+      "type": "WIND",
+      "time": "2026-04-05T06:13:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T06:13:00.000Z\", s\"01KNJE590RFMEV4TMS0YV7TZ8J\" ]",
+      "lat": 54.4851,
+      "lon": 9.5018,
+      "type": "WIND",
+      "time": "2026-04-05T06:13:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T06:12:00.000Z\", s\"01KNRN0K9GZW5KC7T5C74YSFCQ\" ]",
+      "lat": 53.5736,
+      "lon": 7.9021,
+      "type": "WIND",
+      "time": "2026-04-05T06:12:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T06:12:00.000Z\", s\"01KNRM9G2G9TFEFV7QTNHSE382\" ]",
+      "lat": 54.6236,
+      "lon": 8.9641,
+      "type": "WIND",
+      "time": "2026-04-05T06:12:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T05:58:00.000Z\", s\"01KNRMZYRZ0RBFN04TBBM5Y3FQ\" ]",
+      "lat": 53.4159,
+      "lon": 7.9705,
+      "type": "WIND",
+      "time": "2026-04-05T05:58:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T05:45:00.000Z\", s\"01KNRM8TSYGXH1VMWHFPEA3N94\" ]",
+      "lat": 54.5233,
+      "lon": 9.0039,
+      "type": "WIND",
+      "time": "2026-04-05T05:45:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T05:44:00.000Z\", s\"01KNPSBF9SGBJH7662WGKW4YG8\" ]",
+      "lat": 54.376,
+      "lon": 9.0898,
+      "type": "WIND",
+      "time": "2026-04-05T05:44:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T05:09:00.000Z\", s\"01KNJDFDDNK4514S3W35KB2XCZ\" ]",
+      "lat": 52.9739,
+      "lon": 8.3961,
+      "type": "WIND",
+      "time": "2026-04-05T05:09:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T05:05:00.000Z\", s\"01KNRMWXKBT5XMPHRMNNZC1GB5\" ]",
+      "lat": 53.5942,
+      "lon": 7.2067,
+      "type": "WIND",
+      "time": "2026-04-05T05:05:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-05T04:30:00.000Z\", s\"01KNJCJGHYA7KB8N6Y8NBAWJDS\" ]",
+      "lat": 55.0171,
+      "lon": 8.4357,
+      "type": "WIND",
+      "time": "2026-04-05T04:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    }
+  ]
+}

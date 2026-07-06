@@ -1,0 +1,97 @@
+{
+  "forecast_date": "2026-04-20",
+  "window_start_local": "2026-04-20T06:00:00+02:00",
+  "window_end_local": "2026-04-21T06:00:00+02:00",
+  "window_start_utc": "2026-04-20T04:00:00+00:00",
+  "window_end_utc": "2026-04-21T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 5,
+  "report_count": 5,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-04-20T15:25:00.000Z\", s\"01KPR9ZTFTFNXAW0XDS5K49T4G\" ]",
+      "lat": 46.0737,
+      "lon": 14.4859,
+      "type": "LIGHTNING",
+      "time": "2026-04-20T15:25:00.000Z",
+      "country": "SI",
+      "place": "Šiška",
+      "description": "A lightning struck a house causing fire and damage. The time was based on radar data and Blitzortung lightning detection system.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Udar strele povzročil požar v novogradnji v Šiški, škode za več tisoč evrov\", 24ur, 20 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-20T15:05:00.000Z\", s\"01KPRBCKG0BH59T2HCTS15FR5H\" ]",
+      "lat": 46.2044,
+      "lon": 15.7409,
+      "type": "LIGHTNING",
+      "time": "2026-04-20T15:05:00.000Z",
+      "country": "HR",
+      "place": "Lupinjak",
+      "description": "A lightning struck a house causing damage to roof and electrical installation. The time was based on radar data and Blitzortung lightning detection system.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Grom udario kuću tokom nevremena: Vatrogasci objavili fotografije\", HAYAT, 20 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-20T12:05:00.000Z\", s\"01KPQG30FCJBK57780D1PNHEX3\" ]",
+      "lat": 46.5916,
+      "lon": 14.7591,
+      "type": "LIGHTNING",
+      "time": "2026-04-20T12:05:00.000Z",
+      "country": "AT",
+      "place": "Lettenstätten/Letina",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WXSVC"
+      ],
+      "references": [
+        "kachelmannwetter.com",
+        "\"Blitzeinschlag in Wirtschaftsgebäude fordert Feuerwehreinsatz\", VK24.at, 20 APR 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-20T11:20:00.000Z\", s\"01KPRC1R2PFZN2FB028DHS9ABH\" ]",
+      "lat": 45.2555,
+      "lon": 15.1423,
+      "type": "HAIL",
+      "time": "2026-04-20T11:20:00.000Z",
+      "country": "HR",
+      "place": "Potok Musulinski",
+      "description": "Damage to orchards and fruits were reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "\" Snažno nevrijeme s gradom pogodilo dijelove Hrvatske, stižu snimke: ‘Horor, zamračilo se‘\", Novi.ba, 20 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-20T10:35:00.000Z\", s\"01KPRA3GKBGYKES57QP6W96JTG\" ]",
+      "lat": 45.4937,
+      "lon": 15.0774,
+      "type": "HAIL",
+      "time": "2026-04-20T10:35:00.000Z",
+      "country": "SI",
+      "place": "Stari trg ob Kolpi",
+      "description": "Damaged roof by hail was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Udar strele povzročil požar v novogradnji v Šiški, škode za več tisoč evrov\", 24ur, 20 APR 2026."
+      ]
+    }
+  ]
+}

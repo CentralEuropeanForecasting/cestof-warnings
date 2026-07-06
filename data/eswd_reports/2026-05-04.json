@@ -1,0 +1,126 @@
+{
+  "forecast_date": "2026-05-04",
+  "window_start_local": "2026-05-04T06:00:00+02:00",
+  "window_end_local": "2026-05-05T06:00:00+02:00",
+  "window_start_utc": "2026-05-04T04:00:00+00:00",
+  "window_end_utc": "2026-05-05T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 7,
+  "report_count": 7,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-04T23:20:00.000Z\", s\"01KQVETWY1C6201XVCDS4FZA93\" ]",
+      "lat": 51.803,
+      "lon": 6.1248,
+      "type": "PRECIP",
+      "time": "2026-05-04T23:20:00.000Z",
+      "country": "DE",
+      "place": "Kleve",
+      "description": null,
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Wetterbilanz nach Unwetter in NRW\", TAGESSCHAU.de, 05 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-04T20:00:00.000Z\", s\"01KQVZHJS82QXBBRAHQKX5RD9K\" ]",
+      "lat": 52.294,
+      "lon": 7.4441,
+      "type": "PRECIP",
+      "time": "2026-05-04T20:00:00.000Z",
+      "country": "DE",
+      "place": "Rheine",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Unwetter über Rheine: Straßen überflutet, Keller vollgelaufen \", ANC-NEWSWIRE.de, 05 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-04T20:00:00.000Z\", s\"01KQVZG4RYCQ0TNTC99Z8JQ7JA\" ]",
+      "lat": 52.2088,
+      "lon": 7.1755,
+      "type": "PRECIP",
+      "time": "2026-05-04T20:00:00.000Z",
+      "country": "DE",
+      "place": "Ochtrup",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Unwetter über Rheine: Straßen überflutet, Keller vollgelaufen \", ANC-NEWSWIRE.de, 05 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-04T19:50:00.000Z\", s\"01KQVZFWM94ER837V0HX1R3VVH\" ]",
+      "lat": 52.2349,
+      "lon": 7.3704,
+      "type": "PRECIP",
+      "time": "2026-05-04T19:50:00.000Z",
+      "country": "DE",
+      "place": "Neuenkirchen",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Unwetter über Rheine: Straßen überflutet, Keller vollgelaufen \", ANC-NEWSWIRE.de, 05 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-04T17:50:00.000Z\", s\"01KQTDKC6FFFF93WMVY1SKHPD4\" ]",
+      "lat": 51.6957,
+      "lon": 8.852,
+      "type": "PRECIP",
+      "time": "2026-05-04T17:50:00.000Z",
+      "country": "DE",
+      "place": "Dahl",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IPADERS5 (wunderground.com), 04 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-04T17:45:00.000Z\", s\"01KQTDQRPDW593BCMVYY6ZJEKZ\" ]",
+      "lat": 51.5525,
+      "lon": 8.5592,
+      "type": "PRECIP",
+      "time": "2026-05-04T17:45:00.000Z",
+      "country": "DE",
+      "place": "Büren",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IBREN45 (wunderground.com), 04 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-04T16:42:00.000Z\", s\"01KQWCJT4Y7CMGNYBGDGF9AQ1Z\" ]",
+      "lat": 51.4329,
+      "lon": 8.7243,
+      "type": "LIGHTNING",
+      "time": "2026-05-04T16:42:00.000Z",
+      "country": "DE",
+      "place": "Madfeld",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Blitzeinschlag in Madfeld: Feuerwehr stoppt Brand im Dach\", SAUERLAND KURIER, 05 MAY 2026",
+        "kachelmannwetter.com"
+      ]
+    }
+  ]
+}

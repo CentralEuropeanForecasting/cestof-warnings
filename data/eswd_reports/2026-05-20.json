@@ -1,0 +1,30 @@
+{
+  "forecast_date": "2026-05-20",
+  "window_start_local": "2026-05-20T06:00:00+02:00",
+  "window_end_local": "2026-05-21T06:00:00+02:00",
+  "window_start_utc": "2026-05-20T04:00:00+00:00",
+  "window_end_utc": "2026-05-21T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 1,
+  "report_count": 1,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-20T17:14:00.000Z\", s\"01KS63DG7XV9753JS7STKM9NGQ\" ]",
+      "lat": 53.621,
+      "lon": 11.403,
+      "type": "LIGHTNING",
+      "time": "2026-05-20T17:14:00.000Z",
+      "country": "DE",
+      "place": "Feldstadt",
+      "description": null,
+      "info_source": [
+        "TV",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Schwerin: Blitzeinschlag in der Feldstadt\", NDR, 21 MAY 2026",
+        "kachelmannwetter.com"
+      ]
+    }
+  ]
+}

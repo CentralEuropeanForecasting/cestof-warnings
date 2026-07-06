@@ -1,0 +1,85 @@
+{
+  "forecast_date": "2026-05-03",
+  "window_start_local": "2026-05-03T06:00:00+02:00",
+  "window_end_local": "2026-05-04T06:00:00+02:00",
+  "window_start_utc": "2026-05-03T04:00:00+00:00",
+  "window_end_utc": "2026-05-04T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 4,
+  "report_count": 4,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-03T17:45:00.000Z\", s\"01KQT6A7ZTCV1V5SDEYHJTWN0R\" ]",
+      "lat": 54.1949,
+      "lon": 9.0928,
+      "type": "PRECIP",
+      "time": "2026-05-03T17:45:00.000Z",
+      "country": "DE",
+      "place": "Heide",
+      "description": null,
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "\"Heide von Unwetter getroffen: 15 Einsätze in kurzer Zeit\", NDR, 04 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-03T14:09:00.000Z\", s\"01KR41RJ1CE9HWK5PY4M3CAJ26\" ]",
+      "lat": 53.6298,
+      "lon": 7.5751,
+      "type": "HAIL",
+      "time": "2026-05-03T14:09:00.000Z",
+      "country": "DE",
+      "place": "Holtgast",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "EYEWTN",
+        "DMGEYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "\"Hagel sorgt für zahlreiche Schäden im Landkreis Wittmund \", NWZ ONLINE, 07 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-03T14:02:00.000Z\", s\"01KR41QGSJR4RCWTBRPEQTK58R\" ]",
+      "lat": 53.5773,
+      "lon": 7.5577,
+      "type": "HAIL",
+      "time": "2026-05-03T14:02:00.000Z",
+      "country": "DE",
+      "place": "Blomberg",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "EYEWTN",
+        "DMGEYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "\"Hagel sorgt für zahlreiche Schäden im Landkreis Wittmund \", NWZ ONLINE, 07 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-03T13:58:00.000Z\", s\"01KR41P8H3EY6NSRPP0W6G0CVK\" ]",
+      "lat": 53.5684,
+      "lon": 7.497,
+      "type": "HAIL",
+      "time": "2026-05-03T13:58:00.000Z",
+      "country": "DE",
+      "place": "Neuschoo",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "EYEWTN",
+        "DMGEYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "\"Hagel sorgt für zahlreiche Schäden im Landkreis Wittmund \", NWZ ONLINE, 07 MAY 2026"
+      ]
+    }
+  ]
+}

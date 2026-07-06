@@ -1,0 +1,97 @@
+{
+  "forecast_date": "2026-04-29",
+  "window_start_local": "2026-04-29T06:00:00+02:00",
+  "window_end_local": "2026-04-30T06:00:00+02:00",
+  "window_start_utc": "2026-04-29T04:00:00+00:00",
+  "window_end_utc": "2026-04-30T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 5,
+  "report_count": 5,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-04-30T03:45:00.000Z\", s\"01KQF3DMXPYJZS5K1HGN6MBDSX\" ]",
+      "lat": 44.2271,
+      "lon": 15.5455,
+      "type": "WIND",
+      "time": "2026-04-30T03:45:00.000Z",
+      "country": "HR",
+      "place": "Maslenica",
+      "description": "WS recorded a wind gust of 33,1 m/s",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Pljusak, date of access: 30 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-30T01:30:00.000Z\", s\"01KQF2X829XC8A6EX9JKG36AT1\" ]",
+      "lat": 45.215,
+      "lon": 14.5718,
+      "type": "WIND",
+      "time": "2026-04-30T01:30:00.000Z",
+      "country": "HR",
+      "place": "Omišalj",
+      "description": "WS recorded a wind gust of 27 m/s (+/- 0,5 m/s)",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Ogimet, date of access: 30 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-30T01:20:00.000Z\", s\"01KQF31KGNQRM651WAA8REY8YT\" ]",
+      "lat": 45.2402,
+      "lon": 14.6844,
+      "type": "WIND",
+      "time": "2026-04-30T01:20:00.000Z",
+      "country": "HR",
+      "place": "Drivenik",
+      "description": "WS recorded a wind gust of 29,2 m/s",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Pljusak, date of access: 30 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-30T00:15:00.000Z\", s\"01KQF340CMDDWXCMT3GSP923R9\" ]",
+      "lat": 44.4372,
+      "lon": 15.0371,
+      "type": "WIND",
+      "time": "2026-04-30T00:15:00.000Z",
+      "country": "HR",
+      "place": "Pag",
+      "description": "WS recorded a wind gust of 25 m/s",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Pljusak, date of access: 30 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-29T18:30:00.000Z\", s\"01KQF2T50SB7XQVDSCRVHPFNKV\" ]",
+      "lat": 44.9902,
+      "lon": 14.9021,
+      "type": "WIND",
+      "time": "2026-04-29T18:30:00.000Z",
+      "country": "HR",
+      "place": "Senj",
+      "description": "WS recorded a wind gust of 26 m/s (+/- 0,5 m/s)",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Ogimet, date of access: 30 APR 2026."
+      ]
+    }
+  ]
+}

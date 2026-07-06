@@ -1,0 +1,1084 @@
+{
+  "forecast_date": "2026-06-09",
+  "window_start_local": "2026-06-09T06:00:00+02:00",
+  "window_end_local": "2026-06-10T06:00:00+02:00",
+  "window_start_utc": "2026-06-09T04:00:00+00:00",
+  "window_end_utc": "2026-06-10T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 75,
+  "report_count": 75,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-06-09T20:34:00.000Z\", s\"01KTS84AWZF5S3VW5VPSBZJETM\" ]",
+      "lat": 46.283,
+      "lon": 15.78,
+      "type": "PRECIP",
+      "time": "2026-06-09T20:34:00.000Z",
+      "country": "SI",
+      "place": "Žetale",
+      "description": "PWS recorded a rain amount of 76,5 mm in 60 minutes. Multiple damage occurred in the municipality.",
+      "info_source": [
+        "WWW",
+        "WXSVC",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"VREMENSKA POSTAJA - IETALE9\", Wunderground, date of access: 10 JUN 2026.",
+        "\"Minister Vrtovec v Žetalah na ogledu posledic neurja\", Ptuj Info, 12 JUN 2026.",
+        "\"[FOTO] Janša napovedal hitro ukrepanje države po neurju : “Kdor pomaga hitro, pomaga dvojno”\", Nova 24TV, 11 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:50:00.000Z\", s\"01KTRHDE9BR5Y85AWCFD4FGWY4\" ]",
+      "lat": 45.8288,
+      "lon": 9.0166,
+      "type": "HAIL",
+      "time": "2026-06-09T19:50:00.000Z",
+      "country": "CH",
+      "place": "Chiasso",
+      "description": "Large hail up to at least 4-5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Eyewitness report via Corriere del Ticino (on Facebook), 09 JUN 2026.",
+        "\"Il maltempo si abbatte sul Mendrisiotto, il punto della situazione\", Corriere del Ticino, 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:50:00.000Z\", s\"01KTRGZ36DEKMSPZMJAG6EB0F1\" ]",
+      "lat": 45.8481,
+      "lon": 9.0078,
+      "type": "HAIL",
+      "time": "2026-06-09T19:50:00.000Z",
+      "country": "CH",
+      "place": "Balerna",
+      "description": "Very large hail up to at least 5,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Eyewitness report via Corriere del Ticino (on Facebook), 09 JUN 2026.",
+        "\"Il maltempo si abbatte sul Mendrisiotto, il punto della situazione\", Corriere del Ticino, 10 JUN 2026.",
+        "\"Intanto a Balerna questa mattina si spala... la grandine\", tio.ch, 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:50:00.000Z\", s\"01KTRGWFJ4595KFH4VT5D7RB2K\" ]",
+      "lat": 45.847,
+      "lon": 9.0364,
+      "type": "HAIL",
+      "time": "2026-06-09T19:50:00.000Z",
+      "country": "CH",
+      "place": "Vacallo",
+      "description": "Very large hail up to at least 5,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Eyewitness report via Corriere del Ticino (on Facebook), 09 JUN 2026.",
+        "\"Il maltempo si abbatte sul Mendrisiotto, il punto della situazione\", Corriere del Ticino, 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:49:00.000Z\", s\"01KTS81W2YW5Z9JCE5M0FC5Q3B\" ]",
+      "lat": 46.692,
+      "lon": 16.225,
+      "type": "PRECIP",
+      "time": "2026-06-09T19:49:00.000Z",
+      "country": "SI",
+      "place": "Moravske Toplice",
+      "description": "PWS recorded a rain amount of 25,9 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Vojko - IMORAV76\", Wunderground, date of access: 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:48:00.000Z\", s\"01KTRK0PA2WZRF6D4CZZ0QEND7\" ]",
+      "lat": 45.8272,
+      "lon": 8.9999,
+      "type": "HAIL",
+      "time": "2026-06-09T19:48:00.000Z",
+      "country": "CH",
+      "place": "Seseglio",
+      "description": "Very large hail up to at least 5,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via MeteoSvizzera (on Facebook), 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:47:00.000Z\", s\"01KTRJ7PBKVVQA5JQWFH1VJZEE\" ]",
+      "lat": 45.8615,
+      "lon": 9.0206,
+      "type": "HAIL",
+      "time": "2026-06-09T19:47:00.000Z",
+      "country": "CH",
+      "place": "Morbio Superiore",
+      "description": "Damage to roofs and cars by large hail was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "\"Il maltempo si abbatte sul Mendrisiotto, il punto della situazione\", Corriere del Ticino, 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:45:00.000Z\", s\"01KTRMVKN2F83FAGM0D3KAPR1W\" ]",
+      "lat": 45.8565,
+      "lon": 8.9919,
+      "type": "HAIL",
+      "time": "2026-06-09T19:45:00.000Z",
+      "country": "CH",
+      "place": "Villa",
+      "description": "Very large hail up to at least 5 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "tio.ch, 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:45:00.000Z\", s\"01KTRMM5HV9VCBQEFSABV2QCSJ\" ]",
+      "lat": 45.8428,
+      "lon": 8.9785,
+      "type": "HAIL",
+      "time": "2026-06-09T19:45:00.000Z",
+      "country": "CH",
+      "place": "Novazzano",
+      "description": "Very large hail up to at least 7 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "tio.ch, 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:45:00.000Z\", s\"01KTRJ6WTKNRC3ETWAQB52VDJS\" ]",
+      "lat": 45.8608,
+      "lon": 9.0086,
+      "type": "HAIL",
+      "time": "2026-06-09T19:45:00.000Z",
+      "country": "CH",
+      "place": "Castel San Pietro",
+      "description": "Damage to roofs and cars by very large hail up to at least 5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "\"Il maltempo si abbatte sul Mendrisiotto, il punto della situazione\", Corriere del Ticino, 10 JUN 2026.",
+        "tio.ch, 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:45:00.000Z\", s\"01KTRGKT4MTPVCVJWVWYGYV6NJ\" ]",
+      "lat": 45.8497,
+      "lon": 9.0215,
+      "type": "HAIL",
+      "time": "2026-06-09T19:45:00.000Z",
+      "country": "CH",
+      "place": "Morbio Inferiore",
+      "description": "Large hail up to at least 4 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Corriere del Ticino (on Facebook), 09 JUN 2026.",
+        "\"Il maltempo si abbatte sul Mendrisiotto, il punto della situazione\", Corriere del Ticino, 10 JUN 2026.",
+        "tio.ch, 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:42:00.000Z\", s\"01KTRJVNX66Z56MQ0RVQ239XA3\" ]",
+      "lat": 45.871,
+      "lon": 8.9875,
+      "type": "HAIL",
+      "time": "2026-06-09T19:42:00.000Z",
+      "country": "CH",
+      "place": "Mendrisio",
+      "description": "Very large hail up to at least 5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via MeteoSvizzera (on Facebook), 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:40:00.000Z\", s\"01KTRHQB80967WRWF73PQ0CGKY\" ]",
+      "lat": 45.8477,
+      "lon": 8.9329,
+      "type": "HAIL",
+      "time": "2026-06-09T19:40:00.000Z",
+      "country": "CH",
+      "place": "Stabio",
+      "description": "Large hail up to at least 3,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Corriere del Ticino (on Facebook), 09 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:40:00.000Z\", s\"01KTRGHQ3FXN892W085J7Z0H86\" ]",
+      "lat": 45.854,
+      "lon": 8.986,
+      "type": "HAIL",
+      "time": "2026-06-09T19:40:00.000Z",
+      "country": "CH",
+      "place": "Coldrerio",
+      "description": "Very large hail up to at least 6 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Corriere del Ticino (on Facebook), 09 JUN 2026.",
+        "\"Il maltempo si abbatte sul Mendrisiotto, il punto della situazione\", Corriere del Ticino, 10 JUN 2026.",
+        "tio.ch, 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:38:00.000Z\", s\"01KTRJR7BRKTVTXRZ358SR8PY9\" ]",
+      "lat": 45.8554,
+      "lon": 8.9604,
+      "type": "HAIL",
+      "time": "2026-06-09T19:38:00.000Z",
+      "country": "CH",
+      "place": "Genestrerio",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via MeteoSvizzera (on Facebook), 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:37:00.000Z\", s\"01KTRJMYF58W57FP895EAV3ZTH\" ]",
+      "lat": 45.8623,
+      "lon": 8.9525,
+      "type": "HAIL",
+      "time": "2026-06-09T19:37:00.000Z",
+      "country": "CH",
+      "place": "Ligornetto",
+      "description": "Very large hail up to at least 5,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via MeteoSvizzera (on Facebook), 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:35:00.000Z\", s\"01KTRNZDJRF8C9ZHPXK9ZSHX2G\" ]",
+      "lat": 45.8807,
+      "lon": 8.9566,
+      "type": "HAIL",
+      "time": "2026-06-09T19:35:00.000Z",
+      "country": "CH",
+      "place": "Tremona",
+      "description": "Large hail up to at least 3 cm i.d. was reported (at least two reports). The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN"
+      ],
+      "references": [
+        "Eyewitness report via \"Meteo Meldungen\", Meteo Schweiz, date of access: 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:35:00.000Z\", s\"01KTRNTJJYG8682CP5RB4BEQ79\" ]",
+      "lat": 45.8732,
+      "lon": 8.9531,
+      "type": "HAIL",
+      "time": "2026-06-09T19:35:00.000Z",
+      "country": "CH",
+      "place": "Besazio",
+      "description": "Large hail up to at least 3,5 cm i.d. was reported (photo verified). The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via \"Meteo Meldungen\", Meteo Schweiz, date of access: 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:32:00.000Z\", s\"01KTRPKX172G6QKA28FX7CJP98\" ]",
+      "lat": 45.8574,
+      "lon": 8.9366,
+      "type": "HAIL",
+      "time": "2026-06-09T19:32:00.000Z",
+      "country": "CH",
+      "place": "San Pietro",
+      "description": "Large hail up to at least 3 cm i.d. was reported. (at least three individual reports). The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN"
+      ],
+      "references": [
+        "Eyewitness report via \"Meteo Meldungen\", Meteo Schweiz, date of access: 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:29:00.000Z\", s\"01KTRPC3SJTZJSY40NX6HB6J3G\" ]",
+      "lat": 45.8706,
+      "lon": 8.9678,
+      "type": "HAIL",
+      "time": "2026-06-09T19:29:00.000Z",
+      "country": "CH",
+      "place": "Rancate",
+      "description": "Very large hail up to at least 5 cm i.d. was reported (photo verified). The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via \"Meteo Meldungen\", Meteo Schweiz, date of access: 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:28:00.000Z\", s\"01KTRNWTWGNKM5FQAZM42CAWVY\" ]",
+      "lat": 45.8753,
+      "lon": 8.9399,
+      "type": "HAIL",
+      "time": "2026-06-09T19:28:00.000Z",
+      "country": "CH",
+      "place": "Arzo",
+      "description": "Large hail up to at least 2 cm i.d. was reported. Multiple eyewitnesses reports. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN"
+      ],
+      "references": [
+        "Eyewitness report via \"Meteo Meldungen\", Meteo Schweiz, date of access: 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T19:26:00.000Z\", s\"01KTRNP6CJ2PB0ZCE9T4NQHAHP\" ]",
+      "lat": 45.8905,
+      "lon": 8.9534,
+      "type": "HAIL",
+      "time": "2026-06-09T19:26:00.000Z",
+      "country": "CH",
+      "place": "Meride",
+      "description": "Large hail up to at least 2 cm i.d. was reported (photo verified). The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via \"Meteo Meldungen\", Meteo Schweiz, date of access: 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T18:29:00.000Z\", s\"01KTRX7NEYEKBQGV8P9B07M70R\" ]",
+      "lat": 46.967,
+      "lon": 15.485,
+      "type": "PRECIP",
+      "time": "2026-06-09T18:29:00.000Z",
+      "country": "AT",
+      "place": "Kalsdorf bei Graz",
+      "description": "PWS recorded a rain amount of 56,9 mm in 90 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"BeniWeather - IKALSD4\", Wunderground, date of access: 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T18:24:00.000Z\", s\"01KTRXFQJSHK6AAKN6MNDYKZNR\" ]",
+      "lat": 46.945,
+      "lon": 15.445,
+      "type": "PRECIP",
+      "time": "2026-06-09T18:24:00.000Z",
+      "country": "AT",
+      "place": "Kasten",
+      "description": "PWS recorded a rain amount of 58,4 mm in 80 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Hauptstraße 153 - IWUNDS1\", Wunderground, date of access: 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T18:15:00.000Z\", s\"01KTXWF53E9Q2JF5N7JXG5TSC2\" ]",
+      "lat": 46.9737,
+      "lon": 15.4995,
+      "type": "PRECIP",
+      "time": "2026-06-09T18:15:00.000Z",
+      "country": "AT",
+      "place": "Fernitz",
+      "description": "fire department came into action",
+      "info_source": [
+        "NWSP",
+        "WWW"
+      ],
+      "references": [
+        "Starkregen führte zu lokalen Überflutungen, ORF Steiermark, 10 June 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T18:14:00.000Z\", s\"01KTRXBP652K6RSS7MCBWWBMFT\" ]",
+      "lat": 46.9292,
+      "lon": 15.4502,
+      "type": "PRECIP",
+      "time": "2026-06-09T18:14:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T17:59:00.000Z\", s\"01KTRQRNF6GWN2BQSS42GNBMTZ\" ]",
+      "lat": 47.004,
+      "lon": 15.491,
+      "type": "PRECIP",
+      "time": "2026-06-09T17:59:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T17:59:00.000Z\", s\"01KTRQNSQR0KFAVAW2TB3YTDS8\" ]",
+      "lat": 47.017,
+      "lon": 15.509,
+      "type": "PRECIP",
+      "time": "2026-06-09T17:59:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T17:49:00.000Z\", s\"01KTRR34SX6RF5P4GYFGFX5MHM\" ]",
+      "lat": 47.074,
+      "lon": 15.518,
+      "type": "PRECIP",
+      "time": "2026-06-09T17:49:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T17:44:00.000Z\", s\"01KTRQWYDXNNT6QTZAQFNQ4582\" ]",
+      "lat": 47.045,
+      "lon": 15.513,
+      "type": "PRECIP",
+      "time": "2026-06-09T17:44:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T17:39:00.000Z\", s\"01KTRXPRWXNQMN0Y2ZFMDR3XPT\" ]",
+      "lat": 46.954,
+      "lon": 15.405,
+      "type": "PRECIP",
+      "time": "2026-06-09T17:39:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T17:34:00.000Z\", s\"01KTRWXKYYM4PSKZ8XTVW27W4C\" ]",
+      "lat": 47.065,
+      "lon": 15.459,
+      "type": "PRECIP",
+      "time": "2026-06-09T17:34:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T17:32:00.000Z\", s\"01KVK067CF4EJJA2NQMSGT3D85\" ]",
+      "lat": 47.003572,
+      "lon": 15.447687,
+      "type": "LIGHTNING",
+      "time": "2026-06-09T17:32:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T17:32:00.000Z\", s\"01KVK01X47H8SG2GGC3FKQJM0W\" ]",
+      "lat": 73.7864,
+      "lon": 25.8579,
+      "type": "LIGHTNING",
+      "time": "2026-06-09T17:32:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T17:29:00.000Z\", s\"01KTRXK63TTZ71MXNTSPYYZTR1\" ]",
+      "lat": 46.933,
+      "lon": 15.358,
+      "type": "PRECIP",
+      "time": "2026-06-09T17:29:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T17:09:00.000Z\", s\"01KTRY371K0RSCWHJ0NHJJ8FBN\" ]",
+      "lat": 47.047,
+      "lon": 15.311,
+      "type": "PRECIP",
+      "time": "2026-06-09T17:09:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T17:09:00.000Z\", s\"01KTRXYYG2JXAD4QEYB69ZYVWW\" ]",
+      "lat": 47.062,
+      "lon": 15.314,
+      "type": "PRECIP",
+      "time": "2026-06-09T17:09:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T17:04:00.000Z\", s\"01KTS5B6SXX5M0AVC8QDT0CBBQ\" ]",
+      "lat": 47.047,
+      "lon": 15.228,
+      "type": "PRECIP",
+      "time": "2026-06-09T17:04:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T17:04:00.000Z\", s\"01KTS4XQJ8BX3HW5PM5GHRCXYQ\" ]",
+      "lat": 47.07,
+      "lon": 15.283,
+      "type": "PRECIP",
+      "time": "2026-06-09T17:04:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T17:04:00.000Z\", s\"01KTS4V863YNH9KD49KCZ10DQY\" ]",
+      "lat": 47.056,
+      "lon": 15.285,
+      "type": "PRECIP",
+      "time": "2026-06-09T17:04:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T17:00:00.000Z\", s\"01KTXVRJGYY2W3B9VQ856FXFDC\" ]",
+      "lat": 47.0387,
+      "lon": 15.3,
+      "type": "PRECIP",
+      "time": "2026-06-09T17:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T16:54:00.000Z\", s\"01KTS534N77R1F2EYWWN09771S\" ]",
+      "lat": 47.015,
+      "lon": 15.257,
+      "type": "PRECIP",
+      "time": "2026-06-09T16:54:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T16:54:00.000Z\", s\"01KTS50CY1A6HMVCMBRJ49BXG7\" ]",
+      "lat": 47.042,
+      "lon": 15.261,
+      "type": "PRECIP",
+      "time": "2026-06-09T16:54:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T16:49:00.000Z\", s\"01KTS579NXFZTEW9FP12E8GJNK\" ]",
+      "lat": 47.017,
+      "lon": 15.221,
+      "type": "PRECIP",
+      "time": "2026-06-09T16:49:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T16:49:00.000Z\", s\"01KTS557ESBRFJQPFCAM186XY0\" ]",
+      "lat": 47.005,
+      "lon": 15.256,
+      "type": "PRECIP",
+      "time": "2026-06-09T16:49:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T16:29:00.000Z\", s\"01KTS88843MKBX2HBZVWNGDPYH\" ]",
+      "lat": 49.539,
+      "lon": 18.35,
+      "type": "PRECIP",
+      "time": "2026-06-09T16:29:00.000Z",
+      "country": "CZ",
+      "place": "Čeladná",
+      "description": "PWS recorded a rain amount of 40,9 mm in 60 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"OK2MOO - IELADN21\", Wunderground, date of access: 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T16:25:00.000Z\", s\"01KTXJR7ABRJCVGHN5DRVX3GHM\" ]",
+      "lat": 53.66,
+      "lon": 7.05,
+      "type": "TORNADO",
+      "time": "2026-06-09T16:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T16:15:00.000Z\", s\"01KTXX5G1EFP3X9Y3TXE5Y544G\" ]",
+      "lat": 47.1031,
+      "lon": 14.3771,
+      "type": "PRECIP",
+      "time": "2026-06-09T16:15:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T16:14:00.000Z\", s\"01KTS86C5YTAWPNN7W77WXZJCQ\" ]",
+      "lat": 49.652,
+      "lon": 18.723,
+      "type": "PRECIP",
+      "time": "2026-06-09T16:14:00.000Z",
+      "country": "CZ",
+      "place": "Vendryně",
+      "description": "PWS recorded a rain amount of 25,4 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"PWS-E60C59 - IVENDR7\", Wunderground, date of access: 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T16:00:00.000Z\", s\"01KTXT5CPW5E6JXQSTFA8PGB4X\" ]",
+      "lat": 47.2263,
+      "lon": 14.8585,
+      "type": "PRECIP",
+      "time": "2026-06-09T16:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T15:59:00.000Z\", s\"01KTS5EW5QV6GR61ZETDQXKPP1\" ]",
+      "lat": 47.2178,
+      "lon": 14.7718,
+      "type": "PRECIP",
+      "time": "2026-06-09T15:59:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T15:57:00.000Z\", s\"01KTXTNS0K7M72S2BKPSWXZB0S\" ]",
+      "lat": 47.2138,
+      "lon": 14.8266,
+      "type": "PRECIP",
+      "time": "2026-06-09T15:57:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T15:55:00.000Z\", s\"01KTXT95BFJMTEXFWXDHAAYA1J\" ]",
+      "lat": 47.2471,
+      "lon": 14.845,
+      "type": "PRECIP",
+      "time": "2026-06-09T15:55:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T15:50:00.000Z\", s\"01KTXSX4ZZY9A91VB2X30TF367\" ]",
+      "lat": 47.2112,
+      "lon": 14.7854,
+      "type": "PRECIP",
+      "time": "2026-06-09T15:50:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T15:45:00.000Z\", s\"01KTXXCD0E2E5425HRFZB972F2\" ]",
+      "lat": 47.0922,
+      "lon": 14.1919,
+      "type": "PRECIP",
+      "time": "2026-06-09T15:45:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T15:39:00.000Z\", s\"01KTS8AF44030GG37693QPSYR7\" ]",
+      "lat": 49.431,
+      "lon": 18.206,
+      "type": "PRECIP",
+      "time": "2026-06-09T15:39:00.000Z",
+      "country": "CZ",
+      "place": "Hutisko-Solanec",
+      "description": "PWS recorded a rain amount of 33,5 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Hutisko-Solanec - IHUTIS1\", Wunderground, date of access: 10 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T15:24:00.000Z\", s\"01KTS7VB8438DJ5CP3026Z0J9D\" ]",
+      "lat": 48.775,
+      "lon": 17.274,
+      "type": "PRECIP",
+      "time": "2026-06-09T15:24:00.000Z",
+      "country": "SK",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T15:19:00.000Z\", s\"01KTS7MQHC3BVECXQQHBP1S8B2\" ]",
+      "lat": 48.745,
+      "lon": 17.307,
+      "type": "PRECIP",
+      "time": "2026-06-09T15:19:00.000Z",
+      "country": "SK",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T15:09:00.000Z\", s\"01KTS7RZTRM2SW5G1WAR9NQZTY\" ]",
+      "lat": 48.772,
+      "lon": 17.318,
+      "type": "PRECIP",
+      "time": "2026-06-09T15:09:00.000Z",
+      "country": "SK",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T14:44:00.000Z\", s\"01KTS8ERR98EDDGA78MAJ29QAD\" ]",
+      "lat": 48.819,
+      "lon": 18.15,
+      "type": "PRECIP",
+      "time": "2026-06-09T14:44:00.000Z",
+      "country": "SK",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T14:29:00.000Z\", s\"01KTS8D4KS1HGZY7P6248SGY72\" ]",
+      "lat": 49.109,
+      "lon": 18.251,
+      "type": "PRECIP",
+      "time": "2026-06-09T14:29:00.000Z",
+      "country": "SK",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T14:15:00.000Z\", s\"01KTS7MCKPR6GAGGXNW5XG31G9\" ]",
+      "lat": 48.2034,
+      "lon": 15.8103,
+      "type": "PRECIP",
+      "time": "2026-06-09T14:15:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T14:04:00.000Z\", s\"01KTS7X996BTWQ7RJY8K3C6XNR\" ]",
+      "lat": 48.435,
+      "lon": 17.168,
+      "type": "PRECIP",
+      "time": "2026-06-09T14:04:00.000Z",
+      "country": "SK",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T13:45:00.000Z\", s\"01KTS7XA7AZBX3B3QY5PSBEBC3\" ]",
+      "lat": 48.2004,
+      "lon": 15.8236,
+      "type": "PRECIP",
+      "time": "2026-06-09T13:45:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T13:17:00.000Z\", s\"01KTXDD86VG1N887MN278VE1HS\" ]",
+      "lat": 50.3814,
+      "lon": 20.2942,
+      "type": "WIND",
+      "time": "2026-06-09T13:17:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T13:16:00.000Z\", s\"01KTXDDHB49RFTQ1767HXC5K5Y\" ]",
+      "lat": 50.3795,
+      "lon": 20.2806,
+      "type": "WIND",
+      "time": "2026-06-09T13:16:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T13:15:00.000Z\", s\"01KTXDCMW4X10VNVXH4Z1VM1PP\" ]",
+      "lat": 50.3637,
+      "lon": 20.2333,
+      "type": "WIND",
+      "time": "2026-06-09T13:15:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T13:00:00.000Z\", s\"01KTPFJGXQCP43236CWS55HRAS\" ]",
+      "lat": 47.8373,
+      "lon": 15.9809,
+      "type": "PRECIP",
+      "time": "2026-06-09T13:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T12:34:00.000Z\", s\"01KTS6CP708RMVK0NSRN3G8PT8\" ]",
+      "lat": 47.8947,
+      "lon": 16.1058,
+      "type": "PRECIP",
+      "time": "2026-06-09T12:34:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T12:24:00.000Z\", s\"01KTS689QQPBG1393NWCDJ42KB\" ]",
+      "lat": 47.868,
+      "lon": 15.983,
+      "type": "PRECIP",
+      "time": "2026-06-09T12:24:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T12:19:00.000Z\", s\"01KTS5YVBXPTQS3FKJEGQ5258M\" ]",
+      "lat": 47.842,
+      "lon": 15.983,
+      "type": "PRECIP",
+      "time": "2026-06-09T12:19:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T12:04:00.000Z\", s\"01KTS6AZ580VBX432DXMJ20KHA\" ]",
+      "lat": 47.7984,
+      "lon": 15.9876,
+      "type": "PRECIP",
+      "time": "2026-06-09T12:04:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T12:00:00.000Z\", s\"01KTPFAQYH5RAX7RM2JYD6SVQ4\" ]",
+      "lat": 47.8768,
+      "lon": 15.8938,
+      "type": "PRECIP",
+      "time": "2026-06-09T12:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T11:54:00.000Z\", s\"01KTS5JDGPGQ7C1A7JT18BZQCF\" ]",
+      "lat": 47.796,
+      "lon": 15.819,
+      "type": "PRECIP",
+      "time": "2026-06-09T11:54:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-09T11:09:00.000Z\", s\"01KTS6F4DKEDQJQNKXS52KSXYH\" ]",
+      "lat": 47.8947,
+      "lon": 16.1058,
+      "type": "PRECIP",
+      "time": "2026-06-09T11:09:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    }
+  ]
+}

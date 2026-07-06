@@ -1,0 +1,209 @@
+{
+  "forecast_date": "2026-05-14",
+  "window_start_local": "2026-05-14T06:00:00+02:00",
+  "window_end_local": "2026-05-15T06:00:00+02:00",
+  "window_start_utc": "2026-05-14T04:00:00+00:00",
+  "window_end_utc": "2026-05-15T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 11,
+  "report_count": 11,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-14T19:45:00.000Z\", s\"01KRXVPV2MGCG8YG3DZFAM6JQR\" ]",
+      "lat": 45.9582,
+      "lon": 13.6475,
+      "type": "PRECIP",
+      "time": "2026-05-14T19:45:00.000Z",
+      "country": "SI",
+      "place": "Nova Gorica",
+      "description": "Local flooding was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Sodra in toča pobelili Goriško, voda zalila več enot novogoriškega vrtca\", Primorske Novice, 15 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-14T19:35:00.000Z\", s\"01KRNTN95DCZ9K84YS1XT9ZJ80\" ]",
+      "lat": 45.9582,
+      "lon": 13.6475,
+      "type": "HAIL",
+      "time": "2026-05-14T19:35:00.000Z",
+      "country": "SI",
+      "place": "Nova Gorica",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Meteoinfo Slovenija (on Facebook), 14 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-14T18:40:00.000Z\", s\"01KS07FH6P9NGN7KTPQDHKG5JE\" ]",
+      "lat": 45.944,
+      "lon": 13.785,
+      "type": "PRECIP",
+      "time": "2026-05-14T18:40:00.000Z",
+      "country": "SI",
+      "place": "Vitovlje",
+      "description": "PWS recorded a rain amount of 39,1 mm in 60 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Krnica (Vitovlje) - INOVAG26\", Wunderground, date of access: 19 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-14T18:40:00.000Z\", s\"01KRNSRY9KQAREJTQ5RYH14WCE\" ]",
+      "lat": 46.0506,
+      "lon": 13.9787,
+      "type": "HAIL",
+      "time": "2026-05-14T18:40:00.000Z",
+      "country": "SI",
+      "place": "Idrijske Krnice",
+      "description": "Hail cover thickness up to at least 3 cm was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 14 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-14T18:30:00.000Z\", s\"01KRNT2R0GQJENJX1EPDE0N9ZS\" ]",
+      "lat": 46.0319,
+      "lon": 13.9035,
+      "type": "HAIL",
+      "time": "2026-05-14T18:30:00.000Z",
+      "country": "SI",
+      "place": "Vojsko",
+      "description": "Hail cover thickness up to at least 5 cm was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 14 MAY 2026.",
+        "Eyewitness report via Meteoinfo Slovenija (on Facebook), 14 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-14T18:00:00.000Z\", s\"01KRNSK64HBGNV1VKVCEN196BV\" ]",
+      "lat": 45.9303,
+      "lon": 13.6399,
+      "type": "HAIL",
+      "time": "2026-05-14T18:00:00.000Z",
+      "country": "SI",
+      "place": "Šempeter pri Gorici",
+      "description": "Hail cover thickness up to at least 2 cm was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 14 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-14T17:20:00.000Z\", s\"01KRXVYFMNVZZRVJ9QWQXBCVAT\" ]",
+      "lat": 45.912,
+      "lon": 13.6354,
+      "type": "HAIL",
+      "time": "2026-05-14T17:20:00.000Z",
+      "country": "SI",
+      "place": "Vrtojba",
+      "description": "Significant damage to strawberry crops was reported in this area. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Sodra in toča pobelili Goriško, voda zalila več enot novogoriškega vrtca\", Primorske Novice, 15 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-14T17:20:00.000Z\", s\"01KRNSAWS8P1HBZBX5QCKF47PB\" ]",
+      "lat": 46.0292,
+      "lon": 13.8381,
+      "type": "HAIL",
+      "time": "2026-05-14T17:20:00.000Z",
+      "country": "SI",
+      "place": "Gorenja Trebuša",
+      "description": "Hail cover thickness up to at least 3 cm was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 14 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-14T15:51:00.000Z\", s\"01KRZR7XG6NMYP2X5NY3KYJCZC\" ]",
+      "lat": 53.3952,
+      "lon": 13.676,
+      "type": "LIGHTNING",
+      "time": "2026-05-14T15:51:00.000Z",
+      "country": "DE",
+      "place": "Kraatz",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "DMGPHOTO",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Nach Blitzeinschlag breiten sich Flammen im Dach eines Wohnhauses aus\", NORDKURIER, 15 MAY 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-14T15:25:00.000Z\", s\"01KRXZ970F8STRJBC6VNV2DVAG\" ]",
+      "lat": 50.8783,
+      "lon": 9.3088,
+      "type": "HAIL",
+      "time": "2026-05-14T15:25:00.000Z",
+      "country": "DE",
+      "place": "Riebelsdorf",
+      "description": "Large hail 2 cm. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observation. WarnWetter (operated by Deutscher Wetterdienst, DWD), 14 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-14T11:13:00.000Z\", s\"01KRZWB5HKWBFMJECN9QYXKGZA\" ]",
+      "lat": 50.9882,
+      "lon": 7.9567,
+      "type": "LIGHTNING",
+      "time": "2026-05-14T11:13:00.000Z",
+      "country": "DE",
+      "place": "Krombach",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WXSVC",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Krombach: Blitz schlägt in Wohnhaus ein und löst Dachstuhlbrand aus – Familie kommt mit Schrecken davon\", SIEGENER ZEITUNG, 14 MAY 2026",
+        "kachelmannwetter.com"
+      ]
+    }
+  ]
+}

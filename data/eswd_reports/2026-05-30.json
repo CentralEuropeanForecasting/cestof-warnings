@@ -1,0 +1,1062 @@
+{
+  "forecast_date": "2026-05-30",
+  "window_start_local": "2026-05-30T06:00:00+02:00",
+  "window_end_local": "2026-05-31T06:00:00+02:00",
+  "window_start_utc": "2026-05-30T04:00:00+00:00",
+  "window_end_utc": "2026-05-31T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 76,
+  "report_count": 76,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-31T03:41:00.000Z\", s\"01KT3ZYJBDV1CDJHPR7FHFSBKP\" ]",
+      "lat": 51.3772,
+      "lon": 7.2508,
+      "type": "LIGHTNING",
+      "time": "2026-05-31T03:41:00.000Z",
+      "country": "DE",
+      "place": "Spockhövel Am Berge",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WXSVC",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Gewitter in Sprockhövel: Blitz schlägt in Wohnhaus ein und sprengt Schornstein\", WAZ, 31 MAY 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-31T03:40:00.000Z\", s\"01KT400VXJKJ0VCX42ZE5RSQWW\" ]",
+      "lat": 51.3473,
+      "lon": 7.2626,
+      "type": "WIND",
+      "time": "2026-05-31T03:40:00.000Z",
+      "country": "DE",
+      "place": "Pöting",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Gewitter in Sprockhövel: Blitz schlägt in Wohnhaus ein und sprengt Schornstein\", WAZ, 31 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-31T02:54:00.000Z\", s\"01KSZ4M2G3TAF4RNPHQM2T42FA\" ]",
+      "lat": 51.0347,
+      "lon": 6.6903,
+      "type": "HAIL",
+      "time": "2026-05-31T02:54:00.000Z",
+      "country": "DE",
+      "place": "Eckum",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observaton. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 31 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-31T02:48:00.000Z\", s\"01KSZ40Y4RDD6ZV41AVHTYNYWP\" ]",
+      "lat": 51.2259,
+      "lon": 6.6316,
+      "type": "HAIL",
+      "time": "2026-05-31T02:48:00.000Z",
+      "country": "DE",
+      "place": "Kaarst",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observaton. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 31 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-31T02:40:00.000Z\", s\"01KSZ3ZY86T9XGM2B5DK27SYYB\" ]",
+      "lat": 51.2263,
+      "lon": 6.4932,
+      "type": "HAIL",
+      "time": "2026-05-31T02:40:00.000Z",
+      "country": "DE",
+      "place": "Neersbroich",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observaton. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 31 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-31T02:21:00.000Z\", s\"01KSZ3W8PYP5MC7WCTGSKJ1VYC\" ]",
+      "lat": 51.1728,
+      "lon": 6.4451,
+      "type": "HAIL",
+      "time": "2026-05-31T02:21:00.000Z",
+      "country": "DE",
+      "place": "Rheydt",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observaton. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 31 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-31T02:10:00.000Z\", s\"01KSZ3TFVMEAT79PDG7RNZKDYV\" ]",
+      "lat": 51.1298,
+      "lon": 6.3611,
+      "type": "HAIL",
+      "time": "2026-05-31T02:10:00.000Z",
+      "country": "DE",
+      "place": "Baum",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observaton. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 31 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-31T02:08:00.000Z\", s\"01KSZ3SHCM8ETRTN0RNNDE0JZY\" ]",
+      "lat": 51.1417,
+      "lon": 6.3368,
+      "type": "HAIL",
+      "time": "2026-05-31T02:08:00.000Z",
+      "country": "DE",
+      "place": "Merreter",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observaton. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 31 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-31T01:54:00.000Z\", s\"01KSZ3QMBRKCA6GDMYDC6BKYE9\" ]",
+      "lat": 51.0985,
+      "lon": 6.1909,
+      "type": "HAIL",
+      "time": "2026-05-31T01:54:00.000Z",
+      "country": "DE",
+      "place": "Myhl",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observaton. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 31 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T18:47:00.000Z\", s\"01KT3XJ73BFYFJR2AN5BSECW22\" ]",
+      "lat": 46.6628,
+      "lon": 15.3026,
+      "type": "WIND",
+      "time": "2026-05-30T18:47:00.000Z",
+      "country": "AT",
+      "place": "Sankt Pongratzen",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "NWSP"
+      ],
+      "references": [
+        "Unwetter in der Steiermark: Hunderte Feuerwehrkräfte stundenlang im Einsatz, 5MIN.AT, 31 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T18:37:00.000Z\", s\"01KT3XGAF0AJFKQAEAGCNR6D65\" ]",
+      "lat": 46.7564,
+      "lon": 15.297,
+      "type": "WIND",
+      "time": "2026-05-30T18:37:00.000Z",
+      "country": "AT",
+      "place": "Sankt Martin im Sulmtal",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "NWSP"
+      ],
+      "references": [
+        "Unwetter in der Steiermark: Hunderte Feuerwehrkräfte stundenlang im Einsatz, 5MIN.AT, 31 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T18:22:00.000Z\", s\"01KT3XMJMWQ3RD95WTEN49AV72\" ]",
+      "lat": 46.8763,
+      "lon": 15.2772,
+      "type": "WIND",
+      "time": "2026-05-30T18:22:00.000Z",
+      "country": "AT",
+      "place": "Graschuh",
+      "description": "a tree fell onto a car",
+      "info_source": [
+        "WWW",
+        "NWSP"
+      ],
+      "references": [
+        "Unwetter in der Steiermark: Hunderte Feuerwehrkräfte stundenlang im Einsatz, 5MIN.AT, 31 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T18:00:00.000Z\", s\"01KSZ0AY8C1W54EPTSX1BC5C4J\" ]",
+      "lat": 47.1365,
+      "lon": 14.8561,
+      "type": "WIND",
+      "time": "2026-05-30T18:00:00.000Z",
+      "country": "AT",
+      "place": "Kleinlobming",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "NWSP"
+      ],
+      "references": [
+        "Feuerwehren nach Unwetter gefordert, ORF Steiermark, 31 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T17:50:00.000Z\", s\"01KSZ0G1WGJW39MH0CGQ6BJRDZ\" ]",
+      "lat": 47.212,
+      "lon": 14.8242,
+      "type": "WIND",
+      "time": "2026-05-30T17:50:00.000Z",
+      "country": "AT",
+      "place": "Knittefeld",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "NWSP",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Feuerwehren nach Unwetter gefordert, ORF Steiermark, 31 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T17:50:00.000Z\", s\"01KSYZFXAYRJSEBQG956YJVQJG\" ]",
+      "lat": 47.2164,
+      "lon": 14.9129,
+      "type": "WIND",
+      "time": "2026-05-30T17:50:00.000Z",
+      "country": "AT",
+      "place": "Rachau",
+      "description": "village especially affected",
+      "info_source": [
+        "WWW",
+        "NWSP"
+      ],
+      "references": [
+        "Feuerwehren nach Unwetter gefordert, ORF Steiermark, 31 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T17:50:00.000Z\", s\"01KSYZFWNZ6YBBM6GEWEFWKCED\" ]",
+      "lat": 47.2164,
+      "lon": 14.9129,
+      "type": "WIND",
+      "time": "2026-05-30T17:50:00.000Z",
+      "country": "AT",
+      "place": "Rachau",
+      "description": "village especially affected",
+      "info_source": [
+        "WWW",
+        "NWSP"
+      ],
+      "references": [
+        "Feuerwehren nach Unwetter gefordert, ORF Steiermark, 31 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T17:45:00.000Z\", s\"01KSZ01BKDR0AVC4TEMBM8TWCS\" ]",
+      "lat": 47.2489,
+      "lon": 14.842,
+      "type": "WIND",
+      "time": "2026-05-30T17:45:00.000Z",
+      "country": "AT",
+      "place": "Kobenz",
+      "description": "village especially affected",
+      "info_source": [
+        "WWW",
+        "NWSP"
+      ],
+      "references": [
+        "Feuerwehren nach Unwetter gefordert, ORF Steiermark, 31 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T17:40:00.000Z\", s\"01KSZ032HABGKV6ZED8WGKYC54\" ]",
+      "lat": 47.2688,
+      "lon": 14.8605,
+      "type": "WIND",
+      "time": "2026-05-30T17:40:00.000Z",
+      "country": "AT",
+      "place": "Sankt Marein bei Knittelfeld",
+      "description": "village especially affected",
+      "info_source": [
+        "WWW",
+        "NWSP"
+      ],
+      "references": [
+        "Feuerwehren nach Unwetter gefordert, ORF Steiermark, 31 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T17:40:00.000Z\", s\"01KSYZXQXY4NKXGCZ5FP0EXN7E\" ]",
+      "lat": 47.2739,
+      "lon": 14.7919,
+      "type": "WIND",
+      "time": "2026-05-30T17:40:00.000Z",
+      "country": "AT",
+      "place": "Seckau",
+      "description": "village especially affected",
+      "info_source": [
+        "WWW",
+        "NWSP"
+      ],
+      "references": [
+        "Feuerwehren nach Unwetter gefordert, ORF Steiermark, 31 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T17:40:00.000Z\", s\"01KSYZVV948J2028PDPMNREJ9B\" ]",
+      "lat": 47.2732,
+      "lon": 14.9344,
+      "type": "WIND",
+      "time": "2026-05-30T17:40:00.000Z",
+      "country": "AT",
+      "place": "Preg",
+      "description": "village especially affected",
+      "info_source": [
+        "WWW",
+        "NWSP"
+      ],
+      "references": [
+        "Feuerwehren nach Unwetter gefordert, ORF Steiermark, 31 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T16:45:00.000Z\", s\"01KSX325K8FD1QXF1F71MFMX2B\" ]",
+      "lat": 47.72,
+      "lon": 14.326,
+      "type": "WIND",
+      "time": "2026-05-30T16:45:00.000Z",
+      "country": "AT",
+      "place": "Windischgarsten",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Ws. report reported by Geosphere Austria, 30 May 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T16:40:00.000Z\", s\"01KSX9YFAPER9D60E1KXBQ4A1Y\" ]",
+      "lat": 47.6998,
+      "lon": 14.1554,
+      "type": "WIND",
+      "time": "2026-05-30T16:40:00.000Z",
+      "country": "AT",
+      "place": "Hinterstoder",
+      "description": "multiple trees fell over roads",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes Feuerwehr Verband, 30 May 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T16:30:00.000Z\", s\"01KSX9WJB4WSZ7G6JZBC8QVW8T\" ]",
+      "lat": 47.8862,
+      "lon": 14.2573,
+      "type": "WIND",
+      "time": "2026-05-30T16:30:00.000Z",
+      "country": "AT",
+      "place": "Molln",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes Feuerwehr Verband, 30 May 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T16:15:00.000Z\", s\"01KSX9X1MWWC2C6FK61WNS1TXH\" ]",
+      "lat": 48.0253,
+      "lon": 14.0749,
+      "type": "WIND",
+      "time": "2026-05-30T16:15:00.000Z",
+      "country": "AT",
+      "place": "Ried im Traunkreis",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes Feuerwehr Verband, 30 May 2026.",
+        "Gewitterfront in Oberösterreich fordert zahlreiche Einsatzkräfte, Fotokerschi, 30 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T16:10:00.000Z\", s\"01KT4CN54VJ87DSE5GXH4N1Y5B\" ]",
+      "lat": 50.0666,
+      "lon": 18.2979,
+      "type": "WIND",
+      "time": "2026-05-30T16:10:00.000Z",
+      "country": "PL",
+      "place": "Pogrzebień",
+      "description": "Downed trees were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Olbrzymie zniszczenia na zachodzie Górnego Śląska\", ROW Info, 31 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T16:10:00.000Z\", s\"01KSYHAKVXBZ599RV2QDW664WJ\" ]",
+      "lat": 48.0703,
+      "lon": 14.0581,
+      "type": "WIND",
+      "time": "2026-05-30T16:10:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T16:07:00.000Z\", s\"01KT4CP2B9FJ86DWNGGVPHA63S\" ]",
+      "lat": 50.0716,
+      "lon": 18.3253,
+      "type": "WIND",
+      "time": "2026-05-30T16:07:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T16:00:00.000Z\", s\"01KSX9EERCYZFX039FQMDMWJ4E\" ]",
+      "lat": 48.1335,
+      "lon": 13.9427,
+      "type": "WIND",
+      "time": "2026-05-30T16:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T16:00:00.000Z\", s\"01KSX4S4SCMKJX6YCSYJ5CNPJ4\" ]",
+      "lat": 48.2673,
+      "lon": 14.902,
+      "type": "PRECIP",
+      "time": "2026-05-30T16:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T16:00:00.000Z\", s\"01KSX4HXSAXXV97Z5XXP82CJF1\" ]",
+      "lat": 48.2966,
+      "lon": 14.8414,
+      "type": "PRECIP",
+      "time": "2026-05-30T16:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T16:00:00.000Z\", s\"01KSX4ED0RW2EHFN0A0YBARDWC\" ]",
+      "lat": 48.2894,
+      "lon": 14.8492,
+      "type": "PRECIP",
+      "time": "2026-05-30T16:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T16:00:00.000Z\", s\"01KSX45WXYF4RV4ZK50R5WC0TG\" ]",
+      "lat": 48.2744,
+      "lon": 14.8627,
+      "type": "PRECIP",
+      "time": "2026-05-30T16:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T15:50:00.000Z\", s\"01KSX96PYJ9RKYHJFZGQF3RBJP\" ]",
+      "lat": 48.1851,
+      "lon": 13.9007,
+      "type": "WIND",
+      "time": "2026-05-30T15:50:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T15:45:00.000Z\", s\"01KT1E9PAASJVDVDRVSBJJY6DY\" ]",
+      "lat": 48.2403,
+      "lon": 14.641,
+      "type": "WIND",
+      "time": "2026-05-30T15:45:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T15:45:00.000Z\", s\"01KSX94PVTE6PKNA5HDT7H5PK0\" ]",
+      "lat": 48.2645,
+      "lon": 13.5257,
+      "type": "WIND",
+      "time": "2026-05-30T15:45:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T15:45:00.000Z\", s\"01KSX943K4RKGHYY1FA9NSE20R\" ]",
+      "lat": 48.2635,
+      "lon": 13.5747,
+      "type": "WIND",
+      "time": "2026-05-30T15:45:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T15:45:00.000Z\", s\"01KSX93AEFGFTTVSHKF77FRD1S\" ]",
+      "lat": 48.3165,
+      "lon": 13.5136,
+      "type": "WIND",
+      "time": "2026-05-30T15:45:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T15:45:00.000Z\", s\"01KSX37805WSY2MVG7A3P1X5AX\" ]",
+      "lat": 48.106,
+      "lon": 13.671,
+      "type": "WIND",
+      "time": "2026-05-30T15:45:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T15:34:00.000Z\", s\"01KT10ZW2EXPV7T55ZWASAE313\" ]",
+      "lat": 50.486,
+      "lon": 18.421,
+      "type": "PRECIP",
+      "time": "2026-05-30T15:34:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T15:30:00.000Z\", s\"01KSYK9KZC5R85E68WGN9AY6G0\" ]",
+      "lat": 48.4163,
+      "lon": 13.1504,
+      "type": "WIND",
+      "time": "2026-05-30T15:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T15:30:00.000Z\", s\"01KSYJW6SY6YDREMTRGREPMJCC\" ]",
+      "lat": 48.3954,
+      "lon": 13.3279,
+      "type": "WIND",
+      "time": "2026-05-30T15:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T15:30:00.000Z\", s\"01KSX7D50C212F1C4QJC1WTK95\" ]",
+      "lat": 48.2471,
+      "lon": 13.0335,
+      "type": "WIND",
+      "time": "2026-05-30T15:30:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T15:24:00.000Z\", s\"01KT10VM85V7DEH6TB7ASZGHF2\" ]",
+      "lat": 48.22,
+      "lon": 14.923,
+      "type": "PRECIP",
+      "time": "2026-05-30T15:24:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T15:23:00.000Z\", s\"01KT4C5CGR40VEM75WC24PH8W6\" ]",
+      "lat": 50.3836,
+      "lon": 18.477,
+      "type": "WIND",
+      "time": "2026-05-30T15:23:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T15:20:00.000Z\", s\"01KT4C74NQ8X49YVFKZ0JMBMND\" ]",
+      "lat": 50.4102,
+      "lon": 18.4045,
+      "type": "WIND",
+      "time": "2026-05-30T15:20:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T15:20:00.000Z\", s\"01KT47G22YEKYMBNH47BX3374P\" ]",
+      "lat": 50.4126,
+      "lon": 18.4298,
+      "type": "WIND",
+      "time": "2026-05-30T15:20:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T15:19:00.000Z\", s\"01KT10XG3PE0NSPQP8PD96K0K4\" ]",
+      "lat": 48.232,
+      "lon": 14.898,
+      "type": "PRECIP",
+      "time": "2026-05-30T15:19:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T15:16:00.000Z\", s\"01KSWXWR65R75GM3DFGNF88WCG\" ]",
+      "lat": 50.4632,
+      "lon": 18.3762,
+      "type": "TORNADO",
+      "time": "2026-05-30T15:16:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T15:12:00.000Z\", s\"01KT11RGB23NZNRWEJSNHVNG4Q\" ]",
+      "lat": 48.4555,
+      "lon": 12.334,
+      "type": "HAIL",
+      "time": "2026-05-30T15:12:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T15:10:00.000Z\", s\"01KSYK3EDVHXVPXX1ZTD44K9Y9\" ]",
+      "lat": 48.5296,
+      "lon": 13.3756,
+      "type": "WIND",
+      "time": "2026-05-30T15:10:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T14:50:00.000Z\", s\"01KT8XGG3A92Y6C5M91DEHB0QY\" ]",
+      "lat": 48.75,
+      "lon": 12.604,
+      "type": "PRECIP",
+      "time": "2026-05-30T14:50:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T14:44:00.000Z\", s\"01KT8XN02T31GEBRRNCG0DMQ2N\" ]",
+      "lat": 48.8043,
+      "lon": 12.6754,
+      "type": "HAIL",
+      "time": "2026-05-30T14:44:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T14:42:00.000Z\", s\"01KT8XMRKCR62NXR420BZMZZTH\" ]",
+      "lat": 48.8034,
+      "lon": 12.663,
+      "type": "HAIL",
+      "time": "2026-05-30T14:42:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T14:40:00.000Z\", s\"01KT8XM3DCM4MDR21AKA9HBP3A\" ]",
+      "lat": 48.8065,
+      "lon": 12.6421,
+      "type": "HAIL",
+      "time": "2026-05-30T14:40:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T14:40:00.000Z\", s\"01KT8XM0PN1RZMK8T3SYHNN4PH\" ]",
+      "lat": 48.8159,
+      "lon": 12.6398,
+      "type": "HAIL",
+      "time": "2026-05-30T14:40:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T14:37:00.000Z\", s\"01KT8XK8Y5MC8QKA19XZ0QA8X5\" ]",
+      "lat": 48.8132,
+      "lon": 12.6119,
+      "type": "HAIL",
+      "time": "2026-05-30T14:37:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T14:35:00.000Z\", s\"01KT8XJHKF8TF5PSNXC8H7SBSP\" ]",
+      "lat": 48.8173,
+      "lon": 12.5904,
+      "type": "HAIL",
+      "time": "2026-05-30T14:35:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T14:34:00.000Z\", s\"01KT8XJ4CP873R7K3DCFPA2JYK\" ]",
+      "lat": 48.8239,
+      "lon": 12.5701,
+      "type": "HAIL",
+      "time": "2026-05-30T14:34:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T14:32:00.000Z\", s\"01KT1EZDSAA8JHGCWS2ZN3D6E9\" ]",
+      "lat": 49.1525,
+      "lon": 12.9321,
+      "type": "LIGHTNING",
+      "time": "2026-05-30T14:32:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T14:30:00.000Z\", s\"01KSYKNNPMFG85RVWTB8C7MSW6\" ]",
+      "lat": 48.9019,
+      "lon": 12.6969,
+      "type": "WIND",
+      "time": "2026-05-30T14:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T14:28:00.000Z\", s\"01KT8XBWKQT15X1ZZYNKP44QG7\" ]",
+      "lat": 48.9177,
+      "lon": 12.6095,
+      "type": "HAIL",
+      "time": "2026-05-30T14:28:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T14:27:00.000Z\", s\"01KT8XAY9B7DK62TH94N4Q10DK\" ]",
+      "lat": 48.914,
+      "lon": 12.5971,
+      "type": "HAIL",
+      "time": "2026-05-30T14:27:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T14:25:00.000Z\", s\"01KT8XAG620QC9S80WGA0BBA5R\" ]",
+      "lat": 48.9019,
+      "lon": 12.5818,
+      "type": "HAIL",
+      "time": "2026-05-30T14:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T14:25:00.000Z\", s\"01KT8XA5S2X26DB8AHCEG9JQZK\" ]",
+      "lat": 48.9189,
+      "lon": 12.5777,
+      "type": "HAIL",
+      "time": "2026-05-30T14:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T14:25:00.000Z\", s\"01KT8X9PRXSTKCFQSYFRHGEYDS\" ]",
+      "lat": 48.9064,
+      "lon": 12.5619,
+      "type": "HAIL",
+      "time": "2026-05-30T14:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T14:25:00.000Z\", s\"01KT11KA32J48VJ8J8DTN7YY5K\" ]",
+      "lat": 48.9146,
+      "lon": 12.5634,
+      "type": "HAIL",
+      "time": "2026-05-30T14:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T14:15:00.000Z\", s\"01KT11HVPQ7CEPGPP067T950F6\" ]",
+      "lat": 48.9937,
+      "lon": 12.3487,
+      "type": "HAIL",
+      "time": "2026-05-30T14:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T14:11:00.000Z\", s\"01KT11FY6J431HPYJ371Q8NKZ9\" ]",
+      "lat": 48.9556,
+      "lon": 12.1296,
+      "type": "HAIL",
+      "time": "2026-05-30T14:11:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T13:47:00.000Z\", s\"01KT11DGPPSZ5VVS9K18DEY2HR\" ]",
+      "lat": 49.2478,
+      "lon": 12.1378,
+      "type": "HAIL",
+      "time": "2026-05-30T13:47:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T13:20:00.000Z\", s\"01KTXR54YS68SR3T5D017YFKH1\" ]",
+      "lat": 47.961,
+      "lon": 16.209,
+      "type": "WIND",
+      "time": "2026-05-30T13:20:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T12:35:00.000Z\", s\"01KT1VTGCF4R4Q73D0WJS22YQG\" ]",
+      "lat": 49.9446,
+      "lon": 11.5744,
+      "type": "WIND",
+      "time": "2026-05-30T12:35:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T12:25:00.000Z\", s\"01KTXQXD9S4181KAK63PXZS9RH\" ]",
+      "lat": 48.1955,
+      "lon": 15.627,
+      "type": "WIND",
+      "time": "2026-05-30T12:25:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T12:00:00.000Z\", s\"01KT11AW623ZHZERC7C2H4WC63\" ]",
+      "lat": 49.9635,
+      "lon": 10.9965,
+      "type": "HAIL",
+      "time": "2026-05-30T12:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T11:50:00.000Z\", s\"01KT1S72E4F7RQ9DZC8E7N80XW\" ]",
+      "lat": 50.0149,
+      "lon": 10.8894,
+      "type": "WIND",
+      "time": "2026-05-30T11:50:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T11:14:00.000Z\", s\"01KT1267353KYZWXHBJ1BNTW5E\" ]",
+      "lat": 50.2015,
+      "lon": 10.4312,
+      "type": "WIND",
+      "time": "2026-05-30T11:14:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-30T06:12:00.000Z\", s\"01KT1T3Q6PTD7YQH8H5AHQDM28\" ]",
+      "lat": 49.7818,
+      "lon": 10.5233,
+      "type": "LIGHTNING",
+      "time": "2026-05-30T06:12:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    }
+  ]
+}

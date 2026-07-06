@@ -1,0 +1,30 @@
+{
+  "forecast_date": "2026-04-11",
+  "window_start_local": "2026-04-11T06:00:00+02:00",
+  "window_end_local": "2026-04-12T06:00:00+02:00",
+  "window_start_utc": "2026-04-11T04:00:00+00:00",
+  "window_end_utc": "2026-04-12T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 1,
+  "report_count": 1,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-04-11T17:46:00.000Z\", s\"01KP2X2HC6500AQGMSQQWWCWPK\" ]",
+      "lat": 48.671,
+      "lon": 9.38,
+      "type": "LIGHTNING",
+      "time": "2026-04-11T17:46:00.000Z",
+      "country": "DE",
+      "place": "Wendlingen am Neckar",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Laube brennt nieder – War ein Blitzeinschlag schuld?\", STUTTGARTER ZEITUNG, 12 APR 2026",
+        "kachelmannwetter.com"
+      ]
+    }
+  ]
+}

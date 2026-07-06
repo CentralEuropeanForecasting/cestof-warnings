@@ -1,0 +1,186 @@
+{
+  "forecast_date": "2026-06-07",
+  "window_start_local": "2026-06-07T06:00:00+02:00",
+  "window_end_local": "2026-06-08T06:00:00+02:00",
+  "window_start_utc": "2026-06-07T04:00:00+00:00",
+  "window_end_utc": "2026-06-08T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 10,
+  "report_count": 10,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-06-07T19:45:00.000Z\", s\"01KTP2NFET03YRMK4AHJVSQG8C\" ]",
+      "lat": 46.7498,
+      "lon": 14.5316,
+      "type": "PRECIP",
+      "time": "2026-06-07T19:45:00.000Z",
+      "country": "AT",
+      "place": "Brückl",
+      "description": "multiple basements flooded and roads blocked/closed",
+      "info_source": [
+        "NWSP",
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Murenabgänge nach Unwetter: Bundesstraße bei Brückl verlegt, 5min.at, 8 June 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-07T13:15:00.000Z\", s\"01KTNZVPMKHV6MNQG0W9B71KKG\" ]",
+      "lat": 54.3361,
+      "lon": 17.6838,
+      "type": "LIGHTNING",
+      "time": "2026-06-07T13:15:00.000Z",
+      "country": "PL",
+      "place": "Rokity",
+      "description": "A lightning struck a tree causing damage. The time was based on Blitzortung lightning detection system.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP Rokity (on Facebook), 07 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-07T12:21:00.000Z\", s\"01KTNZZ2X9Y7TJF0N0R3RF5XZD\" ]",
+      "lat": 53.5036,
+      "lon": 17.1254,
+      "type": "LIGHTNING",
+      "time": "2026-06-07T12:21:00.000Z",
+      "country": "PL",
+      "place": "Łąkie",
+      "description": "A lightning struck an abandoned residential building causing fire and damage. The time was based on Blitzortung lightning detection system.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Piorun uderzył w dom w Łąkiem. Doszło do pożaru budynku\", PZL24, 08 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-07T11:25:00.000Z\", s\"01KTP07XP7ZF1DKCMDVX3PCET9\" ]",
+      "lat": 54.5453,
+      "lon": 16.9255,
+      "type": "WIND",
+      "time": "2026-06-07T11:25:00.000Z",
+      "country": "PL",
+      "place": "Charnowo",
+      "description": "A downed tree on a railway track was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Burza na Pomorzu. Drzewo spadło na tory\", RMF24, 07 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-07T11:00:00.000Z\", s\"01KTRRZ0P439BQ03WA0VHY23XJ\" ]",
+      "lat": 50.0780001,
+      "lon": 17.6921999,
+      "type": "PRECIP",
+      "time": "2026-06-07T11:00:00.000Z",
+      "country": "CZ",
+      "place": "Krnov",
+      "description": "torrential rain during thunderstorm | measured by CHMI rain gauge station ",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 10 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-07T10:45:00.000Z\", s\"01KTY7FS4GSJ226BKXK0285PE4\" ]",
+      "lat": 53.7081,
+      "lon": 18.9026,
+      "type": "HAIL",
+      "time": "2026-06-07T10:45:00.000Z",
+      "country": "PL",
+      "place": "Rozpędziny",
+      "description": "Significant damage to crops was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "\"Uprawy zniszczone w kilka minut. Rolnik nie mógł uwierzyć: „Jak po kosiarce bijakowej”\", Tygodnik Poradnik Rolniczy, 09 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-07T10:40:00.000Z\", s\"01KTY7F9NBXSCN67AV0W3RQRG8\" ]",
+      "lat": 53.6848,
+      "lon": 18.9004,
+      "type": "HAIL",
+      "time": "2026-06-07T10:40:00.000Z",
+      "country": "PL",
+      "place": "Białki",
+      "description": "Significant damage to crops was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "\"Uprawy zniszczone w kilka minut. Rolnik nie mógł uwierzyć: „Jak po kosiarce bijakowej”\", Tygodnik Poradnik Rolniczy, 09 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-07T10:39:00.000Z\", s\"01KTY7G22WS6A6FB67MM61NDTE\" ]",
+      "lat": 53.6778,
+      "lon": 18.8476,
+      "type": "HAIL",
+      "time": "2026-06-07T10:39:00.000Z",
+      "country": "PL",
+      "place": "Olszanica",
+      "description": "Significant damage to crops was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "\"Uprawy zniszczone w kilka minut. Rolnik nie mógł uwierzyć: „Jak po kosiarce bijakowej”\", Tygodnik Poradnik Rolniczy, 09 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-07T10:33:00.000Z\", s\"01KTY7GH4RSVBYQNGSHTB4ZE8J\" ]",
+      "lat": 53.6645,
+      "lon": 18.8728,
+      "type": "HAIL",
+      "time": "2026-06-07T10:33:00.000Z",
+      "country": "PL",
+      "place": "Sadlinki",
+      "description": "Significant damage to crops was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "\"Uprawy zniszczone w kilka minut. Rolnik nie mógł uwierzyć: „Jak po kosiarce bijakowej”\", Tygodnik Poradnik Rolniczy, 09 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-07T10:30:00.000Z\", s\"01KTJVRYJPTQ3Y3DHPXB7MB8FK\" ]",
+      "lat": 53.6645,
+      "lon": 18.8728,
+      "type": "HAIL",
+      "time": "2026-06-07T10:30:00.000Z",
+      "country": "PL",
+      "place": "Sadlinki",
+      "description": "Large hail up to at least 2 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Meteo Kwidzyn (on Facebook), 07 JUN 2026."
+      ]
+    }
+  ]
+}

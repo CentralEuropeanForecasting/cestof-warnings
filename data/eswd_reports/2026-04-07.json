@@ -1,0 +1,83 @@
+{
+  "forecast_date": "2026-04-07",
+  "window_start_local": "2026-04-07T06:00:00+02:00",
+  "window_end_local": "2026-04-08T06:00:00+02:00",
+  "window_start_utc": "2026-04-07T04:00:00+00:00",
+  "window_end_utc": "2026-04-08T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 4,
+  "report_count": 4,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-04-07T19:30:00.000Z\", s\"01KNMTG16Z725XQ3Y8JRJG07VB\" ]",
+      "lat": 48.9922,
+      "lon": 20.0836,
+      "type": "WIND",
+      "time": "2026-04-07T19:30:00.000Z",
+      "country": "SK",
+      "place": "Liptovská Teplička",
+      "description": "Road between Liptovská Teplička and Šuňava impassable due to the fallen trees.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "DMGPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Meteo Východ (on facebook), 7. APR 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-07T19:10:00.000Z\", s\"01KNPV44185JP5ATSBNBGTZZ9H\" ]",
+      "lat": 49.6834,
+      "lon": 21.4605,
+      "type": "WIND",
+      "time": "2026-04-07T19:10:00.000Z",
+      "country": "PL",
+      "place": "Dębowiec",
+      "description": "Downed trees were reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP KSRG Dębowiec (on Facebook), 08 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-07T19:05:00.000Z\", s\"01KNPV92WM8WQ5JVK6RWQG4QQP\" ]",
+      "lat": 49.7411,
+      "lon": 21.5042,
+      "type": "WIND",
+      "time": "2026-04-07T19:05:00.000Z",
+      "country": "PL",
+      "place": "Hankówka",
+      "description": "Damaged roof was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Jasło112 (on Facebook), 08 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-07T19:00:00.000Z\", s\"01KNPV5P250EQB1JTZ9E86ARKA\" ]",
+      "lat": 49.8019,
+      "lon": 21.3886,
+      "type": "WIND",
+      "time": "2026-04-07T19:00:00.000Z",
+      "country": "PL",
+      "place": "Strebikowa",
+      "description": "A downed birch tree was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP KSRG Brzyska (on Facebook), 07 APR 2026."
+      ]
+    }
+  ]
+}

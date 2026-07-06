@@ -1,0 +1,487 @@
+{
+  "forecast_date": "2026-04-25",
+  "window_start_local": "2026-04-25T06:00:00+02:00",
+  "window_end_local": "2026-04-26T06:00:00+02:00",
+  "window_start_utc": "2026-04-25T04:00:00+00:00",
+  "window_end_utc": "2026-04-26T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 30,
+  "report_count": 30,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-04-26T03:55:00.000Z\", s\"01KQANDTMDQ553S4SC5JCZ1WY4\" ]",
+      "lat": 50.4476,
+      "lon": 23.9731,
+      "type": "WIND",
+      "time": "2026-04-26T03:55:00.000Z",
+      "country": "PL",
+      "place": "Chłopiatyn",
+      "description": "Damaged roof was reported after a period of strong wind gusts. ",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"W całym regionie pracują strażacy z PSP i OSP. Walczą ze skutkami wichury, która od wczesnego ranka przechodzi przez nasz regon. Oto sytuacja w powiatach regionu (zdjęcia)\", Tygodnik Zamojski, 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T03:50:00.000Z\", s\"01KQANCQ0E62NES3FC2QPWHZJN\" ]",
+      "lat": 50.4998,
+      "lon": 24.0121,
+      "type": "WIND",
+      "time": "2026-04-26T03:50:00.000Z",
+      "country": "PL",
+      "place": "Hulcze",
+      "description": "Two damaged roofs were reported after a period of strong wind gusts. ",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"W całym regionie pracują strażacy z PSP i OSP. Walczą ze skutkami wichury, która od wczesnego ranka przechodzi przez nasz regon. Oto sytuacja w powiatach regionu (zdjęcia)\", Tygodnik Zamojski, 26 APR 2026.",
+        "OSP Hulcze (on Facebook), 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T03:40:00.000Z\", s\"01KR3ZR8WV80Q5P04556MRMADS\" ]",
+      "lat": 50.5563,
+      "lon": 24.0432,
+      "type": "WIND",
+      "time": "2026-04-26T03:40:00.000Z",
+      "country": "PL",
+      "place": "Oszczów",
+      "description": "Damaged roof was reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Powiat hrubieszowski: Zerwane dachy, zablokowane trasy. Wiatr wiał z niszczycielską siłą!\", Kronika Tygodnia, 28 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T03:40:00.000Z\", s\"01KQAN60XYCHZMD1ZM4JA24PHP\" ]",
+      "lat": 50.4242,
+      "lon": 23.6288,
+      "type": "WIND",
+      "time": "2026-04-26T03:40:00.000Z",
+      "country": "PL",
+      "place": "Jurów",
+      "description": "Damaged roof was reported after a period of strong wind gusts. ",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"W całym regionie pracują strażacy z PSP i OSP. Walczą ze skutkami wichury, która od wczesnego ranka przechodzi przez nasz regon. Oto sytuacja w powiatach regionu (zdjęcia)\", Tygodnik Zamojski, 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T03:40:00.000Z\", s\"01KQAMN4V9HJPFVGEKV03B4ATH\" ]",
+      "lat": 50.527,
+      "lon": 23.8439,
+      "type": "WIND",
+      "time": "2026-04-26T03:40:00.000Z",
+      "country": "PL",
+      "place": "Telatyn",
+      "description": "Damaged roof of an outbuilding was reported after a period of strong wind gusts. ",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"W całym regionie pracują strażacy z PSP i OSP. Walczą ze skutkami wichury, która od wczesnego ranka przechodzi przez nasz regon. Oto sytuacja w powiatach regionu (zdjęcia)\", Tygodnik Zamojski, 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T03:30:00.000Z\", s\"01KQAS7ZBRQB49GW815QG2QFWY\" ]",
+      "lat": 49.012,
+      "lon": 20.0472,
+      "type": "WIND",
+      "time": "2026-04-26T03:30:00.000Z",
+      "country": "SK",
+      "place": "Liptovská Teplička",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "EYEWTN"
+      ],
+      "references": [
+        "Dopravný servis - okres PP, KK, SN (on facebook), 28 APR 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T03:30:00.000Z\", s\"01KQAN1H77VW016EHQJVM5HX6Y\" ]",
+      "lat": 50.4469,
+      "lon": 23.4166,
+      "type": "WIND",
+      "time": "2026-04-26T03:30:00.000Z",
+      "country": "PL",
+      "place": "Tomaszów Lubelski",
+      "description": "Two damaged roofs were reported after a period of strong wind gusts. ",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"W całym regionie pracują strażacy z PSP i OSP. Walczą ze skutkami wichury, która od wczesnego ranka przechodzi przez nasz regon. Oto sytuacja w powiatach regionu (zdjęcia)\", Tygodnik Zamojski, 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T03:30:00.000Z\", s\"01KQAN024D0KN5X5AKRQSCYY88\" ]",
+      "lat": 50.5378,
+      "lon": 23.5487,
+      "type": "WIND",
+      "time": "2026-04-26T03:30:00.000Z",
+      "country": "PL",
+      "place": "Rachanie",
+      "description": "Damaged roofing was reported after a period of strong wind gusts. ",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"W całym regionie pracują strażacy z PSP i OSP. Walczą ze skutkami wichury, która od wczesnego ranka przechodzi przez nasz regon. Oto sytuacja w powiatach regionu (zdjęcia)\", Tygodnik Zamojski, 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T03:30:00.000Z\", s\"01KQAMZ88TBJZFBC6C7A3PM395\" ]",
+      "lat": 50.5297,
+      "lon": 23.5589,
+      "type": "WIND",
+      "time": "2026-04-26T03:30:00.000Z",
+      "country": "PL",
+      "place": "Józefówka",
+      "description": "Damaged roof was reported after a period of strong wind gusts. ",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"W całym regionie pracują strażacy z PSP i OSP. Walczą ze skutkami wichury, która od wczesnego ranka przechodzi przez nasz regon. Oto sytuacja w powiatach regionu (zdjęcia)\", Tygodnik Zamojski, 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T03:20:00.000Z\", s\"01KQANBFP590R69NJ5FKPMGKX7\" ]",
+      "lat": 50.6194,
+      "lon": 23.9606,
+      "type": "WIND",
+      "time": "2026-04-26T03:20:00.000Z",
+      "country": "PL",
+      "place": "Smoligów",
+      "description": "Damaged roof was reported after a period of strong wind gusts. ",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "GOV"
+      ],
+      "references": [
+        "\"W całym regionie pracują strażacy z PSP i OSP. Walczą ze skutkami wichury, która od wczesnego ranka przechodzi przez nasz regon. Oto sytuacja w powiatach regionu (zdjęcia)\", Tygodnik Zamojski, 26 APR 2026.",
+        "OSP Mircze (on Facebook), 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T03:00:00.000Z\", s\"01KR3ZP6ADGFZQEH5YE7VGF747\" ]",
+      "lat": 50.8047,
+      "lon": 23.8874,
+      "type": "WIND",
+      "time": "2026-04-26T03:00:00.000Z",
+      "country": "PL",
+      "place": "Hrubieszów",
+      "description": "Damaged roof was reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Powiat hrubieszowski: Zerwane dachy, zablokowane trasy. Wiatr wiał z niszczycielską siłą!\", Kronika Tygodnia, 28 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T03:00:00.000Z\", s\"01KQCWQSQC0YYMCNNQXCGA1G75\" ]",
+      "lat": 52.1861,
+      "lon": 20.1467,
+      "type": "WIND",
+      "time": "2026-04-26T03:00:00.000Z",
+      "country": "PL",
+      "place": "Stary Dębsk",
+      "description": "A downed tree was reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP Antoniew (on Facebook), 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T03:00:00.000Z\", s\"01KQANFVS20VQ7D4T2F458VPW4\" ]",
+      "lat": 50.7504,
+      "lon": 23.8519,
+      "type": "WIND",
+      "time": "2026-04-26T03:00:00.000Z",
+      "country": "PL",
+      "place": "Metelin",
+      "description": "A downed tree was reported after a period of strong wind gusts. ",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"W całym regionie pracują strażacy z PSP i OSP. Walczą ze skutkami wichury, która od wczesnego ranka przechodzi przez nasz regon. Oto sytuacja w powiatach regionu (zdjęcia)\", Tygodnik Zamojski, 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T03:00:00.000Z\", s\"01KQANEGQHKDT4B0ZPM1R83B7T\" ]",
+      "lat": 50.7568,
+      "lon": 23.894,
+      "type": "WIND",
+      "time": "2026-04-26T03:00:00.000Z",
+      "country": "PL",
+      "place": "Czerniczyn",
+      "description": "Damaged roof was reported after a period of strong wind gusts. ",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"W całym regionie pracują strażacy z PSP i OSP. Walczą ze skutkami wichury, która od wczesnego ranka przechodzi przez nasz regon. Oto sytuacja w powiatach regionu (zdjęcia)\", Tygodnik Zamojski, 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T03:00:00.000Z\", s\"01KQAN95HEBRFWACESVZH6DZN2\" ]",
+      "lat": 50.8394,
+      "lon": 23.9098,
+      "type": "WIND",
+      "time": "2026-04-26T03:00:00.000Z",
+      "country": "PL",
+      "place": "Dziekanów",
+      "description": "Damaged roof was reported after a period of strong wind gusts. ",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"W całym regionie pracują strażacy z PSP i OSP. Walczą ze skutkami wichury, która od wczesnego ranka przechodzi przez nasz regon. Oto sytuacja w powiatach regionu (zdjęcia)\", Tygodnik Zamojski, 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T02:50:00.000Z\", s\"01KQYRYGKVDXNSH9ETXNBEDFB0\" ]",
+      "lat": 50.8394,
+      "lon": 23.9098,
+      "type": "WIND",
+      "time": "2026-04-26T02:50:00.000Z",
+      "country": "PL",
+      "place": "Dziekanów",
+      "description": "Damaged roof and downed trees were reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP KSRG Dziekanów (on Facebook), 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T02:40:00.000Z\", s\"01KQ5GHWEN8YMMF5F7KN3Y3RPD\" ]",
+      "lat": 50.7116,
+      "lon": 23.178,
+      "type": "WIND",
+      "time": "2026-04-26T02:40:00.000Z",
+      "country": "PL",
+      "place": "Płoskie",
+      "description": "Damaged roof was reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Zerwane dachy w Płoskiem, Kawęczynie, Bortatyczach Kolonii, uszkodzona linia energetyczna w Złojcu, powalone drzewa w Zamościu i regionie. Strażacy uwijają się jak w ukropie. Wiatr może osiągać prędkość kilkudziesięciu km/h, uważajcie! (zdjęcia)\", Tygodnik Zamojski, 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T02:30:00.000Z\", s\"01KQAQSTHAJNGEQX57HSFYB39E\" ]",
+      "lat": 50.7984,
+      "lon": 23.1748,
+      "type": "WIND",
+      "time": "2026-04-26T02:30:00.000Z",
+      "country": "PL",
+      "place": "Chomęciska Duże",
+      "description": "Downed trees were reported after a period of strong wind gusts. ",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"W całym regionie pracują strażacy z PSP i OSP. Walczą ze skutkami wichury, która od wczesnego ranka przechodzi przez nasz regon. Oto sytuacja w powiatach regionu (zdjęcia)\", Tygodnik Zamojski, 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T02:30:00.000Z\", s\"01KQ5GK4FWK4GXAS34NZEMWX0W\" ]",
+      "lat": 50.7519,
+      "lon": 23.1833,
+      "type": "WIND",
+      "time": "2026-04-26T02:30:00.000Z",
+      "country": "PL",
+      "place": "Bortatycze-Kolonia",
+      "description": "Damaged roof was reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Zerwane dachy w Płoskiem, Kawęczynie, Bortatyczach Kolonii, uszkodzona linia energetyczna w Złojcu, powalone drzewa w Zamościu i regionie. Strażacy uwijają się jak w ukropie. Wiatr może osiągać prędkość kilkudziesięciu km/h, uważajcie! (zdjęcia)\", Tygodnik Zamojski, 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T02:30:00.000Z\", s\"01KQ5GJBNBRE1WPNT8F1D8Q88D\" ]",
+      "lat": 50.6761,
+      "lon": 22.9467,
+      "type": "WIND",
+      "time": "2026-04-26T02:30:00.000Z",
+      "country": "PL",
+      "place": "Kawęczyn",
+      "description": "Damaged roof was reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Zerwane dachy w Płoskiem, Kawęczynie, Bortatyczach Kolonii, uszkodzona linia energetyczna w Złojcu, powalone drzewa w Zamościu i regionie. Strażacy uwijają się jak w ukropie. Wiatr może osiągać prędkość kilkudziesięciu km/h, uważajcie! (zdjęcia)\", Tygodnik Zamojski, 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T02:20:00.000Z\", s\"01KQ5GS8ZHJMJE9J1QSZFBAZDQ\" ]",
+      "lat": 50.7984,
+      "lon": 23.1748,
+      "type": "WIND",
+      "time": "2026-04-26T02:20:00.000Z",
+      "country": "PL",
+      "place": "Chomęciska Duże",
+      "description": "A downed tree was reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Zerwane dachy w Płoskiem, Kawęczynie, Bortatyczach Kolonii, uszkodzona linia energetyczna w Złojcu, powalone drzewa w Zamościu i regionie. Strażacy uwijają się jak w ukropie. Wiatr może osiągać prędkość kilkudziesięciu km/h, uważajcie! (zdjęcia)\", Tygodnik Zamojski, 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T02:15:00.000Z\", s\"01KQ5GRBZWHX2R1CC5NTQM044J\" ]",
+      "lat": 50.7781,
+      "lon": 22.922,
+      "type": "WIND",
+      "time": "2026-04-26T02:15:00.000Z",
+      "country": "PL",
+      "place": "Tworyczów",
+      "description": "A downed tree was reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Zerwane dachy w Płoskiem, Kawęczynie, Bortatyczach Kolonii, uszkodzona linia energetyczna w Złojcu, powalone drzewa w Zamościu i regionie. Strażacy uwijają się jak w ukropie. Wiatr może osiągać prędkość kilkudziesięciu km/h, uważajcie! (zdjęcia)\", Tygodnik Zamojski, 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T02:15:00.000Z\", s\"01KQ5GR1PE4HVXWKMZJCR4VZPF\" ]",
+      "lat": 50.7468,
+      "lon": 22.8637,
+      "type": "WIND",
+      "time": "2026-04-26T02:15:00.000Z",
+      "country": "PL",
+      "place": "Mokrelipie",
+      "description": "A downed tree was reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Zerwane dachy w Płoskiem, Kawęczynie, Bortatyczach Kolonii, uszkodzona linia energetyczna w Złojcu, powalone drzewa w Zamościu i regionie. Strażacy uwijają się jak w ukropie. Wiatr może osiągać prędkość kilkudziesięciu km/h, uważajcie! (zdjęcia)\", Tygodnik Zamojski, 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T02:07:00.000Z\", s\"01KQ5AZE19AYM9DF4FQT50JKMX\" ]",
+      "lat": 52.4727,
+      "lon": 21.8718,
+      "type": "WIND",
+      "time": "2026-04-26T02:07:00.000Z",
+      "country": "PL",
+      "place": "Paplin",
+      "description": "A downed tree was reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP Grygrów (on Facebook), 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T02:00:00.000Z\", s\"01KQAQR7Y334VR91WMKW2Q980B\" ]",
+      "lat": 50.983,
+      "lon": 23.1698,
+      "type": "WIND",
+      "time": "2026-04-26T02:00:00.000Z",
+      "country": "PL",
+      "place": "Krasnystaw",
+      "description": "Downed trees were reported after a period of strong wind gusts. ",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"W całym regionie pracują strażacy z PSP i OSP. Walczą ze skutkami wichury, która od wczesnego ranka przechodzi przez nasz regon. Oto sytuacja w powiatach regionu (zdjęcia)\", Tygodnik Zamojski, 26 APR 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T01:45:00.000Z\", s\"01KQ5A0S1E6VSJGM16ASX6MN29\" ]",
+      "lat": 50.8791,
+      "lon": 22.3746,
+      "type": "WIND",
+      "time": "2026-04-26T01:45:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T00:25:00.000Z\", s\"01KQ5BSJHCNEFJHZ5XMW3AZEV4\" ]",
+      "lat": 53.9192,
+      "lon": 20.0775,
+      "type": "WIND",
+      "time": "2026-04-26T00:25:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-26T00:00:00.000Z\", s\"01KQ5A9NPYJQJBXDV8K51PHBX7\" ]",
+      "lat": 53.4732,
+      "lon": 20.6483,
+      "type": "WIND",
+      "time": "2026-04-26T00:00:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-25T22:37:00.000Z\", s\"01KQ5BTW1A2C9W04EJWS3D0QPG\" ]",
+      "lat": 53.9652,
+      "lon": 19.2944,
+      "type": "WIND",
+      "time": "2026-04-25T22:37:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-04-25T19:15:00.000Z\", s\"01KQ39P69TVDFA59FQ1419WMSM\" ]",
+      "lat": 54.4333344,
+      "lon": 16.3683338,
+      "type": "WIND",
+      "time": "2026-04-25T19:15:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    }
+  ]
+}

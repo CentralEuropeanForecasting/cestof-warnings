@@ -1,0 +1,191 @@
+{
+  "forecast_date": "2026-06-01",
+  "window_start_local": "2026-06-01T06:00:00+02:00",
+  "window_end_local": "2026-06-02T06:00:00+02:00",
+  "window_start_utc": "2026-06-01T04:00:00+00:00",
+  "window_end_utc": "2026-06-02T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 10,
+  "report_count": 10,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-06-01T15:14:00.000Z\", s\"01KT4A2BRFBQ5NGMVZMRGCW80J\" ]",
+      "lat": 45.745,
+      "lon": 15.182,
+      "type": "PRECIP",
+      "time": "2026-06-01T15:14:00.000Z",
+      "country": "SI",
+      "place": "Jurna vas",
+      "description": "PWS recorded a rain amount of 41,9 mm in 50 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Gogen me3900 - INOVOM24\", Wunderground, date of access: 02 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-01T13:45:00.000Z\", s\"01KT46R2YYW56B8X1AQ48358N6\" ]",
+      "lat": 46.5839,
+      "lon": 15.919,
+      "type": "HAIL",
+      "time": "2026-06-01T13:45:00.000Z",
+      "country": "SI",
+      "place": "Osek",
+      "description": "Hailstorm damaged crops in this area. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "\"ARSO je opozarjal, nato se je nebo odprlo: Toča znova udarila po Sloveniji (FOTO)\", Nadlani, 01 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-01T13:09:00.000Z\", s\"01KT4A4R2VY6WASRVFG4BVAZA1\" ]",
+      "lat": 45.653,
+      "lon": 14.087,
+      "type": "PRECIP",
+      "time": "2026-06-01T13:09:00.000Z",
+      "country": "SI",
+      "place": "Buje",
+      "description": "PWS recorded a rain amount of 28,7 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Buje - IPIVKA4\", Wunderground, date of access: 02 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-01T12:35:00.000Z\", s\"01KT462SZGEACCZ8A8DKXRX3YX\" ]",
+      "lat": 46.2168,
+      "lon": 15.3938,
+      "type": "HAIL",
+      "time": "2026-06-01T12:35:00.000Z",
+      "country": "SI",
+      "place": "Šentjur",
+      "description": "Large hail up to at least 4 cm in the longest diameter was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 01 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-01T12:34:00.000Z\", s\"01KT4ADFCHER0CB2WAHRKT8SVJ\" ]",
+      "lat": 45.883,
+      "lon": 13.852,
+      "type": "PRECIP",
+      "time": "2026-06-01T12:34:00.000Z",
+      "country": "SI",
+      "place": "Buje",
+      "description": "PWS recorded a rain amount of 32,8 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Velike Žablje, Slovenija - I001VELI2\", Wunderground, date of access: 02 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-01T12:34:00.000Z\", s\"01KT4A6RQYRYJRC7ATJ8BMF1DW\" ]",
+      "lat": 45.883,
+      "lon": 13.847,
+      "type": "PRECIP",
+      "time": "2026-06-01T12:34:00.000Z",
+      "country": "SI",
+      "place": "Buje",
+      "description": "PWS recorded a rain amount of 36,3 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"vremenska postaja dobravlje - IAJDOV41\", Wunderground, date of access: 02 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-01T12:25:00.000Z\", s\"01KT45ZZ27JS763NGQAX5Y72K2\" ]",
+      "lat": 45.7702,
+      "lon": 13.9265,
+      "type": "HAIL",
+      "time": "2026-06-01T12:25:00.000Z",
+      "country": "SI",
+      "place": "Sela",
+      "description": "Large hail up to at least 2 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 01 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-01T12:10:00.000Z\", s\"01KT46HCARBXRCGWB3HC0EZSXF\" ]",
+      "lat": 46.5667,
+      "lon": 15.9434,
+      "type": "HAIL",
+      "time": "2026-06-01T12:10:00.000Z",
+      "country": "SI",
+      "place": "Cerkvenjak",
+      "description": "Hailstorm damaged crops in this area. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 01 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-01T12:10:00.000Z\", s\"01KT464RJG2CCNYWN1SYBK9JTV\" ]",
+      "lat": 46.8168,
+      "lon": 16.1247,
+      "type": "HAIL",
+      "time": "2026-06-01T12:10:00.000Z",
+      "country": "SI",
+      "place": "Vidonci",
+      "description": "Large hail up to at least 3,5 cm in the longest diameter was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 01 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-01T10:06:00.000Z\", s\"01KT65AR1YPBKNRT5GR12DR4QB\" ]",
+      "lat": 47.5803,
+      "lon": 12.545,
+      "type": "LIGHTNING",
+      "time": "2026-06-01T10:06:00.000Z",
+      "country": "AT",
+      "place": "Waidring",
+      "description": "Wild fire / Forest fire",
+      "info_source": [
+        "NWSP",
+        "DMGPHOTO",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Waldbrand in Waidring nach vermutetem Blitzschlag rasch gelöscht\", KITZBÜHLER ANZEIGER, 02 JUN 2026",
+        "kachelmannwetter.com"
+      ]
+    }
+  ]
+}

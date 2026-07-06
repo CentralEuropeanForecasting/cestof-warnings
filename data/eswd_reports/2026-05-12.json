@@ -1,0 +1,666 @@
+{
+  "forecast_date": "2026-05-12",
+  "window_start_local": "2026-05-12T06:00:00+02:00",
+  "window_end_local": "2026-05-13T06:00:00+02:00",
+  "window_start_utc": "2026-05-12T04:00:00+00:00",
+  "window_end_utc": "2026-05-13T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 43,
+  "report_count": 43,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-12T15:05:00.000Z\", s\"01KRG4TM87H03DWRPE20Y18TP3\" ]",
+      "lat": 52.3826,
+      "lon": 13.3461,
+      "type": "HAIL",
+      "time": "2026-05-12T15:05:00.000Z",
+      "country": "DE",
+      "place": "Friederikenhof",
+      "description": "Large hai 2 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observation. WarnWetter (operated by Deutscher Wetterdienst, DWD), 12 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T12:39:00.000Z\", s\"01KRG4DKXN5V5BZV41THWXBASV\" ]",
+      "lat": 48.084,
+      "lon": 12.998,
+      "type": "PRECIP",
+      "time": "2026-05-12T12:39:00.000Z",
+      "country": "AT",
+      "place": "Eggelsberg",
+      "description": "PWS recorded a rain amount of 31 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"TrumlingWeatherStation - IEGGEL3\", Wunderground, date of access: 13 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T12:30:00.000Z\", s\"01KSSYJKDZT53HS8PK5Q0VN6J3\" ]",
+      "lat": 45.8272,
+      "lon": 16.11,
+      "type": "HAIL",
+      "time": "2026-05-12T12:30:00.000Z",
+      "country": "HR",
+      "place": "Sesvete",
+      "description": "Small hail created a layer of ice more than 2 cm thick.",
+      "info_source": [
+        "WWW",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Net.hr (on Facebook), 12 May 2026",
+        "Zagreb info (on Youtube), 12 May 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T11:25:00.000Z\", s\"01KRGBMQGPT7EY47S5DZDS74DB\" ]",
+      "lat": 45.5141,
+      "lon": 16.6122,
+      "type": "WIND",
+      "time": "2026-05-12T11:25:00.000Z",
+      "country": "HR",
+      "place": "Osekovo",
+      "description": "A downed tree on a power line was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\" Udar zime u svibnju: Kiša, tuča i olujni vjetar, na Plitvicama i Velebitu snijeg\", HRT, 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T11:15:00.000Z\", s\"01KRG9A5QSDWAM1H5V5VMCT40K\" ]",
+      "lat": 45.3687,
+      "lon": 16.5662,
+      "type": "WIND",
+      "time": "2026-05-12T11:15:00.000Z",
+      "country": "HR",
+      "place": "Sunja",
+      "description": "Downed trees and damaged power lines were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Općina Sunja (on Facebook), 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T11:15:00.000Z\", s\"01KREP3EABHKQ6VSJ7AQ7SXZ82\" ]",
+      "lat": 45.4831,
+      "lon": 16.7756,
+      "type": "WIND",
+      "time": "2026-05-12T11:15:00.000Z",
+      "country": "HR",
+      "place": "Kutina",
+      "description": "Damaged roof was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Eyewitness report via Neverin (on Facebook), 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T11:10:00.000Z\", s\"01KRG964CV0JY7EFX5DV0YFGNT\" ]",
+      "lat": 45.5276,
+      "lon": 16.5374,
+      "type": "WIND",
+      "time": "2026-05-12T11:10:00.000Z",
+      "country": "HR",
+      "place": "Stružec",
+      "description": "Downed trees and damaged roofs were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "GOV"
+      ],
+      "references": [
+        "Vatrogasna postrojba DVD Stružec (on Facebook), 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T11:08:00.000Z\", s\"01KRENZ52YRH7WT4TEBEHH9D77\" ]",
+      "lat": 45.6468,
+      "lon": 16.5954,
+      "type": "HAIL",
+      "time": "2026-05-12T11:08:00.000Z",
+      "country": "HR",
+      "place": "Velika Ludina",
+      "description": "Large hail up to at least 3 cm i.d. with hail cover up to at least 4 cm in thickness (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neverin (on Facebook), 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T11:05:00.000Z\", s\"01KRJZ3JBHHTNRXR9N6AMPH1CN\" ]",
+      "lat": 45.2714,
+      "lon": 16.9105,
+      "type": "WIND",
+      "time": "2026-05-12T11:05:00.000Z",
+      "country": "HR",
+      "place": "Jasenovac",
+      "description": "Considerable wind damage (downed trees, damaged buildings) was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Nikolina Srnčević - načelnica Općine Jasenovac (on Facebook), 13 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T11:05:00.000Z\", s\"01KRJZ35Z8CD9MMMVVX6YRBR1T\" ]",
+      "lat": 45.557,
+      "lon": 16.5729,
+      "type": "WIND",
+      "time": "2026-05-12T11:05:00.000Z",
+      "country": "HR",
+      "place": "Potok",
+      "description": "Considerable wind damage (downed trees, damaged roofs) was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Vatrogasna postrojba DVD Stružec (on Facebook), 13 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T11:05:00.000Z\", s\"01KREPZ6AKZ1D0VRFFW7TQ9NY9\" ]",
+      "lat": 45.571,
+      "lon": 16.6271,
+      "type": "WIND",
+      "time": "2026-05-12T11:05:00.000Z",
+      "country": "HR",
+      "place": "Popovača",
+      "description": "Downed trees and damaged roofs were reported. The time was based on radar data and local PWS data.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Vatrogasna postrojba DVD Stružec (on Facebook), 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T11:03:00.000Z\", s\"01KRK003BB6XJS1JJHFQGQMYWQ\" ]",
+      "lat": 45.5652,
+      "lon": 16.5,
+      "type": "HAIL",
+      "time": "2026-05-12T11:03:00.000Z",
+      "country": "HR",
+      "place": "Okoli",
+      "description": "Significant damage to crops was reported after the passage of a hailstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "\"OVO SE NE PAMTI / Katastrofa u središnjoj Hrvatskoj, sve im je uništeno: 'Plače i sin i majka i kćer'\", Danas,.hr, 13 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T11:03:00.000Z\", s\"01KRJZ24JEND5WZAPGXAAXC9KG\" ]",
+      "lat": 45.5483,
+      "lon": 16.5445,
+      "type": "WIND",
+      "time": "2026-05-12T11:03:00.000Z",
+      "country": "HR",
+      "place": "Donja Jelenska",
+      "description": "Considerable wind damage (downed trees, damaged roofs) was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Vatrogasna postrojba DVD Stružec (on Facebook), 13 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T11:00:00.000Z\", s\"01KRG93A5T5T65Y3JGPTART2R5\" ]",
+      "lat": 45.4892,
+      "lon": 16.3746,
+      "type": "WIND",
+      "time": "2026-05-12T11:00:00.000Z",
+      "country": "HR",
+      "place": "Sisak",
+      "description": "Downed trees and damaged roofs were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Domagoj Orlić (on Facebook), 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T10:53:00.000Z\", s\"01KRGE85M758X4ZFC08NY6XH3V\" ]",
+      "lat": 46.6539,
+      "lon": 16.7705,
+      "type": "LIGHTNING",
+      "time": "2026-05-12T10:53:00.000Z",
+      "country": "HU",
+      "place": "Rádiháza",
+      "description": "Trees almost destroyed by lightning impact. Upper part of the tree crown and a substantical part of the trunk smashed",
+      "info_source": [
+        "NWSP",
+        "DMGPHOTO",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Hatalmas csattanás rémisztette meg a zalai falut \", ZAOL, 12 MAY 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T10:45:00.000Z\", s\"01KRGP0N1KYZA4MJGD4VRPZB25\" ]",
+      "lat": 46.6539,
+      "lon": 16.7705,
+      "type": "LIGHTNING",
+      "time": "2026-05-12T10:45:00.000Z",
+      "country": "HU",
+      "place": "Rádiháza",
+      "description": "A lightning struck a tree causing damage. ",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Hatalmas csattanás rémisztette meg a zalai falut\", ZAOL, 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T10:35:00.000Z\", s\"01KRG8PSAZS55N9GE4PSDXJB81\" ]",
+      "lat": 45.2136,
+      "lon": 16.6798,
+      "type": "WIND",
+      "time": "2026-05-12T10:35:00.000Z",
+      "country": "HR",
+      "place": "Slabinja",
+      "description": "Damaged roof was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Dvd Hrv Dubica (on Facebook), 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T10:05:00.000Z\", s\"01KRG84TB1ACJKNV708AVPAF8E\" ]",
+      "lat": 46.0698,
+      "lon": 16.8212,
+      "type": "WIND",
+      "time": "2026-05-12T10:05:00.000Z",
+      "country": "HR",
+      "place": "Gornja Velika",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Eyewitness report via D.V.D Gornja Velika (on Facebook), 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T10:05:00.000Z\", s\"01KRG7VMXHJ515EYKFAHB1EH89\" ]",
+      "lat": 46.0046,
+      "lon": 16.1192,
+      "type": "HAIL",
+      "time": "2026-05-12T10:05:00.000Z",
+      "country": "HR",
+      "place": "Marija Bistrica",
+      "description": "Hail cover up to at least 2 cm in thickness was reported.  The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Zagorje International (on Facebook), 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T10:00:00.000Z\", s\"01KRG7Y29MVXDSW4VB0V1G2XB4\" ]",
+      "lat": 45.9763,
+      "lon": 16.0427,
+      "type": "HAIL",
+      "time": "2026-05-12T10:00:00.000Z",
+      "country": "HR",
+      "place": "Hum Stubički",
+      "description": "Hail cover up to at least 2 cm in thickness was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Zagorje.com (on Facebook), 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T10:00:00.000Z\", s\"01KRG7M0VK54M98E5R5HJ61HJ8\" ]",
+      "lat": 45.8131,
+      "lon": 15.9773,
+      "type": "LIGHTNING",
+      "time": "2026-05-12T10:00:00.000Z",
+      "country": "HR",
+      "place": "Zagreb",
+      "description": "A lightning struck a residential building causing fire and damage.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"'ODJEDNOM JE PUKLO' / U tek sagrađenu kuću udario grom! Željko u suzama: 'Valjda sam Bogu kriv'\", Danas, 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T10:00:00.000Z\", s\"01KREQ3YGJ2EE1KSGSKWZJ7B9V\" ]",
+      "lat": 45.6398,
+      "lon": 16.3365,
+      "type": "WIND",
+      "time": "2026-05-12T10:00:00.000Z",
+      "country": "HR",
+      "place": "Desni Dubrovčak",
+      "description": "A downed tree was reported. The time was based on radar data and local PWS data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Eyewitness report via sisakportal.hr (on Facebook), 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T10:00:00.000Z\", s\"01KREP6X09F0FP4YCFN29M81R0\" ]",
+      "lat": 45.8214,
+      "lon": 15.9696,
+      "type": "WIND",
+      "time": "2026-05-12T10:00:00.000Z",
+      "country": "HR",
+      "place": "Tuškanac",
+      "description": "Downed trees and large tree branches were reported. One person was slightly injured. The time was based on radar data and local PWS data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"FOTO, VIDEO / Nevrijeme poharalo tri županije i Zagreb, na Tuškancu ozlijeđena jedna osoba\", N1 Info, 12 MAY 2026.",
+        "\"FOTO/VIDEO Snažno nevrijeme napravilo kaos i paraliziralo promet: \"Na terenu je bila cijela pojačana smjena vatrogasaca...\"\", Dnevnik, 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T10:00:00.000Z\", s\"01KRENBAG2589BYGTPCM78X7C9\" ]",
+      "lat": 45.828,
+      "lon": 15.9743,
+      "type": "WIND",
+      "time": "2026-05-12T10:00:00.000Z",
+      "country": "HR",
+      "place": "Gornji grad - Medveščak",
+      "description": "Downed trees were reported after the passage of a thunderstorm. The time was based on radar data and local PWS data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Nevrijeme protutnjalo Zagrebom, troje ozlijeđenih, Grad otkrio nove detalje; Nevjerojatni prizori iz Ivanić Grada\", Jutarnji List, 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T10:00:00.000Z\", s\"01KREK8YB1H045B93P2N0R0P38\" ]",
+      "lat": 45.8333,
+      "lon": 16.0102,
+      "type": "WIND",
+      "time": "2026-05-12T10:00:00.000Z",
+      "country": "HR",
+      "place": "Maksimir",
+      "description": "Downed tree(s) were reported. The time was based on radar data and local PWS data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"FOTO Nevrijeme paraliziralo Zagreb: Snimili smo dramu u centru grada\", Jutarnji List, 12 MAY 2026.",
+        "\"FOTO/VIDEO Snažno nevrijeme napravilo kaos i paraliziralo promet: \"Na terenu je bila cijela pojačana smjena vatrogasaca...\"\", Dnevnik, 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T10:00:00.000Z\", s\"01KREK7FBJHDE2MWNBZF8PSWS2\" ]",
+      "lat": 45.8197,
+      "lon": 15.9543,
+      "type": "WIND",
+      "time": "2026-05-12T10:00:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T09:55:00.000Z\", s\"01KRGBB51Q20CDXBBZE1N7M3KJ\" ]",
+      "lat": 45.8274,
+      "lon": 15.9336,
+      "type": "WIND",
+      "time": "2026-05-12T09:55:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T09:55:00.000Z\", s\"01KRG7R2B41PFP5JKZA44TR4J5\" ]",
+      "lat": 45.9198,
+      "lon": 15.8986,
+      "type": "HAIL",
+      "time": "2026-05-12T09:55:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T09:55:00.000Z\", s\"01KREMS21SE7596TYS2N1P6QC1\" ]",
+      "lat": 45.802,
+      "lon": 15.937,
+      "type": "WIND",
+      "time": "2026-05-12T09:55:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T09:47:00.000Z\", s\"01KREMZ35N3GSF7DPJSTQYX5HF\" ]",
+      "lat": 45.802,
+      "lon": 15.8979,
+      "type": "WIND",
+      "time": "2026-05-12T09:47:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T09:45:00.000Z\", s\"01KRENEZQBD8JWQKYZYQNMWKN0\" ]",
+      "lat": 45.8261,
+      "lon": 15.8776,
+      "type": "WIND",
+      "time": "2026-05-12T09:45:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T09:30:00.000Z\", s\"01KRG8XWFW5ZKS5QRG5E3YPXEY\" ]",
+      "lat": 46.1682,
+      "lon": 15.8422,
+      "type": "WIND",
+      "time": "2026-05-12T09:30:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T09:27:00.000Z\", s\"01KRK1CM4AN85RKZ0C5M86AXM9\" ]",
+      "lat": 45.9877,
+      "lon": 15.696,
+      "type": "HAIL",
+      "time": "2026-05-12T09:27:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T09:25:00.000Z\", s\"01KRE455G77C1P9A7BT4DR9DRK\" ]",
+      "lat": 45.9039,
+      "lon": 15.5931,
+      "type": "HAIL",
+      "time": "2026-05-12T09:25:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T09:15:00.000Z\", s\"01KRENSY24MZA20BESGQKWKV7K\" ]",
+      "lat": 45.9491,
+      "lon": 15.5477,
+      "type": "HAIL",
+      "time": "2026-05-12T09:15:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T09:10:00.000Z\", s\"01KRK1BTMKX9WJ3YJH5GE2S3RA\" ]",
+      "lat": 46.0098,
+      "lon": 15.5426,
+      "type": "HAIL",
+      "time": "2026-05-12T09:10:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T09:05:00.000Z\", s\"01KRE47R4CAYR6QDYN9B2QQJ0K\" ]",
+      "lat": 45.9576,
+      "lon": 15.4947,
+      "type": "HAIL",
+      "time": "2026-05-12T09:05:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T09:00:00.000Z\", s\"01KRK1BFXAQEKPRQQ5WP7ZC2C9\" ]",
+      "lat": 45.9763,
+      "lon": 15.4999,
+      "type": "HAIL",
+      "time": "2026-05-12T09:00:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T08:55:00.000Z\", s\"01KRGSGJ3X74M67A080HMZYSD5\" ]",
+      "lat": 45.896,
+      "lon": 13.897,
+      "type": "LIGHTNING",
+      "time": "2026-05-12T08:55:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T07:50:00.000Z\", s\"01KRJZ5G1F6NTB3JMFEXNYZ3RJ\" ]",
+      "lat": 46.1796,
+      "lon": 14.9437,
+      "type": "WIND",
+      "time": "2026-05-12T07:50:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T07:45:00.000Z\", s\"01KRGSMCT5GJH1SSRJSZQQ19AA\" ]",
+      "lat": 46.1189,
+      "lon": 14.8766,
+      "type": "LIGHTNING",
+      "time": "2026-05-12T07:45:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T07:35:00.000Z\", s\"01KRENRSZ5QY2GQZRZ1WRY4RJP\" ]",
+      "lat": 46.1698,
+      "lon": 14.6913,
+      "type": "HAIL",
+      "time": "2026-05-12T07:35:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-12T06:00:00.000Z\", s\"01KSSY5289Q2F8PX1KAZ09VBSE\" ]",
+      "lat": 45.2885,
+      "lon": 18.8035,
+      "type": "HAIL",
+      "time": "2026-05-12T06:00:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    }
+  ]
+}

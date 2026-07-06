@@ -1,0 +1,693 @@
+{
+  "forecast_date": "2026-06-04",
+  "window_start_local": "2026-06-04T06:00:00+02:00",
+  "window_end_local": "2026-06-05T06:00:00+02:00",
+  "window_start_utc": "2026-06-04T04:00:00+00:00",
+  "window_end_utc": "2026-06-05T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 46,
+  "report_count": 46,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-06-04T18:40:00.000Z\", s\"01KTC8Z53MA4PDDXHP0VWR4HT7\" ]",
+      "lat": 52.8325,
+      "lon": 12.7784,
+      "type": "WIND",
+      "time": "2026-06-04T18:40:00.000Z",
+      "country": "DE",
+      "place": "Dammkrug",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Feuerwache Fehrbellin  (Facebook), 05 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T17:16:00.000Z\", s\"01KTC94N38R3W97M654RA8S64D\" ]",
+      "lat": 53.0351,
+      "lon": 7.8808,
+      "type": "WIND",
+      "time": "2026-06-04T17:16:00.000Z",
+      "country": "DE",
+      "place": "Altenoythe",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Feuerwehr Altenoythe (Facebook), 05 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T16:38:00.000Z\", s\"01KTAASQPAWHQNGM7QYYXJ9X2B\" ]",
+      "lat": 51.3739,
+      "lon": 8.4656,
+      "type": "WIND",
+      "time": "2026-06-04T16:38:00.000Z",
+      "country": "DE",
+      "place": "Antfeld",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Feuerwehr Antfeld  (Facebook), 04 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T16:35:00.000Z\", s\"01KTAAP1PK4XGBNWHWE4RT1FD0\" ]",
+      "lat": 48.8235,
+      "lon": 11.4618,
+      "type": "WIND",
+      "time": "2026-06-04T16:35:00.000Z",
+      "country": "DE",
+      "place": "Hepberg",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Feuerwehr Hepberg   (Facebook), 04 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T16:25:00.000Z\", s\"01KVAGZM6344ZCM90F2XA0712P\" ]",
+      "lat": 51.6565,
+      "lon": 10.3428,
+      "type": "WIND",
+      "time": "2026-06-04T16:25:00.000Z",
+      "country": "DE",
+      "place": "Herzberg am Harz",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Feuerwehr Herzberg (Instagram), 14 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T16:15:00.000Z\", s\"01KT9VSA9866ZWBNRW3JH8CQ49\" ]",
+      "lat": 53.4766,
+      "lon": 11.4302,
+      "type": "PRECIP",
+      "time": "2026-06-04T16:15:00.000Z",
+      "country": "DE",
+      "place": "Uelitz",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IUELIT1 (wunderground.com), 04 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T15:53:00.000Z\", s\"01KTC4VRSCTN8X28TN0EBDNQAQ\" ]",
+      "lat": 53.4199,
+      "lon": 10.5098,
+      "type": "LIGHTNING",
+      "time": "2026-06-04T15:53:00.000Z",
+      "country": "DE",
+      "place": "Juliusburg",
+      "description": "Tree sat on fire. ",
+      "info_source": [
+        "NWSP",
+        "WXSVC",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Blitzeinschlag: Nest brennt ab – Storchenpaar ist jetzt obdachlos\", LAUENBURGISCHE LANDESZEITUNG, 05 JUN 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T15:52:00.000Z\", s\"01KTAA7BJ8QNA6R2MHG6KDYFW5\" ]",
+      "lat": 52.3784,
+      "lon": 10.3807,
+      "type": "WIND",
+      "time": "2026-06-04T15:52:00.000Z",
+      "country": "DE",
+      "place": "Didderse",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Wipshausen (Facebook), 04 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T15:50:00.000Z\", s\"01KT9VKA7XVP2TS8RXTW9CHR65\" ]",
+      "lat": 53.3844,
+      "lon": 11.2507,
+      "type": "PRECIP",
+      "time": "2026-06-04T15:50:00.000Z",
+      "country": "DE",
+      "place": "Kuhstorf",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IKUHST2 (wunderground.com), 04 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T15:50:00.000Z\", s\"01KT9SWQV153GJJ0V390NHE9QK\" ]",
+      "lat": 53.5467,
+      "lon": 11.5628,
+      "type": "HAIL",
+      "time": "2026-06-04T15:50:00.000Z",
+      "country": "DE",
+      "place": "Sukow",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observaton. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 04 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T15:45:00.000Z\", s\"01KTC5TQ0GGV44BRF5KTT0G024\" ]",
+      "lat": 53.3437,
+      "lon": 11.192,
+      "type": "PRECIP",
+      "time": "2026-06-04T15:45:00.000Z",
+      "country": "DE",
+      "place": "Redefin",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Blitze, Sturmböen, sintflutartiger Regen:  Mehrere Straßen wegen Unwetter voll gesperrt\", NORDKURIER, 05 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T15:45:00.000Z\", s\"01KTACN1ES6R1HJY0Z0CA03MQ6\" ]",
+      "lat": 53.3496,
+      "lon": 11.2027,
+      "type": "PRECIP",
+      "time": "2026-06-04T15:45:00.000Z",
+      "country": "DE",
+      "place": "Redefin",
+      "description": null,
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "WS report. kachelmannwetter.com, 04 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T15:40:00.000Z\", s\"01KTA9T5QAZW54GH15MVDJV82Z\" ]",
+      "lat": 49.7921,
+      "lon": 10.0259,
+      "type": "WIND",
+      "time": "2026-06-04T15:40:00.000Z",
+      "country": "DE",
+      "place": "Rottendorf",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Rottendorf (Facebook), 04 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T15:38:00.000Z\", s\"01KT9T0YKKFRZKG11BH5DAJ265\" ]",
+      "lat": 53.4877,
+      "lon": 11.4643,
+      "type": "HAIL",
+      "time": "2026-06-04T15:38:00.000Z",
+      "country": "DE",
+      "place": "Lübesse",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observaton. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 04 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T15:36:00.000Z\", s\"01KT9SZHGRXVETATXWA8WR0NJ1\" ]",
+      "lat": 53.4618,
+      "lon": 11.4263,
+      "type": "HAIL",
+      "time": "2026-06-04T15:36:00.000Z",
+      "country": "DE",
+      "place": "Rastow",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observaton. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 04 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T15:33:00.000Z\", s\"01KTC4MQKT9VE0M3QM2Y9KPRWK\" ]",
+      "lat": 51.1743,
+      "lon": 7.3333,
+      "type": "LIGHTNING",
+      "time": "2026-06-04T15:33:00.000Z",
+      "country": "DE",
+      "place": "Radevormwald Mittelhombrechen",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Blitzeinschlag war Grund für den Stromausfall\", RHEINISCHE POST, 05 JUN 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T15:22:00.000Z\", s\"01KVAFGSAHZYY612WRW99Q8TX6\" ]",
+      "lat": 52.268,
+      "lon": 10.0502,
+      "type": "WIND",
+      "time": "2026-06-04T15:22:00.000Z",
+      "country": "DE",
+      "place": "Haber",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "GOV"
+      ],
+      "references": [
+        "\"Baum blockiert Straße nach Sturmböen\", FF-HOHENHAMELN, 05 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T15:18:00.000Z\", s\"01KTC7587Q03RBEV1KNA4KXQCZ\" ]",
+      "lat": 51.4489,
+      "lon": 7.9575,
+      "type": "WIND",
+      "time": "2026-06-04T15:18:00.000Z",
+      "country": "DE",
+      "place": "Binnerfeld",
+      "description": null,
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Unwetter sorgt für umgestürzte Bäume \", RADIO SAUERLAND, 05 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T14:35:00.000Z\", s\"01KTC51HKEWAS641JH13NS175M\" ]",
+      "lat": 49.5494,
+      "lon": 7.8845,
+      "type": "LIGHTNING",
+      "time": "2026-06-04T14:35:00.000Z",
+      "country": "DE",
+      "place": "Münchweiler an der Alsenz",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Einfamilienhaus nach Blitzeinschlag unbewohnbar\", DIE RHEINPFALZ, 05 JUN 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T14:30:00.000Z\", s\"01KTC73RXJ9DBAHHS2HVKPBJW6\" ]",
+      "lat": 51.415,
+      "lon": 8.8922,
+      "type": "WIND",
+      "time": "2026-06-04T14:30:00.000Z",
+      "country": "DE",
+      "place": "Heddinghausen",
+      "description": null,
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Unwetter sorgt für umgestürzte Bäume \", RADIO SAUERLAND, 05 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T14:26:00.000Z\", s\"01KVAHGMTJES47FZHC870CJBGE\" ]",
+      "lat": 51.7687,
+      "lon": 9.4084,
+      "type": "WIND",
+      "time": "2026-06-04T14:26:00.000Z",
+      "country": "DE",
+      "place": "Steinkrug",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Feuerwehr Stadt Höxter. Checked: 17 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T14:26:00.000Z\", s\"01KVAHF654DSK6ZTK2ZD61PTCB\" ]",
+      "lat": 51.7757,
+      "lon": 9.4075,
+      "type": "WIND",
+      "time": "2026-06-04T14:26:00.000Z",
+      "country": "DE",
+      "place": "Corvey",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Feuerwehr Stadt Höxter. Checked: 17 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T14:24:00.000Z\", s\"01KVAHDCP5BPP7XJT41DD2HWSX\" ]",
+      "lat": 51.7667,
+      "lon": 9.3773,
+      "type": "WIND",
+      "time": "2026-06-04T14:24:00.000Z",
+      "country": "DE",
+      "place": "Höxter",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Feuerwehr Stadt Höxter. Checked: 17 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T14:24:00.000Z\", s\"01KVAHCHQH3JJDKQ93AJSE0B0A\" ]",
+      "lat": 51.7537,
+      "lon": 9.3655,
+      "type": "WIND",
+      "time": "2026-06-04T14:24:00.000Z",
+      "country": "DE",
+      "place": "Taubenborn",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Feuerwehr Stadt Höxter. Checked: 17 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T14:22:00.000Z\", s\"01KVAHAMJW0N32R78DNN7F8KQC\" ]",
+      "lat": 51.7306,
+      "lon": 9.2867,
+      "type": "WIND",
+      "time": "2026-06-04T14:22:00.000Z",
+      "country": "DE",
+      "place": "Ottbergen",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Feuerwehr Stadt Höxter. Checked: 17 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T14:20:00.000Z\", s\"01KTA9NG9DWJVD5010T8V1K0NZ\" ]",
+      "lat": 53.1689,
+      "lon": 9.4083,
+      "type": "WIND",
+      "time": "2026-06-04T14:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T14:10:00.000Z\", s\"01KTA93J48TY3CXH8DSG35BVM8\" ]",
+      "lat": 48.8795,
+      "lon": 9.3656,
+      "type": "WIND",
+      "time": "2026-06-04T14:10:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T14:10:00.000Z\", s\"01KT9T4EWJF0FFSHNVPGJ3V5Z7\" ]",
+      "lat": 52.8709,
+      "lon": 12.7387,
+      "type": "HAIL",
+      "time": "2026-06-04T14:10:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T14:05:00.000Z\", s\"01KTC64F301XVCK8AFCV6KSJAF\" ]",
+      "lat": 53.2517,
+      "lon": 12.7268,
+      "type": "WIND",
+      "time": "2026-06-04T14:05:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T13:27:00.000Z\", s\"01KTC8QN2RM4T53EB2ANMNPS8A\" ]",
+      "lat": 53.5919,
+      "lon": 11.7572,
+      "type": "WIND",
+      "time": "2026-06-04T13:27:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T13:26:00.000Z\", s\"01KTAADWK5SFB2D0GK5DKB6B39\" ]",
+      "lat": 53.5671,
+      "lon": 11.7771,
+      "type": "WIND",
+      "time": "2026-06-04T13:26:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T13:25:00.000Z\", s\"01KTAA14RNDVVRAK9PW0WFJ8K1\" ]",
+      "lat": 53.0637,
+      "lon": 9.6573,
+      "type": "LIGHTNING",
+      "time": "2026-06-04T13:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T13:16:00.000Z\", s\"01KTC6AYYCM7RC4R7TDETC4N54\" ]",
+      "lat": 53.5782,
+      "lon": 11.6471,
+      "type": "WIND",
+      "time": "2026-06-04T13:16:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T13:16:00.000Z\", s\"01KTAAJRMBB5428EVB5CS7X8ZR\" ]",
+      "lat": 53.5597,
+      "lon": 11.676,
+      "type": "WIND",
+      "time": "2026-06-04T13:16:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T13:11:00.000Z\", s\"01KTC7ERS2KVY06G66466ZGNPC\" ]",
+      "lat": 53.5244,
+      "lon": 11.5162,
+      "type": "WIND",
+      "time": "2026-06-04T13:11:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T13:09:00.000Z\", s\"01KTC5YM4EFZKESH2QS72Q73Y6\" ]",
+      "lat": 53.515,
+      "lon": 11.5035,
+      "type": "WIND",
+      "time": "2026-06-04T13:09:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T13:05:00.000Z\", s\"01KTC5ZT0X2EEQ3PE40YW1JAB3\" ]",
+      "lat": 53.4959,
+      "lon": 11.4805,
+      "type": "WIND",
+      "time": "2026-06-04T13:05:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T13:00:00.000Z\", s\"01KTC69943CM6NNFYGV3NG52EC\" ]",
+      "lat": 53.4522,
+      "lon": 11.4262,
+      "type": "WIND",
+      "time": "2026-06-04T13:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T12:57:00.000Z\", s\"01KVAFN5848DJ0RHJCY0A9GF2D\" ]",
+      "lat": 51.05,
+      "lon": 10.95,
+      "type": "WIND",
+      "time": "2026-06-04T12:57:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T12:48:00.000Z\", s\"01KTC5H3VS9FXKDS63XS69NP74\" ]",
+      "lat": 52.3111,
+      "lon": 7.8848,
+      "type": "LIGHTNING",
+      "time": "2026-06-04T12:48:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T12:40:00.000Z\", s\"01KT9T7RRVP7V48JBQN23P186C\" ]",
+      "lat": 53.0067,
+      "lon": 11.3687,
+      "type": "HAIL",
+      "time": "2026-06-04T12:40:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T12:26:00.000Z\", s\"01KTA8JRD6BKSFF8355VM06NAJ\" ]",
+      "lat": 52.1261,
+      "lon": 7.385,
+      "type": "LIGHTNING",
+      "time": "2026-06-04T12:26:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T12:20:00.000Z\", s\"01KT9TGJF28QZ3446T49C4H9QH\" ]",
+      "lat": 51.7864,
+      "lon": 6.0747,
+      "type": "HAIL",
+      "time": "2026-06-04T12:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T11:22:00.000Z\", s\"01KT9TDEMEKB2WSKTYMJMMH9S6\" ]",
+      "lat": 52.6465,
+      "lon": 10.659,
+      "type": "HAIL",
+      "time": "2026-06-04T11:22:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T10:55:00.000Z\", s\"01KTABSHW3J37DY8B9EM0DFJ1E\" ]",
+      "lat": 52.2171,
+      "lon": 7.0275,
+      "type": "TORNADO",
+      "time": "2026-06-04T10:55:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-04T10:42:00.000Z\", s\"01KTA8XTNXXQR56TZZV9PB64AK\" ]",
+      "lat": 52.6701,
+      "lon": 9.6243,
+      "type": "LIGHTNING",
+      "time": "2026-06-04T10:42:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    }
+  ]
+}

@@ -1,0 +1,751 @@
+{
+  "forecast_date": "2026-06-03",
+  "window_start_local": "2026-06-03T06:00:00+02:00",
+  "window_end_local": "2026-06-04T06:00:00+02:00",
+  "window_start_utc": "2026-06-03T04:00:00+00:00",
+  "window_end_utc": "2026-06-04T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 49,
+  "report_count": 49,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-06-03T18:00:00.000Z\", s\"01KT7GBYTBH2GDTDC86ND4MT3T\" ]",
+      "lat": 51.12,
+      "lon": 18.87388,
+      "type": "PRECIP",
+      "time": "2026-06-03T18:00:00.000Z",
+      "country": "PL",
+      "place": "Działoszyn",
+      "description": "Weather station (251180330) recorded accumulated rainfall of 67.9 mm between 16:00 and 18:00 UTC, during the passage of thunderstorms. 1-hourly rainfall of 37.8 mm was recorded between 16:00 and 17:00 UTC. Local flash flooding was reported. Local firefighting units responded to at least 40 incidents. One family was evacuated.\n",
+      "info_source": [
+        "WWW",
+        "WXSVC",
+        "DMGPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Hydro IMGW, date of access: 03 JUN 2026.",
+        "Eyewitness report via klobucka.pl (on Facebook), 03 JUN 2026.",
+        "Eyewitness report via kulisy.net (on Facebook), 03 JUN 2026.",
+        "Eyewitness report via Grzegorz Zawiślak (on Facebook), 03 JUN 2026.",
+        "ELRadio 90,8 FM (on Facebook), 03 JUN 2026.",
+        "OSP KSRG Rząśnia (on Facebook), 03 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T17:20:00.000Z\", s\"01KT8GTSQN25AZXJ23BFZF5TZA\" ]",
+      "lat": 51.1236,
+      "lon": 18.893,
+      "type": "PRECIP",
+      "time": "2026-06-03T17:20:00.000Z",
+      "country": "PL",
+      "place": "Posmykowizna",
+      "description": "Local flooding was reported. Local firefighting units intervened at least 3 times. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "\"Zestawienie interwencji od 03.06.2026 do 04.06.2026 Miejscowe zagrożenie powiat pajęczański\", KW PSP Łódź, date of access: 04 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T16:00:00.000Z\", s\"01KT7E7K9FPBG98KE9RGHBK4NT\" ]",
+      "lat": 50.0605,
+      "lon": 18.6098,
+      "type": "PRECIP",
+      "time": "2026-06-03T16:00:00.000Z",
+      "country": "PL",
+      "place": "Rybnik",
+      "description": "Multiple buildings and basements were flooded in Rybnik (Boguszowice) after the passage of numerous convective cells and prolonged period of heavy rainfall. Small-scale landslide also occured.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Gwałtowne opady deszczu, które przeszły dziś nad Rybnikiem, spowodowały poważne problemy w Boguszowicach – zarówno w Starych, jak i na Osiedlu, row.info.pl, 3 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T15:50:00.000Z\", s\"01KTYCGXTCVA88K2JX0JMYJ0KS\" ]",
+      "lat": 50.0192,
+      "lon": 18.5778,
+      "type": "PRECIP",
+      "time": "2026-06-03T15:50:00.000Z",
+      "country": "PL",
+      "place": "Świerklany",
+      "description": "Flooded properties were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP Jankowice (on Facebook), 04 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T15:40:00.000Z\", s\"01KT8GC1YDG18CSHK104FYT5WC\" ]",
+      "lat": 49.9548,
+      "lon": 18.5766,
+      "type": "PRECIP",
+      "time": "2026-06-03T15:40:00.000Z",
+      "country": "PL",
+      "place": "Jastrzębie Zdrój ",
+      "description": "Flooded streets and buildings were reported in Jastrzębie Zdrój (around Pszczyńska street) after the passage of a thunderstorm. Time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Miasto Jastrzębie Zdrój (on Facebook), 3 Jun 2026",
+        "ROW.info.pl (on Facebook), 3 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T15:09:00.000Z\", s\"01KT773P7YW67Q863A3XTE7BRS\" ]",
+      "lat": 49.7751,
+      "lon": 18.506,
+      "type": "PRECIP",
+      "time": "2026-06-03T15:09:00.000Z",
+      "country": "CZ",
+      "place": "Pacalůvka",
+      "description": "PWS recorded a rain amount of 32,7 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Iliančina meteostanice - IALBRE31\", Wunderground, date of access: 03 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T15:09:00.000Z\", s\"01KT771DK3R1KG55JBRPDH36D0\" ]",
+      "lat": 49.75,
+      "lon": 18.569,
+      "type": "PRECIP",
+      "time": "2026-06-03T15:09:00.000Z",
+      "country": "CZ",
+      "place": "Mistřovice",
+      "description": "PWS recorded a rain amount of 27,9 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Č.T Mistřovice - IESKTN36\", Wunderground, date of access: 03 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T14:30:00.000Z\", s\"01KT91YT39Y1TR1J5QFD5PC5ER\" ]",
+      "lat": 50.3894,
+      "lon": 18.8834,
+      "type": "PRECIP",
+      "time": "2026-06-03T14:30:00.000Z",
+      "country": "PL",
+      "place": "Bytom",
+      "description": "Flooded street (Sikorskiego) was reported in Bytom (Stroszek district) after the passage of a thunderstorm. Time was based on a radar data.",
+      "info_source": [
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Szymon Szkaradek (on facebook), 4 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T14:30:00.000Z\", s\"01KT91YT34DB43EK7670Z61DKH\" ]",
+      "lat": 50.3547,
+      "lon": 18.875,
+      "type": "PRECIP",
+      "time": "2026-06-03T14:30:00.000Z",
+      "country": "PL",
+      "place": "Bytom",
+      "description": "Numerous streets and buildings were flooded in Bytom (Karb district) after the passage of a thunderstorm. Time was based on a radar data.",
+      "info_source": [
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Szymon Szkaradek (on facebook), 4 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T14:30:00.000Z\", s\"01KT7B5056HTR5XPZAX4YFN070\" ]",
+      "lat": 50.4468,
+      "lon": 18.8642,
+      "type": "PRECIP",
+      "time": "2026-06-03T14:30:00.000Z",
+      "country": "PL",
+      "place": "Tarnowskie Góry",
+      "description": "Flooded and impassable road (Częstochowska) was reported in Tarnowskie Góry. Time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Tarnowskie Góry - serwis informacyjny (on Facebook), 3 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T14:24:00.000Z\", s\"01KT77FWP5MZCW51A5HEPAPPQW\" ]",
+      "lat": 50.422,
+      "lon": 18.856,
+      "type": "PRECIP",
+      "time": "2026-06-03T14:24:00.000Z",
+      "country": "PL",
+      "place": "Tarnowskie Góry",
+      "description": "PWS recorded a rain amount of 56,6 mm in 60 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"DNT PRO - ITARNO26\", Wunderground, date of access: 03 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T14:24:00.000Z\", s\"01KT750XXDX7DVA3YPYV3TN8QF\" ]",
+      "lat": 43.196,
+      "lon": 17.416,
+      "type": "PRECIP",
+      "time": "2026-06-03T14:24:00.000Z",
+      "country": "HR",
+      "place": "Podprolog",
+      "description": "PWS recorded a rain amount of 36,8 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Podprolog - IVRGOR3\", Wunderground, date of access: 03 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T14:00:00.000Z\", s\"01KT7GQ9P4EHYT84XMPNSF7Q3G\" ]",
+      "lat": 50.2469,
+      "lon": 18.82,
+      "type": "PRECIP",
+      "time": "2026-06-03T14:00:00.000Z",
+      "country": "PL",
+      "place": "Ruda Śląska",
+      "description": "Weather station (250180660) recorded an accumulated rainfall of 38.8 mm between 13:00 and 14:00 UTC, during the passage of a thunderstorm. ",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Hydro IMGW"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T14:00:00.000Z\", s\"01KT7EZ597S0E0GXEJ6R3DTK6M\" ]",
+      "lat": 50.3957,
+      "lon": 18.872,
+      "type": "WIND",
+      "time": "2026-06-03T14:00:00.000Z",
+      "country": "PL",
+      "place": "Bytom",
+      "description": "Isolated trees were snapped or uprooted in Bytom, Stroszek (Wojciechowskiego, Rydza-Śmigłego, Legnicka streets). At least one power pole and power lines were snapped by a damaged tree.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Bytomski Portal Informacyjny (on Facebook), 3 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T13:49:00.000Z\", s\"01KT77BVFGBR9D336P29XCADSR\" ]",
+      "lat": 50.368,
+      "lon": 19.048,
+      "type": "PRECIP",
+      "time": "2026-06-03T13:49:00.000Z",
+      "country": "PL",
+      "place": "Wojkowice",
+      "description": "PWS recorded a rain amount of 38,6 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"stacjakojot - IWOJKO4\", Wunderground, date of access: 03 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T13:44:00.000Z\", s\"01KT8H74V7CV5PWEFP51KPGRBG\" ]",
+      "lat": 50.269,
+      "lon": 18.818,
+      "type": "PRECIP",
+      "time": "2026-06-03T13:44:00.000Z",
+      "country": "PL",
+      "place": "Ruda Śląska",
+      "description": "Numerous streets were flooded and impassable in Ruda Śląska (Bielszowice area). Buildings were flooded at the ground floor level and bus was stranded in the flood waters. Time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "WXSVC",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Ulewa w Rudzie Śląskiej. Zalane ulice, autobus utknął na Halembskiej, RudaSlaska.com.pl, 3 Jun 2026",
+        "RUDA Śląska (on facebook), 3 Jun 2026",
+        "\"Bielszowice - IRUDAL25\", Wunderground, date of access: 04 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T13:39:00.000Z\", s\"01KT77J7MXSY5QEW8EDQM213N8\" ]",
+      "lat": 50.247,
+      "lon": 18.829,
+      "type": "PRECIP",
+      "time": "2026-06-03T13:39:00.000Z",
+      "country": "PL",
+      "place": "Ruda Śląska",
+      "description": "PWS recorded a rain amount of 47,5 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Juneczka - IRUDAL27\", Wunderground, date of access: 03 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T13:24:00.000Z\", s\"01KT77N0YBP0W31A8CFZ40KHNQ\" ]",
+      "lat": 50.304,
+      "lon": 18.819,
+      "type": "PRECIP",
+      "time": "2026-06-03T13:24:00.000Z",
+      "country": "PL",
+      "place": "Zabrze",
+      "description": "PWS recorded a rain amount of 26,2 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Sencor - IZABRZ23\", Wunderground, date of access: 03 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T13:18:00.000Z\", s\"01KWF5N518VGET1QB68PD4Y4TF\" ]",
+      "lat": 53.59,
+      "lon": 6.965,
+      "type": "TORNADO",
+      "time": "2026-06-03T13:18:00.000Z",
+      "country": "DE",
+      "place": "Borkum",
+      "description": "Group of three waterspouts observed by plane between Borkum Island and Greetsiel. This report: 1 out of 3 of the events.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Tornadoliste Deutschland, 05 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T13:18:00.000Z\", s\"01KWF5MKNZ6W2DHSYC8ZZDNHJV\" ]",
+      "lat": 53.57,
+      "lon": 6.95,
+      "type": "TORNADO",
+      "time": "2026-06-03T13:18:00.000Z",
+      "country": "DE",
+      "place": "Borkum",
+      "description": "Group of three waterspouts observed by plane between Borkum Island and Greetsiel. This report: 1 out of 3 of the events.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Tornadoliste Deutschland, 05 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T13:18:00.000Z\", s\"01KWF5M20QA41NM488PFAYZJEF\" ]",
+      "lat": 53.555,
+      "lon": 6.937,
+      "type": "TORNADO",
+      "time": "2026-06-03T13:18:00.000Z",
+      "country": "DE",
+      "place": "Borkum",
+      "description": "Group of three waterspouts observed by plane between Borkum Island and Greetsiel. This report: 1 out of 3 of the events.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Tornadoliste Deutschland, 05 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T12:39:00.000Z\", s\"01KT752Z8AVK2XGZVKAEB8GJD3\" ]",
+      "lat": 43.358,
+      "lon": 16.953,
+      "type": "PRECIP",
+      "time": "2026-06-03T12:39:00.000Z",
+      "country": "HR",
+      "place": "Baška Voda",
+      "description": "PWS recorded a rain amount of 33,3 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Spiline - IBAKAV7\", Wunderground, date of access: 03 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T11:49:00.000Z\", s\"01KT776434WJK7Z0KMQY3BVY1M\" ]",
+      "lat": 49.773,
+      "lon": 18.878,
+      "type": "PRECIP",
+      "time": "2026-06-03T11:49:00.000Z",
+      "country": "PL",
+      "place": "Górki Wielkie",
+      "description": "PWS recorded a rain amount of 36,3 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Zebrzydka - IGRKIW6\", Wunderground, date of access: 03 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T11:49:00.000Z\", s\"01KT76DHWWNPHC7TEBNBA9AN4A\" ]",
+      "lat": 45.351,
+      "lon": 13.552,
+      "type": "PRECIP",
+      "time": "2026-06-03T11:49:00.000Z",
+      "country": "HR",
+      "place": "Dajla",
+      "description": "PWS recorded a rain amount of 28,7 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Dajla - INOVIG2\", Wunderground, date of access: 03 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T11:15:00.000Z\", s\"01KT75FX6D669B4B6BNAPC22D3\" ]",
+      "lat": 43.7297,
+      "lon": 16.6959,
+      "type": "PRECIP",
+      "time": "2026-06-03T11:15:00.000Z",
+      "country": "HR",
+      "place": "Obrovac Sinjski",
+      "description": "PWS recorded a rain amount of 34,3 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"HAN - ISINJ5\", Wunderground, date of access: 03 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T11:15:00.000Z\", s\"01KT75DKN294ZDQ3MF1W5WP2T8\" ]",
+      "lat": 43.689,
+      "lon": 16.736,
+      "type": "PRECIP",
+      "time": "2026-06-03T11:15:00.000Z",
+      "country": "HR",
+      "place": "Otok",
+      "description": "PWS recorded a rain amount of 64,8 mm in 90 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"OŠ Kamešnica - IOTOK3\", Wunderground, date of access: 03 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T10:59:00.000Z\", s\"01KT77XZDVEEG5NVM8HSQ3S1G4\" ]",
+      "lat": 43.516,
+      "lon": 16.556,
+      "type": "PRECIP",
+      "time": "2026-06-03T10:59:00.000Z",
+      "country": "HR",
+      "place": "Žrnovnica",
+      "description": "PWS recorded a rain amount of 45 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Vilar 1 - IRNOVN2\", Wunderground, date of access: 03 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T10:59:00.000Z\", s\"01KT75AWKR0KXTQFNGSZ21M5FK\" ]",
+      "lat": 43.5443,
+      "lon": 16.4853,
+      "type": "PRECIP",
+      "time": "2026-06-03T10:59:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T10:59:00.000Z\", s\"01KT7596RJGQREAA2SZW8MEVYT\" ]",
+      "lat": 43.553,
+      "lon": 16.532,
+      "type": "PRECIP",
+      "time": "2026-06-03T10:59:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T10:59:00.000Z\", s\"01KT7551CBD50E29MTTYD2FXCW\" ]",
+      "lat": 43.481,
+      "lon": 16.642,
+      "type": "PRECIP",
+      "time": "2026-06-03T10:59:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T10:54:00.000Z\", s\"01KT77VVFMHAP280C0X28D65DQ\" ]",
+      "lat": 43.502,
+      "lon": 16.521,
+      "type": "PRECIP",
+      "time": "2026-06-03T10:54:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T10:54:00.000Z\", s\"01KT7576KZBT5T261V4KSTW3M4\" ]",
+      "lat": 43.51,
+      "lon": 16.537,
+      "type": "PRECIP",
+      "time": "2026-06-03T10:54:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T10:50:00.000Z\", s\"01KT783597P8GFAT4S7B6327Y0\" ]",
+      "lat": 43.5116,
+      "lon": 16.44,
+      "type": "PRECIP",
+      "time": "2026-06-03T10:50:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T10:14:00.000Z\", s\"01KT75JTSB69NWBWSP5HQRZHNH\" ]",
+      "lat": 43.59,
+      "lon": 15.922,
+      "type": "PRECIP",
+      "time": "2026-06-03T10:14:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T10:09:00.000Z\", s\"01KT78MG22Q3P2A9C66WMAX2S4\" ]",
+      "lat": 43.702,
+      "lon": 16.635,
+      "type": "PRECIP",
+      "time": "2026-06-03T10:09:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T08:59:00.000Z\", s\"01KT75N9MKTM9HCS52H5FVW5VY\" ]",
+      "lat": 43.908,
+      "lon": 15.516,
+      "type": "PRECIP",
+      "time": "2026-06-03T08:59:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T08:39:00.000Z\", s\"01KT75QH40FYKGB9CM84B3TDRX\" ]",
+      "lat": 43.894,
+      "lon": 15.418,
+      "type": "PRECIP",
+      "time": "2026-06-03T08:39:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T07:39:00.000Z\", s\"01KT75TPB595RTC8Q1F65DYP9N\" ]",
+      "lat": 44.083,
+      "lon": 15.459,
+      "type": "PRECIP",
+      "time": "2026-06-03T07:39:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T07:09:00.000Z\", s\"01KT760PBV40KKZWH1D89TA3MH\" ]",
+      "lat": 44.255,
+      "lon": 15.469,
+      "type": "PRECIP",
+      "time": "2026-06-03T07:09:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T07:09:00.000Z\", s\"01KT75Y4HHKDHYTJB5TGC0GTNV\" ]",
+      "lat": 44.218,
+      "lon": 15.549,
+      "type": "PRECIP",
+      "time": "2026-06-03T07:09:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T06:49:00.000Z\", s\"01KT764KHWGS3Z7GT43BTSAM0Q\" ]",
+      "lat": 44.284,
+      "lon": 15.459,
+      "type": "PRECIP",
+      "time": "2026-06-03T06:49:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T05:39:00.000Z\", s\"01KT769QRB90ZP94SXJEBRMACV\" ]",
+      "lat": 45.392,
+      "lon": 14.476,
+      "type": "PRECIP",
+      "time": "2026-06-03T05:39:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T04:54:00.000Z\", s\"01KT76S5P5MBMJFR19W1SN35SM\" ]",
+      "lat": 45.099,
+      "lon": 14.107,
+      "type": "PRECIP",
+      "time": "2026-06-03T04:54:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T04:49:00.000Z\", s\"01KT76BJ8R48MGYEY0J36A6QV2\" ]",
+      "lat": 45.139,
+      "lon": 14.115,
+      "type": "PRECIP",
+      "time": "2026-06-03T04:49:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T04:44:00.000Z\", s\"01KT76VC5NCFPESYDFK28TAC9R\" ]",
+      "lat": 45.063,
+      "lon": 14.094,
+      "type": "PRECIP",
+      "time": "2026-06-03T04:44:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T04:44:00.000Z\", s\"01KT74RWXJK2BAEW67JAQEXPWT\" ]",
+      "lat": 46.05,
+      "lon": 13.886,
+      "type": "PRECIP",
+      "time": "2026-06-03T04:44:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T04:39:00.000Z\", s\"01KT76PAWK2K930PXE79B11X8Z\" ]",
+      "lat": 45.071,
+      "lon": 14,
+      "type": "PRECIP",
+      "time": "2026-06-03T04:39:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T04:09:00.000Z\", s\"01KT76M9JFY70Q1GFT5G0T89WX\" ]",
+      "lat": 45.014,
+      "lon": 13.764,
+      "type": "PRECIP",
+      "time": "2026-06-03T04:09:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-03T04:09:00.000Z\", s\"01KT76G3G2MQD51N8FYEEZZ3EE\" ]",
+      "lat": 45.039,
+      "lon": 13.743,
+      "type": "PRECIP",
+      "time": "2026-06-03T04:09:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    }
+  ]
+}

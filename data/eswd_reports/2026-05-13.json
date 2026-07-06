@@ -1,0 +1,46 @@
+{
+  "forecast_date": "2026-05-13",
+  "window_start_local": "2026-05-13T06:00:00+02:00",
+  "window_end_local": "2026-05-14T06:00:00+02:00",
+  "window_start_utc": "2026-05-13T04:00:00+00:00",
+  "window_end_utc": "2026-05-14T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 2,
+  "report_count": 2,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-13T21:30:00.000Z\", s\"01KRJSW84GFH4F9PMN146ESRXG\" ]",
+      "lat": 47.0688,
+      "lon": 7.8451,
+      "type": "WIND",
+      "time": "2026-05-13T21:30:00.000Z",
+      "country": "CH",
+      "place": "Napf",
+      "description": "WS recorded a wind gust of 28,8 m/s. (+/- 0,5 m/s)",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Ogimet, date of access: 14 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-13T06:55:00.000Z\", s\"01KRG4P69QKP8XQRPZVFKAN4SS\" ]",
+      "lat": 52.1881,
+      "lon": 7.5507,
+      "type": "HAIL",
+      "time": "2026-05-13T06:55:00.000Z",
+      "country": "DE",
+      "place": "Emsdetten",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observation. WarnWetter (operated by Deutscher Wetterdienst, DWD), 13 MAY 2026"
+      ]
+    }
+  ]
+}

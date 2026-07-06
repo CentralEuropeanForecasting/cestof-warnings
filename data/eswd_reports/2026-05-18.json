@@ -1,0 +1,345 @@
+{
+  "forecast_date": "2026-05-18",
+  "window_start_local": "2026-05-18T06:00:00+02:00",
+  "window_end_local": "2026-05-19T06:00:00+02:00",
+  "window_start_utc": "2026-05-18T04:00:00+00:00",
+  "window_end_utc": "2026-05-19T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 20,
+  "report_count": 20,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-18T20:00:00.000Z\", s\"01KS05MWZ5Y419XHBNE726ZX25\" ]",
+      "lat": 51.9695,
+      "lon": 7.9892,
+      "type": "LIGHTNING",
+      "time": "2026-05-18T20:00:00.000Z",
+      "country": "DE",
+      "place": "Warendorf",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Stadtverwaltung war nach Stromausfall nicht erreichbar\", WARENDORF DIE STADT, 19 MAY 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-18T18:45:00.000Z\", s\"01KS05WSFXCX4CGAMXTNRMX9QZ\" ]",
+      "lat": 51.9698,
+      "lon": 7.6097,
+      "type": "HAIL",
+      "time": "2026-05-18T18:45:00.000Z",
+      "country": "DE",
+      "place": "Münster Neutor",
+      "description": "Large hail 2 cm. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observation. WarnWetter (operated by Deutscher Wetterdienst, DWD), checked: 19 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-18T16:49:00.000Z\", s\"01KRY0FXZPM3FCBQ5JB7SSRNS1\" ]",
+      "lat": 52.3248,
+      "lon": 10.2478,
+      "type": "PRECIP",
+      "time": "2026-05-18T16:49:00.000Z",
+      "country": "DE",
+      "place": "Peine",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IPEINE83 (wunderground.com), 18 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-18T16:48:00.000Z\", s\"01KRY034JF0891XQYNV8RMJBCX\" ]",
+      "lat": 52.2723,
+      "lon": 10.2252,
+      "type": "PRECIP",
+      "time": "2026-05-18T16:48:00.000Z",
+      "country": "DE",
+      "place": "Groß Ilsede",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IILSED20 (wunderground.com), 18 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-18T16:35:00.000Z\", s\"01KRZJCR346CGYRQCEV60F7ZA7\" ]",
+      "lat": 52.3209,
+      "lon": 10.2349,
+      "type": "PRECIP",
+      "time": "2026-05-18T16:35:00.000Z",
+      "country": "DE",
+      "place": "Peine",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Zahlreiche Feuerwehreinsätze nach Unwetter in Peine\", PEINER ALLGEMEINE ZEITUNG, 19 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-18T16:34:00.000Z\", s\"01KRY0CGDP3Q5NMJBTHX4N3R3V\" ]",
+      "lat": 52.3067,
+      "lon": 10.2112,
+      "type": "PRECIP",
+      "time": "2026-05-18T16:34:00.000Z",
+      "country": "DE",
+      "place": "Peine Woltorf",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IPEINE59 (wunderground.com), 18 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-18T16:34:00.000Z\", s\"01KRY079BXA05964JSPBT0RSMD\" ]",
+      "lat": 52.2862,
+      "lon": 10.2269,
+      "type": "PRECIP",
+      "time": "2026-05-18T16:34:00.000Z",
+      "country": "DE",
+      "place": "Klein Ilsede",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IILSED40 (wunderground.com), 18 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-18T16:34:00.000Z\", s\"01KRY0118D8CFDXHVWCD5JGYZK\" ]",
+      "lat": 52.2657,
+      "lon": 10.2123,
+      "type": "PRECIP",
+      "time": "2026-05-18T16:34:00.000Z",
+      "country": "DE",
+      "place": "Neuölsburg",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IILSED43 (wunderground.com), 18 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-18T16:30:00.000Z\", s\"01KRZJEXCE79GDVNKZG2Z1GPNV\" ]",
+      "lat": 52.2602,
+      "lon": 10.2155,
+      "type": "PRECIP",
+      "time": "2026-05-18T16:30:00.000Z",
+      "country": "DE",
+      "place": "Ilsede",
+      "description": null,
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Peine: Heftiges Unwetter sorgt für zahlreiche Einsätze\", NDR, 19 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-18T16:30:00.000Z\", s\"01KRXZQADHPP218TP57TFMDP97\" ]",
+      "lat": 52.2251,
+      "lon": 10.243,
+      "type": "PRECIP",
+      "time": "2026-05-18T16:30:00.000Z",
+      "country": "DE",
+      "place": "Groß Lafferde",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IILSED46 (wunderground.com), 18 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-18T16:29:00.000Z\", s\"01KRY0MBD5VJM530VDY4ATMQBF\" ]",
+      "lat": 52.3475,
+      "lon": 10.2503,
+      "type": "PRECIP",
+      "time": "2026-05-18T16:29:00.000Z",
+      "country": "DE",
+      "place": "Stederdorf",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IPEINE84 (wunderground.com), 18 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-18T16:29:00.000Z\", s\"01KRY057S77HK3D21CTC56AR5V\" ]",
+      "lat": 52.2822,
+      "lon": 10.236,
+      "type": "PRECIP",
+      "time": "2026-05-18T16:29:00.000Z",
+      "country": "DE",
+      "place": "Klein Ilsede",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IILSED32 (wunderground.com), 18 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-18T16:29:00.000Z\", s\"01KRXZW1VBEB37WBNA3SYQDHW0\" ]",
+      "lat": 52.2446,
+      "lon": 10.2185,
+      "type": "PRECIP",
+      "time": "2026-05-18T16:29:00.000Z",
+      "country": "DE",
+      "place": "Gadenstedt",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IILSED27 (wunderground.com), 18 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-18T16:20:00.000Z\", s\"01KRXZYS2KHT1030EC6VQM8BPZ\" ]",
+      "lat": 52.2548,
+      "lon": 10.2463,
+      "type": "PRECIP",
+      "time": "2026-05-18T16:20:00.000Z",
+      "country": "DE",
+      "place": "Oberg",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IILSEDE15 (wunderground.com), 18 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-18T16:07:00.000Z\", s\"01KRXYWEMN1H7MJYCR9RVQG4MG\" ]",
+      "lat": 52.2664,
+      "lon": 10.2228,
+      "type": "HAIL",
+      "time": "2026-05-18T16:07:00.000Z",
+      "country": "DE",
+      "place": "Groß Ilsede",
+      "description": "Large hail 2 cm. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter (operated by Deutscher Wetterdienst, DWD), 18 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-18T16:05:00.000Z\", s\"01KRXZM62K91GT5KFDAQ0W1VNC\" ]",
+      "lat": 52.1221,
+      "lon": 10.2246,
+      "type": "PRECIP",
+      "time": "2026-05-18T16:05:00.000Z",
+      "country": "DE",
+      "place": "Westerlinde",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS INIEDERS769 (wunderground.com), 18 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-18T16:00:00.000Z\", s\"01KS0057F6NPJ93167F2JMAD7Y\" ]",
+      "lat": 52.1364,
+      "lon": 10.2181,
+      "type": "PRECIP",
+      "time": "2026-05-18T16:00:00.000Z",
+      "country": "DE",
+      "place": "Hohenassel",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Starkregen und Schlamm – Unwetter beschäftigt Feuerwehren der Samtgemeinde Baddeckenstedt \", SALZGITTER ZEITUNG, 19 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-18T16:00:00.000Z\", s\"01KS0048RCN3EXQAT1WQ87WBRN\" ]",
+      "lat": 52.161,
+      "lon": 10.1954,
+      "type": "PRECIP",
+      "time": "2026-05-18T16:00:00.000Z",
+      "country": "DE",
+      "place": "Berel",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Starkregen und Schlamm – Unwetter beschäftigt Feuerwehren der Samtgemeinde Baddeckenstedt \", SALZGITTER ZEITUNG, 19 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-18T15:50:00.000Z\", s\"01KS002PQT9AW1QRP4JJPQ6SZ1\" ]",
+      "lat": 52.0653,
+      "lon": 10.2472,
+      "type": "PRECIP",
+      "time": "2026-05-18T15:50:00.000Z",
+      "country": "DE",
+      "place": "Heere",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Starkregen und Schlamm – Unwetter beschäftigt Feuerwehren der Samtgemeinde Baddeckenstedt \", SALZGITTER ZEITUNG, 19 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-18T15:40:00.000Z\", s\"01KSJ8Q0D1ZXEH8DCA6GRTYJ4B\" ]",
+      "lat": 53.4776,
+      "lon": 7.2047,
+      "type": "TORNADO",
+      "time": "2026-05-18T15:40:00.000Z",
+      "country": "DE",
+      "place": "Wirdum",
+      "description": "CGD >50%. Tornado plausible",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observation, v. Tornadoliste Deutschland, checked: 26 MAY 2026",
+        "witness observation v. DWD (com. Marcus Beyer, DWD). Photo material"
+      ]
+    }
+  ]
+}

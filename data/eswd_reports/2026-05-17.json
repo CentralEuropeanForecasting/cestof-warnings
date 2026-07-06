@@ -1,0 +1,103 @@
+{
+  "forecast_date": "2026-05-17",
+  "window_start_local": "2026-05-17T06:00:00+02:00",
+  "window_end_local": "2026-05-18T06:00:00+02:00",
+  "window_start_utc": "2026-05-17T04:00:00+00:00",
+  "window_end_utc": "2026-05-18T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 5,
+  "report_count": 5,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-17T15:55:00.000Z\", s\"01KRVMBTAVGK33XA26N83ZYAV9\" ]",
+      "lat": 50.3488,
+      "lon": 23.3274,
+      "type": "PRECIP",
+      "time": "2026-05-17T15:55:00.000Z",
+      "country": "PL",
+      "place": "Narol",
+      "description": "Local flooding was reported after the passage of a thunderstorm.  Local firefighting units intervened 7 times to the flooded basements. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "GOV"
+      ],
+      "references": [
+        "\"Potężna burza z gradem nad Narolem. Trwa akcja strażaków [ZDJĘCIA]\", Z Lubaczowa, 17 MAY 2026.",
+        "OSP KSRG Narol (on Facebook), 18 MAY 2026.",
+        "\"Zalane piwnice po burzy gradowej. Mocno lunęło nad Narolem\", Nowiny, 18 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-17T15:50:00.000Z\", s\"01KRVM4CH56YAMQVTX790FED2K\" ]",
+      "lat": 50.3847,
+      "lon": 23.4378,
+      "type": "HAIL",
+      "time": "2026-05-17T15:50:00.000Z",
+      "country": "PL",
+      "place": "Bełżec",
+      "description": "Large hail up to at least 2 cm i.d. was reported after the passage of a nearly stationary RM supercell thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EVTPHOTO",
+        "EYEWTN"
+      ],
+      "references": [
+        "Eyewitness report via Sieć Obserwatorów Burz (on Facebook), 17 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-17T15:44:00.000Z\", s\"01KRVM8AVNGGACPMAVAQ6J129V\" ]",
+      "lat": 50.3342,
+      "lon": 23.336,
+      "type": "PRECIP",
+      "time": "2026-05-17T15:44:00.000Z",
+      "country": "PL",
+      "place": "Jędrzejówka",
+      "description": "PWS recorded a rain amount of 73,7 mm in 70 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Stacja meteo - IJDRZE4\", Wunderground, date of access: 17 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-17T15:15:00.000Z\", s\"01KRVKWE9GCSZ743Z9XYDTQP8G\" ]",
+      "lat": 50.3488,
+      "lon": 23.3274,
+      "type": "HAIL",
+      "time": "2026-05-17T15:15:00.000Z",
+      "country": "PL",
+      "place": "Narol",
+      "description": "Large hail up to at least 2 cm i.d. was reported after the passage of a nearly stationary RM supercell thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EVTPHOTO",
+        "EYEWTN",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "\"Potężna burza z gradem nad Narolem. Trwa akcja strażaków [ZDJĘCIA]\", Z Lubaczowa, 17 MAY 2026.",
+        "\"Nawałnica i gradobicie nad Narolem. Zalane piwnice i ogromne straty\", roztocze.net, 18 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-17T04:00:00.000Z\", s\"01KRXJQTETH5A0NCE45GF814DX\" ]",
+      "lat": 49.026,
+      "lon": 21.276,
+      "type": "PRECIP",
+      "time": "2026-05-17T04:00:00.000Z",
+      "country": "SK",
+      "place": "Nižná Šebastová",
+      "description": "The bridge in the village Nižná Šebastová due to intense rainfall (in the area fell over 60 mm rainfall in the last two days) has problems during the reconstruction. Wood and mud deposits have released the supports and are therefore closed.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "facebook, 2026-05-17"
+      ]
+    }
+  ]
+}

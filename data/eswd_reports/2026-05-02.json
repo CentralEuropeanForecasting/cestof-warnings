@@ -1,0 +1,154 @@
+{
+  "forecast_date": "2026-05-02",
+  "window_start_local": "2026-05-02T06:00:00+02:00",
+  "window_end_local": "2026-05-03T06:00:00+02:00",
+  "window_start_utc": "2026-05-02T04:00:00+00:00",
+  "window_end_utc": "2026-05-03T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 8,
+  "report_count": 8,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-02T20:48:00.000Z\", s\"01KQS2Z33T9K47CKC2WFNWQFT2\" ]",
+      "lat": 51.6861,
+      "lon": 7.8442,
+      "type": "LIGHTNING",
+      "time": "2026-05-02T20:48:00.000Z",
+      "country": "DE",
+      "place": "Hamm Uentrop",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Kurioser Blitz-Einschlag mit Stromausfall: Feuerwehr findet keine Brandstellen\", WA.de, 03 MAY 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-02T18:49:00.000Z\", s\"01KQS2JG3X9CKYEJK1C98BRV46\" ]",
+      "lat": 51.1125,
+      "lon": 6.146,
+      "type": "LIGHTNING",
+      "time": "2026-05-02T18:49:00.000Z",
+      "country": "DE",
+      "place": "Birgelen",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Blitzeinschläge sorgen für Feuer und Sachschäden\", RHEINISCHE POST, 03 MAY 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-02T18:30:00.000Z\", s\"01KQPWYS8N94G05MY47HY39XBG\" ]",
+      "lat": 51.3331,
+      "lon": 6.5623,
+      "type": "PRECIP",
+      "time": "2026-05-02T18:30:00.000Z",
+      "country": "DE",
+      "place": "Krefeld",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "\"Land unter nach Starkregen in Krefeld: Unwetter entladen sich am Samstagabend\", NONSTOPNEWS.de, 02 MAY 2026",
+        "Pressemitteilung der Feuerwehr Krefeld, 02 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-02T18:10:00.000Z\", s\"01KQPX6Z1QAEYGN4EEB4JV31KV\" ]",
+      "lat": 51.194,
+      "lon": 6.43,
+      "type": "WIND",
+      "time": "2026-05-02T18:10:00.000Z",
+      "country": "DE",
+      "place": "Mönchengladbach",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "\"FW-MG: Abendliches Unwetter führt zu kurzfristig gesteigertem Einsatzaufkommen\", PRESSEPORTAL.de, 02 MAY 2026",
+        "Stadt Mönchengladbach Fachbereich 37 - Feuerwehr Führungs- und Lagezentrum, 02 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-02T18:10:00.000Z\", s\"01KQPX5KK0YTN22S3CJSBVDPKG\" ]",
+      "lat": 51.1947,
+      "lon": 6.4354,
+      "type": "PRECIP",
+      "time": "2026-05-02T18:10:00.000Z",
+      "country": "DE",
+      "place": "Mönchengladbach",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "\"FW-MG: Abendliches Unwetter führt zu kurzfristig gesteigertem Einsatzaufkommen\", PRESSEPORTAL.de, 02 MAY 2026",
+        "Stadt Mönchengladbach Fachbereich 37 - Feuerwehr Führungs- und Lagezentrum, 02 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-02T15:30:00.000Z\", s\"01KQPW58PWH5GSR0PZ6S4TJEMR\" ]",
+      "lat": 50.7404,
+      "lon": 6.0419,
+      "type": "HAIL",
+      "time": "2026-05-02T15:30:00.000Z",
+      "country": "DE",
+      "place": "Preuswald",
+      "description": "Large hail up to 2cm i.d. reported by witness",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observation. WarnWetter (Deutsche Wetterdienst, DWD). Maintained by DWD. 02 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-02T15:30:00.000Z\", s\"01KQPW3QDPTH42JS17Q23DHEC9\" ]",
+      "lat": 50.7587,
+      "lon": 6.0581,
+      "type": "HAIL",
+      "time": "2026-05-02T15:30:00.000Z",
+      "country": "DE",
+      "place": "Gut Hasselholz",
+      "description": "Large hail up to 2cm i.d. reported by witness",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observation. WarnWetter (Deutsche Wetterdienst, DWD). Maintained by DWD. 02 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-02T14:15:00.000Z\", s\"01KQPW8E6ZKHDJSXN3KK4KYEZS\" ]",
+      "lat": 51.4414,
+      "lon": 6.5468,
+      "type": "HAIL",
+      "time": "2026-05-02T14:15:00.000Z",
+      "country": "DE",
+      "place": "Neukirchen-Vluyn",
+      "description": "Large hail up to 2cm i.d. reported by witness + photo",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. WarnWetter (Deutsche Wetterdienst, DWD). Maintained by DWD. 02 MAY 2026"
+      ]
+    }
+  ]
+}

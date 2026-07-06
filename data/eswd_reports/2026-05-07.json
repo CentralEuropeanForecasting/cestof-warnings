@@ -1,0 +1,199 @@
+{
+  "forecast_date": "2026-05-07",
+  "window_start_local": "2026-05-07T06:00:00+02:00",
+  "window_end_local": "2026-05-08T06:00:00+02:00",
+  "window_start_utc": "2026-05-07T04:00:00+00:00",
+  "window_end_utc": "2026-05-08T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 10,
+  "report_count": 10,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-07T17:46:00.000Z\", s\"01KR42DWJG179BTHD58Y4TR2AY\" ]",
+      "lat": 47.2093,
+      "lon": 15.6262,
+      "type": "LIGHTNING",
+      "time": "2026-05-07T17:46:00.000Z",
+      "country": "AT",
+      "place": "Weiz",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Unwetter in der Steiermark: Blitz schlägt in Wohnhaus ein\", 5min.at, 08 MAY 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-07T17:30:00.000Z\", s\"01KR29HNP0HFZVGJBG0G1WRK1Q\" ]",
+      "lat": 46.97873,
+      "lon": 15.52711,
+      "type": "HAIL",
+      "time": "2026-05-07T17:30:00.000Z",
+      "country": "AT",
+      "place": "Gnaning",
+      "description": null,
+      "info_source": [
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "User report on Facebook via Skywarn Austria - Aktuelle Wetterwarnungen für Österreich"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-07T17:26:00.000Z\", s\"01KR28PPQ2MT4WE7V8JQ3H82S3\" ]",
+      "lat": 47.013997,
+      "lon": 15.428388,
+      "type": "HAIL",
+      "time": "2026-05-07T17:26:00.000Z",
+      "country": "AT",
+      "place": "Neuseiersberg",
+      "description": null,
+      "info_source": [
+        "EYEWTN",
+        "SPTR"
+      ],
+      "references": [
+        "User report via Skywarn Austria weather observer"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-07T16:17:00.000Z\", s\"01KR341YG4F4PZXSRG6BCNJ1T9\" ]",
+      "lat": 50.4559,
+      "lon": 18.3522,
+      "type": "HAIL",
+      "time": "2026-05-07T16:17:00.000Z",
+      "country": "PL",
+      "place": "Sieroniowice",
+      "description": "Large hail up to about 2 cm i.d. with hail cover thickness up to at least 2 cm was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Potłuczone szklarnie, zniszczone uprawy i białe ulice. Potężne gradobicie w regionie\", Nowa Trybuna Opolska, 07 MAY 2026.",
+        "Eyewitness report via Strzelec Opolski (on Facebook), 07 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-07T15:51:00.000Z\", s\"01KR42613337XYNTRQTQ27CB7E\" ]",
+      "lat": 47.3487,
+      "lon": 15.817,
+      "type": "LIGHTNING",
+      "time": "2026-05-07T15:51:00.000Z",
+      "country": "AT",
+      "place": "Prätis",
+      "description": "Wildfire/Forest fire",
+      "info_source": [
+        "WWW",
+        "WXSVC",
+        "GOV"
+      ],
+      "references": [
+        "\"Waldbrand nach Blitzschlag in Prätis\", FREIWILLIGE FEUERWEHR PÖLLAU, 07 MAY 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-07T15:50:00.000Z\", s\"01KR344ZCRBSN6W2J40YHT5PJS\" ]",
+      "lat": 50.4108,
+      "lon": 18.0467,
+      "type": "HAIL",
+      "time": "2026-05-07T15:50:00.000Z",
+      "country": "PL",
+      "place": "Stradunia",
+      "description": "Hail cover thickness up to at least 2 cm was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Tygodnik Krapkowicki (on Facebook), 07 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-07T13:10:00.000Z\", s\"01KR33BNFH9NJC9NN3BHJBEGGT\" ]",
+      "lat": 51.1469,
+      "lon": 18.9957,
+      "type": "HAIL",
+      "time": "2026-05-07T13:10:00.000Z",
+      "country": "PL",
+      "place": "Pajęczno",
+      "description": "Large hail up to at least 3,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Polscy Łowcy Burz (on Facebook), 07 MAY 2026.",
+        "Eyewitness report via Łowcy Burz Łódzkie (on Facebook), 07 MAY 2026.",
+        "Eyewitness report via Twoje Pajęczno (on Facebook), 07 MAY 2026.",
+        "Eyewitness report via Radio ZW (on Facebook), 07 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-07T13:08:00.000Z\", s\"01KR3CGXQX2C6Q1DS8EDCG7FQF\" ]",
+      "lat": 51.1536,
+      "lon": 18.973,
+      "type": "HAIL",
+      "time": "2026-05-07T13:08:00.000Z",
+      "country": "PL",
+      "place": "Dylów Szlachecki",
+      "description": "Large hail up to at least 3,5 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Stowarzyszenie Rozwoju Wsi Dylów Szlachecki \"Nasza Wieś Szlachecka\" (on Facebook), 07 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-07T13:06:00.000Z\", s\"01KR33QZK4DQE1EZ8C983YSPFJ\" ]",
+      "lat": 51.1536,
+      "lon": 18.973,
+      "type": "HAIL",
+      "time": "2026-05-07T13:06:00.000Z",
+      "country": "PL",
+      "place": "Dylów Szlachecki",
+      "description": "Large hail up to at least 3-4 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Stowarzyszenie Rozwoju Wsi Dylów Szlachecki \"Nasza Wieś Szlachecka (on Facebook), 07 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-07T11:00:00.000Z\", s\"01KR1X3EABY3MRA05W1HHC30DV\" ]",
+      "lat": 47.701,
+      "lon": 16.008,
+      "type": "PRECIP",
+      "time": "2026-05-07T11:00:00.000Z",
+      "country": "AT",
+      "place": "Pottschach",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "TAWES weather station by Geosphere Austria. Accessed via Hydrographic Service of Burgenland, 7 May 2026.",
+        "RAD."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "forecast_date": "2026-06-05",
+  "window_start_local": "2026-06-05T06:00:00+02:00",
+  "window_end_local": "2026-06-06T06:00:00+02:00",
+  "window_start_utc": "2026-06-05T04:00:00+00:00",
+  "window_end_utc": "2026-06-06T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 4,
+  "report_count": 4,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-06-05T13:36:00.000Z\", s\"01KTKT8C20B6WQR582QRW4DNNH\" ]",
+      "lat": 52.8947,
+      "lon": 8.9136,
+      "type": "LIGHTNING",
+      "time": "2026-06-05T13:36:00.000Z",
+      "country": "DE",
+      "place": "Gödestorf",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "WXSVC",
+        "GOV"
+      ],
+      "references": [
+        "POL-DH: Pressemitteilung der Polizeiinspektion Diepholz vom 06.06.2026; Polizeiinspektion Diepholz, 06 JUN 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-05T13:11:00.000Z\", s\"01KTKRF0HE24DC25P06A8Q0YCV\" ]",
+      "lat": 53.0379,
+      "lon": 8.6267,
+      "type": "LIGHTNING",
+      "time": "2026-06-05T13:11:00.000Z",
+      "country": "DE",
+      "place": "Delmenhorst Düsternort",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Blitzeinschlag in Mehrparteienhaus\", DELMENEWS.de, 08 JUN 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-05T13:00:00.000Z\", s\"01KTHY60M2WZA2NGYH7JQNNT25\" ]",
+      "lat": 50.7816,
+      "lon": 14.1441,
+      "type": "TORNADO",
+      "time": "2026-06-05T13:00:00.000Z",
+      "country": "CZ",
+      "place": "Bynov",
+      "description": "CHMU confirmed a tornado in Děčín Bynov on Friday. Multiple eyewitness videos show a rapidly rotating column of air with strong upward motion beneath the storm. Amateur meteorologist David Boura documented ground damage, including an uprooted weak tree. The tornado was rated IF0.5.",
+      "info_source": [
+        "WXSVC",
+        "SPTR",
+        "EYEWTN",
+        "DMGEYEWTN",
+        "DMGPHOTO",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Český hydrometeorologický ústav (on X),  07 Jun 2026",
+        "Eyewitness report via  Český hydrometeorologický ústav (on Facebook), 07 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-05T12:22:00.000Z\", s\"01KTF3FJ2T4MTH3ZMATSEW6K3W\" ]",
+      "lat": 53.847,
+      "lon": 21.468,
+      "type": "TORNADO",
+      "time": "2026-06-05T12:22:00.000Z",
+      "country": "PL",
+      "place": "Cudnochy",
+      "description": "A brief tornado was observed. A velocity couplet was identified in radar data.[EDIT, 06.06.2026, Igor Laskowski] Damage was reported in Inulec, including a damaged tin garage and an uprooted spruce tree (DI: TRW/DoD 3 = IF0.5). According to eyewitness reports, a tornado was responsible for the damage. The tornado was captured on video from Faszcze, although at that time it was moving through the Cudnochy area. Further updates will follow. [EDIT, 08.06.2026, Igor Laskowski] A further damage survey conducted by Jakub Malczyk revealed tornado-related damage in a local forest near Cudnochy. Several weak pine trees were snapped (DI: TRW/DoD 5 = IF1), while several other pine trees were uprooted. Consequently, the tornado rating was upgraded to IF1. Path length at least 3,3 km.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "EMAIL",
+        "SPTR",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Polscy Łowcy Burz (on X), 05 JUN 2026.",
+        "Eyewitness report via Polscy Łowcy Burz (on Facebook), 06 JUN 2026.",
+        "Eyewitness report via Piotr Szuster (on X), 07 JUN 2026."
+      ]
+    }
+  ]
+}

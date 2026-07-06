@@ -1,0 +1,29 @@
+{
+  "forecast_date": "2026-05-28",
+  "window_start_local": "2026-05-28T06:00:00+02:00",
+  "window_end_local": "2026-05-29T06:00:00+02:00",
+  "window_start_utc": "2026-05-28T04:00:00+00:00",
+  "window_end_utc": "2026-05-29T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 1,
+  "report_count": 1,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-28T13:35:00.000Z\", s\"01KSQGKMXV0HGATWF5M08W9KAQ\" ]",
+      "lat": 47.6286,
+      "lon": 7.9053,
+      "type": "HAIL",
+      "time": "2026-05-28T13:35:00.000Z",
+      "country": "DE",
+      "place": "Wehr",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observation. WarnWetter (operated by Deutscher Wetterdienst, DWD), 28 MAY 2026"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "forecast_date": "2026-06-13",
+  "window_start_local": "2026-06-13T06:00:00+02:00",
+  "window_end_local": "2026-06-14T06:00:00+02:00",
+  "window_start_utc": "2026-06-13T04:00:00+00:00",
+  "window_end_utc": "2026-06-14T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 25,
+  "report_count": 25,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-06-13T19:00:00.000Z\", s\"01KVDEDNE13VDEPF2HSN7QZC0T\" ]",
+      "lat": 50.7163,
+      "lon": 16.835,
+      "type": "WIND",
+      "time": "2026-06-13T19:00:00.000Z",
+      "country": "PL",
+      "place": "Niemcza",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Ochotnicza Straż Pożarna w Gilowie (on Facebook), 14 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T18:50:00.000Z\", s\"01KV895C9TFF3PXJRWP08GP79H\" ]",
+      "lat": 52.2159,
+      "lon": 18.2988,
+      "type": "WIND",
+      "time": "2026-06-13T18:50:00.000Z",
+      "country": "PL",
+      "place": "Zalesie",
+      "description": "A broken power line killed three horses in the morning hours. A power line was broken probably a day before in the evening. The time was based on radar data and PWS data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "\"Trzy konie zginęły w Wielkopolsce! \"Porażone prądem\"\", Super Express Poznań, 14 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T18:30:00.000Z\", s\"01KVDE6WQQQ7PRZE0J6QNPAAE9\" ]",
+      "lat": 52.1551,
+      "lon": 16.8909,
+      "type": "WIND",
+      "time": "2026-06-13T18:30:00.000Z",
+      "country": "PL",
+      "place": "Sulejewo",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "GOV"
+      ],
+      "references": [
+        "Osp Grzybno (on Facebook), 13 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T18:30:00.000Z\", s\"01KV1HW97B86NQM3Z02Y2BD8BQ\" ]",
+      "lat": 51.1,
+      "lon": 17.04,
+      "type": "WIND",
+      "time": "2026-06-13T18:30:00.000Z",
+      "country": "PL",
+      "place": "Wrocław",
+      "description": "Numerous trees were snapped/uprooted and large tree branches were broken in Wrocław during the passage of a thunderstorm. Tram lines were damaged by falling tree branches, roads and railroads were blocked by downed trees. Power outages were reported.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "24wroclaw.pl (on facebook), 13 Jun 2026",
+        "Wrocławski Reporter (on facebook), 13 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T18:05:00.000Z\", s\"01KV59GCYPGJQRCVNC0QJSM26A\" ]",
+      "lat": 51.227,
+      "lon": 16.482,
+      "type": "WIND",
+      "time": "2026-06-13T18:05:00.000Z",
+      "country": "PL",
+      "place": "Malczyce",
+      "description": "A downed tree on the road was reported after the passage of a QLCS thunderstorm. Time was based on a radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Ochotnicza Straż Pożarna w Malczycach (on facebook), 14 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T18:00:00.000Z\", s\"01KV1GCAPEC5JGJDFF21BH96VE\" ]",
+      "lat": 52.1554,
+      "lon": 17.347,
+      "type": "WIND",
+      "time": "2026-06-13T18:00:00.000Z",
+      "country": "PL",
+      "place": "Murzynowo Leśne",
+      "description": "A tree was snapped by a strong wind related to a passing QLCS thunderstorm. Time was based on a radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "OSP Murzynowo Leśne (on facebook), 13 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T18:00:00.000Z\", s\"01KV1AZF4AYXJJTD2TZTCY9SPK\" ]",
+      "lat": 51.2023,
+      "lon": 16.3095,
+      "type": "WIND",
+      "time": "2026-06-13T18:00:00.000Z",
+      "country": "PL",
+      "place": "Rosochata",
+      "description": "A roof of at least one residential building in Rosochata was either damaged or torn off during the passage of a QLCS thunderstorm. Time was based on a radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Nawałnica przeszła nad Legnicą i powiatem, lca.pl, 13 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T17:50:00.000Z\", s\"01KV5ESK45MB7WE819KBKNMJB8\" ]",
+      "lat": 51.98,
+      "lon": 17.06,
+      "type": "WIND",
+      "time": "2026-06-13T17:50:00.000Z",
+      "country": "PL",
+      "place": "Dolsk",
+      "description": "A roof was damaged (fallen roof tiles) after the passage of a QLCS thunderstorm. Time was based on a radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "GOV"
+      ],
+      "references": [
+        "OSP Małachowo (on facebook), 13 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T17:50:00.000Z\", s\"01KV1AKHY8J1CQ3MTCT6KMJDBD\" ]",
+      "lat": 51.204,
+      "lon": 16.1676,
+      "type": "WIND",
+      "time": "2026-06-13T17:50:00.000Z",
+      "country": "PL",
+      "place": "Legnica",
+      "description": "Numerous trees were downed in Legnica during the passage of a QLCS thunderstorm. Time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Nawałnica przeszła nad Legnicą i powiatem, lca.pl, 13 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T17:40:00.000Z\", s\"01KVDE8EDH68VJSQ0KC584PEH1\" ]",
+      "lat": 52.2238,
+      "lon": 17.0381,
+      "type": "WIND",
+      "time": "2026-06-13T17:40:00.000Z",
+      "country": "PL",
+      "place": "Konarskie",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "GOV"
+      ],
+      "references": [
+        "Osp Grzybno (on Facebook), 13 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T17:30:00.000Z\", s\"01KVG94D4QHKK0M4X7RQRFW5RX\" ]",
+      "lat": 53.1247,
+      "lon": 14.7913,
+      "type": "WIND",
+      "time": "2026-06-13T17:30:00.000Z",
+      "country": "PL",
+      "place": "Łozice",
+      "description": "Downed trees were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Drzewa zablokowały drogi\", Tygodnik Swarzędzki, 13 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T17:30:00.000Z\", s\"01KV1GSWEHP5HKEMZSXX5FRM3W\" ]",
+      "lat": 52.4106,
+      "lon": 17.0788,
+      "type": "WIND",
+      "time": "2026-06-13T17:30:00.000Z",
+      "country": "PL",
+      "place": "Swarzędz",
+      "description": "A tree was uprooted by a strong wind related to a passing QLCS thunderstorm. Time was based on a radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Łukasz Kuliński - Wielkopolski Łowca Burz (on facebook), 13 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T17:25:00.000Z\", s\"01KV1JYPX0VKT52QD3S2273YQ0\" ]",
+      "lat": 52.4,
+      "lon": 16.879,
+      "type": "WIND",
+      "time": "2026-06-13T17:25:00.000Z",
+      "country": "PL",
+      "place": "Poznań",
+      "description": "Numerous trees were reportedly damaged and large tree branches were snapped in Poznań during the passage of a thunderstorm. Time was based on a radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Ulewa i burza w Wielkopolsce. Strażacy odebrali już ponad 130 zgłoszeń, epoznan.pl, 13 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T17:20:00.000Z\", s\"01KV1F82JT9XNWW93S1Q2J3T63\" ]",
+      "lat": 51.2512,
+      "lon": 15.5685,
+      "type": "WIND",
+      "time": "2026-06-13T17:20:00.000Z",
+      "country": "PL",
+      "place": "Bolesławiec",
+      "description": "Numerous trees were uprooted and tree branches were snapped by a passing QLCS thunderstorm in Bolesławiec. Time was based on a radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Nawałnica nad Bolesławcem i powiatem. Strażacy walczą z jej skutkami, istotne.pl, 13 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T17:05:00.000Z\", s\"01KV59ZC8NHSJ7ZJ7AF8TTSPNM\" ]",
+      "lat": 52.0858,
+      "lon": 16.2474,
+      "type": "WIND",
+      "time": "2026-06-13T17:05:00.000Z",
+      "country": "PL",
+      "place": "Błocko",
+      "description": "Multiple trees and large tree branches were downed on a road between Tarnowa and Błocko during the passage of a QLCS thunderstorm.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP Rakoniewice (on facebook), 14 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T15:35:00.000Z\", s\"01KV5AY76EFDD3QVB4AS59TPQE\" ]",
+      "lat": 50.434,
+      "lon": 16.2672,
+      "type": "WIND",
+      "time": "2026-06-13T15:35:00.000Z",
+      "country": "PL",
+      "place": "Jerzykowice Wielkie",
+      "description": "Multiple trees were downed in Jerzykowice Wielkie, likely during the passage of a convective cell. Time was based on a radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "GOV"
+      ],
+      "references": [
+        "OSP Lewin Kłodzki (on facebook), 13 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T15:35:00.000Z\", s\"01KV5AEXA2PZP2N2P1SEF1W5FM\" ]",
+      "lat": 52.5852,
+      "lon": 14.9216,
+      "type": "WIND",
+      "time": "2026-06-13T15:35:00.000Z",
+      "country": "PL",
+      "place": "Lemierzyce",
+      "description": "Multiple trees were downed on a road between Lemierzyce, Głuchowo and Lemierzycko during the passage of a thunderstorm. Time was based on a radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "GOV"
+      ],
+      "references": [
+        "OSP Słońsk (on facebook), 14 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T15:15:00.000Z\", s\"01KVDEV6M66Q52M7AT1E0F73DS\" ]",
+      "lat": 53.0863,
+      "lon": 18.6217,
+      "type": "WIND",
+      "time": "2026-06-13T15:15:00.000Z",
+      "country": "PL",
+      "place": "Łysomice",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP KSRG Lulkowo (on Facebook), 13 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T15:10:00.000Z\", s\"01KVDETB3TA5WW7CP14CWEBFEV\" ]",
+      "lat": 53.0946,
+      "lon": 18.5372,
+      "type": "WIND",
+      "time": "2026-06-13T15:10:00.000Z",
+      "country": "PL",
+      "place": "Różankowo",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP KSRG Lulkowo (on Facebook), 13 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T14:50:00.000Z\", s\"01KV1C5H7E1KBY5C0HAGTGQRM7\" ]",
+      "lat": 53.0787,
+      "lon": 18.2354,
+      "type": "WIND",
+      "time": "2026-06-13T14:50:00.000Z",
+      "country": "PL",
+      "place": "Solec Kujawski",
+      "description": "Numerous trees were downed and large tree branches were snapped in Solec Kujawski after the passage of a thunderstorm. Local rope park and power lines were damaged by falling trees. Catering tent was blown away by the wind.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "OSP Solec Kujawski (on Facebook), 13 Jun 2026",
+        "Kilkadziesiąt interwencji straży pożarnej po burzy. W Bydgoszczy konar drzewa przygniótł kobietę, Express Bydgoski, 13 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T14:35:00.000Z\", s\"01KV1EQ12ZN4AS8DRS5TQJSFMJ\" ]",
+      "lat": 53.1276,
+      "lon": 18.0495,
+      "type": "WIND",
+      "time": "2026-06-13T14:35:00.000Z",
+      "country": "PL",
+      "place": "Bydgoszcz",
+      "description": "A woman was injured by a falling tree branch during the passage of a thunderstorm in Bydgoszcz (Bartodzieje district). Time was based on a radar data. Numerous trees were snapped or uprooted. At least one car was damaged by a falling tree. A roof of a hospital was damaged (Bielawy district)",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Kilkadziesiąt interwencji straży pożarnej po burzy. W Bydgoszczy konar drzewa przygniótł kobietę, Express Bydgoski, 13 Jun 2026",
+        "Około 60 interwencji straży pożarnej. To skutek burzy, która przeszła przez województwo kujawsko-pomorskie, Nowości, 13 Jun 2026",
+        "Burza i silny wiatr nad regionem. Na kobietę w Bydgoszczy spadło drzewo, uszkodzony dach w szpitalu! , TVP3 Bydgoszcz, 13 Jun 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T14:05:00.000Z\", s\"01KVDER3Q27XFQPHMMVTZS2VAN\" ]",
+      "lat": 52.9904,
+      "lon": 17.4303,
+      "type": "WIND",
+      "time": "2026-06-13T14:05:00.000Z",
+      "country": "PL",
+      "place": "Grocholin",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "KSRG OSP Kcynia (on Facebook), 13 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T13:35:00.000Z\", s\"01KVDEJRWA3SSHSTW04JBE40P5\" ]",
+      "lat": 53.1113,
+      "lon": 17.0067,
+      "type": "WIND",
+      "time": "2026-06-13T13:35:00.000Z",
+      "country": "PL",
+      "place": "Brzostowo",
+      "description": "Damaged roof was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP Miasteczko Krajeńskie (on Facebook), 14 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T12:35:00.000Z\", s\"01KV885JJEVT9AJVKPGSA2ZJQY\" ]",
+      "lat": 54.1356,
+      "lon": 21.4403,
+      "type": "TORNADO",
+      "time": "2026-06-13T12:35:00.000Z",
+      "country": "PL",
+      "place": "Nowa Różanka",
+      "description": "A long funnel cloud extending to approximately 80% of the cloud base-to-ground distance was observed. Ground contact was likely.\n",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Sieć Obserwatorów Burz (on Facebook), 13 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-13T10:37:00.000Z\", s\"01KVAZHEGH52Y11DRJV18BT4R4\" ]",
+      "lat": 50.2602,
+      "lon": 16.1484,
+      "type": "TORNADO",
+      "time": "2026-06-13T10:37:00.000Z",
+      "country": "CZ",
+      "place": "Semechnice",
+      "description": "Plausible Tornado (50-70% CGD). Damage also reported, but unconfirmed so far. Update will follow when more information is available. [EDIT, 15.06.2026, Igor Laskowski] Tornado confirmed.",
+      "info_source": [
+        "WWW",
+        "EVTPHOTO",
+        "EYEWTN",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Lovci bouřek CZ (Facebook), 15 JUN 2026",
+        "Meteopress Online (Facebook), 14 JUN 2026",
+        "Český hydrometeorologický ústav (on Facebook), 15 JUN 2026.",
+        "\"Rychnovskem se v sobotu prohnalo tornádo. Poškodilo střechy, náhrobky a vyvrátilo stromy\",  Zprávy ČR, 15 JUN 2026. "
+      ]
+    }
+  ]
+}

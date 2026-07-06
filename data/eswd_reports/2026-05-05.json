@@ -1,0 +1,850 @@
+{
+  "forecast_date": "2026-05-05",
+  "window_start_local": "2026-05-05T06:00:00+02:00",
+  "window_end_local": "2026-05-06T06:00:00+02:00",
+  "window_start_utc": "2026-05-05T04:00:00+00:00",
+  "window_end_utc": "2026-05-06T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 60,
+  "report_count": 60,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-06T01:00:00.000Z\", s\"01KQY83C4ZADEB4DGZW90HZERP\" ]",
+      "lat": 51.7777,
+      "lon": 14.3927,
+      "type": "PRECIP",
+      "time": "2026-05-06T01:00:00.000Z",
+      "country": "DE",
+      "place": "Cottbus",
+      "description": "Trees downed due to wet soild caused by long-lasting heavy rainfall",
+      "info_source": [
+        "NWSP",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Feuerwehr muss mehrmals wegen umgestürzter Bäume ausrücken\", LAUSITZER RUNDSCHAU, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-06T00:50:00.000Z\", s\"01KQY7XGFB1XCVCND88T1QHEHZ\" ]",
+      "lat": 51.8317,
+      "lon": 14.1481,
+      "type": "PRECIP",
+      "time": "2026-05-06T00:50:00.000Z",
+      "country": "DE",
+      "place": "Burg im Spreewald",
+      "description": "Trees downed due to wet soild caused by long-lasting heavy rainfall",
+      "info_source": [
+        "NWSP",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Feuerwehr muss mehrmals wegen umgestürzter Bäume ausrücken\", LAUSITZER RUNDSCHAU, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T21:00:00.000Z\", s\"01KQZF1YSD3C0F5YF6427W5YPW\" ]",
+      "lat": 50.6425,
+      "lon": 12.1958,
+      "type": "PRECIP",
+      "time": "2026-05-05T21:00:00.000Z",
+      "country": "DE",
+      "place": "Greiz",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter sorgt für Probleme auf Greizer Straßen: Die Meldungen aus dem Landkreis\", OSTTHÜRINGER ZEITUNG, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T21:00:00.000Z\", s\"01KQZF040GX7A0WGC3D5JWM97W\" ]",
+      "lat": 50.6662,
+      "lon": 12.1969,
+      "type": "PRECIP",
+      "time": "2026-05-05T21:00:00.000Z",
+      "country": "DE",
+      "place": "Reißberg",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter sorgt für Probleme auf Greizer Straßen: Die Meldungen aus dem Landkreis\", OSTTHÜRINGER ZEITUNG, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T21:00:00.000Z\", s\"01KQZEZ6X89Y46CWMS87VA5PYJ\" ]",
+      "lat": 50.6718,
+      "lon": 12.2017,
+      "type": "PRECIP",
+      "time": "2026-05-05T21:00:00.000Z",
+      "country": "DE",
+      "place": "Laagweg",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter sorgt für Probleme auf Greizer Straßen: Die Meldungen aus dem Landkreis\", OSTTHÜRINGER ZEITUNG, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T21:00:00.000Z\", s\"01KQZEY1MNDJYQC5XHJH0BM011\" ]",
+      "lat": 50.6463,
+      "lon": 12.1634,
+      "type": "PRECIP",
+      "time": "2026-05-05T21:00:00.000Z",
+      "country": "DE",
+      "place": "Untergrochlitz",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter sorgt für Probleme auf Greizer Straßen: Die Meldungen aus dem Landkreis\", OSTTHÜRINGER ZEITUNG, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T20:39:00.000Z\", s\"01KR42Q25YVAK07C3RVYV28Q39\" ]",
+      "lat": 50.9671,
+      "lon": 13.3688,
+      "type": "LIGHTNING",
+      "time": "2026-05-05T20:39:00.000Z",
+      "country": "DE",
+      "place": "Halsbrücke",
+      "description": "A wooden local power pole was sat on fire by lightning",
+      "info_source": [
+        "NWSP",
+        "WXSVC"
+      ],
+      "references": [
+        "kachelmannwetter.com",
+        "\"Halsbrücke: Blitzeinschlag setzt Strommast im Muldental in Brand\", FREIE PRESSE, 07 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T20:15:00.000Z\", s\"01KQY12FZ59V0X5X72NGNH7SV0\" ]",
+      "lat": 50.5502,
+      "lon": 13.0477,
+      "type": "PRECIP",
+      "time": "2026-05-05T20:15:00.000Z",
+      "country": "DE",
+      "place": "Königswalde im Erzgebirge",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter über Sachsen: Keller laufen voll – Feuerwehr im Dauereinsatz\", BLICK.de, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T20:05:00.000Z\", s\"01KQY11CEMP9EY26PY8HR8Y69E\" ]",
+      "lat": 50.5789,
+      "lon": 13.0106,
+      "type": "PRECIP",
+      "time": "2026-05-05T20:05:00.000Z",
+      "country": "DE",
+      "place": "Annaberg-Buchholz",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter über Sachsen: Keller laufen voll – Feuerwehr im Dauereinsatz\", BLICK.de, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T19:49:00.000Z\", s\"01KQY14SA2KYH8CJRW2ACG4VTQ\" ]",
+      "lat": 50.3762,
+      "lon": 13.271,
+      "type": "PRECIP",
+      "time": "2026-05-05T19:49:00.000Z",
+      "country": "CZ",
+      "place": "Kadaň",
+      "description": "PWS recorded a rain amount of 35,1 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Meteokuchy - IKADA18\", Wunderground, date of access: 06 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T19:40:00.000Z\", s\"01KQY13Z45NYECTB45H7FG2P4Q\" ]",
+      "lat": 50.6025,
+      "lon": 12.6666,
+      "type": "PRECIP",
+      "time": "2026-05-05T19:40:00.000Z",
+      "country": "DE",
+      "place": "Bad Schlema",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter über Sachsen: Keller laufen voll – Feuerwehr im Dauereinsatz\", BLICK.de, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T19:30:00.000Z\", s\"01KQYNDZZ0G4G9JG4FCZXGWC05\" ]",
+      "lat": 51.0772,
+      "lon": 8.7908,
+      "type": "PRECIP",
+      "time": "2026-05-05T19:30:00.000Z",
+      "country": "DE",
+      "place": "Frankenberg an der Eder",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter über Frankenberg: Straßen überschwemmt, Keller voll Wasser\", HESSISCHE NIEDERSÄCHSISCHE ALLGEMEINE, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T19:30:00.000Z\", s\"01KQYND81H07V9M5GFBRXDJ8AR\" ]",
+      "lat": 51.1012,
+      "lon": 8.831,
+      "type": "PRECIP",
+      "time": "2026-05-05T19:30:00.000Z",
+      "country": "DE",
+      "place": "Viermünden",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter über Frankenberg: Straßen überschwemmt, Keller voll Wasser\", HESSISCHE NIEDERSÄCHSISCHE ALLGEMEINE, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T19:30:00.000Z\", s\"01KQYNCYYQA8R9PJZRZ3JVJJES\" ]",
+      "lat": 51.0871,
+      "lon": 8.7992,
+      "type": "PRECIP",
+      "time": "2026-05-05T19:30:00.000Z",
+      "country": "DE",
+      "place": "Schreufa",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter über Frankenberg: Straßen überschwemmt, Keller voll Wasser\", HESSISCHE NIEDERSÄCHSISCHE ALLGEMEINE, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T19:30:00.000Z\", s\"01KQYNCNYB3QKVTAGYB1BHFBJZ\" ]",
+      "lat": 51.0464,
+      "lon": 8.7522,
+      "type": "PRECIP",
+      "time": "2026-05-05T19:30:00.000Z",
+      "country": "DE",
+      "place": "Röddenau",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter über Frankenberg: Straßen überschwemmt, Keller voll Wasser\", HESSISCHE NIEDERSÄCHSISCHE ALLGEMEINE, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T18:50:00.000Z\", s\"01KQYMPVXCNNJTMDS8HT0SXMN3\" ]",
+      "lat": 51.4192,
+      "lon": 10.7582,
+      "type": "PRECIP",
+      "time": "2026-05-05T18:50:00.000Z",
+      "country": "DE",
+      "place": "Rüxleben",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Starkregen im Kreis Nordhausen: 40 Feuerwehreinsätze und ein Unfall auf der A38 \", THÜRINGER ALLGEMEINE, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T18:50:00.000Z\", s\"01KQY1FX1WM1FPFY9J6QNH5821\" ]",
+      "lat": 51.4148,
+      "lon": 10.7653,
+      "type": "PRECIP",
+      "time": "2026-05-05T18:50:00.000Z",
+      "country": "DE",
+      "place": "Kleinfurra",
+      "description": null,
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Mehrere Straßen nach Unwetter in Nordthüringen gesperrt\", MDR, 05 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T18:40:00.000Z\", s\"01KQYZE363NJ74KAYF3KYQ1FW9\" ]",
+      "lat": 50.1381,
+      "lon": 11.0504,
+      "type": "PRECIP",
+      "time": "2026-05-05T18:40:00.000Z",
+      "country": "DE",
+      "place": "Seubelsdorf",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter trifft Obermaingebiet: Starkregen überfordert Kanalnetze\", OBERMAIN-TAGBLATT, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T18:40:00.000Z\", s\"01KQYZDJYGW677DKD7K725TTAH\" ]",
+      "lat": 50.1643,
+      "lon": 11.1125,
+      "type": "PRECIP",
+      "time": "2026-05-05T18:40:00.000Z",
+      "country": "DE",
+      "place": "Michelau in Oberfranken",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter trifft Obermaingebiet: Starkregen überfordert Kanalnetze\", OBERMAIN-TAGBLATT, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T18:40:00.000Z\", s\"01KQYZCXF7EQ8FFF2HYCBRPB4Z\" ]",
+      "lat": 50.1683,
+      "lon": 11.1509,
+      "type": "PRECIP",
+      "time": "2026-05-05T18:40:00.000Z",
+      "country": "DE",
+      "place": "Schwürbitz",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter trifft Obermaingebiet: Starkregen überfordert Kanalnetze\", OBERMAIN-TAGBLATT, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T18:40:00.000Z\", s\"01KQYZCHW93XW6FPYYGZK5BBVF\" ]",
+      "lat": 50.162,
+      "lon": 11.1817,
+      "type": "PRECIP",
+      "time": "2026-05-05T18:40:00.000Z",
+      "country": "DE",
+      "place": "Zettlitz",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter trifft Obermaingebiet: Starkregen überfordert Kanalnetze\", OBERMAIN-TAGBLATT, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T18:40:00.000Z\", s\"01KQYZC3P16AF8VMPRSEBF0J2J\" ]",
+      "lat": 50.1669,
+      "lon": 11.1694,
+      "type": "PRECIP",
+      "time": "2026-05-05T18:40:00.000Z",
+      "country": "DE",
+      "place": "Marktzeuln",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter trifft Obermaingebiet: Starkregen überfordert Kanalnetze\", OBERMAIN-TAGBLATT, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T18:40:00.000Z\", s\"01KQY1F7XSNKAVQW2RMKFQ6XDD\" ]",
+      "lat": 51.3599,
+      "lon": 10.6739,
+      "type": "PRECIP",
+      "time": "2026-05-05T18:40:00.000Z",
+      "country": "DE",
+      "place": "Dietenborn",
+      "description": null,
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Mehrere Straßen nach Unwetter in Nordthüringen gesperrt\", MDR, 05 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T18:40:00.000Z\", s\"01KQY1F1G5SYQFVDP8WMVC1KQF\" ]",
+      "lat": 51.3752,
+      "lon": 10.6619,
+      "type": "PRECIP",
+      "time": "2026-05-05T18:40:00.000Z",
+      "country": "DE",
+      "place": "Kleinberndten",
+      "description": null,
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Mehrere Straßen nach Unwetter in Nordthüringen gesperrt\", MDR, 05 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T18:30:00.000Z\", s\"01KQWQ21XDH48SQS233KRVY9R4\" ]",
+      "lat": 51.3226,
+      "lon": 9.0092,
+      "type": "PRECIP",
+      "time": "2026-05-05T18:30:00.000Z",
+      "country": "DE",
+      "place": "Elleringhausen",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS ITWIST24 (wunderground.com), 05 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T18:25:00.000Z\", s\"01KQWPR22JGNP1X00TE7ZJ4RRD\" ]",
+      "lat": 49.7429,
+      "lon": 13.5948,
+      "type": "PRECIP",
+      "time": "2026-05-05T18:25:00.000Z",
+      "country": "CZ",
+      "place": "Rokycany",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IROKYC3 (wunderground.com), 05 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T18:15:00.000Z\", s\"01KQYMW4BSN8GKG679NWJY4NP1\" ]",
+      "lat": 51.4274,
+      "lon": 10.7649,
+      "type": "PRECIP",
+      "time": "2026-05-05T18:15:00.000Z",
+      "country": "DE",
+      "place": "Kleinfurra Hain",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Starkregen im Kreis Nordhausen: 40 Feuerwehreinsätze und ein Unfall auf der A38 \", THÜRINGER ALLGEMEINE, 06 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T18:15:00.000Z\", s\"01KQYMTR70T5PDVXB1DWHS6HM3\" ]",
+      "lat": 51.4234,
+      "lon": 10.7389,
+      "type": "PRECIP",
+      "time": "2026-05-05T18:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T18:15:00.000Z\", s\"01KQWPBY9TQ2NRGFMDXY131VXK\" ]",
+      "lat": 50.2739,
+      "lon": 11.0617,
+      "type": "PRECIP",
+      "time": "2026-05-05T18:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T18:10:00.000Z\", s\"01KQWQHJC3RG149ZC2WSYF2AFJ\" ]",
+      "lat": 51.4499,
+      "lon": 10.6628,
+      "type": "PRECIP",
+      "time": "2026-05-05T18:10:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T18:09:00.000Z\", s\"01KQY18WXQFVBFY5YV8ZV8ASTY\" ]",
+      "lat": 49.668,
+      "lon": 13.625,
+      "type": "PRECIP",
+      "time": "2026-05-05T18:09:00.000Z",
+      "country": "CZ",
+      "place": "Kakejcov",
+      "description": "PWS recorded a rain amount of 28,4 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Garni 940 - IKAKEJ1\", Wunderground, date of access: 06 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T18:05:00.000Z\", s\"01KQWP8ZNK6671Q2CSZG8RK495\" ]",
+      "lat": 50.2209,
+      "lon": 11.0665,
+      "type": "PRECIP",
+      "time": "2026-05-05T18:05:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T18:00:00.000Z\", s\"01KQYMZG5V9D853QVAQF7S2HBW\" ]",
+      "lat": 51.2493,
+      "lon": 10.1244,
+      "type": "PRECIP",
+      "time": "2026-05-05T18:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T18:00:00.000Z\", s\"01KQWP43WQQ9E7FHKPV3JD8E6G\" ]",
+      "lat": 50.1494,
+      "lon": 11.1748,
+      "type": "PRECIP",
+      "time": "2026-05-05T18:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T17:50:00.000Z\", s\"01KQWNZHZ4VX30RRM24C3BRHWH\" ]",
+      "lat": 50.1648,
+      "lon": 11.1124,
+      "type": "PRECIP",
+      "time": "2026-05-05T17:50:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T17:48:00.000Z\", s\"01KQZD5RVMW41TZYHY1X691SGZ\" ]",
+      "lat": 50.2285,
+      "lon": 11.761,
+      "type": "LIGHTNING",
+      "time": "2026-05-05T17:48:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T17:41:00.000Z\", s\"01KQZCXGDEPQSRS3APYE7008JB\" ]",
+      "lat": 47.4088,
+      "lon": 9.3628,
+      "type": "LIGHTNING",
+      "time": "2026-05-05T17:41:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T17:35:00.000Z\", s\"01KQWQPAHEDSQDM9H3A3MYZD9R\" ]",
+      "lat": 51.4543,
+      "lon": 10.5954,
+      "type": "PRECIP",
+      "time": "2026-05-05T17:35:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T17:30:00.000Z\", s\"01KQZG06R7ETNEDCE0B1C72MWG\" ]",
+      "lat": 51.422,
+      "lon": 10.6647,
+      "type": "PRECIP",
+      "time": "2026-05-05T17:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T17:30:00.000Z\", s\"01KQZFZTZXPJQ4WKM0GFQ54ECA\" ]",
+      "lat": 51.4388,
+      "lon": 10.7211,
+      "type": "PRECIP",
+      "time": "2026-05-05T17:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T17:30:00.000Z\", s\"01KQZFYYMHMTTCKX64H0QK6QD8\" ]",
+      "lat": 51.4344,
+      "lon": 10.6988,
+      "type": "PRECIP",
+      "time": "2026-05-05T17:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T17:30:00.000Z\", s\"01KQZFY8HEB179E5KATDKM2907\" ]",
+      "lat": 51.431,
+      "lon": 10.6314,
+      "type": "PRECIP",
+      "time": "2026-05-05T17:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T17:30:00.000Z\", s\"01KQYMSVC65M7NQB1FWCMXYCJ5\" ]",
+      "lat": 51.4216,
+      "lon": 10.5992,
+      "type": "PRECIP",
+      "time": "2026-05-05T17:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T17:20:00.000Z\", s\"01KQYMRJS6HZEB3TH52G1WQS06\" ]",
+      "lat": 51.4389,
+      "lon": 10.5698,
+      "type": "PRECIP",
+      "time": "2026-05-05T17:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T17:20:00.000Z\", s\"01KQYMR5TCEBWFMZT2F3788TE0\" ]",
+      "lat": 51.4093,
+      "lon": 10.516,
+      "type": "PRECIP",
+      "time": "2026-05-05T17:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T17:20:00.000Z\", s\"01KQYMMXJC3BEZVV9HD7XAG2XE\" ]",
+      "lat": 51.4135,
+      "lon": 10.5359,
+      "type": "PRECIP",
+      "time": "2026-05-05T17:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T17:10:00.000Z\", s\"01KQWQDCQ6443KBJE35R2X3CTP\" ]",
+      "lat": 51.4154,
+      "lon": 10.5349,
+      "type": "PRECIP",
+      "time": "2026-05-05T17:10:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T17:00:00.000Z\", s\"01KQYMS2ADF4JWV5VDG6J8KWHW\" ]",
+      "lat": 51.3819,
+      "lon": 10.5222,
+      "type": "PRECIP",
+      "time": "2026-05-05T17:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T16:45:00.000Z\", s\"01KQY0CMRB393YF34GBYGNTD3E\" ]",
+      "lat": 49.6547,
+      "lon": 11.9454,
+      "type": "LIGHTNING",
+      "time": "2026-05-05T16:45:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T16:20:00.000Z\", s\"01KQYN5X9J7EJJB4E98SJDRDKK\" ]",
+      "lat": 51.4553,
+      "lon": 10.3989,
+      "type": "PRECIP",
+      "time": "2026-05-05T16:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T16:20:00.000Z\", s\"01KQYN5C170HECXY0M020FT9QS\" ]",
+      "lat": 51.4525,
+      "lon": 10.446,
+      "type": "PRECIP",
+      "time": "2026-05-05T16:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T16:20:00.000Z\", s\"01KQYN4PXA5T97JA9AJX2TVMS7\" ]",
+      "lat": 51.4067,
+      "lon": 10.3942,
+      "type": "PRECIP",
+      "time": "2026-05-05T16:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T16:20:00.000Z\", s\"01KQY0P2WMVG2CVST9BH4QHKXN\" ]",
+      "lat": 51.379,
+      "lon": 10.3774,
+      "type": "PRECIP",
+      "time": "2026-05-05T16:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T16:20:00.000Z\", s\"01KQY0NKM4Z054YVA6X36XKKCT\" ]",
+      "lat": 51.3859,
+      "lon": 10.3557,
+      "type": "PRECIP",
+      "time": "2026-05-05T16:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T15:52:00.000Z\", s\"01KQY0TGV65PBVAY4QJBCKEQYS\" ]",
+      "lat": 51.3953,
+      "lon": 10.4066,
+      "type": "PRECIP",
+      "time": "2026-05-05T15:52:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T15:08:00.000Z\", s\"01KQXZGGDK7QB3AJ69RW6FHQNH\" ]",
+      "lat": 53.1727,
+      "lon": 23.2884,
+      "type": "HAIL",
+      "time": "2026-05-05T15:08:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T15:06:00.000Z\", s\"01KQXZK2T7PGSZX8V67HA1GDAZ\" ]",
+      "lat": 53.1742,
+      "lon": 23.2611,
+      "type": "HAIL",
+      "time": "2026-05-05T15:06:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T14:35:00.000Z\", s\"01KR3XJG7MC9DBGG9ABD3J55XF\" ]",
+      "lat": 53.2732,
+      "lon": 22.9828,
+      "type": "LIGHTNING",
+      "time": "2026-05-05T14:35:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T14:30:00.000Z\", s\"01KQZ55FVB7TQ0PG60PRDFXDVY\" ]",
+      "lat": 48.2249,
+      "lon": 16.3148,
+      "type": "WIND",
+      "time": "2026-05-05T14:30:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-05T13:57:00.000Z\", s\"01KQW9RBZAVPK3NB06K4FVBXPG\" ]",
+      "lat": 47.641,
+      "lon": 7.6433,
+      "type": "HAIL",
+      "time": "2026-05-05T13:57:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    }
+  ]
+}

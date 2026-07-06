@@ -1,0 +1,83 @@
+{
+  "forecast_date": "2026-05-15",
+  "window_start_local": "2026-05-15T06:00:00+02:00",
+  "window_end_local": "2026-05-16T06:00:00+02:00",
+  "window_start_utc": "2026-05-15T04:00:00+00:00",
+  "window_end_utc": "2026-05-16T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 4,
+  "report_count": 4,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-15T20:00:00.000Z\", s\"01KRVNNRGA4QCGBBX5P4XNZKN3\" ]",
+      "lat": 47.262,
+      "lon": 13.3236,
+      "type": "PRECIP",
+      "time": "2026-05-15T20:00:00.000Z",
+      "country": "AT",
+      "place": "Kleinarl",
+      "description": "landslide and mudflow, persons evacuated from 7 houses",
+      "info_source": [
+        "WWW",
+        "NWSP",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Murenabgang in Kleinarl: Sieben Häuser evakuiert, ORF Salzburg, 16 May 2026.",
+        "Kleinarl: Sperre der letzten Häuser nach Mure aufgehoben, ORF Salzburg, 17 May 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-15T16:30:00.000Z\", s\"01KRZPH878WW8WWYW3SMBXT6JT\" ]",
+      "lat": 47.1754,
+      "lon": 20.1946,
+      "type": "LIGHTNING",
+      "time": "2026-05-15T16:30:00.000Z",
+      "country": "HU",
+      "place": "Szolnok",
+      "description": "Church damaged",
+      "info_source": [
+        "NWSP",
+        "EYEWTN",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "\"Hirtelen sötétségbe borult a szolnoki templom, a mise végén óriási villám csapott a toronyba \", SZOLJON, 18 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-15T12:55:00.000Z\", s\"01KRX90Q8G0HFVG82BNJ80CQRS\" ]",
+      "lat": 49.9477,
+      "lon": 21.0789,
+      "type": "LIGHTNING",
+      "time": "2026-05-15T12:55:00.000Z",
+      "country": "PL",
+      "place": "Trzemesna",
+      "description": "A lightning strike caused the fire in an old, abandoned barn. The building burned to the ground. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Wiosenna burza przeszła przez Tarnów i region. Strażacy gaszą pożar i usuwają połamane drzewa. Jedno z nich spadło na zaparkowane samochody\", Gazeta Krakowska, 15 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-15T10:36:00.000Z\", s\"01KRP1H656B06D9VPWY5ZQ8GMC\" ]",
+      "lat": 49.25,
+      "lon": 19.934,
+      "type": "LIGHTNING",
+      "time": "2026-05-15T10:36:00.000Z",
+      "country": "PL",
+      "place": "Zakopane",
+      "description": "A group of hikers was struck by lightning near the Giewont summit. Two women were injured. The first victim briefly lost consciousness and was airlifted by helicopter. The second victim, who sustained less serious injuries, was escorted by rescuers to the Kondratowa Valley, from where she was transported to the hospital by off-road vehicle. Five other people were slightly injured.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Piorun uderzył w grupę turystów na Giewoncie\", RMF 24, 15 MAY 2026.",
+        "\"Po wypadku na Giewoncie. \"Trzeba w odpowiednim miejscu powiedzieć sobie: dość\"\", TVN24, 16 MAY 2026.",
+        "\"Siedem osób w szpitalu po burzy w Tatrach\", TVN24, 15 MAY 2026."
+      ]
+    }
+  ]
+}

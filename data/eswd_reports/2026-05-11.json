@@ -1,0 +1,1003 @@
+{
+  "forecast_date": "2026-05-11",
+  "window_start_local": "2026-05-11T06:00:00+02:00",
+  "window_end_local": "2026-05-12T06:00:00+02:00",
+  "window_start_utc": "2026-05-11T04:00:00+00:00",
+  "window_end_utc": "2026-05-12T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 61,
+  "report_count": 61,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-05-11T19:00:00.000Z\", s\"01KRDB0BJSK21DVS7EVZYZG3YP\" ]",
+      "lat": 49.2959655,
+      "lon": 16.7971246,
+      "type": "PRECIP",
+      "time": "2026-05-11T19:00:00.000Z",
+      "country": "CZ",
+      "place": "Bukovinka",
+      "description": "torrential rain during thunderstorm",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 11 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T18:40:00.000Z\", s\"01KRGNAH3C9MX3KZN9H9XC1S5R\" ]",
+      "lat": 47.9558,
+      "lon": 21.7168,
+      "type": "WIND",
+      "time": "2026-05-11T18:40:00.000Z",
+      "country": "HU",
+      "place": "Nyíregyháza",
+      "description": "A downed pine tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Kidőlt fák, elárasztott pincék - Így tarolta le a vihar Szabolcs-Szatmár-Bereg vármegyét (fotók, videók!)\", Szon, 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T18:40:00.000Z\", s\"01KRE4B8K8BE7A11A2TRF1V910\" ]",
+      "lat": 45.5285,
+      "lon": 13.5684,
+      "type": "HAIL",
+      "time": "2026-05-11T18:40:00.000Z",
+      "country": "SI",
+      "place": "Piran / Pirano",
+      "description": "Large hail up to at least 2 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Meteoinfo Slovenija (on Facebook), 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T18:30:00.000Z\", s\"01KRE5CVXXX2SRCETK7JYRK683\" ]",
+      "lat": 45.5008,
+      "lon": 13.5044,
+      "type": "HAIL",
+      "time": "2026-05-11T18:30:00.000Z",
+      "country": "HR",
+      "place": "Savudrija",
+      "description": "Large hail up to at least 3 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Vremenska Prognoza za Hrvatsku by Dino i Gabrić (on Facebook), 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T18:25:00.000Z\", s\"01KRE8S8MSPGK8V1JR6ZFQYEPK\" ]",
+      "lat": 49.1858,
+      "lon": 16.6439,
+      "type": "LIGHTNING",
+      "time": "2026-05-11T18:25:00.000Z",
+      "country": "CZ",
+      "place": "Brno-Černovice",
+      "description": "A Brno-Černovice train remained immobile due to a pantograph failure after a lightning strike.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Silné deště a krupobití. Hasiči kvůli bouřkám měli desítky výjezdů\", CT24, 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T18:20:00.000Z\", s\"01KRGR7EVV6N4PY09Y0R88WGP4\" ]",
+      "lat": 45.5285,
+      "lon": 13.5684,
+      "type": "WIND",
+      "time": "2026-05-11T18:20:00.000Z",
+      "country": "SI",
+      "place": "Piran / Pirano",
+      "description": "Downed trees were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Toča, nalivi in orkanski veter: Arso izdal opozorilo\", Zurnal24, 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T18:20:00.000Z\", s\"01KRGNJTMDPX2MGH63VQWWYTXM\" ]",
+      "lat": 48.0172,
+      "lon": 21.375,
+      "type": "WIND",
+      "time": "2026-05-11T18:20:00.000Z",
+      "country": "HU",
+      "place": "Tiszalök",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Kidőlt fák, elárasztott pincék - Így tarolta le a vihar Szabolcs-Szatmár-Bereg vármegyét (fotók, videók!)\", Szon, 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T18:20:00.000Z\", s\"01KRE4HJ7WYJTMXSV1YV254VNK\" ]",
+      "lat": 48.1298,
+      "lon": 21.3456,
+      "type": "HAIL",
+      "time": "2026-05-11T18:20:00.000Z",
+      "country": "HU",
+      "place": "Tarcal",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via TopFoto Neurje (on Facebook), 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T18:11:00.000Z\", s\"01KRE9B5VNNYPSZ3FWTFRSDWTP\" ]",
+      "lat": 51.0026,
+      "lon": 17.2542,
+      "type": "LIGHTNING",
+      "time": "2026-05-11T18:11:00.000Z",
+      "country": "PL",
+      "place": "Zakrzów",
+      "description": "A lightning struck a sawmill causing fire and damage.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Silné deště a krupobití. Hasiči kvůli bouřkám měli desítky výjezdů\", CT24, 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T18:05:00.000Z\", s\"01KRGNSQ92NKYFR664H5TK7EHV\" ]",
+      "lat": 47.6717,
+      "lon": 21.5079,
+      "type": "WIND",
+      "time": "2026-05-11T18:05:00.000Z",
+      "country": "HU",
+      "place": "Hajdúböszörmény",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Károkat hagyott maga mögött a vihar Hajdú-Biharban, több helyre riasztották a tűzoltókat\", Haon, 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T18:00:00.000Z\", s\"01KRGNRNVBMFCWXKB7V9YT3829\" ]",
+      "lat": 47.5314,
+      "lon": 21.626,
+      "type": "WIND",
+      "time": "2026-05-11T18:00:00.000Z",
+      "country": "HU",
+      "place": "Debrecen",
+      "description": "Downed trees were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Károkat hagyott maga mögött a vihar Hajdú-Biharban, több helyre riasztották a tűzoltókat\", Haon, 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T17:59:00.000Z\", s\"01KRGQ35GNDMMF49WN65TG4ZXQ\" ]",
+      "lat": 50.5717,
+      "lon": 16.306,
+      "type": "PRECIP",
+      "time": "2026-05-11T17:59:00.000Z",
+      "country": "CZ",
+      "place": "Křinice",
+      "description": "A local flash flood was reported after the passage of a thunderstorm. Local PWS measured a rain amount of 45,5 mm in 60 minutes. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "WXSVC",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Křinicemi se prohnala blesková povodeň. Voda útočila z Broumovských stěn a polí\", Náchodský deník, 12 MAY 2026.",
+        "\"Krinice - IKINIC1\", Wunderground, date of access: 13 MAY 2026.",
+        "\"Blesková povodeň se prohnala Křinicemi. Potok se změnil v běsnící živel\", Náchodský deník, 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T17:39:00.000Z\", s\"01KRG6JNN2RWYJWGYG8CFW1Z7W\" ]",
+      "lat": 50.555,
+      "lon": 16.185,
+      "type": "PRECIP",
+      "time": "2026-05-11T17:39:00.000Z",
+      "country": "CZ",
+      "place": "Česká Metuje",
+      "description": "PWS recorded a rain amount of 31,8 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"STAKO Dedov - IESKME3\", Wunderground, date of access: 13 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T17:30:00.000Z\", s\"01KRC7FB1M1JVFPY29XY74CANG\" ]",
+      "lat": 49.8952,
+      "lon": 17.1321,
+      "type": "PRECIP",
+      "time": "2026-05-11T17:30:00.000Z",
+      "country": "CZ",
+      "place": "Oskava",
+      "description": "torrential rain during thunderstorm",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 11 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T17:25:00.000Z\", s\"01KRGRFS68Y6PT7NVBA9MC1NJF\" ]",
+      "lat": 48.8554,
+      "lon": 16.0489,
+      "type": "WIND",
+      "time": "2026-05-11T17:25:00.000Z",
+      "country": "CZ",
+      "place": "Znojmo",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Následky bouřek na Znojemsku. Bahno na silnicích brzdilo dopravu, padaly stromy\", Znojemský deník, 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T17:25:00.000Z\", s\"01KRGRDCRQJZ8QTFFPAGR5Q84H\" ]",
+      "lat": 48.7866,
+      "lon": 16.0823,
+      "type": "WIND",
+      "time": "2026-05-11T17:25:00.000Z",
+      "country": "CZ",
+      "place": "Chvalovice",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Následky bouřek na Znojemsku. Bahno na silnicích brzdilo dopravu, padaly stromy\", Znojemský deník, 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T17:20:00.000Z\", s\"01KRC77A4XDYJTT7AWY27RGE6D\" ]",
+      "lat": 50.5378036,
+      "lon": 16.2375193,
+      "type": "PRECIP",
+      "time": "2026-05-11T17:20:00.000Z",
+      "country": "CZ",
+      "place": "Police nad Metují",
+      "description": "torrential rain during thunderstorm",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 11 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T17:10:00.000Z\", s\"01KRGRF3ETNEYV2MSVEXKVZHPH\" ]",
+      "lat": 48.7932,
+      "lon": 16.0099,
+      "type": "WIND",
+      "time": "2026-05-11T17:10:00.000Z",
+      "country": "CZ",
+      "place": "Šatov",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Následky bouřek na Znojemsku. Bahno na silnicích brzdilo dopravu, padaly stromy\", Znojemský deník, 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T16:55:00.000Z\", s\"01KRG9NQNWXXQM6YBGDNPDEM8M\" ]",
+      "lat": 48.2487,
+      "lon": 16.3446,
+      "type": "LIGHTNING",
+      "time": "2026-05-11T16:55:00.000Z",
+      "country": "AT",
+      "place": "Oberdöbling",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Autos zerdrückt: Gewitter zieht Schneise der Zerstörung\", HEUTE, 12 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T16:24:00.000Z\", s\"01KRG6G9870SV663RQNC6W4H39\" ]",
+      "lat": 49.626,
+      "lon": 16.345,
+      "type": "PRECIP",
+      "time": "2026-05-11T16:24:00.000Z",
+      "country": "CZ",
+      "place": "Bystré",
+      "description": "PWS recorded a rain amount of 38,1 mm in 60 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Meteostanice - IBYSTR13\", Wunderground, date of access: 13 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T16:20:00.000Z\", s\"01KRC0MRZN3QVYYTPY056JE8V4\" ]",
+      "lat": 49.5254,
+      "lon": 15.9683,
+      "type": "PRECIP",
+      "time": "2026-05-11T16:20:00.000Z",
+      "country": "CZ",
+      "place": "Vatín",
+      "description": "CHMI station Vatín",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "CHMI data station"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T16:05:00.000Z\", s\"01KRCBN28CWP3KX02H2FQSAMEE\" ]",
+      "lat": 50.4079,
+      "lon": 16.5107,
+      "type": "HAIL",
+      "time": "2026-05-11T16:05:00.000Z",
+      "country": "PL",
+      "place": "Polanica-Zdrój",
+      "description": "Large hail up to at least 3 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Meteo Alert-Dolny Śląsk (on Facebook), 11 MAY 2026.",
+        "Eyewitness report (on Facebook), 11 MAY 2026.",
+        "\"Nad regionem przechodzą burze z gradem. Taki spadł w Polanicy-Zdroju [Foto]\", TV Kłodzka, 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T16:03:00.000Z\", s\"01KRE9H5HKN977RCRJD2Q9N79D\" ]",
+      "lat": 54.3342,
+      "lon": 18.1974,
+      "type": "LIGHTNING",
+      "time": "2026-05-11T16:03:00.000Z",
+      "country": "PL",
+      "place": "Kartuzy",
+      "description": "A lightning struck a tree causing damage. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Piorun uderzył w drzewo w Kartuzach\", Express Kaszubski, 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T16:00:00.000Z\", s\"01KRC7QQTNSNY3XDXMCQ56B4CH\" ]",
+      "lat": 49.5581411,
+      "lon": 16.0689243,
+      "type": "PRECIP",
+      "time": "2026-05-11T16:00:00.000Z",
+      "country": "CZ",
+      "place": "Nové Město na Moravě",
+      "description": "torrential rain during thunderstorm | peak precip. time was 15:00 - 15:30 UTC. Flooded houses were reported.",
+      "info_source": [
+        "WXSVC",
+        "GOV"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 11 MAY 2026",
+        "\"Přehled událostí HZS (#20)\", HZS Kraje Vysočina, 13 MAY 2026.",
+        "\"Přívalové deště zaplavily části Nového Města. Voda zatopila sklepy i silnice\", Žďárský deník, 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T15:49:00.000Z\", s\"01KRG61WW7HKAPER7Y05BZ9Q88\" ]",
+      "lat": 48.864,
+      "lon": 15.146,
+      "type": "PRECIP",
+      "time": "2026-05-11T15:49:00.000Z",
+      "country": "AT",
+      "place": "Heidenreichstein",
+      "description": "PWS recorded a rain amount of 48,8 mm in 90 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Stoneplace_at_Heidenreichstein - IHEIDE303\", Wunderground, date of access: 13 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T15:45:00.000Z\", s\"01KRGKX306X86GWVV8KW4GC1X7\" ]",
+      "lat": 49.3961,
+      "lon": 15.5903,
+      "type": "PRECIP",
+      "time": "2026-05-11T15:45:00.000Z",
+      "country": "CZ",
+      "place": "Jihlava",
+      "description": "Flooded houses were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "\"Přehled událostí HZS (#20)\", HZS Kraje Vysočina, 13 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T15:29:00.000Z\", s\"01KRG6C16R37KSNMGW6BJ3XC78\" ]",
+      "lat": 49.49,
+      "lon": 15.985,
+      "type": "PRECIP",
+      "time": "2026-05-11T15:29:00.000Z",
+      "country": "CZ",
+      "place": "Ostrov nad Oslavou",
+      "description": "PWS recorded a rain amount of 26,9 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"GoGenEasyWeatherPro-8E8F67 - IOSTRO136\", Wunderground, date of access: 13 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T15:19:00.000Z\", s\"01KRG61P3FYCWSNSJ1VX3R90W4\" ]",
+      "lat": 48.771,
+      "lon": 15.032,
+      "type": "PRECIP",
+      "time": "2026-05-11T15:19:00.000Z",
+      "country": "AT",
+      "place": "Hoheneich",
+      "description": "PWS recorded a rain amount of 26,4 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Weatherstation - IHOHEN428\", Wunderground, date of access: 13 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T15:19:00.000Z\", s\"01KRG612G45VRJ8Q0D0C3ZS8FK\" ]",
+      "lat": 49.469,
+      "lon": 15.931,
+      "type": "PRECIP",
+      "time": "2026-05-11T15:19:00.000Z",
+      "country": "CZ",
+      "place": "Znětínek",
+      "description": "PWS recorded a rain amount of 30,2 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"ME 3900 - IZNTNE3\", Wunderground, date of access: 13 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T15:10:00.000Z\", s\"01KRE8W3DMHHMY31YCA07ZX5DB\" ]",
+      "lat": 48.59,
+      "lon": 15.2903,
+      "type": "PRECIP",
+      "time": "2026-05-11T15:10:00.000Z",
+      "country": "AT",
+      "place": "Friedersbach",
+      "description": "roads and basements flooded; roads blocked by mud, debris and hail, landslide;",
+      "info_source": [
+        "NWSP",
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Schweres Unwetter traf Friedersbach, NÖN, 12 May 2026.",
+        "FF Friedersbach (on Facebook), 11 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T15:00:00.000Z\", s\"01KREA9XCQ9PNYG7YPNA6QRGNC\" ]",
+      "lat": 48.188,
+      "lon": 15.223,
+      "type": "WIND",
+      "time": "2026-05-11T15:00:00.000Z",
+      "country": "AT",
+      "place": "Neupöchlarn",
+      "description": "trees fell onto 2 roads",
+      "info_source": [
+        "NWSP",
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Unwetterfront zog über das Mostviertel, NÖN, 12 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T15:00:00.000Z\", s\"01KRBW2EHMS510JHNZDNA95QJ8\" ]",
+      "lat": 49.8334,
+      "lon": 17.5479,
+      "type": "HAIL",
+      "time": "2026-05-11T15:00:00.000Z",
+      "country": "CZ",
+      "place": "Dvorce",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Český hydrometeorologický ústav (on Facebook), 11 MAY 2026.",
+        "Eyewitness report via Lovci bouřek CZ (on Facebook), 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T14:50:00.000Z\", s\"01KRDEV93R1MWX03N6A53TY1AV\" ]",
+      "lat": 51.205,
+      "lon": 14.3527,
+      "type": "PRECIP",
+      "time": "2026-05-11T14:50:00.000Z",
+      "country": "DE",
+      "place": "Oberuhna - Horni Wunjow",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Verschlammte Straßen nach Unwetter bei Bautzen\", BLAULICHT MAGAZIN, 11 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T14:45:00.000Z\", s\"01KRE9AJ3YPFVCTW0DC5D79XX4\" ]",
+      "lat": 48.5908,
+      "lon": 15.2668,
+      "type": "HAIL",
+      "time": "2026-05-11T14:45:00.000Z",
+      "country": "AT",
+      "place": "Friedersbach",
+      "description": "hail layer of multiple centimeters, large hail accumulations of up to > 10 cm (the latter obviously accumulated by flowing water); roads blocked by mud, debris and hail;",
+      "info_source": [
+        "WWW",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "User report via Unwetter-Österreich (on Facebook), 11 May 2026.",
+        "FF Friedersbach (on Facebook), 11 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T14:45:00.000Z\", s\"01KRDEWD29NTA1VC071K1BGBHN\" ]",
+      "lat": 51.19,
+      "lon": 14.325,
+      "type": "PRECIP",
+      "time": "2026-05-11T14:45:00.000Z",
+      "country": "DE",
+      "place": "Jannowitz - Janecy",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Verschlammte Straßen nach Unwetter bei Bautzen\", BLAULICHT MAGAZIN, 11 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T14:30:00.000Z\", s\"01KRFZFEM0SF822R05BXWH17G6\" ]",
+      "lat": 46.2913,
+      "lon": 7.8813,
+      "type": "WIND",
+      "time": "2026-05-11T14:30:00.000Z",
+      "country": "CH",
+      "place": "Visp",
+      "description": "WS recorded a wind gust of 26,8 m/s (+/- 0,5 m/s)",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Ogimet, date of access: 13 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T14:25:00.000Z\", s\"01KRGM1STHV71T5V5MM5FWTV14\" ]",
+      "lat": 49.6093,
+      "lon": 13.6588,
+      "type": "WIND",
+      "time": "2026-05-11T14:25:00.000Z",
+      "country": "CZ",
+      "place": "Hořehledy",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "\"UZAVŘENÉ ZÁSAHY JPO PLZEŇSKÉHO KRAJE (#12)\", HZS Plzeňského kraje,  13 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T14:24:00.000Z\", s\"01KRG629H0861TMCX511PCVVKB\" ]",
+      "lat": 48.952,
+      "lon": 17.175,
+      "type": "PRECIP",
+      "time": "2026-05-11T14:24:00.000Z",
+      "country": "CZ",
+      "place": "Vacenovice",
+      "description": "PWS recorded a rain amount of 49,3 mm in 60 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Vacenovice - IVACEN4\", Wunderground, date of access: 13 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T14:13:00.000Z\", s\"01KRBVTQJW234BJECV2NYENAWM\" ]",
+      "lat": 49.5046,
+      "lon": 16.339,
+      "type": "HAIL",
+      "time": "2026-05-11T14:13:00.000Z",
+      "country": "CZ",
+      "place": "Štěpánov nad Svratkou",
+      "description": "Large hail up to at least 2 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Meteo Včasné varování (on Facebook), 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T14:10:00.000Z\", s\"01KRE878KP8KAH8536A897XD92\" ]",
+      "lat": 51.3482,
+      "lon": 21.2147,
+      "type": "WIND",
+      "time": "2026-05-11T14:10:00.000Z",
+      "country": "PL",
+      "place": "Makowiec",
+      "description": "Damaged roofing was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"W Makowcu wiatr zerwał część poszycia dachowego. Interweniowali strażacy\", Echo Dnia, 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T14:04:00.000Z\", s\"01KRG60EY2N8WW4NWKYD1ANBZH\" ]",
+      "lat": 49.009,
+      "lon": 17.265,
+      "type": "PRECIP",
+      "time": "2026-05-11T14:04:00.000Z",
+      "country": "CZ",
+      "place": "Těmice",
+      "description": "PWS recorded a rain amount of 30,7 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Ekor Těmice - ITMICE11\", Wunderground, date of access: 13 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T14:04:00.000Z\", s\"01KRG5YNJ0GP629615YX1QHA6N\" ]",
+      "lat": 45.47,
+      "lon": 13.971,
+      "type": "PRECIP",
+      "time": "2026-05-11T14:04:00.000Z",
+      "country": "SI",
+      "place": "Rakitovec",
+      "description": "PWS recorded a rain amount of 75,4 mm in 240 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Rakitovec - IKOPER43\", Wunderground, date of access: 13 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T14:00:00.000Z\", s\"01KRE8K26SX9A86BVB77VHXJN7\" ]",
+      "lat": 48.9454,
+      "lon": 17.1739,
+      "type": "PRECIP",
+      "time": "2026-05-11T14:00:00.000Z",
+      "country": "CZ",
+      "place": "Vacenovice",
+      "description": "Flooded cellars were reported after a passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Silné deště a krupobití. Hasiči kvůli bouřkám měli desítky výjezdů\", CT24, 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T14:00:00.000Z\", s\"01KRE8JY3RJRH292KTA6QHN7AH\" ]",
+      "lat": 48.9197,
+      "lon": 17.1657,
+      "type": "PRECIP",
+      "time": "2026-05-11T14:00:00.000Z",
+      "country": "CZ",
+      "place": "Ratíškovice",
+      "description": "Flooded cellars were reported after a passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Silné deště a krupobití. Hasiči kvůli bouřkám měli desítky výjezdů\", CT24, 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T13:55:00.000Z\", s\"01KRE8HKBP1N2X47161HCJYSZG\" ]",
+      "lat": 48.6422,
+      "lon": 13.9719,
+      "type": "LIGHTNING",
+      "time": "2026-05-11T13:55:00.000Z",
+      "country": "AT",
+      "place": "Aigen im Mühlkreis",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Dach von Kindergarten raucht – Blitzeinschlag vermutet\", HEUTE, 12 MAY 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T13:55:00.000Z\", s\"01KRBVJ9M0MESRHX7RXRWQ17CR\" ]",
+      "lat": 48.9736,
+      "lon": 17.2668,
+      "type": "HAIL",
+      "time": "2026-05-11T13:55:00.000Z",
+      "country": "CZ",
+      "place": "Bzenec",
+      "description": "Large hail up to at least 2 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Počasí online Morava (on Facebook), 11 MAY 2026.",
+        "Eyewitness report via Meteo Včasné varování (on Facebook), 11 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T13:55:00.000Z\", s\"01KRBR2B85MBWQB8NB4HGJQNXD\" ]",
+      "lat": 48.697,
+      "lon": 15.829,
+      "type": "HAIL",
+      "time": "2026-05-11T13:55:00.000Z",
+      "country": "AT",
+      "place": "Rafing",
+      "description": "hail layer of multiple centimeters reported",
+      "info_source": [
+        "WWW",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "User report via Unwetter Österreich - UWÖ (on Facebook), 11 May 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T13:54:00.000Z\", s\"01KRG63STJ661D55JZTN498MR7\" ]",
+      "lat": 49.841,
+      "lon": 17.175,
+      "type": "PRECIP",
+      "time": "2026-05-11T13:54:00.000Z",
+      "country": "CZ",
+      "place": "Plinkout",
+      "description": "PWS recorded a rain amount of 28,2 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Pythie - IDLOUH36\", Wunderground, date of access: 13 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T13:54:00.000Z\", s\"01KRG63GJV0ACWEW0YPJVRHBVF\" ]",
+      "lat": 49.817,
+      "lon": 17.179,
+      "type": "PRECIP",
+      "time": "2026-05-11T13:54:00.000Z",
+      "country": "CZ",
+      "place": "Dlouhá Loučka",
+      "description": "PWS recorded a rain amount of 26,9 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Coolweather DL - IDLOUH19\", Wunderground, date of access: 13 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T13:54:00.000Z\", s\"01KRG6389YJK7GR0E3ZNQ2A256\" ]",
+      "lat": 48.981,
+      "lon": 17.21,
+      "type": "PRECIP",
+      "time": "2026-05-11T13:54:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T13:50:00.000Z\", s\"01KRBYA7M1K3TXEQ58PYSEB8RM\" ]",
+      "lat": 49.523,
+      "lon": 16.2528,
+      "type": "HAIL",
+      "time": "2026-05-11T13:50:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T13:35:00.000Z\", s\"01KRGR0RKMTFR422QTKY58STJA\" ]",
+      "lat": 46.1829,
+      "lon": 13.7333,
+      "type": "WIND",
+      "time": "2026-05-11T13:35:00.000Z",
+      "country": "SI",
+      "place": "Tolmin",
+      "description": "Downed trees were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Toča, nalivi in orkanski veter: Arso izdal opozorilo\", Zurnal24, 12 MAY 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T13:34:00.000Z\", s\"01KRG6PY5ZP8G5ZWJY0WGJWHSJ\" ]",
+      "lat": 49.842,
+      "lon": 16.95,
+      "type": "PRECIP",
+      "time": "2026-05-11T13:34:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T13:30:00.000Z\", s\"01KRE6PF9J50RN8TQMCAKVVH10\" ]",
+      "lat": 46.0294,
+      "lon": 13.6045,
+      "type": "WIND",
+      "time": "2026-05-11T13:30:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T13:15:00.000Z\", s\"01KRGR6HA9804RWPBR986PB5HT\" ]",
+      "lat": 46.0871,
+      "lon": 13.6331,
+      "type": "WIND",
+      "time": "2026-05-11T13:15:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T13:14:00.000Z\", s\"01KRG6MYKTF77Q9QP1J4FNGCE4\" ]",
+      "lat": 49.827,
+      "lon": 16.82,
+      "type": "PRECIP",
+      "time": "2026-05-11T13:14:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T12:25:00.000Z\", s\"01KRGNHQP57KX6Y1TECH01WH0T\" ]",
+      "lat": 47.7701,
+      "lon": 21.8601,
+      "type": "WIND",
+      "time": "2026-05-11T12:25:00.000Z",
+      "country": "HU",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T11:40:00.000Z\", s\"01KRGNE5C2EESPQPQV8XNE5VEE\" ]",
+      "lat": 48.16,
+      "lon": 22.46,
+      "type": "WIND",
+      "time": "2026-05-11T11:40:00.000Z",
+      "country": "HU",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T11:33:00.000Z\", s\"01KRZWG7C0QSPAT7QZ80HEJK56\" ]",
+      "lat": 47.8211,
+      "lon": 12.6778,
+      "type": "LIGHTNING",
+      "time": "2026-05-11T11:33:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T11:16:00.000Z\", s\"01KRBF6DSX42BG6YCCMX7C1VE9\" ]",
+      "lat": 49.265,
+      "lon": 12.8179,
+      "type": "HAIL",
+      "time": "2026-05-11T11:16:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-05-11T11:03:00.000Z\", s\"01KRJYKF6517KBG9XRQC1NPHYR\" ]",
+      "lat": 45.5276,
+      "lon": 16.5374,
+      "type": "WIND",
+      "time": "2026-05-11T11:03:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    }
+  ]
+}
