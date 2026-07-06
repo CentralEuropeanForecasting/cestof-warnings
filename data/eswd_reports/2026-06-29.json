@@ -1,0 +1,3490 @@
+{
+  "forecast_date": "2026-06-29",
+  "window_start_local": "2026-06-29T06:00:00+02:00",
+  "window_end_local": "2026-06-30T06:00:00+02:00",
+  "window_start_utc": "2026-06-29T04:00:00+00:00",
+  "window_end_utc": "2026-06-30T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 269,
+  "report_count": 269,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-06-29T23:30:00.000Z\", s\"01KWF54FX2G33VWBV1Q624CKMM\" ]",
+      "lat": 48.4619,
+      "lon": 11.9393,
+      "type": "PRECIP",
+      "time": "2026-06-29T23:30:00.000Z",
+      "country": "DE",
+      "place": "Moosburg",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter ziehen über die Region hinweg - die Lage in Ostbayern\", IDOWA, 30 JUN / 01 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T23:30:00.000Z\", s\"01KWF53T1Y6WK08V5VH4SBFJPS\" ]",
+      "lat": 48.6665,
+      "lon": 12.695,
+      "type": "PRECIP",
+      "time": "2026-06-29T23:30:00.000Z",
+      "country": "DE",
+      "place": "Landau an der Isar",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter ziehen über die Region hinweg - die Lage in Ostbayern\", IDOWA, 30 JUN / 01 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T23:10:00.000Z\", s\"01KWF51ZK9DAZRAPNAVNZ9AQGN\" ]",
+      "lat": 48.4734,
+      "lon": 12.2576,
+      "type": "PRECIP",
+      "time": "2026-06-29T23:10:00.000Z",
+      "country": "DE",
+      "place": "Geisenhausen",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter ziehen über die Region hinweg - die Lage in Ostbayern\", IDOWA, 30 JUN / 01 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T21:30:00.000Z\", s\"01KWR7JF0WTXMR925JN9N9ZP54\" ]",
+      "lat": 49.1382,
+      "lon": 13.2287,
+      "type": "PRECIP",
+      "time": "2026-06-29T21:30:00.000Z",
+      "country": "CZ",
+      "place": "Železná Ruda",
+      "description": "torrential rain during thunderstorm | measured by CHMI rain gauge station",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 04 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T21:17:00.000Z\", s\"01KWC6VFDQ8DHDCY9YWCXTGMKC\" ]",
+      "lat": 47.8721,
+      "lon": 13.0634,
+      "type": "WIND",
+      "time": "2026-06-29T21:17:00.000Z",
+      "country": "AT",
+      "place": "Elixhausen",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WWW"
+      ],
+      "references": [
+        "Unwetter hielten Salzburgs Feuerwehren auf Trab, Kronen Zeitung, 30 June 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T21:00:00.000Z\", s\"01KWF4Z7A7ZFZ9CJNVYCF9ZKGM\" ]",
+      "lat": 48.4483,
+      "lon": 12.0339,
+      "type": "PRECIP",
+      "time": "2026-06-29T21:00:00.000Z",
+      "country": "DE",
+      "place": "Buch am Erlbach",
+      "description": "40 estates flooded",
+      "info_source": [
+        "NWSP",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Vollgelaufene Keller und Scheunenbrand nach Unwetter im Kreis Landshut\", IDOWA, 30 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T21:00:00.000Z\", s\"01KWC6RX30PE3Z9V3E8WNVCY3D\" ]",
+      "lat": 47.8102,
+      "lon": 12.9841,
+      "type": "WIND",
+      "time": "2026-06-29T21:00:00.000Z",
+      "country": "AT",
+      "place": "Siezenheim",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WWW"
+      ],
+      "references": [
+        "Unwetter hielten Salzburgs Feuerwehren auf Trab, Kronen Zeitung, 30 June 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T20:15:00.000Z\", s\"01KWCK57HGZNFDRGMBNMBARNHJ\" ]",
+      "lat": 48.4619,
+      "lon": 11.9393,
+      "type": "HAIL",
+      "time": "2026-06-29T20:15:00.000Z",
+      "country": "DE",
+      "place": "Moosburg an der Isar",
+      "description": "Large hail 2 cm i.d. reported. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 29 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:50:00.000Z\", s\"01KWAPCW68JFWST9AW4BRJJYHZ\" ]",
+      "lat": 48.546,
+      "lon": 13.905,
+      "type": "WIND",
+      "time": "2026-06-29T19:50:00.000Z",
+      "country": "AT",
+      "place": "Sarleinsbach",
+      "description": "a tree fell across a road",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 29 June 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:50:00.000Z\", s\"01KWAP9X36H5J5MG01T0J529K9\" ]",
+      "lat": 48.5904,
+      "lon": 14.0355,
+      "type": "WIND",
+      "time": "2026-06-29T19:50:00.000Z",
+      "country": "AT",
+      "place": "Lichtenau im Mühlkreis",
+      "description": "a tree fell across a road",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 29 June 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:50:00.000Z\", s\"01KWAP995F8BTAP429VKGZ4TX8\" ]",
+      "lat": 48.5759,
+      "lon": 14.0445,
+      "type": "WIND",
+      "time": "2026-06-29T19:50:00.000Z",
+      "country": "AT",
+      "place": "Haslach an der Mühl",
+      "description": "a tree fell across a road",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 29 June 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:49:00.000Z\", s\"01KWF3HFK2E7PFE8FAWQ78PA9E\" ]",
+      "lat": 48.3864,
+      "lon": 12.234,
+      "type": "LIGHTNING",
+      "time": "2026-06-29T19:49:00.000Z",
+      "country": "DE",
+      "place": "Engelsberg",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "DMGPHOTO",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Hitzegewitter im Kreis Landshut: Scheune in Engelsberg brennt nieder\", IDOWA, 30 JUN 2026",
+        "kachelmannwetter.com",
+        "\"Blitzeinschlag setzt Scheune in Neufraunhofen in Brand – Schaden bei 50.000 Euro\", PASSAUER NEUE PRESSE; 30 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:45:00.000Z\", s\"01KWAM653G59YG0AK8FZZY0JQF\" ]",
+      "lat": 48.4317,
+      "lon": 14.3,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:45:00.000Z",
+      "country": "AT",
+      "place": "Hellmonsödt",
+      "description": "2 basements flooded",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 29 June 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:40:00.000Z\", s\"01KWAHM2CGY033B6QKWM8ZNP2J\" ]",
+      "lat": 48.2965,
+      "lon": 14.2855,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:40:00.000Z",
+      "country": "AT",
+      "place": "Linz-Stadt",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Ws. report by Geosphere Austria, 29 June 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:35:00.000Z\", s\"01KWANXR7AEFR53PVP38JZ210A\" ]",
+      "lat": 48.368,
+      "lon": 14.024,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:35:00.000Z",
+      "country": "AT",
+      "place": "Aschach an der Donau",
+      "description": "multiple buildings flooded",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 29 June 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:33:00.000Z\", s\"01KWANVVS9FKNTWW0VY48EVSKH\" ]",
+      "lat": 48.3623,
+      "lon": 14.0031,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:33:00.000Z",
+      "country": "AT",
+      "place": "Hartkirchen",
+      "description": "multiple basements flooded",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 29 June 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:30:00.000Z\", s\"01KWAKT4H5VGR0SHPCAWC1VWBV\" ]",
+      "lat": 48.3449,
+      "lon": 14.0534,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:30:00.000Z",
+      "country": "AT",
+      "place": "Feldkirchen an der Donau",
+      "description": "fire department came into action at least 2 times, basement flooded",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 29 June 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:20:00.000Z\", s\"01KWF238NAAK78A4M0PJ56HG3A\" ]",
+      "lat": 48.1371,
+      "lon": 11.5754,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:20:00.000Z",
+      "country": "DE",
+      "place": "München",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter wüten in Bayern: München versinkt nach Rekordhitze im Chaos\", MERKUR, 30 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWM0NZFN9CJHT0GDBKWBZYKQ\" ]",
+      "lat": 48.1097,
+      "lon": 11.4774,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": "Großhadern",
+      "description": null,
+      "info_source": [
+        "GOV"
+      ],
+      "references": [
+        "FF MÜNCHEN - Abteilung Forstenried. Checked: 03 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWM0MNW06HW6WYD4HZWNGK6P\" ]",
+      "lat": 48.168,
+      "lon": 11.5269,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": "Borstei",
+      "description": null,
+      "info_source": [
+        "GOV"
+      ],
+      "references": [
+        "FF MÜNCHEN - Abteilung Forstenried. Checked: 03 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWM0M2DXZY5K6CFH8Z4WBKTC\" ]",
+      "lat": 48.0708,
+      "lon": 11.5185,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": "Pullach",
+      "description": null,
+      "info_source": [
+        "GOV"
+      ],
+      "references": [
+        "FF MÜNCHEN - Abteilung Forstenried. Checked: 03 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWM0K2R0KCY4T3F6A1MNS5ED\" ]",
+      "lat": 48.1393,
+      "lon": 11.4209,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": "Neuaubing",
+      "description": null,
+      "info_source": [
+        "GOV"
+      ],
+      "references": [
+        "FF MÜNCHEN - Abteilung Forstenried. Checked: 03 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWM0JCKTDGFNXFJEJ7FCPYQ3\" ]",
+      "lat": 48.1411,
+      "lon": 11.4463,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": "Waldkolonie Pasing",
+      "description": null,
+      "info_source": [
+        "GOV"
+      ],
+      "references": [
+        "FF MÜNCHEN - Abteilung Forstenried. Checked: 03 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWM0G74YJMHHXRR2HDK7N8ZR\" ]",
+      "lat": 48.099,
+      "lon": 11.5755,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": "Untergiesing-Harlaching",
+      "description": null,
+      "info_source": [
+        "GOV"
+      ],
+      "references": [
+        "FF MÜNCHEN - Abteilung Forstenried. Checked: 03 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWM0FCNBZHBFNVATVPZK9PFQ\" ]",
+      "lat": 48.1412,
+      "lon": 11.4202,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": "Neuaubing",
+      "description": null,
+      "info_source": [
+        "GOV"
+      ],
+      "references": [
+        "FF MÜNCHEN - Abteilung Forstenried. Checked: 03 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKYR4QDEKJ9V27EE1J4W4FG\" ]",
+      "lat": 48.1223,
+      "lon": 11.6043,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": "Werksviertel",
+      "description": null,
+      "info_source": [
+        "GOV"
+      ],
+      "references": [
+        "FF MÜNCHEN - Abteilung Forstenried. Checked: 03 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKYNDQXWGP33Y8DQW9ABDB1\" ]",
+      "lat": 48.0983,
+      "lon": 11.5806,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKYJVXCA7Z0WS9JA7BBG2AK\" ]",
+      "lat": 48.0993,
+      "lon": 11.5698,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKYJ4DPZFVCFFDC90R50Y33\" ]",
+      "lat": 48.084,
+      "lon": 11.5162,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKYHFS9C4RSKPH7YE51KARN\" ]",
+      "lat": 48.1631,
+      "lon": 11.6211,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKYGRCZC0TCNXV4JE929GW5\" ]",
+      "lat": 48.1381,
+      "lon": 11.6019,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKYFYK86PP33KXS950G9MEP\" ]",
+      "lat": 48.1408,
+      "lon": 11.4097,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKYF024XCQ76C1XBWBWSDXW\" ]",
+      "lat": 48.1028,
+      "lon": 11.5484,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKYDZSQSCJTBVZ47P2K79GM\" ]",
+      "lat": 48.1359,
+      "lon": 11.5795,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKYDB3VX95NTD3QA6E8Y5SV\" ]",
+      "lat": 48.1282,
+      "lon": 11.5673,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKYCJ9T2DE79BV95M694MVF\" ]",
+      "lat": 48.158,
+      "lon": 11.6329,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKYBTPAN7XTJG66Q9J2CZ4F\" ]",
+      "lat": 48.1274,
+      "lon": 11.5206,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKYB21QJ6ZXP8YGY3856GH5\" ]",
+      "lat": 48.1242,
+      "lon": 11.5557,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKYACAF6XYKSVT7A5ZHPTRY\" ]",
+      "lat": 48.0929,
+      "lon": 11.4754,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKY9NGCYRDECV2TTDQ5YTGA\" ]",
+      "lat": 48.1261,
+      "lon": 11.5864,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKY8SZWPWRASAFGWSJKQWFD\" ]",
+      "lat": 48.1141,
+      "lon": 11.5374,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKY7YJHXNJGQS1BR4701RAR\" ]",
+      "lat": 48.1735,
+      "lon": 11.6339,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKY795ZRZBVD5V9GPHESM0Z\" ]",
+      "lat": 48.1151,
+      "lon": 11.4711,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKY6J11SJKCNJHPPE7VRSXV\" ]",
+      "lat": 48.147,
+      "lon": 11.6309,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKY5BH7DW5CTTNT0VBVAY8F\" ]",
+      "lat": 48.166,
+      "lon": 11.618,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKY497EM8FSRTW9PNB2YJWH\" ]",
+      "lat": 48.0898,
+      "lon": 11.552,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKY3MBSP2P4A4JDA61JYVEZ\" ]",
+      "lat": 48.133,
+      "lon": 11.5836,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKY2YFGDXMHFF97SP2HMVKF\" ]",
+      "lat": 48.1567,
+      "lon": 11.6418,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKY2G5F3BJ0Y34AKKQ3F3J7\" ]",
+      "lat": 48.1535,
+      "lon": 11.6326,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKX61AMSG5S4EN2X8HQ2ATQ\" ]",
+      "lat": 48.0886,
+      "lon": 11.5575,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKX4SKWHB769Z6HD18K2PKP\" ]",
+      "lat": 48.1075,
+      "lon": 11.5991,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKX40H0HZ7A6J3KY39G6WWQ\" ]",
+      "lat": 48.1235,
+      "lon": 11.5787,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKX35531J3AWCWD2PJ5B15Q\" ]",
+      "lat": 48.151,
+      "lon": 11.4298,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKX28CECQJ0STG15CX08KG3\" ]",
+      "lat": 48.0819,
+      "lon": 11.5128,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKX1F54X56Z6B67XPTXA9H3\" ]",
+      "lat": 48.1195,
+      "lon": 11.5774,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKX0XCTQH8SC7HHYBNQ3XPB\" ]",
+      "lat": 48.1222,
+      "lon": 11.5792,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWZXAB369PC6V3RRZCF7NN\" ]",
+      "lat": 48.1356,
+      "lon": 11.6852,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWYZVDPN28S9VFNQQ14R03\" ]",
+      "lat": 48.1816,
+      "lon": 11.6322,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWXXQAG60X9KFRWPAQSQVY\" ]",
+      "lat": 48.1367,
+      "lon": 11.4101,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWXD5VK3EQ6BQQ89EFV5Y4\" ]",
+      "lat": 48.143,
+      "lon": 11.425,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWWJWJT496BMG2Q2FBRH31\" ]",
+      "lat": 48.11,
+      "lon": 11.5855,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWVTC745ND2MXJTV79YGNY\" ]",
+      "lat": 48.1158,
+      "lon": 11.5729,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWT3PH6CGDBHRRFXS05EN3\" ]",
+      "lat": 48.1343,
+      "lon": 11.5741,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWSEZV45X16DZ2E70C6ZAA\" ]",
+      "lat": 48.1241,
+      "lon": 11.5519,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWRFXJ1KRPS56EZVJGTPPW\" ]",
+      "lat": 48.1046,
+      "lon": 11.5463,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWQGRGTVB5QZVB3W2BHW2H\" ]",
+      "lat": 48.0954,
+      "lon": 11.5334,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWPE6505RA82HAG3GJB05F\" ]",
+      "lat": 48.16,
+      "lon": 11.6104,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWNEKRMW1JFJAH18SVXHPA\" ]",
+      "lat": 48.088,
+      "lon": 11.4817,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWMQ0RWAS51P9J83XE57TN\" ]",
+      "lat": 48.0962,
+      "lon": 11.5859,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWKY8HXBF6XDWJ5ESYJR6Q\" ]",
+      "lat": 48.1193,
+      "lon": 11.5256,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWK8R9HHV4M5XMNTBC4KKH\" ]",
+      "lat": 48.1156,
+      "lon": 11.5279,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWHQ88NSZS7M3D71DYQY43\" ]",
+      "lat": 48.126,
+      "lon": 11.4848,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWGYMDKY4DJ3VR25QXQFM4\" ]",
+      "lat": 48.1154,
+      "lon": 11.5468,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWF171YWHFRW9Q4FX65PB2\" ]",
+      "lat": 48.1202,
+      "lon": 11.559,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWD3YCCCB58R3QWPBWPMDE\" ]",
+      "lat": 48.1557,
+      "lon": 11.6159,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWC4EDBHS1ECC7DR0Q8EC0\" ]",
+      "lat": 48.1263,
+      "lon": 11.5799,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWBA6F5008D5CF3Q522TFF\" ]",
+      "lat": 48.1324,
+      "lon": 11.5751,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKWAG48F6147T4EJQ199489\" ]",
+      "lat": 48.1213,
+      "lon": 11.5243,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKW9T5Q8YV7E3MPCN0V52Q5\" ]",
+      "lat": 48.1633,
+      "lon": 11.6244,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKW8J7KT9XWCK1DMTC9P32X\" ]",
+      "lat": 48.1027,
+      "lon": 11.5713,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKW6ZGRPTKJC5R83P1464CN\" ]",
+      "lat": 48.1593,
+      "lon": 11.5279,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKW62KJSSQ3RBKV78EH1QH1\" ]",
+      "lat": 48.1517,
+      "lon": 11.5235,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKW54Z73D4N19JT4411W2AD\" ]",
+      "lat": 48.1307,
+      "lon": 11.5877,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKW44F4QT2J955X5W7BZTED\" ]",
+      "lat": 48.1384,
+      "lon": 11.4285,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKW37DFVQ02XY892G1T6HGT\" ]",
+      "lat": 48.1212,
+      "lon": 11.5624,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKW24XERWS2NHX19W65YC8Y\" ]",
+      "lat": 48.1287,
+      "lon": 11.5845,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKW193G4YZ9E7AGPXBZMYWQ\" ]",
+      "lat": 48.1599,
+      "lon": 11.5208,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKW0KQWK3AH5CFR9ZXVDAZM\" ]",
+      "lat": 48.1662,
+      "lon": 11.6429,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVZB0WP1A0B5YX3J4KKNKR\" ]",
+      "lat": 48.1666,
+      "lon": 11.5152,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVYCH6D2CXP79E2SHE91A7\" ]",
+      "lat": 48.1382,
+      "lon": 11.5753,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVWN6EQG4CBYTJVEEQHJY2\" ]",
+      "lat": 48.107,
+      "lon": 11.5278,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVVBNXHZ98TCJ5FEFQYPZD\" ]",
+      "lat": 48.1262,
+      "lon": 11.5928,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVT09ZXN2EWAT6R0ERWF3M\" ]",
+      "lat": 48.1249,
+      "lon": 11.5453,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVS76HSDG8X169EFYCASR5\" ]",
+      "lat": 48.1296,
+      "lon": 11.5309,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVRTMNB090RP0DY212CPZP\" ]",
+      "lat": 48.1273,
+      "lon": 11.5351,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVR3GBTH25CCFKH0CQH8ES\" ]",
+      "lat": 48.1249,
+      "lon": 11.521,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVPWN1EZCASWB22PBP910T\" ]",
+      "lat": 48.1284,
+      "lon": 11.5726,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVP0FGP13HCQGRMTRQ9XAM\" ]",
+      "lat": 48.088,
+      "lon": 11.4962,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVN45P08R0Y7E03CFWJYDW\" ]",
+      "lat": 48.1207,
+      "lon": 11.5725,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVM0W961P2C1STMK1X9NT9\" ]",
+      "lat": 48.1091,
+      "lon": 11.5342,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVKEWE04EP9K0RKEGF13E8\" ]",
+      "lat": 48.1296,
+      "lon": 11.5774,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVJH9RNSGPCHXQGRPYB6NX\" ]",
+      "lat": 48.1099,
+      "lon": 11.5282,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVHYHWM9AZ196Z1XZWTXZ6\" ]",
+      "lat": 48.1123,
+      "lon": 11.551,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVGYFE1B8YK6XK76J6C64Z\" ]",
+      "lat": 48.1418,
+      "lon": 11.603,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVFK2MFZQESMRH0BF0W2NY\" ]",
+      "lat": 48.1081,
+      "lon": 11.6041,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVESQVY1M12BP6575SHWEV\" ]",
+      "lat": 48.0918,
+      "lon": 11.5172,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVCYYD0KVX8B2146EKSFSG\" ]",
+      "lat": 48.1255,
+      "lon": 11.5377,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVC63W5QXZEVTKVEHF5AXP\" ]",
+      "lat": 48.1419,
+      "lon": 11.5137,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVAZFGMXXJA4PT07A9W366\" ]",
+      "lat": 48.1232,
+      "lon": 11.5835,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVAK5XYF95SYZS08PAV766\" ]",
+      "lat": 48.1259,
+      "lon": 11.5829,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWKVA0YKFR60H2PDMKR72M28\" ]",
+      "lat": 48.1054,
+      "lon": 11.5629,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWHT857TRQ037CBAZ3N9D66G\" ]",
+      "lat": 51.0067,
+      "lon": 13.7931,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWHT7FC8E5DC4XTY9BFT1K2A\" ]",
+      "lat": 50.9987,
+      "lon": 13.8174,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWHT74386213PS1TGXC4R95Q\" ]",
+      "lat": 50.9898,
+      "lon": 13.8016,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:15:00.000Z\", s\"01KWHT6KH49ZPEJCTF9Y9EES18\" ]",
+      "lat": 51.04,
+      "lon": 13.71,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:12:00.000Z\", s\"01KWF3QRRA4B35TNG634C7S1SW\" ]",
+      "lat": 48.0721,
+      "lon": 11.5232,
+      "type": "LIGHTNING",
+      "time": "2026-06-29T19:12:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T19:00:00.000Z\", s\"01KWKW68XFQP70QCK2YKX4680Q\" ]",
+      "lat": 48.0326,
+      "lon": 11.5818,
+      "type": "PRECIP",
+      "time": "2026-06-29T19:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:45:00.000Z\", s\"01KWCK1HQYDC351N5K051SDETH\" ]",
+      "lat": 48.8439,
+      "lon": 12.1845,
+      "type": "HAIL",
+      "time": "2026-06-29T18:45:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:35:00.000Z\", s\"01KWF2BQRXJBEEGNPY39BKFQXZ\" ]",
+      "lat": 48.2536,
+      "lon": 12.4161,
+      "type": "WIND",
+      "time": "2026-06-29T18:35:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:31:00.000Z\", s\"01KWCJPKW3AWBV6MX0WBN40Z7H\" ]",
+      "lat": 48.3968,
+      "lon": 13.0011,
+      "type": "HAIL",
+      "time": "2026-06-29T18:31:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:30:00.000Z\", s\"01KWD2QEGE189NB5B8GSHJDQMZ\" ]",
+      "lat": 52.0632,
+      "lon": 17.0193,
+      "type": "WIND",
+      "time": "2026-06-29T18:30:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:30:00.000Z\", s\"01KWCK38CKRMPRTQCXPXP7BNAX\" ]",
+      "lat": 48.0928,
+      "lon": 11.4144,
+      "type": "HAIL",
+      "time": "2026-06-29T18:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:30:00.000Z\", s\"01KWC5GKWSGYJPJ5WMFD4J7BMG\" ]",
+      "lat": 48.00345,
+      "lon": 13.65991,
+      "type": "LIGHTNING",
+      "time": "2026-06-29T18:30:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:25:00.000Z\", s\"01KWS1230X4NC0PK534YQGWWDM\" ]",
+      "lat": 50.102,
+      "lon": 18.682,
+      "type": "WIND",
+      "time": "2026-06-29T18:25:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:25:00.000Z\", s\"01KWM1ARSCPVK3DA3YSJ8KBR6N\" ]",
+      "lat": 48.143,
+      "lon": 11.445,
+      "type": "WIND",
+      "time": "2026-06-29T18:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:25:00.000Z\", s\"01KWM1ADQ1CB9YKM8TBWWQTRSX\" ]",
+      "lat": 48.1387,
+      "lon": 11.4383,
+      "type": "WIND",
+      "time": "2026-06-29T18:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:25:00.000Z\", s\"01KWM19AXZ5764DSHS18G6PM1G\" ]",
+      "lat": 48.1518,
+      "lon": 11.6067,
+      "type": "WIND",
+      "time": "2026-06-29T18:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:25:00.000Z\", s\"01KWM185YNZF4P2DGAEH4RJHSK\" ]",
+      "lat": 48.1378,
+      "lon": 11.5674,
+      "type": "WIND",
+      "time": "2026-06-29T18:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:25:00.000Z\", s\"01KWM17NQXWK3Z8NQP5J0GB02C\" ]",
+      "lat": 48.1354,
+      "lon": 11.5813,
+      "type": "WIND",
+      "time": "2026-06-29T18:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:25:00.000Z\", s\"01KWM176ZQEQTNXB9ATKSDCMH9\" ]",
+      "lat": 48.1349,
+      "lon": 11.5695,
+      "type": "WIND",
+      "time": "2026-06-29T18:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:25:00.000Z\", s\"01KWM167MHW0594EQ6EXEM5T3X\" ]",
+      "lat": 48.1645,
+      "lon": 11.6145,
+      "type": "WIND",
+      "time": "2026-06-29T18:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:25:00.000Z\", s\"01KWM153Q2BN8H42VD9KENY7DG\" ]",
+      "lat": 48.1542,
+      "lon": 11.6014,
+      "type": "WIND",
+      "time": "2026-06-29T18:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:25:00.000Z\", s\"01KWM14PDM2YSJ98N2YK58625T\" ]",
+      "lat": 48.1575,
+      "lon": 11.6084,
+      "type": "WIND",
+      "time": "2026-06-29T18:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:25:00.000Z\", s\"01KWM11JZEEGW7H913XE4P3PP7\" ]",
+      "lat": 48.1362,
+      "lon": 11.5689,
+      "type": "WIND",
+      "time": "2026-06-29T18:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:25:00.000Z\", s\"01KWM10GTXEGG1ZHBQJRA5G9D3\" ]",
+      "lat": 48.1552,
+      "lon": 11.6083,
+      "type": "WIND",
+      "time": "2026-06-29T18:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:25:00.000Z\", s\"01KWM108Z8RR5N6RDA66CJGM13\" ]",
+      "lat": 48.1534,
+      "lon": 11.6083,
+      "type": "WIND",
+      "time": "2026-06-29T18:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:25:00.000Z\", s\"01KWM0XKZ82A6R37AW35JTWQ40\" ]",
+      "lat": 48.1672,
+      "lon": 11.437,
+      "type": "WIND",
+      "time": "2026-06-29T18:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:25:00.000Z\", s\"01KWM0WDA37BW3ND643HTDHKVX\" ]",
+      "lat": 48.136,
+      "lon": 11.5703,
+      "type": "WIND",
+      "time": "2026-06-29T18:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:25:00.000Z\", s\"01KWM0TQ041T7M82TN7PGJM36K\" ]",
+      "lat": 48.1199,
+      "lon": 11.5621,
+      "type": "WIND",
+      "time": "2026-06-29T18:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:25:00.000Z\", s\"01KWM0SZVWJAER52ZW7TNR964K\" ]",
+      "lat": 48.1599,
+      "lon": 11.5993,
+      "type": "WIND",
+      "time": "2026-06-29T18:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:20:00.000Z\", s\"01KWD5PBBYJQN1C1CQ78BP9565\" ]",
+      "lat": 47.1508,
+      "lon": 10.395,
+      "type": "PRECIP",
+      "time": "2026-06-29T18:20:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:20:00.000Z\", s\"01KWAH9S8ZB6R53HPVP4ER17B4\" ]",
+      "lat": 48.0075,
+      "lon": 13.646,
+      "type": "PRECIP",
+      "time": "2026-06-29T18:20:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:17:00.000Z\", s\"01KWCJM4W5CX7JW2ZGESVVZJAZ\" ]",
+      "lat": 48.0943,
+      "lon": 11.5231,
+      "type": "HAIL",
+      "time": "2026-06-29T18:17:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:15:00.000Z\", s\"01KWS1AZMY5G9JHA3MYE0XBKRX\" ]",
+      "lat": 50.141,
+      "lon": 18.626,
+      "type": "WIND",
+      "time": "2026-06-29T18:15:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:15:00.000Z\", s\"01KWF31QRWX8WCQBWWX0DYGPXT\" ]",
+      "lat": 47.8179,
+      "lon": 12.3777,
+      "type": "PRECIP",
+      "time": "2026-06-29T18:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:15:00.000Z\", s\"01KWCJKEBAXY6VKYN6S8EKQ4Q5\" ]",
+      "lat": 48.1005,
+      "lon": 11.5449,
+      "type": "HAIL",
+      "time": "2026-06-29T18:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:15:00.000Z\", s\"01KWCJJGX3J06EMZDGPEFETDP1\" ]",
+      "lat": 48.1108,
+      "lon": 11.5661,
+      "type": "HAIL",
+      "time": "2026-06-29T18:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:14:00.000Z\", s\"01KWCJG9D4B8FH7P863XK6HKV0\" ]",
+      "lat": 48.0978,
+      "lon": 11.5644,
+      "type": "HAIL",
+      "time": "2026-06-29T18:14:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:10:00.000Z\", s\"01KWMSPN4KZKQ9KXE07AY9ECT0\" ]",
+      "lat": 50.0235,
+      "lon": 18.5848,
+      "type": "WIND",
+      "time": "2026-06-29T18:10:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:07:00.000Z\", s\"01KWANCXWE24FPW8HTXEBH4YVB\" ]",
+      "lat": 48.0043,
+      "lon": 13.6527,
+      "type": "PRECIP",
+      "time": "2026-06-29T18:07:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:05:00.000Z\", s\"01KWAE4BK5K84A5T1H94RCSENZ\" ]",
+      "lat": 50.917778,
+      "lon": 22.6669445,
+      "type": "WIND",
+      "time": "2026-06-29T18:05:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T18:00:00.000Z\", s\"01KWFHX1J0Z63N70PFTJXEBYQS\" ]",
+      "lat": 46.5764,
+      "lon": 13.6092,
+      "type": "PRECIP",
+      "time": "2026-06-29T18:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T17:55:00.000Z\", s\"01KWAN1NK84GCFNW362R8HW4TM\" ]",
+      "lat": 48.0016,
+      "lon": 13.6085,
+      "type": "PRECIP",
+      "time": "2026-06-29T17:55:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T17:55:00.000Z\", s\"01KWAEAJ87BT0SSG8N5RFCZJWR\" ]",
+      "lat": 50.2811,
+      "lon": 18.2425,
+      "type": "HAIL",
+      "time": "2026-06-29T17:55:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T17:50:00.000Z\", s\"01KWS6BV57TP38520G4AWS90N1\" ]",
+      "lat": 49.841,
+      "lon": 18.763,
+      "type": "WIND",
+      "time": "2026-06-29T17:50:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T17:50:00.000Z\", s\"01KWCRK9FKS3VPGAWH9C3HY6Y6\" ]",
+      "lat": 50.2561,
+      "lon": 18.2239,
+      "type": "HAIL",
+      "time": "2026-06-29T17:50:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T17:50:00.000Z\", s\"01KWC5V5QPZ1HA93GF7HWQ9F9E\" ]",
+      "lat": 50.0707,
+      "lon": 18.4671,
+      "type": "WIND",
+      "time": "2026-06-29T17:50:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T17:48:00.000Z\", s\"01KWCJE8D8FYC6YAR76JYAFC4P\" ]",
+      "lat": 48.6152,
+      "lon": 12.9079,
+      "type": "HAIL",
+      "time": "2026-06-29T17:48:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T17:45:00.000Z\", s\"01KWAMZT06E9CT5EMH4Q0PMSV9\" ]",
+      "lat": 48.0047,
+      "lon": 13.6584,
+      "type": "WIND",
+      "time": "2026-06-29T17:45:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T17:45:00.000Z\", s\"01KWAJBT7JWEP82EWG1NCEK0CT\" ]",
+      "lat": 48.0075,
+      "lon": 13.646,
+      "type": "WIND",
+      "time": "2026-06-29T17:45:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T17:40:00.000Z\", s\"01KWS74KJQYC98B64884Q8XFMD\" ]",
+      "lat": 49.82,
+      "lon": 18.753,
+      "type": "WIND",
+      "time": "2026-06-29T17:40:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T17:40:00.000Z\", s\"01KWS4S1HS8TDWWZA23724RZ72\" ]",
+      "lat": 49.822,
+      "lon": 18.78,
+      "type": "WIND",
+      "time": "2026-06-29T17:40:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T17:40:00.000Z\", s\"01KWAMVN5FD4XFTEJEYKRMZV8Z\" ]",
+      "lat": 48.0015,
+      "lon": 13.6125,
+      "type": "WIND",
+      "time": "2026-06-29T17:40:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T17:35:00.000Z\", s\"01KWCJCGVDJSE8CG8NQJN1EPVD\" ]",
+      "lat": 48.025,
+      "lon": 11.5801,
+      "type": "HAIL",
+      "time": "2026-06-29T17:35:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T17:30:00.000Z\", s\"01KWKMR88A34HG7H4Q44F29BCM\" ]",
+      "lat": 46.8805,
+      "lon": 8.25,
+      "type": "LIGHTNING",
+      "time": "2026-06-29T17:30:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T17:30:00.000Z\", s\"01KWFQEV7KKGE9XZ4YXVB5MCSC\" ]",
+      "lat": 47.900415,
+      "lon": 13.566206,
+      "type": "WIND",
+      "time": "2026-06-29T17:30:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T17:30:00.000Z\", s\"01KWF32WHSABY103PEVW9FDZ1G\" ]",
+      "lat": 47.7039,
+      "lon": 12.0181,
+      "type": "PRECIP",
+      "time": "2026-06-29T17:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T17:30:00.000Z\", s\"01KWAEPQNB2T40XEE6HBXENNGX\" ]",
+      "lat": 50.0179,
+      "lon": 18.1216,
+      "type": "HAIL",
+      "time": "2026-06-29T17:30:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T17:00:00.000Z\", s\"01KWR7SXG4520EBGXZCSF51RXX\" ]",
+      "lat": 50.4378,
+      "lon": 15.1417,
+      "type": "PRECIP",
+      "time": "2026-06-29T17:00:00.000Z",
+      "country": "CZ",
+      "place": "Dolní Bousov",
+      "description": "torrential rain during thunderstorm | measured by CHMI rain gauge station | peak precip time was 16:10 - 16:40 UTC",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 04 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T17:00:00.000Z\", s\"01KWD60R21EYGVH0HJ5AE8THJC\" ]",
+      "lat": 47.1003,
+      "lon": 10.8197,
+      "type": "PRECIP",
+      "time": "2026-06-29T17:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T17:00:00.000Z\", s\"01KWBZG0VDHQPJ6GZTQ3M4YGFV\" ]",
+      "lat": 50.0915,
+      "lon": 17.8522,
+      "type": "HAIL",
+      "time": "2026-06-29T17:00:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:55:00.000Z\", s\"01KWADSTNAYK9EM72FX2FHF8KA\" ]",
+      "lat": 50.064,
+      "lon": 17.8503,
+      "type": "HAIL",
+      "time": "2026-06-29T16:55:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:50:00.000Z\", s\"01KWMS0KCC3AQKMRKDPXMDEYDF\" ]",
+      "lat": 50.1265,
+      "lon": 18.5048,
+      "type": "WIND",
+      "time": "2026-06-29T16:50:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:50:00.000Z\", s\"01KWEN96DJZ9E207VW4J4R2VJ4\" ]",
+      "lat": 50.0733,
+      "lon": 17.8262,
+      "type": "HAIL",
+      "time": "2026-06-29T16:50:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:50:00.000Z\", s\"01KWC5M717RH05J6QGN3WJG8DK\" ]",
+      "lat": 50.0956,
+      "lon": 18.542,
+      "type": "HAIL",
+      "time": "2026-06-29T16:50:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:45:00.000Z\", s\"01KWCRKEKPF8E9134HPQMBBHWH\" ]",
+      "lat": 50.0506,
+      "lon": 17.7944,
+      "type": "HAIL",
+      "time": "2026-06-29T16:45:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:40:00.000Z\", s\"01KWD9MN28YH3M2Z2PPM917QYG\" ]",
+      "lat": 48.3312,
+      "lon": 21.1071,
+      "type": "WIND",
+      "time": "2026-06-29T16:40:00.000Z",
+      "country": "HU",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:35:00.000Z\", s\"01KWC73KF58PGNC5W125GMBHSN\" ]",
+      "lat": 49.5511,
+      "lon": 18.8268,
+      "type": "HAIL",
+      "time": "2026-06-29T16:35:00.000Z",
+      "country": "CZ",
+      "place": "Bukovec",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Český hydrometeorologický ústav' (on Facebook), 29 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:35:00.000Z\", s\"01KWC4E81ZER2ZNR6WRRE5Q78C\" ]",
+      "lat": 50.0471,
+      "lon": 17.7451,
+      "type": "HAIL",
+      "time": "2026-06-29T16:35:00.000Z",
+      "country": "CZ",
+      "place": "Úvalno",
+      "description": "Large hail up to at least 2 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Český hydrometeorologický ústav (on Facebook), 29 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:35:00.000Z\", s\"01KWAEVDH3XB9YFKZE6P2BX5M4\" ]",
+      "lat": 50.0899,
+      "lon": 17.7041,
+      "type": "HAIL",
+      "time": "2026-06-29T16:35:00.000Z",
+      "country": "CZ",
+      "place": "Krnov",
+      "description": "Very large hail up to at least 6 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Amatérská meteorologie pro veřejnost (on Facebook), 29 JUN 2026.",
+        "Eyewitness report via Lovci bouřek, extrémní počasí a jiné jevy (on Facebook), 29 JUN 2026.",
+        "Eyewitness report via Meteo Včasné varování (on Facebook), 29 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:33:00.000Z\", s\"01KWQHH6VVRMW59B03ZGGQWZN6\" ]",
+      "lat": 47.4775,
+      "lon": 15.2983,
+      "type": "PRECIP",
+      "time": "2026-06-29T16:33:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:30:00.000Z\", s\"01KWC02EGD6YY9SXMGG35KTNTV\" ]",
+      "lat": 50.2052,
+      "lon": 17.5749,
+      "type": "HAIL",
+      "time": "2026-06-29T16:30:00.000Z",
+      "country": "CZ",
+      "place": "Třemešná",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Meteo Včasné varováni (on Facebook), 29 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:30:00.000Z\", s\"01KWBDBQDXWB3JTQBZ93G9X6YG\" ]",
+      "lat": 50.2282,
+      "lon": 17.1381,
+      "type": "HAIL",
+      "time": "2026-06-29T16:30:00.000Z",
+      "country": "CZ",
+      "place": "Lipová-lázně",
+      "description": "Large hail up to at least 4-5 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Meteo Včasné varování (on Facebook), 29 JUN 2026.",
+        "Eyewitness report via Lovci bouřek, extrémní počasí a jiné jevy (on Facebook), 29 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:20:00.000Z\", s\"01KWBDG2YVD5MN9GTD7XW3CSGN\" ]",
+      "lat": 50.185,
+      "lon": 17.0517,
+      "type": "HAIL",
+      "time": "2026-06-29T16:20:00.000Z",
+      "country": "CZ",
+      "place": "Ostružná",
+      "description": "Large hail up to at least 3 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Meteo Včasné varování (on Facebook), 29 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:15:00.000Z\", s\"01KWQH4N0FQK2THBWZ0GGY8QG2\" ]",
+      "lat": 47.4304,
+      "lon": 15.2752,
+      "type": "WIND",
+      "time": "2026-06-29T16:15:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:10:00.000Z\", s\"01KWR8F817CB7TJY8GNAESVNEV\" ]",
+      "lat": 50.1405,
+      "lon": 15.1335,
+      "type": "PRECIP",
+      "time": "2026-06-29T16:10:00.000Z",
+      "country": "CZ",
+      "place": "Poděbrady",
+      "description": "torrential rain during thunderstorm | measured by CHMI rain gauge station ",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 04 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:10:00.000Z\", s\"01KWR8AE4S1ZMTDGB29J3DWKCZ\" ]",
+      "lat": 50.2483,
+      "lon": 15.2011,
+      "type": "PRECIP",
+      "time": "2026-06-29T16:10:00.000Z",
+      "country": "CZ",
+      "place": "Dymokury",
+      "description": "torrential rain during thunderstorm | measured by CHMI rain gauge station ",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 04 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:10:00.000Z\", s\"01KWBF96PHJR2YWWWSEM5HQJ5P\" ]",
+      "lat": 50.1617,
+      "lon": 16.9473,
+      "type": "HAIL",
+      "time": "2026-06-29T16:10:00.000Z",
+      "country": "CZ",
+      "place": "Staré Město",
+      "description": "Large hail up to at least 2 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Meteo Včasné varování (on Facebook), 29 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:05:00.000Z\", s\"01KWCJB3J4A9923F7C943M37QS\" ]",
+      "lat": 47.7735,
+      "lon": 12.1386,
+      "type": "HAIL",
+      "time": "2026-06-29T16:05:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:00:00.000Z\", s\"01KWR781HZSCYFZ99YGC3665A8\" ]",
+      "lat": 50.08555,
+      "lon": 15.08482,
+      "type": "PRECIP",
+      "time": "2026-06-29T16:00:00.000Z",
+      "country": "CZ",
+      "place": "Cerhenice",
+      "description": "torrential rain during thunderstorm | measured by CHMI rain gauge station",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 04 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:00:00.000Z\", s\"01KWF27W7DQW9Z3VR77D8QXTPN\" ]",
+      "lat": 47.8862,
+      "lon": 11.8898,
+      "type": "LIGHTNING",
+      "time": "2026-06-29T16:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:00:00.000Z\", s\"01KWC5C842ZY7T6C8C65ZQTAX0\" ]",
+      "lat": 47.4807,
+      "lon": 15.2878,
+      "type": "HAIL",
+      "time": "2026-06-29T16:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T16:00:00.000Z\", s\"01KWA475S39F2B501K220NEXH5\" ]",
+      "lat": 48.9266,
+      "lon": 21.5988,
+      "type": "WIND",
+      "time": "2026-06-29T16:00:00.000Z",
+      "country": "SK",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T15:55:00.000Z\", s\"01KWAFCHJPFATSVA0BY59A7WZ7\" ]",
+      "lat": 47.4635,
+      "lon": 15.2746,
+      "type": "HAIL",
+      "time": "2026-06-29T15:55:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T15:42:00.000Z\", s\"01KWCJ7V484JB2KK6BK2TP1YBR\" ]",
+      "lat": 48.7729,
+      "lon": 13.356,
+      "type": "HAIL",
+      "time": "2026-06-29T15:42:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T15:40:00.000Z\", s\"01KWR86QWXH459M38RQ5V3PW24\" ]",
+      "lat": 49.9016,
+      "lon": 15.3942,
+      "type": "PRECIP",
+      "time": "2026-06-29T15:40:00.000Z",
+      "country": "CZ",
+      "place": "Čáslav-Nové Město",
+      "description": "torrential rain during thunderstorm | measured by CHMI rain gauge station | peak precip. time was 14:50 - 15:20 UTC",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 04 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T15:40:00.000Z\", s\"01KWR7EM1CVVFBNEAZYE1P2TPF\" ]",
+      "lat": 49.9028,
+      "lon": 15.0677,
+      "type": "PRECIP",
+      "time": "2026-06-29T15:40:00.000Z",
+      "country": "CZ",
+      "place": "Žíšov",
+      "description": "torrential rain during thunderstorm | measured by CHMI rain gauge station",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 04 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T15:40:00.000Z\", s\"01KWF294CEGF9AJ2QC1A5J28F5\" ]",
+      "lat": 47.8836,
+      "lon": 11.9264,
+      "type": "WIND",
+      "time": "2026-06-29T15:40:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T15:35:00.000Z\", s\"01KWCJ6KE2M14ZFFRNHQYX4D3H\" ]",
+      "lat": 48.7776,
+      "lon": 13.3405,
+      "type": "HAIL",
+      "time": "2026-06-29T15:35:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T15:33:00.000Z\", s\"01KWCJ29D3YY4M2SVSG446AN5A\" ]",
+      "lat": 47.8895,
+      "lon": 11.9337,
+      "type": "HAIL",
+      "time": "2026-06-29T15:33:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T15:30:00.000Z\", s\"01KWCJ3XN9PC6S5GKD2RDWPYTY\" ]",
+      "lat": 47.8743,
+      "lon": 11.8818,
+      "type": "HAIL",
+      "time": "2026-06-29T15:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T15:10:00.000Z\", s\"01KWR90XRAG16QEHEVEFX90GCT\" ]",
+      "lat": 49.4064,
+      "lon": 15.6164,
+      "type": "PRECIP",
+      "time": "2026-06-29T15:10:00.000Z",
+      "country": "CZ",
+      "place": "Hruškové Dvory",
+      "description": "torrential rain during thunderstorm | measured by CHMI rain gauge station",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 04 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T15:00:00.000Z\", s\"01KWR9CYKWBPNYD6YR5QYDER93\" ]",
+      "lat": 49.5014,
+      "lon": 15.5907,
+      "type": "PRECIP",
+      "time": "2026-06-29T15:00:00.000Z",
+      "country": "CZ",
+      "place": "Štoky",
+      "description": "heavy rain during thunderstorm | measured by CHMI rain gauge station ",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 04 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T14:55:00.000Z\", s\"01KWD4TYZSEHGAYD4VHWC4QDK8\" ]",
+      "lat": 47.2975,
+      "lon": 13.0384,
+      "type": "PRECIP",
+      "time": "2026-06-29T14:55:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T14:50:00.000Z\", s\"01KWC6GRRZYFHRZWM8H83J9JEV\" ]",
+      "lat": 50.2826,
+      "lon": 12.6023,
+      "type": "HAIL",
+      "time": "2026-06-29T14:50:00.000Z",
+      "country": "CZ",
+      "place": "Jindřichovice",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Český hydrometeorologický ústav' (on Facebook), 29 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T14:30:00.000Z\", s\"01KWCCH0AGK4B66B2B4TTBNY85\" ]",
+      "lat": 49.17,
+      "lon": 20.91,
+      "type": "HAIL",
+      "time": "2026-06-29T14:30:00.000Z",
+      "country": "SK",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T14:30:00.000Z\", s\"01KWBFMRF6MTCJW4X72DCT3ST3\" ]",
+      "lat": 49.91,
+      "lon": 15.8841,
+      "type": "HAIL",
+      "time": "2026-06-29T14:30:00.000Z",
+      "country": "CZ",
+      "place": "Zaječice",
+      "description": "Large hail up to at least 2-3 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via AKTUÁLNĚ z Chrudimska (on Facebook), 29 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T14:30:00.000Z\", s\"01KWBFHG0T94WT0NPRSNSQFGJN\" ]",
+      "lat": 49.9224,
+      "lon": 15.9166,
+      "type": "HAIL",
+      "time": "2026-06-29T14:30:00.000Z",
+      "country": "CZ",
+      "place": "Řestoky",
+      "description": "Large hail up to at least 3,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via AKTUÁLNĚ z Chrudimska (on Facebook), 29 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T14:30:00.000Z\", s\"01KWAFGCVSS9NRCJ6EKREJP900\" ]",
+      "lat": 51.1139,
+      "lon": 20.8579,
+      "type": "HAIL",
+      "time": "2026-06-29T14:30:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T14:20:00.000Z\", s\"01KWR96PCWGQ0GJ8NB0HPGFV5W\" ]",
+      "lat": 49.3574,
+      "lon": 14.9625,
+      "type": "PRECIP",
+      "time": "2026-06-29T14:20:00.000Z",
+      "country": "CZ",
+      "place": "Dobešov",
+      "description": "torrential rain during thunderstorm | measured by CHMI rain gauge station | peak precip. time was 13:40 - 14:10 UTC",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 04 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T14:20:00.000Z\", s\"01KWBF2XDPJ6FSXHP9HJP5VCWC\" ]",
+      "lat": 49.9019,
+      "lon": 15.934,
+      "type": "HAIL",
+      "time": "2026-06-29T14:20:00.000Z",
+      "country": "CZ",
+      "place": "Chrast",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via AKTUÁLNĚ z Chrudimska (on Facebook), 29 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T14:20:00.000Z\", s\"01KWBF1JEKF4J6HPWBNDB5NMX3\" ]",
+      "lat": 49.9335,
+      "lon": 15.893,
+      "type": "HAIL",
+      "time": "2026-06-29T14:20:00.000Z",
+      "country": "CZ",
+      "place": "Honbice",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via AKTUÁLNĚ z Chrudimska (on Facebook), 29 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T14:15:00.000Z\", s\"01KWCGXXVN2CDC9ETJWK9HD5KM\" ]",
+      "lat": 43.8742,
+      "lon": 16.4987,
+      "type": "HAIL",
+      "time": "2026-06-29T14:15:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T14:10:00.000Z\", s\"01KWCKGSYBH6DWS9NQVDMJ21RH\" ]",
+      "lat": 49.2243,
+      "lon": 15.6617,
+      "type": "HAIL",
+      "time": "2026-06-29T14:10:00.000Z",
+      "country": "CZ",
+      "place": "Opatov",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Meteo Včasné varování (on Facebook), 29 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T14:00:00.000Z\", s\"01KWR7ZG9B2W1P7NSZSRHE5F3P\" ]",
+      "lat": 49.2831,
+      "lon": 15.0633,
+      "type": "PRECIP",
+      "time": "2026-06-29T14:00:00.000Z",
+      "country": "CZ",
+      "place": "Vodná",
+      "description": "torrential rain during thunderstorm | measured by CHMI rain gauge station",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 04 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T14:00:00.000Z\", s\"01KWAHZX8X3P0QP821H7P8FCDR\" ]",
+      "lat": 48.668,
+      "lon": 14.7395,
+      "type": "PRECIP",
+      "time": "2026-06-29T14:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T13:50:00.000Z\", s\"01KWC63TCZ7XAASAJX32GM1S07\" ]",
+      "lat": 49.3961,
+      "lon": 15.5903,
+      "type": "PRECIP",
+      "time": "2026-06-29T13:50:00.000Z",
+      "country": "CZ",
+      "place": "Jihlava",
+      "description": "Local flooding was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Vysočina life and nature (on Facebook), 28 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T13:40:00.000Z\", s\"01KWC170EHMMFJ2DQNT2R05XDY\" ]",
+      "lat": 49.2393,
+      "lon": 15.0726,
+      "type": "HAIL",
+      "time": "2026-06-29T13:40:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T13:35:00.000Z\", s\"01KWC4W5BY89WPYBBYNS13M08X\" ]",
+      "lat": 50.2092,
+      "lon": 15.8328,
+      "type": "HAIL",
+      "time": "2026-06-29T13:35:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T13:20:00.000Z\", s\"01KWCM0TREMYKCE2FDZWVNHTGX\" ]",
+      "lat": 49.4233,
+      "lon": 15.0159,
+      "type": "HAIL",
+      "time": "2026-06-29T13:20:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T13:20:00.000Z\", s\"01KWCKMNFJ72B4RBFSZVGRBQQG\" ]",
+      "lat": 50.2056,
+      "lon": 15.8836,
+      "type": "HAIL",
+      "time": "2026-06-29T13:20:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T13:20:00.000Z\", s\"01KWBGC3Y78X1J18WA2VFHE3ZW\" ]",
+      "lat": 49.4045,
+      "lon": 15.0278,
+      "type": "HAIL",
+      "time": "2026-06-29T13:20:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T13:20:00.000Z\", s\"01KWBFEAD5V8PQ36WFGR79CRQA\" ]",
+      "lat": 49.8042,
+      "lon": 15.7653,
+      "type": "WIND",
+      "time": "2026-06-29T13:20:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T13:15:00.000Z\", s\"01KWCKZP9RQ136WXCZDXFPVVJP\" ]",
+      "lat": 49.4345,
+      "lon": 15.0595,
+      "type": "HAIL",
+      "time": "2026-06-29T13:15:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T13:15:00.000Z\", s\"01KWCKXZRBQVD9FP32TKXAJD6F\" ]",
+      "lat": 49.3896,
+      "lon": 15.056,
+      "type": "HAIL",
+      "time": "2026-06-29T13:15:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T13:00:00.000Z\", s\"01KWR77JZB85M6M2FJWPHY1CNR\" ]",
+      "lat": 48.9519,
+      "lon": 14.4697,
+      "type": "PRECIP",
+      "time": "2026-06-29T13:00:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T12:55:00.000Z\", s\"01KWC4S77NY0G1BHS016Q6TZ0R\" ]",
+      "lat": 49.2042,
+      "lon": 14.5105,
+      "type": "HAIL",
+      "time": "2026-06-29T12:55:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T12:55:00.000Z\", s\"01KWBTJSHHV4VSJZXGTNV4PYAC\" ]",
+      "lat": 53.2295,
+      "lon": 14.3329,
+      "type": "PRECIP",
+      "time": "2026-06-29T12:55:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T12:55:00.000Z\", s\"01KWBG92GRM0N351NR3A2N4KJJ\" ]",
+      "lat": 49.5419,
+      "lon": 15.3587,
+      "type": "HAIL",
+      "time": "2026-06-29T12:55:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T12:50:00.000Z\", s\"01KWEZT84WMSMQNK853HT6Y95T\" ]",
+      "lat": 48.7126,
+      "lon": 15.3372,
+      "type": "HAIL",
+      "time": "2026-06-29T12:50:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T12:45:00.000Z\", s\"01KWBT8BY7HGFR7NY5Z6P196X3\" ]",
+      "lat": 53.2478,
+      "lon": 13.9318,
+      "type": "PRECIP",
+      "time": "2026-06-29T12:45:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T12:40:00.000Z\", s\"01KWBTBTEBS93CGPCEJ9WCSX03\" ]",
+      "lat": 53.2448,
+      "lon": 13.9397,
+      "type": "PRECIP",
+      "time": "2026-06-29T12:40:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T12:40:00.000Z\", s\"01KWBTA95V7B0P8SS2JDD4Y85P\" ]",
+      "lat": 53.2463,
+      "lon": 13.945,
+      "type": "PRECIP",
+      "time": "2026-06-29T12:40:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T12:35:00.000Z\", s\"01KWBETT8MBDVGT65Q28KRF7VG\" ]",
+      "lat": 49.8872,
+      "lon": 15.9168,
+      "type": "WIND",
+      "time": "2026-06-29T12:35:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T12:35:00.000Z\", s\"01KWBEQB4YAH25PXS4RQR5JXHA\" ]",
+      "lat": 49.8774,
+      "lon": 15.9234,
+      "type": "HAIL",
+      "time": "2026-06-29T12:35:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T12:30:00.000Z\", s\"01KWR8R9JGZYDJB2A7PHBYYVDM\" ]",
+      "lat": 48.9073,
+      "lon": 14.3301,
+      "type": "PRECIP",
+      "time": "2026-06-29T12:30:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T12:20:00.000Z\", s\"01KWBT628D1GH2V03VAH70M8WH\" ]",
+      "lat": 53.2077,
+      "lon": 13.8885,
+      "type": "PRECIP",
+      "time": "2026-06-29T12:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T12:15:00.000Z\", s\"01KWBTFQAZ4TE2J6BKDDZ5RMRR\" ]",
+      "lat": 53.2146,
+      "lon": 13.9388,
+      "type": "PRECIP",
+      "time": "2026-06-29T12:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T12:10:00.000Z\", s\"01KWC6QXFD5S3FMG2YKBRR7N2G\" ]",
+      "lat": 49.0882,
+      "lon": 13.8589,
+      "type": "HAIL",
+      "time": "2026-06-29T12:10:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T12:10:00.000Z\", s\"01KWBG6RJ21ND3V4PPC3RR2QMH\" ]",
+      "lat": 48.8553,
+      "lon": 14.41,
+      "type": "HAIL",
+      "time": "2026-06-29T12:10:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T12:10:00.000Z\", s\"01KWA3S5HYZ148JZPA1A4NN26Z\" ]",
+      "lat": 48.7127,
+      "lon": 21.2179,
+      "type": "WIND",
+      "time": "2026-06-29T12:10:00.000Z",
+      "country": "SK",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T12:05:00.000Z\", s\"01KWBT3NY6SWC5J8M9H35AQFEN\" ]",
+      "lat": 53.1946,
+      "lon": 13.6582,
+      "type": "PRECIP",
+      "time": "2026-06-29T12:05:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T12:00:00.000Z\", s\"01KWR8MZNS3JJ5QSR8PRFBFS4P\" ]",
+      "lat": 49.0522,
+      "lon": 13.9882,
+      "type": "PRECIP",
+      "time": "2026-06-29T12:00:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T12:00:00.000Z\", s\"01KWC6CZCS5D1R3K9Y4JM6EM91\" ]",
+      "lat": 48.9297,
+      "lon": 14.2189,
+      "type": "HAIL",
+      "time": "2026-06-29T12:00:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T11:50:00.000Z\", s\"01KWACDCCJ3QY4C006ZXT9R2BN\" ]",
+      "lat": 49.0003,
+      "lon": 14.1097,
+      "type": "HAIL",
+      "time": "2026-06-29T11:50:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T11:45:00.000Z\", s\"01KWC6JWXBR7EESQ5SE7N8SWJ9\" ]",
+      "lat": 49.0527,
+      "lon": 13.7742,
+      "type": "HAIL",
+      "time": "2026-06-29T11:45:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T11:45:00.000Z\", s\"01KWBQXQA2MNP6WWNMFN3HQGNB\" ]",
+      "lat": 53.1721,
+      "lon": 13.4408,
+      "type": "PRECIP",
+      "time": "2026-06-29T11:45:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T11:30:00.000Z\", s\"01KWBR0QAZ359CG4HV2Z1XDN2W\" ]",
+      "lat": 53.1257,
+      "lon": 13.4927,
+      "type": "PRECIP",
+      "time": "2026-06-29T11:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T11:30:00.000Z\", s\"01KWACHD6RKN0J7V96CW84HE57\" ]",
+      "lat": 49.0648,
+      "lon": 14.0703,
+      "type": "HAIL",
+      "time": "2026-06-29T11:30:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T11:20:00.000Z\", s\"01KWBQQVKN4S8JQYBJDKZYKWYA\" ]",
+      "lat": 53.1986,
+      "lon": 13.3366,
+      "type": "PRECIP",
+      "time": "2026-06-29T11:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T11:15:00.000Z\", s\"01KWBQNMN29PY3WQBAXPF94APT\" ]",
+      "lat": 53.0868,
+      "lon": 13.2785,
+      "type": "PRECIP",
+      "time": "2026-06-29T11:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T11:15:00.000Z\", s\"01KWBQKKBTVCBY526BDR12TKPV\" ]",
+      "lat": 53.101,
+      "lon": 13.251,
+      "type": "PRECIP",
+      "time": "2026-06-29T11:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T11:00:00.000Z\", s\"01KWC6TW6CVRNE3R5GZANDWN3T\" ]",
+      "lat": 49.0397,
+      "lon": 13.8719,
+      "type": "HAIL",
+      "time": "2026-06-29T11:00:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T11:00:00.000Z\", s\"01KWACJX4RSK4Q34ATRC5Y8MF4\" ]",
+      "lat": 49.051,
+      "lon": 13.8803,
+      "type": "HAIL",
+      "time": "2026-06-29T11:00:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T10:55:00.000Z\", s\"01KWBQGWHG2EXZ2805XJM1BEQY\" ]",
+      "lat": 53.0193,
+      "lon": 13.088,
+      "type": "PRECIP",
+      "time": "2026-06-29T10:55:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T10:55:00.000Z\", s\"01KWBQED9MCCHHGCXBJSGTZJCS\" ]",
+      "lat": 53.1081,
+      "lon": 13.051,
+      "type": "PRECIP",
+      "time": "2026-06-29T10:55:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T10:45:00.000Z\", s\"01KWCBQJES1S1CC09WKD6VMCN7\" ]",
+      "lat": 49.0388,
+      "lon": 13.8947,
+      "type": "HAIL",
+      "time": "2026-06-29T10:45:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T10:35:00.000Z\", s\"01KWBT09QJ0HTFP07QZ77HSRN8\" ]",
+      "lat": 53.1848,
+      "lon": 13.6628,
+      "type": "PRECIP",
+      "time": "2026-06-29T10:35:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T10:35:00.000Z\", s\"01KWBR7SBQ993SFZQ46B1K48KQ\" ]",
+      "lat": 53.1865,
+      "lon": 12.9123,
+      "type": "PRECIP",
+      "time": "2026-06-29T10:35:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T10:30:00.000Z\", s\"01KWBR56ZZQ3R9V4P1FVH92EQT\" ]",
+      "lat": 53.1881,
+      "lon": 12.9492,
+      "type": "PRECIP",
+      "time": "2026-06-29T10:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T10:25:00.000Z\", s\"01KWBQBSAXCDWJ1Z696D2R9PVT\" ]",
+      "lat": 53.0988,
+      "lon": 12.8952,
+      "type": "PRECIP",
+      "time": "2026-06-29T10:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T10:25:00.000Z\", s\"01KWBQ9CB6SWMX7KJM6B0WS5ZN\" ]",
+      "lat": 53.0739,
+      "lon": 12.8184,
+      "type": "PRECIP",
+      "time": "2026-06-29T10:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T06:35:00.000Z\", s\"01KWF2WM9Q51VPTZZH7DV9VHA8\" ]",
+      "lat": 52.7157,
+      "lon": 10.7136,
+      "type": "LIGHTNING",
+      "time": "2026-06-29T06:35:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T05:45:00.000Z\", s\"01KWBTTKKE1WQ0HRKSS3198HCQ\" ]",
+      "lat": 51.3091,
+      "lon": 14.3387,
+      "type": "PRECIP",
+      "time": "2026-06-29T05:45:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T05:44:00.000Z\", s\"01KWF2M956BDX0PQ540S940SYD\" ]",
+      "lat": 47.3027,
+      "lon": 8.04,
+      "type": "LIGHTNING",
+      "time": "2026-06-29T05:44:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T05:30:00.000Z\", s\"01KWBV01FCDQ8B8X424EKQPV75\" ]",
+      "lat": 51.2999,
+      "lon": 14.2475,
+      "type": "PRECIP",
+      "time": "2026-06-29T05:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T05:25:00.000Z\", s\"01KWBTXRBSJ0HXYSW8CYRDBK6Z\" ]",
+      "lat": 51.2869,
+      "lon": 14.3201,
+      "type": "PRECIP",
+      "time": "2026-06-29T05:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T05:15:00.000Z\", s\"01KWBV28AA0M7JR652BA66E6MS\" ]",
+      "lat": 51.2743,
+      "lon": 14.2387,
+      "type": "PRECIP",
+      "time": "2026-06-29T05:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-29T04:48:00.000Z\", s\"01KWCKEJ1YAX9BWVY5Q8ZSV89B\" ]",
+      "lat": 52.2295,
+      "lon": 9.5445,
+      "type": "HAIL",
+      "time": "2026-06-29T04:48:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    }
+  ]
+}
