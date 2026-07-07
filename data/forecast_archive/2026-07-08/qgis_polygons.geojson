@@ -5201,7 +5201,12 @@
         "doubleHatch": false,
         "probability": "45",
         "intensity": "1",
-        "riskLabel": "General Risk"
+        "riskLabel": "General Risk",
+        "hazardChances": {
+          "hail": 5,
+          "rain": 2,
+          "lightning": 2
+        }
       },
       "geometry": {
         "type": "Polygon",
