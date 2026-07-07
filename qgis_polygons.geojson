@@ -6775,7 +6775,10 @@
         "doubleHatch": false,
         "probability": "<5",
         "intensity": "1",
-        "riskLabel": "T-Storm Risk"
+        "riskLabel": "T-Storm Risk",
+        "hazardChances": {
+          "wind": 2
+        }
       },
       "geometry": {
         "type": "Polygon",
@@ -7527,6 +7530,7 @@
         "riskLabel": "General Risk",
         "hazardChances": {
           "hail": 2,
+          "wind": 5,
           "rain": 2,
           "lightning": 2
         }
