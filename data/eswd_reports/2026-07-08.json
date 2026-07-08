@@ -5,9 +5,177 @@
   "window_start_utc": "2026-07-08T04:00:00+00:00",
   "window_end_utc": "2026-07-09T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 3,
-  "report_count": 3,
+  "raw_count": 16,
+  "report_count": 16,
   "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-08T07:00:00.000Z\", s\"01KX0QGE5GHT15DC038M3FTZN6\" ]",
+      "lat": 52.6422,
+      "lon": 20.7264,
+      "type": "WIND",
+      "time": "2026-07-08T07:00:00.000Z",
+      "country": "PL",
+      "place": "Świeszewko",
+      "description": "Downed trees were reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Silny wiatr daje się we znaki. Strażacy od rana usuwają skutki wichury w powiecie pułtuskim\", Pułtusk.news, 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-08T07:00:00.000Z\", s\"01KX0QG29MZJCFBQ38PM9W7Y23\" ]",
+      "lat": 52.6559,
+      "lon": 20.9931,
+      "type": "WIND",
+      "time": "2026-07-08T07:00:00.000Z",
+      "country": "PL",
+      "place": "Golądkowo",
+      "description": "Downed trees were reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Silny wiatr daje się we znaki. Strażacy od rana usuwają skutki wichury w powiecie pułtuskim\", Pułtusk.news, 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-08T07:00:00.000Z\", s\"01KX0PZ7T5DQDJ0G7TKE2QBZ4X\" ]",
+      "lat": 54.0254,
+      "lon": 21.2177,
+      "type": "WIND",
+      "time": "2026-07-08T07:00:00.000Z",
+      "country": "PL",
+      "place": "Święta Lipka",
+      "description": "Downed trees were reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "OSP Reszel (on Facebook), 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-08T07:00:00.000Z\", s\"01KX0PZ3F7MEYP314G90VDE7SF\" ]",
+      "lat": 54.0161,
+      "lon": 21.2714,
+      "type": "WIND",
+      "time": "2026-07-08T07:00:00.000Z",
+      "country": "PL",
+      "place": "Bezławki",
+      "description": "Downed trees were reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "OSP Reszel (on Facebook), 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-08T07:00:00.000Z\", s\"01KX0PYXTK1BHDP6KKK556YV7G\" ]",
+      "lat": 53.9524,
+      "lon": 21.1838,
+      "type": "WIND",
+      "time": "2026-07-08T07:00:00.000Z",
+      "country": "PL",
+      "place": "Śpiglówka",
+      "description": "Downed trees were reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "OSP Reszel (on Facebook), 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-08T07:00:00.000Z\", s\"01KX0PYNGKF6CY000S3MGTSY0H\" ]",
+      "lat": 53.9438,
+      "lon": 21.1216,
+      "type": "WIND",
+      "time": "2026-07-08T07:00:00.000Z",
+      "country": "PL",
+      "place": "Wola",
+      "description": "Downed trees were reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "OSP Reszel (on Facebook), 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-08T07:00:00.000Z\", s\"01KX0PYDVNWQCXMWDYZKXCA8Q6\" ]",
+      "lat": 53.9677,
+      "lon": 21.1417,
+      "type": "WIND",
+      "time": "2026-07-08T07:00:00.000Z",
+      "country": "PL",
+      "place": "Łężany",
+      "description": "Downed trees were reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "OSP Reszel (on Facebook), 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-08T07:00:00.000Z\", s\"01KX0PYA28NM80RNX3TJV4DSB1\" ]",
+      "lat": 54.0858,
+      "lon": 21.102,
+      "type": "WIND",
+      "time": "2026-07-08T07:00:00.000Z",
+      "country": "PL",
+      "place": "Tolniki Małe",
+      "description": "Downed trees were reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "OSP Reszel (on Facebook), 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-08T07:00:00.000Z\", s\"01KX0PY1TM7KBTCAKEM1ZGYWXJ\" ]",
+      "lat": 54.0313,
+      "lon": 21.1214,
+      "type": "WIND",
+      "time": "2026-07-08T07:00:00.000Z",
+      "country": "PL",
+      "place": "Mnichowo",
+      "description": "Downed trees were reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "OSP Reszel (on Facebook), 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-08T07:00:00.000Z\", s\"01KX0PXP0269F2P6KZCFVMDPF4\" ]",
+      "lat": 54.0483,
+      "lon": 21.1422,
+      "type": "WIND",
+      "time": "2026-07-08T07:00:00.000Z",
+      "country": "PL",
+      "place": "Reszel",
+      "description": "Downed trees were reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "OSP Reszel (on Facebook), 08 JUL 2026."
+      ]
+    },
     {
       "id": "weather_events:[ d\"2026-07-08T05:30:00.000Z\", s\"01KX0M6TMP0M87VZGXZQ5NQA8C\" ]",
       "lat": 54.3282,
@@ -23,6 +191,54 @@
       ],
       "references": [
         "Na Mierzeję (on Facebook), 07 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-08T05:00:00.000Z\", s\"01KX0P5XKQYRZ6D03F81NANZ27\" ]",
+      "lat": 54.3826,
+      "lon": 19.8273,
+      "type": "WIND",
+      "time": "2026-07-08T05:00:00.000Z",
+      "country": "PL",
+      "place": "Braniewo",
+      "description": "Downed trees were reported  in this area after a period of strong wind gusts.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Niespokojna noc na Warmii i Mazurach. Nad region ponownie nadciągają nawałnice\", TKO, 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-08T05:00:00.000Z\", s\"01KX0P5T4F2WM7WACJCHXEKZYF\" ]",
+      "lat": 54.2386,
+      "lon": 20.1258,
+      "type": "WIND",
+      "time": "2026-07-08T05:00:00.000Z",
+      "country": "PL",
+      "place": "Pieniężno",
+      "description": "Downed trees were reported  in this area after a period of strong wind gusts.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Niespokojna noc na Warmii i Mazurach. Nad region ponownie nadciągają nawałnice\", TKO, 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-08T05:00:00.000Z\", s\"01KX0NSN9T4WBGQHTPBF8S56JQ\" ]",
+      "lat": 54.2718,
+      "lon": 19.9363,
+      "type": "WIND",
+      "time": "2026-07-08T05:00:00.000Z",
+      "country": "PL",
+      "place": "Płoskinia",
+      "description": "Downed trees were reported  in this area after a period of strong wind gusts.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Niespokojna noc na Warmii i Mazurach. Nad region ponownie nadciągają nawałnice\", TKO, 08 JUL 2026."
       ]
     },
     {
