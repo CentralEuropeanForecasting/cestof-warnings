@@ -5,8 +5,8 @@
   "window_start_utc": "2026-07-07T04:00:00+00:00",
   "window_end_utc": "2026-07-08T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 23,
-  "report_count": 23,
+  "raw_count": 26,
+  "report_count": 26,
   "reports": [
     {
       "id": "weather_events:[ d\"2026-07-08T03:35:00.000Z\", s\"01KX0J2AE3DFNS6K7JE98GG8W7\" ]",
@@ -59,6 +59,23 @@
       ],
       "references": [
         "OSP KSRG Jabłonowo Pomorskie (on Facebook), 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-07T20:00:00.000Z\", s\"01KX0P903CWBH82B6GVT62NGZB\" ]",
+      "lat": 53.8507,
+      "lon": 20.1246,
+      "type": "WIND",
+      "time": "2026-07-07T20:00:00.000Z",
+      "country": "PL",
+      "place": "Mostkowo",
+      "description": "A downed tree was reported  in this area after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Nocne skutki wichur, strażacy najczęściej interweniowali w powiecie ostródzkim\", NOS Portal, 08 JUL 2026."
       ]
     },
     {
@@ -268,6 +285,22 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-07T12:47:00.000Z\", s\"01KX0NFV12V5VB8A5E2EFZ4N0H\" ]",
+      "lat": 50.6221,
+      "lon": 18.9728,
+      "type": "WIND",
+      "time": "2026-07-07T12:47:00.000Z",
+      "country": "PL",
+      "place": "Babienica",
+      "description": "Downed trees were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Potężne burze przeszły nad Śląskiem. 128 interwencji strażaków w województwie. Te zdjęcia pokazują, co się działo\", Dziennik Zachodni, 08 JUL 2026."
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-07T12:32:00.000Z\", s\"01KX0JQ8JVY96MSQFKVWFHD048\" ]",
       "lat": 50.669,
       "lon": 18.6826,
@@ -394,6 +427,18 @@
       "references": [
         "\"Potężne burze przeszły nad Śląskiem. 128 interwencji strażaków w województwie. Te zdjęcia pokazują, co się działo\", Dziennik Zachodni, 08 JUL 2026."
       ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-07T11:40:00.000Z\", s\"01KX0PFNP128XXZMKDSAQFHXG3\" ]",
+      "lat": 50.8645,
+      "lon": 17.9435,
+      "type": "WIND",
+      "time": "2026-07-07T11:40:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     }
   ]
 }
