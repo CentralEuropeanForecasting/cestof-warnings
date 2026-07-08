@@ -1,0 +1,62 @@
+{
+  "forecast_date": "2026-07-08",
+  "window_start_local": "2026-07-08T06:00:00+02:00",
+  "window_end_local": "2026-07-09T06:00:00+02:00",
+  "window_start_utc": "2026-07-08T04:00:00+00:00",
+  "window_end_utc": "2026-07-09T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 3,
+  "report_count": 3,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-08T05:30:00.000Z\", s\"01KX0M6TMP0M87VZGXZQ5NQA8C\" ]",
+      "lat": 54.3282,
+      "lon": 19.1212,
+      "type": "WIND",
+      "time": "2026-07-08T05:30:00.000Z",
+      "country": "PL",
+      "place": "Stegna",
+      "description": "A downed tree was reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Na Mierzeję (on Facebook), 07 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-08T04:30:00.000Z\", s\"01KX0KWH2BD0S1P5SHH8ZEQPAN\" ]",
+      "lat": 54.3584,
+      "lon": 19.6824,
+      "type": "WIND",
+      "time": "2026-07-08T04:30:00.000Z",
+      "country": "PL",
+      "place": "Frombork",
+      "description": "Downed trees and large tree branches were reported. ",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Ewakuacja harcerzy, molo zamknięte. Potężne wichury uderzyły w północ Polski\", RMF 24, 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-08T04:00:00.000Z\", s\"01KX0M3K4D717TD4VCBQCKBT08\" ]",
+      "lat": 54.38,
+      "lon": 19.4434,
+      "type": "WIND",
+      "time": "2026-07-08T04:00:00.000Z",
+      "country": "PL",
+      "place": "Krynica Morska",
+      "description": "Downed large tree branches were reported. ",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Piaskowe barykady, powalone drzewa. Silny wiatr w Krynicy Morskiej\", RMF24. 08 JUL 2026."
+      ]
+    }
+  ]
+}
