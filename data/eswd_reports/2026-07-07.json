@@ -1,0 +1,54 @@
+{
+  "forecast_date": "2026-07-07",
+  "window_start_local": "2026-07-07T06:00:00+02:00",
+  "window_end_local": "2026-07-08T06:00:00+02:00",
+  "window_start_utc": "2026-07-07T04:00:00+00:00",
+  "window_end_utc": "2026-07-08T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 2,
+  "report_count": 2,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-07T17:30:00.000Z\", s\"01KWYX860DKR4VDR8PV2TZBXG0\" ]",
+      "lat": 49.51,
+      "lon": 20.31,
+      "type": "TORNADO",
+      "time": "2026-07-07T17:30:00.000Z",
+      "country": "PL",
+      "qc": "QC0",
+      "place": "Lipnica Murowana ",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Information about a condensation funnel appeared on social media in the district, after an hour there was information about damage from two towns. Chaotic damage indicates vortex motion rather than straight-line winds, and a funnel cloud was observed as the supercell thunderstorm passed through. The report about the sinkhole can be found in the comment in the second link",
+      "info_source": [
+        "WWW",
+        "TV",
+        "SPTR",
+        "DMGEYEWTN",
+        "EYEWTN"
+      ],
+      "references": [
+        "https://www.facebook.com/share/p/1MMasWp3XD/"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-07T17:10:00.000Z\", s\"01KX069P5MCCPT96VC8FD3B849\" ]",
+      "lat": 46.722,
+      "lon": 18.2106,
+      "type": "HAIL",
+      "time": "2026-07-07T17:10:00.000Z",
+      "country": "HU",
+      "qc": "QC0+",
+      "place": "Nagyszokoly",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "EVTPHOTO"
+      ],
+      "references": [
+        "multiple photo and video reports on Facebook via MetFigyelő page"
+      ]
+    }
+  ]
+}
