@@ -8,6 +8,96 @@
         "coordinates": [
           [
             [
+              14.146805,
+              50.781698,
+              0
+            ],
+            [
+              14.14661,
+              50.781664,
+              0
+            ],
+            [
+              14.146482,
+              50.781534,
+              0
+            ],
+            [
+              14.147008,
+              50.781458,
+              0
+            ],
+            [
+              14.14797,
+              50.781487,
+              0
+            ],
+            [
+              14.148821,
+              50.781521,
+              0
+            ],
+            [
+              14.149514,
+              50.781558,
+              0
+            ],
+            [
+              14.149676,
+              50.781704,
+              0
+            ],
+            [
+              14.149472,
+              50.781789,
+              0
+            ],
+            [
+              14.148585,
+              50.781744,
+              0
+            ],
+            [
+              14.147828,
+              50.781721,
+              0
+            ],
+            [
+              14.146805,
+              50.781698,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Untitled polygon",
+        "styleUrl": "#__managed_style_03D8378F5F40823C901C",
+        "fill-opacity": 0.25098039215686274,
+        "fill": "#ffffff",
+        "stroke-opacity": 1,
+        "stroke": "#fbc02d",
+        "stroke-width": 2,
+        "icon-offset": [
+          64,
+          128
+        ],
+        "icon-offset-units": [
+          "pixels",
+          "insetPixels"
+        ],
+        "icon": "https://earth.google.com/earth/document/icon?color=1976d2&id=2000&scale=4",
+        "kind": "tornado"
+      },
+      "id": "0EC0E1A01A40823E8791"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               14.402996,
               49.205342,
               0
@@ -2960,7 +3050,7 @@
         ]
       },
       "properties": {
-        "name": "Untitled polygon",
+        "name": "Bynov",
         "styleUrl": "#__managed_style_03D8378F5F40823C901C",
         "fill-opacity": 0.25098039215686274,
         "fill": "#ffffff",
@@ -2976,7 +3066,20 @@
           "insetPixels"
         ],
         "icon": "https://earth.google.com/earth/document/icon?color=1976d2&id=2000&scale=4",
-        "kind": "tornado"
+        "kind": "tornado",
+        "tornado_id": "Bynov",
+        "scale": "IF0.5",
+        "date": "2026-06-05",
+        "location": "Bynov, Děčín, Czechia",
+        "damage_type": "Trees / forest",
+        "notes": "The damage that gained the tornado an IF0.5 rating",
+        "photos": [
+          {
+            "url": "https://raw.githubusercontent.com/CentralEuropeanForecasting/cestof-warnings/main/img/tornadoes/bynov/2026-06-05/1783701835404-0-718391554_2729381514110939_7284852720117515133_n.jpeg",
+            "caption": "",
+            "description": ""
+          }
+        ]
       },
       "id": "0EC0E1A01A40823E8791"
     }
