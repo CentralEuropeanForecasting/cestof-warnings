@@ -5563,9 +5563,10 @@
         "intensity": "1",
         "riskLabel": "General Risk",
         "hazardChances": {
-          "hail": 2,
+          "hail": 5,
           "wind": 2,
-          "rain": 5
+          "rain": 5,
+          "lightning": 5
         }
       },
       "geometry": {
