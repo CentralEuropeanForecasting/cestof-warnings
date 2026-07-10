@@ -2972,7 +2972,10 @@
             "caption": "TR-W-3 — Trees    DI category: Vegetation    Subclass/category: W — weak tree, strength 1–2    DoD: 3 — Uprooting    Rating: ≥IF0.5 (≥33 m/s / ≥120 km/h)    IF reference range: 27–40 m/s / 96–144 km/h",
             "description": "TR-W-3 — Trees    DI category: Vegetation    Subclass/category: W — weak tree, strength 1–2    DoD: 3 — Uprooting    Rating: ≥IF0.5 (≥33 m/s / ≥120 km/h)    IF reference range: 27–40 m/s / 96–144 km/h"
           }
-        ]
+        ],
+        "type": "tornado_archive",
+        "placeholder": false,
+        "geometry_role": "damage_polygon"
       },
       "id": "0EC0E1A01A40823E8791"
     }
