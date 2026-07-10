@@ -2747,7 +2747,7 @@
         ]
       },
       "properties": {
-        "name": "Untitled polygon",
+        "name": "Bynov",
         "styleUrl": "#__managed_style_03D8378F5F40823C901C",
         "fill-opacity": 0.25098039215686274,
         "fill": "#ffffff",
@@ -2764,19 +2764,22 @@
         ],
         "icon": "https://earth.google.com/earth/document/icon?color=1976d2&id=2000&scale=4",
         "kind": "tornado",
-        "tornado_id": "Untitled polygon",
+        "tornado_id": "Bynov",
         "scale": "IF0",
         "date": "2026-06-05",
         "location": "Bynov, Děčín, Czechia",
         "damage_type": "General damage",
-        "notes": "",
+        "notes": "The path of the tornado",
         "photos": [
           {
             "url": "https://raw.githubusercontent.com/CentralEuropeanForecasting/cestof-warnings/main/img/tornadoes/untitled-polygon/2026-06-05/1783700739849-0-716975259_988705716874412_891410617273869368_n.jpeg",
             "caption": "The tornado",
             "description": "The tornado"
           }
-        ]
+        ],
+        "type": "tornado_archive",
+        "placeholder": false,
+        "geometry_role": "damage_polygon"
       },
       "id": "06484BD87540823C8FFC"
     },
