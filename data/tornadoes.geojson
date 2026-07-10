@@ -2882,7 +2882,11 @@
             "caption": "Photo of the tornado",
             "description": "Photo of the tornado"
           }
-        ]
+        ],
+        "type": "tornado_archive",
+        "placeholder": false,
+        "geometry_role": "damage_polygon",
+        "added_at": "2026-07-10T16:42:46.541Z"
       },
       "id": "06484BD87540823C8FFC"
     },
