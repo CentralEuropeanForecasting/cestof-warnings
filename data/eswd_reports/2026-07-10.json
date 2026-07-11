@@ -1,0 +1,32 @@
+{
+  "forecast_date": "2026-07-10",
+  "window_start_local": "2026-07-10T06:00:00+02:00",
+  "window_end_local": "2026-07-11T06:00:00+02:00",
+  "window_start_utc": "2026-07-10T04:00:00+00:00",
+  "window_end_utc": "2026-07-11T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 1,
+  "report_count": 1,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-10T17:29:00.000Z\", s\"01KX7WC6K07NEX83J6NZK9HKVT\" ]",
+      "lat": 46.45,
+      "lon": 8.94,
+      "type": "PRECIP",
+      "time": "2026-07-10T17:29:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Acquarossa",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 34,8 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"redwater - IACQUARO7\", Wunderground, date of access: 11 JUL 2026."
+      ]
+    }
+  ]
+}
