@@ -282,6 +282,84 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "outlook",
+        "hazard": "tornado",
+        "title": "",
+        "description": "a very weak and brief tornado or a more pronounced funnel could form under the conditions",
+        "probability": "marginal",
+        "intensity": "",
+        "riskLabel": "Marginal Tornado Potential",
+        "hazardProbability": "marginal",
+        "hatched": false,
+        "doubleHatch": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.710449,
+              50.711895
+            ],
+            [
+              16.040039,
+              49.855472
+            ],
+            [
+              16.501465,
+              49.070042
+            ],
+            [
+              17.072754,
+              48.50546
+            ],
+            [
+              17.995605,
+              48.4909
+            ],
+            [
+              18.896484,
+              48.737852
+            ],
+            [
+              19.313965,
+              49.156338
+            ],
+            [
+              19.138184,
+              49.756207
+            ],
+            [
+              18.830566,
+              50.292629
+            ],
+            [
+              18.28125,
+              50.823072
+            ],
+            [
+              17.709961,
+              51.113653
+            ],
+            [
+              16.962891,
+              51.388709
+            ],
+            [
+              15.820313,
+              51.223873
+            ],
+            [
+              15.710449,
+              50.711895
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
