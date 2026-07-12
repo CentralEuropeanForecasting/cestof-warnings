@@ -1,0 +1,243 @@
+{
+  "forecast_date": "2026-07-11",
+  "window_start_local": "2026-07-11T06:00:00+02:00",
+  "window_end_local": "2026-07-12T06:00:00+02:00",
+  "window_start_utc": "2026-07-11T04:00:00+00:00",
+  "window_end_utc": "2026-07-12T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 11,
+  "report_count": 11,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-11T18:15:00.000Z\", s\"01KXAHRE7QNCPNYVR90NK61VXA\" ]",
+      "lat": 46.3335,
+      "lon": 14.3164,
+      "type": "HAIL",
+      "time": "2026-07-11T18:15:00.000Z",
+      "country": "SI",
+      "qc": "QC0+",
+      "place": "Senično",
+      "place_accuracy": "5KM",
+      "time_accuracy": "15M",
+      "description": "Large hail up to at least 4 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 11 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T18:15:00.000Z\", s\"01KXAHGDAAFX1A1QZS1Y5PKHHR\" ]",
+      "lat": 46.3281,
+      "lon": 14.2328,
+      "type": "HAIL",
+      "time": "2026-07-11T18:15:00.000Z",
+      "country": "SI",
+      "qc": "QC0+",
+      "place": "Brezje",
+      "place_accuracy": "1KM",
+      "time_accuracy": "15M",
+      "description": "Very large hail up to at least 5-6 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 11 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T18:12:00.000Z\", s\"01KXAHPTMNACDR0TPJ802CA39E\" ]",
+      "lat": 46.3325,
+      "lon": 14.2802,
+      "type": "HAIL",
+      "time": "2026-07-11T18:12:00.000Z",
+      "country": "SI",
+      "qc": "QC0+",
+      "place": "Zvirče",
+      "place_accuracy": "1KM",
+      "time_accuracy": "15M",
+      "description": "Large hail up to at least 4 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 11 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T18:10:00.000Z\", s\"01KXAHB0CHTZQET009X3SNZ793\" ]",
+      "lat": 46.3409,
+      "lon": 14.3009,
+      "type": "HAIL",
+      "time": "2026-07-11T18:10:00.000Z",
+      "country": "SI",
+      "qc": "QC1",
+      "place": "Križe",
+      "place_accuracy": "1KM",
+      "time_accuracy": "15M",
+      "description": "Large hail up to at least 4,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 11 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T18:05:00.000Z\", s\"01KXAHMVVV44BBBSAC4BHFESP6\" ]",
+      "lat": 46.3422,
+      "lon": 14.2792,
+      "type": "HAIL",
+      "time": "2026-07-11T18:05:00.000Z",
+      "country": "SI",
+      "qc": "QC1",
+      "place": "Kovor",
+      "place_accuracy": "1KM",
+      "time_accuracy": "15M",
+      "description": "Very large hail up to at least 6 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 11 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T17:50:00.000Z\", s\"01KXAGVRK7KPXYAT70KKT25JDC\" ]",
+      "lat": 46.3637,
+      "lon": 14.3095,
+      "type": "HAIL",
+      "time": "2026-07-11T17:50:00.000Z",
+      "country": "SI",
+      "qc": "QC1",
+      "place": "Tržič",
+      "place_accuracy": "1KM",
+      "time_accuracy": "15M",
+      "description": "Very large hail up to at least 6,5 cm in the longest direction was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via TopFoto Neurje (on Facebook), 11 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T15:20:00.000Z\", s\"01KXAGZHF7ZZ052V99M8D4684B\" ]",
+      "lat": 46.3295,
+      "lon": 15.314,
+      "type": "HAIL",
+      "time": "2026-07-11T15:20:00.000Z",
+      "country": "SI",
+      "qc": "QC1",
+      "place": "Frankolovo",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 3 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Meteoinfo Slovenija (on Facebook), 11 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T13:52:00.000Z\", s\"01KXAJ3GR1A337WG3G2CRJYYMN\" ]",
+      "lat": 46.2674,
+      "lon": 15.4239,
+      "type": "HAIL",
+      "time": "2026-07-11T13:52:00.000Z",
+      "country": "SI",
+      "qc": "QC1",
+      "place": "Zagaj pri Ponikvi",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 11 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T13:50:00.000Z\", s\"01KXAHYV7FSYW89N7WY619PP2E\" ]",
+      "lat": 46.2718,
+      "lon": 15.393,
+      "type": "HAIL",
+      "time": "2026-07-11T13:50:00.000Z",
+      "country": "SI",
+      "qc": "QC0+",
+      "place": "Dramlje",
+      "place_accuracy": "1KM",
+      "time_accuracy": "15M",
+      "description": "Large hail up to at least 3 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 11 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T13:48:00.000Z\", s\"01KXAJ1KTJ3XMVT9V6BEFC86AK\" ]",
+      "lat": 46.2686,
+      "lon": 15.3615,
+      "type": "HAIL",
+      "time": "2026-07-11T13:48:00.000Z",
+      "country": "SI",
+      "qc": "QC0+",
+      "place": "Jarmovec",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 3 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 11 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T13:42:00.000Z\", s\"01KXAJ0DQTP39A7WA9X0XMEYGM\" ]",
+      "lat": 46.2866,
+      "lon": 15.4227,
+      "type": "HAIL",
+      "time": "2026-07-11T13:42:00.000Z",
+      "country": "SI",
+      "qc": "QC1",
+      "place": "Pletovarje",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 3 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 11 JUL 2026."
+      ]
+    }
+  ]
+}
