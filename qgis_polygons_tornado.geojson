@@ -1,4 +1,99 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "outlook",
+        "hazard": "tornado",
+        "title": "",
+        "description": "a very weak and brief tornado and/or a pronounced funnel are possible under these conditions.",
+        "probability": "marginal",
+        "intensity": "",
+        "riskLabel": "Marginal Tornado Potential",
+        "hazardProbability": "marginal",
+        "hatched": false,
+        "doubleHatch": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.018066,
+              51.265137
+            ],
+            [
+              16.237793,
+              50.516701
+            ],
+            [
+              16.303711,
+              49.869636
+            ],
+            [
+              16.501465,
+              48.665344
+            ],
+            [
+              16.918945,
+              48.301238
+            ],
+            [
+              17.600098,
+              48.096197
+            ],
+            [
+              18.544922,
+              48.228103
+            ],
+            [
+              19.160156,
+              48.679854
+            ],
+            [
+              19.533691,
+              49.098824
+            ],
+            [
+              19.423828,
+              49.557066
+            ],
+            [
+              19.248047,
+              49.982799
+            ],
+            [
+              19.02832,
+              50.404798
+            ],
+            [
+              18.654785,
+              50.809189
+            ],
+            [
+              18.303223,
+              51.168796
+            ],
+            [
+              17.841797,
+              51.416124
+            ],
+            [
+              17.380371,
+              51.552953
+            ],
+            [
+              16.743164,
+              51.539289
+            ],
+            [
+              16.018066,
+              51.265137
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
