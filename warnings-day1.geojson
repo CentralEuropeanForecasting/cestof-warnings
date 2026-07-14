@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-06-30T18:26:53.446Z",
+  "generated_at": "2026-07-14T10:23:42.817Z",
   "features": [
     {
       "type": "Feature",
@@ -32,7 +32,8 @@
         "forecaster_is_owner": true,
         "issued_by": "CAPE",
         "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
-        "updated_at": "2026-06-30T18:26:46.808Z"
+        "updated_at": "2026-06-30T18:26:46.808Z",
+        "clipped_to": "Central Europe"
       },
       "geometry": {
         "type": "Polygon",
@@ -61,6 +62,87 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1784024470980",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-07-14T12:05",
+        "issued_iso": "2026-07-14T10:05:00.000Z",
+        "expires": "2026-07-14T13:05",
+        "expires_iso": "2026-07-14T11:05:00.000Z",
+        "location": "Area between Chiemsee and Johann in Tiorl",
+        "hail": "2.5 cm",
+        "wind": "100 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "An uprooted Tree was reported near Kiefersfelden, Austria.",
+        "hazards": {
+          "hail": "2.5 cm",
+          "wind": "100 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Trainspider",
+        "forecaster_name": "Trainspider",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Trainspider",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-07-14T10:23:31.471Z",
+        "clipped_to": "Central Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.59119,
+              47.758289
+            ],
+            [
+              12.578487,
+              47.682762
+            ],
+            [
+              12.686462,
+              47.636709
+            ],
+            [
+              12.813492,
+              47.623897
+            ],
+            [
+              12.867737,
+              47.610792
+            ],
+            [
+              12.935028,
+              47.594125
+            ],
+            [
+              12.932281,
+              47.682957
+            ],
+            [
+              12.908936,
+              47.732858
+            ],
+            [
+              12.926788,
+              47.765176
+            ],
+            [
+              12.59119,
+              47.758289
+            ]
+          ]
+        ]
+      }
     }
-  ]
+  ],
+  "clipped_to": "Central Europe combined country area"
 }
