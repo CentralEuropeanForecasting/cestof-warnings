@@ -5,8 +5,8 @@
   "window_start_utc": "2026-07-14T04:00:00+00:00",
   "window_end_utc": "2026-07-15T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 87,
-  "report_count": 87,
+  "raw_count": 94,
+  "report_count": 94,
   "reports": [
     {
       "id": "weather_events:[ d\"2026-07-14T17:35:00.000Z\", s\"01KXGY488Y8JRJM0NBRFVWXYVG\" ]",
@@ -129,6 +129,54 @@
       ],
       "references": [
         "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 14 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T16:30:00.000Z\", s\"01KXH160K356YXAWFVZ0FHZ3EE\" ]",
+      "lat": 50.8995,
+      "lon": 21.2232,
+      "type": "PRECIP",
+      "time": "2026-07-14T16:30:00.000Z",
+      "country": "PL",
+      "place": "Waśniów",
+      "description": "Flooded properties were reported. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Potężna burza w powiecie ostrowieckim. Zalane piwnice i posesje\", Echo Dnia, 14 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T16:15:00.000Z\", s\"01KXH1555AAWTVAK5EJB7DNJQ0\" ]",
+      "lat": 50.9541,
+      "lon": 21.2788,
+      "type": "PRECIP",
+      "time": "2026-07-14T16:15:00.000Z",
+      "country": "PL",
+      "place": "Kunów",
+      "description": "Flooded properties were reported. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Potężna burza w powiecie ostrowieckim. Zalane piwnice i posesje\", Echo Dnia, 14 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T16:15:00.000Z\", s\"01KXH1433SDWZW09RV8ZG9Z2J3\" ]",
+      "lat": 50.9399,
+      "lon": 21.3874,
+      "type": "PRECIP",
+      "time": "2026-07-14T16:15:00.000Z",
+      "country": "PL",
+      "place": "Ostrowiec Świętokrzyski",
+      "description": "Flooded properties were reported. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Potężna burza w powiecie ostrowieckim. Zalane piwnice i posesje\", Echo Dnia, 14 JUL 2026."
       ]
     },
     {
@@ -358,6 +406,40 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-14T13:50:00.000Z\", s\"01KXGZ6NTJDM2RZG3AWEAX09YD\" ]",
+      "lat": 51.057,
+      "lon": 14.481,
+      "type": "HAIL",
+      "time": "2026-07-14T13:50:00.000Z",
+      "country": "DE",
+      "place": "Wassergrund",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 14 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T13:45:00.000Z\", s\"01KXGZ8AYSVKJHR6FQF06TJ1WC\" ]",
+      "lat": 51.0818,
+      "lon": 14.4554,
+      "type": "HAIL",
+      "time": "2026-07-14T13:45:00.000Z",
+      "country": "DE",
+      "place": "Crostau",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 14 JUL 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-14T13:10:00.000Z\", s\"01KXGEZVR3ACZ19FGHE9KPF9H8\" ]",
       "lat": 50.2781,
       "lon": 19.1343,
@@ -399,15 +481,10 @@
       "type": "PRECIP",
       "time": "2026-07-14T12:59:00.000Z",
       "country": "PL",
-      "place": "Gorzanów",
-      "description": "PWS recorded a rain amount of 29 mm in 30 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"Dom - IGORZA2\", Wunderground, date of access: 14 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-14T12:59:00.000Z\", s\"01KXGC6R10H10GS1HVM71XG8FC\" ]",
@@ -416,15 +493,10 @@
       "type": "PRECIP",
       "time": "2026-07-14T12:59:00.000Z",
       "country": "PL",
-      "place": "Sosnowiec",
-      "description": "PWS recorded a rain amount of 25,4 mm in 30 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"kamilw - ISOSNO37\", Wunderground, date of access: 14 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-14T12:50:00.000Z\", s\"01KXGDYVJ9T51ZCJCSWFQGXC7S\" ]",
@@ -433,16 +505,10 @@
       "type": "PRECIP",
       "time": "2026-07-14T12:50:00.000Z",
       "country": "PL",
-      "place": "Bircza",
-      "description": "IMGW-PIB weather station (249220060) recorded a rain amount of 36,5 mm in 60 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC",
-        "GOV"
-      ],
-      "references": [
-        "Hydro IMGW-PIB, date of access: 14 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-14T12:50:00.000Z\", s\"01KXGCQZZ3VVY0SC89MP6W4PS7\" ]",
@@ -451,16 +517,10 @@
       "type": "PRECIP",
       "time": "2026-07-14T12:50:00.000Z",
       "country": "PL",
-      "place": "Spalona",
-      "description": "IMGW-PIB weather station (250160580) recorded a rain amount of 44,7 mm in 30 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC",
-        "GOV"
-      ],
-      "references": [
-        "Hydro IMGW-PIB, date of access: 14 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-14T12:49:00.000Z\", s\"01KXGCAYRX2VZ45PDDFS8QFRQQ\" ]",
@@ -469,15 +529,10 @@
       "type": "PRECIP",
       "time": "2026-07-14T12:49:00.000Z",
       "country": "PL",
-      "place": "Spalona",
-      "description": "PWS recorded a rain amount of 25,7 mm in 30 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"Wyciąg narciarski Osmelakowa Dolina - IBYSTR6\", Wunderground, date of access: 14 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-14T12:44:00.000Z\", s\"01KXGC53M1HXXH5JGADT6NBZNQ\" ]",
@@ -920,6 +975,18 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-14T09:55:00.000Z\", s\"01KXH0F8EJ9WA6FRPWTZYZ3BQ8\" ]",
+      "lat": 50.8816,
+      "lon": 15.811,
+      "type": "WIND",
+      "time": "2026-07-14T09:55:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-14T09:50:00.000Z\", s\"01KXGBT8TZR3RNF96S1EBQVWV0\" ]",
       "lat": 50.8733,
       "lon": 15.8331,
@@ -937,6 +1004,18 @@
       "lon": 15.7953,
       "type": "WIND",
       "time": "2026-07-14T09:50:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T09:45:00.000Z\", s\"01KXGZTXY4MPJ0T3RCQWA7HPZW\" ]",
+      "lat": 50.893,
+      "lon": 15.794,
+      "type": "WIND",
+      "time": "2026-07-14T09:45:00.000Z",
       "country": "PL",
       "place": null,
       "description": null,

@@ -5,8 +5,8 @@
   "window_start_utc": "2026-07-13T04:00:00+00:00",
   "window_end_utc": "2026-07-14T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 163,
-  "report_count": 163,
+  "raw_count": 164,
+  "report_count": 164,
   "reports": [
     {
       "id": "weather_events:[ d\"2026-07-14T03:59:00.000Z\", s\"01KXFTBA2G49PRE2EZ9M4PE41J\" ]",
@@ -1307,6 +1307,18 @@
       "type": "HAIL",
       "time": "2026-07-13T17:45:00.000Z",
       "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-13T17:40:00.000Z\", s\"01KXH1A2J0NPMJJXXS7WTD24TQ\" ]",
+      "lat": 51.122,
+      "lon": 17.049,
+      "type": "WIND",
+      "time": "2026-07-13T17:40:00.000Z",
+      "country": "PL",
       "place": null,
       "description": null,
       "info_source": null,
