@@ -5,7 +5,162 @@
   "window_start_utc": "2026-07-14T04:00:00+00:00",
   "window_end_utc": "2026-07-15T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 0,
-  "report_count": 0,
-  "reports": []
+  "raw_count": 9,
+  "report_count": 9,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-14T09:04:00.000Z\", s\"01KXFZENZM5QRHT1G6BFTWTJ49\" ]",
+      "lat": 51.242,
+      "lon": 15.29,
+      "type": "PRECIP",
+      "time": "2026-07-14T09:04:00.000Z",
+      "country": "PL",
+      "place": "Wykroty",
+      "description": "PWS recorded a rain amount of 39,9 mm in 60 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"pogodynka7a - IWYKRO1\", Wunderground, date of access: 14 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T08:00:00.000Z\", s\"01KXFZA0NGGY5TST4GH83SHT3V\" ]",
+      "lat": 51.26,
+      "lon": 15.04,
+      "type": "PRECIP",
+      "time": "2026-07-14T08:00:00.000Z",
+      "country": "PL",
+      "place": "Pieńsk",
+      "description": "IMGW-PIB weather station (251150450) recorded a rain amount of 39,7 mm in 60 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC",
+        "GOV"
+      ],
+      "references": [
+        "Hydro IMGW-PIB, date of access: 14 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T05:34:00.000Z\", s\"01KXFTKGZDR7ZH5R4S5MJ08N2S\" ]",
+      "lat": 50.402,
+      "lon": 13.427,
+      "type": "PRECIP",
+      "time": "2026-07-14T05:34:00.000Z",
+      "country": "CZ",
+      "place": "Březno",
+      "description": "PWS recorded a rain amount of 33,5 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Martinek - IBEZNO9\", Wunderground, date of access: 14 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T04:34:00.000Z\", s\"01KXFXH9M9M71ARV1KFS3JENZC\" ]",
+      "lat": 50.445,
+      "lon": 13.554,
+      "type": "PRECIP",
+      "time": "2026-07-14T04:34:00.000Z",
+      "country": "CZ",
+      "place": "Sušany",
+      "description": "PWS recorded a rain amount of 34,8 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Sušany01 - ISTRUP4\", Wunderground, date of access: 14 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T04:29:00.000Z\", s\"01KXFTSY99QW0H31S348EFZ1ZA\" ]",
+      "lat": 50.461,
+      "lon": 13.558,
+      "type": "PRECIP",
+      "time": "2026-07-14T04:29:00.000Z",
+      "country": "CZ",
+      "place": "Malé Březno",
+      "description": "PWS recorded a rain amount of 40,6 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"GoGen - IMALBE15\", Wunderground, date of access: 14 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T04:14:00.000Z\", s\"01KXFY44QSR0NDYQB660H89GSX\" ]",
+      "lat": 49.658,
+      "lon": 20.193,
+      "type": "PRECIP",
+      "time": "2026-07-14T04:14:00.000Z",
+      "country": "PL",
+      "place": "Wilczyce",
+      "description": "PWS recorded a rain amount of 46,5 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Wilczyce - IWILCZ5\", Wunderground, date of access: 14 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T04:09:00.000Z\", s\"01KXFYC153E7Z0M3KFF9SKPXBH\" ]",
+      "lat": 49.88,
+      "lon": 20.06,
+      "type": "PRECIP",
+      "time": "2026-07-14T04:09:00.000Z",
+      "country": "PL",
+      "place": "Brzączowice",
+      "description": "PWS recorded a rain amount of 39,6 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Brzaczowice - IBRZCZ1\", Wunderground, date of access: 14 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T04:09:00.000Z\", s\"01KXFTNQ0KM4YK3F4EPVD7NTMW\" ]",
+      "lat": 50.446,
+      "lon": 13.451,
+      "type": "PRECIP",
+      "time": "2026-07-14T04:09:00.000Z",
+      "country": "CZ",
+      "place": "Údlice",
+      "description": "PWS recorded a rain amount of 30,7 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Zahrada - IDLICE4\", Wunderground, date of access: 14 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T04:04:00.000Z\", s\"01KXFT9NGJ900CR9PTKMH5257T\" ]",
+      "lat": 50.47,
+      "lon": 13.417,
+      "type": "PRECIP",
+      "time": "2026-07-14T04:04:00.000Z",
+      "country": "CZ",
+      "place": "Chomutov",
+      "description": "PWS recorded a rain amount of 41,1 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Ecowitt WS 3900 - ICHOMU37\", Wunderground, date of access: 14 JUL 2026."
+      ]
+    }
+  ]
 }
