@@ -5,8 +5,8 @@
   "window_start_utc": "2026-07-13T04:00:00+00:00",
   "window_end_utc": "2026-07-14T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 148,
-  "report_count": 148,
+  "raw_count": 163,
+  "report_count": 163,
   "reports": [
     {
       "id": "weather_events:[ d\"2026-07-14T03:59:00.000Z\", s\"01KXFTBA2G49PRE2EZ9M4PE41J\" ]",
@@ -194,6 +194,87 @@
       ],
       "references": [
         "\"Ecowitt HP3501 - IBRZEN7\", Wunderground, date of access: 14 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-13T21:59:00.000Z\", s\"01KXGE3172XVE1TMWK6J7T56PY\" ]",
+      "lat": 50.937,
+      "lon": 23.316,
+      "type": "PRECIP",
+      "time": "2026-07-13T21:59:00.000Z",
+      "country": "PL",
+      "place": "Brzeziny",
+      "description": "PWS recorded a rain amount of 26,2 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Brzeziny - IKRANI3\", Wunderground, date of access: 14 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-13T21:55:00.000Z\", s\"01KXGD5Y2VBH4X3Y29G2GM3V12\" ]",
+      "lat": 51.3704,
+      "lon": 23.2287,
+      "type": "LIGHTNING",
+      "time": "2026-07-13T21:55:00.000Z",
+      "country": "PL",
+      "place": "Zastawie",
+      "description": "A barn caught fire in the village of Zastawie. The fire completely destroyed the building, along with the crops and farm equipment inside. Several tons of grain, approximately 80 bales of hay, and small farm equipment were destroyed. Initial estimates put the damage at approximately 120,000 złoty.\nThe property owner suffered burns covering approximately 50 percent of his body while trying to safe his property. The time was based on radar data and Blitzortung lightning detection system.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Pożary, podtopienia i skutki gwałtownej pogody w powiatach krasnostawskim i włodawskim\", Super Tydzień Chełmski, 14 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-13T21:30:00.000Z\", s\"01KXGD1FKM860JW2D0XZWC8FEQ\" ]",
+      "lat": 51.0001,
+      "lon": 23.3296,
+      "type": "WIND",
+      "time": "2026-07-13T21:30:00.000Z",
+      "country": "PL",
+      "place": "Siennica Różana",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Pożary, podtopienia i skutki gwałtownej pogody w powiatach krasnostawskim i włodawskim\", Super Tydzień Chełmski, 14 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-13T21:30:00.000Z\", s\"01KXGD1AECMNJ88Q035DSCDK19\" ]",
+      "lat": 51.0474,
+      "lon": 23.2802,
+      "type": "WIND",
+      "time": "2026-07-13T21:30:00.000Z",
+      "country": "PL",
+      "place": "Czarnoziem",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Pożary, podtopienia i skutki gwałtownej pogody w powiatach krasnostawskim i włodawskim\", Super Tydzień Chełmski, 14 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-13T21:30:00.000Z\", s\"01KXGD09CGZA5TZDV1YFSHXN13\" ]",
+      "lat": 51.0327,
+      "lon": 23.2247,
+      "type": "WIND",
+      "time": "2026-07-13T21:30:00.000Z",
+      "country": "PL",
+      "place": "Krupe",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Pożary, podtopienia i skutki gwałtownej pogody w powiatach krasnostawskim i włodawskim\", Super Tydzień Chełmski, 14 JUL 2026."
       ]
     },
     {
@@ -410,15 +491,10 @@
       "type": "HAIL",
       "time": "2026-07-13T20:31:00.000Z",
       "country": "DE",
-      "place": "Reden",
-      "description": "Large hail 3 cm i.d. (estimated). Radar checked",
-      "info_source": [
-        "WWW",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), data access: 14 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-13T20:31:00.000Z\", s\"01KXFV61PS8E3BDR25HN6506J4\" ]",
@@ -427,15 +503,10 @@
       "type": "HAIL",
       "time": "2026-07-13T20:31:00.000Z",
       "country": "DE",
-      "place": "Koldingen",
-      "description": "Large hail 3 cm i.d. (estimated). Radar checked",
-      "info_source": [
-        "WWW",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), data access: 14 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-13T20:29:00.000Z\", s\"01KXFTYBW08PMV63FMPFP68M9P\" ]",
@@ -444,16 +515,10 @@
       "type": "HAIL",
       "time": "2026-07-13T20:29:00.000Z",
       "country": "DE",
-      "place": "Rethen",
-      "description": "Large hail 2 cm i.d. (estimated). Radar checked",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), data access: 14 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-13T20:29:00.000Z\", s\"01KXFTXB6EGSQB25J1XADEGKT8\" ]",
@@ -462,16 +527,22 @@
       "type": "HAIL",
       "time": "2026-07-13T20:29:00.000Z",
       "country": "DE",
-      "place": "Grasdorf - Lieth",
-      "description": "Large hail 2 cm i.d. (estimated). Radar checked",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), data access: 14 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-13T20:27:00.000Z\", s\"01KXG88VBV21YPSF0DPNA4WSV1\" ]",
+      "lat": 52.3381,
+      "lon": 8.8323,
+      "type": "HAIL",
+      "time": "2026-07-13T20:27:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-13T20:27:00.000Z\", s\"01KXFTV09MX17SDDFPP1VBK40K\" ]",
@@ -480,16 +551,10 @@
       "type": "HAIL",
       "time": "2026-07-13T20:27:00.000Z",
       "country": "DE",
-      "place": "Grasdorf",
-      "description": "Large hail 3 cm i.d. (estimated). Radar checked",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), data access: 14 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-13T20:27:00.000Z\", s\"01KXFTRHWCZ88N0QM0NVCCS78M\" ]",
@@ -648,6 +713,18 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-13T20:11:00.000Z\", s\"01KXG83KSGYFJ2R2E93G20H1HY\" ]",
+      "lat": 52.3515,
+      "lon": 8.7636,
+      "type": "HAIL",
+      "time": "2026-07-13T20:11:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-13T20:11:00.000Z\", s\"01KXFSZBVA3MKYM7TCWAGGS3N7\" ]",
       "lat": 52.3751,
       "lon": 9.7644,
@@ -701,6 +778,18 @@
       "lon": 9.7152,
       "type": "HAIL",
       "time": "2026-07-13T20:03:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-13T20:00:00.000Z\", s\"01KXG85T4WJ64VZN121QH3TY8B\" ]",
+      "lat": 51.9165,
+      "lon": 8.4193,
+      "type": "HAIL",
+      "time": "2026-07-13T20:00:00.000Z",
       "country": "DE",
       "place": null,
       "description": null,
@@ -912,6 +1001,18 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-13T19:24:00.000Z\", s\"01KXG80WCZ7WPD5PPTR961BSEC\" ]",
+      "lat": 52.3889,
+      "lon": 8.8785,
+      "type": "HAIL",
+      "time": "2026-07-13T19:24:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-13T19:20:00.000Z\", s\"01KXEHEKV12A0MT044FYWZSN0W\" ]",
       "lat": 52.568,
       "lon": 9.6013,
@@ -1032,12 +1133,48 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-13T18:43:00.000Z\", s\"01KXG7V74NYDDEQXWWYR37M7GR\" ]",
+      "lat": 52.4521,
+      "lon": 8.6556,
+      "type": "HAIL",
+      "time": "2026-07-13T18:43:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-13T18:37:00.000Z\", s\"01KXG7WT06ZV90YVJ0D97RQKZY\" ]",
+      "lat": 52.4769,
+      "lon": 8.6519,
+      "type": "HAIL",
+      "time": "2026-07-13T18:37:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-13T18:02:00.000Z\", s\"01KXFRN3G7MQHEPV75KF5YECA0\" ]",
       "lat": 53.1303,
       "lon": 8.9876,
       "type": "HAIL",
       "time": "2026-07-13T18:02:00.000Z",
       "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-13T18:00:00.000Z\", s\"01KXGDQZQSEA280HGMF7EY1MPS\" ]",
+      "lat": 52.1607,
+      "lon": 22.6787,
+      "type": "PRECIP",
+      "time": "2026-07-13T18:00:00.000Z",
+      "country": "PL",
       "place": null,
       "description": null,
       "info_source": null,
@@ -1061,6 +1198,18 @@
       "lon": 9.7036,
       "type": "HAIL",
       "time": "2026-07-13T17:55:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-13T17:50:00.000Z\", s\"01KXG7R5ZGTKMR825ZDDM3TQT5\" ]",
+      "lat": 51.862,
+      "lon": 8.3162,
+      "type": "HAIL",
+      "time": "2026-07-13T17:50:00.000Z",
       "country": "DE",
       "place": null,
       "description": null,
@@ -1158,6 +1307,18 @@
       "type": "HAIL",
       "time": "2026-07-13T17:45:00.000Z",
       "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-13T17:40:00.000Z\", s\"01KXGDKVVNWC1D5GS7NX6PMV6H\" ]",
+      "lat": 52.1685,
+      "lon": 22.676,
+      "type": "WIND",
+      "time": "2026-07-13T17:40:00.000Z",
+      "country": "PL",
       "place": null,
       "description": null,
       "info_source": null,
@@ -1926,6 +2087,18 @@
       "type": "HAIL",
       "time": "2026-07-13T13:45:00.000Z",
       "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-13T11:55:00.000Z\", s\"01KXGA74Q1VZ4WMRD42J2C2GDX\" ]",
+      "lat": 50.2046,
+      "lon": 19.2557,
+      "type": "WIND",
+      "time": "2026-07-13T11:55:00.000Z",
+      "country": "PL",
       "place": null,
       "description": null,
       "info_source": null,
