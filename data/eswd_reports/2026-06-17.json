@@ -1,0 +1,176 @@
+{
+  "forecast_date": "2026-06-17",
+  "window_start_local": "2026-06-17T06:00:00+02:00",
+  "window_end_local": "2026-06-18T06:00:00+02:00",
+  "window_start_utc": "2026-06-17T04:00:00+00:00",
+  "window_end_utc": "2026-06-18T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 10,
+  "report_count": 10,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-06-17T18:53:00.000Z\", s\"01KVFNBXA2E6M0TBM827QX07F7\" ]",
+      "lat": 45.8954,
+      "lon": 15.6596,
+      "type": "WIND",
+      "time": "2026-06-17T18:53:00.000Z",
+      "country": "SI",
+      "place": "Dobova",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Močan veter v občini Brežice razkril strehi in podrl nekaj dreves\", 24ur, 18 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-17T18:53:00.000Z\", s\"01KVFNA64DKQWJWX9A00J5VC9W\" ]",
+      "lat": 45.9082,
+      "lon": 15.6594,
+      "type": "WIND",
+      "time": "2026-06-17T18:53:00.000Z",
+      "country": "SI",
+      "place": "Mali Obrež",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Močan veter v občini Brežice razkril strehi in podrl nekaj dreves\", 24ur, 18 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-17T18:51:00.000Z\", s\"01KVFNB5E619V8CQXSQDXH0F6D\" ]",
+      "lat": 45.9256,
+      "lon": 15.6696,
+      "type": "WIND",
+      "time": "2026-06-17T18:51:00.000Z",
+      "country": "SI",
+      "place": "Podvinje",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Močan veter v občini Brežice razkril strehi in podrl nekaj dreves\", 24ur, 18 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-17T18:50:00.000Z\", s\"01KVFND0VDJVKDMCY4P8R7TC2H\" ]",
+      "lat": 45.9001,
+      "lon": 15.6286,
+      "type": "WIND",
+      "time": "2026-06-17T18:50:00.000Z",
+      "country": "SI",
+      "place": "Mostec",
+      "description": "Damaged roof was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Močan veter v občini Brežice razkril strehi in podrl nekaj dreves\", 24ur, 18 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-17T18:50:00.000Z\", s\"01KVFN9Q7A8CNFZMRRXQEQZTV4\" ]",
+      "lat": 45.9158,
+      "lon": 15.6324,
+      "type": "WIND",
+      "time": "2026-06-17T18:50:00.000Z",
+      "country": "SI",
+      "place": "Sela pri Dobovi",
+      "description": "A downed tree and a damaged roof was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Močan veter v občini Brežice razkril strehi in podrl nekaj dreves\", 24ur, 18 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-17T15:40:00.000Z\", s\"01KVCZ62XJ7QM7K8DGS85QV5DF\" ]",
+      "lat": 45.8698,
+      "lon": 18.4555,
+      "type": "WIND",
+      "time": "2026-06-17T15:40:00.000Z",
+      "country": "HU",
+      "place": "Villány",
+      "description": "A train hit a downed tree on a railway track after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Drámai eseményeket vetítenek előre az első nyári viharok – apokaliptikus lehet a nyár\", Bama, 17 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-17T14:25:00.000Z\", s\"01KVCYE8F9V4WF748ECGMP2RMZ\" ]",
+      "lat": 46.3439,
+      "lon": 17.8835,
+      "type": "WIND",
+      "time": "2026-06-17T14:25:00.000Z",
+      "country": "HU",
+      "place": "Sántos",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "\"Lecsapott a vihar Somogyra, fákat döntött ki a hatalmas erejű szél\", Kapospont, 17 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-17T14:18:00.000Z\", s\"01KVCYEN6EWSR1K939Z34ZCW02\" ]",
+      "lat": 46.3439,
+      "lon": 17.8835,
+      "type": "WIND",
+      "time": "2026-06-17T14:18:00.000Z",
+      "country": "HU",
+      "place": "Sántos",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "\"Lecsapott a vihar Somogyra, fákat döntött ki a hatalmas erejű szél\", Kapospont, 17 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-17T14:17:00.000Z\", s\"01KVD2TTN4Y54JH68YXSBYVVS2\" ]",
+      "lat": 46.3984,
+      "lon": 17.8217,
+      "type": "WIND",
+      "time": "2026-06-17T14:17:00.000Z",
+      "country": "HU",
+      "place": "Vízisporttelep",
+      "description": "Several downed trees were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Kidőlt fák az áldozatai a Desedán a szerdai viharnak\", 74nullanulla, 17 JUN 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-17T14:05:00.000Z\", s\"01KVCYCF2ZN5KBFMFY0YQ9N9XZ\" ]",
+      "lat": 46.4616,
+      "lon": 17.7404,
+      "type": "WIND",
+      "time": "2026-06-17T14:05:00.000Z",
+      "country": "HU",
+      "place": "Várda",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "\"Lecsapott a vihar Somogyra, fákat döntött ki a hatalmas erejű szél\", Kapospont, 17 JUN 2026."
+      ]
+    }
+  ]
+}

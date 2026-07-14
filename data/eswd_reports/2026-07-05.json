@@ -5,7 +5,114 @@
   "window_start_utc": "2026-07-05T04:00:00+00:00",
   "window_end_utc": "2026-07-06T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 0,
-  "report_count": 0,
-  "reports": []
+  "raw_count": 6,
+  "report_count": 6,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-05T17:28:00.000Z\", s\"01KWVMNSA0W5DGFZRJP9MT5J0W\" ]",
+      "lat": 47.6841,
+      "lon": 11.3009,
+      "type": "LIGHTNING",
+      "time": "2026-07-05T17:28:00.000Z",
+      "country": "DE",
+      "place": "Kleinweil",
+      "description": null,
+      "info_source": [
+        "TV",
+        "WXSVC",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Blitzeinschlag verursacht Schwelbrand in Kleinweil \", RADIO OBERLAND, 06 JUL 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-05T16:56:00.000Z\", s\"01KWVKBF2GWT6P2EX2T86RE101\" ]",
+      "lat": 49.8725,
+      "lon": 20.6987,
+      "type": "HAIL",
+      "time": "2026-07-05T16:56:00.000Z",
+      "country": "PL",
+      "place": "Złota",
+      "description": "Large hail up to at least 4 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Capuccino.eu - Regionalny Portal Informacyjny (on Facebook), 05 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-05T16:54:00.000Z\", s\"01KWVKEQFPQ29P8VYK2N0Z1QMK\" ]",
+      "lat": 49.859,
+      "lon": 20.7086,
+      "type": "HAIL",
+      "time": "2026-07-05T16:54:00.000Z",
+      "country": "PL",
+      "place": "Biskupice Melsztyńskie",
+      "description": "Large hail up to at least 4,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Capuccino.eu - Regionalny Portal Informacyjny (on Facebook), 05 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-05T16:53:00.000Z\", s\"01KWVK98ESWY681ASQFH7F6Z08\" ]",
+      "lat": 49.8533,
+      "lon": 20.6593,
+      "type": "HAIL",
+      "time": "2026-07-05T16:53:00.000Z",
+      "country": "PL",
+      "place": "Tworkowa",
+      "description": "Large hail up to at least 3 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Capuccino.eu - Regionalny Portal Informacyjny (on Facebook), 05 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-05T16:30:00.000Z\", s\"01KX5MCN6MA0PVCRACVYXAE3S4\" ]",
+      "lat": 48.2678,
+      "lon": 10.9869,
+      "type": "PRECIP",
+      "time": "2026-07-05T16:30:00.000Z",
+      "country": "DE",
+      "place": "Mering",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"„Es kam wie aus dem Nichts“: Unwetter in Mering weckt schlimme Erinnerungen\", FRIEDBERGER ALLGEMEINE, 06 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-05T16:14:00.000Z\", s\"01KX5ME9F54KJG8D9J7TCNDNWK\" ]",
+      "lat": 48.2602,
+      "lon": 10.9853,
+      "type": "WIND",
+      "time": "2026-07-05T16:14:00.000Z",
+      "country": "DE",
+      "place": "Mering",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"„Es kam wie aus dem Nichts“: Unwetter in Mering weckt schlimme Erinnerungen\", FRIEDBERGER ALLGEMEINE, 06 JUL 2026"
+      ]
+    }
+  ]
 }

@@ -5,9 +5,81 @@
   "window_start_utc": "2026-07-08T04:00:00+00:00",
   "window_end_utc": "2026-07-09T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 16,
-  "report_count": 16,
+  "raw_count": 20,
+  "report_count": 20,
   "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-08T08:00:00.000Z\", s\"01KX81EZ68CWT8KTA1Y5A5ABE0\" ]",
+      "lat": 53.9203,
+      "lon": 19.7417,
+      "type": "WIND",
+      "time": "2026-07-08T08:00:00.000Z",
+      "country": "PL",
+      "place": "Małdyty",
+      "description": "Numerous downed trees were reported in this area after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "WM112.pl - portal informacyjny Warmii i Mazur (on Facebook), 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-08T08:00:00.000Z\", s\"01KX81BTMYH7Y2ET7V1NMXZHS6\" ]",
+      "lat": 54.2741,
+      "lon": 19.7422,
+      "type": "WIND",
+      "time": "2026-07-08T08:00:00.000Z",
+      "country": "PL",
+      "place": "Wielkie Wierzno",
+      "description": "Numerous downed trees were reported in this area after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP Wielkie Wierzno (on Facebook), 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-08T08:00:00.000Z\", s\"01KX81AR09QYPX403ZASMDJWTD\" ]",
+      "lat": 54.1674,
+      "lon": 19.8818,
+      "type": "WIND",
+      "time": "2026-07-08T08:00:00.000Z",
+      "country": "PL",
+      "place": "Wilczęta",
+      "description": "At least several downed trees were reported in this area after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP Wilczęta (on Facebook), 09 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-08T08:00:00.000Z\", s\"01KX80W8KGWH4EK0JF67CXDSNS\" ]",
+      "lat": 54.1933,
+      "lon": 17.9311,
+      "type": "WIND",
+      "time": "2026-07-08T08:00:00.000Z",
+      "country": "PL",
+      "place": "Delowo",
+      "description": "A downed tree was reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP Stężyca (on Facebook), 08 JUL 2026."
+      ]
+    },
     {
       "id": "weather_events:[ d\"2026-07-08T07:00:00.000Z\", s\"01KX0QGE5GHT15DC038M3FTZN6\" ]",
       "lat": 52.6422,
@@ -15,10 +87,7 @@
       "type": "WIND",
       "time": "2026-07-08T07:00:00.000Z",
       "country": "PL",
-      "qc": "QC1",
       "place": "Świeszewko",
-      "place_accuracy": "3KM",
-      "time_accuracy": "3H",
       "description": "Downed trees were reported after a period of strong wind gusts.",
       "info_source": [
         "WWW"
@@ -34,10 +103,7 @@
       "type": "WIND",
       "time": "2026-07-08T07:00:00.000Z",
       "country": "PL",
-      "qc": "QC1",
       "place": "Golądkowo",
-      "place_accuracy": "3KM",
-      "time_accuracy": "3H",
       "description": "Downed trees were reported after a period of strong wind gusts.",
       "info_source": [
         "WWW"
@@ -53,10 +119,7 @@
       "type": "WIND",
       "time": "2026-07-08T07:00:00.000Z",
       "country": "PL",
-      "qc": "QC1",
       "place": "Święta Lipka",
-      "place_accuracy": "3KM",
-      "time_accuracy": "3H",
       "description": "Downed trees were reported after a period of strong wind gusts.",
       "info_source": [
         "WWW",
@@ -73,10 +136,7 @@
       "type": "WIND",
       "time": "2026-07-08T07:00:00.000Z",
       "country": "PL",
-      "qc": "QC1",
       "place": "Bezławki",
-      "place_accuracy": "3KM",
-      "time_accuracy": "3H",
       "description": "Downed trees were reported after a period of strong wind gusts.",
       "info_source": [
         "WWW",
@@ -93,10 +153,7 @@
       "type": "WIND",
       "time": "2026-07-08T07:00:00.000Z",
       "country": "PL",
-      "qc": "QC1",
       "place": "Śpiglówka",
-      "place_accuracy": "3KM",
-      "time_accuracy": "3H",
       "description": "Downed trees were reported after a period of strong wind gusts.",
       "info_source": [
         "WWW",
@@ -113,10 +170,7 @@
       "type": "WIND",
       "time": "2026-07-08T07:00:00.000Z",
       "country": "PL",
-      "qc": "QC1",
       "place": "Wola",
-      "place_accuracy": "3KM",
-      "time_accuracy": "3H",
       "description": "Downed trees were reported after a period of strong wind gusts.",
       "info_source": [
         "WWW",
@@ -133,10 +187,7 @@
       "type": "WIND",
       "time": "2026-07-08T07:00:00.000Z",
       "country": "PL",
-      "qc": "QC1",
       "place": "Łężany",
-      "place_accuracy": "3KM",
-      "time_accuracy": "3H",
       "description": "Downed trees were reported after a period of strong wind gusts.",
       "info_source": [
         "WWW",
@@ -153,10 +204,7 @@
       "type": "WIND",
       "time": "2026-07-08T07:00:00.000Z",
       "country": "PL",
-      "qc": "QC1",
       "place": "Tolniki Małe",
-      "place_accuracy": "3KM",
-      "time_accuracy": "3H",
       "description": "Downed trees were reported after a period of strong wind gusts.",
       "info_source": [
         "WWW",
@@ -173,10 +221,7 @@
       "type": "WIND",
       "time": "2026-07-08T07:00:00.000Z",
       "country": "PL",
-      "qc": "QC1",
       "place": "Mnichowo",
-      "place_accuracy": "3KM",
-      "time_accuracy": "3H",
       "description": "Downed trees were reported after a period of strong wind gusts.",
       "info_source": [
         "WWW",
@@ -193,10 +238,7 @@
       "type": "WIND",
       "time": "2026-07-08T07:00:00.000Z",
       "country": "PL",
-      "qc": "QC1",
       "place": "Reszel",
-      "place_accuracy": "3KM",
-      "time_accuracy": "3H",
       "description": "Downed trees were reported after a period of strong wind gusts.",
       "info_source": [
         "WWW",
@@ -213,10 +255,7 @@
       "type": "WIND",
       "time": "2026-07-08T05:30:00.000Z",
       "country": "PL",
-      "qc": "QC1",
       "place": "Stegna",
-      "place_accuracy": "3KM",
-      "time_accuracy": "30M",
       "description": "A downed tree was reported after a period of strong wind gusts.",
       "info_source": [
         "WWW",
@@ -233,16 +272,16 @@
       "type": "WIND",
       "time": "2026-07-08T05:00:00.000Z",
       "country": "PL",
-      "qc": "QC1",
       "place": "Braniewo",
-      "place_accuracy": "10KM",
-      "time_accuracy": "6H",
       "description": "Downed trees were reported  in this area after a period of strong wind gusts.",
       "info_source": [
-        "WWW"
+        "WWW",
+        "DMGPHOTO",
+        "GOV"
       ],
       "references": [
-        "\"Niespokojna noc na Warmii i Mazurach. Nad region ponownie nadciągają nawałnice\", TKO, 08 JUL 2026."
+        "\"Niespokojna noc na Warmii i Mazurach. Nad region ponownie nadciągają nawałnice\", TKO, 08 JUL 2026.",
+        "OSP Braniewo (on Facebook), 08 JUL 2026."
       ]
     },
     {
@@ -252,10 +291,7 @@
       "type": "WIND",
       "time": "2026-07-08T05:00:00.000Z",
       "country": "PL",
-      "qc": "QC1",
       "place": "Pieniężno",
-      "place_accuracy": "10KM",
-      "time_accuracy": "6H",
       "description": "Downed trees were reported  in this area after a period of strong wind gusts.",
       "info_source": [
         "WWW"
@@ -271,10 +307,7 @@
       "type": "WIND",
       "time": "2026-07-08T05:00:00.000Z",
       "country": "PL",
-      "qc": "QC1",
       "place": "Płoskinia",
-      "place_accuracy": "10KM",
-      "time_accuracy": "6H",
       "description": "Downed trees were reported  in this area after a period of strong wind gusts.",
       "info_source": [
         "WWW"
@@ -290,10 +323,7 @@
       "type": "WIND",
       "time": "2026-07-08T04:30:00.000Z",
       "country": "PL",
-      "qc": "QC1",
       "place": "Frombork",
-      "place_accuracy": "3KM",
-      "time_accuracy": "3H",
       "description": "Downed trees and large tree branches were reported. ",
       "info_source": [
         "WWW",
@@ -310,16 +340,14 @@
       "type": "WIND",
       "time": "2026-07-08T04:00:00.000Z",
       "country": "PL",
-      "qc": "QC1",
       "place": "Krynica Morska",
-      "place_accuracy": "3KM",
-      "time_accuracy": "6H",
-      "description": "Downed large tree branches were reported. ",
+      "description": "Numerous downed trees were reported after a period of strong wind gusts.",
       "info_source": [
         "WWW"
       ],
       "references": [
-        "\"Piaskowe barykady, powalone drzewa. Silny wiatr w Krynicy Morskiej\", RMF24. 08 JUL 2026."
+        "\"Piaskowe barykady, powalone drzewa. Silny wiatr w Krynicy Morskiej\", RMF24. 08 JUL 2026.",
+        "OSP Stegna (on Facebook), 09 JUL 2026."
       ]
     }
   ]

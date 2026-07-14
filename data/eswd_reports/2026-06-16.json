@@ -1,0 +1,78 @@
+{
+  "forecast_date": "2026-06-16",
+  "window_start_local": "2026-06-16T06:00:00+02:00",
+  "window_end_local": "2026-06-17T06:00:00+02:00",
+  "window_start_utc": "2026-06-16T04:00:00+00:00",
+  "window_end_utc": "2026-06-17T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 4,
+  "report_count": 4,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-06-16T15:30:00.000Z\", s\"01KV92NJG7DA5667FMGBGAD5SB\" ]",
+      "lat": 47.2169,
+      "lon": 16.573,
+      "type": "HAIL",
+      "time": "2026-06-16T15:30:00.000Z",
+      "country": "HU",
+      "place": "Kukulló",
+      "description": null,
+      "info_source": [
+        "EVTPHOTO"
+      ],
+      "references": [
+        "video report by Brückler Andrea via Kőszegi Időjárás Előrejelzés . facebook page"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-16T15:20:00.000Z\", s\"01KV8JRBG0BQK499H0RDPNW539\" ]",
+      "lat": 47.2434,
+      "lon": 16.5547,
+      "type": "HAIL",
+      "time": "2026-06-16T15:20:00.000Z",
+      "country": "HU",
+      "place": "Marlovicstanya",
+      "description": "hail diameter roughly estimated by \"smaller cherry-size\" mentioned and radar est.",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "report by Kiss-Vincze Barna Eszter on facebook"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-16T15:15:00.000Z\", s\"01KV8JKE8P1RQ9P3KH3JDCT0BA\" ]",
+      "lat": 47.2404,
+      "lon": 16.5295,
+      "type": "HAIL",
+      "time": "2026-06-16T15:15:00.000Z",
+      "country": "HU",
+      "place": "Torony",
+      "description": "hail diameter roughly estimated",
+      "info_source": [
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Photo report by Péter Lörincz via MetFigyelő - facebook page"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-16T11:00:00.000Z\", s\"01KV89WQFJVYWWFAQWNE7TK4HG\" ]",
+      "lat": 53.4073,
+      "lon": 18.1782,
+      "type": "TORNADO",
+      "time": "2026-06-16T11:00:00.000Z",
+      "country": "PL",
+      "place": "Tuszynki",
+      "description": "A long funnel cloud extending to approximately 60-70% of the cloud base-to-ground distance was observed. Ground contact was likely.\n",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Sieć Obserwatorów Burz (on Facebook), 16 JUN 2026."
+      ]
+    }
+  ]
+}

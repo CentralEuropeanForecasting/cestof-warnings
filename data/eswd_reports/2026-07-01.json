@@ -5,8 +5,8 @@
   "window_start_utc": "2026-07-01T04:00:00+00:00",
   "window_end_utc": "2026-07-02T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 328,
-  "report_count": 328,
+  "raw_count": 352,
+  "report_count": 352,
   "reports": [
     {
       "id": "weather_events:[ d\"2026-07-01T20:53:00.000Z\", s\"01KWFSV9FQ1X51NRCKEVT9WCXC\" ]",
@@ -211,22 +211,6 @@
       ],
       "references": [
         "SHMU"
-      ]
-    },
-    {
-      "id": "weather_events:[ d\"2026-07-01T17:55:00.000Z\", s\"01KWHBFYR4S5DD1FBKA4YF3SAE\" ]",
-      "lat": 48.5282,
-      "lon": 20.0284,
-      "type": "WIND",
-      "time": "2026-07-01T17:55:00.000Z",
-      "country": "SK",
-      "place": "Striežovce",
-      "description": null,
-      "info_source": [
-        "EYEWTN"
-      ],
-      "references": [
-        "written damage on Facebook"
       ]
     },
     {
@@ -451,10 +435,16 @@
       "type": "HAIL",
       "time": "2026-07-01T16:50:00.000Z",
       "country": "PL",
-      "place": null,
-      "description": null,
-      "info_source": null,
-      "references": null
+      "place": "Klukowo",
+      "description": "Large hail up to at least 3 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Wysokomazowiecki24 (on Facebook), 01 JUL 2026."
+      ]
     },
     {
       "id": "weather_events:[ d\"2026-07-01T16:45:00.000Z\", s\"01KWGQGE6GW277ZFVRCZ04JM2X\" ]",
@@ -463,18 +453,6 @@
       "type": "HAIL",
       "time": "2026-07-01T16:45:00.000Z",
       "country": "PL",
-      "place": null,
-      "description": null,
-      "info_source": null,
-      "references": null
-    },
-    {
-      "id": "weather_events:[ d\"2026-07-01T16:45:00.000Z\", s\"01KWFKN26XZ02WV0GQH0FZ9YBT\" ]",
-      "lat": 48.498,
-      "lon": 17.9692,
-      "type": "PRECIP",
-      "time": "2026-07-01T16:45:00.000Z",
-      "country": "SK",
       "place": null,
       "description": null,
       "info_source": null,
@@ -529,12 +507,54 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-01T16:35:00.000Z\", s\"01KX88M6E4MQ0V8PKRYWDMS361\" ]",
+      "lat": 49.8799,
+      "lon": 17.643,
+      "type": "HAIL",
+      "time": "2026-07-01T16:35:00.000Z",
+      "country": "CZ",
+      "place": "Hořejší Kunčice",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Facebook, Eliška Paulů, 01. 07. 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-01T16:35:00.000Z\", s\"01KWGW6JKP50A08ZCY3Y35MKM6\" ]",
       "lat": 49.0419,
       "lon": 21.1731,
       "type": "WIND",
       "time": "2026-07-01T16:35:00.000Z",
       "country": "SK",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-01T16:30:00.000Z\", s\"01KWVNMB9WRB239HRXRWFWVFAW\" ]",
+      "lat": 47.7583,
+      "lon": 8.8653,
+      "type": "PRECIP",
+      "time": "2026-07-01T16:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-01T16:30:00.000Z\", s\"01KWVNKKCJ8FS9BRH8J94S5T7A\" ]",
+      "lat": 47.7596,
+      "lon": 8.8815,
+      "type": "PRECIP",
+      "time": "2026-07-01T16:30:00.000Z",
+      "country": "DE",
       "place": null,
       "description": null,
       "info_source": null,
@@ -559,6 +579,18 @@
       "type": "HAIL",
       "time": "2026-07-01T16:30:00.000Z",
       "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-01T16:25:00.000Z\", s\"01KWVNJP9SA66NF1GR8CQXB3WG\" ]",
+      "lat": 47.7596,
+      "lon": 8.8896,
+      "type": "HAIL",
+      "time": "2026-07-01T16:25:00.000Z",
+      "country": "DE",
       "place": null,
       "description": null,
       "info_source": null,
@@ -617,18 +649,6 @@
       ]
     },
     {
-      "id": "weather_events:[ d\"2026-07-01T16:10:00.000Z\", s\"01KWH7DY2XECD3Q6SMC0FQNMRF\" ]",
-      "lat": 46.4593,
-      "lon": 17.0076,
-      "type": "PRECIP",
-      "time": "2026-07-01T16:10:00.000Z",
-      "country": "HU",
-      "place": null,
-      "description": null,
-      "info_source": null,
-      "references": null
-    },
-    {
       "id": "weather_events:[ d\"2026-07-01T16:10:00.000Z\", s\"01KWFJ2R4KDW2Y8REVD0360GMK\" ]",
       "lat": 50.6976,
       "lon": 21.6035,
@@ -663,6 +683,36 @@
       "description": null,
       "info_source": null,
       "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-01T16:00:00.000Z\", s\"01KXB3SD5NYSAJR3SEMT0YY7QZ\" ]",
+      "lat": 51.4091,
+      "lon": 22.0518,
+      "type": "HAIL",
+      "time": "2026-07-01T16:00:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-01T16:00:00.000Z\", s\"01KXAS1ZVK0071RJWF5MKNKZ04\" ]",
+      "lat": 49.5915,
+      "lon": 17.716,
+      "type": "HAIL",
+      "time": "2026-07-01T16:00:00.000Z",
+      "country": "CZ",
+      "place": "Olšovec",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Facebook, Danuška Hodálová, 01. 07. 2026"
+      ]
     },
     {
       "id": "weather_events:[ d\"2026-07-01T16:00:00.000Z\", s\"01KWKRK6CCR6H07350BV5P913B\" ]",
@@ -785,6 +835,25 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-01T15:55:00.000Z\", s\"01KX88X3PZWRB596H7HKYH4365\" ]",
+      "lat": 49.5523,
+      "lon": 17.734,
+      "type": "HAIL",
+      "time": "2026-07-01T15:55:00.000Z",
+      "country": "CZ",
+      "place": "Hranice",
+      "description": "Some damage in Hranice according to photos from other people (link below).",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Facebook, Katka Macháčková, 01. 07. 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-01T15:55:00.000Z\", s\"01KWH6FE305YRGP1AV8WVC7CTD\" ]",
       "lat": 51.4135,
       "lon": 22.0371,
@@ -836,18 +905,6 @@
       "id": "weather_events:[ d\"2026-07-01T15:50:00.000Z\", s\"01KWH6K6Z1DHZCA1S7Y1NX0H7X\" ]",
       "lat": 51.3897,
       "lon": 22.0311,
-      "type": "HAIL",
-      "time": "2026-07-01T15:50:00.000Z",
-      "country": "PL",
-      "place": null,
-      "description": null,
-      "info_source": null,
-      "references": null
-    },
-    {
-      "id": "weather_events:[ d\"2026-07-01T15:50:00.000Z\", s\"01KWH6D3568F5S06RVGHH82GM0\" ]",
-      "lat": 50.7295,
-      "lon": 21.4912,
       "type": "HAIL",
       "time": "2026-07-01T15:50:00.000Z",
       "country": "PL",
@@ -969,6 +1026,18 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-01T15:45:00.000Z\", s\"01KWV6K0PSA1K46RYNN2TYCWBP\" ]",
+      "lat": 49,
+      "lon": 21.18,
+      "type": "HAIL",
+      "time": "2026-07-01T15:45:00.000Z",
+      "country": "SK",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-01T15:45:00.000Z\", s\"01KWHA4Q4AJTEQFM3ATH6W2A92\" ]",
       "lat": 47.8927,
       "lon": 17.3321,
@@ -1027,6 +1096,18 @@
       "type": "WIND",
       "time": "2026-07-01T15:45:00.000Z",
       "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-01T15:44:00.000Z\", s\"01KWXHRPQ10B82397EHA6K5EDV\" ]",
+      "lat": 48.498,
+      "lon": 17.9692,
+      "type": "PRECIP",
+      "time": "2026-07-01T15:44:00.000Z",
+      "country": "SK",
       "place": null,
       "description": null,
       "info_source": null,
@@ -1357,6 +1438,18 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-01T15:20:00.000Z\", s\"01KXB4GRQAZKAKFS9XEH0T40NW\" ]",
+      "lat": 51.5341,
+      "lon": 21.7704,
+      "type": "HAIL",
+      "time": "2026-07-01T15:20:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-01T15:20:00.000Z\", s\"01KWMMZWZDRYFS81W3ZZVG28ZQ\" ]",
       "lat": 51.566,
       "lon": 21.841,
@@ -1447,6 +1540,42 @@
       "type": "HAIL",
       "time": "2026-07-01T15:20:00.000Z",
       "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-01T15:15:00.000Z\", s\"01KXH1VEP722TRY0PJJ90RK00W\" ]",
+      "lat": 50.312,
+      "lon": 18.827,
+      "type": "WIND",
+      "time": "2026-07-01T15:15:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-01T15:15:00.000Z\", s\"01KXB4MBAWPKH8JF9J6S6SRD3K\" ]",
+      "lat": 51.8009,
+      "lon": 22.8456,
+      "type": "WIND",
+      "time": "2026-07-01T15:15:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-01T15:15:00.000Z\", s\"01KWV63R7T28ARB90PF4MK6F92\" ]",
+      "lat": 48.63,
+      "lon": 21.47,
+      "type": "HAIL",
+      "time": "2026-07-01T15:15:00.000Z",
+      "country": "SK",
       "place": null,
       "description": null,
       "info_source": null,
@@ -1777,6 +1906,24 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-01T14:35:00.000Z\", s\"01KXAS6V16ZV7NAW6JJKP17K3F\" ]",
+      "lat": 49.8328,
+      "lon": 18.2732,
+      "type": "HAIL",
+      "time": "2026-07-01T14:35:00.000Z",
+      "country": "CZ",
+      "place": "Ostrava",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Facebook, Karolína Guzzi, 01. 07. 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-01T14:35:00.000Z\", s\"01KWH896E6PN0B66K49JWCCCP5\" ]",
       "lat": 48.3854,
       "lon": 22.1516,
@@ -1825,12 +1972,85 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-01T14:25:00.000Z\", s\"01KXARWR6PHHF7ZG3GXT42SMR8\" ]",
+      "lat": 49.3365,
+      "lon": 18.1969,
+      "type": "HAIL",
+      "time": "2026-07-01T14:25:00.000Z",
+      "country": "CZ",
+      "place": "Nový Hrozenkov",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Facebook, Natálie Macečková, 01. 07. 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-01T14:25:00.000Z\", s\"01KX895AQYSVE2BZJPXQHDJR7R\" ]",
+      "lat": 49.3512,
+      "lon": 18.2379,
+      "type": "HAIL",
+      "time": "2026-07-01T14:25:00.000Z",
+      "country": "CZ",
+      "place": "Karolinka",
+      "description": "Damage according to description.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN",
+        "EVTPHOTO",
+        "EYEWTN"
+      ],
+      "references": [
+        "Facebook, Anita Pavelková, 01. 07. 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-01T14:25:00.000Z\", s\"01KWXGH2YX3CCQ1PN0XQKS2HWW\" ]",
+      "lat": 48.99,
+      "lon": 22.15,
+      "type": "HAIL",
+      "time": "2026-07-01T14:25:00.000Z",
+      "country": "SK",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-01T14:25:00.000Z\", s\"01KWFGWN9HCNPAHABZKWWGCZ1X\" ]",
       "lat": 50.4495,
       "lon": 23.7857,
       "type": "HAIL",
       "time": "2026-07-01T14:25:00.000Z",
       "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-01T14:20:00.000Z\", s\"01KWV6PB13ET3SMGXF1C5Q79GH\" ]",
+      "lat": 49,
+      "lon": 22.22,
+      "type": "HAIL",
+      "time": "2026-07-01T14:20:00.000Z",
+      "country": "SK",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-01T14:20:00.000Z\", s\"01KWV5NQAZW4TYX1KEY8E5ADHA\" ]",
+      "lat": 48.14,
+      "lon": 17.33,
+      "type": "HAIL",
+      "time": "2026-07-01T14:20:00.000Z",
+      "country": "SK",
       "place": null,
       "description": null,
       "info_source": null,
@@ -2161,6 +2381,18 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-01T13:30:00.000Z\", s\"01KWV66VZHQ7RWX0VJWNWMMYQF\" ]",
+      "lat": 49.37,
+      "lon": 18.46,
+      "type": "HAIL",
+      "time": "2026-07-01T13:30:00.000Z",
+      "country": "SK",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-01T13:26:00.000Z\", s\"01KWF03D0J1MV7J256GGNYWMBK\" ]",
       "lat": 47.7801,
       "lon": 9.5783,
@@ -2221,6 +2453,30 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-01T13:20:00.000Z\", s\"01KX2Y2HYM78D2D8ZX4K87BPKQ\" ]",
+      "lat": 53.5778,
+      "lon": 9.6035,
+      "type": "HAIL",
+      "time": "2026-07-01T13:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-01T13:20:00.000Z\", s\"01KX2Y2003P4837YME221APZNF\" ]",
+      "lat": 53.5626,
+      "lon": 9.597,
+      "type": "HAIL",
+      "time": "2026-07-01T13:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-01T13:20:00.000Z\", s\"01KWF0KF0ZZ73P485SZAZXVRQM\" ]",
       "lat": 49.6808,
       "lon": 19.1373,
@@ -2250,6 +2506,30 @@
       "lon": 9.6084,
       "type": "HAIL",
       "time": "2026-07-01T13:19:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-01T13:17:00.000Z\", s\"01KX2Y1MT5RTG78DZHP5J37KF2\" ]",
+      "lat": 53.5844,
+      "lon": 9.5874,
+      "type": "HAIL",
+      "time": "2026-07-01T13:17:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-01T13:15:00.000Z\", s\"01KX2Y10H3SP9XNBDSYHM0NK2Q\" ]",
+      "lat": 53.5769,
+      "lon": 9.5704,
+      "type": "HAIL",
+      "time": "2026-07-01T13:15:00.000Z",
       "country": "DE",
       "place": null,
       "description": null,
@@ -2461,6 +2741,18 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-01T12:40:00.000Z\", s\"01KWV6AAVET87W3TR4624H5HS5\" ]",
+      "lat": 49.43,
+      "lon": 19.27,
+      "type": "HAIL",
+      "time": "2026-07-01T12:40:00.000Z",
+      "country": "SK",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-01T12:40:00.000Z\", s\"01KWJBTYEFZ9PB452TR6CJ1JVM\" ]",
       "lat": 47.6714,
       "lon": 15.9314,
@@ -2503,6 +2795,18 @@
       "type": "PRECIP",
       "time": "2026-07-01T12:40:00.000Z",
       "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-01T12:30:00.000Z\", s\"01KWV6D94VW4CJSG86F69N50JQ\" ]",
+      "lat": 49.39,
+      "lon": 19.3,
+      "type": "HAIL",
+      "time": "2026-07-01T12:30:00.000Z",
+      "country": "SK",
       "place": null,
       "description": null,
       "info_source": null,
@@ -2621,20 +2925,52 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-01T11:50:00.000Z\", s\"01KXARMAA347KM209GNSGW0AQY\" ]",
+      "lat": 49.6306,
+      "lon": 18.6821,
+      "type": "HAIL",
+      "time": "2026-07-01T11:50:00.000Z",
+      "country": "CZ",
+      "place": "Karpentná",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "EVTPHOTO",
+        "EYEWTN"
+      ],
+      "references": [
+        "Facebook, Peťka Hawlitzková, 01. 07. 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-01T11:50:00.000Z\", s\"01KX88BXDVKXJBDRGD6RN78Q93\" ]",
+      "lat": 49.6363,
+      "lon": 18.7213,
+      "type": "HAIL",
+      "time": "2026-07-01T11:50:00.000Z",
+      "country": "CZ",
+      "place": "Bystřice",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "EVTPHOTO",
+        "EYEWTN"
+      ],
+      "references": [
+        "Facebook, 01. 07. 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-01T11:43:00.000Z\", s\"01KWH3615TJGRJDV5GVAPN4VY2\" ]",
       "lat": 49.8481,
       "lon": 15.5126,
       "type": "WIND",
       "time": "2026-07-01T11:43:00.000Z",
       "country": "CZ",
-      "place": "Zvěstovice",
+      "place": null,
       "description": null,
-      "info_source": [
-        "GOV"
-      ],
-      "references": [
-        "Firefighter Intervetions list, Hasici Vysocina, checked: 02 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-01T11:35:00.000Z\", s\"01KWEYK7B86HWJWG8KDA9FCCMR\" ]",
@@ -2679,14 +3015,10 @@
       "type": "WIND",
       "time": "2026-07-01T11:19:00.000Z",
       "country": "CZ",
-      "place": "Antonínův Důl",
+      "place": null,
       "description": null,
-      "info_source": [
-        "GOV"
-      ],
-      "references": [
-        "Firefighter Intervetions list, Hasici Vysocina, checked: 02 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-01T11:19:00.000Z\", s\"01KWH2KJ559BPCNTRT2AZH62D4\" ]",
@@ -2695,14 +3027,10 @@
       "type": "WIND",
       "time": "2026-07-01T11:19:00.000Z",
       "country": "CZ",
-      "place": "Heroltice",
+      "place": null,
       "description": null,
-      "info_source": [
-        "GOV"
-      ],
-      "references": [
-        "Firefighter Intervetions list, Hasici Vysocina, checked: 02 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-01T11:18:00.000Z\", s\"01KWH26Q1V3V9QQE5WGJTK6JFS\" ]",
@@ -2711,14 +3039,10 @@
       "type": "WIND",
       "time": "2026-07-01T11:18:00.000Z",
       "country": "CZ",
-      "place": "Antonínův Důl",
+      "place": null,
       "description": null,
-      "info_source": [
-        "GOV"
-      ],
-      "references": [
-        "Firefighter Intervetions list, Hasici Vysocina, checked: 02 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-01T11:17:00.000Z\", s\"01KWH211A7S9GNFXG6P87WJ86P\" ]",
@@ -2727,14 +3051,10 @@
       "type": "WIND",
       "time": "2026-07-01T11:17:00.000Z",
       "country": "CZ",
-      "place": "Pávov",
+      "place": null,
       "description": null,
-      "info_source": [
-        "GOV"
-      ],
-      "references": [
-        "Firefighter Intervetions list, Hasici Vysocina, checked: 02 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-01T11:16:00.000Z\", s\"01KWH2RAVDM9VF9WV6M7AW3NEH\" ]",
@@ -2743,14 +3063,10 @@
       "type": "WIND",
       "time": "2026-07-01T11:16:00.000Z",
       "country": "CZ",
-      "place": "Zborná",
+      "place": null,
       "description": null,
-      "info_source": [
-        "GOV"
-      ],
-      "references": [
-        "Firefighter Intervetions list, Hasici Vysocina, checked: 02 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-01T11:15:00.000Z\", s\"01KWH31CV4N2R5CMQKJ3NPZ4RX\" ]",
@@ -2759,14 +3075,10 @@
       "type": "WIND",
       "time": "2026-07-01T11:15:00.000Z",
       "country": "CZ",
-      "place": "Bedřichov",
+      "place": null,
       "description": null,
-      "info_source": [
-        "GOV"
-      ],
-      "references": [
-        "Firefighter Intervetions list, Hasici Vysocina, checked: 02 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-01T11:15:00.000Z\", s\"01KWH2FWW50NDD1E7NBG676X2B\" ]",
@@ -2775,14 +3087,10 @@
       "type": "WIND",
       "time": "2026-07-01T11:15:00.000Z",
       "country": "CZ",
-      "place": "Jihlava",
+      "place": null,
       "description": null,
-      "info_source": [
-        "GOV"
-      ],
-      "references": [
-        "Firefighter Intervetions list, Hasici Vysocina, checked: 02 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-01T11:15:00.000Z\", s\"01KWH24Z813WTYNH67H5Y8AZ93\" ]",

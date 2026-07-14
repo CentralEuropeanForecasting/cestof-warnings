@@ -5,8 +5,8 @@
   "window_start_utc": "2026-07-10T04:00:00+00:00",
   "window_end_utc": "2026-07-11T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 1,
-  "report_count": 1,
+  "raw_count": 3,
+  "report_count": 3,
   "reports": [
     {
       "id": "weather_events:[ d\"2026-07-10T17:29:00.000Z\", s\"01KX7WC6K07NEX83J6NZK9HKVT\" ]",
@@ -15,10 +15,7 @@
       "type": "PRECIP",
       "time": "2026-07-10T17:29:00.000Z",
       "country": "CH",
-      "qc": "QC0+",
       "place": "Acquarossa",
-      "place_accuracy": "1KM",
-      "time_accuracy": "5M",
       "description": "PWS recorded a rain amount of 34,8 mm in 30 minutes.",
       "info_source": [
         "WWW",
@@ -26,6 +23,40 @@
       ],
       "references": [
         "\"redwater - IACQUARO7\", Wunderground, date of access: 11 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-10T13:50:00.000Z\", s\"01KX7YY8QZBZ3PJ4G93CKX8D2C\" ]",
+      "lat": 50.4644,
+      "lon": 17.2134,
+      "type": "WIND",
+      "time": "2026-07-10T13:50:00.000Z",
+      "country": "PL",
+      "place": "Wójcice",
+      "description": "A downed tree was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "OSP KSRG Rusocin (on Facebook), 07 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-10T13:40:00.000Z\", s\"01KX7YZM57R97QPBN5Z6XF9FXQ\" ]",
+      "lat": 49.7397,
+      "lon": 20.3702,
+      "type": "WIND",
+      "time": "2026-07-10T13:40:00.000Z",
+      "country": "PL",
+      "place": "Koszary",
+      "description": "A downed tree was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "OSP Łososina Górna (on Facebook), 07 JUL 2026."
       ]
     }
   ]

@@ -5,9 +5,297 @@
   "window_start_utc": "2026-07-11T04:00:00+00:00",
   "window_end_utc": "2026-07-12T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 11,
-  "report_count": 11,
+  "raw_count": 48,
+  "report_count": 48,
   "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-12T03:50:00.000Z\", s\"01KXG14Z3Z5BN4WS1YBQ3TJ6F2\" ]",
+      "lat": 42.7451,
+      "lon": 17.5727,
+      "type": "LIGHTNING",
+      "time": "2026-07-12T03:50:00.000Z",
+      "country": "HR",
+      "place": "Mljet",
+      "description": "A lightning strike caused a wildfire. The time was based on radar data and Blitzortung lightning detection system.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Grom pogodio topolu u centru Prijepolja, oštećena vozila i strujomer\", prijepoljeinfo.rs, 13 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-12T03:50:00.000Z\", s\"01KXG14T136HHMS3SCWH7WK99S\" ]",
+      "lat": 42.7556,
+      "lon": 17.5308,
+      "type": "LIGHTNING",
+      "time": "2026-07-12T03:50:00.000Z",
+      "country": "HR",
+      "place": "Mljet",
+      "description": "A lightning strike caused a wildfire. The time was based on radar data and Blitzortung lightning detection system.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Grom pogodio topolu u centru Prijepolja, oštećena vozila i strujomer\", prijepoljeinfo.rs, 13 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T21:09:00.000Z\", s\"01KXD5WNW71S9TPT9NNAJBZCCJ\" ]",
+      "lat": 42.7587,
+      "lon": 16.887,
+      "type": "LIGHTNING",
+      "time": "2026-07-11T21:09:00.000Z",
+      "country": "HR",
+      "place": "Lastovo",
+      "description": "A lightning strike caused a wildfire. The time was based on radar data / Blitzortung lightning detection system.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Munja zapalila požar, otočnim snagama pomogli Varaždinci\", Dubrovački vjesnik, 12 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T20:34:00.000Z\", s\"01KXAWRQ8J8DAXNGQZG8JRA9S8\" ]",
+      "lat": 45.873,
+      "lon": 15.136,
+      "type": "PRECIP",
+      "time": "2026-07-11T20:34:00.000Z",
+      "country": "SI",
+      "place": "Globočdol",
+      "description": "PWS recorded a rain amount of 26,2 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Gogen ME 3900 wifi - IMIRNA8\", Wunderground, date of access: 12 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T19:54:00.000Z\", s\"01KXAX1QMA4MSQSSM5VP5YVS84\" ]",
+      "lat": 45.871,
+      "lon": 13.786,
+      "type": "PRECIP",
+      "time": "2026-07-11T19:54:00.000Z",
+      "country": "SI",
+      "place": "Preserje",
+      "description": "PWS recorded a rain amount of 28,2 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Goban - INOVAG84\", Wunderground, date of access: 12 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T19:54:00.000Z\", s\"01KXAWY52RR9ZHCA377HPJ3A99\" ]",
+      "lat": 45.815,
+      "lon": 13.849,
+      "type": "PRECIP",
+      "time": "2026-07-11T19:54:00.000Z",
+      "country": "SI",
+      "place": "Kobdilj",
+      "description": "PWS recorded a rain amount of 27,9 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Ecowitt Kobdilj - IKOMEN86\", Wunderground, date of access: 12 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T19:49:00.000Z\", s\"01KXAX9ZBT2CR8R5N6R4ERYNKA\" ]",
+      "lat": 45.906,
+      "lon": 13.692,
+      "type": "PRECIP",
+      "time": "2026-07-11T19:49:00.000Z",
+      "country": "SI",
+      "place": "Vogrsko",
+      "description": "PWS recorded a rain amount of 26,7 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"SENCOR SWS12500 - IRENEV20\", Wunderground, date of access: 12 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T19:49:00.000Z\", s\"01KXAWZXVPN9RJDPK9ZFTGVXCF\" ]",
+      "lat": 45.901,
+      "lon": 13.817,
+      "type": "PRECIP",
+      "time": "2026-07-11T19:49:00.000Z",
+      "country": "SI",
+      "place": "Vrtovin",
+      "description": "PWS recorded a rain amount of 37,8 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"postaja - IAJDOV68\", Wunderground, date of access: 12 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T19:44:00.000Z\", s\"01KXAX3J2KQPQFGYHJCB26PQGN\" ]",
+      "lat": 45.893,
+      "lon": 13.776,
+      "type": "PRECIP",
+      "time": "2026-07-11T19:44:00.000Z",
+      "country": "SI",
+      "place": "Batuje",
+      "description": "PWS recorded a rain amount of 37,8 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"BRAJDA - IAJDOV48\", Wunderground, date of access: 12 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T19:34:00.000Z\", s\"01KXAX6Z114KSJTPZS28R96HVJ\" ]",
+      "lat": 45.932,
+      "lon": 13.738,
+      "type": "PRECIP",
+      "time": "2026-07-11T19:34:00.000Z",
+      "country": "SI",
+      "place": "Šempas",
+      "description": "PWS recorded a rain amount of 32,8 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Vremenko - INOVAG101\", Wunderground, date of access: 12 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T19:34:00.000Z\", s\"01KXAWVZRMA6FPPVRE8KJ6K3FS\" ]",
+      "lat": 45.807,
+      "lon": 13.973,
+      "type": "PRECIP",
+      "time": "2026-07-11T19:34:00.000Z",
+      "country": "SI",
+      "place": "Podnanos",
+      "description": "PWS recorded a rain amount of 38,9 mm in 60 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Poreče - IVIPAV43\", Wunderground, date of access: 12 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T19:29:00.000Z\", s\"01KXAX57RYEK877QS97VE3D6NT\" ]",
+      "lat": 45.919,
+      "lon": 13.765,
+      "type": "PRECIP",
+      "time": "2026-07-11T19:29:00.000Z",
+      "country": "SI",
+      "place": "Osek",
+      "description": "PWS recorded a rain amount of 36,8 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"osek6 - INOVAG76\", Wunderground, date of access: 12 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T19:04:00.000Z\", s\"01KXAZEP832AMQ8VD18VS1YCAR\" ]",
+      "lat": 46.05,
+      "lon": 8.921,
+      "type": "PRECIP",
+      "time": "2026-07-11T19:04:00.000Z",
+      "country": "CH",
+      "place": "Bedano",
+      "description": "PWS recorded a rain amount of 29 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"GrisuOne - IBEDAN2\", Wunderground, date of access: 12 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T18:24:00.000Z\", s\"01KXD73MBVVQG1HHMWHP0RTY0C\" ]",
+      "lat": 47.902,
+      "lon": 13.805,
+      "type": "PRECIP",
+      "time": "2026-07-11T18:24:00.000Z",
+      "country": "AT",
+      "place": "Gmunden",
+      "description": "PWS recorded a rain amount of 38,3 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"UST127 - IGMUND16\", Wunderground, date of access: 13 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T18:19:00.000Z\", s\"01KXAXEG6X8DWPBF071JDGCEF4\" ]",
+      "lat": 46.458,
+      "lon": 14.044,
+      "type": "PRECIP",
+      "time": "2026-07-11T18:19:00.000Z",
+      "country": "SI",
+      "place": "Planina pod Golico",
+      "description": "PWS recorded a rain amount of 25,7 mm in 25 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Planina pod Golico 2 - IJESEN100\", Wunderground, date of access: 12 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T18:18:00.000Z\", s\"01KXAT21WHX8FCBRDYZQD0FDKX\" ]",
+      "lat": 46.3154,
+      "lon": 14.2926,
+      "type": "HAIL",
+      "time": "2026-07-11T18:18:00.000Z",
+      "country": "SI",
+      "place": "Zadraga",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "\"V Tržiču velikanska toča, pri priključku Dramlje vozniki ustavljali pod nadvozom\", 24ur, 11 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T18:15:00.000Z\", s\"01KXD4MQJ3SJ5BXW6PPZN0G3H1\" ]",
+      "lat": 46.3273,
+      "lon": 14.3331,
+      "type": "HAIL",
+      "time": "2026-07-11T18:15:00.000Z",
+      "country": "SI",
+      "place": "Golnik",
+      "description": "Large hail up to at least 2-3 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EVTPHOTO",
+        "EYEWTN"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 11 JUL 2026."
+      ]
+    },
     {
       "id": "weather_events:[ d\"2026-07-11T18:15:00.000Z\", s\"01KXAHRE7QNCPNYVR90NK61VXA\" ]",
       "lat": 46.3335,
@@ -15,10 +303,7 @@
       "type": "HAIL",
       "time": "2026-07-11T18:15:00.000Z",
       "country": "SI",
-      "qc": "QC0+",
       "place": "Senično",
-      "place_accuracy": "5KM",
-      "time_accuracy": "15M",
       "description": "Large hail up to at least 4 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
       "info_source": [
         "WWW",
@@ -36,10 +321,7 @@
       "type": "HAIL",
       "time": "2026-07-11T18:15:00.000Z",
       "country": "SI",
-      "qc": "QC0+",
       "place": "Brezje",
-      "place_accuracy": "1KM",
-      "time_accuracy": "15M",
       "description": "Very large hail up to at least 5-6 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
       "info_source": [
         "WWW",
@@ -57,10 +339,7 @@
       "type": "HAIL",
       "time": "2026-07-11T18:12:00.000Z",
       "country": "SI",
-      "qc": "QC0+",
       "place": "Zvirče",
-      "place_accuracy": "1KM",
-      "time_accuracy": "15M",
       "description": "Large hail up to at least 4 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
       "info_source": [
         "WWW",
@@ -78,10 +357,7 @@
       "type": "HAIL",
       "time": "2026-07-11T18:10:00.000Z",
       "country": "SI",
-      "qc": "QC1",
       "place": "Križe",
-      "place_accuracy": "1KM",
-      "time_accuracy": "15M",
       "description": "Large hail up to at least 4,5 cm i.d. was reported. The time was based on radar data.",
       "info_source": [
         "WWW",
@@ -93,16 +369,30 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-11T18:05:00.000Z\", s\"01KXARM1MEDZXH9080B71W12P1\" ]",
+      "lat": 46.3562,
+      "lon": 14.2923,
+      "type": "WIND",
+      "time": "2026-07-11T18:05:00.000Z",
+      "country": "SI",
+      "place": "Bistrica pri Tržiču",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"#63: Podrto drevo – Bistrica pri Tržiču, 11.7.2026\", PGD Zgornja Bistrica, 12 JUL 2026."
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-11T18:05:00.000Z\", s\"01KXAHMVVV44BBBSAC4BHFESP6\" ]",
       "lat": 46.3422,
       "lon": 14.2792,
       "type": "HAIL",
       "time": "2026-07-11T18:05:00.000Z",
       "country": "SI",
-      "qc": "QC1",
       "place": "Kovor",
-      "place_accuracy": "1KM",
-      "time_accuracy": "15M",
       "description": "Very large hail up to at least 6 cm i.d. was reported. The time was based on radar data.",
       "info_source": [
         "WWW",
@@ -120,10 +410,7 @@
       "type": "HAIL",
       "time": "2026-07-11T17:50:00.000Z",
       "country": "SI",
-      "qc": "QC1",
       "place": "Tržič",
-      "place_accuracy": "1KM",
-      "time_accuracy": "15M",
       "description": "Very large hail up to at least 6,5 cm in the longest direction was reported. The time was based on radar data.",
       "info_source": [
         "WWW",
@@ -135,25 +422,200 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-11T16:50:00.000Z\", s\"01KXASSX7CZ9W5B45J5GT35W9C\" ]",
+      "lat": 45.9829,
+      "lon": 15.1996,
+      "type": "LIGHTNING",
+      "time": "2026-07-11T16:50:00.000Z",
+      "country": "SI",
+      "place": "Goveji Dol",
+      "description": "A lightning struck a tree causing fire and damage. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Neurje v Krškem in Sevnici podiralo drevesa, strela zanetila požar\", ePosavje, 12 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T16:40:00.000Z\", s\"01KXAS3EFPAKD748YT8V0721YY\" ]",
+      "lat": 45.804,
+      "lon": 15.1697,
+      "type": "WIND",
+      "time": "2026-07-11T16:40:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T16:40:00.000Z\", s\"01KXAQ52VV863SPV1H60TK6PQE\" ]",
+      "lat": 45.804,
+      "lon": 15.1697,
+      "type": "LIGHTNING",
+      "time": "2026-07-11T16:40:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-11T15:20:00.000Z\", s\"01KXAGZHF7ZZ052V99M8D4684B\" ]",
       "lat": 46.3295,
       "lon": 15.314,
       "type": "HAIL",
       "time": "2026-07-11T15:20:00.000Z",
       "country": "SI",
-      "qc": "QC1",
-      "place": "Frankolovo",
-      "place_accuracy": "1KM",
-      "time_accuracy": "5M",
-      "description": "Large hail up to at least 3 cm i.d. was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Eyewitness report via Meteoinfo Slovenija (on Facebook), 11 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T14:55:00.000Z\", s\"01KXAJAGHFWWKJZBF88CYYH3WA\" ]",
+      "lat": 46.2581,
+      "lon": 15.3213,
+      "type": "HAIL",
+      "time": "2026-07-11T14:55:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T14:25:00.000Z\", s\"01KXAPS8J6K7G40SYNRWQY9ZBB\" ]",
+      "lat": 45.8374,
+      "lon": 15.3268,
+      "type": "WIND",
+      "time": "2026-07-11T14:25:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T14:25:00.000Z\", s\"01KXAPHWQH2J0PQHYD22QMM3VJ\" ]",
+      "lat": 45.8433,
+      "lon": 15.3385,
+      "type": "WIND",
+      "time": "2026-07-11T14:25:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T14:15:00.000Z\", s\"01KXASNSAZC4G5C53C54DR2Z3E\" ]",
+      "lat": 46.0026,
+      "lon": 15.4516,
+      "type": "WIND",
+      "time": "2026-07-11T14:15:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T14:15:00.000Z\", s\"01KXARYBPV7QGC09K3YME31EFQ\" ]",
+      "lat": 45.8676,
+      "lon": 15.2753,
+      "type": "WIND",
+      "time": "2026-07-11T14:15:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T14:14:00.000Z\", s\"01KXAQ72TZY7DFC33ABMF7FD1R\" ]",
+      "lat": 45.8813,
+      "lon": 15.3335,
+      "type": "WIND",
+      "time": "2026-07-11T14:14:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T14:13:00.000Z\", s\"01KXARV543DKMBYC9QE44ZW6Q9\" ]",
+      "lat": 45.8721,
+      "lon": 15.289,
+      "type": "WIND",
+      "time": "2026-07-11T14:13:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T14:13:00.000Z\", s\"01KXAPPJJ6T72ZTF8R76AQAD2H\" ]",
+      "lat": 45.8907,
+      "lon": 15.3228,
+      "type": "WIND",
+      "time": "2026-07-11T14:13:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T14:11:00.000Z\", s\"01KXARWV9ZT5KXKEJB6BZWEPVA\" ]",
+      "lat": 45.8772,
+      "lon": 15.2809,
+      "type": "WIND",
+      "time": "2026-07-11T14:11:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T14:10:00.000Z\", s\"01KXAPRMST2KSP4SF578FSF0V5\" ]",
+      "lat": 45.8965,
+      "lon": 15.3094,
+      "type": "WIND",
+      "time": "2026-07-11T14:10:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T14:03:00.000Z\", s\"01KXAPX2M00XQ1ENCVJHT0TV4G\" ]",
+      "lat": 45.9209,
+      "lon": 15.3039,
+      "type": "WIND",
+      "time": "2026-07-11T14:03:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T13:58:00.000Z\", s\"01KXAJ8Q29B6T2PRQP2KB8NFPZ\" ]",
+      "lat": 46.24,
+      "lon": 15.3478,
+      "type": "HAIL",
+      "time": "2026-07-11T13:58:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-11T13:52:00.000Z\", s\"01KXAJ3GR1A337WG3G2CRJYYMN\" ]",
@@ -162,19 +624,10 @@
       "type": "HAIL",
       "time": "2026-07-11T13:52:00.000Z",
       "country": "SI",
-      "qc": "QC1",
-      "place": "Zagaj pri Ponikvi",
-      "place_accuracy": "1KM",
-      "time_accuracy": "5M",
-      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Eyewitness report via Neurje.si (on Facebook), 11 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-11T13:50:00.000Z\", s\"01KXAHYV7FSYW89N7WY619PP2E\" ]",
@@ -183,19 +636,10 @@
       "type": "HAIL",
       "time": "2026-07-11T13:50:00.000Z",
       "country": "SI",
-      "qc": "QC0+",
-      "place": "Dramlje",
-      "place_accuracy": "1KM",
-      "time_accuracy": "15M",
-      "description": "Large hail up to at least 3 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Eyewitness report via Neurje.si (on Facebook), 11 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-11T13:48:00.000Z\", s\"01KXAJ1KTJ3XMVT9V6BEFC86AK\" ]",
@@ -204,19 +648,22 @@
       "type": "HAIL",
       "time": "2026-07-11T13:48:00.000Z",
       "country": "SI",
-      "qc": "QC0+",
-      "place": "Jarmovec",
-      "place_accuracy": "1KM",
-      "time_accuracy": "5M",
-      "description": "Large hail up to at least 3 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Eyewitness report via Neurje.si (on Facebook), 11 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T13:43:00.000Z\", s\"01KXAJD85QSHYXR1C4Y8CAP3DY\" ]",
+      "lat": 46.2865,
+      "lon": 15.4079,
+      "type": "HAIL",
+      "time": "2026-07-11T13:43:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-11T13:42:00.000Z\", s\"01KXAJ0DQTP39A7WA9X0XMEYGM\" ]",
@@ -225,19 +672,46 @@
       "type": "HAIL",
       "time": "2026-07-11T13:42:00.000Z",
       "country": "SI",
-      "qc": "QC1",
-      "place": "Pletovarje",
-      "place_accuracy": "1KM",
-      "time_accuracy": "5M",
-      "description": "Large hail up to at least 3 cm i.d. was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Eyewitness report via Neurje.si (on Facebook), 11 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T13:40:00.000Z\", s\"01KXAJBQDBSJQAS17HDR3YA27W\" ]",
+      "lat": 46.2968,
+      "lon": 15.3917,
+      "type": "HAIL",
+      "time": "2026-07-11T13:40:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T12:10:00.000Z\", s\"01KXAS80M0JNVH1ATG6ACVH6X0\" ]",
+      "lat": 46.2724,
+      "lon": 13.9539,
+      "type": "LIGHTNING",
+      "time": "2026-07-11T12:10:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-11T11:39:00.000Z\", s\"01KXAXBEJKBX6QP2AS8YBEMMXY\" ]",
+      "lat": 46.297,
+      "lon": 13.922,
+      "type": "PRECIP",
+      "time": "2026-07-11T11:39:00.000Z",
+      "country": "SI",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     }
   ]
 }

@@ -5,7 +5,42 @@
   "window_start_utc": "2026-07-12T04:00:00+00:00",
   "window_end_utc": "2026-07-13T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 0,
-  "report_count": 0,
-  "reports": []
+  "raw_count": 2,
+  "report_count": 2,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-12T04:35:00.000Z\", s\"01KXG4REB2E352QEJH9K746FF5\" ]",
+      "lat": 42.8081,
+      "lon": 17.7812,
+      "type": "LIGHTNING",
+      "time": "2026-07-12T04:35:00.000Z",
+      "country": "HR",
+      "place": "Doli",
+      "description": "A lightning strike caused a wildfire. The time was based on radar data and Blitzortung lightning detection system.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Udar groma zapalio jutros šumu u Dolima\", Dubrovnik Net, 12 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-12T04:30:00.000Z\", s\"01KXG4YEKXTY76PQS4395VNQSF\" ]",
+      "lat": 42.9329,
+      "lon": 16.6887,
+      "type": "LIGHTNING",
+      "time": "2026-07-12T04:30:00.000Z",
+      "country": "HR",
+      "place": "Potirna",
+      "description": "A lightning strike caused a wildfire. The time was based on radar data and Blitzortung lightning detection system.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "\"NOVI POŽAR NA KORČULI Brza intervencija Velolučana, kanadera i Air Tractora\", Jug Info, 12 JUL 2026."
+      ]
+    }
+  ]
 }

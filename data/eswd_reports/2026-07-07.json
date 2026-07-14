@@ -5,8 +5,8 @@
   "window_start_utc": "2026-07-07T04:00:00+00:00",
   "window_end_utc": "2026-07-08T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 26,
-  "report_count": 26,
+  "raw_count": 35,
+  "report_count": 35,
   "reports": [
     {
       "id": "weather_events:[ d\"2026-07-08T03:35:00.000Z\", s\"01KX0J2AE3DFNS6K7JE98GG8W7\" ]",
@@ -24,6 +24,94 @@
       ],
       "references": [
         "Hydro IMGW-PIB, date of access: 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-08T01:20:00.000Z\", s\"01KX8177P5YBDTSCN2PSCEJKX1\" ]",
+      "lat": 54.8048,
+      "lon": 18.3726,
+      "type": "WIND",
+      "time": "2026-07-08T01:20:00.000Z",
+      "country": "PL",
+      "place": "Chłapowo",
+      "description": "A downed tree was reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "OSP Chłapowo (on Facebook), 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-07T23:10:00.000Z\", s\"01KX818VNN1VG7QTT7E6837GQ3\" ]",
+      "lat": 54.8304,
+      "lon": 18.3044,
+      "type": "WIND",
+      "time": "2026-07-07T23:10:00.000Z",
+      "country": "PL",
+      "place": "Jastrzębia Góra",
+      "description": "A downed tree was reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP Jastrzębia Góra (on Facebook), 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-07T22:35:00.000Z\", s\"01KX80MY1CE6MWDSB0CG7GK5WA\" ]",
+      "lat": 54.3073,
+      "lon": 16.197,
+      "type": "WIND",
+      "time": "2026-07-07T22:35:00.000Z",
+      "country": "PL",
+      "place": "Łazy",
+      "description": "A downed tree was reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP Osieki (on Facebook), 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-07T21:35:00.000Z\", s\"01KX80GX10TZ8VB9M6KB3Q74ZX\" ]",
+      "lat": 54.3683,
+      "lon": 16.7532,
+      "type": "WIND",
+      "time": "2026-07-07T21:35:00.000Z",
+      "country": "PL",
+      "place": "Warszkówko",
+      "description": "Downed large tree branches were reported after a period of strong wind gusts.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Ochotnicza Straż Pożarna we Wrześnicy (on Facebook), 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-07T21:35:00.000Z\", s\"01KX7Z979B83EX1VC23CCQ17C7\" ]",
+      "lat": 54.363,
+      "lon": 16.6789,
+      "type": "WIND",
+      "time": "2026-07-07T21:35:00.000Z",
+      "country": "PL",
+      "place": "Sławno",
+      "description": "Downed trees were reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Patryk Chamerski - Łowca Burz z Pomorza Zachodniego (on Facebook), 08 JUL 2026."
       ]
     },
     {
@@ -79,6 +167,24 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-07T19:25:00.000Z\", s\"01KX9JJZJD53FGSR9JMV8K73EP\" ]",
+      "lat": 53.4081,
+      "lon": 19.1581,
+      "type": "WIND",
+      "time": "2026-07-07T19:25:00.000Z",
+      "country": "PL",
+      "place": "Szczepanki",
+      "description": "A downed tree was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP KSRG Jabłonowo Pomorskie (on Facebook), 08 JUL 2026."
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-07T18:28:00.000Z\", s\"01KX0K3GHCE6AR86X6VHAE9S4C\" ]",
       "lat": 53.2881,
       "lon": 16.7833,
@@ -96,26 +202,6 @@
       ]
     },
     {
-      "id": "weather_events:[ d\"2026-07-07T17:30:00.000Z\", s\"01KWYX860DKR4VDR8PV2TZBXG0\" ]",
-      "lat": 49.51,
-      "lon": 20.31,
-      "type": "TORNADO",
-      "time": "2026-07-07T17:30:00.000Z",
-      "country": "PL",
-      "place": "Lipnica Murowana ",
-      "description": "Information about a condensation funnel appeared on social media in the district, after an hour there was information about damage from two towns. Chaotic damage indicates vortex motion rather than straight-line winds, and a funnel cloud was observed as the supercell thunderstorm passed through. The report about the sinkhole can be found in the comment in the second link",
-      "info_source": [
-        "WWW",
-        "TV",
-        "SPTR",
-        "DMGEYEWTN",
-        "EYEWTN"
-      ],
-      "references": [
-        "https://www.facebook.com/share/p/1MMasWp3XD/"
-      ]
-    },
-    {
       "id": "weather_events:[ d\"2026-07-07T17:10:00.000Z\", s\"01KX069P5MCCPT96VC8FD3B849\" ]",
       "lat": 46.722,
       "lon": 18.2106,
@@ -125,7 +211,9 @@
       "place": "Nagyszokoly",
       "description": null,
       "info_source": [
-        "EVTPHOTO"
+        "EVTPHOTO",
+        "WWW",
+        "EYEWTN"
       ],
       "references": [
         "multiple photo and video reports on Facebook via MetFigyelő page"
@@ -145,6 +233,40 @@
       ],
       "references": [
         "\"Nawałnica nad powiatem leskim. Burza zniszczyła gniazdo! Strażacy ruszyli na ratunek bocianom [ZDJĘCIA]\", eSanok, 08 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-07T14:05:00.000Z\", s\"01KX814SGE5H522RBYGNSA6VFM\" ]",
+      "lat": 50.3217,
+      "lon": 17.5801,
+      "type": "WIND",
+      "time": "2026-07-07T14:05:00.000Z",
+      "country": "PL",
+      "place": "Prudnik",
+      "description": "A downed tree was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "OSP Łąka Prudnicka (on Facebook), 07 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-07T14:00:00.000Z\", s\"01KX815RRQ79NVK7KPE9QETQ8N\" ]",
+      "lat": 50.3109,
+      "lon": 17.7724,
+      "type": "WIND",
+      "time": "2026-07-07T14:00:00.000Z",
+      "country": "PL",
+      "place": "Racławice Śląskie",
+      "description": "Downed trees were reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Ochotnicza Straż Pożarna w Racławicach Śląskich (on Facebook), 07 JUL 2026."
       ]
     },
     {
@@ -225,13 +347,15 @@
       "time": "2026-07-07T13:37:00.000Z",
       "country": "PL",
       "place": "Lipnica Murowana",
-      "description": "Numerous wind damage (downed trees, damaged roofs) were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "description": "Numerous wind damage (downed trees, damaged roofs) were reported after the passage of a thunderstorm. There was a tornado possible in this case, but the footage of the phenomena excluded that possibility (a strong straight-line gust of wind that lasted about 20-30 seconds). The time was based on radar data.",
       "info_source": [
         "WWW",
-        "DMGPHOTO"
+        "DMGPHOTO",
+        "EMAIL"
       ],
       "references": [
-        "Patrol998-Małopolska (on Facebook), 07 JUL 2026."
+        "Patrol998-Małopolska (on Facebook), 07 JUL 2026.",
+        "Capuccino.eu - Regionalny Portal Informacyjny (on Facebook), 07 JUL 2026."
       ]
     },
     {
@@ -285,20 +409,48 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-07T13:00:00.000Z\", s\"01KX80ZS6DY8FNZHSP05D00D06\" ]",
+      "lat": 50.0619,
+      "lon": 19.9369,
+      "type": "WIND",
+      "time": "2026-07-07T13:00:00.000Z",
+      "country": "PL",
+      "place": "Kraków",
+      "description": "Downed trees were reported. The time was based on local PWS data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Gwałtowne burze nad Małopolską. Drzewa runęły na auta i tory, strażacy mają pełne ręce pracy\", Kraków Dla Was Info, 07 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-07T12:50:00.000Z\", s\"01KX812C29M9H4BTNGBRF1KFEP\" ]",
+      "lat": 50.1479,
+      "lon": 19.7915,
+      "type": "WIND",
+      "time": "2026-07-07T12:50:00.000Z",
+      "country": "PL",
+      "place": "Bolechowice",
+      "description": "A downed tree was reported. The time was based on local PWS data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Gwałtowne burze nad Małopolską. Drzewa runęły na auta i tory, strażacy mają pełne ręce pracy\", Kraków Dla Was Info, 07 JUL 2026."
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-07T12:47:00.000Z\", s\"01KX0NFV12V5VB8A5E2EFZ4N0H\" ]",
       "lat": 50.6221,
       "lon": 18.9728,
       "type": "WIND",
       "time": "2026-07-07T12:47:00.000Z",
       "country": "PL",
-      "place": "Babienica",
-      "description": "Downed trees were reported after the passage of a thunderstorm. The time was based on radar data.",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "\"Potężne burze przeszły nad Śląskiem. 128 interwencji strażaków w województwie. Te zdjęcia pokazują, co się działo\", Dziennik Zachodni, 08 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-07T12:32:00.000Z\", s\"01KX0JQ8JVY96MSQFKVWFHD048\" ]",
@@ -307,14 +459,10 @@
       "type": "WIND",
       "time": "2026-07-07T12:32:00.000Z",
       "country": "PL",
-      "place": "Lubliniec",
-      "description": "A downed tree was reported after the period of strong wind gusts.",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "\"Nawałnice nad regionem. Odnotowano ponad 100 interwencji\", Radio Piekary, 08 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-07T12:25:00.000Z\", s\"01KX0JQNYCFCJKE3AAMQTXZZH0\" ]",
@@ -323,14 +471,10 @@
       "type": "WIND",
       "time": "2026-07-07T12:25:00.000Z",
       "country": "PL",
-      "place": "Skrzydłowice",
-      "description": "A downed tree was reported after the period of strong wind gusts.",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "\"Nawałnice nad regionem. Odnotowano ponad 100 interwencji\", Radio Piekary, 08 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-07T12:15:00.000Z\", s\"01KX0MBB9MYFM5FFFS70KMG87J\" ]",
@@ -339,14 +483,10 @@
       "type": "WIND",
       "time": "2026-07-07T12:15:00.000Z",
       "country": "PL",
-      "place": "Miedary",
-      "description": "Downed trees were reported. The time was based on radar data.",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "\"Powiat tarnogórski. Powalone drzewa na posesji i na drogach\", Gwarek, 08 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-07T12:15:00.000Z\", s\"01KX0JXDWNJE1JTT78N26K49GF\" ]",
@@ -355,14 +495,10 @@
       "type": "WIND",
       "time": "2026-07-07T12:15:00.000Z",
       "country": "PL",
-      "place": "Tworóg",
-      "description": "A downed tree was reported after the period of strong wind gusts.",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "\"Nawałnice nad regionem. Odnotowano ponad 100 interwencji\", Radio Piekary, 08 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-07T12:10:00.000Z\", s\"01KX0MAMMZVT4E0BPJP058TZE3\" ]",
@@ -371,14 +507,10 @@
       "type": "WIND",
       "time": "2026-07-07T12:10:00.000Z",
       "country": "PL",
-      "place": "Szałsza",
-      "description": "Several downed trees were reported. The time was based on radar data.",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "\"Powiat tarnogórski. Powalone drzewa na posesji i na drogach\", Gwarek, 08 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-07T12:05:00.000Z\", s\"01KX0NA6MCHKJDKFWB6SMCW6FJ\" ]",
@@ -387,14 +519,10 @@
       "type": "WIND",
       "time": "2026-07-07T12:05:00.000Z",
       "country": "PL",
-      "place": "Katowice",
-      "description": "Downed trees were reported after the passage of a thunderstorm. Local firefighting units intervened at least 12 times. The time was based on radar data.",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "\"Potężne burze przeszły nad Śląskiem. 128 interwencji strażaków w województwie. Te zdjęcia pokazują, co się działo\", Dziennik Zachodni, 08 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-07T11:45:00.000Z\", s\"01KX0NB4863STNVQFP64FD6VRK\" ]",
@@ -403,14 +531,10 @@
       "type": "WIND",
       "time": "2026-07-07T11:45:00.000Z",
       "country": "PL",
-      "place": "Gliwice",
-      "description": "Downed trees were reported after the passage of a thunderstorm. Local firefighting units intervened at least 10 times. The time was based on radar data.",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "\"Potężne burze przeszły nad Śląskiem. 128 interwencji strażaków w województwie. Te zdjęcia pokazują, co się działo\", Dziennik Zachodni, 08 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-07T11:45:00.000Z\", s\"01KX0MXGZBQGEJD2KHZBSPH4QG\" ]",
@@ -419,14 +543,10 @@
       "type": "WIND",
       "time": "2026-07-07T11:45:00.000Z",
       "country": "PL",
-      "place": "Zabrze",
-      "description": "Downed trees were reported after the passage of a thunderstorm. Local firefighting units intervened at least 13 times. The time was based on radar data.",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "\"Potężne burze przeszły nad Śląskiem. 128 interwencji strażaków w województwie. Te zdjęcia pokazują, co się działo\", Dziennik Zachodni, 08 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-07T11:40:00.000Z\", s\"01KX0PFNP128XXZMKDSAQFHXG3\" ]",

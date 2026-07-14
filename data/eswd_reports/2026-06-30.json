@@ -5,8 +5,8 @@
   "window_start_utc": "2026-06-30T04:00:00+00:00",
   "window_end_utc": "2026-07-01T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 213,
-  "report_count": 213,
+  "raw_count": 301,
+  "report_count": 301,
   "reports": [
     {
       "id": "weather_events:[ d\"2026-07-01T03:55:00.000Z\", s\"01KWEGESC8VRXFSFG9ARFKE25J\" ]",
@@ -265,6 +265,23 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-01T02:50:00.000Z\", s\"01KX5M6EA7G1Q2K11B0DTC495Z\" ]",
+      "lat": 50.9008,
+      "lon": 9.9774,
+      "type": "LIGHTNING",
+      "time": "2026-07-01T02:50:00.000Z",
+      "country": "DE",
+      "place": "Heringen an der Werra",
+      "description": "Forest Fire. Date / Time matched with radar/lightning",
+      "info_source": [
+        "NWSP",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Feuer im Wald nach Blitzschlag? Fußtrupps und Drohnenstaffel erkunden Lage\", OSTHESSEN-NEWS, 10 JUL 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-01T02:40:00.000Z\", s\"01KWM30SBB62CQH68Z68ADB1NQ\" ]",
       "lat": 50.037,
       "lon": 9.6479,
@@ -499,14 +516,10 @@
       "type": "WIND",
       "time": "2026-07-01T02:01:00.000Z",
       "country": "DE",
-      "place": "Eichigt",
+      "place": null,
       "description": null,
-      "info_source": [
-        "NWSP"
-      ],
-      "references": [
-        "\"Starkregen, Hagel und Blitzeinschläge: Unwetter in Sachsen hält an\", TAG 24, 01 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-01T02:00:00.000Z\", s\"01KWRG031PV8QPG46KZGP8P4NQ\" ]",
@@ -893,6 +906,18 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-06-30T21:40:00.000Z\", s\"01KXB4AF1TSNKZZAZCEW1YC356\" ]",
+      "lat": 51.7293,
+      "lon": 17.5346,
+      "type": "HAIL",
+      "time": "2026-06-30T21:40:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-06-30T21:35:00.000Z\", s\"01KWHSFD36SX3AGR0TDGF65J1G\" ]",
       "lat": 49.6848,
       "lon": 9.9017,
@@ -989,6 +1014,26 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-06-30T20:55:00.000Z\", s\"01KX6DQKQERJDJ7Z9YQ4VQEAN6\" ]",
+      "lat": 49.695,
+      "lon": 15.2778,
+      "type": "HAIL",
+      "time": "2026-06-30T20:55:00.000Z",
+      "country": "CZ",
+      "place": "Ledeč nad Sázavou",
+      "description": "Large hail 1-2 cm i.d. Radar checked",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observation. Facebook, 30 June / 01 JUL 2026. ",
+        "Data report list + date/time check contributed by Martin Adamovsky (CHMI), excel file. 09 JUL 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-06-30T20:55:00.000Z\", s\"01KWJFHM6B371JBJV7GKXYEXJ3\" ]",
       "lat": 48.4356,
       "lon": 15.115,
@@ -999,6 +1044,26 @@
       "description": null,
       "info_source": null,
       "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T20:35:00.000Z\", s\"01KX6DZ9TP8SY0XV8Q2ZYCVS6Q\" ]",
+      "lat": 49.6626,
+      "lon": 15.7285,
+      "type": "HAIL",
+      "time": "2026-06-30T20:35:00.000Z",
+      "country": "CZ",
+      "place": "Jitkov",
+      "description": "Large hail 3.5 cm i.d. Radar checked",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observation. Facebook, 30 June / 01 JUL 2026. ",
+        "Data report list + date/time check contributed by Martin Adamovsky (CHMI), excel file. 09 JUL 2026"
+      ]
     },
     {
       "id": "weather_events:[ d\"2026-06-30T20:26:00.000Z\", s\"01KWM3VS1W6ZMVB2YG5S4CCGE8\" ]",
@@ -1037,12 +1102,44 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-06-30T20:00:00.000Z\", s\"01KX6KMMZV7S3PBPEV8FT3NQE5\" ]",
+      "lat": 49.4068,
+      "lon": 15.7589,
+      "type": "HAIL",
+      "time": "2026-06-30T20:00:00.000Z",
+      "country": "CZ",
+      "place": "Věžnice u Polné",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "WXSVC",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Facebook, 30 June / 01 JUL 2026. ",
+        "Data report list + date/time check contributed by Martin Adamovsky (CHMI), excel file. 09 JUL 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-06-30T19:50:00.000Z\", s\"01KWF48FQKBPHK4A67SM2G6BPT\" ]",
       "lat": 47.4323,
       "lon": 8.578,
       "type": "PRECIP",
       "time": "2026-06-30T19:50:00.000Z",
       "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T19:45:00.000Z\", s\"01KWVN77J1C5DR6TSG082NDXAE\" ]",
+      "lat": 48.1035,
+      "lon": 7.7166,
+      "type": "HAIL",
+      "time": "2026-06-30T19:45:00.000Z",
+      "country": "DE",
       "place": null,
       "description": null,
       "info_source": null,
@@ -1071,6 +1168,26 @@
       "description": null,
       "info_source": null,
       "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T19:35:00.000Z\", s\"01KX6MCV31RM2PNJQCVT11BEA1\" ]",
+      "lat": 49.0833,
+      "lon": 16.4363,
+      "type": "HAIL",
+      "time": "2026-06-30T19:35:00.000Z",
+      "country": "CZ",
+      "place": "Moravské Bránice",
+      "description": "Large hail 4 cm i.d. Radar checked",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "WXSVC",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Facebook, 30 June / 01 JUL 2026. ",
+        "Data report list + date/time check contributed by Martin Adamovsky (CHMI), excel file. 09 JUL 2026"
+      ]
     },
     {
       "id": "weather_events:[ d\"2026-06-30T19:35:00.000Z\", s\"01KWM4QQFJH8AY140KHVHNPES6\" ]",
@@ -1133,6 +1250,66 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-06-30T19:20:00.000Z\", s\"01KX6KRWQCZZX5ZVBMQASQCCN4\" ]",
+      "lat": 49.0667,
+      "lon": 16.3437,
+      "type": "HAIL",
+      "time": "2026-06-30T19:20:00.000Z",
+      "country": "CZ",
+      "place": "Budkovice",
+      "description": "Large hail 4.5 cm i.d. Radar checked",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "WXSVC",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Facebook, 30 June / 01 JUL 2026. ",
+        "Data report list + date/time check contributed by Martin Adamovsky (CHMI), excel file. 09 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T19:20:00.000Z\", s\"01KX6G3W36916KEQXNZX4RTB0P\" ]",
+      "lat": 49.0726,
+      "lon": 16.3464,
+      "type": "HAIL",
+      "time": "2026-06-30T19:20:00.000Z",
+      "country": "CZ",
+      "place": "Budkovice",
+      "description": "Large hail 3.5 cm i.d. Radar checked",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "WXSVC",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Facebook, 30 June / 01 JUL 2026. ",
+        "Data report list + date/time check contributed by Martin Adamovsky (CHMI), excel file. 09 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T19:20:00.000Z\", s\"01KX6DSDBPPGVPQEZ7P6Q40J07\" ]",
+      "lat": 49.1016,
+      "lon": 16.3776,
+      "type": "HAIL",
+      "time": "2026-06-30T19:20:00.000Z",
+      "country": "CZ",
+      "place": "Ivančice",
+      "description": "Large hail 4 cm i.d. Radar checked",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observation. Facebook, 30 June / 01 JUL 2026. ",
+        "Data report list + date/time check contributed by Martin Adamovsky (CHMI), excel file. 09 JUL 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-06-30T19:17:00.000Z\", s\"01KWM43FRRFYH7XK25WW9NSEFF\" ]",
       "lat": 48.1572,
       "lon": 7.7843,
@@ -1155,6 +1332,66 @@
       "description": null,
       "info_source": null,
       "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T19:10:00.000Z\", s\"01KX6N7628SGQTYWEN4SK4VQJX\" ]",
+      "lat": 49.1443,
+      "lon": 15.0034,
+      "type": "HAIL",
+      "time": "2026-06-30T19:10:00.000Z",
+      "country": "CZ",
+      "place": "Jindřichův Hradec",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "WXSVC",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Facebook, 30 June / 01 JUL 2026. ",
+        "Data report list + date/time check contributed by Martin Adamovsky (CHMI), excel file. 09 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T19:10:00.000Z\", s\"01KX6N40V1PX30CXRTM29PG2X0\" ]",
+      "lat": 49.0657,
+      "lon": 16.3232,
+      "type": "HAIL",
+      "time": "2026-06-30T19:10:00.000Z",
+      "country": "CZ",
+      "place": "Rokytná",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "WXSVC",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Facebook, 30 June / 01 JUL 2026. ",
+        "Data report list + date/time check contributed by Martin Adamovsky (CHMI), excel file. 09 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T19:10:00.000Z\", s\"01KX6MGQPWT7ATSCT5R3BVVHEP\" ]",
+      "lat": 49.0557,
+      "lon": 16.3097,
+      "type": "HAIL",
+      "time": "2026-06-30T19:10:00.000Z",
+      "country": "CZ",
+      "place": "Moravský Krumlov",
+      "description": "Large hail 5 cm i.d. Radar checked",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "WXSVC",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Facebook, 30 June / 01 JUL 2026. ",
+        "Data report list + date/time check contributed by Martin Adamovsky (CHMI), excel file. 09 JUL 2026"
+      ]
     },
     {
       "id": "weather_events:[ d\"2026-06-30T19:10:00.000Z\", s\"01KWF47AF11WB5DT4J398Y6C9B\" ]",
@@ -1223,12 +1460,72 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-06-30T19:05:00.000Z\", s\"01KXDJ945CNB3EAHTS8NMGXFQK\" ]",
+      "lat": 49.0558,
+      "lon": 16.2267,
+      "type": "HAIL",
+      "time": "2026-06-30T19:05:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T19:05:00.000Z\", s\"01KX6NFHE31F2KERPPEKSCCC9K\" ]",
+      "lat": 49.0493,
+      "lon": 16.3115,
+      "type": "HAIL",
+      "time": "2026-06-30T19:05:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T19:05:00.000Z\", s\"01KX6NE54050ZYZ6S0K4BRNTK8\" ]",
+      "lat": 49.1634,
+      "lon": 15.5056,
+      "type": "HAIL",
+      "time": "2026-06-30T19:05:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T19:05:00.000Z\", s\"01KX6N2DCE76PZV4RSAJ1T2GY4\" ]",
+      "lat": 49.0541,
+      "lon": 16.2567,
+      "type": "HAIL",
+      "time": "2026-06-30T19:05:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-06-30T19:05:00.000Z\", s\"01KWM4M7161RYZG66VM2D3RKAE\" ]",
       "lat": 48.0321,
       "lon": 7.5801,
       "type": "HAIL",
       "time": "2026-06-30T19:05:00.000Z",
       "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T19:00:00.000Z\", s\"01KX6M5C0YNWGQY57G4XT2BMFD\" ]",
+      "lat": 49.1387,
+      "lon": 15.0405,
+      "type": "HAIL",
+      "time": "2026-06-30T19:00:00.000Z",
+      "country": "CZ",
       "place": null,
       "description": null,
       "info_source": null,
@@ -1247,22 +1544,100 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-06-30T18:55:00.000Z\", s\"01KX6G5H0DDEN65F2E1PCAGR7N\" ]",
+      "lat": 49.0682,
+      "lon": 16.3049,
+      "type": "HAIL",
+      "time": "2026-06-30T18:55:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-06-30T18:55:00.000Z\", s\"01KWEV1GY6W4YP1SSKABGFSRHM\" ]",
       "lat": 49.064,
       "lon": 16.2016,
       "type": "HAIL",
       "time": "2026-06-30T18:55:00.000Z",
       "country": "CZ",
-      "place": "Horní Dubňany",
-      "description": "Large hail up to at least 3 cm i.d. was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EVTPHOTO",
-        "EYEWTN"
-      ],
-      "references": [
-        "Eyewitness report via  Lovci bouřek, extrémní počasí a jiné jevy (on Facebook), 30 JUN 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:50:00.000Z\", s\"01KX6NK0C3ATQZCQ292V7RSW0V\" ]",
+      "lat": 49.1755,
+      "lon": 16.3867,
+      "type": "HAIL",
+      "time": "2026-06-30T18:50:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:50:00.000Z\", s\"01KX6KX5WZH18AB98K4J27AYVZ\" ]",
+      "lat": 49.1568,
+      "lon": 16.3763,
+      "type": "HAIL",
+      "time": "2026-06-30T18:50:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:50:00.000Z\", s\"01KX6EY7WB44JX23EMJYZH9MJ4\" ]",
+      "lat": 49.0725,
+      "lon": 16.253,
+      "type": "HAIL",
+      "time": "2026-06-30T18:50:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:50:00.000Z\", s\"01KX6DD4ARWFNBEF41E7WFV26C\" ]",
+      "lat": 49.1046,
+      "lon": 15.0425,
+      "type": "HAIL",
+      "time": "2026-06-30T18:50:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:50:00.000Z\", s\"01KX6BXBTPA7HBTHE22VKVRRR2\" ]",
+      "lat": 49.1825,
+      "lon": 16.4036,
+      "type": "HAIL",
+      "time": "2026-06-30T18:50:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:50:00.000Z\", s\"01KX6BQQ2A3W8B3W68MYTJ2SC5\" ]",
+      "lat": 49.1835,
+      "lon": 16.3896,
+      "type": "HAIL",
+      "time": "2026-06-30T18:50:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-06-30T18:50:00.000Z\", s\"01KWRPJZMW6FN6X8V12D3CVTY7\" ]",
@@ -1271,16 +1646,10 @@
       "type": "LIGHTNING",
       "time": "2026-06-30T18:50:00.000Z",
       "country": "CZ",
-      "place": "Číměř",
-      "description": "After lightning struck a tree near the summer camp, the ground flash struck five children and one adult. ",
-      "info_source": [
-        "NWSP",
-        "GOV"
-      ],
-      "references": [
-        "\"Všichni jsme byli v jídelně. Pak udeřil blesk, popsala vedoucí tábora u Číměře\", Jindřichohradecký deník, 01 JUL 2026",
-        "\"Po úderu blesku v dětském táboře na Jindřichohradecku skončilo šest lidí v nemocniciů, Požáry.cz, 30 JUN 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-06-30T18:50:00.000Z\", s\"01KWD11NEA02KR6ZRH2QTAZG5N\" ]",
@@ -1289,17 +1658,70 @@
       "type": "HAIL",
       "time": "2026-06-30T18:50:00.000Z",
       "country": "CZ",
-      "place": "Rosice",
-      "description": "Large hail up to at least 4 cm i.d. was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Eyewitness report via Počasí online Morava (on Facebook), 30 JUN 2026.",
-        "Eyewitness report via Lovci bouřek, extrémní počasí a jiné jevy (on Facebook), 30 JUN 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:45:00.000Z\", s\"01KX6N0ET6GB78TKXBHEBQZCBY\" ]",
+      "lat": 49.1091,
+      "lon": 16.2234,
+      "type": "HAIL",
+      "time": "2026-06-30T18:45:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:45:00.000Z\", s\"01KX6KZNRS55K3RXY2JAFCNA36\" ]",
+      "lat": 49.0557,
+      "lon": 16.2637,
+      "type": "HAIL",
+      "time": "2026-06-30T18:45:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:45:00.000Z\", s\"01KX6KPF484J19T2147JECAJ54\" ]",
+      "lat": 49.0771,
+      "lon": 16.1858,
+      "type": "HAIL",
+      "time": "2026-06-30T18:45:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:45:00.000Z\", s\"01KX6EWC2XE86JHTCRPCBPQX37\" ]",
+      "lat": 49.0522,
+      "lon": 16.2617,
+      "type": "HAIL",
+      "time": "2026-06-30T18:45:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:45:00.000Z\", s\"01KX6BSH33NMXJASDSDRVXY8E3\" ]",
+      "lat": 49.2016,
+      "lon": 15.7975,
+      "type": "HAIL",
+      "time": "2026-06-30T18:45:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-06-30T18:45:00.000Z\", s\"01KWEVNVT7PEKHQ3MPABN21RKC\" ]",
@@ -1308,18 +1730,10 @@
       "type": "HAIL",
       "time": "2026-06-30T18:45:00.000Z",
       "country": "CZ",
-      "place": "Rokytnice nad Rokytnou",
-      "description": "Large hail up to at least 3,5 cm i.d. was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EVTPHOTO",
-        "EYEWTN",
-        "DMGEYEWTN",
-        "DMGPHOTO"
-      ],
-      "references": [
-        "Eyewitness report via Lovci bouřek, extrémní počasí a jiné jevy (on Facebook), 30 JUN 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-06-30T18:45:00.000Z\", s\"01KWD295519WZBRX110CR5VFYA\" ]",
@@ -1340,16 +1754,10 @@
       "type": "HAIL",
       "time": "2026-06-30T18:45:00.000Z",
       "country": "CZ",
-      "place": "Zbýšov",
-      "description": "Large hail up to at least 3 cm i.d. was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Eyewitness report via Počasí online Morava (on Facebook), 30 JUN 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-06-30T18:45:00.000Z\", s\"01KWD0BKYDP6JQ4GC4CG8K04V6\" ]",
@@ -1358,16 +1766,34 @@
       "type": "HAIL",
       "time": "2026-06-30T18:45:00.000Z",
       "country": "CZ",
-      "place": "Dukovany",
-      "description": "Large hail up to at least 3 cm i.d. was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Eyewitness report via Počasí online Morava (on Facebook), 30 JUN 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:40:00.000Z\", s\"01KX6CQZEKBN9EGN6WSABN8WSP\" ]",
+      "lat": 49.173,
+      "lon": 16.3582,
+      "type": "HAIL",
+      "time": "2026-06-30T18:40:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:40:00.000Z\", s\"01KX6BVJETRM45WR0PEF8M13V8\" ]",
+      "lat": 49.0825,
+      "lon": 15.6217,
+      "type": "HAIL",
+      "time": "2026-06-30T18:40:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-06-30T18:40:00.000Z\", s\"01KWD0ZS80G4JJ0EGASCXERK6V\" ]",
@@ -1376,17 +1802,10 @@
       "type": "HAIL",
       "time": "2026-06-30T18:40:00.000Z",
       "country": "CZ",
-      "place": "Zastávka",
-      "description": "Large hail up to at least 4 cm i.d. was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Eyewitness report via Počasí online Morava (on Facebook), 30 JUN 2026.",
-        "Eyewitness report via  Lovci bouřek, extrémní počasí a jiné jevy (on Facebook), 30 JUN 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-06-30T18:35:00.000Z\", s\"01KWETYZR3KSPHBDYG2XWWE9SM\" ]",
@@ -1395,16 +1814,58 @@
       "type": "HAIL",
       "time": "2026-06-30T18:35:00.000Z",
       "country": "CZ",
-      "place": "Litovany",
-      "description": "Large hail up to at least 4 cm i.d. was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EVTPHOTO",
-        "EYEWTN"
-      ],
-      "references": [
-        "Eyewitness report via  Lovci bouřek, extrémní počasí a jiné jevy (on Facebook), 30 JUN 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:33:00.000Z\", s\"01KWVZH8ABTZ54GQ56JXPNY3MG\" ]",
+      "lat": 48.9914,
+      "lon": 15.0863,
+      "type": "HAIL",
+      "time": "2026-06-30T18:33:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:30:00.000Z\", s\"01KX6FGV6FJ6G8XCFT3SDE2HKY\" ]",
+      "lat": 49.1845,
+      "lon": 16.3598,
+      "type": "HAIL",
+      "time": "2026-06-30T18:30:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:30:00.000Z\", s\"01KX6CA41DRASY6QGNESQ6NHJJ\" ]",
+      "lat": 49.2133,
+      "lon": 16.383,
+      "type": "HAIL",
+      "time": "2026-06-30T18:30:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:30:00.000Z\", s\"01KWY8YQGFMK3TS375WKQYRP1P\" ]",
+      "lat": 52.0632,
+      "lon": 17.0193,
+      "type": "WIND",
+      "time": "2026-06-30T18:30:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-06-30T18:30:00.000Z\", s\"01KWJF7PDP202BDN5R2C7XV89M\" ]",
@@ -1425,16 +1886,46 @@
       "type": "HAIL",
       "time": "2026-06-30T18:30:00.000Z",
       "country": "CZ",
-      "place": "Zakřany",
-      "description": "Large hail up to at least 4 cm i.d. was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Eyewitness report via Počasí online Morava (on Facebook), 30 JUN 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:27:00.000Z\", s\"01KWVZM4PBGQX7WD151FWQWA3P\" ]",
+      "lat": 48.9457,
+      "lon": 15.084,
+      "type": "HAIL",
+      "time": "2026-06-30T18:27:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:25:00.000Z\", s\"01KXDWGGDCWY9N5TPRTRWQ3YRT\" ]",
+      "lat": 49.0383,
+      "lon": 15.9864,
+      "type": "HAIL",
+      "time": "2026-06-30T18:25:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:25:00.000Z\", s\"01KX6M26AKXX76QTKDF0KKAKMB\" ]",
+      "lat": 49.0357,
+      "lon": 16.0122,
+      "type": "HAIL",
+      "time": "2026-06-30T18:25:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-06-30T18:25:00.000Z\", s\"01KWEC4AT39Q1NNXR9J5F42ZAC\" ]",
@@ -1467,16 +1958,10 @@
       "type": "HAIL",
       "time": "2026-06-30T18:25:00.000Z",
       "country": "CZ",
-      "place": "Veverské Knínice",
-      "description": "Large hail up to at least 2 cm i.d. was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Eyewitness report via Počasí online Morava (on Facebook), 30 JUN 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-06-30T18:25:00.000Z\", s\"01KWD13N4W79FB82AHWSN8K427\" ]",
@@ -1484,6 +1969,54 @@
       "lon": 16.011,
       "type": "HAIL",
       "time": "2026-06-30T18:25:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:20:00.000Z\", s\"01KX6NHCD6JP7HFVTXXR8CFDFY\" ]",
+      "lat": 49.3289,
+      "lon": 16.9168,
+      "type": "HAIL",
+      "time": "2026-06-30T18:20:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:20:00.000Z\", s\"01KX6KVA853AYYTS2Y7K4DDRQB\" ]",
+      "lat": 49.0618,
+      "lon": 16.1213,
+      "type": "HAIL",
+      "time": "2026-06-30T18:20:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:20:00.000Z\", s\"01KX6KG7MB9JTPK58EGR2BVDX2\" ]",
+      "lat": 49.0704,
+      "lon": 16.1072,
+      "type": "HAIL",
+      "time": "2026-06-30T18:20:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:20:00.000Z\", s\"01KX6B6TT3R815TS7DAKAV7V82\" ]",
+      "lat": 49.0235,
+      "lon": 16.0533,
+      "type": "HAIL",
+      "time": "2026-06-30T18:20:00.000Z",
       "country": "CZ",
       "place": null,
       "description": null,
@@ -1508,6 +2041,18 @@
       "lon": 16.0183,
       "type": "HAIL",
       "time": "2026-06-30T18:20:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:15:00.000Z\", s\"01KX6GCJGG4S3KKXN565DPX3PR\" ]",
+      "lat": 49.3447,
+      "lon": 16.8332,
+      "type": "HAIL",
+      "time": "2026-06-30T18:15:00.000Z",
       "country": "CZ",
       "place": null,
       "description": null,
@@ -1599,6 +2144,18 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-06-30T18:10:00.000Z\", s\"01KX6NPB5449V0MRJ16Z2VZMMT\" ]",
+      "lat": 49.3977,
+      "lon": 16.8403,
+      "type": "HAIL",
+      "time": "2026-06-30T18:10:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-06-30T18:10:00.000Z\", s\"01KWKPZ94VT163NC522R2CSTFS\" ]",
       "lat": 47.8166,
       "lon": 8.6594,
@@ -1640,6 +2197,66 @@
       "lon": 16.7559,
       "type": "HAIL",
       "time": "2026-06-30T18:10:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:07:00.000Z\", s\"01KWW02JHWPJA6QQTDCNREAVP7\" ]",
+      "lat": 48.8644,
+      "lon": 15.0118,
+      "type": "HAIL",
+      "time": "2026-06-30T18:07:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:05:00.000Z\", s\"01KX6NQMR7Z84C06Q90Y219PQD\" ]",
+      "lat": 49.3548,
+      "lon": 16.804,
+      "type": "HAIL",
+      "time": "2026-06-30T18:05:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:05:00.000Z\", s\"01KX6N5FQQB6V6PY4MMMZYK236\" ]",
+      "lat": 48.983,
+      "lon": 16.0209,
+      "type": "HAIL",
+      "time": "2026-06-30T18:05:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:05:00.000Z\", s\"01KX6G7DMDGSC9V77N46V7Z1TM\" ]",
+      "lat": 48.9868,
+      "lon": 15.9946,
+      "type": "HAIL",
+      "time": "2026-06-30T18:05:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:05:00.000Z\", s\"01KX6BMQ8P0X52MGVMSSA7EJ2J\" ]",
+      "lat": 48.9826,
+      "lon": 15.986,
+      "type": "HAIL",
+      "time": "2026-06-30T18:05:00.000Z",
       "country": "CZ",
       "place": null,
       "description": null,
@@ -1707,6 +2324,18 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-06-30T18:03:00.000Z\", s\"01KWVZF19EMRK6EDDN2GB1GQX7\" ]",
+      "lat": 48.8412,
+      "lon": 14.996,
+      "type": "HAIL",
+      "time": "2026-06-30T18:03:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-06-30T18:02:00.000Z\", s\"01KWEQWNWV41SDACEGX979GSGD\" ]",
       "lat": 51.9932,
       "lon": 16.7916,
@@ -1719,9 +2348,57 @@
       "references": null
     },
     {
-      "id": "weather_events:[ d\"2026-06-30T18:00:00.000Z\", s\"01KWEYZED4H156BSB7QBB020HM\" ]",
-      "lat": 48.8412,
-      "lon": 14.996,
+      "id": "weather_events:[ d\"2026-06-30T18:00:00.000Z\", s\"01KXDJKNMZ6GT13NAK7AB40H6C\" ]",
+      "lat": 49.3564,
+      "lon": 16.7746,
+      "type": "HAIL",
+      "time": "2026-06-30T18:00:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:00:00.000Z\", s\"01KX6KJ2NZCZBBWCC7WYQF5CB5\" ]",
+      "lat": 49.3551,
+      "lon": 16.7844,
+      "type": "HAIL",
+      "time": "2026-06-30T18:00:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:00:00.000Z\", s\"01KX6CT9NYASXBFJ4SMX913D8E\" ]",
+      "lat": 49.2969,
+      "lon": 16.7433,
+      "type": "HAIL",
+      "time": "2026-06-30T18:00:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:00:00.000Z\", s\"01KX6CBP8TFZWEY2VZ9SNTGWVH\" ]",
+      "lat": 49.3445,
+      "lon": 16.7559,
+      "type": "HAIL",
+      "time": "2026-06-30T18:00:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T18:00:00.000Z\", s\"01KWVZEJVGX1HC9TSBAWED85K4\" ]",
+      "lat": 48.8314,
+      "lon": 14.9822,
       "type": "HAIL",
       "time": "2026-06-30T18:00:00.000Z",
       "country": "AT",
@@ -1743,12 +2420,12 @@
       "references": null
     },
     {
-      "id": "weather_events:[ d\"2026-06-30T17:57:00.000Z\", s\"01KWEX1CBMMSNTCBGA9G6WERAK\" ]",
-      "lat": 48.8314,
-      "lon": 14.9822,
+      "id": "weather_events:[ d\"2026-06-30T17:55:00.000Z\", s\"01KX6CWBHK5B5HFQ20WBFX747N\" ]",
+      "lat": 49.3309,
+      "lon": 16.6717,
       "type": "HAIL",
-      "time": "2026-06-30T17:57:00.000Z",
-      "country": "AT",
+      "time": "2026-06-30T17:55:00.000Z",
+      "country": "CZ",
       "place": null,
       "description": null,
       "info_source": null,
@@ -1772,6 +2449,18 @@
       "lon": 16.6717,
       "type": "HAIL",
       "time": "2026-06-30T17:51:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T17:50:00.000Z\", s\"01KX6CGXHF5RNX51EPJP87MB6X\" ]",
+      "lat": 49.3347,
+      "lon": 16.7258,
+      "type": "HAIL",
+      "time": "2026-06-30T17:50:00.000Z",
       "country": "CZ",
       "place": null,
       "description": null,
@@ -1851,6 +2540,30 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-06-30T17:40:00.000Z\", s\"01KXDVX3B0K0AEB8ADEE4ZXZJ3\" ]",
+      "lat": 50.2447,
+      "lon": 16.1644,
+      "type": "HAIL",
+      "time": "2026-06-30T17:40:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T17:40:00.000Z\", s\"01KX6CZK68EPXT7G99BAXFVY7P\" ]",
+      "lat": 49.3688,
+      "lon": 16.6938,
+      "type": "HAIL",
+      "time": "2026-06-30T17:40:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-06-30T17:37:00.000Z\", s\"01KWD2HK3EEFVQR0TJY7BBRY7Z\" ]",
       "lat": 51.8835,
       "lon": 16.5312,
@@ -1887,6 +2600,78 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-06-30T17:30:00.000Z\", s\"01KXDW8H62G3V3C3WA44819ZPG\" ]",
+      "lat": 49.3502,
+      "lon": 16.6537,
+      "type": "HAIL",
+      "time": "2026-06-30T17:30:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T17:30:00.000Z\", s\"01KX6GA777VCGSVS0GA99CDA7Y\" ]",
+      "lat": 49.3547,
+      "lon": 16.6478,
+      "type": "HAIL",
+      "time": "2026-06-30T17:30:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T17:30:00.000Z\", s\"01KX6DV0XT7686NT8NK691MFVK\" ]",
+      "lat": 49.3594,
+      "lon": 16.6566,
+      "type": "HAIL",
+      "time": "2026-06-30T17:30:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T17:30:00.000Z\", s\"01KX6D6AHAEQ32YDG5NNZ7Z9VC\" ]",
+      "lat": 49.3636,
+      "lon": 16.6442,
+      "type": "HAIL",
+      "time": "2026-06-30T17:30:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T17:30:00.000Z\", s\"01KX6D4AB5XCHX2943AEBTA2FV\" ]",
+      "lat": 49.3586,
+      "lon": 16.6379,
+      "type": "HAIL",
+      "time": "2026-06-30T17:30:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T17:30:00.000Z\", s\"01KX6CJYA51AKDFPNN1EH4D854\" ]",
+      "lat": 50.1514,
+      "lon": 16.0777,
+      "type": "HAIL",
+      "time": "2026-06-30T17:30:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-06-30T17:30:00.000Z\", s\"01KWENQ8J53QENQTRJFN1J4QBE\" ]",
       "lat": 51.8847,
       "lon": 16.4429,
@@ -1911,12 +2696,144 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-06-30T17:25:00.000Z\", s\"01KX6KEE4ANFKW45PWWM0Y4674\" ]",
+      "lat": 50.1748,
+      "lon": 16.1693,
+      "type": "HAIL",
+      "time": "2026-06-30T17:25:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T17:25:00.000Z\", s\"01KX6BJEN6CTHPS3Y3CET8Y8GM\" ]",
+      "lat": 50.178,
+      "lon": 16.1718,
+      "type": "HAIL",
+      "time": "2026-06-30T17:25:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T17:20:00.000Z\", s\"01KXDWA4G4RVY40Q8SB0N2VD46\" ]",
+      "lat": 50.1478,
+      "lon": 16.1756,
+      "type": "HAIL",
+      "time": "2026-06-30T17:20:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T17:20:00.000Z\", s\"01KXDVZEKN1K9YBVR63HEN33S1\" ]",
+      "lat": 50.1633,
+      "lon": 16.2748,
+      "type": "HAIL",
+      "time": "2026-06-30T17:20:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T17:20:00.000Z\", s\"01KX6MAZM6X7KZ7CMT311V4B58\" ]",
+      "lat": 50.1684,
+      "lon": 16.2041,
+      "type": "HAIL",
+      "time": "2026-06-30T17:20:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-06-30T17:20:00.000Z\", s\"01KWENYMQDR8QXSS1T4SV8KT1Z\" ]",
       "lat": 51.8554,
       "lon": 16.3936,
       "type": "HAIL",
       "time": "2026-06-30T17:20:00.000Z",
       "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T17:15:00.000Z\", s\"01KX6MEHJ03MJRHCHKZ5AJXV4Y\" ]",
+      "lat": 50.1228,
+      "lon": 16.2122,
+      "type": "HAIL",
+      "time": "2026-06-30T17:15:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T17:15:00.000Z\", s\"01KX6DK0KMECSF674VE0X0BH6V\" ]",
+      "lat": 50.1421,
+      "lon": 16.1647,
+      "type": "HAIL",
+      "time": "2026-06-30T17:15:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T17:15:00.000Z\", s\"01KX6DGSJXTM2TJTCDYNAAF0CH\" ]",
+      "lat": 50.1424,
+      "lon": 16.148,
+      "type": "HAIL",
+      "time": "2026-06-30T17:15:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T17:15:00.000Z\", s\"01KX6DFACGWKDW5YZVJFYR7J14\" ]",
+      "lat": 50.1306,
+      "lon": 16.1739,
+      "type": "HAIL",
+      "time": "2026-06-30T17:15:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T17:15:00.000Z\", s\"01KX6D1348RXG084DY1FEBB7D9\" ]",
+      "lat": 49.3962,
+      "lon": 16.526,
+      "type": "HAIL",
+      "time": "2026-06-30T17:15:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T17:15:00.000Z\", s\"01KX6CP3PKF7YCQQB7YCKPGAE6\" ]",
+      "lat": 50.1302,
+      "lon": 16.1818,
+      "type": "HAIL",
+      "time": "2026-06-30T17:15:00.000Z",
+      "country": "CZ",
       "place": null,
       "description": null,
       "info_source": null,
@@ -2115,12 +3032,24 @@
       "references": null
     },
     {
-      "id": "weather_events:[ d\"2026-06-30T17:00:00.000Z\", s\"01KWEXXK69WGJ875Y0ASR634W2\" ]",
-      "lat": 48.5247,
-      "lon": 14.9502,
+      "id": "weather_events:[ d\"2026-06-30T17:00:00.000Z\", s\"01KX6KCAH6WZ48MXWXVCKCQ53P\" ]",
+      "lat": 49.4122,
+      "lon": 16.5845,
       "type": "HAIL",
       "time": "2026-06-30T17:00:00.000Z",
-      "country": "AT",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T17:00:00.000Z\", s\"01KX6CEQNTRPCMP52S1RMFJMDH\" ]",
+      "lat": 49.4135,
+      "lon": 16.5804,
+      "type": "HAIL",
+      "time": "2026-06-30T17:00:00.000Z",
+      "country": "CZ",
       "place": null,
       "description": null,
       "info_source": null,
@@ -2139,11 +3068,23 @@
       "references": null
     },
     {
-      "id": "weather_events:[ d\"2026-06-30T16:57:00.000Z\", s\"01KWEWT340B5064WR3A74GYEA3\" ]",
+      "id": "weather_events:[ d\"2026-06-30T16:57:00.000Z\", s\"01KWVYD08JPCF02E2R3C9X7BRQ\" ]",
+      "lat": 48.5257,
+      "lon": 14.9497,
+      "type": "HAIL",
+      "time": "2026-06-30T16:57:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T16:55:00.000Z\", s\"01KWVY75H77W4M9GVTKPYHM7YM\" ]",
       "lat": 48.5731,
       "lon": 14.9571,
       "type": "HAIL",
-      "time": "2026-06-30T16:57:00.000Z",
+      "time": "2026-06-30T16:55:00.000Z",
       "country": "AT",
       "place": null,
       "description": null,
@@ -2187,6 +3128,30 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-06-30T16:45:00.000Z\", s\"01KXDJREJCZ8DW2AYMW6BWYG0B\" ]",
+      "lat": 49.9461,
+      "lon": 16.1559,
+      "type": "HAIL",
+      "time": "2026-06-30T16:45:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T16:45:00.000Z\", s\"01KX6NAST7DA5NTWZE8GMD8R6X\" ]",
+      "lat": 49.9774,
+      "lon": 16.2009,
+      "type": "HAIL",
+      "time": "2026-06-30T16:45:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-06-30T16:45:00.000Z\", s\"01KWF4Q2R46FHARADYYMSDB04B\" ]",
       "lat": 48.5203,
       "lon": 9.0536,
@@ -2223,6 +3188,66 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-06-30T16:40:00.000Z\", s\"01KXDJW4VK30Q89WYDHEK0ZSM4\" ]",
+      "lat": 49.9364,
+      "lon": 16.2202,
+      "type": "HAIL",
+      "time": "2026-06-30T16:40:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T16:35:00.000Z\", s\"01KXDW2NM12VAQK2HAK2AZDNFW\" ]",
+      "lat": 49.9135,
+      "lon": 16.1977,
+      "type": "HAIL",
+      "time": "2026-06-30T16:35:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T16:35:00.000Z\", s\"01KX6N94V1PY3FMGX4QA0ES30C\" ]",
+      "lat": 49.8989,
+      "lon": 16.2153,
+      "type": "HAIL",
+      "time": "2026-06-30T16:35:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T16:35:00.000Z\", s\"01KX6BZSKR6KXAT2WC09KXCKBN\" ]",
+      "lat": 49.9237,
+      "lon": 16.187,
+      "type": "HAIL",
+      "time": "2026-06-30T16:35:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T16:35:00.000Z\", s\"01KX6BCFM29M2B1FKGXN8NCGZV\" ]",
+      "lat": 49.8969,
+      "lon": 16.1928,
+      "type": "HAIL",
+      "time": "2026-06-30T16:35:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-06-30T16:35:00.000Z\", s\"01KWFEQN4PJFDAV2JJS3MZYQMR\" ]",
       "lat": 51.7437,
       "lon": 16.0409,
@@ -2247,6 +3272,18 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-06-30T16:30:00.000Z\", s\"01KXDJZ4PMPKEVKAT16XGAP3WK\" ]",
+      "lat": 49.8789,
+      "lon": 16.207,
+      "type": "HAIL",
+      "time": "2026-06-30T16:30:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-06-30T16:30:00.000Z\", s\"01KWF4QXJVCYBWFGTYDDC9Q34V\" ]",
       "lat": 48.5048,
       "lon": 8.9445,
@@ -2265,6 +3302,18 @@
       "type": "PRECIP",
       "time": "2026-06-30T16:30:00.000Z",
       "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T16:25:00.000Z\", s\"01KX6NCN8EY35H4ATDWQBHQW24\" ]",
+      "lat": 49.855,
+      "lon": 16.1911,
+      "type": "HAIL",
+      "time": "2026-06-30T16:25:00.000Z",
+      "country": "CZ",
       "place": null,
       "description": null,
       "info_source": null,
@@ -2300,6 +3349,18 @@
       "lon": 8.8731,
       "type": "PRECIP",
       "time": "2026-06-30T16:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T16:15:00.000Z\", s\"01KX5NMDGZ63FAXQA8BBW4MH0J\" ]",
+      "lat": 48.3295,
+      "lon": 10.4004,
+      "type": "LIGHTNING",
+      "time": "2026-06-30T16:15:00.000Z",
       "country": "DE",
       "place": null,
       "description": null,
@@ -2433,6 +3494,18 @@
       "type": "WIND",
       "time": "2026-06-30T15:55:00.000Z",
       "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-30T15:50:00.000Z\", s\"01KXDK159JMD0JSW7E1NPJJXJQ\" ]",
+      "lat": 49.8014,
+      "lon": 16.1746,
+      "type": "HAIL",
+      "time": "2026-06-30T15:50:00.000Z",
+      "country": "CZ",
       "place": null,
       "description": null,
       "info_source": null,

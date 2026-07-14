@@ -5,9 +5,75 @@
   "window_start_utc": "2026-06-26T04:00:00+00:00",
   "window_end_utc": "2026-06-27T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 8,
-  "report_count": 8,
+  "raw_count": 14,
+  "report_count": 14,
   "reports": [
+    {
+      "id": "weather_events:[ d\"2026-06-26T21:10:00.000Z\", s\"01KWY3E6MR0MM31W8WQRAQFKKA\" ]",
+      "lat": 51.7806,
+      "lon": 6.8581,
+      "type": "WIND",
+      "time": "2026-06-26T21:10:00.000Z",
+      "country": "DE",
+      "place": "Raesfeld",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Raesfeld (Facebook), checked: 07 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-26T20:40:00.000Z\", s\"01KWXPD9FMWH36EEDWHN4CZDDD\" ]",
+      "lat": 51.5039,
+      "lon": 6.759,
+      "type": "WIND",
+      "time": "2026-06-26T20:40:00.000Z",
+      "country": "DE",
+      "place": "Marxloh",
+      "description": null,
+      "info_source": [
+        "TV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Unwetter trifft Duisburger Norden\", WDR, 27 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-26T20:30:00.000Z\", s\"01KWXPHM6P2FDZ358A9ZRM6RV7\" ]",
+      "lat": 51.502,
+      "lon": 6.5472,
+      "type": "PRECIP",
+      "time": "2026-06-26T20:30:00.000Z",
+      "country": "DE",
+      "place": "Kamp-Lintfort",
+      "description": null,
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Unwetter trifft Duisburger Norden\", WDR, 27 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-26T20:25:00.000Z\", s\"01KWXPG14F2C2VVQTDB3VMRFX1\" ]",
+      "lat": 51.4513,
+      "lon": 6.6284,
+      "type": "PRECIP",
+      "time": "2026-06-26T20:25:00.000Z",
+      "country": "DE",
+      "place": "Moers",
+      "description": null,
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Unwetter trifft Duisburger Norden\", WDR, 27 JUN 2026"
+      ]
+    },
     {
       "id": "weather_events:[ d\"2026-06-26T20:25:00.000Z\", s\"01KW2V8BTEEZC9D5237QVEGTNE\" ]",
       "lat": 51.5134,
@@ -26,6 +92,22 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-06-26T20:20:00.000Z\", s\"01KWXPMA5V0QZ83FYACVCJ7JK8\" ]",
+      "lat": 51.6291,
+      "lon": 6.6161,
+      "type": "WIND",
+      "time": "2026-06-26T20:20:00.000Z",
+      "country": "DE",
+      "place": "Wesel",
+      "description": "Car hit by falling tree",
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Unwetter trifft Duisburger Norden\", WDR, 27 JUN 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-06-26T20:20:00.000Z\", s\"01KW2V3WFCCHFF6T3YQTDVKAQZ\" ]",
       "lat": 51.6295,
       "lon": 6.5721,
@@ -40,6 +122,22 @@
       ],
       "references": [
         "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 26 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-26T20:10:00.000Z\", s\"01KWXPFGAYK97X2JQ0W8RRT7A0\" ]",
+      "lat": 51.4414,
+      "lon": 6.5468,
+      "type": "PRECIP",
+      "time": "2026-06-26T20:10:00.000Z",
+      "country": "DE",
+      "place": "Neukirchen-Vluyn",
+      "description": null,
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Unwetter trifft Duisburger Norden\", WDR, 27 JUN 2026"
       ]
     },
     {

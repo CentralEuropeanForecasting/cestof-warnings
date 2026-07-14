@@ -1,0 +1,82 @@
+{
+  "forecast_date": "2026-06-18",
+  "window_start_local": "2026-06-18T06:00:00+02:00",
+  "window_end_local": "2026-06-19T06:00:00+02:00",
+  "window_start_utc": "2026-06-18T04:00:00+00:00",
+  "window_end_utc": "2026-06-19T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 4,
+  "report_count": 4,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-06-19T03:35:00.000Z\", s\"01KVGA1YBE9SJPFKRXSKTY6KGA\" ]",
+      "lat": 53.4519,
+      "lon": 8.8981,
+      "type": "PRECIP",
+      "time": "2026-06-19T03:35:00.000Z",
+      "country": "DE",
+      "place": "Appeln",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IBEVER188 (wunderground.com), 19 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-19T03:30:00.000Z\", s\"01KVGA0GEZ7C3XJW65VXGZ879N\" ]",
+      "lat": 53.4341,
+      "lon": 8.8183,
+      "type": "PRECIP",
+      "time": "2026-06-19T03:30:00.000Z",
+      "country": "DE",
+      "place": "Beverstedt",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IBEVER155 (wunderground.com), 19 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-19T01:10:00.000Z\", s\"01KVG0126RH9ZNKYN18D09RRDP\" ]",
+      "lat": 53.1247,
+      "lon": 7.4713,
+      "type": "LIGHTNING",
+      "time": "2026-06-19T01:10:00.000Z",
+      "country": "DE",
+      "place": "Flachsmeer",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WXSVC",
+        "GOV"
+      ],
+      "references": [
+        "\"Blitzeinschlag in Flachsmeer – Südring in Leer nach Sperrung wieder frei\", OSTFRIESEN ZEITUNG, 19 JUN 2026",
+        "kachelmannwetter.com",
+        "Freiwillige Feuerwehr Westoverledingen (Facebook), 19 JUN 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-06-18T15:15:00.000Z\", s\"01KVWV2KY1QA2C9NDAW59RRKJJ\" ]",
+      "lat": 46.67696,
+      "lon": 13.967426,
+      "type": "WIND",
+      "time": "2026-06-18T15:15:00.000Z",
+      "country": "AT",
+      "place": "Sankt Urban am Ossiacher See",
+      "description": "Personal email to me, emitted from the building management of the holiday apartement \"K+M+B\" in St. Urban/Ossiacher See. Trees uprooted, branches broken and gutter damaged due to a thunderstorm in the late afternoon of 18th JUN 2026. Radar checked.",
+      "info_source": [
+        "EMAIL",
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Austro control weather radar on Kachelmannwetter"
+      ]
+    }
+  ]
+}
