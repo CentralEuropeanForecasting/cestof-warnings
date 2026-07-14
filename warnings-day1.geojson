@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-07-14T10:23:42.817Z",
+  "generated_at": "2026-07-14T17:44:38.304Z",
   "features": [
     {
       "type": "Feature",
@@ -138,6 +138,66 @@
             [
               12.59119,
               47.758289
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1784050963698",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-07-14T19:40",
+        "issued_iso": "2026-07-14T17:40:00.000Z",
+        "expires": "2026-07-14T20:25",
+        "expires_iso": "2026-07-14T18:25:00.000Z",
+        "location": "Bad Blankenburg, Grossbreitenbrach, Singen and Langewiesen",
+        "hail": "2.5 cm",
+        "wind": "80",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "At 19:38 a severe thunderstorm was located near Gotha, moving South Southeast.                                                                           This Storm is capeable of producing Windgusts in excess of 80 Km/h and Hail up to 2.5cm in diameter.",
+        "hazards": {
+          "hail": "2.5 cm",
+          "wind": "80",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Trainspider",
+        "forecaster_name": "Trainspider",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Trainspider",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-07-14T17:44:32.667Z",
+        "clipped_to": "Central Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.075592,
+              50.77669
+            ],
+            [
+              10.908051,
+              50.715863
+            ],
+            [
+              11.04538,
+              50.478756
+            ],
+            [
+              11.35025,
+              50.679329
+            ],
+            [
+              11.075592,
+              50.77669
             ]
           ]
         ]
