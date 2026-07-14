@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-07-14T17:48:08.342Z",
+  "generated_at": "2026-07-14T18:41:46.764Z",
   "features": [
     {
       "type": "Feature",
@@ -198,6 +198,66 @@
             [
               11.087265,
               50.759183
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1784054463756",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-07-14T20:32",
+        "issued_iso": "2026-07-14T18:32:00.000Z",
+        "expires": "2026-07-14T21:32",
+        "expires_iso": "2026-07-14T19:32:00.000Z",
+        "location": "Area east of Coburg",
+        "hail": "6cm",
+        "wind": "80 km",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "At 20:32 a severe thunderstorm was located Northeast of Coburg, moving Southeast.                                                                           This Storm is capeable of producing Windgusts in excess of 80 Km/h and  life threatening hail of up to 6cm in diameter was reported.",
+        "hazards": {
+          "hail": "6cm",
+          "wind": "80 km",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Trainspider",
+        "forecaster_name": "Trainspider",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Trainspider",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-07-14T18:41:07.960Z",
+        "clipped_to": "Central Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.395912,
+              50.429149
+            ],
+            [
+              11.247597,
+              50.359549
+            ],
+            [
+              11.380463,
+              50.129658
+            ],
+            [
+              11.644135,
+              50.277328
+            ],
+            [
+              11.395912,
+              50.429149
             ]
           ]
         ]
