@@ -1,0 +1,557 @@
+{
+  "forecast_date": "2026-07-15",
+  "window_start_local": "2026-07-15T06:00:00+02:00",
+  "window_end_local": "2026-07-16T06:00:00+02:00",
+  "window_start_utc": "2026-07-15T04:00:00+00:00",
+  "window_end_utc": "2026-07-16T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 33,
+  "report_count": 33,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-15T13:24:00.000Z\", s\"01KXK0VNQQ0BJHVG3DHJ8X6ARG\" ]",
+      "lat": 50.921,
+      "lon": 19.52,
+      "type": "PRECIP",
+      "time": "2026-07-15T13:24:00.000Z",
+      "country": "PL",
+      "place": "Zabrodzie",
+      "description": "PWS recorded a rain amount of 33,8 mm in 50 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Stefan - IZABRO2\", Wunderground, date of access: 15 JUL 2026. "
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T12:59:00.000Z\", s\"01KXK10NG8Z88RH0YPZPZGG7XE\" ]",
+      "lat": 49.439,
+      "lon": 22.575,
+      "type": "PRECIP",
+      "time": "2026-07-15T12:59:00.000Z",
+      "country": "PL",
+      "place": "Ustrzyki Dolne",
+      "description": "PWS recorded a rain amount of 30,7 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Sencor SWS 12500 Ramone - IUSTRZ5\", Wunderground, date of access: 15 JUL 2026. "
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T12:50:00.000Z\", s\"01KXK2E9136MRZP36WVWENDTJP\" ]",
+      "lat": 45.3584,
+      "lon": 15.0192,
+      "type": "HAIL",
+      "time": "2026-07-15T12:50:00.000Z",
+      "country": "HR",
+      "place": "Jablan",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neverin (on Facebook), 15 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T12:04:00.000Z\", s\"01KXK0YKXENX3RXGXH3B5Z2PVR\" ]",
+      "lat": 49.338,
+      "lon": 22.286,
+      "type": "PRECIP",
+      "time": "2026-07-15T12:04:00.000Z",
+      "country": "PL",
+      "place": "Baligród",
+      "description": "PWS recorded a rain amount of 42,4 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Stacja - IBALIG3\", Wunderground, date of access: 15 JUL 2026. "
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T08:20:00.000Z\", s\"01KXK2K96JBGBRFS4GJCP6D0WV\" ]",
+      "lat": 51.8668,
+      "lon": 17.6026,
+      "type": "LIGHTNING",
+      "time": "2026-07-15T08:20:00.000Z",
+      "country": "PL",
+      "place": "Dobrzyca",
+      "description": "A lightning struck a tree causing fire and damage. The time was based on radar data and Blitzortung lightning detection system.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Pleszew24.info (on Facebook), 15 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T07:55:00.000Z\", s\"01KXJVFYAPZSCMM25WPV0G27P8\" ]",
+      "lat": 51.6495,
+      "lon": 17.8167,
+      "type": "PRECIP",
+      "time": "2026-07-15T07:55:00.000Z",
+      "country": "PL",
+      "place": "Ostrów Wielkopolski",
+      "description": "Flooded streets and properties were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Ostrów zalany po oberwaniu chmury (foto)\", Infostrow, 15 JUL 2026.",
+        "Kurier Ostrowski  (on Facebook), 15 JUL 2026.",
+        "\"Ostrowska Wenecja 2026 [ZDJĘCIA]\", ostrow24, 15 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T07:54:00.000Z\", s\"01KXJVJ6EXTJPWQ2WAWQJ15RAM\" ]",
+      "lat": 51.624,
+      "lon": 17.802,
+      "type": "PRECIP",
+      "time": "2026-07-15T07:54:00.000Z",
+      "country": "PL",
+      "place": "Ostrów Wielkopolski",
+      "description": "PWS recorded a rain amount of 39,4 mm in 70 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"LITEX PROMO - IOSTRW19\", Wunderground, date of access: 15 JUL 2026. "
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T07:44:00.000Z\", s\"01KXJVKFXG12BQ0TFN2GVZYJ7D\" ]",
+      "lat": 51.616,
+      "lon": 17.815,
+      "type": "PRECIP",
+      "time": "2026-07-15T07:44:00.000Z",
+      "country": "PL",
+      "place": "Ostrów Wielkopolski",
+      "description": "PWS recorded a rain amount of 36,6 mm in 60 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Garni 3055 Arcus - IOSTRW18\", Wunderground, date of access: 15 JUL 2026. "
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T07:30:00.000Z\", s\"01KXJV88ACP9BYXXDVN49TWFE2\" ]",
+      "lat": 50.1912,
+      "lon": 18.4504,
+      "type": "PRECIP",
+      "time": "2026-07-15T07:30:00.000Z",
+      "country": "PL",
+      "place": "Rudy",
+      "description": "Local flooding was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Potężna nawałnica przeszła przez Racibórz. Pozalewane ulice, zamknięto jedną z głównych dróg. Strażacy walczą z podtopieniami\", Dziennik Zachodni, 15 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T07:30:00.000Z\", s\"01KXJV7W7YDYZEZYE1963EBAMW\" ]",
+      "lat": 50.1625,
+      "lon": 18.3735,
+      "type": "PRECIP",
+      "time": "2026-07-15T07:30:00.000Z",
+      "country": "PL",
+      "place": "Szymocice",
+      "description": "Local flooding was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Potężna nawałnica przeszła przez Racibórz. Pozalewane ulice, zamknięto jedną z głównych dróg. Strażacy walczą z podtopieniami\", Dziennik Zachodni, 15 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T07:10:00.000Z\", s\"01KXJV3S4M4EPBVX6WFFZKB8F8\" ]",
+      "lat": 50.1069,
+      "lon": 18.1331,
+      "type": "PRECIP",
+      "time": "2026-07-15T07:10:00.000Z",
+      "country": "PL",
+      "place": "Pawłów",
+      "description": "Local flooding was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Podtopienia w Raciborzu i powiecie. Nieprzejezdne są drogi, służby mają pełne ręce roboty\", Radio 90, 15 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T07:05:00.000Z\", s\"01KXJV4T7K2MMS4JWKFAZWH3D7\" ]",
+      "lat": 50.0949,
+      "lon": 18.1474,
+      "type": "PRECIP",
+      "time": "2026-07-15T07:05:00.000Z",
+      "country": "PL",
+      "place": "Żerdziny",
+      "description": "Local flooding was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Podtopienia w Raciborzu i powiecie. Nieprzejezdne są drogi, służby mają pełne ręce roboty\", Radio 90, 15 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T07:00:00.000Z\", s\"01KXJV6T8TCFC8G7DQEFSSQCKV\" ]",
+      "lat": 50.1274,
+      "lon": 18.1877,
+      "type": "PRECIP",
+      "time": "2026-07-15T07:00:00.000Z",
+      "country": "PL",
+      "place": "Rudnik",
+      "description": "Local flooding was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Potężna nawałnica przeszła przez Racibórz. Pozalewane ulice, zamknięto jedną z głównych dróg. Strażacy walczą z podtopieniami\", Dziennik Zachodni, 15 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T07:00:00.000Z\", s\"01KXJV5672HHXP1J4WFWJ9QYZG\" ]",
+      "lat": 50.0575,
+      "lon": 18.1294,
+      "type": "PRECIP",
+      "time": "2026-07-15T07:00:00.000Z",
+      "country": "PL",
+      "place": "Samborowice",
+      "description": "Local flooding was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Podtopienia w Raciborzu i powiecie. Nieprzejezdne są drogi, służby mają pełne ręce roboty\", Radio 90, 15 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T07:00:00.000Z\", s\"01KXJV34ZK6E1GPH96A89BT7TZ\" ]",
+      "lat": 50.0714,
+      "lon": 18.1172,
+      "type": "PRECIP",
+      "time": "2026-07-15T07:00:00.000Z",
+      "country": "PL",
+      "place": "Cyprzanów",
+      "description": "Local flooding was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Podtopienia w Raciborzu i powiecie. Nieprzejezdne są drogi, służby mają pełne ręce roboty\", Radio 90, 15 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T06:50:00.000Z\", s\"01KXJ93K7GGMHSZTJ2ZP9ZD8EX\" ]",
+      "lat": 50.1,
+      "lon": 18.234,
+      "type": "PRECIP",
+      "time": "2026-07-15T06:50:00.000Z",
+      "country": "PL",
+      "place": "Racibórz",
+      "description": "Numerous flooded streets and properties were reported after the passage of a thunderstorm. A local PWS recorded a rain amount of 68,3 mm in 70 minutes. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Ulewa nad Raciborzem i powiatem. Błyskawicznie przybywa zgłoszeń\", Nasz Racibórz, 15 JUL 2026.",
+        "\"Podtopienia w Raciborzu i powiecie. Nieprzejezdne są drogi, służby mają pełne ręce roboty\", Radio 90, 15 JUL 2026.",
+        "\"Siwonia - IRACIBRZ12\", Wunderground, date of access: 15 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T06:40:00.000Z\", s\"01KXJV7AMPA2GDHBC26AC94S19\" ]",
+      "lat": 50.0309,
+      "lon": 18.1614,
+      "type": "PRECIP",
+      "time": "2026-07-15T06:40:00.000Z",
+      "country": "PL",
+      "place": "Bojanów",
+      "description": "Local flooding was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Potężna nawałnica przeszła przez Racibórz. Pozalewane ulice, zamknięto jedną z głównych dróg. Strażacy walczą z podtopieniami\", Dziennik Zachodni, 15 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T06:00:00.000Z\", s\"01KXJ8FGFWCNFNSYRPNWTQRH8M\" ]",
+      "lat": 47.5091,
+      "lon": 10.3197,
+      "type": "PRECIP",
+      "time": "2026-07-15T06:00:00.000Z",
+      "country": "DE",
+      "place": "Tiefenbach",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS ISONTH17 (wunderground.com), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T05:59:00.000Z\", s\"01KXJ97J4SAPXCMDY2XZ7PGB1Q\" ]",
+      "lat": 50.028,
+      "lon": 18.208,
+      "type": "PRECIP",
+      "time": "2026-07-15T05:59:00.000Z",
+      "country": "PL",
+      "place": "Bieńkowice",
+      "description": "PWS recorded a rain amount of 29,2 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Bienkowice - IBIEKO1\", Wunderground, date of access: 15 JUL 2026. "
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T05:55:00.000Z\", s\"01KXJ8CBJ8XEWQGV3P2MG265CE\" ]",
+      "lat": 47.5126,
+      "lon": 10.3074,
+      "type": "PRECIP",
+      "time": "2026-07-15T05:55:00.000Z",
+      "country": "DE",
+      "place": "Staig",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS ISONTH15 (wunderground.com), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T05:55:00.000Z\", s\"01KXJ89Q6ACZCSBSM1SA6QF8JT\" ]",
+      "lat": 47.5243,
+      "lon": 10.2671,
+      "type": "PRECIP",
+      "time": "2026-07-15T05:55:00.000Z",
+      "country": "DE",
+      "place": "Rieden",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS ISONTH8 (wunderground.com), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T05:29:00.000Z\", s\"01KXJ6ES0Y9EEW9V9Y9HC4QVDG\" ]",
+      "lat": 49.98,
+      "lon": 17.789,
+      "type": "PRECIP",
+      "time": "2026-07-15T05:29:00.000Z",
+      "country": "CZ",
+      "place": "Holasovice",
+      "description": "PWS recorded a rain amount of 30,7 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Greench - IHOLAS1\", Wunderground, date of access: 15 JUL 2026. "
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T05:29:00.000Z\", s\"01KXJ6CDPXKCTDW7JS5MRSEG47\" ]",
+      "lat": 50.032,
+      "lon": 18.071,
+      "type": "PRECIP",
+      "time": "2026-07-15T05:29:00.000Z",
+      "country": "CZ",
+      "place": "Sudice",
+      "description": "PWS recorded a rain amount of 45,2 mm in 50 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"GARNI weather station - ISUDIC3\", Wunderground, date of access: 15 JUL 2026. "
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T05:24:00.000Z\", s\"01KXJ5XSZR73FRXYXV7063115F\" ]",
+      "lat": 51.273,
+      "lon": 17.028,
+      "type": "PRECIP",
+      "time": "2026-07-15T05:24:00.000Z",
+      "country": "PL",
+      "place": "Piotrkowiczki",
+      "description": "PWS recorded a rain amount of 42,9 mm in 60 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Piotrkowiczki - IPIOTR4\", Wunderground, date of access: 15 JUL 2026. "
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T05:24:00.000Z\", s\"01KXJ5V9W7ZVNEBZ8V78SPHMAS\" ]",
+      "lat": 51.263,
+      "lon": 17.065,
+      "type": "PRECIP",
+      "time": "2026-07-15T05:24:00.000Z",
+      "country": "PL",
+      "place": "Wysoki Kościół",
+      "description": "PWS recorded a rain amount of 39,6 mm in 60 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"SUW Machnice - IWYSOK8\", Wunderground, date of access: 15 JUL 2026. "
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T05:20:00.000Z\", s\"01KXJ53WKJ7SWSN5QF3EZ01QND\" ]",
+      "lat": 51.109,
+      "lon": 17.0327,
+      "type": "PRECIP",
+      "time": "2026-07-15T05:20:00.000Z",
+      "country": "PL",
+      "place": "Wrocław",
+      "description": "Flooded streets and tram tracks were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Burze już nadciągnęły nad Dolny Śląsk. Ulice zamieniły się w rzeki, zerwane dachy, ewakuowane obozy harcerskie\", Gazeta Wrocławska, 15 JUL 2026.",
+        "\"Wrocław pod wodą! Tramwaje stoją, ulice zamieniły się w rzeki\", Super Express, 15 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T05:14:00.000Z\", s\"01KXJ6GM4CA1BJ49BB32Y3KB54\" ]",
+      "lat": 49.96,
+      "lon": 17.788,
+      "type": "PRECIP",
+      "time": "2026-07-15T05:14:00.000Z",
+      "country": "CZ",
+      "place": "Stěbořice",
+      "description": "PWS recorded a rain amount of 47,2 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"JamniceKom - ISTBOI5\", Wunderground, date of access: 15 JUL 2026. "
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T04:49:00.000Z\", s\"01KXJ60PHP99PVPW8G1HPVAXMJ\" ]",
+      "lat": 51.18,
+      "lon": 17.002,
+      "type": "PRECIP",
+      "time": "2026-07-15T04:49:00.000Z",
+      "country": "PL",
+      "place": "Wrocław",
+      "description": "PWS recorded a rain amount of 40,6 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Dmowskiego Rafin - IWROCA222\", Wunderground, date of access: 15 JUL 2026. "
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T04:44:00.000Z\", s\"01KXJ6KAD2ZQ6YARJWV2EFVYDA\" ]",
+      "lat": 49.794,
+      "lon": 17.547,
+      "type": "PRECIP",
+      "time": "2026-07-15T04:44:00.000Z",
+      "country": "CZ",
+      "place": "Budišov nad Budišovkou",
+      "description": "PWS recorded a rain amount of 34,8 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Meteo Guntramovice - IBUDIO6\", Wunderground, date of access: 15 JUL 2026. "
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T04:40:00.000Z\", s\"01KXJ3HF97X07CZ4YQKBW6GWP2\" ]",
+      "lat": 51.289,
+      "lon": 16.93,
+      "type": "PRECIP",
+      "time": "2026-07-15T04:40:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T04:34:00.000Z\", s\"01KXJ659JZEADCGSZXDC9FQGNZ\" ]",
+      "lat": 51.26,
+      "lon": 16.895,
+      "type": "PRECIP",
+      "time": "2026-07-15T04:34:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T04:30:00.000Z\", s\"01KXJB6SV5EV1Z3PA1T5PBKJ5Q\" ]",
+      "lat": 49.7772,
+      "lon": 17.5419,
+      "type": "PRECIP",
+      "time": "2026-07-15T04:30:00.000Z",
+      "country": "CZ",
+      "place": "Červená",
+      "description": "torrential rain during thunderstorm | measurement by CHMI rain gauge station",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T04:00:00.000Z\", s\"01KXJBQVV0YCERRFBHBZGDBEQ3\" ]",
+      "lat": 50.5699,
+      "lon": 16.3436,
+      "type": "PRECIP",
+      "time": "2026-07-15T04:00:00.000Z",
+      "country": "CZ",
+      "place": "Broumov",
+      "description": "torrential rain during thunderstorm | measurement by CHMI rain gauge station | peak precip. time was 02:40 - 03:10 UTC",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 15 JUL 2026"
+      ]
+    }
+  ]
+}
