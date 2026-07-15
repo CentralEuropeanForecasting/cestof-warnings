@@ -5,9 +5,215 @@
   "window_start_utc": "2026-07-15T04:00:00+00:00",
   "window_end_utc": "2026-07-16T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 33,
-  "report_count": 33,
+  "raw_count": 58,
+  "report_count": 58,
   "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-15T17:05:00.000Z\", s\"01KXKFVSTRSK3W40XGKAJQ3W9T\" ]",
+      "lat": 47.4992,
+      "lon": 8.7291,
+      "type": "HAIL",
+      "time": "2026-07-15T17:05:00.000Z",
+      "country": "CH",
+      "place": "Winterthur",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T16:25:00.000Z\", s\"01KXKFNAJGC02KN8RY233VDNQF\" ]",
+      "lat": 48.4852,
+      "lon": 9.032,
+      "type": "HAIL",
+      "time": "2026-07-15T16:25:00.000Z",
+      "country": "DE",
+      "place": "Weilheim",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T16:25:00.000Z\", s\"01KXKFKJK9GVFJV79JZXVWMHG4\" ]",
+      "lat": 48.4786,
+      "lon": 9.0546,
+      "type": "HAIL",
+      "time": "2026-07-15T16:25:00.000Z",
+      "country": "DE",
+      "place": "Kreßbach",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T16:23:00.000Z\", s\"01KXKFJD9WPS5VJ16S439WW35Y\" ]",
+      "lat": 48.468,
+      "lon": 9.0324,
+      "type": "HAIL",
+      "time": "2026-07-15T16:23:00.000Z",
+      "country": "DE",
+      "place": "Eckhof",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T16:13:00.000Z\", s\"01KXKFFGJ9XYGKW218HY9MP4QQ\" ]",
+      "lat": 48.4791,
+      "lon": 8.749,
+      "type": "HAIL",
+      "time": "2026-07-15T16:13:00.000Z",
+      "country": "DE",
+      "place": "Eutingen im Gäu",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T16:09:00.000Z\", s\"01KXKFDQ73CQ454PV9TV2FAW2P\" ]",
+      "lat": 48.6959,
+      "lon": 8.6867,
+      "type": "HAIL",
+      "time": "2026-07-15T16:09:00.000Z",
+      "country": "DE",
+      "place": "Zavelstein",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T15:50:00.000Z\", s\"01KXKF8995EZB7REP8VWW9KJ0X\" ]",
+      "lat": 48.3716,
+      "lon": 8.819,
+      "type": "HAIL",
+      "time": "2026-07-15T15:50:00.000Z",
+      "country": "DE",
+      "place": "Haigerloch",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T15:46:00.000Z\", s\"01KXKFAWWTA8VZM7HEKJJB241B\" ]",
+      "lat": 48.5703,
+      "lon": 8.6177,
+      "type": "HAIL",
+      "time": "2026-07-15T15:46:00.000Z",
+      "country": "DE",
+      "place": "Geißäcker",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T15:41:00.000Z\", s\"01KXKF72AADHZD6DBCPZ9ZF4FB\" ]",
+      "lat": 48.3583,
+      "lon": 8.7318,
+      "type": "HAIL",
+      "time": "2026-07-15T15:41:00.000Z",
+      "country": "DE",
+      "place": "Kloster Kirchberg",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T14:24:00.000Z\", s\"01KXKF47GK1GSDKT1BA5M0VADB\" ]",
+      "lat": 47.5994,
+      "lon": 9.5381,
+      "type": "HAIL",
+      "time": "2026-07-15T14:24:00.000Z",
+      "country": "DE",
+      "place": "Langenargen",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T14:11:00.000Z\", s\"01KXKF2YFQP85Y9MYVV89C70K6\" ]",
+      "lat": 48.7201,
+      "lon": 10.1614,
+      "type": "HAIL",
+      "time": "2026-07-15T14:11:00.000Z",
+      "country": "DE",
+      "place": "Aufhausen",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T13:51:00.000Z\", s\"01KXKF0BPNG5N93TR43MFCPPC3\" ]",
+      "lat": 47.6626,
+      "lon": 9.1656,
+      "type": "HAIL",
+      "time": "2026-07-15T13:51:00.000Z",
+      "country": "DE",
+      "place": "Konstanz",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
     {
       "id": "weather_events:[ d\"2026-07-15T13:24:00.000Z\", s\"01KXK0VNQQ0BJHVG3DHJ8X6ARG\" ]",
       "lat": 50.921,
@@ -61,6 +267,74 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-15T12:46:00.000Z\", s\"01KXKEXSP31DXJ0RV4TTF9CHG6\" ]",
+      "lat": 47.8912,
+      "lon": 8.9856,
+      "type": "HAIL",
+      "time": "2026-07-15T12:46:00.000Z",
+      "country": "DE",
+      "place": "Rehaldenhof",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T12:29:00.000Z\", s\"01KXKESVH3EPDER0BED83E5REJ\" ]",
+      "lat": 47.935,
+      "lon": 8.9073,
+      "type": "HAIL",
+      "time": "2026-07-15T12:29:00.000Z",
+      "country": "DE",
+      "place": "Liptingen",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T12:25:00.000Z\", s\"01KXKEVGZZQ5XRJNGWXQFBZ8S9\" ]",
+      "lat": 47.9516,
+      "lon": 8.863,
+      "type": "HAIL",
+      "time": "2026-07-15T12:25:00.000Z",
+      "country": "DE",
+      "place": "Innerer Talhof",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T12:16:00.000Z\", s\"01KXKEPZWGFTW14KV3CV0TNNSH\" ]",
+      "lat": 47.9714,
+      "lon": 8.8397,
+      "type": "HAIL",
+      "time": "2026-07-15T12:16:00.000Z",
+      "country": "DE",
+      "place": "Tuttlingen",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-15T12:04:00.000Z\", s\"01KXK0YKXENX3RXGXH3B5Z2PVR\" ]",
       "lat": 49.338,
       "lon": 22.286,
@@ -78,21 +352,137 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-15T11:50:00.000Z\", s\"01KXKENHBZGMRT70BRHME07MW7\" ]",
+      "lat": 48.0254,
+      "lon": 8.7303,
+      "type": "HAIL",
+      "time": "2026-07-15T11:50:00.000Z",
+      "country": "DE",
+      "place": "Seitingen-Oberflacht",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T11:47:00.000Z\", s\"01KXKEJ4TNV4YJ6B7WS3MYSMBW\" ]",
+      "lat": 48.0538,
+      "lon": 8.6423,
+      "type": "HAIL",
+      "time": "2026-07-15T11:47:00.000Z",
+      "country": "DE",
+      "place": "Löhle",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T11:44:00.000Z\", s\"01KXKEKMYVMDTWF0VJ4QNR0FX3\" ]",
+      "lat": 48.0778,
+      "lon": 8.6089,
+      "type": "HAIL",
+      "time": "2026-07-15T11:44:00.000Z",
+      "country": "DE",
+      "place": "Trossingen",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T11:35:00.000Z\", s\"01KXKEGAY80KA0YWGMFWFTRBH8\" ]",
+      "lat": 48.0869,
+      "lon": 8.5887,
+      "type": "HAIL",
+      "time": "2026-07-15T11:35:00.000Z",
+      "country": "DE",
+      "place": "Mittelhardt",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T11:35:00.000Z\", s\"01KXKEF58NREPZEWHZCN0EYXPY\" ]",
+      "lat": 48.0845,
+      "lon": 8.5725,
+      "type": "HAIL",
+      "time": "2026-07-15T11:35:00.000Z",
+      "country": "DE",
+      "place": "Schopfelen",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T11:35:00.000Z\", s\"01KXKEDYMP7YRCJ2Q069BDEAWP\" ]",
+      "lat": 48.0751,
+      "lon": 8.6363,
+      "type": "HAIL",
+      "time": "2026-07-15T11:35:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T11:33:00.000Z\", s\"01KXKED675SM2FMXW4GXM01FQS\" ]",
+      "lat": 48.0894,
+      "lon": 8.5496,
+      "type": "HAIL",
+      "time": "2026-07-15T11:33:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T11:32:00.000Z\", s\"01KXKEBV91E16DW66JW8HSSRX2\" ]",
+      "lat": 48.0729,
+      "lon": 8.5415,
+      "type": "HAIL",
+      "time": "2026-07-15T11:32:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-15T08:20:00.000Z\", s\"01KXK2K96JBGBRFS4GJCP6D0WV\" ]",
       "lat": 51.8668,
       "lon": 17.6026,
       "type": "LIGHTNING",
       "time": "2026-07-15T08:20:00.000Z",
       "country": "PL",
-      "place": "Dobrzyca",
-      "description": "A lightning struck a tree causing fire and damage. The time was based on radar data and Blitzortung lightning detection system.",
-      "info_source": [
-        "WWW",
-        "DMGPHOTO"
-      ],
-      "references": [
-        "Pleszew24.info (on Facebook), 15 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T07:55:00.000Z\", s\"01KXJVFYAPZSCMM25WPV0G27P8\" ]",
@@ -101,17 +491,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:55:00.000Z",
       "country": "PL",
-      "place": "Ostrów Wielkopolski",
-      "description": "Flooded streets and properties were reported after the passage of a thunderstorm. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "DMGPHOTO"
-      ],
-      "references": [
-        "\"Ostrów zalany po oberwaniu chmury (foto)\", Infostrow, 15 JUL 2026.",
-        "Kurier Ostrowski  (on Facebook), 15 JUL 2026.",
-        "\"Ostrowska Wenecja 2026 [ZDJĘCIA]\", ostrow24, 15 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T07:54:00.000Z\", s\"01KXJVJ6EXTJPWQ2WAWQJ15RAM\" ]",
@@ -120,15 +503,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:54:00.000Z",
       "country": "PL",
-      "place": "Ostrów Wielkopolski",
-      "description": "PWS recorded a rain amount of 39,4 mm in 70 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"LITEX PROMO - IOSTRW19\", Wunderground, date of access: 15 JUL 2026. "
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T07:44:00.000Z\", s\"01KXJVKFXG12BQ0TFN2GVZYJ7D\" ]",
@@ -137,15 +515,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:44:00.000Z",
       "country": "PL",
-      "place": "Ostrów Wielkopolski",
-      "description": "PWS recorded a rain amount of 36,6 mm in 60 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"Garni 3055 Arcus - IOSTRW18\", Wunderground, date of access: 15 JUL 2026. "
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T07:30:00.000Z\", s\"01KXJV88ACP9BYXXDVN49TWFE2\" ]",
@@ -154,14 +527,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:30:00.000Z",
       "country": "PL",
-      "place": "Rudy",
-      "description": "Local flooding was reported after the passage of a thunderstorm. The time was based on radar data.",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "\"Potężna nawałnica przeszła przez Racibórz. Pozalewane ulice, zamknięto jedną z głównych dróg. Strażacy walczą z podtopieniami\", Dziennik Zachodni, 15 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T07:30:00.000Z\", s\"01KXJV7W7YDYZEZYE1963EBAMW\" ]",
@@ -170,14 +539,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:30:00.000Z",
       "country": "PL",
-      "place": "Szymocice",
-      "description": "Local flooding was reported after the passage of a thunderstorm. The time was based on radar data.",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "\"Potężna nawałnica przeszła przez Racibórz. Pozalewane ulice, zamknięto jedną z głównych dróg. Strażacy walczą z podtopieniami\", Dziennik Zachodni, 15 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T07:10:00.000Z\", s\"01KXJV3S4M4EPBVX6WFFZKB8F8\" ]",
@@ -186,14 +551,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:10:00.000Z",
       "country": "PL",
-      "place": "Pawłów",
-      "description": "Local flooding was reported after the passage of a thunderstorm. The time was based on radar data.",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "\"Podtopienia w Raciborzu i powiecie. Nieprzejezdne są drogi, służby mają pełne ręce roboty\", Radio 90, 15 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T07:05:00.000Z\", s\"01KXJV4T7K2MMS4JWKFAZWH3D7\" ]",
@@ -202,14 +563,22 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:05:00.000Z",
       "country": "PL",
-      "place": "Żerdziny",
-      "description": "Local flooding was reported after the passage of a thunderstorm. The time was based on radar data.",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "\"Podtopienia w Raciborzu i powiecie. Nieprzejezdne są drogi, służby mają pełne ręce roboty\", Radio 90, 15 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T07:00:00.000Z\", s\"01KXKE75FFD7BMQYA4R331A7SJ\" ]",
+      "lat": 47.9979,
+      "lon": 10.003,
+      "type": "HAIL",
+      "time": "2026-07-15T07:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T07:00:00.000Z\", s\"01KXJV6T8TCFC8G7DQEFSSQCKV\" ]",
@@ -218,14 +587,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:00:00.000Z",
       "country": "PL",
-      "place": "Rudnik",
-      "description": "Local flooding was reported after the passage of a thunderstorm. The time was based on radar data.",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "\"Potężna nawałnica przeszła przez Racibórz. Pozalewane ulice, zamknięto jedną z głównych dróg. Strażacy walczą z podtopieniami\", Dziennik Zachodni, 15 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T07:00:00.000Z\", s\"01KXJV5672HHXP1J4WFWJ9QYZG\" ]",
@@ -234,14 +599,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:00:00.000Z",
       "country": "PL",
-      "place": "Samborowice",
-      "description": "Local flooding was reported after the passage of a thunderstorm. The time was based on radar data.",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "\"Podtopienia w Raciborzu i powiecie. Nieprzejezdne są drogi, służby mają pełne ręce roboty\", Radio 90, 15 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T07:00:00.000Z\", s\"01KXJV34ZK6E1GPH96A89BT7TZ\" ]",
@@ -250,14 +611,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:00:00.000Z",
       "country": "PL",
-      "place": "Cyprzanów",
-      "description": "Local flooding was reported after the passage of a thunderstorm. The time was based on radar data.",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "\"Podtopienia w Raciborzu i powiecie. Nieprzejezdne są drogi, służby mają pełne ręce roboty\", Radio 90, 15 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T06:50:00.000Z\", s\"01KXJ93K7GGMHSZTJ2ZP9ZD8EX\" ]",
@@ -266,18 +623,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T06:50:00.000Z",
       "country": "PL",
-      "place": "Racibórz",
-      "description": "Numerous flooded streets and properties were reported after the passage of a thunderstorm. A local PWS recorded a rain amount of 68,3 mm in 70 minutes. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "DMGPHOTO",
-        "WXSVC"
-      ],
-      "references": [
-        "\"Ulewa nad Raciborzem i powiatem. Błyskawicznie przybywa zgłoszeń\", Nasz Racibórz, 15 JUL 2026.",
-        "\"Podtopienia w Raciborzu i powiecie. Nieprzejezdne są drogi, służby mają pełne ręce roboty\", Radio 90, 15 JUL 2026.",
-        "\"Siwonia - IRACIBRZ12\", Wunderground, date of access: 15 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T06:40:00.000Z\", s\"01KXJV7AMPA2GDHBC26AC94S19\" ]",
@@ -286,14 +635,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T06:40:00.000Z",
       "country": "PL",
-      "place": "Bojanów",
-      "description": "Local flooding was reported after the passage of a thunderstorm. The time was based on radar data.",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "\"Potężna nawałnica przeszła przez Racibórz. Pozalewane ulice, zamknięto jedną z głównych dróg. Strażacy walczą z podtopieniami\", Dziennik Zachodni, 15 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T06:00:00.000Z\", s\"01KXJ8FGFWCNFNSYRPNWTQRH8M\" ]",
@@ -302,14 +647,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T06:00:00.000Z",
       "country": "DE",
-      "place": "Tiefenbach",
+      "place": null,
       "description": null,
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "PWS ISONTH17 (wunderground.com), 15 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T05:59:00.000Z\", s\"01KXJ97J4SAPXCMDY2XZ7PGB1Q\" ]",
@@ -318,15 +659,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T05:59:00.000Z",
       "country": "PL",
-      "place": "Bieńkowice",
-      "description": "PWS recorded a rain amount of 29,2 mm in 40 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"Bienkowice - IBIEKO1\", Wunderground, date of access: 15 JUL 2026. "
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T05:55:00.000Z\", s\"01KXJ8CBJ8XEWQGV3P2MG265CE\" ]",
@@ -335,14 +671,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T05:55:00.000Z",
       "country": "DE",
-      "place": "Staig",
+      "place": null,
       "description": null,
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "PWS ISONTH15 (wunderground.com), 15 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T05:55:00.000Z\", s\"01KXJ89Q6ACZCSBSM1SA6QF8JT\" ]",
@@ -351,14 +683,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T05:55:00.000Z",
       "country": "DE",
-      "place": "Rieden",
+      "place": null,
       "description": null,
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "PWS ISONTH8 (wunderground.com), 15 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T05:29:00.000Z\", s\"01KXJ6ES0Y9EEW9V9Y9HC4QVDG\" ]",
@@ -401,15 +729,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T05:24:00.000Z",
       "country": "PL",
-      "place": "Piotrkowiczki",
-      "description": "PWS recorded a rain amount of 42,9 mm in 60 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"Piotrkowiczki - IPIOTR4\", Wunderground, date of access: 15 JUL 2026. "
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T05:24:00.000Z\", s\"01KXJ5V9W7ZVNEBZ8V78SPHMAS\" ]",
@@ -418,15 +741,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T05:24:00.000Z",
       "country": "PL",
-      "place": "Wysoki Kościół",
-      "description": "PWS recorded a rain amount of 39,6 mm in 60 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"SUW Machnice - IWYSOK8\", Wunderground, date of access: 15 JUL 2026. "
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T05:20:00.000Z\", s\"01KXJ53WKJ7SWSN5QF3EZ01QND\" ]",
@@ -435,16 +753,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T05:20:00.000Z",
       "country": "PL",
-      "place": "Wrocław",
-      "description": "Flooded streets and tram tracks were reported after the passage of a thunderstorm. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "DMGPHOTO"
-      ],
-      "references": [
-        "\"Burze już nadciągnęły nad Dolny Śląsk. Ulice zamieniły się w rzeki, zerwane dachy, ewakuowane obozy harcerskie\", Gazeta Wrocławska, 15 JUL 2026.",
-        "\"Wrocław pod wodą! Tramwaje stoją, ulice zamieniły się w rzeki\", Super Express, 15 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T05:14:00.000Z\", s\"01KXJ6GM4CA1BJ49BB32Y3KB54\" ]",
@@ -470,15 +782,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T04:49:00.000Z",
       "country": "PL",
-      "place": "Wrocław",
-      "description": "PWS recorded a rain amount of 40,6 mm in 40 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"Dmowskiego Rafin - IWROCA222\", Wunderground, date of access: 15 JUL 2026. "
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T04:44:00.000Z\", s\"01KXJ6KAD2ZQ6YARJWV2EFVYDA\" ]",
