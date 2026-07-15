@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-07-15T13:01:14.127Z",
+  "generated_at": "2026-07-15T14:42:08.910Z",
   "features": [
     {
       "type": "Feature",
@@ -318,6 +318,146 @@
             [
               8.999519,
               47.906289
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1784126384168",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-07-15T16:40",
+        "issued_iso": "2026-07-15T14:40:00.000Z",
+        "expires": "2026-07-15T17:15",
+        "expires_iso": "2026-07-15T15:15:00.000Z",
+        "location": "Kressbron, Lindau, Laimnau, Friedrichshafen",
+        "hail": "3 cm",
+        "wind": "80 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A severe thunderstorm was located east of Friedrichshafen, moving E/SE.                                                                                   Radar indicated that this storm is capeable of producing large hail and possible strong wind gusts.                                                    In addition: Strong Rainfall is also occuring, that could lead to flooding.",
+        "hazards": {
+          "hail": "3 cm",
+          "wind": "80 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Trainspider",
+        "forecaster_name": "Trainspider",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Trainspider",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-07-15T14:41:58.426Z",
+        "clipped_to": "Central Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.522743,
+              47.613642
+            ],
+            [
+              9.548149,
+              47.677019
+            ],
+            [
+              9.812508,
+              47.64002
+            ],
+            [
+              9.776802,
+              47.597439
+            ],
+            [
+              9.769249,
+              47.589103
+            ],
+            [
+              9.762383,
+              47.589566
+            ],
+            [
+              9.758263,
+              47.58262
+            ],
+            [
+              9.754829,
+              47.574282
+            ],
+            [
+              9.743156,
+              47.571502
+            ],
+            [
+              9.752083,
+              47.56826
+            ],
+            [
+              9.743843,
+              47.55992
+            ],
+            [
+              9.73423,
+              47.546944
+            ],
+            [
+              9.73629,
+              47.533038
+            ],
+            [
+              9.718437,
+              47.546481
+            ],
+            [
+              9.716377,
+              47.553432
+            ],
+            [
+              9.697151,
+              47.552969
+            ],
+            [
+              9.681358,
+              47.557139
+            ],
+            [
+              9.657326,
+              47.560846
+            ],
+            [
+              9.641533,
+              47.557139
+            ],
+            [
+              9.631233,
+              47.566406
+            ],
+            [
+              9.601021,
+              47.571502
+            ],
+            [
+              9.608574,
+              47.578914
+            ],
+            [
+              9.608574,
+              47.584472
+            ],
+            [
+              9.590721,
+              47.59003
+            ],
+            [
+              9.522743,
+              47.613642
             ]
           ]
         ]
