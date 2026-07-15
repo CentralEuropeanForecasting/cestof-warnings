@@ -5,9 +5,41 @@
   "window_start_utc": "2026-07-15T04:00:00+00:00",
   "window_end_utc": "2026-07-16T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 66,
-  "report_count": 66,
+  "raw_count": 68,
+  "report_count": 68,
   "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-15T19:30:00.000Z\", s\"01KXKQ6EB9VT35Y118B5W0BWAC\" ]",
+      "lat": 44.531,
+      "lon": 14.47,
+      "type": "WIND",
+      "time": "2026-07-15T19:30:00.000Z",
+      "country": "HR",
+      "place": "Mali Losinj",
+      "description": "Pressure wave with/without lightning. Weather station registered gust of 32 m/s.",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Weather Station"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T18:40:00.000Z\", s\"01KXKQMVHVZG4B3F7NGGN4G4B6\" ]",
+      "lat": 45.047,
+      "lon": 13.621,
+      "type": "WIND",
+      "time": "2026-07-15T18:40:00.000Z",
+      "country": "HR",
+      "place": "Rovinj Sv. Ivana",
+      "description": "Pressure wave with/without lightning. Weather station registered a maximum gust of 20 m/s.",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Wetterstation"
+      ]
+    },
     {
       "id": "weather_events:[ d\"2026-07-15T17:05:00.000Z\", s\"01KXKFVSTRSK3W40XGKAJQ3W9T\" ]",
       "lat": 47.4992,
@@ -415,16 +447,10 @@
       "type": "HAIL",
       "time": "2026-07-15T12:25:00.000Z",
       "country": "CH",
-      "place": "Beggingen",
-      "description": "Large hail 3 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 15 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T12:25:00.000Z\", s\"01KXKEVGZZQ5XRJNGWXQFBZ8S9\" ]",
@@ -433,15 +459,10 @@
       "type": "HAIL",
       "time": "2026-07-15T12:25:00.000Z",
       "country": "DE",
-      "place": "Innerer Talhof",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T12:16:00.000Z\", s\"01KXKEPZWGFTW14KV3CV0TNNSH\" ]",

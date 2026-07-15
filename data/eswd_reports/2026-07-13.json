@@ -5,8 +5,8 @@
   "window_start_utc": "2026-07-13T04:00:00+00:00",
   "window_end_utc": "2026-07-14T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 164,
-  "report_count": 164,
+  "raw_count": 169,
+  "report_count": 169,
   "reports": [
     {
       "id": "weather_events:[ d\"2026-07-14T03:59:00.000Z\", s\"01KXFTBA2G49PRE2EZ9M4PE41J\" ]",
@@ -57,6 +57,22 @@
       ],
       "references": [
         "\"Nedved39 - IMLKOV3\", Wunderground, date of access: 14 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T03:10:00.000Z\", s\"01KXKBF7284N0G5W0QDG4KFZNX\" ]",
+      "lat": 52.8889,
+      "lon": 10.6561,
+      "type": "LIGHTNING",
+      "time": "2026-07-14T03:10:00.000Z",
+      "country": "DE",
+      "place": "Wieren",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter über der Samtgemeinde Aue: Blitz schlägt in Wohnhaus ein - Keller vollgelaufen - 125 Liter Regen in kürzester Zeit \", UELZENER NACHRICHTEN, 14 JUL 2026"
       ]
     },
     {
@@ -230,6 +246,22 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-13T21:30:00.000Z\", s\"01KXKCPGPZAB3R37YZR84F6ZDE\" ]",
+      "lat": 52.2249,
+      "lon": 8.988,
+      "type": "LIGHTNING",
+      "time": "2026-07-13T21:30:00.000Z",
+      "country": "DE",
+      "place": "Lohfeld",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter hält Portaner Feuerwehr in Atem: Viele Einsätze am Montagabend\",  MINDENER TAGEBLATT, 15 JUL 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-13T21:30:00.000Z\", s\"01KXGD1FKM860JW2D0XZWC8FEQ\" ]",
       "lat": 51.0001,
       "lon": 23.3296,
@@ -292,6 +324,22 @@
       ],
       "references": [
         "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), data access: 14 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-13T21:15:00.000Z\", s\"01KXKCKWS17ZCA4QJSCMDTRK7C\" ]",
+      "lat": 52.2391,
+      "lon": 8.9225,
+      "type": "PRECIP",
+      "time": "2026-07-13T21:15:00.000Z",
+      "country": "DE",
+      "place": "Porta Westfalica",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Unwetter hält Portaner Feuerwehr in Atem: Viele Einsätze am Montagabend\",  MINDENER TAGEBLATT, 15 JUL 2026"
       ]
     },
     {
@@ -439,15 +487,10 @@
       "type": "HAIL",
       "time": "2026-07-13T20:35:00.000Z",
       "country": "DE",
-      "place": "Oesselse",
-      "description": "Large hail 2 cm i.d. (estimated). Radar checked",
-      "info_source": [
-        "WWW",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), data access: 14 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-13T20:35:00.000Z\", s\"01KXFV9TRNGYA0B8XJ9HQG80QM\" ]",
@@ -456,16 +499,10 @@
       "type": "HAIL",
       "time": "2026-07-13T20:35:00.000Z",
       "country": "DE",
-      "place": "Sarstedt",
-      "description": "Large hail 3 cm i.d. (estimated). Radar checked",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), data access: 14 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-13T20:32:00.000Z\", s\"01KXFV4RQY63R2ZAHN861VD6YJ\" ]",
@@ -474,15 +511,10 @@
       "type": "HAIL",
       "time": "2026-07-13T20:32:00.000Z",
       "country": "DE",
-      "place": "Gleidingen",
-      "description": "Large hail 3 cm i.d. (estimated). Radar checked",
-      "info_source": [
-        "WWW",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), data access: 14 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-13T20:31:00.000Z\", s\"01KXFV8442F4SJB3WCSRF6EA8F\" ]",
@@ -1151,6 +1183,18 @@
       "type": "HAIL",
       "time": "2026-07-13T18:37:00.000Z",
       "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-13T18:31:00.000Z\", s\"01KXKABPFBJZ397SDK2QTHNHBC\" ]",
+      "lat": 46.8671,
+      "lon": 12.8806,
+      "type": "HAIL",
+      "time": "2026-07-13T18:31:00.000Z",
+      "country": "AT",
       "place": null,
       "description": null,
       "info_source": null,
@@ -1943,6 +1987,18 @@
       "type": "PRECIP",
       "time": "2026-07-13T15:05:00.000Z",
       "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-13T15:00:00.000Z\", s\"01KXK47H070ZYF6NWYXWC3MWR5\" ]",
+      "lat": 53.8005,
+      "lon": 23.0083,
+      "type": "LIGHTNING",
+      "time": "2026-07-13T15:00:00.000Z",
+      "country": "PL",
       "place": null,
       "description": null,
       "info_source": null,
