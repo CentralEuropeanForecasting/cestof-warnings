@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-07-15T14:42:08.910Z",
+  "generated_at": "2026-07-16T14:12:32.946Z",
   "features": [
     {
       "type": "Feature",
@@ -458,6 +458,66 @@
             [
               9.522743,
               47.613642
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1784211065008",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-07-16T16:05",
+        "issued_iso": "2026-07-16T14:05:00.000Z",
+        "expires": "2026-07-16T17:00",
+        "expires_iso": "2026-07-16T15:00:00.000Z",
+        "location": "Reutlingen",
+        "hail": "3 cm",
+        "wind": "80 km/h",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "At 16:02, a severe thunderstorm was located east of Tübingen, moving east.                                                                                This dangerous storm is capeable of producing large hail and possible damaging winds.                                                                      For your protection move inside immediately!",
+        "hazards": {
+          "hail": "3 cm",
+          "wind": "80 km/h",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "Trainspider",
+        "forecaster_name": "Trainspider",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Trainspider",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-07-16T14:12:22.089Z",
+        "clipped_to": "Central Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.273834,
+              48.580525
+            ],
+            [
+              9.287567,
+              48.482309
+            ],
+            [
+              9.801178,
+              48.493232
+            ],
+            [
+              9.677582,
+              48.696683
+            ],
+            [
+              9.273834,
+              48.580525
             ]
           ]
         ]
