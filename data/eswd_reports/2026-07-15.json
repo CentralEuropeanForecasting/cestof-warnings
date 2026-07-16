@@ -5,9 +5,654 @@
   "window_start_utc": "2026-07-15T04:00:00+00:00",
   "window_end_utc": "2026-07-16T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 68,
-  "report_count": 68,
+  "raw_count": 102,
+  "report_count": 102,
   "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-16T03:49:00.000Z\", s\"01KXMQB2D18R9K1RRG9CGSZ1X8\" ]",
+      "lat": 46.789,
+      "lon": 15.463,
+      "type": "PRECIP",
+      "time": "2026-07-16T03:49:00.000Z",
+      "country": "AT",
+      "qc": "QC0+",
+      "place": "Kitzeck im Sausal",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 27,7 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Wetterstation Sauer - IKITZE8\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T03:49:00.000Z\", s\"01KXMQARYXX2AJ2JCT2D0AXVK1\" ]",
+      "lat": 46.785,
+      "lon": 15.451,
+      "type": "PRECIP",
+      "time": "2026-07-16T03:49:00.000Z",
+      "country": "AT",
+      "qc": "QC0+",
+      "place": "Kitzeck im Sausal",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 31,2 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Bresser Wetter Station - IKITZE5\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T03:39:00.000Z\", s\"01KXMQAG2C25NSD1N34BR1AM4J\" ]",
+      "lat": 46.867,
+      "lon": 16.549,
+      "type": "PRECIP",
+      "time": "2026-07-16T03:39:00.000Z",
+      "country": "HU",
+      "qc": "QC0+",
+      "place": "Hegyhátszentjakab",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 37,1 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Hegyhátszentjakab-Petőfi u. - IHEGYH1\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T03:14:00.000Z\", s\"01KXMQBNYEV5WDXDTKGXKFVA9D\" ]",
+      "lat": 49.895,
+      "lon": 15.172,
+      "type": "PRECIP",
+      "time": "2026-07-16T03:14:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Malešov",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 47,8 mm in 70 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Renda - IMALEO6\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T01:19:00.000Z\", s\"01KXMQC6EQGZZXQ5E7W5RZZ2YX\" ]",
+      "lat": 50.003,
+      "lon": 14.696,
+      "type": "PRECIP",
+      "time": "2026-07-16T01:19:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Říčany",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 26,4 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Jan Stefan - IANY68\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T01:09:00.000Z\", s\"01KXMQCE1G21ANR94WM45KRPWM\" ]",
+      "lat": 49.972,
+      "lon": 14.292,
+      "type": "PRECIP",
+      "time": "2026-07-16T01:09:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Třebotov",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 80,3 mm in 150 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Gogen_Alkafiku - ITEBOT15\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T01:04:00.000Z\", s\"01KXMQCN4CZ07P54JAE9CXMBZX\" ]",
+      "lat": 49.964,
+      "lon": 14.246,
+      "type": "PRECIP",
+      "time": "2026-07-16T01:04:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Roblín",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 74,4 mm in 150 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Lukáš Jančík - IROBLN1\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:59:00.000Z\", s\"01KXMQCWW8SZFP7YJMRTPHHXG8\" ]",
+      "lat": 49.953,
+      "lon": 14.219,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:59:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Mořina",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 72,6 mm in 150 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"MORINA - IMOINA1\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:54:00.000Z\", s\"01KXMQD3PVGHCQBBB86PW84B3B\" ]",
+      "lat": 49.948,
+      "lon": 14.101,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:54:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Tetín",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 30,2 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Gogen - ITETN1\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:49:00.000Z\", s\"01KXMQDAZ8NE1P3H4CXH0S04R3\" ]",
+      "lat": 49.974,
+      "lon": 14.323,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:49:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Černošice",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 58,7 mm in 120 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Meteostanice - IERNOI35\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:40:00.000Z\", s\"01KXMKBD95V7CB7N3BHG0D0BPM\" ]",
+      "lat": 50.023,
+      "lon": 14.4983,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:40:00.000Z",
+      "country": "CZ",
+      "qc": "QC1",
+      "place": "Praha, Chodov",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "torrential rain during thunderstorm | measurement by CHMI rain gauge station | peak precip. time was 15.7. 23:40 - 16.7. 0:10 UTC",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:40:00.000Z\", s\"01KXMJSVZD7R1TPSP8PYVTC49G\" ]",
+      "lat": 50.1784,
+      "lon": 14.3698,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:40:00.000Z",
+      "country": "CZ",
+      "qc": "QC1",
+      "place": "Řež",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "torrential rain during thunderstorm | measurement by CHMI rain gauge station",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:29:00.000Z\", s\"01KXMQE1T9EBTCFF3242TJT7R8\" ]",
+      "lat": 50.016,
+      "lon": 14.508,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:29:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Šeberov",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 39,1 mm in 50 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Seberov - IPRAGU1581\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:29:00.000Z\", s\"01KXMQDT8KH05RDT8W4WWW95M2\" ]",
+      "lat": 50.038,
+      "lon": 14.521,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:29:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Praha",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 32,5 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Garni - IPRAGU295\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:29:00.000Z\", s\"01KXMQDJPFT8EA7AE1BYAXYQ9Z\" ]",
+      "lat": 50.04,
+      "lon": 14.633,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:29:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Praha",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 31 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Sencor SWS 12500 - IPRAGU708\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:24:00.000Z\", s\"01KXMQE8WN0BBHQ4W5P8YXAED2\" ]",
+      "lat": 50.02,
+      "lon": 14.523,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:24:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Praha",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 37,1 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Vladimir Karas - IPRAGU714\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:19:00.000Z\", s\"01KXMQEQ0QQVFH75E7SD700PRN\" ]",
+      "lat": 49.88,
+      "lon": 13.906,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:19:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Žebrák",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 31,2 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Martin Šesták - IEBRK10\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:19:00.000Z\", s\"01KXMQEFF994NN7PZM3VCFPJ6F\" ]",
+      "lat": 50.02,
+      "lon": 14.523,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:19:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Praha",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 29,7 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"SWS 9898 - IPRAGU1482\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:19:00.000Z\", s\"01KXMQBC4XG0ETCWD3FK6VM59N\" ]",
+      "lat": 49.897,
+      "lon": 14.052,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:19:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Suchomasty",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 56,4 mm in 80 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Sencor Jenda - ISUCHO5\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:14:00.000Z\", s\"01KXMQF5J35ZSYSV2J22K60TNE\" ]",
+      "lat": 50.016,
+      "lon": 14.484,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:14:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Praha",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 46,7 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Kufnerovi - IPRAGU1240\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:14:00.000Z\", s\"01KXMQEY22ENADC7J0QQCGSQRV\" ]",
+      "lat": 50.006,
+      "lon": 14.479,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:14:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Praha",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 43,2 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Denis - IPRAGU313\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:14:00.000Z\", s\"01KXMQA363B2YWQMJ2BG07SEDA\" ]",
+      "lat": 49.852,
+      "lon": 13.881,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:14:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Tlustice",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 38,4 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Ventus830 - ITLUST1\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:09:00.000Z\", s\"01KXMQFE6H7VX82HEQQ38J016V\" ]",
+      "lat": 50.006,
+      "lon": 14.416,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:09:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Praha",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 42,7 mm in 50 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"GoGenMec - IPRAGU321, Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:04:00.000Z\", s\"01KXMQFVWWKWKAJQ5F8GD9JMDB\" ]",
+      "lat": 50.006,
+      "lon": 14.429,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:04:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Praha",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 46,7 mm in 50 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Vojta doma - IPRAGU1405\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:00:00.000Z\", s\"01KXMKNMMSVPC03THYFWGM165K\" ]",
+      "lat": 49.9961,
+      "lon": 14.3709,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:00:00.000Z",
+      "country": "CZ",
+      "qc": "QC1",
+      "place": "Praha, Radotín",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "torrential rain during thunderstorm | measurement by CHMI rain gauge station",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:00:00.000Z\", s\"01KXMKGTQERJR2FWY4XSGXPXVR\" ]",
+      "lat": 50.0077,
+      "lon": 14.4469,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:00:00.000Z",
+      "country": "CZ",
+      "qc": "QC1",
+      "place": "Praha, Libuš",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "torrential rain during thunderstorm | measurement by CHMI rain gauge station",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T00:00:00.000Z\", s\"01KXMK0YMNEAAE05JQ240VQAFC\" ]",
+      "lat": 50.0074,
+      "lon": 14.4412,
+      "type": "PRECIP",
+      "time": "2026-07-16T00:00:00.000Z",
+      "country": "CZ",
+      "qc": "QC1",
+      "place": "Praha, Modřany",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "torrential rain during thunderstorm | measurement by CHMI rain gauge station | peak precip. time was 15.7. 23:30 - 16.7. 0:00 UTC",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T23:59:00.000Z\", s\"01KXMQGA2F01A3NW4C2EB6XNRT\" ]",
+      "lat": 49.977,
+      "lon": 14.346,
+      "type": "PRECIP",
+      "time": "2026-07-15T23:59:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Radotín",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 55,4 mm in 70 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Dehtínská - IPRAGU1511\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T23:59:00.000Z\", s\"01KXMQG2PA7G3XHMRXC6MKAHCT\" ]",
+      "lat": 49.99,
+      "lon": 14.364,
+      "type": "PRECIP",
+      "time": "2026-07-15T23:59:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T23:54:00.000Z\", s\"01KXMQGS9DGRP0TK66SCFTFK1G\" ]",
+      "lat": 49.937,
+      "lon": 14.142,
+      "type": "PRECIP",
+      "time": "2026-07-15T23:54:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T23:54:00.000Z\", s\"01KXMQGH755BNZ6HMN8NPKHT0C\" ]",
+      "lat": 49.972,
+      "lon": 14.39,
+      "type": "PRECIP",
+      "time": "2026-07-15T23:54:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T23:49:00.000Z\", s\"01KXMQH2P2HPHWHNMFBC9J1MB1\" ]",
+      "lat": 49.959,
+      "lon": 14.36,
+      "type": "PRECIP",
+      "time": "2026-07-15T23:49:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T23:39:00.000Z\", s\"01KXMQHKRQYZQH6KX7603R59KE\" ]",
+      "lat": 49.947,
+      "lon": 14.307,
+      "type": "PRECIP",
+      "time": "2026-07-15T23:39:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T23:39:00.000Z\", s\"01KXMQHA45Z74DZFT62MMJ26S3\" ]",
+      "lat": 49.952,
+      "lon": 14.33,
+      "type": "PRECIP",
+      "time": "2026-07-15T23:39:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
     {
       "id": "weather_events:[ d\"2026-07-15T19:30:00.000Z\", s\"01KXKQ6EB9VT35Y118B5W0BWAC\" ]",
       "lat": 44.531,
@@ -15,7 +660,10 @@
       "type": "WIND",
       "time": "2026-07-15T19:30:00.000Z",
       "country": "HR",
+      "qc": "QC0",
       "place": "Mali Losinj",
+      "place_accuracy": "5KM",
+      "time_accuracy": "30M",
       "description": "Pressure wave with/without lightning. Weather station registered gust of 32 m/s.",
       "info_source": [
         "WXSVC"
@@ -31,7 +679,10 @@
       "type": "WIND",
       "time": "2026-07-15T18:40:00.000Z",
       "country": "HR",
+      "qc": "QC0",
       "place": "Rovinj Sv. Ivana",
+      "place_accuracy": "5KM",
+      "time_accuracy": "30M",
       "description": "Pressure wave with/without lightning. Weather station registered a maximum gust of 20 m/s.",
       "info_source": [
         "WXSVC"
@@ -47,7 +698,10 @@
       "type": "HAIL",
       "time": "2026-07-15T17:05:00.000Z",
       "country": "CH",
+      "qc": "QC1",
       "place": "Winterthur",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -65,7 +719,10 @@
       "type": "HAIL",
       "time": "2026-07-15T16:25:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": "Weilheim",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
       "description": "Large hail 3 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -82,7 +739,10 @@
       "type": "HAIL",
       "time": "2026-07-15T16:25:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": "Kreßbach",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -99,7 +759,10 @@
       "type": "HAIL",
       "time": "2026-07-15T16:23:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": "Eckhof",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -116,7 +779,10 @@
       "type": "HAIL",
       "time": "2026-07-15T16:13:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": "Eutingen im Gäu",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -133,7 +799,10 @@
       "type": "HAIL",
       "time": "2026-07-15T16:09:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": "Zavelstein",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -150,7 +819,10 @@
       "type": "HAIL",
       "time": "2026-07-15T15:50:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": "Haigerloch",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
       "description": "Large hail 3 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -167,7 +839,10 @@
       "type": "HAIL",
       "time": "2026-07-15T15:46:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": "Geißäcker",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -184,7 +859,10 @@
       "type": "HAIL",
       "time": "2026-07-15T15:41:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": "Kloster Kirchberg",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -201,7 +879,10 @@
       "type": "HAIL",
       "time": "2026-07-15T14:24:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": "Langenargen",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -218,7 +899,10 @@
       "type": "HAIL",
       "time": "2026-07-15T14:11:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": "Aufhausen",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -235,7 +919,10 @@
       "type": "HAIL",
       "time": "2026-07-15T13:51:00.000Z",
       "country": "DE",
+      "qc": "QC1",
       "place": "Konstanz",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -253,7 +940,10 @@
       "type": "HAIL",
       "time": "2026-07-15T13:50:00.000Z",
       "country": "CH",
+      "qc": "QC1",
       "place": "Tägerwilen",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -271,7 +961,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T13:24:00.000Z",
       "country": "PL",
+      "qc": "QC0+",
       "place": "Zabrodzie",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
       "description": "PWS recorded a rain amount of 33,8 mm in 50 minutes.",
       "info_source": [
         "WWW",
@@ -288,7 +981,10 @@
       "type": "HAIL",
       "time": "2026-07-15T13:06:00.000Z",
       "country": "CH",
+      "qc": "QC1",
       "place": "Eschenz",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -306,7 +1002,10 @@
       "type": "HAIL",
       "time": "2026-07-15T13:05:00.000Z",
       "country": "CH",
+      "qc": "QC1",
       "place": "Stein am Rhein",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -324,7 +1023,10 @@
       "type": "HAIL",
       "time": "2026-07-15T13:02:00.000Z",
       "country": "CH",
+      "qc": "QC1",
       "place": "Wagenhausen",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -342,7 +1044,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T12:59:00.000Z",
       "country": "PL",
+      "qc": "QC0+",
       "place": "Ustrzyki Dolne",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
       "description": "PWS recorded a rain amount of 30,7 mm in 30 minutes.",
       "info_source": [
         "WWW",
@@ -359,7 +1064,10 @@
       "type": "HAIL",
       "time": "2026-07-15T12:57:00.000Z",
       "country": "CH",
+      "qc": "QC1",
       "place": "Diessenhofen",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -377,7 +1085,10 @@
       "type": "HAIL",
       "time": "2026-07-15T12:50:00.000Z",
       "country": "HR",
+      "qc": "QC1",
       "place": "Jablan",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
       "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
       "info_source": [
         "WWW",
@@ -395,15 +1106,13 @@
       "type": "HAIL",
       "time": "2026-07-15T12:46:00.000Z",
       "country": "DE",
-      "place": "Rehaldenhof",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
-      ]
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T12:29:00.000Z\", s\"01KXKG6VECPZ132N4A13D4WAZG\" ]",
@@ -412,16 +1121,13 @@
       "type": "HAIL",
       "time": "2026-07-15T12:29:00.000Z",
       "country": "CH",
-      "place": "Hemmental",
-      "description": "Large hail 3.5 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 15 JUL 2026"
-      ]
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T12:29:00.000Z\", s\"01KXKESVH3EPDER0BED83E5REJ\" ]",
@@ -430,15 +1136,13 @@
       "type": "HAIL",
       "time": "2026-07-15T12:29:00.000Z",
       "country": "DE",
-      "place": "Liptingen",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
-      ]
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T12:25:00.000Z\", s\"01KXKG86JBHSKGWNFBRAJDNWBX\" ]",
@@ -447,7 +1151,10 @@
       "type": "HAIL",
       "time": "2026-07-15T12:25:00.000Z",
       "country": "CH",
+      "qc": "QC1",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -459,7 +1166,10 @@
       "type": "HAIL",
       "time": "2026-07-15T12:25:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -471,7 +1181,10 @@
       "type": "HAIL",
       "time": "2026-07-15T12:16:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -483,7 +1196,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T12:04:00.000Z",
       "country": "PL",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -495,7 +1211,10 @@
       "type": "HAIL",
       "time": "2026-07-15T11:50:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -507,7 +1226,10 @@
       "type": "HAIL",
       "time": "2026-07-15T11:47:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -519,7 +1241,10 @@
       "type": "HAIL",
       "time": "2026-07-15T11:44:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -531,7 +1256,10 @@
       "type": "HAIL",
       "time": "2026-07-15T11:40:00.000Z",
       "country": "DE",
+      "qc": "QC1",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -543,7 +1271,10 @@
       "type": "HAIL",
       "time": "2026-07-15T11:35:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -555,7 +1286,10 @@
       "type": "HAIL",
       "time": "2026-07-15T11:35:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -567,7 +1301,10 @@
       "type": "HAIL",
       "time": "2026-07-15T11:35:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -579,7 +1316,10 @@
       "type": "HAIL",
       "time": "2026-07-15T11:33:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -591,7 +1331,10 @@
       "type": "HAIL",
       "time": "2026-07-15T11:32:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -603,7 +1346,10 @@
       "type": "LIGHTNING",
       "time": "2026-07-15T08:20:00.000Z",
       "country": "PL",
+      "qc": "QC1",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "15M",
       "description": null,
       "info_source": null,
       "references": null
@@ -615,7 +1361,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:55:00.000Z",
       "country": "PL",
+      "qc": "QC1",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "15M",
       "description": null,
       "info_source": null,
       "references": null
@@ -627,7 +1376,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:54:00.000Z",
       "country": "PL",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -639,7 +1391,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:44:00.000Z",
       "country": "PL",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -651,7 +1406,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:30:00.000Z",
       "country": "PL",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "1H",
       "description": null,
       "info_source": null,
       "references": null
@@ -663,7 +1421,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:30:00.000Z",
       "country": "PL",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "1H",
       "description": null,
       "info_source": null,
       "references": null
@@ -675,7 +1436,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:10:00.000Z",
       "country": "PL",
+      "qc": "QC1",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "1H",
       "description": null,
       "info_source": null,
       "references": null
@@ -687,7 +1451,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:05:00.000Z",
       "country": "PL",
+      "qc": "QC1",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "1H",
       "description": null,
       "info_source": null,
       "references": null
@@ -699,7 +1466,10 @@
       "type": "HAIL",
       "time": "2026-07-15T07:00:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -711,7 +1481,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:00:00.000Z",
       "country": "PL",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "1H",
       "description": null,
       "info_source": null,
       "references": null
@@ -723,7 +1496,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:00:00.000Z",
       "country": "PL",
+      "qc": "QC1",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "1H",
       "description": null,
       "info_source": null,
       "references": null
@@ -735,7 +1511,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T07:00:00.000Z",
       "country": "PL",
+      "qc": "QC1",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "1H",
       "description": null,
       "info_source": null,
       "references": null
@@ -747,7 +1526,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T06:50:00.000Z",
       "country": "PL",
+      "qc": "QC1",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "1H",
       "description": null,
       "info_source": null,
       "references": null
@@ -759,7 +1541,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T06:40:00.000Z",
       "country": "PL",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "1H",
       "description": null,
       "info_source": null,
       "references": null
@@ -771,7 +1556,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T06:00:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -783,7 +1571,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T05:59:00.000Z",
       "country": "PL",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -795,7 +1586,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T05:55:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -807,7 +1601,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T05:55:00.000Z",
       "country": "DE",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -819,15 +1616,13 @@
       "type": "PRECIP",
       "time": "2026-07-15T05:29:00.000Z",
       "country": "CZ",
-      "place": "Holasovice",
-      "description": "PWS recorded a rain amount of 30,7 mm in 30 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"Greench - IHOLAS1\", Wunderground, date of access: 15 JUL 2026. "
-      ]
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T05:29:00.000Z\", s\"01KXJ6CDPXKCTDW7JS5MRSEG47\" ]",
@@ -836,15 +1631,13 @@
       "type": "PRECIP",
       "time": "2026-07-15T05:29:00.000Z",
       "country": "CZ",
-      "place": "Sudice",
-      "description": "PWS recorded a rain amount of 45,2 mm in 50 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"GARNI weather station - ISUDIC3\", Wunderground, date of access: 15 JUL 2026. "
-      ]
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T05:24:00.000Z\", s\"01KXJ5XSZR73FRXYXV7063115F\" ]",
@@ -853,7 +1646,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T05:24:00.000Z",
       "country": "PL",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -865,7 +1661,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T05:24:00.000Z",
       "country": "PL",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -877,7 +1676,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T05:20:00.000Z",
       "country": "PL",
+      "qc": "QC1",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -889,15 +1691,13 @@
       "type": "PRECIP",
       "time": "2026-07-15T05:14:00.000Z",
       "country": "CZ",
-      "place": "Stěbořice",
-      "description": "PWS recorded a rain amount of 47,2 mm in 40 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"JamniceKom - ISTBOI5\", Wunderground, date of access: 15 JUL 2026. "
-      ]
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T04:49:00.000Z\", s\"01KXJ60PHP99PVPW8G1HPVAXMJ\" ]",
@@ -906,7 +1706,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T04:49:00.000Z",
       "country": "PL",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -918,15 +1721,13 @@
       "type": "PRECIP",
       "time": "2026-07-15T04:44:00.000Z",
       "country": "CZ",
-      "place": "Budišov nad Budišovkou",
-      "description": "PWS recorded a rain amount of 34,8 mm in 40 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"Meteo Guntramovice - IBUDIO6\", Wunderground, date of access: 15 JUL 2026. "
-      ]
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T04:40:00.000Z\", s\"01KXJ3HF97X07CZ4YQKBW6GWP2\" ]",
@@ -935,7 +1736,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T04:40:00.000Z",
       "country": "PL",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -947,7 +1751,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T04:34:00.000Z",
       "country": "PL",
+      "qc": "QC0+",
       "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -959,14 +1766,13 @@
       "type": "PRECIP",
       "time": "2026-07-15T04:30:00.000Z",
       "country": "CZ",
-      "place": "Červená",
-      "description": "torrential rain during thunderstorm | measurement by CHMI rain gauge station",
-      "info_source": [
-        "WXSVC"
-      ],
-      "references": [
-        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 15 JUL 2026"
-      ]
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T04:00:00.000Z\", s\"01KXJBQVV0YCERRFBHBZGDBEQ3\" ]",
@@ -975,14 +1781,13 @@
       "type": "PRECIP",
       "time": "2026-07-15T04:00:00.000Z",
       "country": "CZ",
-      "place": "Broumov",
-      "description": "torrential rain during thunderstorm | measurement by CHMI rain gauge station | peak precip. time was 02:40 - 03:10 UTC",
-      "info_source": [
-        "WXSVC"
-      ],
-      "references": [
-        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 15 JUL 2026"
-      ]
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
     }
   ]
 }
