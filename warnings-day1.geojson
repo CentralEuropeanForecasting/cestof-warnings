@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-07-16T15:18:13.514Z",
+  "generated_at": "2026-07-16T18:52:54.989Z",
   "features": [
     {
       "type": "Feature",
@@ -458,6 +458,126 @@
             [
               9.522743,
               47.613642
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1782906426978",
+        "type": "Tornado Watch",
+        "issued": "2026-07-01T13:47",
+        "issued_iso": "2026-07-01T11:47:00.000Z",
+        "expires": "2026-07-01T13:57",
+        "expires_iso": "2026-07-01T11:57:00.000Z",
+        "location": "Cernavoda,Romania",
+        "hail": "6,6cm",
+        "wind": "70kmh+",
+        "tornado_probability": "Elevated",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "6,6cm",
+          "wind": "70kmh+",
+          "tornado_probability": "Elevated",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-07-01T11:47:57.894Z",
+        "clipped_to": "Central Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.115387,
+              44.18842
+            ],
+            [
+              28.266449,
+              44.324155
+            ],
+            [
+              27.884674,
+              44.629879
+            ],
+            [
+              27.579803,
+              44.404661
+            ],
+            [
+              28.115387,
+              44.18842
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1784227818201",
+        "type": "Tornado Warning",
+        "issued": "2026-07-16T20:53",
+        "issued_iso": "2026-07-16T18:53:00.000Z",
+        "expires": "2026-07-16T21:02",
+        "expires_iso": "2026-07-16T19:02:00.000Z",
+        "location": "Welzheim,Germany",
+        "hail": "4,4cm",
+        "wind": "70kmh+",
+        "tornado_probability": "Possible",
+        "rotation": "Radar-indicated rotation",
+        "md_number": "",
+        "text": "",
+        "hazards": {
+          "hail": "4,4cm",
+          "wind": "70kmh+",
+          "tornado_probability": "Possible",
+          "rotation": "Radar-indicated rotation"
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-07-16T18:52:53.353Z",
+        "clipped_to": "Central Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.622307,
+              48.896846
+            ],
+            [
+              9.599648,
+              48.840388
+            ],
+            [
+              9.854393,
+              48.776173
+            ],
+            [
+              9.896278,
+              48.922119
+            ],
+            [
+              9.622307,
+              48.896846
             ]
           ]
         ]
