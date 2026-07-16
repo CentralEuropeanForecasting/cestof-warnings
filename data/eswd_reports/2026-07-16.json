@@ -1,0 +1,1013 @@
+{
+  "forecast_date": "2026-07-16",
+  "window_start_local": "2026-07-16T06:00:00+02:00",
+  "window_end_local": "2026-07-17T06:00:00+02:00",
+  "window_start_utc": "2026-07-16T04:00:00+00:00",
+  "window_end_utc": "2026-07-17T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 72,
+  "report_count": 72,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-16T16:11:00.000Z\", s\"01KXNWA6XJNRKR5VK7Z0ZWJ0J1\" ]",
+      "lat": 47.9726,
+      "lon": 7.8393,
+      "type": "HAIL",
+      "time": "2026-07-16T16:11:00.000Z",
+      "country": "DE",
+      "place": "Wonnhalde",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T16:00:00.000Z\", s\"01KXNW8G5K86GADWS0EEG169PE\" ]",
+      "lat": 47.9159,
+      "lon": 7.7,
+      "type": "HAIL",
+      "time": "2026-07-16T16:00:00.000Z",
+      "country": "DE",
+      "place": "Bad Krozingen",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:55:00.000Z\", s\"01KXNW5FGZBDY03BBRYEPMZAXQ\" ]",
+      "lat": 48.5637,
+      "lon": 10.9103,
+      "type": "HAIL",
+      "time": "2026-07-16T15:55:00.000Z",
+      "country": "DE",
+      "place": "Thierhaupten",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:53:00.000Z\", s\"01KXNWPN8KZCCHGEJY7563W1QW\" ]",
+      "lat": 47.21,
+      "lon": 7.0648,
+      "type": "HAIL",
+      "time": "2026-07-16T15:53:00.000Z",
+      "country": "CH",
+      "place": "Mont-Tramelan",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:52:00.000Z\", s\"01KXNWNDC94TSW2C18ASVPH5YR\" ]",
+      "lat": 47.2122,
+      "lon": 7.0343,
+      "type": "HAIL",
+      "time": "2026-07-16T15:52:00.000Z",
+      "country": "CH",
+      "place": "Les Cerneux",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:51:00.000Z\", s\"01KXNW3BMAD026PTPTPMF953G2\" ]",
+      "lat": 48.5634,
+      "lon": 10.8591,
+      "type": "HAIL",
+      "time": "2026-07-16T15:51:00.000Z",
+      "country": "DE",
+      "place": "Waltershofen",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:51:00.000Z\", s\"01KXNW0D342Q9M5K0CC3T8NQ5K\" ]",
+      "lat": 48.5478,
+      "lon": 10.8524,
+      "type": "HAIL",
+      "time": "2026-07-16T15:51:00.000Z",
+      "country": "DE",
+      "place": "Meitingen",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:47:00.000Z\", s\"01KXNW148HCDA9DQRHYF9TCXVC\" ]",
+      "lat": 48.549,
+      "lon": 10.822,
+      "type": "HAIL",
+      "time": "2026-07-16T15:47:00.000Z",
+      "country": "DE",
+      "place": "Langenreichermühle",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:46:00.000Z\", s\"01KXNWGXRVFJC6SRNEWAJ0YQJK\" ]",
+      "lat": 47.4123,
+      "lon": 7.1982,
+      "type": "HAIL",
+      "time": "2026-07-16T15:46:00.000Z",
+      "country": "CH",
+      "place": "Fregiécourt",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:46:00.000Z\", s\"01KXNVZNR0866NTA68V126C4D5\" ]",
+      "lat": 48.5741,
+      "lon": 10.8339,
+      "type": "HAIL",
+      "time": "2026-07-16T15:46:00.000Z",
+      "country": "DE",
+      "place": "Westendorf",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:45:00.000Z\", s\"01KXNW1KTXK3H4YJPQ145A7GA8\" ]",
+      "lat": 48.562,
+      "lon": 10.8217,
+      "type": "HAIL",
+      "time": "2026-07-16T15:45:00.000Z",
+      "country": "DE",
+      "place": "Kühlenthal",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:44:00.000Z\", s\"01KXNWVK6598X659JRY49K46V0\" ]",
+      "lat": 47.4235,
+      "lon": 7.2072,
+      "type": "HAIL",
+      "time": "2026-07-16T15:44:00.000Z",
+      "country": "CH",
+      "place": "Charmoille",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:44:00.000Z\", s\"01KXNW4DWSJHDBX4V37V01J385\" ]",
+      "lat": 48.555,
+      "lon": 10.7906,
+      "type": "HAIL",
+      "time": "2026-07-16T15:44:00.000Z",
+      "country": "DE",
+      "place": "Langenreichen",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:43:00.000Z\", s\"01KXNVV4XWG19M4M9M6JFZJC48\" ]",
+      "lat": 48.5677,
+      "lon": 10.7874,
+      "type": "HAIL",
+      "time": "2026-07-16T15:43:00.000Z",
+      "country": "DE",
+      "place": "Fertingen",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:42:00.000Z\", s\"01KXNWS3BRCCFJP8NHHQ1HQ6RY\" ]",
+      "lat": 47.3978,
+      "lon": 7.2093,
+      "type": "HAIL",
+      "time": "2026-07-16T15:42:00.000Z",
+      "country": "CH",
+      "place": "Asuel",
+      "description": "Large hail 3.5 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:41:00.000Z\", s\"01KXNWZ6J5YR2ENF8DKVV3AK4D\" ]",
+      "lat": 47.4025,
+      "lon": 7.2104,
+      "type": "HAIL",
+      "time": "2026-07-16T15:41:00.000Z",
+      "country": "CH",
+      "place": "Asuel",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:41:00.000Z\", s\"01KXNVX582M459H4WMFMZJ5K1Q\" ]",
+      "lat": 48.5653,
+      "lon": 10.7682,
+      "type": "HAIL",
+      "time": "2026-07-16T15:41:00.000Z",
+      "country": "DE",
+      "place": "Hirschbach",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:39:00.000Z\", s\"01KXNVS6C1NKKR0YTQFF1TH6D1\" ]",
+      "lat": 48.3767,
+      "lon": 10.3067,
+      "type": "HAIL",
+      "time": "2026-07-16T15:39:00.000Z",
+      "country": "DE",
+      "place": "Ichenhausen",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:31:00.000Z\", s\"01KXNXCDNWVV5FP6CK6G2BG5CK\" ]",
+      "lat": 47.3352,
+      "lon": 7.116,
+      "type": "HAIL",
+      "time": "2026-07-16T15:31:00.000Z",
+      "country": "CH",
+      "place": "Epauvillers",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:30:00.000Z\", s\"01KXNXEEY0GRZWMEGVJ7ZQCQWE\" ]",
+      "lat": 47.334,
+      "lon": 7.1406,
+      "type": "HAIL",
+      "time": "2026-07-16T15:30:00.000Z",
+      "country": "CH",
+      "place": "Tariche",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:29:00.000Z\", s\"01KXNX2YVZKY270JQZ0MWA7B9N\" ]",
+      "lat": 47.3088,
+      "lon": 7.1187,
+      "type": "HAIL",
+      "time": "2026-07-16T15:29:00.000Z",
+      "country": "CH",
+      "place": "Saint-Brais",
+      "description": "Large hail 5 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:29:00.000Z\", s\"01KXNVMGJ0C5SQDQ8NWRG6K709\" ]",
+      "lat": 48.5874,
+      "lon": 10.7262,
+      "type": "HAIL",
+      "time": "2026-07-16T15:29:00.000Z",
+      "country": "DE",
+      "place": "Hinterried",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:24:00.000Z\", s\"01KXNXNVYZ2B878HBNTDZFEAVA\" ]",
+      "lat": 47.3148,
+      "lon": 7.1552,
+      "type": "HAIL",
+      "time": "2026-07-16T15:24:00.000Z",
+      "country": "CH",
+      "place": "Prés de Sceut-Dessous",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:24:00.000Z\", s\"01KXNX8JCJT7VC99TF0BZN98QC\" ]",
+      "lat": 47.302,
+      "lon": 7.1534,
+      "type": "HAIL",
+      "time": "2026-07-16T15:24:00.000Z",
+      "country": "CH",
+      "place": "Saulcy",
+      "description": "Large hail 5-5.5 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:24:00.000Z\", s\"01KXNTSXG1ZPM4XGPDSRY8HGAS\" ]",
+      "lat": 49.1925,
+      "lon": 7.025,
+      "type": "HAIL",
+      "time": "2026-07-16T15:24:00.000Z",
+      "country": "DE",
+      "place": "Unner",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:23:00.000Z\", s\"01KXNXM7M5PRR740V26Z1BNYCA\" ]",
+      "lat": 47.3028,
+      "lon": 7.1129,
+      "type": "HAIL",
+      "time": "2026-07-16T15:23:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:22:00.000Z\", s\"01KXNVHHQ8B8FEFF3Q1RZAYWAF\" ]",
+      "lat": 48.6113,
+      "lon": 10.5678,
+      "type": "HAIL",
+      "time": "2026-07-16T15:22:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:19:00.000Z\", s\"01KXNWXHACRVEYE2A11K7ZRWJK\" ]",
+      "lat": 47.2629,
+      "lon": 7.0334,
+      "type": "HAIL",
+      "time": "2026-07-16T15:19:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:13:00.000Z\", s\"01KXNXHVF11EMXK9TPJ9GYF5ZT\" ]",
+      "lat": 47.2245,
+      "lon": 7.0838,
+      "type": "HAIL",
+      "time": "2026-07-16T15:13:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:12:00.000Z\", s\"01KXNXQYXMSV4Y0XASS52M885N\" ]",
+      "lat": 47.2227,
+      "lon": 7.0275,
+      "type": "HAIL",
+      "time": "2026-07-16T15:12:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:12:00.000Z\", s\"01KXNVJKTDVZS0EQQTH2DCYNK9\" ]",
+      "lat": 48.6155,
+      "lon": 10.5386,
+      "type": "HAIL",
+      "time": "2026-07-16T15:12:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:11:00.000Z\", s\"01KXNXGV5HF2J45F0H06PD3AXQ\" ]",
+      "lat": 47.2106,
+      "lon": 7.0036,
+      "type": "HAIL",
+      "time": "2026-07-16T15:11:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:05:00.000Z\", s\"01KXNTHFPPTD06PT4D5DVQSB8M\" ]",
+      "lat": 48.4219,
+      "lon": 10.0126,
+      "type": "HAIL",
+      "time": "2026-07-16T15:05:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:04:00.000Z\", s\"01KXNTG7BXB0HZPAZSAFP8CQFP\" ]",
+      "lat": 48.4148,
+      "lon": 10.0036,
+      "type": "HAIL",
+      "time": "2026-07-16T15:04:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:04:00.000Z\", s\"01KXNT9R8BE7V2VMEJQQMRHB80\" ]",
+      "lat": 48.4078,
+      "lon": 10.0019,
+      "type": "HAIL",
+      "time": "2026-07-16T15:04:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:03:00.000Z\", s\"01KXNTEHA6AE7XNKB91HFX6NCH\" ]",
+      "lat": 48.4115,
+      "lon": 9.9883,
+      "type": "HAIL",
+      "time": "2026-07-16T15:03:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:01:00.000Z\", s\"01KXNXXB3EYDV07QVEHATG7KGG\" ]",
+      "lat": 47.1334,
+      "lon": 6.9975,
+      "type": "HAIL",
+      "time": "2026-07-16T15:01:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:00:00.000Z\", s\"01KXNVCVVJCJQAKWD0K24HXS0R\" ]",
+      "lat": 48.6121,
+      "lon": 10.4443,
+      "type": "HAIL",
+      "time": "2026-07-16T15:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:00:00.000Z\", s\"01KXNTKWPHPCZJWT4Y6KZ7FK5P\" ]",
+      "lat": 48.4224,
+      "lon": 9.9554,
+      "type": "HAIL",
+      "time": "2026-07-16T15:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:00:00.000Z\", s\"01KXNTBH2Q4R405MSQXXXVHCC1\" ]",
+      "lat": 48.4087,
+      "lon": 9.9547,
+      "type": "HAIL",
+      "time": "2026-07-16T15:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:00:00.000Z\", s\"01KXNT7J29M1D074VY9N2R0528\" ]",
+      "lat": 48.4332,
+      "lon": 9.9676,
+      "type": "HAIL",
+      "time": "2026-07-16T15:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T14:59:00.000Z\", s\"01KXNTJYFXFPM512WPG0ST9C13\" ]",
+      "lat": 48.4209,
+      "lon": 9.9426,
+      "type": "HAIL",
+      "time": "2026-07-16T14:59:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T14:59:00.000Z\", s\"01KXNTCMPBV4YWT41SQA6CVMCW\" ]",
+      "lat": 48.413,
+      "lon": 9.9501,
+      "type": "HAIL",
+      "time": "2026-07-16T14:59:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T14:58:00.000Z\", s\"01KXNT69VSXS6FAQSYTF5BM4AA\" ]",
+      "lat": 48.4358,
+      "lon": 9.9361,
+      "type": "HAIL",
+      "time": "2026-07-16T14:58:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T14:58:00.000Z\", s\"01KXNT1E5W1F8CHF9EG3MX6NSK\" ]",
+      "lat": 48.415,
+      "lon": 9.9386,
+      "type": "HAIL",
+      "time": "2026-07-16T14:58:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T14:57:00.000Z\", s\"01KXNT2TKJCMDTSBS8GYGNHV14\" ]",
+      "lat": 48.4208,
+      "lon": 9.9209,
+      "type": "HAIL",
+      "time": "2026-07-16T14:57:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T14:53:00.000Z\", s\"01KXNSZ076ARV9K0HT6CVT6HRH\" ]",
+      "lat": 48.4259,
+      "lon": 9.8955,
+      "type": "HAIL",
+      "time": "2026-07-16T14:53:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T14:39:00.000Z\", s\"01KXNST7XF9Y1YGWAJ52DREV7Q\" ]",
+      "lat": 48.4647,
+      "lon": 9.761,
+      "type": "HAIL",
+      "time": "2026-07-16T14:39:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T14:36:00.000Z\", s\"01KXNSK3VEG392KTY9PNHV3XTY\" ]",
+      "lat": 48.4933,
+      "lon": 9.7415,
+      "type": "HAIL",
+      "time": "2026-07-16T14:36:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T14:32:00.000Z\", s\"01KXNSHJ6YX4D8SC123XY84YJC\" ]",
+      "lat": 48.4897,
+      "lon": 9.6861,
+      "type": "HAIL",
+      "time": "2026-07-16T14:32:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T14:29:00.000Z\", s\"01KXNSRFBAWC5ZSNQEBW3CB5C3\" ]",
+      "lat": 48.5009,
+      "lon": 9.6618,
+      "type": "HAIL",
+      "time": "2026-07-16T14:29:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T14:06:00.000Z\", s\"01KXNS7T8R4CJ87KYJ59RWXDZ8\" ]",
+      "lat": 48.5558,
+      "lon": 9.4299,
+      "type": "HAIL",
+      "time": "2026-07-16T14:06:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T14:03:00.000Z\", s\"01KXNSB0525ZE67K8Q3YQBQ960\" ]",
+      "lat": 48.5546,
+      "lon": 9.3765,
+      "type": "HAIL",
+      "time": "2026-07-16T14:03:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T14:00:00.000Z\", s\"01KXNSCS8X1X3XHG2ZVEXJXD89\" ]",
+      "lat": 48.5578,
+      "lon": 9.3383,
+      "type": "HAIL",
+      "time": "2026-07-16T14:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T14:00:00.000Z\", s\"01KXNRFJB2CSN4PMBXS71BTQ7Q\" ]",
+      "lat": 48.544,
+      "lon": 9.3024,
+      "type": "HAIL",
+      "time": "2026-07-16T14:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T14:00:00.000Z\", s\"01KXNR4CPNSEP3ATR8VNTRMW3V\" ]",
+      "lat": 48.5339,
+      "lon": 9.3353,
+      "type": "HAIL",
+      "time": "2026-07-16T14:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T13:58:00.000Z\", s\"01KXNRDSQKREW2N2FT8H7FSXB4\" ]",
+      "lat": 48.5474,
+      "lon": 9.281,
+      "type": "HAIL",
+      "time": "2026-07-16T13:58:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T13:58:00.000Z\", s\"01KXNRAH7F23V20VSFJSDX3K9K\" ]",
+      "lat": 48.5358,
+      "lon": 9.2726,
+      "type": "HAIL",
+      "time": "2026-07-16T13:58:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T13:58:00.000Z\", s\"01KXNR9CW41NZ3HM76M0NNR63N\" ]",
+      "lat": 48.5488,
+      "lon": 9.2885,
+      "type": "HAIL",
+      "time": "2026-07-16T13:58:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T13:58:00.000Z\", s\"01KXNR87ZDNGP68BCPBK9ZQY71\" ]",
+      "lat": 48.5416,
+      "lon": 9.2865,
+      "type": "HAIL",
+      "time": "2026-07-16T13:58:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T13:56:00.000Z\", s\"01KXNS620AXXFYSBA91PE7BVE7\" ]",
+      "lat": 48.5508,
+      "lon": 9.2654,
+      "type": "HAIL",
+      "time": "2026-07-16T13:56:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T13:56:00.000Z\", s\"01KXNRNRDP9473KWCY5SW8ZNTF\" ]",
+      "lat": 48.5877,
+      "lon": 9.3457,
+      "type": "HAIL",
+      "time": "2026-07-16T13:56:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T13:56:00.000Z\", s\"01KXNR6CF8G8HFA8F2K98XPY5S\" ]",
+      "lat": 48.5561,
+      "lon": 9.2924,
+      "type": "HAIL",
+      "time": "2026-07-16T13:56:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T13:55:00.000Z\", s\"01KXNQKR4S9M7Y5MR0X8XW3Y4S\" ]",
+      "lat": 48.5898,
+      "lon": 9.3088,
+      "type": "HAIL",
+      "time": "2026-07-16T13:55:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T13:54:00.000Z\", s\"01KXNQPCAF75W8NK8RA9HJGNV2\" ]",
+      "lat": 48.5925,
+      "lon": 9.2711,
+      "type": "HAIL",
+      "time": "2026-07-16T13:54:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T13:54:00.000Z\", s\"01KXNQJDHNBZHJZ32SW1FGWMT4\" ]",
+      "lat": 48.5694,
+      "lon": 9.2631,
+      "type": "HAIL",
+      "time": "2026-07-16T13:54:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T13:54:00.000Z\", s\"01KXNQFGGEW6468J1652WTW40R\" ]",
+      "lat": 48.5645,
+      "lon": 9.2661,
+      "type": "HAIL",
+      "time": "2026-07-16T13:54:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T13:51:00.000Z\", s\"01KXNRHW0TTG8C7718BKMH2BAV\" ]",
+      "lat": 48.5599,
+      "lon": 9.2342,
+      "type": "HAIL",
+      "time": "2026-07-16T13:51:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T13:48:00.000Z\", s\"01KXNRK18EHBJDJZY7T0ZDR062\" ]",
+      "lat": 48.576,
+      "lon": 9.1957,
+      "type": "HAIL",
+      "time": "2026-07-16T13:48:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T13:45:00.000Z\", s\"01KXNQDAGZTXZW6AGJCC4RXWSD\" ]",
+      "lat": 48.5921,
+      "lon": 9.19,
+      "type": "HAIL",
+      "time": "2026-07-16T13:45:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T13:45:00.000Z\", s\"01KXNQBP66QS5S9HJBKRTF3ZHB\" ]",
+      "lat": 48.5858,
+      "lon": 9.182,
+      "type": "HAIL",
+      "time": "2026-07-16T13:45:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T07:40:00.000Z\", s\"01KXNPP2SBK9D6P5DVCRA5HZC7\" ]",
+      "lat": 45.4384,
+      "lon": 16.3543,
+      "type": "HAIL",
+      "time": "2026-07-16T07:40:00.000Z",
+      "country": "HR",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    }
+  ]
+}

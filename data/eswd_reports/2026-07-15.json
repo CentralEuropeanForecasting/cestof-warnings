@@ -5,8 +5,8 @@
   "window_start_utc": "2026-07-15T04:00:00+00:00",
   "window_end_utc": "2026-07-16T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 140,
-  "report_count": 140,
+  "raw_count": 153,
+  "report_count": 153,
   "reports": [
     {
       "id": "weather_events:[ d\"2026-07-16T03:49:00.000Z\", s\"01KXMQB2D18R9K1RRG9CGSZ1X8\" ]",
@@ -74,6 +74,23 @@
       ],
       "references": [
         "\"Renda - IMALEO6\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T01:30:00.000Z\", s\"01KXNG9Y688XWAMWFWZ2Z683X5\" ]",
+      "lat": 49.957,
+      "lon": 14.3193,
+      "type": "PRECIP",
+      "time": "2026-07-16T01:30:00.000Z",
+      "country": "CZ",
+      "place": "Černošice",
+      "description": "Local flooding was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "\"Zásahy jednotek požární ochrany\", Středočeský kraj, 16 JUL 2026."
       ]
     },
     {
@@ -286,13 +303,14 @@
       "time": "2026-07-16T00:19:00.000Z",
       "country": "CZ",
       "place": "Žebrák",
-      "description": "PWS recorded a rain amount of 31,2 mm in 30 minutes.",
+      "description": "PWS recorded a rain amount of 31,2 mm in 30 minutes. Local flooding was reported.",
       "info_source": [
         "WWW",
         "WXSVC"
       ],
       "references": [
-        "\"Martin Šesták - IEBRK10\", Wunderground, date of access: 16 JUL 2026."
+        "\"Martin Šesták - IEBRK10\", Wunderground, date of access: 16 JUL 2026.",
+        "\"Zásahy jednotek požární ochrany\", Středočeský kraj, 16 JUL 2026."
       ]
     },
     {
@@ -469,15 +487,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T23:59:00.000Z",
       "country": "CZ",
-      "place": "Radotín",
-      "description": "PWS recorded a rain amount of 55,4 mm in 70 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"Dehtínská - IPRAGU1511\", Wunderground, date of access: 16 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T23:59:00.000Z\", s\"01KXMQG2PA7G3XHMRXC6MKAHCT\" ]",
@@ -582,6 +595,40 @@
       ],
       "references": [
         "Weather Station"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T17:59:00.000Z\", s\"01KXNJDJ39NC5K5Q0HPXD7H43B\" ]",
+      "lat": 51.805,
+      "lon": 19.763,
+      "type": "PRECIP",
+      "time": "2026-07-15T17:59:00.000Z",
+      "country": "PL",
+      "place": "Brzeziny",
+      "description": "PWS recorded a rain amount of 29,5 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Eurochron EFWS 2900 - IBRZEZ12\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T17:39:00.000Z\", s\"01KXNJASP0JKJE11KKH5GH01S1\" ]",
+      "lat": 50.435,
+      "lon": 21.5,
+      "type": "PRECIP",
+      "time": "2026-07-15T17:39:00.000Z",
+      "country": "PL",
+      "place": "Padew Narodowa",
+      "description": "PWS recorded a rain amount of 25,7 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Sencor SWS GP - IPADEW1\", Wunderground, date of access: 16 JUL 2026."
       ]
     },
     {
@@ -795,6 +842,18 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-15T16:29:00.000Z\", s\"01KXNJ3XWQ5WCMMW40FTHN4S2H\" ]",
+      "lat": 49.052,
+      "lon": 16.739,
+      "type": "PRECIP",
+      "time": "2026-07-15T16:29:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-15T16:25:00.000Z\", s\"01KXKFNAJGC02KN8RY233VDNQF\" ]",
       "lat": 48.4852,
       "lon": 9.032,
@@ -846,6 +905,18 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-15T16:14:00.000Z\", s\"01KXNHY02GEHC83B0Q14343YVF\" ]",
+      "lat": 49.012,
+      "lon": 16.598,
+      "type": "PRECIP",
+      "time": "2026-07-15T16:14:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-15T16:13:00.000Z\", s\"01KXKFFGJ9XYGKW218HY9MP4QQ\" ]",
       "lat": 48.4791,
       "lon": 8.749,
@@ -880,6 +951,18 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-15T16:04:00.000Z\", s\"01KXNJ020GDCQ1T46FXPHCZGF6\" ]",
+      "lat": 49.036,
+      "lon": 16.589,
+      "type": "PRECIP",
+      "time": "2026-07-15T16:04:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-15T15:50:00.000Z\", s\"01KXKF8995EZB7REP8VWW9KJ0X\" ]",
       "lat": 48.3716,
       "lon": 8.819,
@@ -895,6 +978,35 @@
       "references": [
         "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
       ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T15:49:00.000Z\", s\"01KXNJ9FPHXAT73A2HZCTC31GF\" ]",
+      "lat": 50.159,
+      "lon": 22.025,
+      "type": "PRECIP",
+      "time": "2026-07-15T15:49:00.000Z",
+      "country": "PL",
+      "place": "Wysoka Głogowska",
+      "description": "PWS recorded a rain amount of 37,1 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Kazimierz - IWYSOK1\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T15:49:00.000Z\", s\"01KXNJ2FSA5AEA5P0RH31VYRPM\" ]",
+      "lat": 49.017,
+      "lon": 16.537,
+      "type": "PRECIP",
+      "time": "2026-07-15T15:49:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T15:46:00.000Z\", s\"01KXKFAWWTA8VZM7HEKJJB241B\" ]",
@@ -1099,6 +1211,23 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-15T15:09:00.000Z\", s\"01KXNJFG8FRRHQWQDKBMP2PC8H\" ]",
+      "lat": 51.696,
+      "lon": 19.673,
+      "type": "PRECIP",
+      "time": "2026-07-15T15:09:00.000Z",
+      "country": "PL",
+      "place": "Bukowiec",
+      "description": "PWS recorded a rain amount of 36,3 mm in 60 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"StacjaPogodowa - IBUKOW37\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-15T14:50:00.000Z\", s\"01KXN0ES3MERKFXVCPG1ZTGKB4\" ]",
       "lat": 49.2885,
       "lon": 16.4587,
@@ -1109,6 +1238,40 @@
       "description": null,
       "info_source": null,
       "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T14:49:00.000Z\", s\"01KXNJ7VX649PH7YZV32VKGHXJ\" ]",
+      "lat": 49.987,
+      "lon": 22.226,
+      "type": "PRECIP",
+      "time": "2026-07-15T14:49:00.000Z",
+      "country": "PL",
+      "place": "Handzlówka",
+      "description": "PWS recorded a rain amount of 33 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Handzlówka ZOL - IHANDZ1\", Wunderground, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T14:39:00.000Z\", s\"01KXNJ5DW369KT68X6QZ1140E0\" ]",
+      "lat": 50.025,
+      "lon": 22.285,
+      "type": "PRECIP",
+      "time": "2026-07-15T14:39:00.000Z",
+      "country": "PL",
+      "place": "Markowa",
+      "description": "PWS recorded a rain amount of 53,1 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"GARNI weather station - IMARKO6\", Wunderground, date of access: 16 JUL 2026."
+      ]
     },
     {
       "id": "weather_events:[ d\"2026-07-15T14:24:00.000Z\", s\"01KXKF47GK1GSDKT1BA5M0VADB\" ]",
@@ -1208,16 +1371,10 @@
       "type": "HAIL",
       "time": "2026-07-15T13:50:00.000Z",
       "country": "CH",
-      "place": "Tägerwilen",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 15 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T13:45:00.000Z\", s\"01KXMVT8852WXY3WKC7W2A4WRB\" ]",
@@ -1226,18 +1383,10 @@
       "type": "HAIL",
       "time": "2026-07-15T13:45:00.000Z",
       "country": "HR",
-      "place": "Stajnica",
-      "description": "Very large hail up to at least 5 cm i.d. was reported. Damage to roofs occurred. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO",
-        "DMGEYEWTN",
-        "DMGPHOTO"
-      ],
-      "references": [
-        "Eyewitnesses reports via Stajnica (on Facebook), 15 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T13:44:00.000Z\", s\"01KXMWTHV3JB4QHWNZ6SVCG7EP\" ]",
@@ -1246,19 +1395,10 @@
       "type": "HAIL",
       "time": "2026-07-15T13:44:00.000Z",
       "country": "HR",
-      "place": "Jezerane",
-      "description": "Very large hail up to at least 7 cm i.d. was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO",
-        "DMGEYEWTN",
-        "DMGPHOTO"
-      ],
-      "references": [
-        "Eyewitness report via LIKACLUB.eu (on Facebook), 15 JUL 2026.",
-        "Eyewitness report via Portal Slobodna Lika (on Facebook), 15 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T13:38:00.000Z\", s\"01KXMW42TPE7Q8CJHSX7SJZY8V\" ]",
@@ -1267,18 +1407,10 @@
       "type": "HAIL",
       "time": "2026-07-15T13:38:00.000Z",
       "country": "HR",
-      "place": "Razvala",
-      "description": "Large hail up to at least 3 cm i.d. was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO",
-        "DMGEYEWTN",
-        "DMGPHOTO"
-      ],
-      "references": [
-        "Eko Opg Gardens Lika (on Facebook), 15 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T13:24:00.000Z\", s\"01KXK0VNQQ0BJHVG3DHJ8X6ARG\" ]",
@@ -1287,15 +1419,10 @@
       "type": "PRECIP",
       "time": "2026-07-15T13:24:00.000Z",
       "country": "PL",
-      "place": "Zabrodzie",
-      "description": "PWS recorded a rain amount of 33,8 mm in 50 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"Stefan - IZABRO2\", Wunderground, date of access: 15 JUL 2026. "
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T13:23:00.000Z\", s\"01KXMW10R27PA9R96YZWR4YK5H\" ]",
@@ -1304,16 +1431,10 @@
       "type": "HAIL",
       "time": "2026-07-15T13:23:00.000Z",
       "country": "HR",
-      "place": "Modruš",
-      "description": "Large hail up to at least 2 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Eyewitnesses reports via Neverin (on Facebook), 15 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T13:06:00.000Z\", s\"01KXKG262VDQ23H9AQ7FKNY8WX\" ]",
@@ -1760,6 +1881,18 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-15T06:24:00.000Z\", s\"01KXNHTM90TV3P1EA6X7MCQ660\" ]",
+      "lat": 49.307,
+      "lon": 18.095,
+      "type": "PRECIP",
+      "time": "2026-07-15T06:24:00.000Z",
+      "country": "CZ",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-15T06:00:00.000Z\", s\"01KXJ8FGFWCNFNSYRPNWTQRH8M\" ]",
       "lat": 47.5091,
       "lon": 10.3197,
@@ -1862,6 +1995,18 @@
       "type": "PRECIP",
       "time": "2026-07-15T05:20:00.000Z",
       "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T05:14:00.000Z\", s\"01KXNHWFWMCVXQ3V8GP0G57MH8\" ]",
+      "lat": 49.96,
+      "lon": 17.788,
+      "type": "PRECIP",
+      "time": "2026-07-15T05:14:00.000Z",
+      "country": "CZ",
       "place": null,
       "description": null,
       "info_source": null,
