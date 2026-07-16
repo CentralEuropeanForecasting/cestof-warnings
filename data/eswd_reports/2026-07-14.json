@@ -5,8 +5,8 @@
   "window_start_utc": "2026-07-14T04:00:00+00:00",
   "window_end_utc": "2026-07-15T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 342,
-  "report_count": 342,
+  "raw_count": 379,
+  "report_count": 379,
   "reports": [
     {
       "id": "weather_events:[ d\"2026-07-15T03:59:00.000Z\", s\"01KXJ62MZ8714WTE13HBRAYDH5\" ]",
@@ -177,6 +177,22 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-15T02:10:00.000Z\", s\"01KXN2Z9ZSPY89Y8WYFSYZ94VB\" ]",
+      "lat": 51.1813,
+      "lon": 14.9334,
+      "type": "PRECIP",
+      "time": "2026-07-15T02:10:00.000Z",
+      "country": "DE",
+      "place": "Ebersbach",
+      "description": null,
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Gewitter verursachen Schäden im Osterzgebirge und in der Oberlausitz\", MDR, 15 JUL 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-15T02:09:00.000Z\", s\"01KXKD4YY4V91ZAV980GFRQEDF\" ]",
       "lat": 47.4627,
       "lon": 11.245,
@@ -246,6 +262,38 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-15T01:00:00.000Z\", s\"01KXN2VZNP69BMA6P73WWJCD5P\" ]",
+      "lat": 50.9618,
+      "lon": 13.9386,
+      "type": "PRECIP",
+      "time": "2026-07-15T01:00:00.000Z",
+      "country": "DE",
+      "place": "Pirna",
+      "description": "Roof damaged due to heavy rainfall/roof water accumulation",
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Gewitter verursachen Schäden im Osterzgebirge und in der Oberlausitz\", MDR, 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T01:00:00.000Z\", s\"01KXN2TYTWJ6XC9WXJPN1JGVM9\" ]",
+      "lat": 50.9507,
+      "lon": 13.9503,
+      "type": "PRECIP",
+      "time": "2026-07-15T01:00:00.000Z",
+      "country": "DE",
+      "place": "Sonnenstein",
+      "description": null,
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Gewitter verursachen Schäden im Osterzgebirge und in der Oberlausitz\", MDR, 15 JUL 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-15T00:59:00.000Z\", s\"01KXJ6T8ES5K2RVC3P9TWJC8TD\" ]",
       "lat": 50.621,
       "lon": 15.614,
@@ -260,6 +308,54 @@
       ],
       "references": [
         "\"Black Blood - IVRCHL19\", Wunderground, date of access: 15 JUL 2026. "
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T00:30:00.000Z\", s\"01KXN33A8ZDW9R70MNQQF2JQ26\" ]",
+      "lat": 50.8635,
+      "lon": 13.857,
+      "type": "LIGHTNING",
+      "time": "2026-07-15T00:30:00.000Z",
+      "country": "DE",
+      "place": "Liebstadt",
+      "description": null,
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Gewitter verursachen Schäden im Osterzgebirge und in der Oberlausitz\", MDR, 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T00:15:00.000Z\", s\"01KXN34FJTPNCCXNT31YTR9E7G\" ]",
+      "lat": 51.1563,
+      "lon": 14.991,
+      "type": "LIGHTNING",
+      "time": "2026-07-15T00:15:00.000Z",
+      "country": "DE",
+      "place": "Görlitz",
+      "description": null,
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Gewitter verursachen Schäden im Osterzgebirge und in der Oberlausitz\", MDR, 15 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T00:00:00.000Z\", s\"01KXN31Q3YWSGHG4CEY01VTJA4\" ]",
+      "lat": 51.025,
+      "lon": 14.2141,
+      "type": "LIGHTNING",
+      "time": "2026-07-15T00:00:00.000Z",
+      "country": "DE",
+      "place": "Neustadt in Sachsen",
+      "description": null,
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Gewitter verursachen Schäden im Osterzgebirge und in der Oberlausitz\", MDR, 15 JUL 2026"
       ]
     },
     {
@@ -495,16 +591,10 @@
       "type": "HAIL",
       "time": "2026-07-14T20:00:00.000Z",
       "country": "DE",
-      "place": "Müllenbach",
-      "description": "Large hail 2.5 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 14 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-14T19:57:00.000Z\", s\"01KXJGEK343HWPKCRTQX8CTSPX\" ]",
@@ -513,15 +603,10 @@
       "type": "HAIL",
       "time": "2026-07-14T19:57:00.000Z",
       "country": "DE",
-      "place": "Oberweier",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 14 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-14T19:56:00.000Z\", s\"01KXJGC8DYPX5MQSC0GCHPKX2M\" ]",
@@ -530,15 +615,10 @@
       "type": "HAIL",
       "time": "2026-07-14T19:56:00.000Z",
       "country": "DE",
-      "place": "Vimbuch",
-      "description": "Large hail 3 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 14 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-14T19:48:00.000Z\", s\"01KXJGA0CV1GJFH08NS3P5KYH4\" ]",
@@ -547,15 +627,10 @@
       "type": "HAIL",
       "time": "2026-07-14T19:48:00.000Z",
       "country": "DE",
-      "place": "Lichtenau",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 14 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-14T19:45:00.000Z\", s\"01KXJGDSS7WED2XGRDHEPY50HW\" ]",
@@ -564,15 +639,10 @@
       "type": "HAIL",
       "time": "2026-07-14T19:45:00.000Z",
       "country": "DE",
-      "place": "Schwarzach",
-      "description": "Large hail 3 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 14 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-14T19:43:00.000Z\", s\"01KXJGH92BAS0FJ37K0GK5B6Q8\" ]",
@@ -581,15 +651,10 @@
       "type": "HAIL",
       "time": "2026-07-14T19:43:00.000Z",
       "country": "DE",
-      "place": "Greffern",
-      "description": "Large hail 3 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 14 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-14T19:26:00.000Z\", s\"01KXK9F8TJHZC9A9R4FFGTERZ8\" ]",
@@ -1456,6 +1521,57 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-14T17:15:00.000Z\", s\"01KXNEQCZB6FK5BBK6EK6PW3EN\" ]",
+      "lat": 49.248,
+      "lon": 17.2078,
+      "type": "PRECIP",
+      "time": "2026-07-14T17:15:00.000Z",
+      "country": "CZ",
+      "place": "Morkovice",
+      "description": "Flooded cellars were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "\"Přehled událostí HZS (#26)\", webohledzlk.hzscr.cz, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T17:07:00.000Z\", s\"01KXNE9BV8XGR8NJJJ3SJZZ7ET\" ]",
+      "lat": 49.2456,
+      "lon": 17.403,
+      "type": "WIND",
+      "time": "2026-07-14T17:07:00.000Z",
+      "country": "CZ",
+      "place": "Velké Těšany",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "\"Přehled událostí HZS (#26)\", webohledzlk.hzscr.cz, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T17:05:00.000Z\", s\"01KXNE9R1J6W729C0N4RWRFZNE\" ]",
+      "lat": 49.2377,
+      "lon": 17.3752,
+      "type": "WIND",
+      "time": "2026-07-14T17:05:00.000Z",
+      "country": "CZ",
+      "place": "Zlámanka",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "\"Přehled událostí HZS (#26)\", webohledzlk.hzscr.cz, date of access: 16 JUL 2026."
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-14T16:58:00.000Z\", s\"01KXJP4BQ8E7G05464TGBKZ8HJ\" ]",
       "lat": 49.4362,
       "lon": 11.2213,
@@ -1490,6 +1606,23 @@
       "description": null,
       "info_source": null,
       "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T16:55:00.000Z\", s\"01KXNE50CJMH0C3MDDDHB5AS61\" ]",
+      "lat": 49.2422,
+      "lon": 17.4701,
+      "type": "WIND",
+      "time": "2026-07-14T16:55:00.000Z",
+      "country": "CZ",
+      "place": "Kvasice",
+      "description": "Wind damage was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "\"Přehled událostí HZS (#26)\", webohledzlk.hzscr.cz, date of access: 16 JUL 2026."
+      ]
     },
     {
       "id": "weather_events:[ d\"2026-07-14T16:55:00.000Z\", s\"01KXJPA2Y5SNCXA41K9Y3Q8A1V\" ]",
@@ -1672,6 +1805,26 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-14T16:45:00.000Z\", s\"01KXNE1694JW25NXE7X9PF6HNV\" ]",
+      "lat": 49.1888,
+      "lon": 17.286,
+      "type": "WIND",
+      "time": "2026-07-14T16:45:00.000Z",
+      "country": "CZ",
+      "place": "Roštín",
+      "description": "Numerous downed trees and damaged roofs were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "HZS Zlínského kraje (on Facebook), 14 JUL 2026.",
+        "JPO Roštín (on Facebook), 15 JUL 2026.",
+        "\"Přehled událostí HZS (#26)\", webohledzlk.hzscr.cz, date of access: 16 JUL 2026."
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-14T16:41:00.000Z\", s\"01KXGXJGTCJ3AZQQA5WW2R3DZ2\" ]",
       "lat": 50.9416,
       "lon": 10.7156,
@@ -1682,6 +1835,57 @@
       "description": null,
       "info_source": null,
       "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T16:40:00.000Z\", s\"01KXNEJSZ4BA274HH4Q3VXT4R0\" ]",
+      "lat": 49.2113,
+      "lon": 17.2886,
+      "type": "WIND",
+      "time": "2026-07-14T16:40:00.000Z",
+      "country": "CZ",
+      "place": "Lebedov",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "\"Přehled událostí HZS (#26)\", webohledzlk.hzscr.cz, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T16:40:00.000Z\", s\"01KXNEH1ZFTB28Z9EJYDKCSVEY\" ]",
+      "lat": 49.2612,
+      "lon": 17.266,
+      "type": "WIND",
+      "time": "2026-07-14T16:40:00.000Z",
+      "country": "CZ",
+      "place": "Medlov",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "\"Přehled událostí HZS (#26)\", webohledzlk.hzscr.cz, date of access: 16 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T16:40:00.000Z\", s\"01KXNEFCFPF6YTHNVJJRMHWSYS\" ]",
+      "lat": 49.2597,
+      "lon": 17.1689,
+      "type": "WIND",
+      "time": "2026-07-14T16:40:00.000Z",
+      "country": "CZ",
+      "place": "Pačlavice",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "\"Přehled událostí HZS (#26)\", webohledzlk.hzscr.cz, date of access: 16 JUL 2026."
+      ]
     },
     {
       "id": "weather_events:[ d\"2026-07-14T16:40:00.000Z\", s\"01KXJNRRWAVJRZFBHB2XT344HS\" ]",
@@ -2500,6 +2704,30 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-14T15:25:00.000Z\", s\"01KXNC100J5FMZ4KPKGYS7GTG4\" ]",
+      "lat": 52.1318,
+      "lon": 10.6405,
+      "type": "PRECIP",
+      "time": "2026-07-14T15:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T15:25:00.000Z\", s\"01KXNBWQE4BSM1XGP1JFRZH7ND\" ]",
+      "lat": 52.1417,
+      "lon": 10.5385,
+      "type": "PRECIP",
+      "time": "2026-07-14T15:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-14T15:25:00.000Z\", s\"01KXK38KAY67Q62ZCTGKVE9T1C\" ]",
       "lat": 46.6089,
       "lon": 15.9377,
@@ -2529,6 +2757,18 @@
       "lon": 11.0563,
       "type": "HAIL",
       "time": "2026-07-14T15:21:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T15:20:00.000Z\", s\"01KXNBQK6BFJ49EHTXB2SWZZPP\" ]",
+      "lat": 52.1584,
+      "lon": 10.5236,
+      "type": "PRECIP",
+      "time": "2026-07-14T15:20:00.000Z",
       "country": "DE",
       "place": null,
       "description": null,
@@ -2668,6 +2908,30 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-14T15:15:00.000Z\", s\"01KXNBK05MRE2F8TK1NB1EV5B7\" ]",
+      "lat": 52.1813,
+      "lon": 10.4858,
+      "type": "PRECIP",
+      "time": "2026-07-14T15:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T15:15:00.000Z\", s\"01KXNBG3E79JW03N5FZ1TD5HVW\" ]",
+      "lat": 52.1767,
+      "lon": 10.4877,
+      "type": "PRECIP",
+      "time": "2026-07-14T15:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-14T15:11:00.000Z\", s\"01KXJCHDWEKS4WSBSANN4VPRJ3\" ]",
       "lat": 51.3318,
       "lon": 10.3857,
@@ -2709,6 +2973,18 @@
       "lon": 10.3213,
       "type": "PRECIP",
       "time": "2026-07-14T15:06:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T15:05:00.000Z\", s\"01KXN2GA49D2669590R5ME85YE\" ]",
+      "lat": 50.1853,
+      "lon": 6.3528,
+      "type": "LIGHTNING",
+      "time": "2026-07-14T15:05:00.000Z",
       "country": "DE",
       "place": null,
       "description": null,
@@ -2836,6 +3112,18 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-14T14:50:00.000Z\", s\"01KXNBAYHEZVK8SEPK2Y8V42GS\" ]",
+      "lat": 52.2537,
+      "lon": 10.6185,
+      "type": "PRECIP",
+      "time": "2026-07-14T14:50:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-14T14:50:00.000Z\", s\"01KXHB5JNNJ671QTJSBFEWTRD8\" ]",
       "lat": 47.85909,
       "lon": 16.32179,
@@ -2865,6 +3153,18 @@
       "lon": 10.4937,
       "type": "HAIL",
       "time": "2026-07-14T14:46:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T14:45:00.000Z\", s\"01KXNB8FSBG797BRV1H57A1JY3\" ]",
+      "lat": 52.2912,
+      "lon": 10.6551,
+      "type": "PRECIP",
+      "time": "2026-07-14T14:45:00.000Z",
       "country": "DE",
       "place": null,
       "description": null,
@@ -3062,6 +3362,18 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-14T14:00:00.000Z\", s\"01KXNAA517JT03E89EV3XE0MZ8\" ]",
+      "lat": 47.44222,
+      "lon": 15.65201,
+      "type": "LIGHTNING",
+      "time": "2026-07-14T14:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-14T14:00:00.000Z\", s\"01KXK5CGV62TH9GGBPCE9ACK3V\" ]",
       "lat": 50.5648,
       "lon": 20.0538,
@@ -3080,6 +3392,18 @@
       "type": "WIND",
       "time": "2026-07-14T14:00:00.000Z",
       "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T13:55:00.000Z\", s\"01KXN6RJ3DMFX0K2C4K3BFYTFX\" ]",
+      "lat": 51.2701,
+      "lon": 14.0949,
+      "type": "PRECIP",
+      "time": "2026-07-14T13:55:00.000Z",
+      "country": "DE",
       "place": null,
       "description": null,
       "info_source": null,
@@ -3146,6 +3470,18 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-14T13:40:00.000Z\", s\"01KXNAFCR65VW5YFK2NT8KKNR9\" ]",
+      "lat": 47.48442,
+      "lon": 15.72147,
+      "type": "LIGHTNING",
+      "time": "2026-07-14T13:40:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-14T13:40:00.000Z\", s\"01KXHC9K2V0BQX31GFDF0ZJ5RW\" ]",
       "lat": 47.819,
       "lon": 15.548,
@@ -3192,6 +3528,23 @@
       "description": null,
       "info_source": null,
       "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T13:10:00.000Z\", s\"01KXNF7NFNMWKP0DF0TVKVF7A8\" ]",
+      "lat": 49.8059,
+      "lon": 16.1165,
+      "type": "WIND",
+      "time": "2026-07-14T13:10:00.000Z",
+      "country": "CZ",
+      "place": "Proseč",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "\"Aktuální výjezdy\", hzscr.gov.cz, date of access: 16 JUL 2026."
+      ]
     },
     {
       "id": "weather_events:[ d\"2026-07-14T13:10:00.000Z\", s\"01KXK0Q636J15VG2XWBFB3NWG6\" ]",
@@ -3246,6 +3599,30 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-14T13:00:00.000Z\", s\"01KXN6TD7F14ZQPDN68M4STMRB\" ]",
+      "lat": 47.150538,
+      "lon": 14.691604,
+      "type": "LIGHTNING",
+      "time": "2026-07-14T13:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T13:00:00.000Z\", s\"01KXN6773N39Z2DF1XY3BT4BFZ\" ]",
+      "lat": 47.50614,
+      "lon": 15.45155,
+      "type": "PRECIP",
+      "time": "2026-07-14T13:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-14T13:00:00.000Z\", s\"01KXHEAQTRTCZ5NAXSQSBQXTPQ\" ]",
       "lat": 46.62676,
       "lon": 13.37054,
@@ -3282,6 +3659,18 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-14T12:50:00.000Z\", s\"01KXN2MY0FBYEY4502QKF7Y1N2\" ]",
+      "lat": 50.3013,
+      "lon": 12.0476,
+      "type": "LIGHTNING",
+      "time": "2026-07-14T12:50:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-14T12:50:00.000Z\", s\"01KXGDYVJ9T51ZCJCSWFQGXC7S\" ]",
       "lat": 49.687,
       "lon": 22.481,
@@ -3312,6 +3701,18 @@
       "type": "PRECIP",
       "time": "2026-07-14T12:49:00.000Z",
       "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T12:45:00.000Z\", s\"01KXN61NFYGAGXJSJSC2E1B421\" ]",
+      "lat": 47.5263,
+      "lon": 14.35858,
+      "type": "PRECIP",
+      "time": "2026-07-14T12:45:00.000Z",
+      "country": "AT",
       "place": null,
       "description": null,
       "info_source": null,
@@ -3490,6 +3891,42 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-14T12:00:00.000Z\", s\"01KXN5XF9A8ADEB0HWDCSFNKWY\" ]",
+      "lat": 47.21219,
+      "lon": 14.79234,
+      "type": "PRECIP",
+      "time": "2026-07-14T12:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T12:00:00.000Z\", s\"01KXN5T31Y33F9JHFBNKMGX201\" ]",
+      "lat": 47.270937,
+      "lon": 14.678168,
+      "type": "PRECIP",
+      "time": "2026-07-14T12:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T12:00:00.000Z\", s\"01KXN5P8EPQ1JWPF86NNFAJWPT\" ]",
+      "lat": 47.21438,
+      "lon": 14.83177,
+      "type": "PRECIP",
+      "time": "2026-07-14T12:00:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-14T11:40:00.000Z\", s\"01KXK56VVR1E9G50XJSGMNXRXZ\" ]",
       "lat": 50.2036,
       "lon": 20.5667,
@@ -3583,15 +4020,10 @@
       "type": "PRECIP",
       "time": "2026-07-14T11:24:00.000Z",
       "country": "CZ",
-      "place": "Česká Metuje",
-      "description": "PWS recorded a rain amount of 33,5 mm in 20 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"STAKO Dedov - IESKME3\", Wunderground, date of access: 14 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-14T11:24:00.000Z\", s\"01KXG70KKZNFMDKQKVBRVHPPAH\" ]",
@@ -3786,12 +4218,36 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-14T10:34:00.000Z\", s\"01KXN29MCY1RFKQVY4GXSAEMSF\" ]",
+      "lat": 50.1796,
+      "lon": 12.1466,
+      "type": "LIGHTNING",
+      "time": "2026-07-14T10:34:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-14T10:34:00.000Z\", s\"01KXG6YSF2D4YNH6AZQPRGD5JC\" ]",
       "lat": 50.735,
       "lon": 15.943,
       "type": "PRECIP",
       "time": "2026-07-14T10:34:00.000Z",
       "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T10:31:00.000Z\", s\"01KXN28DBTXG4ZQRH8AMZJ6Z7E\" ]",
+      "lat": 50.1755,
+      "lon": 12.1745,
+      "type": "LIGHTNING",
+      "time": "2026-07-14T10:31:00.000Z",
+      "country": "DE",
       "place": null,
       "description": null,
       "info_source": null,
@@ -3912,6 +4368,18 @@
       "type": "PRECIP",
       "time": "2026-07-14T10:04:00.000Z",
       "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T10:00:00.000Z\", s\"01KXN18KPYBVQ07ZM6EBKHKZVB\" ]",
+      "lat": 50.1983,
+      "lon": 11.6525,
+      "type": "LIGHTNING",
+      "time": "2026-07-14T10:00:00.000Z",
+      "country": "DE",
       "place": null,
       "description": null,
       "info_source": null,
@@ -4248,15 +4716,22 @@
       "type": "PRECIP",
       "time": "2026-07-14T05:34:00.000Z",
       "country": "CZ",
-      "place": "Březno",
-      "description": "PWS recorded a rain amount of 33,5 mm in 30 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"Martinek - IBEZNO9\", Wunderground, date of access: 14 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-14T05:00:00.000Z\", s\"01KXN1N48ERPT6RY9CAT7AJS6H\" ]",
+      "lat": 50.538,
+      "lon": 12.7839,
+      "type": "PRECIP",
+      "time": "2026-07-14T05:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-14T04:34:00.000Z\", s\"01KXFXH9M9M71ARV1KFS3JENZC\" ]",
@@ -4265,15 +4740,10 @@
       "type": "PRECIP",
       "time": "2026-07-14T04:34:00.000Z",
       "country": "CZ",
-      "place": "Sušany",
-      "description": "PWS recorded a rain amount of 34,8 mm in 40 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"Sušany01 - ISTRUP4\", Wunderground, date of access: 14 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-14T04:29:00.000Z\", s\"01KXFTSY99QW0H31S348EFZ1ZA\" ]",
@@ -4282,15 +4752,10 @@
       "type": "PRECIP",
       "time": "2026-07-14T04:29:00.000Z",
       "country": "CZ",
-      "place": "Malé Březno",
-      "description": "PWS recorded a rain amount of 40,6 mm in 20 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"GoGen - IMALBE15\", Wunderground, date of access: 14 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-14T04:14:00.000Z\", s\"01KXFY44QSR0NDYQB660H89GSX\" ]",
@@ -4323,15 +4788,10 @@
       "type": "PRECIP",
       "time": "2026-07-14T04:09:00.000Z",
       "country": "CZ",
-      "place": "Údlice",
-      "description": "PWS recorded a rain amount of 30,7 mm in 20 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"Zahrada - IDLICE4\", Wunderground, date of access: 14 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-14T04:04:00.000Z\", s\"01KXFT9NGJ900CR9PTKMH5257T\" ]",
@@ -4340,15 +4800,10 @@
       "type": "PRECIP",
       "time": "2026-07-14T04:04:00.000Z",
       "country": "CZ",
-      "place": "Chomutov",
-      "description": "PWS recorded a rain amount of 41,1 mm in 20 minutes.",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "\"Ecowitt WS 3900 - ICHOMU37\", Wunderground, date of access: 14 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     }
   ]
 }
