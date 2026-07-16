@@ -5,9 +5,322 @@
   "window_start_utc": "2026-07-16T04:00:00+00:00",
   "window_end_utc": "2026-07-17T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 72,
-  "report_count": 72,
+  "raw_count": 90,
+  "report_count": 90,
   "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-16T17:49:00.000Z\", s\"01KXP6F2GE36YWGBXVXZN71H13\" ]",
+      "lat": 47.3818,
+      "lon": 8.6559,
+      "type": "HAIL",
+      "time": "2026-07-16T17:49:00.000Z",
+      "country": "CH",
+      "place": "Schwerzenbach",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T17:48:00.000Z\", s\"01KXP6HANF89ENCF2D72DYPWZ5\" ]",
+      "lat": 47.3926,
+      "lon": 8.6895,
+      "type": "HAIL",
+      "time": "2026-07-16T17:48:00.000Z",
+      "country": "CH",
+      "place": "Volketswil",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T17:48:00.000Z\", s\"01KXP6G7A1H5DNFFTDVFWTYRB5\" ]",
+      "lat": 47.3713,
+      "lon": 8.6389,
+      "type": "HAIL",
+      "time": "2026-07-16T17:48:00.000Z",
+      "country": "CH",
+      "place": "Fällanden",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T17:48:00.000Z\", s\"01KXP6AHJVHMGMTC3CRG625GWH\" ]",
+      "lat": 47.3573,
+      "lon": 8.6268,
+      "type": "HAIL",
+      "time": "2026-07-16T17:48:00.000Z",
+      "country": "CH",
+      "place": "Binz",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T17:44:00.000Z\", s\"01KXP6CW7RGCP9WDQKYJJTZ26F\" ]",
+      "lat": 47.2455,
+      "lon": 8.6432,
+      "type": "HAIL",
+      "time": "2026-07-16T17:44:00.000Z",
+      "country": "CH",
+      "place": "Au (ZH)",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T17:35:00.000Z\", s\"01KXP4ZQ073NEYDHWE2700WZMQ\" ]",
+      "lat": 49.0289,
+      "lon": 8.391,
+      "type": "PRECIP",
+      "time": "2026-07-16T17:35:00.000Z",
+      "country": "DE",
+      "place": "Karlsruhe Amerikanersiedlung",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IKARLS260 (wunderground.com), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T17:30:00.000Z\", s\"01KXP621RNWNF7NWH9FK71X4KT\" ]",
+      "lat": 46.3022,
+      "lon": 6.2437,
+      "type": "HAIL",
+      "time": "2026-07-16T17:30:00.000Z",
+      "country": "CH",
+      "place": "Hermance",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T17:30:00.000Z\", s\"01KXP4Y09XZGC5RGJHD0D3NCRV\" ]",
+      "lat": 49.0363,
+      "lon": 8.44,
+      "type": "PRECIP",
+      "time": "2026-07-16T17:30:00.000Z",
+      "country": "DE",
+      "place": "Waldstadt Waldlage",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IKARLS425 (wunderground.com), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T17:24:00.000Z\", s\"01KXP5Y4PYYD6D88CYAY2AFYDS\" ]",
+      "lat": 47.2478,
+      "lon": 8.464,
+      "type": "HAIL",
+      "time": "2026-07-16T17:24:00.000Z",
+      "country": "CH",
+      "place": "Mettmenstetten",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T17:20:00.000Z\", s\"01KXP4WGKN9PE0EP8W88V50W10\" ]",
+      "lat": 49.0162,
+      "lon": 8.3724,
+      "type": "PRECIP",
+      "time": "2026-07-16T17:20:00.000Z",
+      "country": "DE",
+      "place": "Karlsruhe Binsenschlauch",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IKARLS285 (wunderground.com), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T17:20:00.000Z\", s\"01KXP4ST102PRPWGXEXGYM89YD\" ]",
+      "lat": 49.0365,
+      "lon": 8.3559,
+      "type": "PRECIP",
+      "time": "2026-07-16T17:20:00.000Z",
+      "country": "DE",
+      "place": "Neu-Knielingen",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IKSKNIEL4 (wunderground.com), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T17:19:00.000Z\", s\"01KXP5WRW7DM0CBQHFBXJVG545\" ]",
+      "lat": 47.2028,
+      "lon": 8.4314,
+      "type": "HAIL",
+      "time": "2026-07-16T17:19:00.000Z",
+      "country": "CH",
+      "place": "Hagendorn",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T17:17:00.000Z\", s\"01KXP5VES5NDAZHT1KJ22C1ZSJ\" ]",
+      "lat": 47.1873,
+      "lon": 8.3464,
+      "type": "HAIL",
+      "time": "2026-07-16T17:17:00.000Z",
+      "country": "CH",
+      "place": "Sins",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T17:15:00.000Z\", s\"01KXP5RHPY7DCSN2HR5689WPY0\" ]",
+      "lat": 47.1752,
+      "lon": 8.426,
+      "type": "HAIL",
+      "time": "2026-07-16T17:15:00.000Z",
+      "country": "CH",
+      "place": "Hünenberg",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T17:14:00.000Z\", s\"01KXP5T1N2GVH32WTX96GB4EHA\" ]",
+      "lat": 47.1669,
+      "lon": 8.3986,
+      "type": "HAIL",
+      "time": "2026-07-16T17:14:00.000Z",
+      "country": "CH",
+      "place": "Oberrüti",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T17:10:00.000Z\", s\"01KXP5PDRSNQHMYADFYAFVR4ZB\" ]",
+      "lat": 47.133,
+      "lon": 8.318,
+      "type": "HAIL",
+      "time": "2026-07-16T17:10:00.000Z",
+      "country": "CH",
+      "place": "Eschenbach (LU)",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T17:10:00.000Z\", s\"01KXP51NBCYHWJ5K3ZX4DHHNCS\" ]",
+      "lat": 49.022,
+      "lon": 8.1725,
+      "type": "PRECIP",
+      "time": "2026-07-16T17:10:00.000Z",
+      "country": "DE",
+      "place": "Büchelberg",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IWRTHA32 (wunderground.com), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T16:15:00.000Z\", s\"01KXP5F9PWB9P2H6M8TJAZBZRB\" ]",
+      "lat": 47.5451,
+      "lon": 7.5375,
+      "type": "HAIL",
+      "time": "2026-07-16T16:15:00.000Z",
+      "country": "CH",
+      "place": "Allschwil",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
+      ]
+    },
     {
       "id": "weather_events:[ d\"2026-07-16T16:11:00.000Z\", s\"01KXNWA6XJNRKR5VK7Z0ZWJ0J1\" ]",
       "lat": 47.9726,
@@ -57,41 +370,6 @@
       ],
       "references": [
         "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
-      ]
-    },
-    {
-      "id": "weather_events:[ d\"2026-07-16T15:53:00.000Z\", s\"01KXNWPN8KZCCHGEJY7563W1QW\" ]",
-      "lat": 47.21,
-      "lon": 7.0648,
-      "type": "HAIL",
-      "time": "2026-07-16T15:53:00.000Z",
-      "country": "CH",
-      "place": "Mont-Tramelan",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
-      ]
-    },
-    {
-      "id": "weather_events:[ d\"2026-07-16T15:52:00.000Z\", s\"01KXNWNDC94TSW2C18ASVPH5YR\" ]",
-      "lat": 47.2122,
-      "lon": 7.0343,
-      "type": "HAIL",
-      "time": "2026-07-16T15:52:00.000Z",
-      "country": "CH",
-      "place": "Les Cerneux",
-      "description": "Large hail 3 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
       ]
     },
     {
@@ -170,15 +448,10 @@
       "type": "HAIL",
       "time": "2026-07-16T15:46:00.000Z",
       "country": "DE",
-      "place": "Westendorf",
-      "description": "Large hail 3 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T15:45:00.000Z\", s\"01KXNW1KTXK3H4YJPQ145A7GA8\" ]",
@@ -187,15 +460,10 @@
       "type": "HAIL",
       "time": "2026-07-16T15:45:00.000Z",
       "country": "DE",
-      "place": "Kühlenthal",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T15:44:00.000Z\", s\"01KXNWVK6598X659JRY49K46V0\" ]",
@@ -204,16 +472,10 @@
       "type": "HAIL",
       "time": "2026-07-16T15:44:00.000Z",
       "country": "CH",
-      "place": "Charmoille",
-      "description": "Large hail 3 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T15:44:00.000Z\", s\"01KXNW4DWSJHDBX4V37V01J385\" ]",
@@ -222,15 +484,10 @@
       "type": "HAIL",
       "time": "2026-07-16T15:44:00.000Z",
       "country": "DE",
-      "place": "Langenreichen",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T15:43:00.000Z\", s\"01KXNVV4XWG19M4M9M6JFZJC48\" ]",
@@ -239,15 +496,10 @@
       "type": "HAIL",
       "time": "2026-07-16T15:43:00.000Z",
       "country": "DE",
-      "place": "Fertingen",
-      "description": "Large hail 3 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T15:42:00.000Z\", s\"01KXNWS3BRCCFJP8NHHQ1HQ6RY\" ]",
@@ -256,16 +508,10 @@
       "type": "HAIL",
       "time": "2026-07-16T15:42:00.000Z",
       "country": "CH",
-      "place": "Asuel",
-      "description": "Large hail 3.5 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T15:41:00.000Z\", s\"01KXNWZ6J5YR2ENF8DKVV3AK4D\" ]",
@@ -274,16 +520,10 @@
       "type": "HAIL",
       "time": "2026-07-16T15:41:00.000Z",
       "country": "CH",
-      "place": "Asuel",
-      "description": "Large hail 3 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T15:41:00.000Z\", s\"01KXNVX582M459H4WMFMZJ5K1Q\" ]",
@@ -292,16 +532,10 @@
       "type": "HAIL",
       "time": "2026-07-16T15:41:00.000Z",
       "country": "DE",
-      "place": "Hirschbach",
-      "description": "Large hail 3 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T15:39:00.000Z\", s\"01KXNVS6C1NKKR0YTQFF1TH6D1\" ]",
@@ -310,16 +544,10 @@
       "type": "HAIL",
       "time": "2026-07-16T15:39:00.000Z",
       "country": "DE",
-      "place": "Ichenhausen",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T15:31:00.000Z\", s\"01KXNXCDNWVV5FP6CK6G2BG5CK\" ]",
@@ -328,16 +556,10 @@
       "type": "HAIL",
       "time": "2026-07-16T15:31:00.000Z",
       "country": "CH",
-      "place": "Epauvillers",
-      "description": "Large hail 3 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T15:30:00.000Z\", s\"01KXNXEEY0GRZWMEGVJ7ZQCQWE\" ]",
@@ -346,16 +568,10 @@
       "type": "HAIL",
       "time": "2026-07-16T15:30:00.000Z",
       "country": "CH",
-      "place": "Tariche",
-      "description": "Large hail 3 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T15:29:00.000Z\", s\"01KXNX2YVZKY270JQZ0MWA7B9N\" ]",
@@ -364,16 +580,10 @@
       "type": "HAIL",
       "time": "2026-07-16T15:29:00.000Z",
       "country": "CH",
-      "place": "Saint-Brais",
-      "description": "Large hail 5 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T15:29:00.000Z\", s\"01KXNVMGJ0C5SQDQ8NWRG6K709\" ]",
@@ -382,15 +592,10 @@
       "type": "HAIL",
       "time": "2026-07-16T15:29:00.000Z",
       "country": "DE",
-      "place": "Hinterried",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T15:24:00.000Z\", s\"01KXNXNVYZ2B878HBNTDZFEAVA\" ]",
@@ -399,16 +604,10 @@
       "type": "HAIL",
       "time": "2026-07-16T15:24:00.000Z",
       "country": "CH",
-      "place": "Prés de Sceut-Dessous",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T15:24:00.000Z\", s\"01KXNX8JCJT7VC99TF0BZN98QC\" ]",
@@ -417,16 +616,10 @@
       "type": "HAIL",
       "time": "2026-07-16T15:24:00.000Z",
       "country": "CH",
-      "place": "Saulcy",
-      "description": "Large hail 5-5.5 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T15:24:00.000Z\", s\"01KXNTSXG1ZPM4XGPDSRY8HGAS\" ]",
@@ -435,15 +628,10 @@
       "type": "HAIL",
       "time": "2026-07-16T15:24:00.000Z",
       "country": "DE",
-      "place": "Unner",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T15:23:00.000Z\", s\"01KXNXM7M5PRR740V26Z1BNYCA\" ]",
@@ -518,11 +706,35 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-16T15:11:00.000Z\", s\"01KXP480VBQ44PTXWG393T8B79\" ]",
+      "lat": 47.21,
+      "lon": 7.0648,
+      "type": "HAIL",
+      "time": "2026-07-16T15:11:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-16T15:11:00.000Z\", s\"01KXNXGV5HF2J45F0H06PD3AXQ\" ]",
       "lat": 47.2106,
       "lon": 7.0036,
       "type": "HAIL",
       "time": "2026-07-16T15:11:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T15:10:00.000Z\", s\"01KXP48MCVY6ANBJA08YBWD40Y\" ]",
+      "lat": 47.2122,
+      "lon": 7.0343,
+      "type": "HAIL",
+      "time": "2026-07-16T15:10:00.000Z",
       "country": "CH",
       "place": null,
       "description": null,
