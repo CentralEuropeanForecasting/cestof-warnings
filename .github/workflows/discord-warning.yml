@@ -1,0 +1,191 @@
+name: Send new CESTOF warnings to Discord
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "warnings-day1.geojson"
+
+permissions:
+  contents: read
+
+jobs:
+  send-new-warnings:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout current and previous versions
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Find and send new warnings
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WARNING_WEBHOOK }}
+          BEFORE_SHA: ${{ github.event.before }}
+        run: |
+          python3 <<'PY'
+          import json
+          import os
+          import subprocess
+          import urllib.request
+          from datetime import datetime
+
+          FILE = "warnings-day1.geojson"
+          webhook = os.environ.get("DISCORD_WEBHOOK")
+          before_sha = os.environ.get("BEFORE_SHA", "")
+
+          if not webhook:
+              raise SystemExit("Missing DISCORD_WARNING_WEBHOOK secret.")
+
+          def load_json_file(path):
+              try:
+                  with open(path, "r", encoding="utf-8") as f:
+                      return json.load(f)
+              except (FileNotFoundError, json.JSONDecodeError):
+                  return {"features": []}
+
+          current_data = load_json_file(FILE)
+
+          previous_data = {"features": []}
+
+          if before_sha and set(before_sha) != {"0"}:
+              try:
+                  previous_text = subprocess.check_output(
+                      ["git", "show", f"{before_sha}:{FILE}"],
+                      text=True
+                  )
+                  previous_data = json.loads(previous_text)
+              except Exception as error:
+                  print("Could not load previous warning file:", error)
+
+          old_ids = {
+              str(feature.get("properties", {}).get("id", ""))
+              for feature in previous_data.get("features", [])
+              if feature.get("properties", {}).get("id")
+          }
+
+          new_features = [
+              feature
+              for feature in current_data.get("features", [])
+              if str(feature.get("properties", {}).get("id", "")) not in old_ids
+          ]
+
+          print(f"New warnings found: {len(new_features)}")
+
+          def format_time(value):
+              if not value:
+                  return "Not specified"
+
+              try:
+                  dt = datetime.fromisoformat(
+                      value.replace("Z", "+00:00")
+                  )
+                  return dt.strftime("%d.%m.%Y %H:%M")
+              except ValueError:
+                  return str(value)
+
+          colours = {
+              "Thunderstorm Watch": 16753920,
+              "Thunderstorm Warning": 2401060,
+              "Thunderstorm PDS": 16724016,
+              "Tornado Watch": 16765952,
+              "Tornado Warning": 11534521,
+              "Tornado PDS": 16711935,
+              "Tornado Emergency": 8061183,
+              "Hail Warning": 51455,
+              "Hail PDS": 61695,
+              "Heavy Rain / Flooding Watch": 4899839,
+              "Heavy Rain / Flooding Warning": 26367,
+              "Heavy Rain / Flooding PDS": 12472,
+              "Wind Gusts Warning": 16747520,
+              "Wind Gusts PDS": 16726784,
+              "Mesoscale Discussion": 11898112
+          }
+
+          for feature in new_features:
+              props = feature.get("properties", {})
+
+              warning_type = props.get("type", "CESTOF Warning")
+              location = props.get("location") or "Not specified"
+              text = props.get("text") or "A new CESTOF warning has been issued."
+
+              issued = format_time(
+                  props.get("issued_iso") or props.get("issued")
+              )
+              expires = format_time(
+                  props.get("expires_iso") or props.get("expires")
+              )
+
+              hazards = props.get("hazards") or {}
+
+              fields = [
+                  {
+                      "name": "Affected area",
+                      "value": str(location),
+                      "inline": False
+                  },
+                  {
+                      "name": "Issued",
+                      "value": issued,
+                      "inline": True
+                  },
+                  {
+                      "name": "Expires",
+                      "value": expires,
+                      "inline": True
+                  }
+              ]
+
+              hazard_labels = {
+                  "hail": "Maximum hail",
+                  "wind": "Wind gusts",
+                  "tornado_probability": "Tornado probability",
+                  "rotation": "Rotation"
+              }
+
+              for key, label in hazard_labels.items():
+                  value = hazards.get(key) or props.get(key)
+
+                  if value:
+                      fields.append({
+                          "name": label,
+                          "value": str(value),
+                          "inline": True
+                      })
+
+              payload = {
+                  "username": "CESTOF Warnings",
+                  "embeds": [
+                      {
+                          "title": warning_type,
+                          "url": "https://www.cestof.com/radar",
+                          "description": text,
+                          "color": colours.get(warning_type, 16711680),
+                          "fields": fields,
+                          "footer": {
+                              "text": "Central European Storm Forecasts | CESTOF"
+                          }
+                      }
+                  ],
+                  "allowed_mentions": {
+                      "parse": []
+                  }
+              }
+
+              request = urllib.request.Request(
+                  webhook,
+                  data=json.dumps(payload).encode("utf-8"),
+                  headers={
+                      "Content-Type": "application/json",
+                      "User-Agent": "CESTOF-GitHub-Action"
+                  },
+                  method="POST"
+              )
+
+              with urllib.request.urlopen(request) as response:
+                  print(
+                      f"Sent {warning_type}: HTTP {response.status}"
+                  )
+          PY
