@@ -24,67 +24,127 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WARNING_WEBHOOK }}
           BEFORE_SHA: ${{ github.event.before }}
+
         run: |
           python3 <<'PY'
           import json
           import os
           import subprocess
+          import urllib.error
           import urllib.request
           from datetime import datetime
+          from zoneinfo import ZoneInfo
 
           FILE = "warnings-day1.geojson"
           webhook = os.environ.get("DISCORD_WEBHOOK")
           before_sha = os.environ.get("BEFORE_SHA", "")
+          local_timezone = ZoneInfo("Europe/Prague")
 
           if not webhook:
-              raise SystemExit("Missing DISCORD_WARNING_WEBHOOK secret.")
+              raise SystemExit(
+                  "Missing DISCORD_WARNING_WEBHOOK repository secret."
+              )
 
           def load_json_file(path):
               try:
-                  with open(path, "r", encoding="utf-8") as f:
-                      return json.load(f)
-              except (FileNotFoundError, json.JSONDecodeError):
+                  with open(path, "r", encoding="utf-8") as file:
+                      return json.load(file)
+              except FileNotFoundError:
+                  print(f"{path} was not found.")
+                  return {"features": []}
+              except json.JSONDecodeError as error:
+                  raise SystemExit(
+                      f"Could not read {path} as JSON: {error}"
+                  )
+
+          def load_previous_data():
+              if not before_sha or set(before_sha) == {"0"}:
+                  print("No previous commit is available.")
                   return {"features": []}
 
-          current_data = load_json_file(FILE)
-
-          previous_data = {"features": []}
-
-          if before_sha and set(before_sha) != {"0"}:
               try:
                   previous_text = subprocess.check_output(
                       ["git", "show", f"{before_sha}:{FILE}"],
-                      text=True
+                      text=True,
+                      stderr=subprocess.STDOUT
                   )
-                  previous_data = json.loads(previous_text)
-              except Exception as error:
-                  print("Could not load previous warning file:", error)
 
-          old_ids = {
-              str(feature.get("properties", {}).get("id", ""))
-              for feature in previous_data.get("features", [])
-              if feature.get("properties", {}).get("id")
-          }
+                  return json.loads(previous_text)
 
-          new_features = [
-              feature
-              for feature in current_data.get("features", [])
-              if str(feature.get("properties", {}).get("id", "")) not in old_ids
-          ]
+              except subprocess.CalledProcessError as error:
+                  print(
+                      "Could not load the previous warning file:",
+                      error.output
+                  )
+                  return {"features": []}
 
-          print(f"New warnings found: {len(new_features)}")
+              except json.JSONDecodeError as error:
+                  print(
+                      "The previous warning file was not valid JSON:",
+                      error
+                  )
+                  return {"features": []}
+
+          def warning_id(feature):
+              properties = feature.get("properties") or {}
+              return str(properties.get("id") or "").strip()
 
           def format_time(value):
               if not value:
                   return "Not specified"
 
               try:
-                  dt = datetime.fromisoformat(
-                      value.replace("Z", "+00:00")
+                  parsed_time = datetime.fromisoformat(
+                      str(value).replace("Z", "+00:00")
                   )
-                  return dt.strftime("%d.%m.%Y %H:%M")
-              except ValueError:
+
+                  if parsed_time.tzinfo is None:
+                      parsed_time = parsed_time.replace(
+                          tzinfo=local_timezone
+                      )
+                  else:
+                      parsed_time = parsed_time.astimezone(
+                          local_timezone
+                      )
+
+                  timezone_name = parsed_time.tzname() or "CEST"
+
+                  return parsed_time.strftime(
+                      f"%d.%m.%Y %H:%M {timezone_name}"
+                  )
+
+              except (ValueError, TypeError):
                   return str(value)
+
+          def safe_discord_text(value, maximum_length):
+              text = str(value or "").strip()
+
+              if not text:
+                  return "Not specified"
+
+              if len(text) > maximum_length:
+                  return text[:maximum_length - 1] + "…"
+
+              return text
+
+          current_data = load_json_file(FILE)
+          previous_data = load_previous_data()
+
+          old_ids = {
+              warning_id(feature)
+              for feature in previous_data.get("features", [])
+              if warning_id(feature)
+          }
+
+          new_features = [
+              feature
+              for feature in current_data.get("features", [])
+              if warning_id(feature)
+              and warning_id(feature) not in old_ids
+          ]
+
+          print(f"Previous warning IDs: {len(old_ids)}")
+          print(f"New warnings found: {len(new_features)}")
 
           colours = {
               "Thunderstorm Watch": 16753920,
@@ -104,26 +164,63 @@ jobs:
               "Mesoscale Discussion": 11898112
           }
 
-          for feature in new_features:
-              props = feature.get("properties", {})
+          hazard_labels = {
+              "hail": "Maximum hail",
+              "wind": "Wind gusts",
+              "tornado_probability": "Tornado probability",
+              "rotation": "Rotation"
+          }
 
-              warning_type = props.get("type", "CESTOF Warning")
-              location = props.get("location") or "Not specified"
-              text = props.get("text") or "A new CESTOF warning has been issued."
+          for feature in new_features:
+              properties = feature.get("properties") or {}
+
+              warning_type = safe_discord_text(
+                  properties.get("type") or "CESTOF Warning",
+                  256
+              )
+
+              location = safe_discord_text(
+                  properties.get("location") or "Not specified",
+                  1024
+              )
+
+              warning_text = safe_discord_text(
+                  properties.get("text")
+                  or "A new CESTOF warning has been issued.",
+                  4096
+              )
+
+              issued_by = safe_discord_text(
+                  properties.get("forecaster_name")
+                  or properties.get("issued_by")
+                  or properties.get("nowcaster")
+                  or properties.get("forecaster")
+                  or properties.get("author")
+                  or "Unknown nowcaster",
+                  1024
+              )
 
               issued = format_time(
-                  props.get("issued_iso") or props.get("issued")
-              )
-              expires = format_time(
-                  props.get("expires_iso") or props.get("expires")
+                  properties.get("issued_iso")
+                  or properties.get("issued")
               )
 
-              hazards = props.get("hazards") or {}
+              expires = format_time(
+                  properties.get("expires_iso")
+                  or properties.get("expires")
+              )
+
+              hazards = properties.get("hazards") or {}
 
               fields = [
                   {
                       "name": "Affected area",
-                      "value": str(location),
+                      "value": location,
+                      "inline": False
+                  },
+                  {
+                      "name": "Issued by",
+                      "value": issued_by,
                       "inline": False
                   },
                   {
@@ -138,40 +235,47 @@ jobs:
                   }
               ]
 
-              hazard_labels = {
-                  "hail": "Maximum hail",
-                  "wind": "Wind gusts",
-                  "tornado_probability": "Tornado probability",
-                  "rotation": "Rotation"
-              }
-
               for key, label in hazard_labels.items():
-                  value = hazards.get(key) or props.get(key)
+                  value = (
+                      hazards.get(key)
+                      or properties.get(key)
+                  )
 
                   if value:
                       fields.append({
                           "name": label,
-                          "value": str(value),
+                          "value": safe_discord_text(value, 1024),
                           "inline": True
                       })
 
+              warning_identifier = warning_id(feature)
+
               payload = {
                   "username": "CESTOF Warnings",
+                  "allowed_mentions": {
+                      "parse": []
+                  },
                   "embeds": [
                       {
                           "title": warning_type,
                           "url": "https://www.cestof.com/radar",
-                          "description": text,
-                          "color": colours.get(warning_type, 16711680),
+                          "description": warning_text,
+                          "color": colours.get(
+                              warning_type,
+                              16711680
+                          ),
                           "fields": fields,
                           "footer": {
-                              "text": "Central European Storm Forecasts | CESTOF"
-                          }
+                              "text": (
+                                  "Central European Storm Forecasts"
+                                  f" | CESTOF | {warning_identifier}"
+                              )
+                          },
+                          "timestamp": datetime.now(
+                              local_timezone
+                          ).isoformat()
                       }
-                  ],
-                  "allowed_mentions": {
-                      "parse": []
-                  }
+                  ]
               }
 
               request = urllib.request.Request(
@@ -184,8 +288,32 @@ jobs:
                   method="POST"
               )
 
-              with urllib.request.urlopen(request) as response:
-                  print(
-                      f"Sent {warning_type}: HTTP {response.status}"
+              try:
+                  with urllib.request.urlopen(
+                      request,
+                      timeout=30
+                  ) as response:
+                      print(
+                          f"Sent {warning_type}: "
+                          f"HTTP {response.status}"
+                      )
+
+              except urllib.error.HTTPError as error:
+                  response_body = error.read().decode(
+                      "utf-8",
+                      errors="replace"
                   )
+
+                  raise SystemExit(
+                      f"Discord returned HTTP {error.code}: "
+                      f"{response_body}"
+                  )
+
+              except urllib.error.URLError as error:
+                  raise SystemExit(
+                      f"Could not contact Discord: {error}"
+                  )
+
+          if not new_features:
+              print("No new warnings were added. Nothing was sent.")
           PY
