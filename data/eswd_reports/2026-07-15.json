@@ -5,8 +5,8 @@
   "window_start_utc": "2026-07-15T04:00:00+00:00",
   "window_end_utc": "2026-07-16T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 153,
-  "report_count": 153,
+  "raw_count": 162,
+  "report_count": 162,
   "reports": [
     {
       "id": "weather_events:[ d\"2026-07-16T03:49:00.000Z\", s\"01KXMQB2D18R9K1RRG9CGSZ1X8\" ]",
@@ -1274,21 +1274,154 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-15T14:34:00.000Z\", s\"01KXQT7T8X6QQGC52K2PE1TBTZ\" ]",
+      "lat": 47.548,
+      "lon": 9.6844,
+      "type": "WIND",
+      "time": "2026-07-15T14:34:00.000Z",
+      "country": "DE",
+      "place": "Insel",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WWW"
+      ],
+      "references": [
+        "Zug kollidiert mit umgestürztem Baum: Heftiges Unwetter am Bodensee, Vol.at, 16 Jul 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T14:34:00.000Z\", s\"01KXQT7B77RS09TJH0MK9NG4GP\" ]",
+      "lat": 47.5757,
+      "lon": 9.7036,
+      "type": "WIND",
+      "time": "2026-07-15T14:34:00.000Z",
+      "country": "DE",
+      "place": "Schönbühl",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WWW"
+      ],
+      "references": [
+        "Zug kollidiert mit umgestürztem Baum: Heftiges Unwetter am Bodensee, Vol.at, 16 Jul 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T14:32:00.000Z\", s\"01KXQT5D09KRGQDXM891E0QVF2\" ]",
+      "lat": 47.5928,
+      "lon": 9.6843,
+      "type": "WIND",
+      "time": "2026-07-15T14:32:00.000Z",
+      "country": "DE",
+      "place": "Oberreitnau",
+      "description": "train crashed into tree",
+      "info_source": [
+        "NWSP",
+        "WWW"
+      ],
+      "references": [
+        "Zug kollidiert mit umgestürztem Baum: Heftiges Unwetter am Bodensee, Vol.at, 16 Jul 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T14:31:00.000Z\", s\"01KXQT4WRP2DK2P566HC3WB7WF\" ]",
+      "lat": 47.5746,
+      "lon": 9.6736,
+      "type": "WIND",
+      "time": "2026-07-15T14:31:00.000Z",
+      "country": "DE",
+      "place": "Schönau",
+      "description": "multiple roofs damaged",
+      "info_source": [
+        "NWSP",
+        "WWW"
+      ],
+      "references": [
+        "Zug kollidiert mit umgestürztem Baum: Heftiges Unwetter am Bodensee, Vol.at, 16 Jul 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T14:30:00.000Z\", s\"01KXQT4D4G8977WZWSTR2QBWXX\" ]",
+      "lat": 47.5913,
+      "lon": 9.6731,
+      "type": "WIND",
+      "time": "2026-07-15T14:30:00.000Z",
+      "country": "DE",
+      "place": "Hangnach",
+      "description": "multiple roofs damaged",
+      "info_source": [
+        "NWSP",
+        "WWW"
+      ],
+      "references": [
+        "Zug kollidiert mit umgestürztem Baum: Heftiges Unwetter am Bodensee, Vol.at, 16 Jul 2026.",
+        "RAD."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T14:25:00.000Z\", s\"01KXQVHYAYKF0C04DZ37A4H5E8\" ]",
+      "lat": 47.588,
+      "lon": 9.5632,
+      "type": "WIND",
+      "time": "2026-07-15T14:25:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-15T14:24:00.000Z\", s\"01KXKF47GK1GSDKT1BA5M0VADB\" ]",
       "lat": 47.5994,
       "lon": 9.5381,
       "type": "HAIL",
       "time": "2026-07-15T14:24:00.000Z",
       "country": "DE",
-      "place": "Langenargen",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T14:23:00.000Z\", s\"01KXQV2AFSVNFP9VKD1NSSW977\" ]",
+      "lat": 47.6031,
+      "lon": 9.5422,
+      "type": "WIND",
+      "time": "2026-07-15T14:23:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T14:20:00.000Z\", s\"01KXQWA77TN0HK7XP9NF3TX2E6\" ]",
+      "lat": 47.6502,
+      "lon": 9.4801,
+      "type": "WIND",
+      "time": "2026-07-15T14:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T14:20:00.000Z\", s\"01KXQTXY1VF3N1KBSXQBZTX9TB\" ]",
+      "lat": 47.6553,
+      "lon": 9.4868,
+      "type": "WIND",
+      "time": "2026-07-15T14:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T14:11:00.000Z\", s\"01KXKF2YFQP85Y9MYVV89C70K6\" ]",
@@ -1297,15 +1430,10 @@
       "type": "HAIL",
       "time": "2026-07-15T14:11:00.000Z",
       "country": "DE",
-      "place": "Aufhausen",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T13:52:00.000Z\", s\"01KXMW6767RBXTS67VGTQHRK79\" ]",
@@ -1314,17 +1442,10 @@
       "type": "HAIL",
       "time": "2026-07-15T13:52:00.000Z",
       "country": "HR",
-      "place": "Glibodol",
-      "description": "Large hail up to at least 4 cm i.d. was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Eyewitness report via Neverin (on Facebook), 15 JUL 2026.",
-        "Eyewitness report via LIKACLUB.eu (on Facebook), 15 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T13:51:00.000Z\", s\"01KXKF0BPNG5N93TR43MFCPPC3\" ]",
@@ -1333,16 +1454,10 @@
       "type": "HAIL",
       "time": "2026-07-15T13:51:00.000Z",
       "country": "DE",
-      "place": "Konstanz",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 15 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T13:50:00.000Z\", s\"01KXMVY3BHRS3MZJHSFF6VZP3Z\" ]",
@@ -1351,18 +1466,10 @@
       "type": "HAIL",
       "time": "2026-07-15T13:50:00.000Z",
       "country": "HR",
-      "place": "Lipice",
-      "description": "Very large hail up to at least 5 cm i.d. was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Eyewitnesses reports via Neverin (on Facebook), 15 JUL 2026.",
-        "Eyewitness report via LIKACLUB.eu (on Facebook), 15 JUL 2026.",
-        "Eyewitness report via Portal Slobodna Lika (on Facebook), 15 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-15T13:50:00.000Z\", s\"01KXKFYKCXC50MMJAEPNVWZCEZ\" ]",
