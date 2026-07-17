@@ -5,8 +5,8 @@
   "window_start_utc": "2026-07-16T04:00:00+00:00",
   "window_end_utc": "2026-07-17T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 264,
-  "report_count": 264,
+  "raw_count": 272,
+  "report_count": 272,
   "reports": [
     {
       "id": "weather_events:[ d\"2026-07-16T19:21:00.000Z\", s\"01KXQYTWXD3TK7YGQBYNJFRF43\" ]",
@@ -371,6 +371,24 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-16T18:20:00.000Z\", s\"01KXRWEZQF7YPPV158R5AK28HA\" ]",
+      "lat": 47.3883,
+      "lon": 9.3954,
+      "type": "LIGHTNING",
+      "time": "2026-07-16T18:20:00.000Z",
+      "country": "CH",
+      "place": "Zeughausplatz",
+      "description": "tree destroyed, tree parts damaged 2 cars and 1 building",
+      "info_source": [
+        "WWW",
+        "NWSP",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Blitz liess Baum bersten – Trümmerteile beschädigen Haus, Blick, 17 Jul 2026."
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-16T18:20:00.000Z\", s\"01KXQY55C3F3GG33Q8YZQHGSNN\" ]",
       "lat": 48.9542,
       "lon": 9.349,
@@ -430,16 +448,10 @@
       "type": "HAIL",
       "time": "2026-07-16T18:18:00.000Z",
       "country": "DE",
-      "place": "Lehrhof",
-      "description": "Large hail 3 cm i.d. Radar checked. ",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T18:18:00.000Z\", s\"01KXQJ9G44VJ0BK55FPP2JKWM6\" ]",
@@ -483,6 +495,18 @@
       "lon": 8.9282,
       "type": "HAIL",
       "time": "2026-07-16T18:18:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T18:17:00.000Z\", s\"01KXRTCTYZPWFCRZC1T6K0EQ3Y\" ]",
+      "lat": 47.5532,
+      "lon": 8.8937,
+      "type": "PRECIP",
+      "time": "2026-07-16T18:17:00.000Z",
       "country": "CH",
       "place": null,
       "description": null,
@@ -603,6 +627,18 @@
       "lon": 8.8417,
       "type": "HAIL",
       "time": "2026-07-16T18:15:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T18:13:00.000Z\", s\"01KXRT80APD24P74JVZY4XPV6G\" ]",
+      "lat": 47.5567,
+      "lon": 8.8975,
+      "type": "WIND",
+      "time": "2026-07-16T18:13:00.000Z",
       "country": "CH",
       "place": null,
       "description": null,
@@ -1054,6 +1090,18 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-16T17:58:00.000Z\", s\"01KXRSQ7DNQ3VBQMBNA85JKCPN\" ]",
+      "lat": 47.4732,
+      "lon": 8.7783,
+      "type": "WIND",
+      "time": "2026-07-16T17:58:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-16T17:58:00.000Z\", s\"01KXQK6K761M9FAH60KHY1VVM7\" ]",
       "lat": 47.438,
       "lon": 9.3771,
@@ -1186,11 +1234,35 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-16T17:52:00.000Z\", s\"01KXRS5T6A7EAFJ0P2C623KTX7\" ]",
+      "lat": 47.4184,
+      "lon": 8.7077,
+      "type": "WIND",
+      "time": "2026-07-16T17:52:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-16T17:52:00.000Z\", s\"01KXQHE5RN4B9WQ0K6NJCFF4HV\" ]",
       "lat": 47.366,
       "lon": 8.6807,
       "type": "HAIL",
       "time": "2026-07-16T17:52:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T17:49:00.000Z\", s\"01KXRS8NK70G1PTEV9EVBGY28H\" ]",
+      "lat": 47.39,
+      "lon": 8.6871,
+      "type": "WIND",
+      "time": "2026-07-16T17:49:00.000Z",
       "country": "CH",
       "place": null,
       "description": null,
@@ -1330,6 +1402,18 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-16T17:44:00.000Z\", s\"01KXRSDTW5VB2AQHYWJCX1RDFD\" ]",
+      "lat": 47.3913,
+      "lon": 8.6244,
+      "type": "WIND",
+      "time": "2026-07-16T17:44:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-16T17:44:00.000Z\", s\"01KXQK48BBDJDZMWHPBBW85DSK\" ]",
       "lat": 47.3749,
       "lon": 9.2634,
@@ -1420,6 +1504,18 @@
       "type": "HAIL",
       "time": "2026-07-16T17:39:00.000Z",
       "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T17:37:00.000Z\", s\"01KXRV9BK91F801QKPXMVFRJ2R\" ]",
+      "lat": 47.3536,
+      "lon": 8.5601,
+      "type": "WIND",
+      "time": "2026-07-16T17:37:00.000Z",
+      "country": "CH",
       "place": null,
       "description": null,
       "info_source": null,

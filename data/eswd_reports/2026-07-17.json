@@ -5,9 +5,44 @@
   "window_start_utc": "2026-07-17T04:00:00+00:00",
   "window_end_utc": "2026-07-18T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 24,
-  "report_count": 24,
+  "raw_count": 33,
+  "report_count": 33,
   "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-17T17:22:00.000Z\", s\"01KXRQ9H0QBKV3CH9HRSEMCPTC\" ]",
+      "lat": 53.8615,
+      "lon": 11.4165,
+      "type": "HAIL",
+      "time": "2026-07-17T17:22:00.000Z",
+      "country": "DE",
+      "place": "Martensdorf",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 17 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T17:17:00.000Z\", s\"01KXRPS3NXSCGSWFS8V3JQ4SPJ\" ]",
+      "lat": 52.2883,
+      "lon": 13.688,
+      "type": "HAIL",
+      "time": "2026-07-17T17:17:00.000Z",
+      "country": "DE",
+      "place": "Senzig",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 17 JUL 2026"
+      ]
+    },
     {
       "id": "weather_events:[ d\"2026-07-17T15:50:00.000Z\", s\"01KXRESF9XAM5EFJSR7XK0HJAT\" ]",
       "lat": 54.4639,
@@ -16,6 +51,56 @@
       "time": "2026-07-17T15:50:00.000Z",
       "country": "DE",
       "place": "Prerow Ahoi",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 17 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T15:00:00.000Z\", s\"01KXRPTFZD8QCVRBBY0EE1T3G5\" ]",
+      "lat": 47.4787,
+      "lon": 15.8153,
+      "type": "PRECIP",
+      "time": "2026-07-17T15:00:00.000Z",
+      "country": "AT",
+      "place": "Hauswiese",
+      "description": "radar checked, vast majority of the pecip during 30 mins",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Report by unofficial weather station via Awekas, 17 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T14:47:00.000Z\", s\"01KXRG0QB47R7EJ1NQWTFQ8371\" ]",
+      "lat": 51.8877,
+      "lon": 12.3718,
+      "type": "HAIL",
+      "time": "2026-07-17T14:47:00.000Z",
+      "country": "DE",
+      "place": "Klieken",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 17 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T14:37:00.000Z\", s\"01KXRFVH7HFWVZVNF3PSFGQK1C\" ]",
+      "lat": 51.8303,
+      "lon": 12.2377,
+      "type": "HAIL",
+      "time": "2026-07-17T14:37:00.000Z",
+      "country": "DE",
+      "place": "Dessau",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -40,6 +125,23 @@
       ],
       "references": [
         "Ws. report by Geosphere Austria, 17 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T14:20:00.000Z\", s\"01KXRFSJB9AGM3NTQBD89Q7WN9\" ]",
+      "lat": 51.8085,
+      "lon": 12.1535,
+      "type": "HAIL",
+      "time": "2026-07-17T14:20:00.000Z",
+      "country": "DE",
+      "place": "Mosigkau",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 17 JUL 2026"
       ]
     },
     {
@@ -74,6 +176,23 @@
       ],
       "references": [
         "Ws. report by Geosphere Austria, 17 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T14:00:00.000Z\", s\"01KXRFFXRMGVXQ37WGXBH2SJWY\" ]",
+      "lat": 49.3204,
+      "lon": 7.0955,
+      "type": "HAIL",
+      "time": "2026-07-17T14:00:00.000Z",
+      "country": "DE",
+      "place": "Friedrichsthal",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 17 JUL 2026"
       ]
     },
     {
@@ -173,6 +292,23 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-17T13:35:00.000Z\", s\"01KXRFE1GRA129VV3W19J7VEQS\" ]",
+      "lat": 49.3347,
+      "lon": 6.9262,
+      "type": "HAIL",
+      "time": "2026-07-17T13:35:00.000Z",
+      "country": "DE",
+      "place": "Heusweiler",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 17 JUL 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-17T13:35:00.000Z\", s\"01KXRDMFK72BD4KS7W93TSRP4R\" ]",
       "lat": 51.7267,
       "lon": 11.5128,
@@ -186,6 +322,23 @@
       ],
       "references": [
         "PWS IASCHE69 (wunderbround.com), 17 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T13:25:00.000Z\", s\"01KXRFMH6Y17YFC38PM6AF9JKT\" ]",
+      "lat": 50.4684,
+      "lon": 12.0962,
+      "type": "HAIL",
+      "time": "2026-07-17T13:25:00.000Z",
+      "country": "DE",
+      "place": "Thiergarten",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 17 JUL 2026"
       ]
     },
     {
@@ -276,14 +429,10 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:00:00.000Z",
       "country": "DE",
-      "place": "Radisleben",
+      "place": null,
       "description": null,
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "PWS IBALLE77 (wunderbround.com), 17 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T13:00:00.000Z\", s\"01KXRCF2F6XBE9SC9SZC7TRGPS\" ]",
@@ -292,14 +441,10 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:00:00.000Z",
       "country": "DE",
-      "place": "Derenburg Schloss",
+      "place": null,
       "description": null,
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "PWS IBLANK96 (wunderbround.com), 17 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T13:00:00.000Z\", s\"01KXRCDHK62H82X70154Z7879C\" ]",
@@ -308,14 +453,10 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:00:00.000Z",
       "country": "DE",
-      "place": "Derenburg",
+      "place": null,
       "description": null,
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "PWS IBLANK258 (wunderbround.com), 17 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T12:55:00.000Z\", s\"01KXRDBDMWRKSWZP6RR3SDC8JY\" ]",
@@ -324,14 +465,10 @@
       "type": "PRECIP",
       "time": "2026-07-17T12:55:00.000Z",
       "country": "DE",
-      "place": "Meisdorf",
+      "place": null,
       "description": null,
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "PWS IFALKE135 (wunderbround.com), 17 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T12:52:00.000Z\", s\"01KXR7C6384XKZ2D41GFX43410\" ]",
@@ -340,16 +477,10 @@
       "type": "WIND",
       "time": "2026-07-17T12:52:00.000Z",
       "country": "PL",
-      "place": "Podmokle Wielkie",
-      "description": "Multiple downed trees in a local forest was reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "DMGEYEWTN",
-        "DMGPHOTO"
-      ],
-      "references": [
-        "Eyewitness report via Sieć Obserwatorów Burz | Obserwatorzy.info (on X), 17 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T12:50:00.000Z\", s\"01KXRDB41MSEPV9JY90V56ETN3\" ]",
@@ -358,14 +489,10 @@
       "type": "PRECIP",
       "time": "2026-07-17T12:50:00.000Z",
       "country": "DE",
-      "place": "Meisdorf",
+      "place": null,
       "description": null,
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "PWS IFALKE46 (wunderbround.com), 17 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T12:45:00.000Z\", s\"01KXR7FBBHX7S07YNMM7PTB23A\" ]",
@@ -374,16 +501,10 @@
       "type": "WIND",
       "time": "2026-07-17T12:45:00.000Z",
       "country": "PL",
-      "place": "Babimost",
-      "description": "Downed trees were reported. The time was based on radar data.",
-      "info_source": [
-        "WWW",
-        "DMGPHOTO",
-        "DMGEYEWTN"
-      ],
-      "references": [
-        "Eyewitness report via Sieć Obserwatorów Burz | Obserwatorzy.info (on Facebook), 17 JUL 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T12:35:00.000Z\", s\"01KXRCJST8W2KPHKB57KXZS7JZ\" ]",
@@ -392,14 +513,10 @@
       "type": "PRECIP",
       "time": "2026-07-17T12:35:00.000Z",
       "country": "DE",
-      "place": "Danstedt",
+      "place": null,
       "description": null,
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "PWS INORDH169 (wunderbround.com), 17 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     }
   ]
 }
