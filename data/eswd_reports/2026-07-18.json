@@ -5,7 +5,44 @@
   "window_start_utc": "2026-07-18T04:00:00+00:00",
   "window_end_utc": "2026-07-19T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 0,
-  "report_count": 0,
-  "reports": []
+  "raw_count": 2,
+  "report_count": 2,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-18T11:55:00.000Z\", s\"01KXV3P97T11N6Z015SFYFZQ2R\" ]",
+      "lat": 45.6083,
+      "lon": 14.6065,
+      "type": "HAIL",
+      "time": "2026-07-18T11:55:00.000Z",
+      "country": "HR",
+      "place": "Gorači",
+      "description": "large hail up to 2.5 cm id; time estimated by radar data;",
+      "info_source": [
+        "EYEWTN",
+        "WWW",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "any eye-witness report via VinodolMet (FB), 18 JUL 2026;"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-18T11:25:00.000Z\", s\"01KXV3FPZGR57QKDQ6MGR64WE5\" ]",
+      "lat": 45.3086,
+      "lon": 17.9488,
+      "type": "WIND",
+      "time": "2026-07-18T11:25:00.000Z",
+      "country": "HR",
+      "place": "Djedina Rijeka",
+      "description": "severe wind during supercell storm; damage to roofs; downed trees blocked road; time estimated by radar data;",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "[FOTO] Veliko nevrijeme pogodilo Djedinu Rijeku, svaka druga kuća pretrpjela oštećenja, pozeski.hr, 18 JUL 2026;"
+      ]
+    }
+  ]
 }
