@@ -5,8 +5,8 @@
   "window_start_utc": "2026-07-15T04:00:00+00:00",
   "window_end_utc": "2026-07-16T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 162,
-  "report_count": 162,
+  "raw_count": 163,
+  "report_count": 163,
   "reports": [
     {
       "id": "weather_events:[ d\"2026-07-16T03:49:00.000Z\", s\"01KXMQB2D18R9K1RRG9CGSZ1X8\" ]",
@@ -1814,6 +1814,18 @@
       "type": "HAIL",
       "time": "2026-07-15T11:32:00.000Z",
       "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-15T09:11:00.000Z\", s\"01KXT4Z3JJ0FY47GWR4BDRX494\" ]",
+      "lat": 49.0541,
+      "lon": 20.0857,
+      "type": "LIGHTNING",
+      "time": "2026-07-15T09:11:00.000Z",
+      "country": "SK",
       "place": null,
       "description": null,
       "info_source": null,

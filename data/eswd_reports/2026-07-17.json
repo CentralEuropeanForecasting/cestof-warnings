@@ -5,8 +5,8 @@
   "window_start_utc": "2026-07-17T04:00:00+00:00",
   "window_end_utc": "2026-07-18T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 34,
-  "report_count": 34,
+  "raw_count": 51,
+  "report_count": 51,
   "reports": [
     {
       "id": "weather_events:[ d\"2026-07-17T17:22:00.000Z\", s\"01KXRQ9H0QBKV3CH9HRSEMCPTC\" ]",
@@ -15,10 +15,7 @@
       "type": "HAIL",
       "time": "2026-07-17T17:22:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": "Martensdorf",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -35,10 +32,7 @@
       "type": "HAIL",
       "time": "2026-07-17T17:17:00.000Z",
       "country": "DE",
-      "qc": "QC1",
       "place": "Senzig",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -50,16 +44,129 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-17T17:05:00.000Z\", s\"01KXT5H3J06ZTZYHEHK2QK4E9J\" ]",
+      "lat": 48.3265,
+      "lon": 17.9551,
+      "type": "WIND",
+      "time": "2026-07-17T17:05:00.000Z",
+      "country": "SK",
+      "place": "Veľké Zálužie",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "multiple reports on Facebook by drivers about snapped trees on the highway"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T17:00:00.000Z\", s\"01KXT677CAEHJ75BGMK88DTRNW\" ]",
+      "lat": 48.3075,
+      "lon": 17.937,
+      "type": "WIND",
+      "time": "2026-07-17T17:00:00.000Z",
+      "country": "SK",
+      "place": "Veľké Zálužie",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "GOV"
+      ],
+      "references": [
+        "multiple reports on Facebook by residents and V-FD Veľké Zálužie"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T17:00:00.000Z\", s\"01KXT66ZPBQ2RMTBGTS39HARQA\" ]",
+      "lat": 48.3265,
+      "lon": 17.9551,
+      "type": "WIND",
+      "time": "2026-07-17T17:00:00.000Z",
+      "country": "SK",
+      "place": "Veľké Zálužie",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "GOV"
+      ],
+      "references": [
+        "multiple reports on Facebook by residents and V-FD Veľké Zálužie"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T16:55:00.000Z\", s\"01KXT5EZG4QEGWG255YN5TYMG7\" ]",
+      "lat": 48.2983,
+      "lon": 17.9053,
+      "type": "WIND",
+      "time": "2026-07-17T16:55:00.000Z",
+      "country": "SK",
+      "place": "Alexandrov Dvor",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "multiple reports on Facebook by drivers about snapped trees on the highway"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T15:50:00.000Z\", s\"01KXSZ7SF8XYE9CDQH3RBN14F7\" ]",
+      "lat": 50.074,
+      "lon": 17.3068,
+      "type": "PRECIP",
+      "time": "2026-07-17T15:50:00.000Z",
+      "country": "CZ",
+      "place": "Karlova Studánka",
+      "description": "torrential rain during thunderstorm | measurement by CHMI rain gauge station | peak precip. time was 15:10 - 15:40 UTC",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 18 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T15:50:00.000Z\", s\"01KXSYP1YZGNJZEFDAJ56XDZMV\" ]",
+      "lat": 50.0403,
+      "lon": 16.7428,
+      "type": "PRECIP",
+      "time": "2026-07-17T15:50:00.000Z",
+      "country": "CZ",
+      "place": "Červená Voda",
+      "description": "torrential rain during thunderstorm | measurement by CHMI rain gauge station",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 18 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T15:50:00.000Z\", s\"01KXSYG955FKCQHKCX8KVBYF28\" ]",
+      "lat": 50.0828,
+      "lon": 16.7347,
+      "type": "PRECIP",
+      "time": "2026-07-17T15:50:00.000Z",
+      "country": "CZ",
+      "place": "Králíky",
+      "description": "torrential rain during thunderstorm | measurement by CHMI rain gauge station",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 18 JUL 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-17T15:50:00.000Z\", s\"01KXRESF9XAM5EFJSR7XK0HJAT\" ]",
       "lat": 54.4639,
       "lon": 12.5312,
       "type": "HAIL",
       "time": "2026-07-17T15:50:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": "Prerow Ahoi",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -70,16 +177,45 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-17T15:40:00.000Z\", s\"01KXSYDDVAAF9R2B6Y9PBBE3VX\" ]",
+      "lat": 50.0264,
+      "lon": 16.6674,
+      "type": "PRECIP",
+      "time": "2026-07-17T15:40:00.000Z",
+      "country": "CZ",
+      "place": "Orličky",
+      "description": "torrential rain during thunderstorm | measurement by CHMI rain gauge station",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 18 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T15:00:00.000Z\", s\"01KXSYTRNV4EWD9MZB1DNSRVM7\" ]",
+      "lat": 50.125,
+      "lon": 17.1542,
+      "type": "PRECIP",
+      "time": "2026-07-17T15:00:00.000Z",
+      "country": "CZ",
+      "place": "Červenohorské sedlo, Bělá pod Pradědem",
+      "description": "torrential rain during thunderstorm | measurement by CHMI rain gauge station",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 18 JUL 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-17T15:00:00.000Z\", s\"01KXRPTFZD8QCVRBBY0EE1T3G5\" ]",
       "lat": 47.4787,
       "lon": 15.8153,
       "type": "PRECIP",
       "time": "2026-07-17T15:00:00.000Z",
       "country": "AT",
-      "qc": "QC0+",
       "place": "Hauswiese",
-      "place_accuracy": "1KM",
-      "time_accuracy": "1M",
       "description": "radar checked, vast majority of the pecip during 30 mins",
       "info_source": [
         "WWW"
@@ -95,10 +231,7 @@
       "type": "HAIL",
       "time": "2026-07-17T14:47:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": "Klieken",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -115,10 +248,7 @@
       "type": "HAIL",
       "time": "2026-07-17T14:37:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": "Dessau",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -135,10 +265,7 @@
       "type": "PRECIP",
       "time": "2026-07-17T14:30:00.000Z",
       "country": "AT",
-      "qc": "QC1",
       "place": "Hohe Warte",
-      "place_accuracy": "1KM",
-      "time_accuracy": "1M",
       "description": "radar checked",
       "info_source": [
         "WWW",
@@ -155,10 +282,7 @@
       "type": "HAIL",
       "time": "2026-07-17T14:20:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": "Mosigkau",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -175,10 +299,7 @@
       "type": "HAIL",
       "time": "2026-07-17T14:11:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": "Ludwigshafen am Rhein",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -195,10 +316,7 @@
       "type": "PRECIP",
       "time": "2026-07-17T14:10:00.000Z",
       "country": "AT",
-      "qc": "QC1",
       "place": "Innere Stadt",
-      "place_accuracy": "1KM",
-      "time_accuracy": "1M",
       "description": "radar checked",
       "info_source": [
         "WWW",
@@ -215,10 +333,7 @@
       "type": "HAIL",
       "time": "2026-07-17T14:00:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": "Friedrichsthal",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -235,10 +350,7 @@
       "type": "PRECIP",
       "time": "2026-07-17T14:00:00.000Z",
       "country": "AT",
-      "qc": "QC0+",
       "place": "Himmelpfortgrund",
-      "place_accuracy": "1KM",
-      "time_accuracy": "1M",
       "description": "radar checked",
       "info_source": [
         "WWW"
@@ -254,10 +366,7 @@
       "type": "PRECIP",
       "time": "2026-07-17T14:00:00.000Z",
       "country": "AT",
-      "qc": "QC0+",
       "place": "Theresienau",
-      "place_accuracy": "1KM",
-      "time_accuracy": "1M",
       "description": "radar checked",
       "info_source": [
         "WWW"
@@ -273,10 +382,7 @@
       "type": "PRECIP",
       "time": "2026-07-17T14:00:00.000Z",
       "country": "AT",
-      "qc": "QC0+",
       "place": "Gießhübl",
-      "place_accuracy": "1KM",
-      "time_accuracy": "1M",
       "description": "radar checked",
       "info_source": [
         "WWW"
@@ -292,10 +398,7 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:45:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": "Bründel",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
       "description": null,
       "info_source": [
         "WWW"
@@ -311,10 +414,7 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:40:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": "Schackenthal",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
       "description": null,
       "info_source": [
         "WWW"
@@ -330,10 +430,7 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:40:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": "Klein Schierstedt",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
       "description": null,
       "info_source": [
         "WWW"
@@ -343,16 +440,30 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-17T13:35:00.000Z\", s\"01KXTX7H56DYDTEZ597JJWKRYD\" ]",
+      "lat": 51.778,
+      "lon": 17.107,
+      "type": "WIND",
+      "time": "2026-07-17T13:35:00.000Z",
+      "country": "PL",
+      "place": "Kościuszkowo",
+      "description": "A tree fell on a road during the passage of a severe thunderstorm. Time was based on radar data.",
+      "info_source": [
+        "DMGPHOTO",
+        "WWW"
+      ],
+      "references": [
+        "OSP Pępowo (on facebook), 17 Jul 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-17T13:35:00.000Z\", s\"01KXRFE1GRA129VV3W19J7VEQS\" ]",
       "lat": 49.3347,
       "lon": 6.9262,
       "type": "HAIL",
       "time": "2026-07-17T13:35:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": "Heusweiler",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -369,10 +480,7 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:35:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": "Mehringen",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
       "description": null,
       "info_source": [
         "WWW"
@@ -388,10 +496,7 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:30:00.000Z",
       "country": "CZ",
-      "qc": "QC1",
       "place": "Třešť",
-      "place_accuracy": "1KM",
-      "time_accuracy": "5M",
       "description": "torrential rain during thunderstorm | measurement by CHMI rain gauge station",
       "info_source": [
         "WXSVC"
@@ -401,24 +506,45 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-17T13:25:00.000Z\", s\"01KXTWSKHSMRMBY5M393DRNVXS\" ]",
+      "lat": 52.457,
+      "lon": 15.94,
+      "type": "WIND",
+      "time": "2026-07-17T13:25:00.000Z",
+      "country": "PL",
+      "place": "Piotry",
+      "description": "Numerous trees and large tree branches were downed in Piotry during the passage of a severe thunderstorm. Time was based on radar data.",
+      "info_source": [
+        "DMGPHOTO",
+        "WWW"
+      ],
+      "references": [
+        "OSP Jabłonka Stara (on facebook), 17 Jul 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-17T13:25:00.000Z\", s\"01KXRFMH6Y17YFC38PM6AF9JKT\" ]",
       "lat": 50.4684,
       "lon": 12.0962,
       "type": "HAIL",
       "time": "2026-07-17T13:25:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
-      "place": "Thiergarten",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 17 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T13:15:00.000Z\", s\"01KXTWZ6B4DMG14QB5JDN112N5\" ]",
+      "lat": 52.392,
+      "lon": 15.926,
+      "type": "WIND",
+      "time": "2026-07-17T13:15:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T13:14:00.000Z\", s\"01KXRFA409QZEPC17AV29JSC0M\" ]",
@@ -427,18 +553,22 @@
       "type": "HAIL",
       "time": "2026-07-17T13:14:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
-      "place": "Ihn",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
-      "description": "Large hail 3 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 17 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T13:10:00.000Z\", s\"01KXTVBWXPE7H7DYD18GWMEGXP\" ]",
+      "lat": 51.490617,
+      "lon": 16.9044,
+      "type": "WIND",
+      "time": "2026-07-17T13:10:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T13:10:00.000Z\", s\"01KXRDHTNDT0J9QT2GTDMNQNP0\" ]",
@@ -447,17 +577,10 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:10:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
-      "place": "Aschersleben Goetheblick",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
+      "place": null,
       "description": null,
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "PWS IASCHE23 (wunderbround.com), 17 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T13:10:00.000Z\", s\"01KXRDE1AJEVSH8F3NBAMXFXK3\" ]",
@@ -466,17 +589,10 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:10:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
-      "place": "Sinsleben",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
+      "place": null,
       "description": null,
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "PWS ISACHSEN74 (wunderbround.com), 17 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T13:05:00.000Z\", s\"01KXRDAPN3853SK7YRRBQHCP6J\" ]",
@@ -485,17 +601,10 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:05:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
-      "place": "Sinsleben",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
+      "place": null,
       "description": null,
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "PWS IFALKE70 (wunderbround.com), 17 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T13:05:00.000Z\", s\"01KXRCGYZ3CTSFGFR7R4ME78DY\" ]",
@@ -504,17 +613,22 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:05:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
-      "place": "Langenstein",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
+      "place": null,
       "description": null,
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "PWS IHALBE35 (wunderbround.com), 17 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T13:00:00.000Z\", s\"01KXTW35SSNQZEDN7QQZRKBZB8\" ]",
+      "lat": 52.243129,
+      "lon": 15.81619,
+      "type": "WIND",
+      "time": "2026-07-17T13:00:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T13:00:00.000Z\", s\"01KXRCWRQYW4YDXCQD8GQH6JPG\" ]",
@@ -523,10 +637,7 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:00:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": null,
-      "place_accuracy": null,
-      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -538,10 +649,7 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:00:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": null,
-      "place_accuracy": null,
-      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -553,10 +661,19 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:00:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": null,
-      "place_accuracy": null,
-      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T12:55:00.000Z\", s\"01KXTRMSSYBZSBZ5J53V2GAAPM\" ]",
+      "lat": 52.205617,
+      "lon": 15.843094,
+      "type": "WIND",
+      "time": "2026-07-17T12:55:00.000Z",
+      "country": "PL",
+      "place": null,
       "description": null,
       "info_source": null,
       "references": null
@@ -568,10 +685,7 @@
       "type": "PRECIP",
       "time": "2026-07-17T12:55:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": null,
-      "place_accuracy": null,
-      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -583,10 +697,19 @@
       "type": "WIND",
       "time": "2026-07-17T12:52:00.000Z",
       "country": "PL",
-      "qc": "QC1",
       "place": null,
-      "place_accuracy": null,
-      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T12:50:00.000Z\", s\"01KXTPQXHP1AC6HZ9DZJEPJXXB\" ]",
+      "lat": 52.197,
+      "lon": 15.886,
+      "type": "WIND",
+      "time": "2026-07-17T12:50:00.000Z",
+      "country": "PL",
+      "place": null,
       "description": null,
       "info_source": null,
       "references": null
@@ -598,10 +721,19 @@
       "type": "PRECIP",
       "time": "2026-07-17T12:50:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": null,
-      "place_accuracy": null,
-      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T12:45:00.000Z\", s\"01KXTQMCJ5WAPT0G2B22YKH4EK\" ]",
+      "lat": 52.1657,
+      "lon": 15.9227,
+      "type": "WIND",
+      "time": "2026-07-17T12:45:00.000Z",
+      "country": "PL",
+      "place": null,
       "description": null,
       "info_source": null,
       "references": null
@@ -613,10 +745,7 @@
       "type": "WIND",
       "time": "2026-07-17T12:45:00.000Z",
       "country": "PL",
-      "qc": "QC1",
       "place": null,
-      "place_accuracy": null,
-      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
@@ -628,10 +757,7 @@
       "type": "PRECIP",
       "time": "2026-07-17T12:35:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": null,
-      "place_accuracy": null,
-      "time_accuracy": "5M",
       "description": null,
       "info_source": null,
       "references": null
