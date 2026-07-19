@@ -5,9 +5,26 @@
   "window_start_utc": "2026-07-17T04:00:00+00:00",
   "window_end_utc": "2026-07-18T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 54,
-  "report_count": 54,
+  "raw_count": 67,
+  "report_count": 67,
   "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-17T19:10:00.000Z\", s\"01KXWRNAZV4MDCETSX7FZME25M\" ]",
+      "lat": 52.212,
+      "lon": 15.401,
+      "type": "WIND",
+      "time": "2026-07-17T19:10:00.000Z",
+      "country": "PL",
+      "place": "Niesulice",
+      "description": "A downed tree was reported after the passage of a thunderstorm. Time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Ochotnicza Straż Pożarna w Ołoboku (on facebook), 17 Jul 2026"
+      ]
+    },
     {
       "id": "weather_events:[ d\"2026-07-17T17:22:00.000Z\", s\"01KXRQ9H0QBKV3CH9HRSEMCPTC\" ]",
       "lat": 53.8615,
@@ -41,6 +58,23 @@
       ],
       "references": [
         "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 17 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T17:05:00.000Z\", s\"01KXWSFC9N0XGB1AJGKNEVHYFN\" ]",
+      "lat": 50.556,
+      "lon": 18.222,
+      "type": "WIND",
+      "time": "2026-07-17T17:05:00.000Z",
+      "country": "PL",
+      "place": "Sucha",
+      "description": "Downed trees was reported after the passage of a thunderstorm. Time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Ochotnicza Straż Pożarna w Suchej OSP Sucha (on facebook), 17 Jul 2026"
       ]
     },
     {
@@ -193,6 +227,46 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-17T15:30:00.000Z\", s\"01KXWN26KG9WQAR45AJQXWHD40\" ]",
+      "lat": 52.4407,
+      "lon": 15.5691,
+      "type": "PRECIP",
+      "time": "2026-07-17T15:30:00.000Z",
+      "country": "PL",
+      "place": "Międzyrzecz",
+      "description": "Numerous basements and roads were flooded in the city during the passage of a thunderstorm. Time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP KSRG Pszczew (on facebook), 17 Jul 2026",
+        "OSP Bledzew (on facebook), 17 Jul 2026",
+        "OSP Bledzew (on facebook), 17 Jul 2026",
+        "OSP KSRG Kaława (on facebook), 17 Jul 2026",
+        "OSP Przytoczna (on facebook), 17 Jul 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T15:30:00.000Z\", s\"01KXWMZ97ZWTPFXKNKHHJJJVZS\" ]",
+      "lat": 52.4428,
+      "lon": 15.5768,
+      "type": "WIND",
+      "time": "2026-07-17T15:30:00.000Z",
+      "country": "PL",
+      "place": "Międzyrzecz",
+      "description": "Numerous trees and tree branches were downed in the city during the passage of a thunderstorm. Time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP KSRG Pszczew (on facebook), 17 Jul 2026",
+        "OSP KSRG Kaława (on facebook), 17 Jul 2026",
+        "OSP Przytoczna (on facebook), 17 Jul 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-17T15:00:00.000Z\", s\"01KXSYTRNV4EWD9MZB1DNSRVM7\" ]",
       "lat": 50.125,
       "lon": 17.1542,
@@ -259,6 +333,22 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-17T14:30:00.000Z\", s\"01KXWS7CA77JK84QND2M69DPXH\" ]",
+      "lat": 51.483,
+      "lon": 16.84,
+      "type": "WIND",
+      "time": "2026-07-17T14:30:00.000Z",
+      "country": "PL",
+      "place": "Karnice",
+      "description": "A downed tree was reported after the passage of a thunderstorm. Time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "OSP Bychowo (on facebook), 17 Jul 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-17T14:30:00.000Z\", s\"01KXR98WJZH819H2211WA8BP09\" ]",
       "lat": 48.249,
       "lon": 16.356,
@@ -290,6 +380,23 @@
       ],
       "references": [
         "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 17 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T14:15:00.000Z\", s\"01KXWSQSQWGXKV5BDF5F1YP4MA\" ]",
+      "lat": 51.48,
+      "lon": 17.865,
+      "type": "WIND",
+      "time": "2026-07-17T14:15:00.000Z",
+      "country": "PL",
+      "place": "Kozły",
+      "description": "A downed tree on the road was reported after the passage of a thunderstorm. Time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP Niedźwiedź Wielkopolski (on facebook), 17 Jul 2026"
       ]
     },
     {
@@ -416,16 +523,10 @@
       "type": "WIND",
       "time": "2026-07-17T13:50:00.000Z",
       "country": "AT",
-      "place": "Alsergrund",
-      "description": "radar checked;",
-      "info_source": [
-        "NWSP",
-        "WWW"
-      ],
-      "references": [
-        "Vielzahl an Einsätzen und Verkehrsstörungen in Wien, Mein Bezirk, 17 Jul 2026.",
-        "U-Bahn und Kino: 250 Einsätze nach Starkregen, ORF Wien, 18 Jul 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T13:45:00.000Z\", s\"01KXVJNX93DR9MM1Z0K068KXXZ\" ]",
@@ -434,15 +535,10 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:45:00.000Z",
       "country": "AT",
-      "place": "Liesing Region",
-      "description": "fire department(s) came into action multiple/many times; radar checked;",
-      "info_source": [
-        "NWSP",
-        "WWW"
-      ],
-      "references": [
-        "U-Bahn und Kino: 250 Einsätze nach Starkregen, ORF Wien, 18 Jul 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T13:45:00.000Z\", s\"01KXRDVF4TB9482NKG2NF0C9ZZ\" ]",
@@ -451,14 +547,10 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:45:00.000Z",
       "country": "DE",
-      "place": "Bründel",
+      "place": null,
       "description": null,
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "PWS IPLTZK4 (wunderbround.com), 17 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T13:40:00.000Z\", s\"01KXRDRPQ60204YERJW75DNB48\" ]",
@@ -467,14 +559,10 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:40:00.000Z",
       "country": "DE",
-      "place": "Schackenthal",
+      "place": null,
       "description": null,
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "PWS IASCHE58 (wunderbround.com), 17 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T13:40:00.000Z\", s\"01KXRDPFHEYMGYJB7J5HX6FAT9\" ]",
@@ -483,14 +571,10 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:40:00.000Z",
       "country": "DE",
-      "place": "Klein Schierstedt",
+      "place": null,
       "description": null,
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "PWS IASCHE53 (wunderbround.com), 17 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T13:35:00.000Z\", s\"01KXTX7H56DYDTEZ597JJWKRYD\" ]",
@@ -499,15 +583,10 @@
       "type": "WIND",
       "time": "2026-07-17T13:35:00.000Z",
       "country": "PL",
-      "place": "Kościuszkowo",
-      "description": "A tree fell on a road during the passage of a severe thunderstorm. Time was based on radar data.",
-      "info_source": [
-        "DMGPHOTO",
-        "WWW"
-      ],
-      "references": [
-        "OSP Pępowo (on facebook), 17 Jul 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T13:35:00.000Z\", s\"01KXRFE1GRA129VV3W19J7VEQS\" ]",
@@ -574,6 +653,66 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-17T13:20:00.000Z\", s\"01KXWQ36DBKKC4Z8J7V24E7E0D\" ]",
+      "lat": 51.6682,
+      "lon": 16.9911,
+      "type": "WIND",
+      "time": "2026-07-17T13:20:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T13:20:00.000Z\", s\"01KXWP7M86FS4WYPAVEQP0RJC2\" ]",
+      "lat": 51.71,
+      "lon": 17.048,
+      "type": "WIND",
+      "time": "2026-07-17T13:20:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T13:15:00.000Z\", s\"01KXWR28N01EX12HDWV2XMR9E3\" ]",
+      "lat": 51.5658,
+      "lon": 15.539,
+      "type": "WIND",
+      "time": "2026-07-17T13:15:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T13:15:00.000Z\", s\"01KXWQTA3PGCKAF74WQWAJPW4P\" ]",
+      "lat": 51.566,
+      "lon": 15.547,
+      "type": "WIND",
+      "time": "2026-07-17T13:15:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T13:15:00.000Z\", s\"01KXWMQ5HMJCFAQHY95HWBZQ3N\" ]",
+      "lat": 52.3272,
+      "lon": 15.706,
+      "type": "WIND",
+      "time": "2026-07-17T13:15:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-17T13:15:00.000Z\", s\"01KXTWZ6B4DMG14QB5JDN112N5\" ]",
       "lat": 52.392,
       "lon": 15.926,
@@ -628,6 +767,18 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:10:00.000Z",
       "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T13:05:00.000Z\", s\"01KXWRVNENF9VXGZF5C2XWMJPP\" ]",
+      "lat": 52.2049,
+      "lon": 15.436,
+      "type": "WIND",
+      "time": "2026-07-17T13:05:00.000Z",
+      "country": "PL",
       "place": null,
       "description": null,
       "info_source": null,
@@ -796,6 +947,18 @@
       "type": "PRECIP",
       "time": "2026-07-17T12:35:00.000Z",
       "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T12:30:00.000Z\", s\"01KXWPTXGEABZFQ6DQ5JHYHF6J\" ]",
+      "lat": 52.073,
+      "lon": 15.866,
+      "type": "WIND",
+      "time": "2026-07-17T12:30:00.000Z",
+      "country": "PL",
       "place": null,
       "description": null,
       "info_source": null,
