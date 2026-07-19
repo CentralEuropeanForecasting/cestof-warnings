@@ -5,7 +5,142 @@
   "window_start_utc": "2026-07-19T04:00:00+00:00",
   "window_end_utc": "2026-07-20T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 0,
-  "report_count": 0,
-  "reports": []
+  "raw_count": 8,
+  "report_count": 8,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-19T17:30:00.000Z\", s\"01KXY8QB225YFCCP2WHJZJ7DCZ\" ]",
+      "lat": 48.99398,
+      "lon": 21.31465,
+      "type": "PRECIP",
+      "time": "2026-07-19T17:30:00.000Z",
+      "country": "SK",
+      "place": "Teriakovce",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Weather Underground, 19 Jul 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-19T17:24:00.000Z\", s\"01KXY8MSEQMRT2EEZWG98FA753\" ]",
+      "lat": 48.998,
+      "lon": 21.354,
+      "type": "PRECIP",
+      "time": "2026-07-19T17:24:00.000Z",
+      "country": "SK",
+      "place": "Podhradík",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Weather Underground, 19 Jul 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-19T17:14:00.000Z\", s\"01KXY8P8ZSFK1P85FCGA3Q0NRW\" ]",
+      "lat": 48.989335,
+      "lon": 21.314069,
+      "type": "PRECIP",
+      "time": "2026-07-19T17:14:00.000Z",
+      "country": "SK",
+      "place": "Teriakovce",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Weather Underground, 19 Jul 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-19T17:09:00.000Z\", s\"01KXY8J5X5BQJXECFQG3BG65DE\" ]",
+      "lat": 48.97979,
+      "lon": 21.323528,
+      "type": "PRECIP",
+      "time": "2026-07-19T17:09:00.000Z",
+      "country": "SK",
+      "place": "Ruská Nová Ves",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Weather Underground, 19 Jul 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-19T16:10:00.000Z\", s\"01KXY3XHWVA8H64SW4VQCQEYCC\" ]",
+      "lat": 49.041,
+      "lon": 21.3279,
+      "type": "WIND",
+      "time": "2026-07-19T16:10:00.000Z",
+      "country": "SK",
+      "place": "Kapušany",
+      "description": "Downburst",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "DMGEYEWTN",
+        "EVTPHOTO",
+        "DMGPHOTO",
+        "DMGSVY"
+      ],
+      "references": [
+        "Tomáš Fedor (on facebook), 19 Jul 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-19T15:05:00.000Z\", s\"01KXXN6NNJSEBAG5ZADM2H86DZ\" ]",
+      "lat": 50.0780563,
+      "lon": 19.794445,
+      "type": "WIND",
+      "time": "2026-07-19T15:05:00.000Z",
+      "country": "PL",
+      "place": "Kraków-Balice",
+      "description": "Weather station (350190566) measured a maximum wind speed of 28.6 m/s between 15:00 UTC and 15:10 UTC, during the passage of a severe thunderstorm. Mean 10-min wind speed: 21.5 m/s. ",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Hydro IMGW"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-19T13:30:00.000Z\", s\"01KXXFKD902D01RT5AP0AS4519\" ]",
+      "lat": 49.7012,
+      "lon": 18.3205,
+      "type": "PRECIP",
+      "time": "2026-07-19T13:30:00.000Z",
+      "country": "CZ",
+      "place": "Sviadnov",
+      "description": "torrential rain during thunderstorm | measurement by CHMI rain gauge station",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Hlásná a předpovědní povodňová služba (HPPS), CHMI, 19 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-19T13:19:00.000Z\", s\"01KXY8GPZ008TNTJDKTH97JYQH\" ]",
+      "lat": 48.887141,
+      "lon": 19.689311,
+      "type": "PRECIP",
+      "time": "2026-07-19T13:19:00.000Z",
+      "country": "SK",
+      "place": "Jarabá",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Weather Underground, 19 Jul 2026"
+      ]
+    }
+  ]
 }

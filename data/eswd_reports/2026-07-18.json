@@ -5,9 +5,155 @@
   "window_start_utc": "2026-07-18T04:00:00+00:00",
   "window_end_utc": "2026-07-19T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 2,
-  "report_count": 2,
+  "raw_count": 10,
+  "report_count": 10,
   "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-18T15:54:00.000Z\", s\"01KXY7T00DSESFX5KQRCDSWEEP\" ]",
+      "lat": 49.308356,
+      "lon": 21.569699,
+      "type": "PRECIP",
+      "time": "2026-07-18T15:54:00.000Z",
+      "country": "SK",
+      "place": "Svidník",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Weather Underground, 19 Jul 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-18T14:04:00.000Z\", s\"01KXY7X4E03V7D22WHHRPYBDA0\" ]",
+      "lat": 48.803,
+      "lon": 21.964,
+      "type": "PRECIP",
+      "time": "2026-07-18T14:04:00.000Z",
+      "country": "SK",
+      "place": "Vinné",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Weather Underground, 19 Jul 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-18T13:24:00.000Z\", s\"01KXY4RZQSR4D1B3M33NAHGWNY\" ]",
+      "lat": 48.743589,
+      "lon": 18.333285,
+      "type": "PRECIP",
+      "time": "2026-07-18T13:24:00.000Z",
+      "country": "SK",
+      "place": "Uhrovec",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Weather Underground, 19 Jul 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-18T13:09:00.000Z\", s\"01KXY7R764FS7NXTT0HAVQVC4R\" ]",
+      "lat": 48.941,
+      "lon": 21.909,
+      "type": "PRECIP",
+      "time": "2026-07-18T13:09:00.000Z",
+      "country": "SK",
+      "place": "Humenné",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Weather Underground, 19 Jul 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-18T12:55:00.000Z\", s\"01KXY3DD8J59SGAK3T0RZER3MS\" ]",
+      "lat": 48.9347,
+      "lon": 21.9086,
+      "type": "WIND",
+      "time": "2026-07-18T12:55:00.000Z",
+      "country": "SK",
+      "place": "Humenné",
+      "description": "Downburst. Multiple trees uprooted.",
+      "info_source": [
+        "NWSP",
+        "WWW",
+        "TV",
+        "EYEWTN",
+        "DMGEYEWTN",
+        "EVTPHOTO",
+        "DMGPHOTO",
+        "GOV",
+        "WXSVC"
+      ],
+      "references": [
+        "Humenné zasiahla ničivá búrka, padali aj krúpy. Silný vietor vyvrátil množstvo stromov, Korzár Zemplín, 19 Jul 2026",
+        "Dopravný Info-Servis HE - SV - ML - VT -MI - SO a okolie (on facebook), 19 Jul 2026",
+        "Mesto Humenné - MsÚ (on facebook), 19 Jul 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-18T12:55:00.000Z\", s\"01KXY31YS1QV26SYQPKRSJ6C9C\" ]",
+      "lat": 48.9294,
+      "lon": 21.9096,
+      "type": "HAIL",
+      "time": "2026-07-18T12:55:00.000Z",
+      "country": "SK",
+      "place": "Humenné",
+      "description": "Hailstones of 4 cm diameter reported with few undocumented reports of 5 cm max hailstone diameter. The hail damage was more significant due to the occurrence with downburst (hailstorm).",
+      "info_source": [
+        "WWW",
+        "TV",
+        "DMGPHOTO",
+        "EYEWTN",
+        "EVTPHOTO",
+        "NWSP"
+      ],
+      "references": [
+        "Humenné zasiahla ničivá búrka, padali aj krúpy. Silný vietor vyvrátil množstvo stromov, Korzár Zemplín, 19 Jul 2026",
+        "Meteo Východ - foto skupina (on facebook), 19 Jul 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-18T12:49:00.000Z\", s\"01KXY7VWB7RXD58V1S8D2DN35B\" ]",
+      "lat": 48.973,
+      "lon": 21.867,
+      "type": "PRECIP",
+      "time": "2026-07-18T12:49:00.000Z",
+      "country": "SK",
+      "place": "Gruzovce",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Weather Underground, 19 Jul 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-18T12:35:00.000Z\", s\"01KXY3M4FB761JJCH5T6ER19CK\" ]",
+      "lat": 48.923,
+      "lon": 21.8104,
+      "type": "HAIL",
+      "time": "2026-07-18T12:35:00.000Z",
+      "country": "SK",
+      "place": "Topoľovka",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "EVTPHOTO",
+        "EYEWTN"
+      ],
+      "references": [
+        "Na východe sú pod vodou. Silné búrky už udreli, Imeteo, 19 Jul 2026"
+      ]
+    },
     {
       "id": "weather_events:[ d\"2026-07-18T11:55:00.000Z\", s\"01KXV3P97T11N6Z015SFYFZQ2R\" ]",
       "lat": 45.6083,

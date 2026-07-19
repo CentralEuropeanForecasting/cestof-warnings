@@ -5,8 +5,8 @@
   "window_start_utc": "2026-07-16T04:00:00+00:00",
   "window_end_utc": "2026-07-17T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 272,
-  "report_count": 272,
+  "raw_count": 282,
+  "report_count": 282,
   "reports": [
     {
       "id": "weather_events:[ d\"2026-07-16T19:21:00.000Z\", s\"01KXQYTWXD3TK7YGQBYNJFRF43\" ]",
@@ -43,6 +43,54 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-16T18:40:00.000Z\", s\"01KXXKRSPKGE63BDC1M31FS2F3\" ]",
+      "lat": 48.8975,
+      "lon": 9.627,
+      "type": "WIND",
+      "time": "2026-07-16T18:40:00.000Z",
+      "country": "DE",
+      "place": "Seiboldsweiler",
+      "description": "Several trees damaged.",
+      "info_source": [
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Damage observed by Hendrik Sass (VOP) on July 19th, 2026;"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T18:40:00.000Z\", s\"01KXXKPRH70M3WNEF7YFHFXX5E\" ]",
+      "lat": 48.9041,
+      "lon": 9.6252,
+      "type": "WIND",
+      "time": "2026-07-16T18:40:00.000Z",
+      "country": "DE",
+      "place": "Eckartsweiler",
+      "description": "Several trees uprooted and snapped in Eckartsweiler and surrounding forests. Roofs damaged. Corn field flattened.",
+      "info_source": [
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Damage observed by Hendrik Sass (VOP) on July 19th, 2026;"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T18:40:00.000Z\", s\"01KXXKMXJ9RXGK7MCT0KYNRKDG\" ]",
+      "lat": 48.9131,
+      "lon": 9.6211,
+      "type": "WIND",
+      "time": "2026-07-16T18:40:00.000Z",
+      "country": "DE",
+      "place": "Gausmannsweiler",
+      "description": "Several trees uprooted and snapped in Gausmannsweiler and surrounding forests. Some roofs damaged.",
+      "info_source": [
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Damage observed by Hendrik Sass (VOP) on July 19th, 2026;"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-16T18:37:00.000Z\", s\"01KXQYKPJ67850JGRZQCYRWTSV\" ]",
       "lat": 48.9147,
       "lon": 9.5697,
@@ -57,6 +105,54 @@
       ],
       "references": [
         "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T18:35:00.000Z\", s\"01KXXM0QF0XR1GZNTQN36YK3BQ\" ]",
+      "lat": 48.9336,
+      "lon": 9.4962,
+      "type": "WIND",
+      "time": "2026-07-16T18:35:00.000Z",
+      "country": "DE",
+      "place": "Unterbrüden",
+      "description": "Dozens of snapped/uprooted trees between Brüden and Unterweissach.",
+      "info_source": [
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Damage observed by Hendrik Sass (VOP) on July 17th, 2026;"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T18:35:00.000Z\", s\"01KXXKZ9T297WBWN05M0XTQ3WE\" ]",
+      "lat": 48.9301,
+      "lon": 9.4782,
+      "type": "WIND",
+      "time": "2026-07-16T18:35:00.000Z",
+      "country": "DE",
+      "place": "Unterweissach",
+      "description": "Notable damage in Unterweissach, including dozens of snapped/uprooted trees and a toppled streetlight pole. ",
+      "info_source": [
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Damage observed by Hendrik Sass (VOP) on July 17th, 2026;"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T18:35:00.000Z\", s\"01KXXKVF951GR97YTRDJZSF87B\" ]",
+      "lat": 48.8868,
+      "lon": 9.5179,
+      "type": "WIND",
+      "time": "2026-07-16T18:35:00.000Z",
+      "country": "DE",
+      "place": "Rudersberg",
+      "description": "Weak trees uprooted and snapped between Rudersberg and Seelach.",
+      "info_source": [
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Damage observed by Hendrik Sass (VOP) on July 17th, 2026;"
       ]
     },
     {
@@ -342,15 +438,10 @@
       "type": "HAIL",
       "time": "2026-07-16T18:22:00.000Z",
       "country": "CH",
-      "place": "Thundorf",
-      "description": "Large hail 2 cm i.d. Radar checked. ",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Meteo Schweiz), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T18:21:00.000Z\", s\"01KXQXVJYAYX1A2VKJGPCEM1QT\" ]",
@@ -359,16 +450,22 @@
       "type": "HAIL",
       "time": "2026-07-16T18:21:00.000Z",
       "country": "DE",
-      "place": "Wimsheim",
-      "description": "Large hail 2 cm i.d. Radar checked. ",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T18:20:00.000Z\", s\"01KXXMX76X2T62BRCCBZH32DTS\" ]",
+      "lat": 48.9472,
+      "lon": 9.432,
+      "type": "WIND",
+      "time": "2026-07-16T18:20:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T18:20:00.000Z\", s\"01KXRWEZQF7YPPV158R5AK28HA\" ]",
@@ -377,16 +474,10 @@
       "type": "LIGHTNING",
       "time": "2026-07-16T18:20:00.000Z",
       "country": "CH",
-      "place": "Zeughausplatz",
-      "description": "tree destroyed, tree parts damaged 2 cars and 1 building",
-      "info_source": [
-        "WWW",
-        "NWSP",
-        "DMGPHOTO"
-      ],
-      "references": [
-        "Blitz liess Baum bersten – Trümmerteile beschädigen Haus, Blick, 17 Jul 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T18:20:00.000Z\", s\"01KXQY55C3F3GG33Q8YZQHGSNN\" ]",
@@ -395,15 +486,10 @@
       "type": "HAIL",
       "time": "2026-07-16T18:20:00.000Z",
       "country": "DE",
-      "place": "Obertorhöfe",
-      "description": "Large hail 2 cm i.d. Radar checked. ",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T18:19:00.000Z\", s\"01KXQYAYFAFWWZPVX9BW26DT9Y\" ]",
@@ -412,16 +498,10 @@
       "type": "HAIL",
       "time": "2026-07-16T18:19:00.000Z",
       "country": "DE",
-      "place": "Rielingshausen",
-      "description": "Large hail 3 cm i.d. Radar checked. ",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T18:18:00.000Z\", s\"01KXQY7RAWC5Z5Y6Z40YW5C11E\" ]",
@@ -430,16 +510,10 @@
       "type": "HAIL",
       "time": "2026-07-16T18:18:00.000Z",
       "country": "DE",
-      "place": "Zwingelhausen",
-      "description": "Large hail 2.5 cm i.d. Radar checked. ",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-16T18:18:00.000Z\", s\"01KXQY6M2PFWSHDDRR1BQRYBDX\" ]",
@@ -879,6 +953,18 @@
       "lon": 9.1324,
       "type": "HAIL",
       "time": "2026-07-16T18:10:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T18:05:00.000Z\", s\"01KXXN1Z8N5Z00NCFXPPB85N1R\" ]",
+      "lat": 48.9512,
+      "lon": 9.1368,
+      "type": "WIND",
+      "time": "2026-07-16T18:05:00.000Z",
       "country": "DE",
       "place": null,
       "description": null,
@@ -2098,6 +2184,18 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-16T17:10:00.000Z\", s\"01KXXMFN2NS9GC4GAJTQJ8HHTD\" ]",
+      "lat": 49.0066,
+      "lon": 8.4015,
+      "type": "WIND",
+      "time": "2026-07-16T17:10:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-16T17:10:00.000Z\", s\"01KXQN4GMF92QENYBCZTB5324E\" ]",
       "lat": 49.013,
       "lon": 8.3602,
@@ -2367,6 +2465,18 @@
       "lon": 9.0526,
       "type": "HAIL",
       "time": "2026-07-16T16:45:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-16T16:40:00.000Z\", s\"01KXXMGFXH60AXKY4PPGMVZ2AA\" ]",
+      "lat": 49.0444,
+      "lon": 8.0213,
+      "type": "WIND",
+      "time": "2026-07-16T16:40:00.000Z",
       "country": "DE",
       "place": null,
       "description": null,

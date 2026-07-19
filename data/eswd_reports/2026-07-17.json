@@ -5,9 +5,42 @@
   "window_start_utc": "2026-07-17T04:00:00+00:00",
   "window_end_utc": "2026-07-18T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 67,
-  "report_count": 67,
+  "raw_count": 78,
+  "report_count": 78,
   "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-17T22:34:00.000Z\", s\"01KXY4WTFKF4E2SCSCFZNT7EXP\" ]",
+      "lat": 48.586574,
+      "lon": 19.502101,
+      "type": "PRECIP",
+      "time": "2026-07-17T22:34:00.000Z",
+      "country": "SK",
+      "place": "Hriňová",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Weather Underground, 19 Jul 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T19:30:00.000Z\", s\"01KXXHXR4K8RZ0ADXW6DJNJKVZ\" ]",
+      "lat": 53.966,
+      "lon": 14.776,
+      "type": "PRECIP",
+      "time": "2026-07-17T19:30:00.000Z",
+      "country": "PL",
+      "place": "Kamień Pomorski",
+      "description": "Roads, basements and some buildings were flooded in Kamień Pomorski during the passage of a thunderstorm. Time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Zarząd Dróg Powiatowych pod wodą. Oberwanie chmury nad Kamieniem Pomorskim!, kamienskie.info, 17 Jul 2026"
+      ]
+    },
     {
       "id": "weather_events:[ d\"2026-07-17T19:10:00.000Z\", s\"01KXWRNAZV4MDCETSX7FZME25M\" ]",
       "lat": 52.212,
@@ -23,6 +56,23 @@
       ],
       "references": [
         "Ochotnicza Straż Pożarna w Ołoboku (on facebook), 17 Jul 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T18:20:00.000Z\", s\"01KXXMC1GCQHXD6N10JGTRS7QK\" ]",
+      "lat": 50.529,
+      "lon": 18.725,
+      "type": "LIGHTNING",
+      "time": "2026-07-17T18:20:00.000Z",
+      "country": "PL",
+      "place": "Tworóg",
+      "description": "Roof tiles on a residential building were damaged after a lightning strike. Time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Ochotnicza Straż Pożarna w Kotach (on facebook), 17 Jul 2026"
       ]
     },
     {
@@ -316,6 +366,23 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-17T14:40:00.000Z\", s\"01KXXJBKTVWAJB7BFWT2SYWVM5\" ]",
+      "lat": 53.87,
+      "lon": 16.487,
+      "type": "WIND",
+      "time": "2026-07-17T14:40:00.000Z",
+      "country": "PL",
+      "place": "Przystawy",
+      "description": "A tree fell on a road between Grzmiąca and Bobolice during the passage of a tunderstorm. Time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Ulewy w regionie i trudne warunki na drogach. Powalone drzewa oraz liczne kolizje, i.pl, 17 Jul 2026"
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-17T14:37:00.000Z\", s\"01KXRFVH7HFWVZVNF3PSFGQK1C\" ]",
       "lat": 51.8303,
       "lon": 12.2377,
@@ -363,6 +430,23 @@
       ],
       "references": [
         "Ws. report by Geosphere Austria, 17 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T14:25:00.000Z\", s\"01KXXMQJCHX6N18X3GYB68ZP03\" ]",
+      "lat": 51.934,
+      "lon": 17.4616,
+      "type": "WIND",
+      "time": "2026-07-17T14:25:00.000Z",
+      "country": "PL",
+      "place": "Siedlemin",
+      "description": "A metal sheathing was torn off an outbuilding during the passage of a severe thunderstorm. Time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Łukasz Kuliński - Wielkopolski Łowca Burz (on facebook), 17 Jul 2026"
       ]
     },
     {
@@ -441,15 +525,10 @@
       "type": "PRECIP",
       "time": "2026-07-17T14:10:00.000Z",
       "country": "AT",
-      "place": "Innere Stadt",
-      "description": "radar checked",
-      "info_source": [
-        "WWW",
-        "WXSVC"
-      ],
-      "references": [
-        "Ws. report by Geosphere Austria, 17 Jul 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T14:00:00.000Z\", s\"01KXRFFXRMGVXQ37WGXBH2SJWY\" ]",
@@ -458,15 +537,10 @@
       "type": "HAIL",
       "time": "2026-07-17T14:00:00.000Z",
       "country": "DE",
-      "place": "Friedrichsthal",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 17 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T14:00:00.000Z\", s\"01KXRAAPDKYGVF3ZB0RN0T2D1T\" ]",
@@ -475,14 +549,10 @@
       "type": "PRECIP",
       "time": "2026-07-17T14:00:00.000Z",
       "country": "AT",
-      "place": "Himmelpfortgrund",
-      "description": "radar checked",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "Report by unofficial weather station via Awekas, 17 Jul 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T14:00:00.000Z\", s\"01KXRA6FPB1X01KGVEYHRRMJX6\" ]",
@@ -491,14 +561,10 @@
       "type": "PRECIP",
       "time": "2026-07-17T14:00:00.000Z",
       "country": "AT",
-      "place": "Theresienau",
-      "description": "radar checked",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "Report by unofficial weather station via Awekas, 17 Jul 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T14:00:00.000Z\", s\"01KXRA0Q3WAS19WZCPF1N8SE2S\" ]",
@@ -507,14 +573,10 @@
       "type": "PRECIP",
       "time": "2026-07-17T14:00:00.000Z",
       "country": "AT",
-      "place": "Gießhübl",
-      "description": "radar checked",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "Report by unofficial weather station via Awekas, 17 Jul 2026."
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T13:50:00.000Z\", s\"01KXVHST2SCNJWQNDN44Y7Y4ZF\" ]",
@@ -893,6 +955,30 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-17T12:50:00.000Z\", s\"01KXXKWXAPW57GXGJW93DRR2DC\" ]",
+      "lat": 52.184,
+      "lon": 15.844,
+      "type": "WIND",
+      "time": "2026-07-17T12:50:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T12:50:00.000Z\", s\"01KXXKRHBVMQQEM13XEXJNNJP7\" ]",
+      "lat": 52.165,
+      "lon": 15.828,
+      "type": "WIND",
+      "time": "2026-07-17T12:50:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-17T12:50:00.000Z\", s\"01KXTPQXHP1AC6HZ9DZJEPJXXB\" ]",
       "lat": 52.197,
       "lon": 15.886,
@@ -941,6 +1027,30 @@
       "references": null
     },
     {
+      "id": "weather_events:[ d\"2026-07-17T12:40:00.000Z\", s\"01KXXM1ER6QCT0JRF841R4Z8CQ\" ]",
+      "lat": 52.12,
+      "lon": 15.832,
+      "type": "WIND",
+      "time": "2026-07-17T12:40:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T12:40:00.000Z\", s\"01KXXK0HY4Q0KJKY0J9DT8DC5R\" ]",
+      "lat": 52.144,
+      "lon": 15.887,
+      "type": "WIND",
+      "time": "2026-07-17T12:40:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
       "id": "weather_events:[ d\"2026-07-17T12:35:00.000Z\", s\"01KXRCJST8W2KPHKB57KXZS7JZ\" ]",
       "lat": 51.9117,
       "lon": 10.8874,
@@ -958,6 +1068,30 @@
       "lon": 15.866,
       "type": "WIND",
       "time": "2026-07-17T12:30:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T12:00:00.000Z\", s\"01KXXHE636TS0B7B76JHG688J8\" ]",
+      "lat": 51.583,
+      "lon": 16.522,
+      "type": "HAIL",
+      "time": "2026-07-17T12:00:00.000Z",
+      "country": "PL",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T12:00:00.000Z\", s\"01KXXH7CW0MJFFA0SC7PJR7YE8\" ]",
+      "lat": 51.585,
+      "lon": 16.521,
+      "type": "WIND",
+      "time": "2026-07-17T12:00:00.000Z",
       "country": "PL",
       "place": null,
       "description": null,
