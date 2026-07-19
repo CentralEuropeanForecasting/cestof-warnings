@@ -16,7 +16,10 @@
         "doubleHatch": false,
         "probability": "15",
         "intensity": "1",
-        "riskLabel": "T-Storm Risk"
+        "riskLabel": "T-Storm Risk",
+        "hazardChances": {
+          "wind": 2
+        }
       },
       "geometry": {
         "type": "MultiPolygon",
