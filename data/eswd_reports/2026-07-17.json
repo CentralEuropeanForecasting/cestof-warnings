@@ -5,8 +5,8 @@
   "window_start_utc": "2026-07-17T04:00:00+00:00",
   "window_end_utc": "2026-07-18T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 51,
-  "report_count": 51,
+  "raw_count": 54,
+  "report_count": 54,
   "reports": [
     {
       "id": "weather_events:[ d\"2026-07-17T17:22:00.000Z\", s\"01KXRQ9H0QBKV3CH9HRSEMCPTC\" ]",
@@ -293,6 +293,24 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-17T14:13:00.000Z\", s\"01KXVHCMT680DANGPHNA8B5QAB\" ]",
+      "lat": 48.2478,
+      "lon": 16.3624,
+      "type": "PRECIP",
+      "time": "2026-07-17T14:13:00.000Z",
+      "country": "AT",
+      "place": "Döbling",
+      "description": "roads flooded, underpasses blocked/closed, fire department(s) came into action multiple/many times, problems with public transport reported, underpass at station \"Heiligenstadt\" flooded; radar checked;",
+      "info_source": [
+        "NWSP",
+        "WWW"
+      ],
+      "references": [
+        "Vielzahl an Einsätzen und Verkehrsstörungen in Wien, Mein Bezirk, 17 Jul 2026.",
+        "U-Bahn und Kino: 250 Einsätze nach Starkregen, ORF Wien, 18 Jul 2026."
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-17T14:11:00.000Z\", s\"01KXRF0EQTNB14XV08JED1A6SJ\" ]",
       "lat": 49.4704,
       "lon": 8.4382,
@@ -392,6 +410,41 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-07-17T13:50:00.000Z\", s\"01KXVHST2SCNJWQNDN44Y7Y4ZF\" ]",
+      "lat": 48.2248,
+      "lon": 16.3495,
+      "type": "WIND",
+      "time": "2026-07-17T13:50:00.000Z",
+      "country": "AT",
+      "place": "Alsergrund",
+      "description": "radar checked;",
+      "info_source": [
+        "NWSP",
+        "WWW"
+      ],
+      "references": [
+        "Vielzahl an Einsätzen und Verkehrsstörungen in Wien, Mein Bezirk, 17 Jul 2026.",
+        "U-Bahn und Kino: 250 Einsätze nach Starkregen, ORF Wien, 18 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-17T13:45:00.000Z\", s\"01KXVJNX93DR9MM1Z0K068KXXZ\" ]",
+      "lat": 48.1475,
+      "lon": 16.3102,
+      "type": "PRECIP",
+      "time": "2026-07-17T13:45:00.000Z",
+      "country": "AT",
+      "place": "Liesing Region",
+      "description": "fire department(s) came into action multiple/many times; radar checked;",
+      "info_source": [
+        "NWSP",
+        "WWW"
+      ],
+      "references": [
+        "U-Bahn und Kino: 250 Einsätze nach Starkregen, ORF Wien, 18 Jul 2026."
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-07-17T13:45:00.000Z\", s\"01KXRDVF4TB9482NKG2NF0C9ZZ\" ]",
       "lat": 51.7449,
       "lon": 11.6507,
@@ -463,15 +516,10 @@
       "type": "HAIL",
       "time": "2026-07-17T13:35:00.000Z",
       "country": "DE",
-      "place": "Heusweiler",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 17 JUL 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T13:35:00.000Z\", s\"01KXRDMFK72BD4KS7W93TSRP4R\" ]",
@@ -480,14 +528,10 @@
       "type": "PRECIP",
       "time": "2026-07-17T13:35:00.000Z",
       "country": "DE",
-      "place": "Mehringen",
+      "place": null,
       "description": null,
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "PWS IASCHE69 (wunderbround.com), 17 JUL 2026"
-      ]
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T13:30:00.000Z\", s\"01KXSYABWXMTKF96SVYSCRR938\" ]",
@@ -512,15 +556,10 @@
       "type": "WIND",
       "time": "2026-07-17T13:25:00.000Z",
       "country": "PL",
-      "place": "Piotry",
-      "description": "Numerous trees and large tree branches were downed in Piotry during the passage of a severe thunderstorm. Time was based on radar data.",
-      "info_source": [
-        "DMGPHOTO",
-        "WWW"
-      ],
-      "references": [
-        "OSP Jabłonka Stara (on facebook), 17 Jul 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-07-17T13:25:00.000Z\", s\"01KXRFMH6Y17YFC38PM6AF9JKT\" ]",
