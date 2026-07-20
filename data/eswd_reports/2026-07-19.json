@@ -15,7 +15,10 @@
       "type": "PRECIP",
       "time": "2026-07-19T17:30:00.000Z",
       "country": "SK",
+      "qc": "QC0+",
       "place": "Teriakovce",
+      "place_accuracy": "3KM",
+      "time_accuracy": "1H",
       "description": "Heavy rain measured at automatic weather station.",
       "info_source": [
         "WWW"
@@ -31,7 +34,10 @@
       "type": "PRECIP",
       "time": "2026-07-19T17:24:00.000Z",
       "country": "SK",
+      "qc": "QC0+",
       "place": "Podhradík",
+      "place_accuracy": "3KM",
+      "time_accuracy": "1H",
       "description": "Heavy rain measured at automatic weather station.",
       "info_source": [
         "WWW"
@@ -47,7 +53,10 @@
       "type": "PRECIP",
       "time": "2026-07-19T17:14:00.000Z",
       "country": "SK",
+      "qc": "QC0+",
       "place": "Teriakovce",
+      "place_accuracy": "3KM",
+      "time_accuracy": "30M",
       "description": "Heavy rain measured at automatic weather station.",
       "info_source": [
         "WWW"
@@ -63,7 +72,10 @@
       "type": "PRECIP",
       "time": "2026-07-19T17:09:00.000Z",
       "country": "SK",
+      "qc": "QC0+",
       "place": "Ruská Nová Ves",
+      "place_accuracy": "3KM",
+      "time_accuracy": "30M",
       "description": "Heavy rain measured at automatic weather station.",
       "info_source": [
         "WWW"
@@ -79,7 +91,10 @@
       "type": "WIND",
       "time": "2026-07-19T16:10:00.000Z",
       "country": "SK",
+      "qc": "QC1",
       "place": "Kapušany",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
       "description": "Downburst",
       "info_source": [
         "WWW",
@@ -100,7 +115,10 @@
       "type": "WIND",
       "time": "2026-07-19T15:05:00.000Z",
       "country": "PL",
+      "qc": "QC0+",
       "place": "Kraków-Balice",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
       "description": "Weather station (350190566) measured a maximum wind speed of 28.6 m/s between 15:00 UTC and 15:10 UTC, during the passage of a severe thunderstorm. Mean 10-min wind speed: 21.5 m/s. ",
       "info_source": [
         "WWW",
@@ -117,7 +135,10 @@
       "type": "PRECIP",
       "time": "2026-07-19T13:30:00.000Z",
       "country": "CZ",
+      "qc": "QC1",
       "place": "Sviadnov",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
       "description": "torrential rain during thunderstorm | measurement by CHMI rain gauge station",
       "info_source": [
         "WXSVC"
@@ -133,7 +154,10 @@
       "type": "PRECIP",
       "time": "2026-07-19T13:19:00.000Z",
       "country": "SK",
+      "qc": "QC0+",
       "place": "Jarabá",
+      "place_accuracy": "3KM",
+      "time_accuracy": "30M",
       "description": "Heavy rain measured at automatic weather station.",
       "info_source": [
         "WWW"
