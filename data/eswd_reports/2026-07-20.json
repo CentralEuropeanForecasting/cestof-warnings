@@ -1,0 +1,54 @@
+{
+  "forecast_date": "2026-07-20",
+  "window_start_local": "2026-07-20T06:00:00+02:00",
+  "window_end_local": "2026-07-21T06:00:00+02:00",
+  "window_start_utc": "2026-07-20T04:00:00+00:00",
+  "window_end_utc": "2026-07-21T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 2,
+  "report_count": 2,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-20T11:10:00.000Z\", s\"01KY0A7HBSRMETC5WCYESN4THM\" ]",
+      "lat": 54.3918,
+      "lon": 19.4165,
+      "type": "TORNADO",
+      "time": "2026-07-20T11:10:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Krynica Morska",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": "A long funnel cloud was observed over water, reaching at least 80–85% CGD.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report (on Facebook), 20 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-20T05:10:00.000Z\", s\"01KXZRD7AJGKFWTZG1ST8YMZM2\" ]",
+      "lat": 44.9414,
+      "lon": 14.761,
+      "type": "LIGHTNING",
+      "time": "2026-07-20T05:10:00.000Z",
+      "country": "HR",
+      "qc": "QC1",
+      "place": "Baška",
+      "place_accuracy": "3KM",
+      "time_accuracy": "1M",
+      "description": "A woman was killed by lightning stirke while being on a beach (leisure). The person was a Czech citizen (tourist).",
+      "info_source": [
+        "NWSP",
+        "WXSVC"
+      ],
+      "references": [
+        "BODULIJA.net, 20 JUL 2026",
+        "kachelmannwetter.com"
+      ]
+    }
+  ]
+}
