@@ -1,0 +1,395 @@
+{
+  "forecast_date": "2026-07-21",
+  "window_start_local": "2026-07-21T06:00:00+02:00",
+  "window_end_local": "2026-07-22T06:00:00+02:00",
+  "window_start_utc": "2026-07-21T04:00:00+00:00",
+  "window_end_utc": "2026-07-22T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 21,
+  "report_count": 21,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-21T09:10:00.000Z\", s\"01KY27GQ5JBDT6176JVTEBBXG2\" ]",
+      "lat": 44.1774,
+      "lon": 15.3713,
+      "type": "HAIL",
+      "time": "2026-07-21T09:10:00.000Z",
+      "country": "HR",
+      "place": "Poličnik",
+      "description": "Large hail up to at least 3,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Crometeo (on Facebook), 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T07:36:00.000Z\", s\"01KY29JDQ4BWAVRVFJ1BBF13KE\" ]",
+      "lat": 45.1934,
+      "lon": 14.0952,
+      "type": "HAIL",
+      "time": "2026-07-21T07:36:00.000Z",
+      "country": "HR",
+      "place": "Potpićan",
+      "description": "Large hail up to at least 2 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via IstraMet (on Facebook), 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T07:28:00.000Z\", s\"01KY292EN97WB0CEVJ7MTGK47C\" ]",
+      "lat": 45.1855,
+      "lon": 14.0259,
+      "type": "HAIL",
+      "time": "2026-07-21T07:28:00.000Z",
+      "country": "HR",
+      "place": "Montovani",
+      "description": "Very large hail up to at least 5 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via IstraMet (on Facebook), 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T07:28:00.000Z\", s\"01KY28W0BB31QMPXK1SWJC8GQT\" ]",
+      "lat": 45.2038,
+      "lon": 14.0402,
+      "type": "HAIL",
+      "time": "2026-07-21T07:28:00.000Z",
+      "country": "HR",
+      "place": "Općina Pićan",
+      "description": "Large hail up to at least 2 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Istogu Sot (on Facebook), 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T07:18:00.000Z\", s\"01KY29DD8X47AY274YG1M406HX\" ]",
+      "lat": 45.1439,
+      "lon": 13.9087,
+      "type": "HAIL",
+      "time": "2026-07-21T07:18:00.000Z",
+      "country": "HR",
+      "place": "Općina Žminj",
+      "description": "Large hail up to at least 2-3 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Radio Istra (on Facebook), 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T07:03:00.000Z\", s\"01KY29G6WTB4MXGQ163979ZJNG\" ]",
+      "lat": 45.1574,
+      "lon": 13.7698,
+      "type": "HAIL",
+      "time": "2026-07-21T07:03:00.000Z",
+      "country": "HR",
+      "place": "Selina",
+      "description": "Large hail up to at least 2 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via IstraMet (on Facebook), 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T07:02:00.000Z\", s\"01KY1XK2D1QDM5M973S1VWPQBF\" ]",
+      "lat": 45.1106,
+      "lon": 13.7633,
+      "type": "HAIL",
+      "time": "2026-07-21T07:02:00.000Z",
+      "country": "HR",
+      "place": "Brajkovići",
+      "description": "Large hail up to at least 3-4 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via IstraIN (on Facebook), 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T07:01:00.000Z\", s\"01KY1XMMR5SJS3ZFMSJ9XMK2K0\" ]",
+      "lat": 45.115,
+      "lon": 13.7509,
+      "type": "HAIL",
+      "time": "2026-07-21T07:01:00.000Z",
+      "country": "HR",
+      "place": "Sošići",
+      "description": "Large hail up to at least 4 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neverin (on Facebook), 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T07:00:00.000Z\", s\"01KY1XGVJKRRPYJZ10V1AR8RJN\" ]",
+      "lat": 45.1073,
+      "lon": 13.7444,
+      "type": "HAIL",
+      "time": "2026-07-21T07:00:00.000Z",
+      "country": "HR",
+      "place": "Putini",
+      "description": "Large hail up to at least 4 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via IstraIN (on Facebook), 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T07:00:00.000Z\", s\"01KY1SYD0K0A5CK29GW734CYX3\" ]",
+      "lat": 45.0807,
+      "lon": 13.6417,
+      "type": "HAIL",
+      "time": "2026-07-21T07:00:00.000Z",
+      "country": "HR",
+      "place": "Grad Rovinj",
+      "description": "Large hail up to 5 cm (maybe even larger) in diameter, time estimated by radar data. Very likely supercell, splitting one even. Reportedly, few people sustained light injuries.",
+      "info_source": [
+        "EVTPHOTO",
+        "DMGPHOTO",
+        "WWW"
+      ],
+      "references": [
+        "Istramet, Facebook, 21 Jul 2026",
+        "Istramet, Facebook, 21 Jul 2026",
+        "istramet.hr, Četiri superćelije na moru, ledene gromade u Rovinju, stižu dojave o lakše ozlijeđenima, 21 Jul 2026",
+        "Vremenska prognoza by MeteoTeam, Facebbok, 21 Jul 2026",
+        "Eyewitness report via Neverin (on Facebook), 21 Jul 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T06:55:00.000Z\", s\"01KY1XXENQECM920F8W161B2ZQ\" ]",
+      "lat": 45.1067,
+      "lon": 13.7147,
+      "type": "HAIL",
+      "time": "2026-07-21T06:55:00.000Z",
+      "country": "HR",
+      "place": "Rovinjsko Selo",
+      "description": "Very large hail up to at least 5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via IstraMet (on Facebook), 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T06:50:00.000Z\", s\"01KY1XZ0YQP19218WEZF852BEJ\" ]",
+      "lat": 45.115,
+      "lon": 13.626,
+      "type": "HAIL",
+      "time": "2026-07-21T06:50:00.000Z",
+      "country": "HR",
+      "place": "Rovinj",
+      "description": "Large hail up to at least 4,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via IstraMet (on Facebook), 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T06:50:00.000Z\", s\"01KY1XSRQSWS90H69F61P3WVQW\" ]",
+      "lat": 45.1072,
+      "lon": 13.624,
+      "type": "HAIL",
+      "time": "2026-07-21T06:50:00.000Z",
+      "country": "HR",
+      "place": "Rovinj",
+      "description": "Very large hail up to at least 5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neverin (on Facebook), 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T06:50:00.000Z\", s\"01KY1XRCZS4ZE7YG5K5P5RM26B\" ]",
+      "lat": 45.121,
+      "lon": 13.6265,
+      "type": "HAIL",
+      "time": "2026-07-21T06:50:00.000Z",
+      "country": "HR",
+      "place": "Rovinj",
+      "description": "Very large hail up to at least 5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neverin (on Facebook), 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T06:48:00.000Z\", s\"01KY1XV86ZQ4HTG2BDJXH02SZH\" ]",
+      "lat": 45.0868,
+      "lon": 13.6453,
+      "type": "HAIL",
+      "time": "2026-07-21T06:48:00.000Z",
+      "country": "HR",
+      "place": "Rovinj",
+      "description": "Large hail up to at least 4 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via IstraMet (on Facebook), 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T06:25:00.000Z\", s\"01KY1X5Z55D929PNG41SYJ8EC8\" ]",
+      "lat": 45.027,
+      "lon": 14.5753,
+      "type": "HAIL",
+      "time": "2026-07-21T06:25:00.000Z",
+      "country": "HR",
+      "place": "Krk",
+      "description": "Large hail up to at least 2 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via VinodolMet (on Facebook), 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T05:30:00.000Z\", s\"01KY1TA9RQ146R0QRNBRJTCHVW\" ]",
+      "lat": 43.4471,
+      "lon": 17.218,
+      "type": "HAIL",
+      "time": "2026-07-21T05:30:00.000Z",
+      "country": "HR",
+      "place": "Grad Imotski",
+      "description": "Hail up to 2-3 cm in diameter. ",
+      "info_source": [
+        "EVTPHOTO",
+        "DMGPHOTO",
+        "WWW"
+      ],
+      "references": [
+        "Crometeo, Facebook, 21 Jul 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T04:53:00.000Z\", s\"01KY1XEBC3DB6FAGKKSX8DXT3D\" ]",
+      "lat": 43.6174,
+      "lon": 16.729,
+      "type": "HAIL",
+      "time": "2026-07-21T04:53:00.000Z",
+      "country": "HR",
+      "place": "Trilj",
+      "description": "Large hail up to at least 3 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via O VRIMENU I VREMENSKOJ PROGNOZI By Ivan Šolić-Vakula (on Facebook), 21 JUL 2026.",
+        "Eyewitness report via Crometeo (on Facebook), 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T04:48:00.000Z\", s\"01KY1X81B2W44MN0NTA8Y8P7HN\" ]",
+      "lat": 43.646,
+      "lon": 16.6738,
+      "type": "HAIL",
+      "time": "2026-07-21T04:48:00.000Z",
+      "country": "HR",
+      "place": "Turjaci",
+      "description": "Large hail up to at least 4 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via O VRIMENU I VREMENSKOJ PROGNOZI By Ivan Šolić-Vakula (on Facebook), 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T04:36:00.000Z\", s\"01KY1XB3GTGC6SFH6BYQXYS0RB\" ]",
+      "lat": 43.6821,
+      "lon": 16.6506,
+      "type": "HAIL",
+      "time": "2026-07-21T04:36:00.000Z",
+      "country": "HR",
+      "place": "Brnaze",
+      "description": "Very large hail up to at least 5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via O VRIMENU I VREMENSKOJ PROGNOZI By Ivan Šolić-Vakula (on Facebook), 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T04:36:00.000Z\", s\"01KY1XA1QY0KQZ6P75787XRWYF\" ]",
+      "lat": 43.7206,
+      "lon": 16.5949,
+      "type": "HAIL",
+      "time": "2026-07-21T04:36:00.000Z",
+      "country": "HR",
+      "place": "Lučane",
+      "description": "Large hail up to at least 3,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via O VRIMENU I VREMENSKOJ PROGNOZI By Ivan Šolić-Vakula (on Facebook), 21 JUL 2026."
+      ]
+    }
+  ]
+}
