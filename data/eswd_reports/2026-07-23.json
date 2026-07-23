@@ -1,0 +1,30 @@
+{
+  "forecast_date": "2026-07-23",
+  "window_start_local": "2026-07-23T06:00:00+02:00",
+  "window_end_local": "2026-07-24T06:00:00+02:00",
+  "window_start_utc": "2026-07-23T04:00:00+00:00",
+  "window_end_utc": "2026-07-24T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 1,
+  "report_count": 1,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-23T14:00:00.000Z\", s\"01KY85G4QYAGN8XFGJSGYCXSHN\" ]",
+      "lat": 48.987,
+      "lon": 22.153,
+      "type": "WIND",
+      "time": "2026-07-23T14:00:00.000Z",
+      "country": "SK",
+      "place": "Snina",
+      "description": "Likely an outflow boundary / gust front. Weak, but large tree with rotten trunk.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Dianie v Snine"
+      ]
+    }
+  ]
+}

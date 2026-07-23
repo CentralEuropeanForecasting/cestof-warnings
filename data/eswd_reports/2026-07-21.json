@@ -5,9 +5,89 @@
   "window_start_utc": "2026-07-21T04:00:00+00:00",
   "window_end_utc": "2026-07-22T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 21,
-  "report_count": 21,
+  "raw_count": 25,
+  "report_count": 25,
   "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-21T12:43:00.000Z\", s\"01KY55MTBRF45V7K12AV13GSZA\" ]",
+      "lat": 51.1685,
+      "lon": 23.7953,
+      "type": "HAIL",
+      "time": "2026-07-21T12:43:00.000Z",
+      "country": "PL",
+      "place": "Dorohusk",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. Significant damage to crops occurred. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Tygodnik Poradnik Rolniczy (on Facebook), 20 JUL 2026.",
+        "Eyewitness report via Super Tydzień Chełmski (on Facebook), 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T12:42:00.000Z\", s\"01KY568BETFA9C6WJA9751N41C\" ]",
+      "lat": 51.2173,
+      "lon": 23.7354,
+      "type": "HAIL",
+      "time": "2026-07-21T12:42:00.000Z",
+      "country": "PL",
+      "place": "Świerże",
+      "description": "Large hail up to at least 2-3 cm i.d. (roughly estimated) was reported. Significant damage to crops occurred. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN",
+        "DMGPHOTO",
+        "EVTPHOTO",
+        "EYEWTN"
+      ],
+      "references": [
+        "\"Wyszli w pole i zamarli. Z plonów nie zostało prawie nic\", Tygodnik Rolniczy, 20 JUL 2026.",
+        "\"Jeszcze w niedzielę liczył na plony. „Dziś został mi tylko badyl”\", Tygodnik Rolniczy, 21 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T12:42:00.000Z\", s\"01KY55HWA45KV4AH9SSPBXZ5RT\" ]",
+      "lat": 51.1792,
+      "lon": 23.7763,
+      "type": "HAIL",
+      "time": "2026-07-21T12:42:00.000Z",
+      "country": "PL",
+      "place": "Okopy",
+      "description": "Large hail up to at least 3 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Tygodnik Poradnik Rolniczy (on Facebook),19 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-21T12:40:00.000Z\", s\"01KY55QVP9R87NX4498JSSP3QQ\" ]",
+      "lat": 51.1954,
+      "lon": 23.734,
+      "type": "HAIL",
+      "time": "2026-07-21T12:40:00.000Z",
+      "country": "PL",
+      "place": "Zamieście",
+      "description": "Large hail up to at least 2-3 cm i.d. (roughly estimated) was reported. Significant damage to crops occurred. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Chełm na Sygnale (on Facebook), 20 JUL 2026."
+      ]
+    },
     {
       "id": "weather_events:[ d\"2026-07-21T09:10:00.000Z\", s\"01KY27GQ5JBDT6176JVTEBBXG2\" ]",
       "lat": 44.1774,
