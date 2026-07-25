@@ -1,0 +1,36 @@
+{
+  "forecast_date": "2026-07-24",
+  "window_start_local": "2026-07-24T06:00:00+02:00",
+  "window_end_local": "2026-07-25T06:00:00+02:00",
+  "window_start_utc": "2026-07-24T04:00:00+00:00",
+  "window_end_utc": "2026-07-25T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 1,
+  "report_count": 1,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-24T16:45:00.000Z\", s\"01KYBXGASGNHZ7SVSH9177FPPH\" ]",
+      "lat": 49.8427,
+      "lon": 20.5532,
+      "type": "TORNADO",
+      "time": "2026-07-24T16:45:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Lipnica Murowana",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "A weak tornado was observed by multiple eyewitnesses near Lipnica Murowana during the passage of an isolated cell. The rating is preliminary. The time was estimated based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Eyewitnesses reports via Pogoda Żegocina (on Facebook), 24 JUL 2026.",
+        "Eyewitnesses reports (on Facebook), 24 JUL 2026.",
+        "\"Trąba powietrzna w okolicach Lipnicy Murowanej? Są nagrania – WIDEO\", Bochnianin, 24 JUL 2026.",
+        "\"Trąba powietrzna w Małopolsce? Nagranie pokazuje lej przy ziemi\", Onet, 24 JUL 2026."
+      ]
+    }
+  ]
+}
