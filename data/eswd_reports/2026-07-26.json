@@ -1,0 +1,29 @@
+{
+  "forecast_date": "2026-07-26",
+  "window_start_local": "2026-07-26T06:00:00+02:00",
+  "window_end_local": "2026-07-27T06:00:00+02:00",
+  "window_start_utc": "2026-07-26T04:00:00+00:00",
+  "window_end_utc": "2026-07-27T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 1,
+  "report_count": 1,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-26T16:50:00.000Z\", s\"01KYG3PFHB5WTX96ZP0SKXPWK4\" ]",
+      "lat": 53.7879,
+      "lon": 9.4253,
+      "type": "TORNADO",
+      "time": "2026-07-26T16:50:00.000Z",
+      "country": "DE",
+      "place": "Glückstadt",
+      "description": "damaging tornado observed and filmed. More information will follow.",
+      "info_source": [
+        "EMAIL"
+      ],
+      "references": [
+        "Feuerwehr Glückstadt via Telephone, 26 JUNE 2026;",
+        "Several witnesses via direct message, 26 JUNE 2026;"
+      ]
+    }
+  ]
+}
