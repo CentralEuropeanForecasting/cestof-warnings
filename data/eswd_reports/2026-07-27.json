@@ -5,7 +5,280 @@
   "window_start_utc": "2026-07-27T04:00:00+00:00",
   "window_end_utc": "2026-07-28T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 0,
-  "report_count": 0,
-  "reports": []
+  "raw_count": 14,
+  "report_count": 14,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-27T16:35:00.000Z\", s\"01KYJE92F09FVABFGH5J0RFCP7\" ]",
+      "lat": 47.9582,
+      "lon": 22.792,
+      "type": "HAIL",
+      "time": "2026-07-27T16:35:00.000Z",
+      "country": "HU",
+      "qc": "QC0+",
+      "place": "Tisztaberek",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "diameter roughly estimated",
+      "info_source": [
+        "EVTPHOTO"
+      ],
+      "references": [
+        "video report by Nagy Mónika via MetFigyelő facebook page"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-27T16:30:00.000Z\", s\"01KYJSPNAJJP6Z9BKJ0V75VBCW\" ]",
+      "lat": 47.9616,
+      "lon": 22.8504,
+      "type": "HAIL",
+      "time": "2026-07-27T16:30:00.000Z",
+      "country": "HU",
+      "qc": "QC0+",
+      "place": "Nagyhódos",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "EVTPHOTO"
+      ],
+      "references": [
+        "photo report by Farkas Renáta on Facebook"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-27T16:25:00.000Z\", s\"01KYJF2M08CNYZQQKZCHH6ZT5F\" ]",
+      "lat": 48.0207,
+      "lon": 22.8357,
+      "type": "HAIL",
+      "time": "2026-07-27T16:25:00.000Z",
+      "country": "HU",
+      "qc": "QC0+",
+      "place": "Kispalád",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "diameter roughly estimated",
+      "info_source": [
+        "EVTPHOTO"
+      ],
+      "references": [
+        "photo report by Pfeiffer Mónika Brigitta on facebook"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-27T16:25:00.000Z\", s\"01KYJEVZBZCEBBM8RKKQXA5T71\" ]",
+      "lat": 48.0538,
+      "lon": 22.8631,
+      "type": "HAIL",
+      "time": "2026-07-27T16:25:00.000Z",
+      "country": "HU",
+      "qc": "QC0+",
+      "place": "Magosliget",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "diameter roughly estimated",
+      "info_source": [
+        "EVTPHOTO"
+      ],
+      "references": [
+        "photo report by Orgován Zsanett Kamilla on facebook"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-27T16:20:00.000Z\", s\"01KYJQCK4NDJV3NSF6EXQ3PE8S\" ]",
+      "lat": 48.0275,
+      "lon": 22.6761,
+      "type": "TORNADO",
+      "time": "2026-07-27T16:20:00.000Z",
+      "country": "HU",
+      "qc": "QC1",
+      "place": "Fülesd",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "written information about \"severe roof damages\", trees fallen down and trunks snapped in half in narrow zone;\nrotation visible on video",
+      "info_source": [
+        "DMGEYEWTN",
+        "EVTPHOTO",
+        "WWW"
+      ],
+      "references": [
+        "video report by Széles Bettina via Három határ hírei facebook page"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-27T16:20:00.000Z\", s\"01KYJFDQREGKMA4E1E3J9A5WX7\" ]",
+      "lat": 48.0289,
+      "lon": 22.8062,
+      "type": "HAIL",
+      "time": "2026-07-27T16:20:00.000Z",
+      "country": "HU",
+      "qc": "QC0+",
+      "place": "Botpalád",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "diameter roughly estimated",
+      "info_source": [
+        "EVTPHOTO"
+      ],
+      "references": [
+        "photo report by Lázár Árpi on facebook"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-27T16:20:00.000Z\", s\"01KYJFCB2V7G19GGF302SE186P\" ]",
+      "lat": 48.0735,
+      "lon": 22.8578,
+      "type": "HAIL",
+      "time": "2026-07-27T16:20:00.000Z",
+      "country": "HU",
+      "qc": "QC0+",
+      "place": "Uszka",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "diameter roughly estimated",
+      "info_source": [
+        "EVTPHOTO"
+      ],
+      "references": [
+        "photo report by Virág László Áron on facebook"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-27T16:15:00.000Z\", s\"01KYJSJKNJNG1BMHXRA0MBD9HD\" ]",
+      "lat": 48.052,
+      "lon": 22.6417,
+      "type": "HAIL",
+      "time": "2026-07-27T16:15:00.000Z",
+      "country": "HU",
+      "qc": "QC1",
+      "place": "Túristvándi",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "EVTPHOTO",
+        "WWW",
+        "EYEWTN"
+      ],
+      "references": [
+        "photo report by Vargáné Molnár Kinga on Facebook"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-27T16:15:00.000Z\", s\"01KYJFY5N1B47ZGYAETPK7J974\" ]",
+      "lat": 48.053,
+      "lon": 22.7466,
+      "type": "HAIL",
+      "time": "2026-07-27T16:15:00.000Z",
+      "country": "HU",
+      "qc": "QC0+",
+      "place": "Sonkád",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "EVTPHOTO"
+      ],
+      "references": [
+        "photo report by  Katáné Szabolcsi Katalin on facebook"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-27T16:15:00.000Z\", s\"01KYJFN0TKY3SZKN0KCERBVXY3\" ]",
+      "lat": 48.1031,
+      "lon": 22.7805,
+      "type": "HAIL",
+      "time": "2026-07-27T16:15:00.000Z",
+      "country": "HU",
+      "qc": "QC0+",
+      "place": "Milota",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "diameter roughly estimated",
+      "info_source": [
+        "EVTPHOTO"
+      ],
+      "references": [
+        "multiple video and photo report on facebook"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-27T16:15:00.000Z\", s\"01KYJENHZDP0ARXNFBX6DAHQG5\" ]",
+      "lat": 48.0968,
+      "lon": 22.8217,
+      "type": "HAIL",
+      "time": "2026-07-27T16:15:00.000Z",
+      "country": "HU",
+      "qc": "QC0+",
+      "place": "Tiszabecs",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "diameter roughly estimated",
+      "info_source": [
+        "EVTPHOTO"
+      ],
+      "references": [
+        "multiple photo and video reports on facebook"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-27T16:10:00.000Z\", s\"01KYJFRK1HW33JCZ056Q9CZQ5V\" ]",
+      "lat": 48.1034,
+      "lon": 22.7124,
+      "type": "HAIL",
+      "time": "2026-07-27T16:10:00.000Z",
+      "country": "HU",
+      "qc": "QC1",
+      "place": "Tiszakóród",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "diameter roughly estimated",
+      "info_source": [
+        "EVTPHOTO",
+        "WWW",
+        "EYEWTN"
+      ],
+      "references": [
+        "photo report by Majoros Attila on facebook"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-27T13:00:00.000Z\", s\"01KYJ3M8NXWM6Y6F7F4NZBWV47\" ]",
+      "lat": 49.19,
+      "lon": 21.52,
+      "type": "PRECIP",
+      "time": "2026-07-27T13:00:00.000Z",
+      "country": "SK",
+      "qc": "QC1",
+      "place": "Okrúhle",
+      "place_accuracy": "3KM",
+      "time_accuracy": "30M",
+      "description": "heavy rain of cold front passing",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "www.shmu.sk"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-27T13:00:00.000Z\", s\"01KYJ3DYW5PJHWNSWPT36DPHSW\" ]",
+      "lat": 49.2,
+      "lon": 21.51,
+      "type": "PRECIP",
+      "time": "2026-07-27T13:00:00.000Z",
+      "country": "SK",
+      "qc": "QC1",
+      "place": "Okruhle",
+      "place_accuracy": "3KM",
+      "time_accuracy": "1H",
+      "description": "thunderstorm heavy rain connected with passing of the cold front",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "www.shmu.sk"
+      ]
+    }
+  ]
 }
