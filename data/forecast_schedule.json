@@ -1,24 +1,6 @@
 {
   "forecasts": [
     {
-      "issued_at": "2026-07-23T00:00:00.000Z",
-      "updated_at": "2026-07-23T00:14:06.761Z",
-      "valid_from": "2026-07-23T03:00:00.000Z",
-      "valid_until": "2026-07-24T03:00:00.000Z",
-      "archive_date": "2026-07-23",
-      "base_path": "data/forecast_archive/2026-07-23",
-      "day_key": "day1"
-    },
-    {
-      "issued_at": "2026-07-23T22:01:00.000Z",
-      "updated_at": "2026-07-23T22:04:28.801Z",
-      "valid_from": "2026-07-24T03:00:00.000Z",
-      "valid_until": "2026-07-25T03:00:00.000Z",
-      "archive_date": "2026-07-24",
-      "base_path": "data/forecast_archive/2026-07-24",
-      "day_key": "day1"
-    },
-    {
       "issued_at": "2026-07-24T22:56:00.000Z",
       "updated_at": "2026-07-24T22:59:12.322Z",
       "valid_from": "2026-07-25T03:00:00.000Z",
@@ -44,7 +26,16 @@
       "archive_date": "2026-07-27",
       "base_path": "data/forecast_archive/2026-07-27",
       "day_key": "day1"
+    },
+    {
+      "issued_at": "2026-07-28T10:35:00.000Z",
+      "updated_at": "2026-07-28T10:39:55.844Z",
+      "valid_from": "2026-07-28T03:00:00.000Z",
+      "valid_until": "2026-07-29T03:00:00.000Z",
+      "archive_date": "2026-07-28",
+      "base_path": "data/forecast_archive/2026-07-28",
+      "day_key": "day1"
     }
   ],
-  "updated_at": "2026-07-26T22:59:48.303Z"
+  "updated_at": "2026-07-28T10:40:03.621Z"
 }
