@@ -1,0 +1,300 @@
+{
+  "forecast_date": "2026-07-29",
+  "window_start_local": "2026-07-29T06:00:00+02:00",
+  "window_end_local": "2026-07-30T06:00:00+02:00",
+  "window_start_utc": "2026-07-29T04:00:00+00:00",
+  "window_end_utc": "2026-07-30T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 14,
+  "report_count": 14,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-29T19:15:00.000Z\", s\"01KYR32TEV9W34NC2AKFQ7JE4X\" ]",
+      "lat": 46.96623,
+      "lon": 11.00789,
+      "type": "PRECIP",
+      "time": "2026-07-29T19:15:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Sölden",
+      "place_accuracy": "3KM",
+      "time_accuracy": "30M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "EVTPHOTO",
+        "TV",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Schwere Murenabgänge nach Unwettern\", ORF Tirol, 30 JUL 2026.",
+        "Niederschlagsradar Austro Contro / Kachelmannwetter"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-29T19:00:00.000Z\", s\"01KYQZF6TW6065ZNH7DYMXGF3B\" ]",
+      "lat": 47.238,
+      "lon": 13.1986,
+      "type": "PRECIP",
+      "time": "2026-07-29T19:00:00.000Z",
+      "country": "AT",
+      "qc": "QC0+",
+      "place": "Unterstein",
+      "place_accuracy": "1KM",
+      "time_accuracy": "1M",
+      "description": "radar checked",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Report by unofficial weather station via Awekas, 29 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-29T19:00:00.000Z\", s\"01KYQZAN7W3KGAEG91GT0R7BHW\" ]",
+      "lat": 47.2338,
+      "lon": 13.0006,
+      "type": "PRECIP",
+      "time": "2026-07-29T19:00:00.000Z",
+      "country": "AT",
+      "qc": "QC0+",
+      "place": "Rauris-Nordost",
+      "place_accuracy": "1KM",
+      "time_accuracy": "1M",
+      "description": "radar checked",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Report by unofficial weather station via Awekas, 29 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-29T19:00:00.000Z\", s\"01KYQZ4JMD22789VK90SNCY4T7\" ]",
+      "lat": 47.2291,
+      "lon": 12.995,
+      "type": "PRECIP",
+      "time": "2026-07-29T19:00:00.000Z",
+      "country": "AT",
+      "qc": "QC0+",
+      "place": "Kirchplatz",
+      "place_accuracy": "1KM",
+      "time_accuracy": "1M",
+      "description": "radar checked",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Report by unofficial weather station via Awekas, 29 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-29T19:00:00.000Z\", s\"01KYQZ1HGF90YCD1DFC5RK9SB2\" ]",
+      "lat": 47.2018,
+      "lon": 12.9675,
+      "type": "PRECIP",
+      "time": "2026-07-29T19:00:00.000Z",
+      "country": "AT",
+      "qc": "QC0+",
+      "place": "Hochberg",
+      "place_accuracy": "1KM",
+      "time_accuracy": "1M",
+      "description": "radar checked",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Report by unofficial weather station via Awekas, 29 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-29T18:50:00.000Z\", s\"01KYR0439E4M2DF94T8PNX8W7B\" ]",
+      "lat": 47.2415,
+      "lon": 13.1945,
+      "type": "PRECIP",
+      "time": "2026-07-29T18:50:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Roslehen",
+      "place_accuracy": "1KM",
+      "time_accuracy": "1M",
+      "description": "radar checked;",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Report by Geosphere Austria, 29 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-29T18:50:00.000Z\", s\"01KYQZR8JT1P79RTNEKC3TTSQZ\" ]",
+      "lat": 47.2235,
+      "lon": 12.9925,
+      "type": "PRECIP",
+      "time": "2026-07-29T18:50:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Rauris (Geosphere)",
+      "place_accuracy": "1KM",
+      "time_accuracy": "1M",
+      "description": "24 mm in 10 min; radar checked;",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Report by Geosphere Austria, 29 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-29T18:45:00.000Z\", s\"01KYR2W4D4JCQA1GJQHT8WHBYK\" ]",
+      "lat": 46.85925,
+      "lon": 10.91788,
+      "type": "PRECIP",
+      "time": "2026-07-29T18:45:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Vent",
+      "place_accuracy": "3KM",
+      "time_accuracy": "30M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "EVTPHOTO",
+        "TV",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Schwere Murenabgänge nach Unwettern\", ORF Tirol, 30 JUL 2026.",
+        "Niederschlagsradar Austro Contro / Kachelmannwetter"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-29T17:15:00.000Z\", s\"01KYQY22BJJZYJXKPKD66SCTXS\" ]",
+      "lat": 47.190558,
+      "lon": 14.130435,
+      "type": "HAIL",
+      "time": "2026-07-29T17:15:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Baierdorf",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "SPTR"
+      ],
+      "references": [
+        "Skywarn Austria - Aktuelle Wetterwarnungen für Österreich on Facebook",
+        "wettermelden.at"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-29T17:00:00.000Z\", s\"01KYQYJV9WG2WDF34MJZFTD4P1\" ]",
+      "lat": 47.1746,
+      "lon": 14.2271,
+      "type": "PRECIP",
+      "time": "2026-07-29T17:00:00.000Z",
+      "country": "AT",
+      "qc": "QC0+",
+      "place": "Laasen",
+      "place_accuracy": "1KM",
+      "time_accuracy": "1M",
+      "description": "radar checked",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Report by unofficial weather station via Awekas, 29 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-29T16:50:00.000Z\", s\"01KYQXQGWDSEAYJKCSR1TK9YAA\" ]",
+      "lat": 47.181196,
+      "lon": 14.113301,
+      "type": "HAIL",
+      "time": "2026-07-29T16:50:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Schöder",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "SPTR"
+      ],
+      "references": [
+        "Skywarn Austria - Aktuelle Wetterwarnungen für Österreich on Facebook",
+        "wettermelden.at"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-29T16:07:00.000Z\", s\"01KYQXPGT6340SAR61QT7BJZZ5\" ]",
+      "lat": 47.187,
+      "lon": 14.1815,
+      "type": "HAIL",
+      "time": "2026-07-29T16:07:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "St. Peter a. Kbg.",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "radar checked",
+      "info_source": [
+        "EVTPHOTO",
+        "SPTR"
+      ],
+      "references": [
+        "Report by trained storm spotter of Skywarn Austria, 29 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-29T15:15:00.000Z\", s\"01KYQX35Z8MX0P2B3YHJ6M9XHQ\" ]",
+      "lat": 47.18102,
+      "lon": 14.01916,
+      "type": "HAIL",
+      "time": "2026-07-29T15:15:00.000Z",
+      "country": "AT",
+      "qc": "QC0+",
+      "place": "Krakaudorf",
+      "place_accuracy": "3KM",
+      "time_accuracy": "1H",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "User report on Facebook via Skywarn Austria - Aktuelle Wetterwarnungen für Österreich"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-29T06:30:00.000Z\", s\"01KYQNJP4CXRDTCSYQ0CH0NK3K\" ]",
+      "lat": 47.009,
+      "lon": 12.639,
+      "type": "PRECIP",
+      "time": "2026-07-29T06:30:00.000Z",
+      "country": "AT",
+      "qc": "QC0+",
+      "place": "Kals am Großglockner",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 27,2 mm in 25 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Bresser - IKALSA19\", Wunderground, date of access: 29 JUL 2026."
+      ]
+    }
+  ]
+}
