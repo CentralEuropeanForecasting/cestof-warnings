@@ -1,0 +1,453 @@
+{
+  "forecast_date": "2026-07-30",
+  "window_start_local": "2026-07-30T06:00:00+02:00",
+  "window_end_local": "2026-07-31T06:00:00+02:00",
+  "window_start_utc": "2026-07-30T04:00:00+00:00",
+  "window_end_utc": "2026-07-31T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 22,
+  "report_count": 22,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-30T16:30:00.000Z\", s\"01KYT31F90YCY5MY3Z4B6YPS1Q\" ]",
+      "lat": 52.8889,
+      "lon": 11.7508,
+      "type": "WIND",
+      "time": "2026-07-30T16:30:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Seehausen in der Altmark",
+      "place_accuracy": "3KM",
+      "time_accuracy": "30M",
+      "description": null,
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "WS report. Reported v. kachelmannwetter.com, 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T15:52:00.000Z\", s\"01KYT27SPWQS2EMBQ338K97S98\" ]",
+      "lat": 52.7282,
+      "lon": 10.958,
+      "type": "WIND",
+      "time": "2026-07-30T15:52:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Mehmke",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr VG Beetzendorf-Diesdorf (Facebook), 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T15:43:00.000Z\", s\"01KYT26582VFWK128WS87D5K82\" ]",
+      "lat": 52.7512,
+      "lon": 10.9067,
+      "type": "WIND",
+      "time": "2026-07-30T15:43:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Abbendorf",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr VG Beetzendorf-Diesdorf (Facebook), 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T15:40:00.000Z\", s\"01KYT289WR88EYF688K6CQW33Y\" ]",
+      "lat": 52.7289,
+      "lon": 10.7357,
+      "type": "WIND",
+      "time": "2026-07-30T15:40:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Wittingen",
+      "place_accuracy": "5KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "SPTR"
+      ],
+      "references": [
+        "Unwetterjäger (Facebook), 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T15:25:00.000Z\", s\"01KYT1S7HAJWZNBGJ5MKMSMV2P\" ]",
+      "lat": 52.5382,
+      "lon": 10.7813,
+      "type": "WIND",
+      "time": "2026-07-30T15:25:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Barwedel",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Jembke  (Facebook), 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T15:22:00.000Z\", s\"01KYT177V4RC21YAEZ0ERQAD5S\" ]",
+      "lat": 52.631,
+      "lon": 10.6278,
+      "type": "WIND",
+      "time": "2026-07-30T15:22:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Schönewörde",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Schönewörde (Facebook), 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T15:19:00.000Z\", s\"01KYT1P9MH9RH8MJMHEY9HE1RK\" ]",
+      "lat": 49.6203,
+      "lon": 8.8417,
+      "type": "WIND",
+      "time": "2026-07-30T15:19:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Hammelbach",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Feuerwehr Gemeinde Grasellenbach  (Facebook), 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T15:05:00.000Z\", s\"01KYSX694AFM2M48GGENFY3YTV\" ]",
+      "lat": 52.8989,
+      "lon": 10.1668,
+      "type": "WIND",
+      "time": "2026-07-30T15:05:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Faßberg",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "WS report. Reported v. kachelmannwetter.com, 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T14:56:00.000Z\", s\"01KYT208MHPSAGDQ5FGFW90M4K\" ]",
+      "lat": 51.153,
+      "lon": 8.7477,
+      "type": "WIND",
+      "time": "2026-07-30T14:56:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Münden",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Münden/Örtze  (Facebook), 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T13:56:00.000Z\", s\"01KYT29XPFG3ACPTKWQDGFBRHP\" ]",
+      "lat": 50.8909,
+      "lon": 8.0943,
+      "type": "WIND",
+      "time": "2026-07-30T13:56:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Breitenbach",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Feuerwehr Siegen - Einheit Kaan-Marienborn (Facebook), 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T13:30:00.000Z\", s\"01KYSSKAMRFS6KAZNBRQW7D0AX\" ]",
+      "lat": 51.5598,
+      "lon": 8.3247,
+      "type": "WIND",
+      "time": "2026-07-30T13:30:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Anröchte",
+      "place_accuracy": "3KM",
+      "time_accuracy": "30M",
+      "description": null,
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "WS report / Meteosol/Drei Wetter. Reported v. kachelmannwetter.com, 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T13:30:00.000Z\", s\"01KYSRTSNNMRBZ1EBDD73DVZG7\" ]",
+      "lat": 50.3952,
+      "lon": 8.8049,
+      "type": "WIND",
+      "time": "2026-07-30T13:30:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Södel",
+      "place_accuracy": "3KM",
+      "time_accuracy": "30M",
+      "description": null,
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "WS report. Reported v. kachelmannwetter.com, 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T13:20:00.000Z\", s\"01KYSRXJDPEGZHFZPCFV330CEC\" ]",
+      "lat": 50.4052,
+      "lon": 8.6294,
+      "type": "WIND",
+      "time": "2026-07-30T13:20:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Hoch-Weisel",
+      "place_accuracy": "3KM",
+      "time_accuracy": "30M",
+      "description": null,
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "WS report. Reported v. kachelmannwetter.com, 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T12:50:00.000Z\", s\"01KYT22D3HSE0CN0XG9FXPRS2K\" ]",
+      "lat": 50.7895,
+      "lon": 8.5415,
+      "type": "WIND",
+      "time": "2026-07-30T12:50:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Rachelshausen",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr der Stadt Gladenbach (Facebook), 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T12:37:00.000Z\", s\"01KYT1FHFMB0AN8VV7J9PVKASJ\" ]",
+      "lat": 50.9768,
+      "lon": 8.2754,
+      "type": "WIND",
+      "time": "2026-07-30T12:37:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Erndtebrück",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Erndtebrück  (Facebook), 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T12:37:00.000Z\", s\"01KYST5P6EVEZ7822M8HP4SY9G\" ]",
+      "lat": 50.8351,
+      "lon": 8.0774,
+      "type": "WIND",
+      "time": "2026-07-30T12:37:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Obersdorf",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Feuerwehr Wilnsdorf (Facebook), 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T12:32:00.000Z\", s\"01KYT1C3QBRM8S8W25FKJCBDJ8\" ]",
+      "lat": 51.0426,
+      "lon": 8.2259,
+      "type": "WIND",
+      "time": "2026-07-30T12:32:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Röspe",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Erndtebrück  (Facebook), 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T12:30:00.000Z\", s\"01KYSS4GGWWEYJ0J4DHMGM8P6T\" ]",
+      "lat": 51.3659,
+      "lon": 7.4981,
+      "type": "WIND",
+      "time": "2026-07-30T12:30:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Hagen - Eppenhausen",
+      "place_accuracy": "3KM",
+      "time_accuracy": "30M",
+      "description": null,
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "WS report. Reported v. kachelmannwetter.com, 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T12:16:00.000Z\", s\"01KYSST0XC96WYSA9QRRKB7RZS\" ]",
+      "lat": 51.1898,
+      "lon": 7.3547,
+      "type": "WIND",
+      "time": "2026-07-30T12:16:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Kirschsiepen",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Feuerwehr Radevormwald (Facebook), 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T12:00:00.000Z\", s\"01KYSSZ5FTC1APK4E9P9BHM3JM\" ]",
+      "lat": 50.7412,
+      "lon": 7.8652,
+      "type": "WIND",
+      "time": "2026-07-30T12:00:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Kausen",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Feuerwehr Kausen (Facebook), 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T11:52:00.000Z\", s\"01KYST2AHYM9WXN791HQ6W2VNJ\" ]",
+      "lat": 50.7429,
+      "lon": 8.5242,
+      "type": "WIND",
+      "time": "2026-07-30T11:52:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Weidenhausen",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr der Stadt Gladenbach (Facebook), 30 JUL 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-30T10:27:00.000Z\", s\"01KYT2CHF71EVZQ4S2G7PW09YG\" ]",
+      "lat": 50.7666,
+      "lon": 6.9184,
+      "type": "WIND",
+      "time": "2026-07-30T10:27:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Rösberg",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Stadt Bornheim (Facebook), 30 JUL 2026"
+      ]
+    }
+  ]
+}
