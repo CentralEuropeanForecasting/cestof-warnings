@@ -1,0 +1,141 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "outlook",
+        "hazard": "tornado",
+        "title": "",
+        "description": "",
+        "probability": "marginal",
+        "intensity": "",
+        "riskLabel": "Marginal Tornado Potential",
+        "hazardProbability": "marginal",
+        "hatched": false,
+        "doubleHatch": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              12.568359,
+              49.141966
+            ],
+            [
+              12.788086,
+              48.824723
+            ],
+            [
+              13.205566,
+              48.432618
+            ],
+            [
+              13.820801,
+              48.154864
+            ],
+            [
+              14.567871,
+              48.301238
+            ],
+            [
+              14.853516,
+              48.636312
+            ],
+            [
+              14.677734,
+              48.954748
+            ],
+            [
+              14.172363,
+              49.29983
+            ],
+            [
+              13.557129,
+              49.528551
+            ],
+            [
+              12.700195,
+              49.514287
+            ],
+            [
+              12.568359,
+              49.141966
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "outlook",
+        "hazard": "tornado",
+        "title": "",
+        "description": "",
+        "probability": "marginal",
+        "intensity": "",
+        "riskLabel": "Marginal Tornado Potential",
+        "hazardProbability": "marginal",
+        "hatched": false,
+        "doubleHatch": false
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.600098,
+              49.113209
+            ],
+            [
+              17.995605,
+              48.737852
+            ],
+            [
+              19.072266,
+              48.824723
+            ],
+            [
+              20.258789,
+              48.954748
+            ],
+            [
+              21.09375,
+              49.127589
+            ],
+            [
+              21.445313,
+              49.557066
+            ],
+            [
+              21.555176,
+              50.081599
+            ],
+            [
+              21.247559,
+              50.37678
+            ],
+            [
+              20.10498,
+              50.432798
+            ],
+            [
+              18.830566,
+              50.292629
+            ],
+            [
+              17.753906,
+              49.883796
+            ],
+            [
+              17.600098,
+              49.113209
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
