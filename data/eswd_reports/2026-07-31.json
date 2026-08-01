@@ -1,0 +1,975 @@
+{
+  "forecast_date": "2026-07-31",
+  "window_start_local": "2026-07-31T06:00:00+02:00",
+  "window_end_local": "2026-08-01T06:00:00+02:00",
+  "window_start_utc": "2026-07-31T04:00:00+00:00",
+  "window_end_utc": "2026-08-01T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 56,
+  "report_count": 56,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-07-31T22:58:00.000Z\", s\"01KYY0Z0NDGRNXR1RWPEGYBKGD\" ]",
+      "lat": 52.0374,
+      "lon": 19.8266,
+      "type": "WIND",
+      "time": "2026-07-31T22:58:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Rogóźno",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Downed trees were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Strażacy usuwają skutki nocnej burzy w powiecie łowickim. IMGW wydało ostrzeżenie drugiego stopnia\", Łowicz24, 01 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T21:35:00.000Z\", s\"01KYXZ0R69GNVFH7PY4FFCKKJK\" ]",
+      "lat": 51.7879,
+      "lon": 15.1246,
+      "type": "WIND",
+      "time": "2026-07-31T21:35:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Zabłocie",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Damaged roof and downed trees were reported in this area after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Ochotnicza Straż Pożarna w Górzynie (on Facebook), 01 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T21:32:00.000Z\", s\"01KYXZ1FBNQMWX3YB2HBY3HEQC\" ]",
+      "lat": 51.7206,
+      "lon": 15.0009,
+      "type": "WIND",
+      "time": "2026-07-31T21:32:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Golin",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Damaged roof and downed trees were reported in this area after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Ochotnicza Straż Pożarna w Górzynie (on Facebook), 01 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T21:30:00.000Z\", s\"01KYXZ3ZTBXQZPZ2NBSW98EGXS\" ]",
+      "lat": 51.6553,
+      "lon": 17.6358,
+      "type": "WIND",
+      "time": "2026-07-31T21:30:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Daniszyn",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "A downed tree was reported in this area after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP Daniszyn (on Facebook), 01 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T20:40:00.000Z\", s\"01KYXWE4JW25T8FNTWFB9QKZG8\" ]",
+      "lat": 51.2435,
+      "lon": 17.0088,
+      "type": "HAIL",
+      "time": "2026-07-31T20:40:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Strzeszów",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 2 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Gazeta Wrocławska (on Facebook), 31 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T20:39:00.000Z\", s\"01KYXW0N5D864G6XEK2WTZBFNG\" ]",
+      "lat": 51.239,
+      "lon": 16.9779,
+      "type": "HAIL",
+      "time": "2026-07-31T20:39:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Ozorowice",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Polscy Łowcy Burz (on Facebook), 31 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T20:33:00.000Z\", s\"01KYXWC5EH1ZJ710T9RD82QYKP\" ]",
+      "lat": 51.222,
+      "lon": 16.9682,
+      "type": "HAIL",
+      "time": "2026-07-31T20:33:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Szewce",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 3 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Gazeta Wrocławska (on Facebook), 31 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T20:33:00.000Z\", s\"01KYXW22KH3C94SQTPE8D1W4TF\" ]",
+      "lat": 51.2119,
+      "lon": 16.9429,
+      "type": "HAIL",
+      "time": "2026-07-31T20:33:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Paniowice",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 2 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Polscy Łowcy Burz (on Facebook), 31 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T20:15:00.000Z\", s\"01KYXW3TK3CFBR3MAZZF3SPB4G\" ]",
+      "lat": 51.0908,
+      "lon": 16.8855,
+      "type": "HAIL",
+      "time": "2026-07-31T20:15:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Krzeptów",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 2 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Polscy Łowcy Burz (on Facebook), 31 JUL 2026.",
+        "Eyewitness report via Meteo Alert-Dolny Śląsk (on Facebook), 31 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T20:13:00.000Z\", s\"01KYXW83G9E8XB3Q1W10ZZJSQK\" ]",
+      "lat": 51.0871,
+      "lon": 16.8517,
+      "type": "HAIL",
+      "time": "2026-07-31T20:13:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Kębłowice",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Meteo Alert-Dolny Śląsk (on Facebook), 31 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T20:13:00.000Z\", s\"01KYXW2TF7KPAGZQ5CJ1Q0MZNE\" ]",
+      "lat": 51.0745,
+      "lon": 16.8844,
+      "type": "HAIL",
+      "time": "2026-07-31T20:13:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Smolec",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 2 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Polscy Łowcy Burz (on Facebook), 31 JUL 2026.",
+        "Eyewitness report via Dolnośląska Pogoda. Ostrzeżenia Meteorologiczne (on Facebook), 31 JUL 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T19:30:00.000Z\", s\"01KYX01MX247Y7J2XGTTGG6JCS\" ]",
+      "lat": 48.2092,
+      "lon": 14.7452,
+      "type": "WIND",
+      "time": "2026-07-31T19:30:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Baumgartenberg",
+      "place_accuracy": "3KM",
+      "time_accuracy": "30M",
+      "description": "radar checked",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 31 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T19:30:00.000Z\", s\"01KYWYW65ARMTFYB4VKT0PX7JW\" ]",
+      "lat": 48.1851,
+      "lon": 13.9007,
+      "type": "WIND",
+      "time": "2026-07-31T19:30:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Pichl bei Wels",
+      "place_accuracy": "3KM",
+      "time_accuracy": "1H",
+      "description": "radar checked",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 31 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T19:20:00.000Z\", s\"01KYX07SBPZJS5P3R3RA6VX24K\" ]",
+      "lat": 48.2741,
+      "lon": 14.5818,
+      "type": "WIND",
+      "time": "2026-07-31T19:20:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Schwertberg",
+      "place_accuracy": "5KM",
+      "time_accuracy": "30M",
+      "description": "radar checked",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 31 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T19:20:00.000Z\", s\"01KYWXJG8A42SAHS5JY4MF2VVR\" ]",
+      "lat": 48.2214,
+      "lon": 14.2368,
+      "type": "WIND",
+      "time": "2026-07-31T19:20:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Traun",
+      "place_accuracy": "3KM",
+      "time_accuracy": "30M",
+      "description": "radar checked",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 31 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T19:15:00.000Z\", s\"01KYX05FR5VC2J31BB59RDT45R\" ]",
+      "lat": 48.2141,
+      "lon": 14.4794,
+      "type": "WIND",
+      "time": "2026-07-31T19:15:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Enns",
+      "place_accuracy": "5KM",
+      "time_accuracy": "30M",
+      "description": "radar checked",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 31 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T19:15:00.000Z\", s\"01KYWYR3GT0C8PVXY4HY5DGKTC\" ]",
+      "lat": 48.0685,
+      "lon": 13.7844,
+      "type": "WIND",
+      "time": "2026-07-31T19:15:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Schlatt",
+      "place_accuracy": "3KM",
+      "time_accuracy": "1H",
+      "description": "radar checked",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 31 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T19:10:00.000Z\", s\"01KYX09WNDJX6F0A20VKT0YRKA\" ]",
+      "lat": 48.2858,
+      "lon": 14.3722,
+      "type": "WIND",
+      "time": "2026-07-31T19:10:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Steyregg",
+      "place_accuracy": "5KM",
+      "time_accuracy": "30M",
+      "description": "radar checked",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 31 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T19:10:00.000Z\", s\"01KYWZPEQJ39APVHMAQ026YWSB\" ]",
+      "lat": 48.36,
+      "lon": 14.2576,
+      "type": "WIND",
+      "time": "2026-07-31T19:10:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Lichtenberg",
+      "place_accuracy": "5KM",
+      "time_accuracy": "30M",
+      "description": "radar checked",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 31 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T19:05:00.000Z\", s\"01KYX0V6GYGC6ERVB7F55EXKFC\" ]",
+      "lat": 48.2793,
+      "lon": 14.2487,
+      "type": "WIND",
+      "time": "2026-07-31T19:05:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Leonding",
+      "place_accuracy": "3KM",
+      "time_accuracy": "30M",
+      "description": "radar checked",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 31 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T19:00:00.000Z\", s\"01KYWXS2JERTE3ZDNP0661FVR5\" ]",
+      "lat": 48.2877,
+      "lon": 14.1071,
+      "type": "WIND",
+      "time": "2026-07-31T19:00:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Alkoven",
+      "place_accuracy": "5KM",
+      "time_accuracy": "30M",
+      "description": "at least 2 trees downed, radar checked",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 31 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T18:45:00.000Z\", s\"01KYWZKG2698NKJEJCTK6R58Z6\" ]",
+      "lat": 48.3099,
+      "lon": 13.8613,
+      "type": "WIND",
+      "time": "2026-07-31T18:45:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Stillfüssing",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": "radar checked",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 31 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T18:25:00.000Z\", s\"01KYWSQ0HMSMWCF5CCS06ASDTX\" ]",
+      "lat": 48.1055,
+      "lon": 13.671,
+      "type": "WIND",
+      "time": "2026-07-31T18:25:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Wolfsegg am Hausruck",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "radar checked",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Ws. report by Geosphere Austria, 31 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T18:20:00.000Z\", s\"01KYWX1H5F0F1E3VJW48ZGEQVH\" ]",
+      "lat": 48.2932,
+      "lon": 13.4387,
+      "type": "WIND",
+      "time": "2026-07-31T18:20:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "St. Martin im Innkreis",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": "at least 2 trees downed, radar checked",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 31 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T18:07:00.000Z\", s\"01KYWYAHWB630X4ENZGS76AM3C\" ]",
+      "lat": 48.041,
+      "lon": 13.5377,
+      "type": "WIND",
+      "time": "2026-07-31T18:07:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Neukirchen an der Vöckla",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": "radar checked",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Aktuelle Einsätze, Oö. Landes-Feuerwehrverband, 31 Jul 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T18:07:00.000Z\", s\"01KYWY9RX586JK4B5BMQYJ8MKH\" ]",
+      "lat": 48.068,
+      "lon": 13.4921,
+      "type": "WIND",
+      "time": "2026-07-31T18:07:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T16:44:00.000Z\", s\"01KYXVSKSTE68WW4QKW6X8NGH8\" ]",
+      "lat": 48.531,
+      "lon": 11.918,
+      "type": "PRECIP",
+      "time": "2026-07-31T16:44:00.000Z",
+      "country": "DE",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T16:40:00.000Z\", s\"01KYXZD3WAY88HS7X56JMJSX74\" ]",
+      "lat": 50.9817,
+      "lon": 22.485,
+      "type": "WIND",
+      "time": "2026-07-31T16:40:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T16:10:00.000Z\", s\"01KYXY644KV053FAG2JV75F2Y8\" ]",
+      "lat": 52.6503,
+      "lon": 23.4391,
+      "type": "LIGHTNING",
+      "time": "2026-07-31T16:10:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T16:00:00.000Z\", s\"01KYXWRAYNP2VYQEZSW28N7XN1\" ]",
+      "lat": 52.0338,
+      "lon": 23.1194,
+      "type": "PRECIP",
+      "time": "2026-07-31T16:00:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T15:59:00.000Z\", s\"01KYXV4NEXHZP7NW7RCGBB1R30\" ]",
+      "lat": 52.058,
+      "lon": 23.114,
+      "type": "PRECIP",
+      "time": "2026-07-31T15:59:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T15:55:00.000Z\", s\"01KYXX5PCFQ79TW8RWPYEAZD9B\" ]",
+      "lat": 52.019,
+      "lon": 23.19,
+      "type": "WIND",
+      "time": "2026-07-31T15:55:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T15:50:00.000Z\", s\"01KYXXJJX99Y3PNMTWVH7K8Y5F\" ]",
+      "lat": 52.0299,
+      "lon": 23.1732,
+      "type": "HAIL",
+      "time": "2026-07-31T15:50:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T15:46:00.000Z\", s\"01KYWFT24VVN49N0V07MDX1984\" ]",
+      "lat": 48.4333,
+      "lon": 11.4187,
+      "type": "WIND",
+      "time": "2026-07-31T15:46:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T15:45:00.000Z\", s\"01KYXWYN37NV81N27NHSF65S6F\" ]",
+      "lat": 52.0338,
+      "lon": 23.1194,
+      "type": "WIND",
+      "time": "2026-07-31T15:45:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T15:43:00.000Z\", s\"01KYWFWK5VAEFD5G0Q2WY4PJZ7\" ]",
+      "lat": 48.4203,
+      "lon": 10.9245,
+      "type": "WIND",
+      "time": "2026-07-31T15:43:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T15:40:00.000Z\", s\"01KYY0ETZ031KYECDGANAT8PB3\" ]",
+      "lat": 52.0665,
+      "lon": 23.1563,
+      "type": "WIND",
+      "time": "2026-07-31T15:40:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T15:40:00.000Z\", s\"01KYXXRZMGNTDEZ5TBBNBCR5XG\" ]",
+      "lat": 52.0665,
+      "lon": 23.1563,
+      "type": "HAIL",
+      "time": "2026-07-31T15:40:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T15:40:00.000Z\", s\"01KYXKKZ927JBPTATFQAPP7BEQ\" ]",
+      "lat": 50.9582,
+      "lon": 14.0825,
+      "type": "WIND",
+      "time": "2026-07-31T15:40:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T15:30:00.000Z\", s\"01KYXZ90ERX0ZB4RMYYNX08DS1\" ]",
+      "lat": 52.0824,
+      "lon": 23.1326,
+      "type": "WIND",
+      "time": "2026-07-31T15:30:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T15:25:00.000Z\", s\"01KYXY2TQJS6W6GVZYYDX3W0NY\" ]",
+      "lat": 52.7688,
+      "lon": 23.1926,
+      "type": "WIND",
+      "time": "2026-07-31T15:25:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T15:20:00.000Z\", s\"01KYXZAXDM10HB42E7MKQAKYC6\" ]",
+      "lat": 51.9351,
+      "lon": 22.9607,
+      "type": "WIND",
+      "time": "2026-07-31T15:20:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T15:17:00.000Z\", s\"01KYXZFP4QFMPW0RC7VGV8SSCX\" ]",
+      "lat": 51.194,
+      "lon": 21.7266,
+      "type": "WIND",
+      "time": "2026-07-31T15:17:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T15:17:00.000Z\", s\"01KYXX9DW1MD2M57TBHD5A5V0T\" ]",
+      "lat": 52.0628,
+      "lon": 23.0822,
+      "type": "WIND",
+      "time": "2026-07-31T15:17:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T15:15:00.000Z\", s\"01KYXX04AAHERFENPG8GJSJ6RQ\" ]",
+      "lat": 52.0635,
+      "lon": 23.0256,
+      "type": "WIND",
+      "time": "2026-07-31T15:15:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T15:15:00.000Z\", s\"01KYWS2GMK9ZK5WZKM8Z99RZ35\" ]",
+      "lat": 47.1995,
+      "lon": 14.747,
+      "type": "WIND",
+      "time": "2026-07-31T15:15:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T15:05:00.000Z\", s\"01KYY0J241C4G3REEYWAC6YB93\" ]",
+      "lat": 52.7545,
+      "lon": 23.0058,
+      "type": "WIND",
+      "time": "2026-07-31T15:05:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T15:00:00.000Z\", s\"01KYX135DFC5E32SZ4XHGEBXZ4\" ]",
+      "lat": 47.6144,
+      "lon": 15.7468,
+      "type": "PRECIP",
+      "time": "2026-07-31T15:00:00.000Z",
+      "country": "AT",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "1M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T14:29:00.000Z\", s\"01KYXV9J1G3YZBA6QWVZFV4YZ8\" ]",
+      "lat": 46.795,
+      "lon": 13.911,
+      "type": "PRECIP",
+      "time": "2026-07-31T14:29:00.000Z",
+      "country": "AT",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T14:19:00.000Z\", s\"01KYXVF0SM70C015DS16X0Q0NR\" ]",
+      "lat": 47.275,
+      "lon": 14.508,
+      "type": "PRECIP",
+      "time": "2026-07-31T14:19:00.000Z",
+      "country": "AT",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T14:19:00.000Z\", s\"01KYXVB5PZTT7P2WR04F9Y125G\" ]",
+      "lat": 47.176,
+      "lon": 14.033,
+      "type": "PRECIP",
+      "time": "2026-07-31T14:19:00.000Z",
+      "country": "AT",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T14:10:00.000Z\", s\"01KYXZH4F6Z7SXTKYA39W6RY3B\" ]",
+      "lat": 51.4091,
+      "lon": 22.0518,
+      "type": "WIND",
+      "time": "2026-07-31T14:10:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T14:09:00.000Z\", s\"01KYXVGV7NG7KZN35Q7GKEAAAT\" ]",
+      "lat": 46.858,
+      "lon": 13.893,
+      "type": "PRECIP",
+      "time": "2026-07-31T14:09:00.000Z",
+      "country": "AT",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T11:43:00.000Z\", s\"01KYXYTBNWKDKZ2X9406SGANCM\" ]",
+      "lat": 51.8414,
+      "lon": 21.1108,
+      "type": "WIND",
+      "time": "2026-07-31T11:43:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T11:40:00.000Z\", s\"01KYXYRDVR5HYEV9FZ9WG32AZ2\" ]",
+      "lat": 51.8258,
+      "lon": 21.0634,
+      "type": "WIND",
+      "time": "2026-07-31T11:40:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-07-31T11:32:00.000Z\", s\"01KYXYWKCJGGEWPSDBQS67FQXE\" ]",
+      "lat": 51.8408,
+      "lon": 21.0215,
+      "type": "WIND",
+      "time": "2026-07-31T11:32:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    }
+  ]
+}
