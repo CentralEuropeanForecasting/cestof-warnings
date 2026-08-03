@@ -1,0 +1,128 @@
+{
+  "forecast_date": "2026-08-02",
+  "window_start_local": "2026-08-02T06:00:00+02:00",
+  "window_end_local": "2026-08-03T06:00:00+02:00",
+  "window_start_utc": "2026-08-02T04:00:00+00:00",
+  "window_end_utc": "2026-08-03T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 6,
+  "report_count": 6,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-08-02T18:04:00.000Z\", s\"01KZ22ANTS313XT8EPGFG050Z5\" ]",
+      "lat": 47.7536,
+      "lon": 12.7012,
+      "type": "HAIL",
+      "time": "2026-08-02T18:04:00.000Z",
+      "country": "DE",
+      "qc": "QC0+",
+      "place": "Aschenau",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 02 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T17:20:00.000Z\", s\"01KZ1WPG5926BH1TX1BXFNTNG4\" ]",
+      "lat": 48.86166,
+      "lon": 20.01944,
+      "type": "PRECIP",
+      "time": "2026-08-02T17:20:00.000Z",
+      "country": "SK",
+      "qc": "QC1",
+      "place": "Pohorelá",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "SHMU"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T16:20:00.000Z\", s\"01KZ22DB119QP4R16YFAXYYT5F\" ]",
+      "lat": 47.6449,
+      "lon": 11.7456,
+      "type": "HAIL",
+      "time": "2026-08-02T16:20:00.000Z",
+      "country": "DE",
+      "qc": "QC0+",
+      "place": "Wieden",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 02 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T15:24:00.000Z\", s\"01KZ1Z3YX0YMRCS39CEKKBN9JH\" ]",
+      "lat": 48.821332,
+      "lon": 20.374335,
+      "type": "PRECIP",
+      "time": "2026-08-02T15:24:00.000Z",
+      "country": "SK",
+      "qc": "QC0+",
+      "place": "Dobšiná",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IDOBIN16 (wunderground.com), 2 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T14:29:00.000Z\", s\"01KZ1YZ1TSGY4W0XH441K058XC\" ]",
+      "lat": 49.032093,
+      "lon": 19.566484,
+      "type": "PRECIP",
+      "time": "2026-08-02T14:29:00.000Z",
+      "country": "SK",
+      "qc": "QC0+",
+      "place": "Pavčina Lehota",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IPAVIN1 (wunderground.com), 2 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T14:27:00.000Z\", s\"01KZ1WQQVVCWTR3ESMAWCT7JYT\" ]",
+      "lat": 48.96555,
+      "lon": 20.08528,
+      "type": "PRECIP",
+      "time": "2026-08-02T14:27:00.000Z",
+      "country": "SK",
+      "qc": "QC1",
+      "place": "Liptovská Teplička",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "SHMU"
+      ]
+    }
+  ]
+}
