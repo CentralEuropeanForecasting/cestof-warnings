@@ -1,0 +1,327 @@
+{
+  "forecast_date": "2026-08-04",
+  "window_start_local": "2026-08-04T06:00:00+02:00",
+  "window_end_local": "2026-08-05T06:00:00+02:00",
+  "window_start_utc": "2026-08-04T04:00:00+00:00",
+  "window_end_utc": "2026-08-05T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 15,
+  "report_count": 15,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-08-04T15:15:00.000Z\", s\"01KZ6RSPMZ9Y4C2DXCXAJX15XX\" ]",
+      "lat": 46.864,
+      "lon": 7.9046,
+      "type": "HAIL",
+      "time": "2026-08-04T15:15:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Geissenmoos",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "WWW",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T15:12:00.000Z\", s\"01KZ6S15Q5YDPQEWVKBMA20Z90\" ]",
+      "lat": 46.6259,
+      "lon": 7.0854,
+      "type": "HAIL",
+      "time": "2026-08-04T15:12:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Morlon",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "WWW",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T15:11:00.000Z\", s\"01KZ6S3K3WR7HS8PHPWQTHNE97\" ]",
+      "lat": 46.1901,
+      "lon": 6.8461,
+      "type": "HAIL",
+      "time": "2026-08-04T15:11:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Les Crosets",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "WWW",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T15:10:00.000Z\", s\"01KZ6RREXG56PYT0DYXCA7DSXG\" ]",
+      "lat": 46.8516,
+      "lon": 7.8969,
+      "type": "HAIL",
+      "time": "2026-08-04T15:10:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Marbach",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "WWW",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T15:09:00.000Z\", s\"01KZ6S2W1222YYQXZ90A5B13R0\" ]",
+      "lat": 46.1757,
+      "lon": 6.8688,
+      "type": "HAIL",
+      "time": "2026-08-04T15:09:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Champéry",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "WWW",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T15:00:00.000Z\", s\"01KZ6RVQKDXKEZ8PS8KQRZX3RA\" ]",
+      "lat": 46.8764,
+      "lon": 7.8206,
+      "type": "HAIL",
+      "time": "2026-08-04T15:00:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Hindten",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "WWW",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T14:55:00.000Z\", s\"01KZ6RYNZGFDF1637F4D31Q8T2\" ]",
+      "lat": 46.7411,
+      "lon": 7.2007,
+      "type": "HAIL",
+      "time": "2026-08-04T14:55:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Bonnefontaine",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "WWW",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T14:52:00.000Z\", s\"01KZ6RH6KATCPVPTGTW3BVM3WN\" ]",
+      "lat": 46.8277,
+      "lon": 7.8611,
+      "type": "HAIL",
+      "time": "2026-08-04T14:52:00.000Z",
+      "country": "CH",
+      "qc": "QC1",
+      "place": "Schangnau",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T14:50:00.000Z\", s\"01KZ6RJ808K1R6FQC5M85GVFJQ\" ]",
+      "lat": 46.8164,
+      "lon": 7.8785,
+      "type": "HAIL",
+      "time": "2026-08-04T14:50:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Leuegg",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "WWW",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T14:40:00.000Z\", s\"01KZ6RPQARXGBV46JVG1QPWPGA\" ]",
+      "lat": 46.8326,
+      "lon": 7.8694,
+      "type": "HAIL",
+      "time": "2026-08-04T14:40:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Grunachen",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "WWW",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T14:30:00.000Z\", s\"01KZ6RCSKG0R5XFPGG8STXC2JQ\" ]",
+      "lat": 46.9418,
+      "lon": 7.8789,
+      "type": "HAIL",
+      "time": "2026-08-04T14:30:00.000Z",
+      "country": "CH",
+      "qc": "QC1",
+      "place": "Trub",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T13:46:00.000Z\", s\"01KZ6H85B7ETG985C5HQGD2QEA\" ]",
+      "lat": 47.4035,
+      "lon": 7.0806,
+      "type": "HAIL",
+      "time": "2026-08-04T13:46:00.000Z",
+      "country": "CH",
+      "qc": "QC1",
+      "place": "Fontenais",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T13:36:00.000Z\", s\"01KZ6HASHVWZRCYT318SHPWX26\" ]",
+      "lat": 47.3921,
+      "lon": 7.0003,
+      "type": "HAIL",
+      "time": "2026-08-04T13:36:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Chevenez",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T13:35:00.000Z\", s\"01KZ6HFGP7CDMJSB27R5HZNP6H\" ]",
+      "lat": 47.4525,
+      "lon": 7.1453,
+      "type": "HAIL",
+      "time": "2026-08-04T13:35:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Bois Juré",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T13:35:00.000Z\", s\"01KZ6HDJNBYDA8TRV5KC8CKK0X\" ]",
+      "lat": 47.4512,
+      "lon": 7.1485,
+      "type": "HAIL",
+      "time": "2026-08-04T13:35:00.000Z",
+      "country": "CH",
+      "qc": "QC1",
+      "place": "Vendlincourt",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "EYEWTN",
+        "WXSVC",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
+      ]
+    }
+  ]
+}
