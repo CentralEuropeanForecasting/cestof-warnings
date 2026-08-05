@@ -5,9 +5,775 @@
   "window_start_utc": "2026-08-04T04:00:00+00:00",
   "window_end_utc": "2026-08-05T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 15,
-  "report_count": 15,
+  "raw_count": 75,
+  "report_count": 75,
   "reports": [
+    {
+      "id": "weather_events:[ d\"2026-08-04T19:55:00.000Z\", s\"01KZ8HQ9G4BGRS9C7Y9MWDYSSA\" ]",
+      "lat": 51.9671,
+      "lon": 20.6523,
+      "type": "WIND",
+      "time": "2026-08-04T19:55:00.000Z",
+      "country": "PL",
+      "place": "Piotrkowice",
+      "description": "Downed trees were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Gwałtowna burza nad regionem łamała drzewa...\", Grodzisk News, 04 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T19:50:00.000Z\", s\"01KZ8P8WXRJN2SB5QN1VB3M2GW\" ]",
+      "lat": 52.0245,
+      "lon": 20.5965,
+      "type": "WIND",
+      "time": "2026-08-04T19:50:00.000Z",
+      "country": "PL",
+      "place": "Adamów-Wieś",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Gwałtowna burza nad regionem łamała drzewa...\", Grodzisk News, 04 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T19:50:00.000Z\", s\"01KZ8P7SQ8JR8TTZDKV0A519GE\" ]",
+      "lat": 52.0069,
+      "lon": 20.5998,
+      "type": "WIND",
+      "time": "2026-08-04T19:50:00.000Z",
+      "country": "PL",
+      "place": "Krze Duże",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Gwałtowna burza nad regionem łamała drzewa...\", Grodzisk News, 04 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T19:44:00.000Z\", s\"01KZ8HQMMZSWWCDGHXKSWGC7JT\" ]",
+      "lat": 48.1805,
+      "lon": 11.2797,
+      "type": "HAIL",
+      "time": "2026-08-04T19:44:00.000Z",
+      "country": "DE",
+      "place": "Fett-Emmering",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter app (operated by Deutscher Wetterdienst, DWD), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T19:38:00.000Z\", s\"01KZ8HP12A48BDANM3WX8KCNN1\" ]",
+      "lat": 48.1763,
+      "lon": 11.262,
+      "type": "HAIL",
+      "time": "2026-08-04T19:38:00.000Z",
+      "country": "DE",
+      "place": "Fürstenfeldbruck",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. WarnWetter app (operated by Deutscher Wetterdienst, DWD), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T19:10:00.000Z\", s\"01KZ8H2GYB2N52YHZDBBZQ25FY\" ]",
+      "lat": 52.2202,
+      "lon": 16.5306,
+      "type": "WIND",
+      "time": "2026-08-04T19:10:00.000Z",
+      "country": "PL",
+      "place": "Granowo",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP Granowo (on Facebook), 05 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T19:00:00.000Z\", s\"01KZ8H7RRVD9YYHP4Q5C63P11P\" ]",
+      "lat": 51.8913,
+      "lon": 15.878,
+      "type": "WIND",
+      "time": "2026-08-04T19:00:00.000Z",
+      "country": "PL",
+      "place": "Lubięcin",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Nowa-Sól-112 (on Facebook), 05 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T18:39:00.000Z\", s\"01KZ8F93VKXYZ6HXAT3B3878SN\" ]",
+      "lat": 47.371,
+      "lon": 11.719,
+      "type": "PRECIP",
+      "time": "2026-08-04T18:39:00.000Z",
+      "country": "AT",
+      "place": "Stans",
+      "description": "PWS recorded a rain amount of 27,2 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Kirchfeld - ISTANS51\", Wunderground, date of access: 05 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:49:00.000Z\", s\"01KZ8CWF8GWSJS6KGSY6FJ4QDV\" ]",
+      "lat": 47.016,
+      "lon": 7.069,
+      "type": "PRECIP",
+      "time": "2026-08-04T17:49:00.000Z",
+      "country": "CH",
+      "place": "Gampelen",
+      "description": "PWS recorded a rain amount of 28,4 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"dntWeatherScreen - IGAMPE11\", Wunderground, date of access: 05 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:29:00.000Z\", s\"01KZ8CT3AJK158T835R2B76QRB\" ]",
+      "lat": 47.074,
+      "lon": 6.965,
+      "type": "PRECIP",
+      "time": "2026-08-04T17:29:00.000Z",
+      "country": "CH",
+      "place": "Dombresson",
+      "description": "PWS recorded a rain amount of 31,8 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Station météo DNT Pro - IDOMBR10\", Wunderground, date of access: 05 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:26:00.000Z\", s\"01KZ8GKPMHXWDC1M3M1RXREFAX\" ]",
+      "lat": 50.6215,
+      "lon": 8.6871,
+      "type": "HAIL",
+      "time": "2026-08-04T17:26:00.000Z",
+      "country": "DE",
+      "place": "Wieseck",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. WarnWetter app (operated by Deutscher Wetterdienst, DWD), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:25:00.000Z\", s\"01KZ8JVT9JCEYRWDMRA8VVWHAA\" ]",
+      "lat": 50.9852,
+      "lon": 14.1903,
+      "type": "PRECIP",
+      "time": "2026-08-04T17:25:00.000Z",
+      "country": "DE",
+      "place": "Neustadt in Sachsen",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS INEUST343 (wunderground.com), 04 AUG 2025"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:25:00.000Z\", s\"01KZ8JRWSXG1XVFCDEH6WN6GZF\" ]",
+      "lat": 50.988,
+      "lon": 14.198,
+      "type": "PRECIP",
+      "time": "2026-08-04T17:25:00.000Z",
+      "country": "DE",
+      "place": "Krumhermsdorf",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS ISNKRUMH3 (wunderground.com), 04 AUG 2025"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:22:00.000Z\", s\"01KZ8GDX3HFJ7D82ME8H29ZT0S\" ]",
+      "lat": 50.6026,
+      "lon": 8.6752,
+      "type": "HAIL",
+      "time": "2026-08-04T17:22:00.000Z",
+      "country": "DE",
+      "place": "Sandfeld",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter app (operated by Deutscher Wetterdienst, DWD), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:20:00.000Z\", s\"01KZ8JY6XZ96H2RFPPRXT2MFR9\" ]",
+      "lat": 50.9721,
+      "lon": 14.1798,
+      "type": "PRECIP",
+      "time": "2026-08-04T17:20:00.000Z",
+      "country": "DE",
+      "place": "Lohsdorf",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IHOHNS3 (wunderground.com), 04 AUG 2025"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:20:00.000Z\", s\"01KZ8GG1216H3GHKYSFXVCN57W\" ]",
+      "lat": 50.5949,
+      "lon": 8.6633,
+      "type": "HAIL",
+      "time": "2026-08-04T17:20:00.000Z",
+      "country": "DE",
+      "place": "Gummiinsel",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. WarnWetter app (operated by Deutscher Wetterdienst, DWD), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:19:00.000Z\", s\"01KZ8G8G8F57D7ZWM9X0MK53TG\" ]",
+      "lat": 50.5919,
+      "lon": 8.6494,
+      "type": "HAIL",
+      "time": "2026-08-04T17:19:00.000Z",
+      "country": "DE",
+      "place": "Unterer Hardthof",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. WarnWetter app (operated by Deutscher Wetterdienst, DWD), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:19:00.000Z\", s\"01KZ8G6TN80WS4KK8SAEXG3QFE\" ]",
+      "lat": 50.6137,
+      "lon": 8.6373,
+      "type": "HAIL",
+      "time": "2026-08-04T17:19:00.000Z",
+      "country": "DE",
+      "place": "Krofdorf-Gleiberg",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. WarnWetter app (operated by Deutscher Wetterdienst, DWD), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:17:00.000Z\", s\"01KZ8G0RQFDRJ2M1ZAV4RPKRX7\" ]",
+      "lat": 50.5807,
+      "lon": 8.6305,
+      "type": "HAIL",
+      "time": "2026-08-04T17:17:00.000Z",
+      "country": "DE",
+      "place": "Heuchelheim an der Lahn",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. WarnWetter app (operated by Deutscher Wetterdienst, DWD), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:16:00.000Z\", s\"01KZ8GBDYRY7VFH6ZN5JXFGEB1\" ]",
+      "lat": 50.5837,
+      "lon": 8.6161,
+      "type": "HAIL",
+      "time": "2026-08-04T17:16:00.000Z",
+      "country": "DE",
+      "place": "Ober dem Atzbacher Weg",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. WarnWetter app (operated by Deutscher Wetterdienst, DWD), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:15:00.000Z\", s\"01KZ8K4MENFYWHGT0P0A2TWQB2\" ]",
+      "lat": 50.9447,
+      "lon": 14.2374,
+      "type": "PRECIP",
+      "time": "2026-08-04T17:15:00.000Z",
+      "country": "DE",
+      "place": "Lichtenhain",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS ISEBNI48 (wunderground.com), 04 AUG 2025"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:15:00.000Z\", s\"01KZ8K33ZN2GX197Z5A9AMVPFC\" ]",
+      "lat": 50.9646,
+      "lon": 14.2381,
+      "type": "PRECIP",
+      "time": "2026-08-04T17:15:00.000Z",
+      "country": "DE",
+      "place": "Amtshainersdorf",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS ISEBNI6 (wunderground.com), 04 AUG 2025"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:15:00.000Z\", s\"01KZ8JZW67M5X89AXM4040JEPN\" ]",
+      "lat": 50.9626,
+      "lon": 14.2085,
+      "type": "PRECIP",
+      "time": "2026-08-04T17:15:00.000Z",
+      "country": "DE",
+      "place": "Ulbersdorf",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IHOHNS10 (wunderground.com), 04 AUG 2025"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:15:00.000Z\", s\"01KZ8G2Q9N5HAXFXMXSBVK5HE2\" ]",
+      "lat": 50.5869,
+      "lon": 8.6076,
+      "type": "HAIL",
+      "time": "2026-08-04T17:15:00.000Z",
+      "country": "DE",
+      "place": "Kinzenbach",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. WarnWetter app (operated by Deutscher Wetterdienst, DWD), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:13:00.000Z\", s\"01KZ8G4J354ZQZM5E7HSS1AP30\" ]",
+      "lat": 50.578,
+      "lon": 8.5893,
+      "type": "HAIL",
+      "time": "2026-08-04T17:13:00.000Z",
+      "country": "DE",
+      "place": "Atzbach",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter app (operated by Deutscher Wetterdienst, DWD), 04 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:09:00.000Z\", s\"01KZ8FCMGNN6HSAW1ST9SPKSD2\" ]",
+      "lat": 50.995,
+      "lon": 14.33,
+      "type": "PRECIP",
+      "time": "2026-08-04T17:09:00.000Z",
+      "country": "CZ",
+      "place": "Vilémov u Šluknova",
+      "description": "PWS recorded a rain amount of 27,2 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Vilmig - IVILMO26\", Wunderground, date of access: 05 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:06:00.000Z\", s\"01KZ8F7NZ9BBYAXA81HTBN1Z6D\" ]",
+      "lat": 51.025,
+      "lon": 14.2554,
+      "type": "HAIL",
+      "time": "2026-08-04T17:06:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:04:00.000Z\", s\"01KZ8EFWBT6DWSEE343ZJWM9SH\" ]",
+      "lat": 47.664,
+      "lon": 10.101,
+      "type": "PRECIP",
+      "time": "2026-08-04T17:04:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:01:00.000Z\", s\"01KZ8F430QKSXTE51P7MK6N0Y5\" ]",
+      "lat": 51.0008,
+      "lon": 14.2509,
+      "type": "HAIL",
+      "time": "2026-08-04T17:01:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T17:01:00.000Z\", s\"01KZ8F161SQ5ZFQW04ESXA082X\" ]",
+      "lat": 51.025,
+      "lon": 14.2141,
+      "type": "HAIL",
+      "time": "2026-08-04T17:01:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T16:56:00.000Z\", s\"01KZ8F2767X0N4R71D7AD33C6H\" ]",
+      "lat": 50.9833,
+      "lon": 14.2192,
+      "type": "HAIL",
+      "time": "2026-08-04T16:56:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T16:54:00.000Z\", s\"01KZ8EWAXHK0HRJH4AAR6TDYVK\" ]",
+      "lat": 50.9821,
+      "lon": 14.6097,
+      "type": "HAIL",
+      "time": "2026-08-04T16:54:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T16:51:00.000Z\", s\"01KZ8GVZ374JZD0BRQEQRQY4PP\" ]",
+      "lat": 50.953,
+      "lon": 14.1674,
+      "type": "HAIL",
+      "time": "2026-08-04T16:51:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T16:51:00.000Z\", s\"01KZ8F5GBZZ9FDH1K1D3PJHGDA\" ]",
+      "lat": 50.9653,
+      "lon": 14.207,
+      "type": "HAIL",
+      "time": "2026-08-04T16:51:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T16:39:00.000Z\", s\"01KZ8EE4G52A1BGQDB6FJ4HCDF\" ]",
+      "lat": 48.119,
+      "lon": 8.273,
+      "type": "PRECIP",
+      "time": "2026-08-04T16:39:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T16:37:00.000Z\", s\"01KZ8FW7S60P7WTPPBKQAMTSN0\" ]",
+      "lat": 50.4655,
+      "lon": 8.2019,
+      "type": "HAIL",
+      "time": "2026-08-04T16:37:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T16:34:00.000Z\", s\"01KZ8JA22427TQPZ35CZGRJV0T\" ]",
+      "lat": 48.4752,
+      "lon": 8.1647,
+      "type": "HAIL",
+      "time": "2026-08-04T16:34:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T16:30:00.000Z\", s\"01KZ8FSTET2ABQFZYGC2HGGY1G\" ]",
+      "lat": 50.4425,
+      "lon": 8.1369,
+      "type": "HAIL",
+      "time": "2026-08-04T16:30:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T16:24:00.000Z\", s\"01KZ8FY4B5P0E0F3AT7426SSZH\" ]",
+      "lat": 50.4169,
+      "lon": 8.1261,
+      "type": "HAIL",
+      "time": "2026-08-04T16:24:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T16:18:00.000Z\", s\"01KZ8FQTWH6XBYSXN3M0H779X3\" ]",
+      "lat": 50.4017,
+      "lon": 8.0872,
+      "type": "HAIL",
+      "time": "2026-08-04T16:18:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T16:15:00.000Z\", s\"01KZ8FP2869XB0DEM707Q6T8QW\" ]",
+      "lat": 50.388,
+      "lon": 8.0635,
+      "type": "HAIL",
+      "time": "2026-08-04T16:15:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T16:12:00.000Z\", s\"01KZ8HHA3SWMXDNWPRZC22ABDC\" ]",
+      "lat": 47.4942,
+      "lon": 10.2898,
+      "type": "HAIL",
+      "time": "2026-08-04T16:12:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T16:11:00.000Z\", s\"01KZ8HG7DWDBVK95FZJMV5KSFG\" ]",
+      "lat": 47.4848,
+      "lon": 10.2858,
+      "type": "HAIL",
+      "time": "2026-08-04T16:11:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T16:11:00.000Z\", s\"01KZ8FJ400XNF57ZBR85S9A8B4\" ]",
+      "lat": 50.3698,
+      "lon": 8.0349,
+      "type": "HAIL",
+      "time": "2026-08-04T16:11:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T16:10:00.000Z\", s\"01KZ8HCK2QW9Y4HMN0AFJ3PP83\" ]",
+      "lat": 47.4728,
+      "lon": 10.291,
+      "type": "HAIL",
+      "time": "2026-08-04T16:10:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T16:10:00.000Z\", s\"01KZ8GRHNQAAM4D8980XVE2ZRM\" ]",
+      "lat": 50.4455,
+      "lon": 8.0017,
+      "type": "HAIL",
+      "time": "2026-08-04T16:10:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T16:09:00.000Z\", s\"01KZ8D13G1C7HJ4CN3MC3XCMFB\" ]",
+      "lat": 47.024,
+      "lon": 7.324,
+      "type": "PRECIP",
+      "time": "2026-08-04T16:09:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T16:07:00.000Z\", s\"01KZ8FF9WNRG5BQAWN5EVBMQ6T\" ]",
+      "lat": 50.3863,
+      "lon": 8.0033,
+      "type": "HAIL",
+      "time": "2026-08-04T16:07:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T15:42:00.000Z\", s\"01KZ8HARCMS5C7VT0050BX62X5\" ]",
+      "lat": 47.3342,
+      "lon": 10.2677,
+      "type": "HAIL",
+      "time": "2026-08-04T15:42:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T15:39:00.000Z\", s\"01KZ8D46HSBYZ5FFVT63BXY9WE\" ]",
+      "lat": 46.704,
+      "lon": 7.052,
+      "type": "PRECIP",
+      "time": "2026-08-04T15:39:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T15:34:00.000Z\", s\"01KZ8E2CJ7BVYZBWG9QWT606SB\" ]",
+      "lat": 47.133,
+      "lon": 7.832,
+      "type": "PRECIP",
+      "time": "2026-08-04T15:34:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T15:29:00.000Z\", s\"01KZ8E0EEQFJM8KERFF3HBABCC\" ]",
+      "lat": 47.113,
+      "lon": 7.837,
+      "type": "PRECIP",
+      "time": "2026-08-04T15:29:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T15:21:00.000Z\", s\"01KZ8FDR3NCTP4NWJTJZ43D4NY\" ]",
+      "lat": 50.1858,
+      "lon": 7.6479,
+      "type": "HAIL",
+      "time": "2026-08-04T15:21:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
     {
       "id": "weather_events:[ d\"2026-08-04T15:15:00.000Z\", s\"01KZ6RSPMZ9Y4C2DXCXAJX15XX\" ]",
       "lat": 46.864,
@@ -15,19 +781,10 @@
       "type": "HAIL",
       "time": "2026-08-04T15:15:00.000Z",
       "country": "CH",
-      "qc": "QC0+",
-      "place": "Geissenmoos",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "WWW",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-08-04T15:12:00.000Z\", s\"01KZ6S15Q5YDPQEWVKBMA20Z90\" ]",
@@ -36,19 +793,10 @@
       "type": "HAIL",
       "time": "2026-08-04T15:12:00.000Z",
       "country": "CH",
-      "qc": "QC0+",
-      "place": "Morlon",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "WWW",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-08-04T15:11:00.000Z\", s\"01KZ6S3K3WR7HS8PHPWQTHNE97\" ]",
@@ -57,19 +805,10 @@
       "type": "HAIL",
       "time": "2026-08-04T15:11:00.000Z",
       "country": "CH",
-      "qc": "QC0+",
-      "place": "Les Crosets",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "WWW",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-08-04T15:10:00.000Z\", s\"01KZ6RREXG56PYT0DYXCA7DSXG\" ]",
@@ -78,19 +817,22 @@
       "type": "HAIL",
       "time": "2026-08-04T15:10:00.000Z",
       "country": "CH",
-      "qc": "QC0+",
-      "place": "Marbach",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "WWW",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T15:09:00.000Z\", s\"01KZ8DVN0125ZD2S8MR6MFV6DK\" ]",
+      "lat": 46.848,
+      "lon": 7.835,
+      "type": "PRECIP",
+      "time": "2026-08-04T15:09:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-08-04T15:09:00.000Z\", s\"01KZ6S2W1222YYQXZ90A5B13R0\" ]",
@@ -99,19 +841,34 @@
       "type": "HAIL",
       "time": "2026-08-04T15:09:00.000Z",
       "country": "CH",
-      "qc": "QC0+",
-      "place": "Champéry",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "WWW",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T15:07:00.000Z\", s\"01KZ8J7H4GS1BXHM9XXZ6JD6QV\" ]",
+      "lat": 48.8174,
+      "lon": 8.7687,
+      "type": "HAIL",
+      "time": "2026-08-04T15:07:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T15:00:00.000Z\", s\"01KZ8J40P4X7Y0C2MHMAZK0PS8\" ]",
+      "lat": 48.7685,
+      "lon": 8.7546,
+      "type": "HAIL",
+      "time": "2026-08-04T15:00:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-08-04T15:00:00.000Z\", s\"01KZ6RVQKDXKEZ8PS8KQRZX3RA\" ]",
@@ -120,19 +877,22 @@
       "type": "HAIL",
       "time": "2026-08-04T15:00:00.000Z",
       "country": "CH",
-      "qc": "QC0+",
-      "place": "Hindten",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "WWW",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T14:59:00.000Z\", s\"01KZ8DXGV2NCAP3XBR9XDQ3FVE\" ]",
+      "lat": 46.887,
+      "lon": 7.839,
+      "type": "PRECIP",
+      "time": "2026-08-04T14:59:00.000Z",
+      "country": "CH",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-08-04T14:55:00.000Z\", s\"01KZ6RYNZGFDF1637F4D31Q8T2\" ]",
@@ -141,19 +901,10 @@
       "type": "HAIL",
       "time": "2026-08-04T14:55:00.000Z",
       "country": "CH",
-      "qc": "QC0+",
-      "place": "Bonnefontaine",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "WWW",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-08-04T14:52:00.000Z\", s\"01KZ6RH6KATCPVPTGTW3BVM3WN\" ]",
@@ -162,20 +913,10 @@
       "type": "HAIL",
       "time": "2026-08-04T14:52:00.000Z",
       "country": "CH",
-      "qc": "QC1",
-      "place": "Schangnau",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-08-04T14:50:00.000Z\", s\"01KZ6RJ808K1R6FQC5M85GVFJQ\" ]",
@@ -184,19 +925,22 @@
       "type": "HAIL",
       "time": "2026-08-04T14:50:00.000Z",
       "country": "CH",
-      "qc": "QC0+",
-      "place": "Leuegg",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "WWW",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T14:49:00.000Z\", s\"01KZ8J2RDG5708HN7EXP5SW485\" ]",
+      "lat": 48.7106,
+      "lon": 8.7647,
+      "type": "HAIL",
+      "time": "2026-08-04T14:49:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-08-04T14:40:00.000Z\", s\"01KZ6RPQARXGBV46JVG1QPWPGA\" ]",
@@ -205,19 +949,10 @@
       "type": "HAIL",
       "time": "2026-08-04T14:40:00.000Z",
       "country": "CH",
-      "qc": "QC0+",
-      "place": "Grunachen",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "WXSVC",
-        "WWW",
-        "EYEWTN"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-08-04T14:30:00.000Z\", s\"01KZ6RCSKG0R5XFPGG8STXC2JQ\" ]",
@@ -226,20 +961,38 @@
       "type": "HAIL",
       "time": "2026-08-04T14:30:00.000Z",
       "country": "CH",
-      "qc": "QC1",
-      "place": "Trub",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
-      "description": "Large hail 2 cm i.d. Radar checked",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T14:00:00.000Z\", s\"01KZ8KBNFM0XE3F0CVNXFXFYDB\" ]",
+      "lat": 50.701,
+      "lon": 14.4253,
+      "type": "PRECIP",
+      "time": "2026-08-04T14:00:00.000Z",
+      "country": "CZ",
+      "place": "Jezvé",
+      "description": null,
       "info_source": [
-        "WXSVC",
-        "WWW",
-        "EYEWTN",
-        "EVTPHOTO"
+        "WWW"
       ],
       "references": [
-        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
+        "PWS ISTRUN6 (wunderground.com), 04 AUG 2025"
       ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-04T13:58:00.000Z\", s\"01KZ8J0MWRZ66GWQ5RQEVM2BMJ\" ]",
+      "lat": 48.5139,
+      "lon": 8.3274,
+      "type": "HAIL",
+      "time": "2026-08-04T13:58:00.000Z",
+      "country": "DE",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-08-04T13:46:00.000Z\", s\"01KZ6H85B7ETG985C5HQGD2QEA\" ]",
@@ -248,19 +1001,10 @@
       "type": "HAIL",
       "time": "2026-08-04T13:46:00.000Z",
       "country": "CH",
-      "qc": "QC1",
-      "place": "Fontenais",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "EYEWTN",
-        "WXSVC",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-08-04T13:36:00.000Z\", s\"01KZ6HASHVWZRCYT318SHPWX26\" ]",
@@ -269,18 +1013,10 @@
       "type": "HAIL",
       "time": "2026-08-04T13:36:00.000Z",
       "country": "CH",
-      "qc": "QC0+",
-      "place": "Chevenez",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "EYEWTN",
-        "WXSVC"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-08-04T13:35:00.000Z\", s\"01KZ6HFGP7CDMJSB27R5HZNP6H\" ]",
@@ -289,18 +1025,10 @@
       "type": "HAIL",
       "time": "2026-08-04T13:35:00.000Z",
       "country": "CH",
-      "qc": "QC0+",
-      "place": "Bois Juré",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "EYEWTN",
-        "WXSVC"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-08-04T13:35:00.000Z\", s\"01KZ6HDJNBYDA8TRV5KC8CKK0X\" ]",
@@ -309,19 +1037,10 @@
       "type": "HAIL",
       "time": "2026-08-04T13:35:00.000Z",
       "country": "CH",
-      "qc": "QC1",
-      "place": "Vendlincourt",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
-      "description": "Large hail 2 cm i.d. Radar checked",
-      "info_source": [
-        "EYEWTN",
-        "WXSVC",
-        "EVTPHOTO"
-      ],
-      "references": [
-        "Witness observation. Meteo Meldungen (operated by Bundesamt für Meteorologie und Klimatologie MeteoSchweiz), 04 AUG 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     }
   ]
 }

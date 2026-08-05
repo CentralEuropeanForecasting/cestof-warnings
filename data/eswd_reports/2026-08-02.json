@@ -5,9 +5,94 @@
   "window_start_utc": "2026-08-02T04:00:00+00:00",
   "window_end_utc": "2026-08-03T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 6,
-  "report_count": 6,
+  "raw_count": 32,
+  "report_count": 32,
   "reports": [
+    {
+      "id": "weather_events:[ d\"2026-08-02T19:09:00.000Z\", s\"01KZ3CZB8G930T7K00QVMY28HX\" ]",
+      "lat": 47.799,
+      "lon": 13.068,
+      "type": "PRECIP",
+      "time": "2026-08-02T19:09:00.000Z",
+      "country": "AT",
+      "place": "Salzburg",
+      "description": "PWS recorded a rain amount of 53,3 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Bresser 7in1 WSX3001 Parsch - ISALZB45\", Wunderground, date of access: 03 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T19:05:00.000Z\", s\"01KZ3QX023FFHXHCG4QKNB0VZ8\" ]",
+      "lat": 47.8142,
+      "lon": 13.0374,
+      "type": "PRECIP",
+      "time": "2026-08-02T19:05:00.000Z",
+      "country": "AT",
+      "place": "Salzburg",
+      "description": "fire department(s) came into action many times, basements and underpasses flooded; radar checked;",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Unwetter: O-Busse und Unterführungen überflutet, ORF Salzburg, 3 Aug 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T18:59:00.000Z\", s\"01KZ3D14F0JE0TQPXBG1GCPFNW\" ]",
+      "lat": 47.819,
+      "lon": 13.012,
+      "type": "PRECIP",
+      "time": "2026-08-02T18:59:00.000Z",
+      "country": "AT",
+      "place": "Salzburg",
+      "description": "PWS recorded a rain amount of 36,3 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Gisi Sbg - ISALZB9\", Wunderground, date of access: 03 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T18:57:00.000Z\", s\"01KZ3PXH75NP0XYHVWG6RQHH1X\" ]",
+      "lat": 47.8002,
+      "lon": 13.0459,
+      "type": "WIND",
+      "time": "2026-08-02T18:57:00.000Z",
+      "country": "AT",
+      "place": "Salzburg",
+      "description": "radar checked",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Unwetter: O-Busse und Unterführungen überflutet, ORF Salzburg, 3 Aug 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T18:54:00.000Z\", s\"01KZ3D4CZQNXXDNS16707QJRAW\" ]",
+      "lat": 47.812,
+      "lon": 12.982,
+      "type": "PRECIP",
+      "time": "2026-08-02T18:54:00.000Z",
+      "country": "AT",
+      "place": "Siezenheim",
+      "description": "PWS recorded a rain amount of 37,6 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Miess A - IWALSS15\", Wunderground, date of access: 03 AUG 2026."
+      ]
+    },
     {
       "id": "weather_events:[ d\"2026-08-02T18:04:00.000Z\", s\"01KZ22ANTS313XT8EPGFG050Z5\" ]",
       "lat": 47.7536,
@@ -15,10 +100,7 @@
       "type": "HAIL",
       "time": "2026-08-02T18:04:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": "Aschenau",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -26,6 +108,23 @@
       ],
       "references": [
         "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 02 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T17:24:00.000Z\", s\"01KZ3D7CG8GYNJR4TPWX3SQXVZ\" ]",
+      "lat": 47.526,
+      "lon": 12.232,
+      "type": "PRECIP",
+      "time": "2026-08-02T17:24:00.000Z",
+      "country": "AT",
+      "place": "Söll",
+      "description": "PWS recorded a rain amount of 29,7 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Dahoam - ISLL5\", Wunderground, date of access: 03 AUG 2026."
       ]
     },
     {
@@ -35,10 +134,7 @@
       "type": "PRECIP",
       "time": "2026-08-02T17:20:00.000Z",
       "country": "SK",
-      "qc": "QC1",
       "place": "Pohorelá",
-      "place_accuracy": "1KM",
-      "time_accuracy": "5M",
       "description": "Heavy rain measured at automatic weather station.",
       "info_source": [
         "WXSVC"
@@ -48,16 +144,179 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-08-02T17:09:00.000Z\", s\"01KZ3DD848BX8DVG4ZD0VZS75F\" ]",
+      "lat": 47.539,
+      "lon": 12.12,
+      "type": "PRECIP",
+      "time": "2026-08-02T17:09:00.000Z",
+      "country": "AT",
+      "place": "Kirchbichl",
+      "description": "PWS recorded a rain amount of 29,7 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Hirnbach - IKIRCH650\", Wunderground, date of access: 03 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T17:04:00.000Z\", s\"01KZ3D9RCBSD3S9CAWTX1FQDW6\" ]",
+      "lat": 47.5107,
+      "lon": 12.116,
+      "type": "PRECIP",
+      "time": "2026-08-02T17:04:00.000Z",
+      "country": "AT",
+      "place": "Häring",
+      "description": "PWS recorded a rain amount of 31 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"IBADHR3 - IBADHR4\", Wunderground, date of access: 03 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T16:59:00.000Z\", s\"01KZ3DNAKR4YCADYERWWTGQAXC\" ]",
+      "lat": 47.51,
+      "lon": 12.067,
+      "type": "PRECIP",
+      "time": "2026-08-02T16:59:00.000Z",
+      "country": "AT",
+      "place": "Angath",
+      "description": "PWS recorded a rain amount of 36,1 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Erich Urdl - IANGAT3\", Wunderground, date of access: 03 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T16:54:00.000Z\", s\"01KZ3DSM8F22H4G6F32JX6ZTCV\" ]",
+      "lat": 47.472,
+      "lon": 12.005,
+      "type": "PRECIP",
+      "time": "2026-08-02T16:54:00.000Z",
+      "country": "AT",
+      "place": "Kundl",
+      "description": "PWS recorded a rain amount of 33 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"JeepManha - IKUNDL4\", Wunderground, date of access: 03 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T16:50:00.000Z\", s\"01KZ41RF3V8M276Q7K3WN5W7B0\" ]",
+      "lat": 47.5112,
+      "lon": 12.0859,
+      "type": "PRECIP",
+      "time": "2026-08-02T16:50:00.000Z",
+      "country": "AT",
+      "place": "Kirchbichl",
+      "description": "fire department came into action multiple/many times; radar checked;",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Starkregen, Gewitter: Wanderer saßen in Klamm fest, Kronen Zeitung, 2 Aug 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T16:44:00.000Z\", s\"01KZ3DQ8AW1D3J9PWR6KN2SNQ3\" ]",
+      "lat": 47.489,
+      "lon": 11.992,
+      "type": "PRECIP",
+      "time": "2026-08-02T16:44:00.000Z",
+      "country": "AT",
+      "place": "Breitenbach am Inn",
+      "description": "PWS recorded a rain amount of 39,6 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"WF-100C - IBREIT82\", Wunderground, date of access: 03 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T16:40:00.000Z\", s\"01KZ3TGDXHFMKDHTHSJME9JYHS\" ]",
+      "lat": 47.4691,
+      "lon": 11.9846,
+      "type": "PRECIP",
+      "time": "2026-08-02T16:40:00.000Z",
+      "country": "AT",
+      "place": "Kundl",
+      "description": "fire department(s) came into action many times; radar checked;",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Murenabgänge nach Starkregen in Tirol: Gasthaus evakuiert, Kurier, 3 Aug 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T16:37:00.000Z\", s\"01KZ3T6DPE4STDNP6B57MTWA7Y\" ]",
+      "lat": 47.4499,
+      "lon": 11.9843,
+      "type": "PRECIP",
+      "time": "2026-08-02T16:37:00.000Z",
+      "country": "AT",
+      "place": "Kundler Klamm",
+      "description": "mud-/debris flow, inn evacuated, unspecified damage to the inn; radar checked;",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Murenabgänge nach Starkregen in Tirol: Gasthaus evakuiert, Kurier, 3 Aug 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T16:30:00.000Z\", s\"01KZ3TX1KT4YBVY2X3FAR33MN7\" ]",
+      "lat": 47.4855,
+      "lon": 12.0389,
+      "type": "WIND",
+      "time": "2026-08-02T16:30:00.000Z",
+      "country": "AT",
+      "place": "Wörgl Region",
+      "description": "fire department(s) came into action multiple/many times; radar checked;",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Murenabgänge nach Starkregen in Tirol: Gasthaus evakuiert, Kurier, 3 Aug 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T16:24:00.000Z\", s\"01KZ3J24V89BAD83BYKRQ7WGWM\" ]",
+      "lat": 47.445,
+      "lon": 11.891,
+      "type": "PRECIP",
+      "time": "2026-08-02T16:24:00.000Z",
+      "country": "AT",
+      "place": "Kramsach",
+      "description": "PWS recorded a rain amount of 30 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Wetterfröschl - IKRAMS6\", Wunderground, date of access: 03 AUG 2026."
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-08-02T16:20:00.000Z\", s\"01KZ22DB119QP4R16YFAXYYT5F\" ]",
       "lat": 47.6449,
       "lon": 11.7456,
       "type": "HAIL",
       "time": "2026-08-02T16:20:00.000Z",
       "country": "DE",
-      "qc": "QC0+",
       "place": "Wieden",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
       "description": "Large hail 2 cm i.d. Radar checked",
       "info_source": [
         "WXSVC",
@@ -68,16 +327,30 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-08-02T15:54:00.000Z\", s\"01KZ3J4C84JW91GF7Z3EQ3CVCJ\" ]",
+      "lat": 47.404,
+      "lon": 11.766,
+      "type": "PRECIP",
+      "time": "2026-08-02T15:54:00.000Z",
+      "country": "AT",
+      "place": "Jenbach",
+      "description": "PWS recorded a rain amount of 27,7 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Wetterstation Köglfeld - IJENBA6\", Wunderground, date of access: 03 AUG 2026."
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-08-02T15:24:00.000Z\", s\"01KZ1Z3YX0YMRCS39CEKKBN9JH\" ]",
       "lat": 48.821332,
       "lon": 20.374335,
       "type": "PRECIP",
       "time": "2026-08-02T15:24:00.000Z",
       "country": "SK",
-      "qc": "QC0+",
       "place": "Dobšiná",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
       "description": "Heavy rain measured at automatic weather station.",
       "info_source": [
         "WWW"
@@ -87,23 +360,83 @@
       ]
     },
     {
+      "id": "weather_events:[ d\"2026-08-02T15:09:00.000Z\", s\"01KZ3J9ZCX065ETD377KPHDHJT\" ]",
+      "lat": 47.368,
+      "lon": 11.116,
+      "type": "PRECIP",
+      "time": "2026-08-02T15:09:00.000Z",
+      "country": "AT",
+      "place": "Unterweidach",
+      "description": "PWS recorded a rain amount of 31,8 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Woodstation - ILEUTA20\", Wunderground, date of access: 03 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T14:54:00.000Z\", s\"01KZ3JCWTVNA9HVW7KRPWTFRG2\" ]",
+      "lat": 47.319,
+      "lon": 11.096,
+      "type": "PRECIP",
+      "time": "2026-08-02T14:54:00.000Z",
+      "country": "AT",
+      "place": "Sagl",
+      "description": "PWS recorded a rain amount of 27,7 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Telfs Sagl - ITELFS10\", Wunderground, date of access: 03 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T14:40:00.000Z\", s\"01KZ40WK8WCY5JS5SQQVFSYF0D\" ]",
+      "lat": 47.26,
+      "lon": 11.3565,
+      "type": "WIND",
+      "time": "2026-08-02T14:40:00.000Z",
+      "country": "AT",
+      "place": "Höttinger Au",
+      "description": "radar checked;",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "Ws. report by Geosphere Austria, 2 Aug 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T14:29:00.000Z\", s\"01KZ3CWA5HC3W1ZXEHC9EZ0KBW\" ]",
+      "lat": 49.032,
+      "lon": 19.566,
+      "type": "PRECIP",
+      "time": "2026-08-02T14:29:00.000Z",
+      "country": "SK",
+      "place": "Pavčina Lehota",
+      "description": "PWS recorded a rain amount of 29,5 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Tiger PL - IPAVIN1\", Wunderground, date of access: 03 AUG 2026."
+      ]
+    },
+    {
       "id": "weather_events:[ d\"2026-08-02T14:29:00.000Z\", s\"01KZ1YZ1TSGY4W0XH441K058XC\" ]",
       "lat": 49.032093,
       "lon": 19.566484,
       "type": "PRECIP",
       "time": "2026-08-02T14:29:00.000Z",
       "country": "SK",
-      "qc": "QC0+",
-      "place": "Pavčina Lehota",
-      "place_accuracy": "3KM",
-      "time_accuracy": "5M",
-      "description": "Heavy rain measured at automatic weather station.",
-      "info_source": [
-        "WWW"
-      ],
-      "references": [
-        "PWS IPAVIN1 (wunderground.com), 2 AUG 2026"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     },
     {
       "id": "weather_events:[ d\"2026-08-02T14:27:00.000Z\", s\"01KZ1WQQVVCWTR3ESMAWCT7JYT\" ]",
@@ -112,17 +445,70 @@
       "type": "PRECIP",
       "time": "2026-08-02T14:27:00.000Z",
       "country": "SK",
-      "qc": "QC1",
-      "place": "Liptovská Teplička",
-      "place_accuracy": "1KM",
-      "time_accuracy": "5M",
-      "description": "Heavy rain measured at automatic weather station.",
-      "info_source": [
-        "WXSVC"
-      ],
-      "references": [
-        "SHMU"
-      ]
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T14:09:00.000Z\", s\"01KZ3JEX801GHV11G4QR2TZVT9\" ]",
+      "lat": 47.305,
+      "lon": 10.592,
+      "type": "PRECIP",
+      "time": "2026-08-02T14:09:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T13:45:00.000Z\", s\"01KZ3SJ1KMAJZKGSQ114QJ0FW8\" ]",
+      "lat": 47.2865,
+      "lon": 10.6442,
+      "type": "PRECIP",
+      "time": "2026-08-02T13:45:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T13:40:00.000Z\", s\"01KZ3VRAJ0MAHQNFKNX14Y20KC\" ]",
+      "lat": 47.1418,
+      "lon": 10.5665,
+      "type": "PRECIP",
+      "time": "2026-08-02T13:40:00.000Z",
+      "country": "AT",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T13:25:00.000Z\", s\"01KZ44FE3TN91PSJHPSR1WMQM3\" ]",
+      "lat": 47.437,
+      "lon": 18.5327,
+      "type": "WIND",
+      "time": "2026-08-02T13:25:00.000Z",
+      "country": "HU",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-02T13:05:00.000Z\", s\"01KZ3Q82PWSKM2XVEZW0JWCK3H\" ]",
+      "lat": 48.9676,
+      "lon": 20.0877,
+      "type": "WIND",
+      "time": "2026-08-02T13:05:00.000Z",
+      "country": "SK",
+      "place": null,
+      "description": null,
+      "info_source": null,
+      "references": null
     }
   ]
 }
