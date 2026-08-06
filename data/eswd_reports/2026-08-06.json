@@ -1,0 +1,414 @@
+{
+  "forecast_date": "2026-08-06",
+  "window_start_local": "2026-08-06T06:00:00+02:00",
+  "window_end_local": "2026-08-07T06:00:00+02:00",
+  "window_start_utc": "2026-08-06T04:00:00+00:00",
+  "window_end_utc": "2026-08-07T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 22,
+  "report_count": 22,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-08-06T14:27:00.000Z\", s\"01KZBTSCXZ83KPYSHJ2VA2TAX8\" ]",
+      "lat": 54.3077,
+      "lon": 22.3019,
+      "type": "WIND",
+      "time": "2026-08-06T14:27:00.000Z",
+      "country": "PL",
+      "place": "Gołdap",
+      "description": "Downed trees were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Eyewitnesses reports via goldap.info (on Facebook), 05 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T13:50:00.000Z\", s\"01KZBRBD7TH3KE5DR9X0VHGW4N\" ]",
+      "lat": 54.2138,
+      "lon": 21.7417,
+      "type": "HAIL",
+      "time": "2026-08-06T13:50:00.000Z",
+      "country": "PL",
+      "place": "Węgorzewo",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Pogoda dla Mazur (on Facebook), 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T13:37:00.000Z\", s\"01KZBQXCZJX600SZKRKPR9QST8\" ]",
+      "lat": 54.2141,
+      "lon": 21.681,
+      "type": "HAIL",
+      "time": "2026-08-06T13:37:00.000Z",
+      "country": "PL",
+      "place": "Trygort",
+      "description": "Large hail up to at least 4 cm in the longest direction was reported in Srokowo area. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Pogoda dla Mazur (on Facebook), 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T13:25:00.000Z\", s\"01KZBQRW5Q8AAV6EHEVJ6511JY\" ]",
+      "lat": 54.1927,
+      "lon": 21.528,
+      "type": "HAIL",
+      "time": "2026-08-06T13:25:00.000Z",
+      "country": "PL",
+      "place": "Srokowo",
+      "description": "Large hail up to at least 8 cm in the longest direction was reported in Srokowo area. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Polscy Łowcy Burz (on Facebook), 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T13:15:00.000Z\", s\"01KZBMVD5XT6F61A9RBSTAV1TD\" ]",
+      "lat": 54.1313,
+      "lon": 21.2835,
+      "type": "HAIL",
+      "time": "2026-08-06T13:15:00.000Z",
+      "country": "PL",
+      "place": "Garbno",
+      "description": "Large hail up to at least 3 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via info Meteo (on Facebook), 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T12:55:00.000Z\", s\"01KZBKHK935BQK8DXZXAT79ZEA\" ]",
+      "lat": 54.1156,
+      "lon": 20.1303,
+      "type": "HAIL",
+      "time": "2026-08-06T12:55:00.000Z",
+      "country": "PL",
+      "place": "Orneta",
+      "description": "Large hail up to at least 4,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Polscy Łowcy Burz (on Facebook), 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T12:40:00.000Z\", s\"01KZBN6CQVT2561HTK92VHNH4J\" ]",
+      "lat": 54.1586,
+      "lon": 20.8321,
+      "type": "HAIL",
+      "time": "2026-08-06T12:40:00.000Z",
+      "country": "PL",
+      "place": "Galiny",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Polscy Łowcy Burz (on Facebook), 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T12:30:00.000Z\", s\"01KZBMHMCD5BD6KMC6PVA9YNJF\" ]",
+      "lat": 54.0064,
+      "lon": 20.2058,
+      "type": "HAIL",
+      "time": "2026-08-06T12:30:00.000Z",
+      "country": "PL",
+      "place": "Zajączki",
+      "description": "Large hail caused damage in the village. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Pogoda dla Mazur (on Facebook), 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T12:25:00.000Z\", s\"01KZBRD2VGZT7HJNQJHEZ061Y3\" ]",
+      "lat": 54.1259,
+      "lon": 20.5806,
+      "type": "HAIL",
+      "time": "2026-08-06T12:25:00.000Z",
+      "country": "PL",
+      "place": "Lidzbark Warmiński",
+      "description": "Large hail up to at least 2 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Mazurscy Łowcy Burz (on Facebook), 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T12:20:00.000Z\", s\"01KZBMCGT6BR22K0TH57HX0WK1\" ]",
+      "lat": 54.0726,
+      "lon": 20.5033,
+      "type": "HAIL",
+      "time": "2026-08-06T12:20:00.000Z",
+      "country": "PL",
+      "place": "Miłogórze",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Mazurscy Łowcy Burz (on Facebook), 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T12:05:00.000Z\", s\"01KZBKYBKQ9ZYP98C17ZXJ5GM8\" ]",
+      "lat": 54.1542,
+      "lon": 20.3556,
+      "type": "HAIL",
+      "time": "2026-08-06T12:05:00.000Z",
+      "country": "PL",
+      "place": "Miejska Wola",
+      "description": "Large hail up to at least 3,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Sieć Obserwatorów Burz (on Facebook), 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T12:03:00.000Z\", s\"01KZBMQ2RGV9X8W6PM5GQZ7ZQX\" ]",
+      "lat": 54.0875,
+      "lon": 20.2893,
+      "type": "HAIL",
+      "time": "2026-08-06T12:03:00.000Z",
+      "country": "PL",
+      "place": "Bieniewo",
+      "description": "Very large hail up to at least 5 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via info Meteo (on Facebook), 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T12:00:00.000Z\", s\"01KZBJ4JF77EVQCKBEW2GE5QNN\" ]",
+      "lat": 54.0677,
+      "lon": 20.2374,
+      "type": "HAIL",
+      "time": "2026-08-06T12:00:00.000Z",
+      "country": "PL",
+      "place": "Lubomino",
+      "description": "Very large hail up to at least 7 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Info Meteo (on Facebook), 06 AUG 2026.",
+        "Eyewitness report via Łukasz Kuliński - Wielkopolski Łowca Burz (on Facebook), 06 AUG 2026.",
+        "Eyewitness report via Mazurscy Łowcy Burz (on Facebook), 06 AUG 2026.",
+        "\"Potężne gradobicie na Warmii. \"Nie było słychać niczego poza uderzeniami\"\", TVN24, 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T11:55:00.000Z\", s\"01KZBMS4FKW0CDTZP6QEA7DDJB\" ]",
+      "lat": 54.1116,
+      "lon": 20.1807,
+      "type": "HAIL",
+      "time": "2026-08-06T11:55:00.000Z",
+      "country": "PL",
+      "place": "Biały Dwór",
+      "description": "Large hail up to at least 4,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via info Meteo (on Facebook), 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T11:55:00.000Z\", s\"01KZBKZFNSKVZBJAQ64WZ9F555\" ]",
+      "lat": 54.1059,
+      "lon": 20.2205,
+      "type": "HAIL",
+      "time": "2026-08-06T11:55:00.000Z",
+      "country": "PL",
+      "place": "Opin",
+      "description": "Very large hail up to at least 5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Sieć Obserwatorów Burz (on Facebook), 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T11:55:00.000Z\", s\"01KZBJSAF2G519654MA8X6814B\" ]",
+      "lat": 54.0869,
+      "lon": 20.1807,
+      "type": "HAIL",
+      "time": "2026-08-06T11:55:00.000Z",
+      "country": "PL",
+      "place": "Karbowo",
+      "description": "Very large hail up to at least 5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Info Meteo (on Facebook), 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T11:50:00.000Z\", s\"01KZBKEY37MGK1TNFD5AH5TK4M\" ]",
+      "lat": 54.1156,
+      "lon": 20.1303,
+      "type": "HAIL",
+      "time": "2026-08-06T11:50:00.000Z",
+      "country": "PL",
+      "place": "Orneta",
+      "description": "Very large hail up to at least 5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Info Meteo (on Facebook), 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T11:45:00.000Z\", s\"01KZBM729VP5GZR7P47P8G1DY6\" ]",
+      "lat": 53.6302,
+      "lon": 19.2176,
+      "type": "HAIL",
+      "time": "2026-08-06T11:45:00.000Z",
+      "country": "PL",
+      "place": "Pławty Wielkie",
+      "description": "Large hail up to at least 4 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Meteo Kwidzyn (on Facebook), 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T11:35:00.000Z\", s\"01KZBMAQDD3WHP97P2BPVDWGG8\" ]",
+      "lat": 53.6163,
+      "lon": 19.0958,
+      "type": "HAIL",
+      "time": "2026-08-06T11:35:00.000Z",
+      "country": "PL",
+      "place": "Czarne Górne",
+      "description": "Large hail up to at least 4 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Meteo Kwidzyn (on Facebook), 06 AUG 2026.",
+        "Eyewitness report via Post Gdzie jest burza i inne zjawiska pogodowe (on Facebook), 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T11:32:00.000Z\", s\"01KZBTZ378PDX0RCWK06FXE4GQ\" ]",
+      "lat": 53.6164,
+      "lon": 19.0689,
+      "type": "HAIL",
+      "time": "2026-08-06T11:32:00.000Z",
+      "country": "PL",
+      "place": "Czarne Dolne",
+      "description": "Large hail up to at least 3 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Meteo Kwidzyn (on Facebook), 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T10:50:00.000Z\", s\"01KZBKRVC1J0RV44NCP98VHP6R\" ]",
+      "lat": 54.0279,
+      "lon": 19.2241,
+      "type": "HAIL",
+      "time": "2026-08-06T10:50:00.000Z",
+      "country": "PL",
+      "place": "Złotowo",
+      "description": "Large hail up to at least 4,7 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Pomorski Alarm Pogodowy (on Facebook), 06 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-06T10:45:00.000Z\", s\"01KZBJPS451BD37X3RW5ZTQM32\" ]",
+      "lat": 53.9866,
+      "lon": 19.1539,
+      "type": "HAIL",
+      "time": "2026-08-06T10:45:00.000Z",
+      "country": "PL",
+      "place": "Szropy",
+      "description": "Large hail up to at least 4 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Info Meteo (on Facebook), 06 AUG 2026."
+      ]
+    }
+  ]
+}
