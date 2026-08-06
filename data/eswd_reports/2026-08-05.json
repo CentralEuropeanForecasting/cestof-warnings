@@ -5,7 +5,293 @@
   "window_start_utc": "2026-08-05T04:00:00+00:00",
   "window_end_utc": "2026-08-06T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 0,
-  "report_count": 0,
-  "reports": []
+  "raw_count": 15,
+  "report_count": 15,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-08-05T19:35:00.000Z\", s\"01KZ9RECWGF6H6XAY8GVDSWFJ8\" ]",
+      "lat": 53.6514,
+      "lon": 14.6273,
+      "type": "PRECIP",
+      "time": "2026-08-05T19:35:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Stepnica",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS ISTEPN3 (wunderground.com), 05 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-05T19:30:00.000Z\", s\"01KZ9RJSD7R5T4B8PAWV05H5VW\" ]",
+      "lat": 53.6561,
+      "lon": 14.8984,
+      "type": "PRECIP",
+      "time": "2026-08-05T19:30:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Niewiadowo",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "INOWOG5 (wunderground.com), 05 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-05T19:25:00.000Z\", s\"01KZ9RG4J0PXHR1MNSQX9TZR2T\" ]",
+      "lat": 53.7557,
+      "lon": 14.7847,
+      "type": "PRECIP",
+      "time": "2026-08-05T19:25:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Przybiernów",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IPRZYB18 (wunderground.com), 05 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-05T19:05:00.000Z\", s\"01KZ9S9YA18DWGN7HBM4NR4B0X\" ]",
+      "lat": 52.7682,
+      "lon": 13.2284,
+      "type": "PRECIP",
+      "time": "2026-08-05T19:05:00.000Z",
+      "country": "DE",
+      "qc": "QC0+",
+      "place": "Siedlung Friedenthal",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IORANI7 (wunderground.com), 05 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-05T18:05:00.000Z\", s\"01KZ9SJJBRFJ4KFGYBZTZ4QMKD\" ]",
+      "lat": 52.87,
+      "lon": 13.2237,
+      "type": "PRECIP",
+      "time": "2026-08-05T18:05:00.000Z",
+      "country": "DE",
+      "qc": "QC0+",
+      "place": "Grüneberg",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS ILWENB7 (wunderground.com), 05 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-05T18:05:00.000Z\", s\"01KZ9SGBBSK74FVFAN5XW2AK9T\" ]",
+      "lat": 52.85,
+      "lon": 13.1731,
+      "type": "PRECIP",
+      "time": "2026-08-05T18:05:00.000Z",
+      "country": "DE",
+      "qc": "QC0+",
+      "place": "Teschendorf",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS ILWENB32 (wunderground.com), 05 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-05T18:05:00.000Z\", s\"01KZ9S2CVPP8QFFCHPNBNH0JF6\" ]",
+      "lat": 52.8137,
+      "lon": 13.0535,
+      "type": "PRECIP",
+      "time": "2026-08-05T18:05:00.000Z",
+      "country": "DE",
+      "qc": "QC0+",
+      "place": "Sommerfelder Heide",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IKREMM15 (wunderground.com), 05 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-05T18:05:00.000Z\", s\"01KZ9RYYB01BY501MPXP240CB8\" ]",
+      "lat": 52.8118,
+      "lon": 13.0553,
+      "type": "PRECIP",
+      "time": "2026-08-05T18:05:00.000Z",
+      "country": "DE",
+      "qc": "QC0+",
+      "place": "Sommerfeld Triftweg",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IKREMM31 (wunderground.com), 05 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-05T18:00:00.000Z\", s\"01KZ9RWZWD3EHASSD3T88XNVR1\" ]",
+      "lat": 52.8045,
+      "lon": 13.0443,
+      "type": "PRECIP",
+      "time": "2026-08-05T18:00:00.000Z",
+      "country": "DE",
+      "qc": "QC0+",
+      "place": "Sommerfeld",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IKREMM22 (wunderground.com), 05 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-05T18:00:00.000Z\", s\"01KZ9RVX39S560WMYKCS2BQBCD\" ]",
+      "lat": 52.8059,
+      "lon": 13.0451,
+      "type": "PRECIP",
+      "time": "2026-08-05T18:00:00.000Z",
+      "country": "DE",
+      "qc": "QC0+",
+      "place": "Sommerfeld",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IKREMMEN14 (wunderground.com), 05 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-05T18:00:00.000Z\", s\"01KZ9RT95JW77CVF2DFCY610QW\" ]",
+      "lat": 52.8028,
+      "lon": 13.0394,
+      "type": "PRECIP",
+      "time": "2026-08-05T18:00:00.000Z",
+      "country": "DE",
+      "qc": "QC0+",
+      "place": "Sommerfeld",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IKREMM27 (wunderground.com), 05 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-05T18:00:00.000Z\", s\"01KZ9RS598ZD3WB37RV78CWAPH\" ]",
+      "lat": 52.7977,
+      "lon": 13.0251,
+      "type": "PRECIP",
+      "time": "2026-08-05T18:00:00.000Z",
+      "country": "DE",
+      "qc": "QC0+",
+      "place": "Sommerfeld Stege",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IKREMM3 (wunderground.com), 05 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-05T17:55:00.000Z\", s\"01KZ9S44151Z6KGFBJTC4GP5VA\" ]",
+      "lat": 52.7982,
+      "lon": 13.0991,
+      "type": "PRECIP",
+      "time": "2026-08-05T17:55:00.000Z",
+      "country": "DE",
+      "qc": "QC0+",
+      "place": "Johannisthal",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IKREMM19 (wunderground.com), 05 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-05T17:55:00.000Z\", s\"01KZ9RQR56TH9J7NPTCMVAXP45\" ]",
+      "lat": 52.8048,
+      "lon": 13.0214,
+      "type": "PRECIP",
+      "time": "2026-08-05T17:55:00.000Z",
+      "country": "DE",
+      "qc": "QC0+",
+      "place": "Sommerfeld Bahnhof",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IKREMM13 (wunderground.com), 05 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-05T17:35:00.000Z\", s\"01KZ9RNS9ETSYF52Y52QRPB08K\" ]",
+      "lat": 52.8198,
+      "lon": 12.9585,
+      "type": "PRECIP",
+      "time": "2026-08-05T17:35:00.000Z",
+      "country": "DE",
+      "qc": "QC0+",
+      "place": "Wall",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IFEHRB1 (wunderground.com), 05 AUG 2026"
+      ]
+    }
+  ]
 }
