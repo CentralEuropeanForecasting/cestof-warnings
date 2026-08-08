@@ -5,7 +5,593 @@
   "window_start_utc": "2026-08-07T04:00:00+00:00",
   "window_end_utc": "2026-08-08T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 0,
-  "report_count": 0,
-  "reports": []
+  "raw_count": 31,
+  "report_count": 31,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-08-07T14:00:00.000Z\", s\"01KZF7CWKSJ671Q6JKWMM18Y2Z\" ]",
+      "lat": 47.2868,
+      "lon": 10.6757,
+      "type": "PRECIP",
+      "time": "2026-08-07T14:00:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Imst",
+      "place_accuracy": "10KM",
+      "time_accuracy": "1H",
+      "description": "4 landslides and mud flow at Hahntennjoch as a result of heavy rain.",
+      "info_source": [
+        "WWW",
+        "TV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Vier Muren verlegen Hahntennjochstraße\", ORF tirol, 07 AUG 2026.",
+        "Kachelmannwetter / Austro control radar checked."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T13:45:00.000Z\", s\"01KZF7R4Q1XP6XGM9R0DAFM831\" ]",
+      "lat": 47.0497,
+      "lon": 11.5218,
+      "type": "PRECIP",
+      "time": "2026-08-07T13:45:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Vals",
+      "place_accuracy": "10KM",
+      "time_accuracy": "1H",
+      "description": "Landslides and mud flow blocked road. People cut off to the greater surroundings.",
+      "info_source": [
+        "WWW",
+        "TV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Vier Muren verlegen Hahntennjochstraße\", ORF tirol, 07 AUG 2026.",
+        "Kachelmannwetter / Austro control radar checked.",
+        "\"Elf Wanderer aus dem Valsertal evakuiert\", ORF Tirol, 08 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T13:24:00.000Z\", s\"01KZETNX0DNGJ9QBKTEZVAN896\" ]",
+      "lat": 48.395032,
+      "lon": 20.0335,
+      "type": "PRECIP",
+      "time": "2026-08-07T13:24:00.000Z",
+      "country": "SK",
+      "qc": "QC0+",
+      "place": "Rimavská Sobota",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IRIMAV22 (wunderground.com), 7 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T13:24:00.000Z\", s\"01KZEBE2FA5HPNKDJP1RWVBA42\" ]",
+      "lat": 49.882,
+      "lon": 22.867,
+      "type": "PRECIP",
+      "time": "2026-08-07T13:24:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Niziny",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 44,2 mm in 60 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Dom - INIZIN3\", Wunderground, date of access: 07 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T13:21:00.000Z\", s\"01KZETNB9XH18W4P8A2HHP4XJH\" ]",
+      "lat": 48.383,
+      "lon": 20.054,
+      "type": "PRECIP",
+      "time": "2026-08-07T13:21:00.000Z",
+      "country": "SK",
+      "qc": "QC0+",
+      "place": "Rimavská Sobota",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IRIMAV15 (wunderground.com), 7 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T12:54:00.000Z\", s\"01KZETR8WFP8TH3DE0S30QFSKZ\" ]",
+      "lat": 48.447,
+      "lon": 20.113,
+      "type": "PRECIP",
+      "time": "2026-08-07T12:54:00.000Z",
+      "country": "SK",
+      "qc": "QC0+",
+      "place": "Veľký Blh",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS IVEKBL4 (wunderground.com), 7 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T12:50:00.000Z\", s\"01KZEKNHTE2Z67751N5SY0DETP\" ]",
+      "lat": 49.026751,
+      "lon": 22.487038,
+      "type": "PRECIP",
+      "time": "2026-08-07T12:50:00.000Z",
+      "country": "SK",
+      "qc": "QC1",
+      "place": "Zboj",
+      "place_accuracy": "1KM",
+      "time_accuracy": "1M",
+      "description": null,
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Official observation report of SHMI"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T12:50:00.000Z\", s\"01KZEHTW7GFFKBJRJQT7F0MA49\" ]",
+      "lat": 49.003889,
+      "lon": 22.3875,
+      "type": "PRECIP",
+      "time": "2026-08-07T12:50:00.000Z",
+      "country": "SK",
+      "qc": "QC1",
+      "place": "Kolbasov",
+      "place_accuracy": "1KM",
+      "time_accuracy": "1M",
+      "description": null,
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Official observation report of SHMI"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T12:49:00.000Z\", s\"01KZEBRSSBNYA4K2SDHK49P4PR\" ]",
+      "lat": 49.483,
+      "lon": 22.35,
+      "type": "PRECIP",
+      "time": "2026-08-07T12:49:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Jankowce",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 38,4 mm in 35 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Jankowce - IJANKO9\", Wunderground, date of access: 07 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T12:49:00.000Z\", s\"01KZEBN3BZ3AXTFM7NRFZ02PR5\" ]",
+      "lat": 49.398,
+      "lon": 22.529,
+      "type": "PRECIP",
+      "time": "2026-08-07T12:49:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Łobozew Górny",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 25,9 mm in 25 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Garni2055 - IOBOZE1\", Wunderground, date of access: 07 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T12:34:00.000Z\", s\"01KZEBAMTT1CJKZ5648VEYCSD3\" ]",
+      "lat": 49.907,
+      "lon": 22.524,
+      "type": "PRECIP",
+      "time": "2026-08-07T12:34:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Pruchnik",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 35,3 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Joon - IPRUCH5\", Wunderground, date of access: 07 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T12:24:00.000Z\", s\"01KZEBJSWFYRGN8W81FE3TZ8PE\" ]",
+      "lat": 49.412,
+      "lon": 22.352,
+      "type": "PRECIP",
+      "time": "2026-08-07T12:24:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Średnia Wieś",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 25,1 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Sencor SWS 12500 - IREDNI6\", Wunderground, date of access: 07 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T12:20:00.000Z\", s\"01KZEK5SMJVTMKQG4J567C0EHP\" ]",
+      "lat": 48.473106,
+      "lon": 20.099111,
+      "type": "PRECIP",
+      "time": "2026-08-07T12:20:00.000Z",
+      "country": "SK",
+      "qc": "QC1",
+      "place": "Teply vrch",
+      "place_accuracy": "1KM",
+      "time_accuracy": "1M",
+      "description": null,
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Official observation report of SHMI"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T12:09:00.000Z\", s\"01KZEB7SMYJ5HNZRQ50V5FWJR7\" ]",
+      "lat": 49.954,
+      "lon": 22.566,
+      "type": "PRECIP",
+      "time": "2026-08-07T12:09:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Wola Roźwienicka",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 29 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Piotrm - IWOLAR7\", Wunderground, date of access: 07 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T12:04:00.000Z\", s\"01KZEAXMMZH8X7GEBY875K7G2X\" ]",
+      "lat": 50.01,
+      "lon": 22.429,
+      "type": "PRECIP",
+      "time": "2026-08-07T12:04:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Mikulice",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 39,6 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"IMIKUL28 - IMIKUL28\", Wunderground, date of access: 07 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T11:59:00.000Z\", s\"01KZETBA0ZCE233Q86RXE9V2HP\" ]",
+      "lat": 48.74583,
+      "lon": 20.13112,
+      "type": "PRECIP",
+      "time": "2026-08-07T11:59:00.000Z",
+      "country": "SK",
+      "qc": "QC1",
+      "place": "Muránska Zdychava",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "SHMU"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T11:52:00.000Z\", s\"01KZETBRWV9QJC5TV36AFK44B4\" ]",
+      "lat": 48.7686,
+      "lon": 20.10444,
+      "type": "PRECIP",
+      "time": "2026-08-07T11:52:00.000Z",
+      "country": "SK",
+      "qc": "QC1",
+      "place": "Muránska Huta",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "SHMU"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T11:49:00.000Z\", s\"01KZEB09BE9TGDHR3ZS73RNS2G\" ]",
+      "lat": 49.999,
+      "lon": 22.356,
+      "type": "PRECIP",
+      "time": "2026-08-07T11:49:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Sietesz Dolna",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 33,3 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Vevor YT60234 - ISIETE5\", Wunderground, date of access: 07 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T11:49:00.000Z\", s\"01KZEARCEZTPDJD3PB52E34M99\" ]",
+      "lat": 50.022,
+      "lon": 22.326,
+      "type": "PRECIP",
+      "time": "2026-08-07T11:49:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Markowa",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 46 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Stacja pogodowa Kuby - IMARKO4\", Wunderground, date of access: 07 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T11:39:00.000Z\", s\"01KZEBFY9540XFECYBHNJPDA0T\" ]",
+      "lat": 49.651,
+      "lon": 21.912,
+      "type": "PRECIP",
+      "time": "2026-08-07T11:39:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Haczów",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 31,8 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Haczow www.pogoda-podkarpackie.pl - IWOJEWDZ121\", Wunderground, date of access: 07 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T11:39:00.000Z\", s\"01KZEAPQXBSF1Q0E1XX5ST2PW2\" ]",
+      "lat": 50.025,
+      "lon": 22.285,
+      "type": "PRECIP",
+      "time": "2026-08-07T11:39:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Markowa",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 42,9 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"GARNI weather station - IMARKO6\", Wunderground, date of access: 07 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T11:30:00.000Z\", s\"01KZE433CHJSBHZ5KZ5540N060\" ]",
+      "lat": 48.54602866194366,
+      "lon": 20.525490016594805,
+      "type": "PRECIP",
+      "time": "2026-08-07T11:30:00.000Z",
+      "country": "SK",
+      "qc": "QC1",
+      "place": "Silica",
+      "place_accuracy": "3KM",
+      "time_accuracy": "1H",
+      "description": null,
+      "info_source": [
+        "WXSVC"
+      ],
+      "references": [
+        "Official observation station of Slovak Hzdrometeorological institut"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T11:29:00.000Z\", s\"01KZEBHAQ5AC339DTFF296MXZV\" ]",
+      "lat": 49.54,
+      "lon": 21.766,
+      "type": "PRECIP",
+      "time": "2026-08-07T11:29:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Lubatowa",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 26,9 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Stacja Pogodowa - ILUBAT1\", Wunderground, date of access: 07 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T11:24:00.000Z\", s\"01KZEATBD7E33MMVQCXSGH05BZ\" ]",
+      "lat": 49.987,
+      "lon": 22.226,
+      "type": "PRECIP",
+      "time": "2026-08-07T11:24:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Handzlówka",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 32,8 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Handzlówka ZOL - IHANDZ1\", Wunderground, date of access: 07 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T11:19:00.000Z\", s\"01KZETPRXW6P76R5Q07PBMSCMK\" ]",
+      "lat": 48.918,
+      "lon": 20.538,
+      "type": "PRECIP",
+      "time": "2026-08-07T11:19:00.000Z",
+      "country": "SK",
+      "qc": "QC0+",
+      "place": "Spišská Nová Ves",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Heavy rain measured at automatic weather station.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "PWS ISPISK26 (wunderground.com), 7 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T11:19:00.000Z\", s\"01KZETPC7VTC4Q7FGDBB7YQJ09\" ]",
+      "lat": 48.936,
+      "lon": 20.559,
+      "type": "PRECIP",
+      "time": "2026-08-07T11:19:00.000Z",
+      "country": "SK",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T09:59:00.000Z\", s\"01KZEC0P266QEKEWV7Y1E7HXM0\" ]",
+      "lat": 50.096,
+      "lon": 21.499,
+      "type": "PRECIP",
+      "time": "2026-08-07T09:59:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T09:10:00.000Z\", s\"01KZEG375AZ35552S3C82X6YH6\" ]",
+      "lat": 49.189444,
+      "lon": 20.234167,
+      "type": "PRECIP",
+      "time": "2026-08-07T09:10:00.000Z",
+      "country": "SK",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "1M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T08:39:00.000Z\", s\"01KZEBWMPHQQB3XJ3EF5K0QJAX\" ]",
+      "lat": 50.091,
+      "lon": 20.544,
+      "type": "PRECIP",
+      "time": "2026-08-07T08:39:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T08:30:00.000Z\", s\"01KZEH6Z57R0KK76GNTBR1C6YW\" ]",
+      "lat": 49.166389,
+      "lon": 20.285278,
+      "type": "PRECIP",
+      "time": "2026-08-07T08:30:00.000Z",
+      "country": "SK",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "1M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-07T04:00:00.000Z\", s\"01KZD89HW1DVPH81K0M5Q2J877\" ]",
+      "lat": 49.8019,
+      "lon": 20.8591,
+      "type": "PRECIP",
+      "time": "2026-08-07T04:00:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    }
+  ]
 }
