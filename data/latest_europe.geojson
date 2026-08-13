@@ -684,6 +684,132 @@
         "mcg": 256,
         "sta": 260
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.278918,
+          42.844367
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-13 07:00:01.231245056",
+        "hour": 7,
+        "server": 1,
+        "mds": 8340,
+        "mcg": 268,
+        "sta": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.434416,
+          42.835364
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-13 07:00:34.524385280",
+        "hour": 7,
+        "server": 1,
+        "mds": 10010,
+        "mcg": 267,
+        "sta": 55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.41743,
+          41.304313
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-13 07:02:07.942302976",
+        "hour": 7,
+        "server": 1,
+        "mds": 14052,
+        "mcg": 234,
+        "sta": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.278918,
+          42.844367
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-13 07:00:01.231245056",
+        "hour": 7,
+        "server": 11,
+        "mds": 8340,
+        "mcg": 268,
+        "sta": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.766195,
+          42.816576
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-13 07:00:34.524300032",
+        "hour": 7,
+        "server": 11,
+        "mds": 9947,
+        "mcg": 193,
+        "sta": 62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.278862,
+          42.844373
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-13 07:00:01.231245056",
+        "hour": 7,
+        "server": 12,
+        "mds": 8341,
+        "mcg": 268,
+        "sta": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.766195,
+          42.816576
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-13 07:00:34.524300032",
+        "hour": 7,
+        "server": 12,
+        "mds": 9947,
+        "mcg": 193,
+        "sta": 62
+      }
     }
   ]
 }
