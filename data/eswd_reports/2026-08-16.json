@@ -5,7 +5,534 @@
   "window_start_utc": "2026-08-16T04:00:00+00:00",
   "window_end_utc": "2026-08-17T04:00:00+00:00",
   "source": "ESWD",
-  "raw_count": 0,
-  "report_count": 0,
-  "reports": []
+  "raw_count": 31,
+  "report_count": 31,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-08-17T00:09:00.000Z\", s\"01M07HQY38HVF335A9VXR65W9N\" ]",
+      "lat": 50.637,
+      "lon": 14.95,
+      "type": "PRECIP",
+      "time": "2026-08-17T00:09:00.000Z",
+      "country": "CZ",
+      "place": "Hlavice",
+      "description": "PWS recorded a rain amount of 30 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Dolecek-EasyWeather-WIFI862E - IHLAVI1\", Wudnerground, date of access: 17 AUG 2026,"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T00:04:00.000Z\", s\"01M07HWEXMMX2BP9END1W6Q41J\" ]",
+      "lat": 50.659,
+      "lon": 14.992,
+      "type": "PRECIP",
+      "time": "2026-08-17T00:04:00.000Z",
+      "country": "CZ",
+      "place": "Český Dub",
+      "description": "PWS recorded a rain amount of 28,2 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Brutar meteo station - IESKDU3\", Wudnerground, date of access: 17 AUG 2026,"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T23:59:00.000Z\", s\"01M07J1TQN806JYSHXTJMERHS9\" ]",
+      "lat": 50.659,
+      "lon": 14.77,
+      "type": "PRECIP",
+      "time": "2026-08-16T23:59:00.000Z",
+      "country": "CZ",
+      "place": "Mimoň",
+      "description": "PWS recorded a rain amount of 25,7 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Meteostanice Pavlín Dvůr - IRALSK5\", Wudnerground, date of access: 17 AUG 2026,"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T23:59:00.000Z\", s\"01M07J06A0VJSKBHP6V3AFTY53\" ]",
+      "lat": 50.7,
+      "lon": 14.8,
+      "type": "PRECIP",
+      "time": "2026-08-16T23:59:00.000Z",
+      "country": "CZ",
+      "place": "Stráž pod Ralskem",
+      "description": "PWS recorded a rain amount of 30,7 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Ralsko - ISTRPO8\", Wudnerground, date of access: 17 AUG 2026,"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T23:54:00.000Z\", s\"01M07HYE74F6ZNVWG0PD3XMXQ0\" ]",
+      "lat": 50.675,
+      "lon": 14.724,
+      "type": "PRECIP",
+      "time": "2026-08-16T23:54:00.000Z",
+      "country": "CZ",
+      "place": "Pertoltice pod Ralskem",
+      "description": "PWS recorded a rain amount of 25,1 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"GARNI Pertoltice pod Ralskem - IPERTO5\", Wudnerground, date of access: 17 AUG 2026,"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T23:44:00.000Z\", s\"01M07J3TE7WGSF0AVVAM9KEG16\" ]",
+      "lat": 50.761,
+      "lon": 13.976,
+      "type": "PRECIP",
+      "time": "2026-08-16T23:44:00.000Z",
+      "country": "CZ",
+      "place": "Petrovice",
+      "description": "PWS recorded a rain amount of 36,1 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Garnát - IPETRO58\", Wudnerground, date of access: 17 AUG 2026,"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T23:24:00.000Z\", s\"01M07J8CK1TS90YXKX7Z2ZDRPQ\" ]",
+      "lat": 50.734,
+      "lon": 13.763,
+      "type": "PRECIP",
+      "time": "2026-08-16T23:24:00.000Z",
+      "country": "CZ",
+      "place": "Cínovec",
+      "description": "PWS recorded a rain amount of 39,9 mm in 49 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Cínovec 310 - IDUB63\", Wudnerground, date of access: 17 AUG 2026,"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T23:24:00.000Z\", s\"01M07J5WCN8K21B3436WKE1ZPK\" ]",
+      "lat": 50.794,
+      "lon": 14.09,
+      "type": "PRECIP",
+      "time": "2026-08-16T23:24:00.000Z",
+      "country": "CZ",
+      "place": "Sněžník",
+      "description": "PWS recorded a rain amount of 26,9 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Sněžný Slon 01 - IJLOV14\", Wudnerground, date of access: 17 AUG 2026,"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T21:46:00.000Z\", s\"01M07MV30X6R5XMK9WB00Q2CC0\" ]",
+      "lat": 50.5862,
+      "lon": 12.492,
+      "type": "HAIL",
+      "time": "2026-08-16T21:46:00.000Z",
+      "country": "DE",
+      "place": "Lauterhofen",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T20:49:00.000Z\", s\"01M07JNR4VAB4E6AJQDHZNEM0H\" ]",
+      "lat": 49.561,
+      "lon": 13.296,
+      "type": "PRECIP",
+      "time": "2026-08-16T20:49:00.000Z",
+      "country": "CZ",
+      "place": "Přeštice",
+      "description": "PWS recorded a rain amount of 34 mm in 45 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Skočice - IPETIC12\", Wudnerground, date of access: 17 AUG 2026,"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T20:39:00.000Z\", s\"01M07JEW35SVSWVSKM6RC5HE5H\" ]",
+      "lat": 49.578,
+      "lon": 13.338,
+      "type": "PRECIP",
+      "time": "2026-08-16T20:39:00.000Z",
+      "country": "CZ",
+      "place": "Přeštice",
+      "description": "PWS recorded a rain amount of 25,9 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Přeštice - IPETIC10\", Wudnerground, date of access: 17 AUG 2026,"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T20:34:00.000Z\", s\"01M07JBDAQKP8AHJQX3KEKXEKA\" ]",
+      "lat": 49.124,
+      "lon": 12.553,
+      "type": "PRECIP",
+      "time": "2026-08-16T20:34:00.000Z",
+      "country": "DE",
+      "place": "Michelsneukirchen",
+      "description": "PWS recorded a rain amount of 25,4 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"MNK - IMICHE25\", Wudnerground, date of access: 17 AUG 2026,"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T20:24:00.000Z\", s\"01M07JK4K2R1NX95BD5H37TVKG\" ]",
+      "lat": 49.563,
+      "lon": 13.264,
+      "type": "PRECIP",
+      "time": "2026-08-16T20:24:00.000Z",
+      "country": "CZ",
+      "place": "Soběkury",
+      "description": "PWS recorded a rain amount of 28,7 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Horusany - ISOBKU2\", Wudnerground, date of access: 17 AUG 2026,"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T19:40:00.000Z\", s\"01M0809QSWZAEZZFMHV7PARAYW\" ]",
+      "lat": 49.9747,
+      "lon": 12.149,
+      "type": "WIND",
+      "time": "2026-08-16T19:40:00.000Z",
+      "country": "DE",
+      "place": "Groschlattengrün",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV"
+      ],
+      "references": [
+        "Freiwillige Feuerwehr Groschlattengrün (Facebook), 16 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T19:16:00.000Z\", s\"01M07MHPJP7HWBNRSVNHBF3P46\" ]",
+      "lat": 49.9862,
+      "lon": 11.937,
+      "type": "HAIL",
+      "time": "2026-08-16T19:16:00.000Z",
+      "country": "DE",
+      "place": "Wurmloh",
+      "description": "Large hail 3 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T19:10:00.000Z\", s\"01M07MM07Z4E15JTEVEZ10YZY7\" ]",
+      "lat": 49.9762,
+      "lon": 11.8569,
+      "type": "HAIL",
+      "time": "2026-08-16T19:10:00.000Z",
+      "country": "DE",
+      "place": "Mehlmeisel",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T19:05:00.000Z\", s\"01M080RF394GZQR0WK55Y4HHP7\" ]",
+      "lat": 49.2989,
+      "lon": 10.5648,
+      "type": "LIGHTNING",
+      "time": "2026-08-16T19:05:00.000Z",
+      "country": "DE",
+      "place": "Ansbach",
+      "description": null,
+      "info_source": [
+        "NWSP"
+      ],
+      "references": [
+        "\"Ansbach: +++ Blitzeinschlag in Wohnhaus +++\", FRÄNKISCHER, 17 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T18:58:00.000Z\", s\"01M0818ZKB8TKNHF1EJKRYTDTF\" ]",
+      "lat": 49.6925,
+      "lon": 12.1046,
+      "type": "LIGHTNING",
+      "time": "2026-08-16T18:58:00.000Z",
+      "country": "DE",
+      "place": "Weiden in der Oberpfalz",
+      "description": "Weidener Open-Air-Kino event closed due to lightning strike which hit a tall light pole and caused a blackout",
+      "info_source": [
+        "NWSP",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Blitzeinschlag beendet Weidener Open-Air-Kino vorzeitig \", WEISEN24.de, 17 AUG 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T18:49:00.000Z\", s\"01M07JQJD3VH3HTZ2BH1A07AAZ\" ]",
+      "lat": 49.607,
+      "lon": 11.895,
+      "type": "PRECIP",
+      "time": "2026-08-16T18:49:00.000Z",
+      "country": "DE",
+      "place": "Seugast",
+      "description": "PWS recorded a rain amount of 37,6 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Stephan1980 - IFREIH10\", Wudnerground, date of access: 17 AUG 2026,"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T18:45:00.000Z\", s\"01M07MNPBPWJMC82VKZ3C7M1H4\" ]",
+      "lat": 49.8769,
+      "lon": 11.8891,
+      "type": "HAIL",
+      "time": "2026-08-16T18:45:00.000Z",
+      "country": "DE",
+      "place": "Kemnath",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T18:07:00.000Z\", s\"01M07JEPD7SSZPV3QGN1CK9HRC\" ]",
+      "lat": 49.4505,
+      "lon": 9.9083,
+      "type": "LIGHTNING",
+      "time": "2026-08-16T18:07:00.000Z",
+      "country": "DE",
+      "place": "Honsbronn",
+      "description": null,
+      "info_source": [
+        "NWSP",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Weikersheim: Feuerwehr löscht Schwelbrand nach Blitzeinschlag\", FRÄNKISCHE NACHRICHTEN, 17 AUG 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T18:04:00.000Z\", s\"01M07HRM83RVYKSDAC8VMRRYA2\" ]",
+      "lat": 49.4752,
+      "lon": 9.9111,
+      "type": "LIGHTNING",
+      "time": "2026-08-16T18:04:00.000Z",
+      "country": "DE",
+      "place": "Weikersheim",
+      "description": null,
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Blitzeinschlag, Schäden bei A6 und umgestürzte Bäume: Zahlreiche Einsätze wegen Unwetter\", SWR, 17 AUG 2026",
+        "kachelmannwetter.com"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T17:40:00.000Z\", s\"01M080H46GCZ3DTHP50TK4R586\" ]",
+      "lat": 49.3072,
+      "lon": 9.5665,
+      "type": "WIND",
+      "time": "2026-08-16T17:40:00.000Z",
+      "country": "DE",
+      "place": "Forchtenberg",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Feuerwehr Forchtenberg  (Facebook), 16 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T17:35:00.000Z\", s\"01M07MB6WDC40FY7GGHJ9NDN0Y\" ]",
+      "lat": 49.3146,
+      "lon": 9.515,
+      "type": "HAIL",
+      "time": "2026-08-16T17:35:00.000Z",
+      "country": "DE",
+      "place": "Neuhof",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T17:30:00.000Z\", s\"01M07HNEXXZPN34DR3ZMN14G7D\" ]",
+      "lat": 49.2117,
+      "lon": 9.5179,
+      "type": "WIND",
+      "time": "2026-08-16T17:30:00.000Z",
+      "country": "DE",
+      "place": "Öhringen",
+      "description": "Motorway sound protection wall damaged",
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Blitzeinschlag, Schäden bei A6 und umgestürzte Bäume: Zahlreiche Einsätze wegen Unwetter\", SWR, 17 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T17:22:00.000Z\", s\"01M07HJDRWC6PF1E56XEY6QX6B\" ]",
+      "lat": 49.3098,
+      "lon": 9.4694,
+      "type": "WIND",
+      "time": "2026-08-16T17:22:00.000Z",
+      "country": "DE",
+      "place": "Jagsthausen",
+      "description": null,
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Blitzeinschlag, Schäden bei A6 und umgestürzte Bäume: Zahlreiche Einsätze wegen Unwetter\", SWR, 17 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T17:17:00.000Z\", s\"01M07HGGNJ854VXCNHZ8D8JP24\" ]",
+      "lat": 49.3233,
+      "lon": 9.3611,
+      "type": "WIND",
+      "time": "2026-08-16T17:17:00.000Z",
+      "country": "DE",
+      "place": "Möckmühl",
+      "description": null,
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Blitzeinschlag, Schäden bei A6 und umgestürzte Bäume: Zahlreiche Einsätze wegen Unwetter\", SWR, 17 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T17:15:00.000Z\", s\"01M07HHSZH24V3PZKWPCGKZVNV\" ]",
+      "lat": 49.2362,
+      "lon": 9.3293,
+      "type": "WIND",
+      "time": "2026-08-16T17:15:00.000Z",
+      "country": "DE",
+      "place": "Neuenstadt am Kocher",
+      "description": null,
+      "info_source": [
+        "TV"
+      ],
+      "references": [
+        "\"Blitzeinschlag, Schäden bei A6 und umgestürzte Bäume: Zahlreiche Einsätze wegen Unwetter\", SWR, 17 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T16:10:00.000Z\", s\"01M0806X68RH8WTTVK1P542WMT\" ]",
+      "lat": 49.3696,
+      "lon": 8.583,
+      "type": "WIND",
+      "time": "2026-08-16T16:10:00.000Z",
+      "country": "DE",
+      "place": "Oftersheim",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Freiw. Feuerwehr Oftersheim   (Facebook), 16 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T15:55:00.000Z\", s\"01M07J001MYW73G8J4NRW7VJKB\" ]",
+      "lat": 49.3189,
+      "lon": 8.5475,
+      "type": "WIND",
+      "time": "2026-08-16T15:55:00.000Z",
+      "country": "DE",
+      "place": "Hockenheim",
+      "description": null,
+      "info_source": [
+        "TV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Heftiges Unwetter sorgt für zahlreiche Notrufe in Hockenheim\", SWR, 17 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-16T15:06:00.000Z\", s\"01M07MQQR2GDMBG1DS83ZRPF68\" ]",
+      "lat": 49.6061,
+      "lon": 8.2381,
+      "type": "HAIL",
+      "time": "2026-08-16T15:06:00.000Z",
+      "country": "DE",
+      "place": "Offstein",
+      "description": "Large hail 2 cm i.d. Radar checked",
+      "info_source": [
+        "WXSVC",
+        "EYEWTN"
+      ],
+      "references": [
+        "Witness observation. WarnWetter App (operated by Deutscher Wetterdienst, DWD), 16 AUG 2026"
+      ]
+    }
+  ]
 }
