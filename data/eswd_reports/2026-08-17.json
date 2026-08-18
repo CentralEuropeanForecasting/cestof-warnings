@@ -1,0 +1,1657 @@
+{
+  "forecast_date": "2026-08-17",
+  "window_start_local": "2026-08-17T06:00:00+02:00",
+  "window_end_local": "2026-08-18T06:00:00+02:00",
+  "window_start_utc": "2026-08-17T04:00:00+00:00",
+  "window_end_utc": "2026-08-18T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 91,
+  "report_count": 91,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-08-17T16:25:00.000Z\", s\"01M08FFENTRR4PASYHZQRVS11M\" ]",
+      "lat": 50.2845,
+      "lon": 19.3184,
+      "type": "HAIL",
+      "time": "2026-08-17T16:25:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Sławków",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Very large hail up to at least 5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Prognoza Pogody - Damian Dąbrowski (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T16:20:00.000Z\", s\"01M08EM8A0TH5FQGCQW5JE2T3C\" ]",
+      "lat": 50.2893,
+      "lon": 19.2632,
+      "type": "HAIL",
+      "time": "2026-08-17T16:20:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Sosnowiec",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Very large hail up to at least 5-6 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Prognoza Pogody - Damian Dąbrowski (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T16:10:00.000Z\", s\"01M08FV1TKKAC1V0G0J25A1P1X\" ]",
+      "lat": 50.3029,
+      "lon": 19.1883,
+      "type": "HAIL",
+      "time": "2026-08-17T16:10:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Sosnowiec",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 3,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Prognoza Pogody - Damian Dąbrowski (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T16:10:00.000Z\", s\"01M08D1BXK3W72946NA0QV5CYK\" ]",
+      "lat": 50.3227,
+      "lon": 19.202,
+      "type": "HAIL",
+      "time": "2026-08-17T16:10:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Dąbrowa Górnicza",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 2,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Polscy Łowcy Burz (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T16:10:00.000Z\", s\"01M088GGYV5T565NYH3TJ3MNE1\" ]",
+      "lat": 51.4181,
+      "lon": 18.606,
+      "type": "PRECIP",
+      "time": "2026-08-17T16:10:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Złoczew",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Automatic weather station (251180140) recorded a rain amount of 32,9 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC",
+        "GOV"
+      ],
+      "references": [
+        "Hydro IMGW-PIB, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T16:08:00.000Z\", s\"01M08J0405N8465KEXMWPGECNK\" ]",
+      "lat": 50.2949,
+      "lon": 19.1558,
+      "type": "HAIL",
+      "time": "2026-08-17T16:08:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Sosnowiec",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 3,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Sosnowiec INFO (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T16:07:00.000Z\", s\"01M08HS50TNH2JCRSFE6SNGPF4\" ]",
+      "lat": 50.3198,
+      "lon": 19.1729,
+      "type": "HAIL",
+      "time": "2026-08-17T16:07:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Dąbrowa Górnicza",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 3,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Sosnowiec998 (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T16:07:00.000Z\", s\"01M08G6HB89PSN2SSJW3XTP89N\" ]",
+      "lat": 50.3206,
+      "lon": 19.1159,
+      "type": "HAIL",
+      "time": "2026-08-17T16:07:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Będzin",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 3,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Prognoza Pogody - Damian Dąbrowski (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T16:05:00.000Z\", s\"01M08HTE3HFZRY6R6NETD54BMC\" ]",
+      "lat": 50.2821,
+      "lon": 19.1416,
+      "type": "HAIL",
+      "time": "2026-08-17T16:05:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Sosnowiec",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 3,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Sosnowiec998 (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T16:05:00.000Z\", s\"01M08BX5MKE5GVAABWWACAZG40\" ]",
+      "lat": 50.2941,
+      "lon": 19.1279,
+      "type": "HAIL",
+      "time": "2026-08-17T16:05:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Sosnowiec",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Polscy Łowcy Burz - Skywarn Polska | Polscy Łowcy Burz (on Facebook), 17 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T16:03:00.000Z\", s\"01M08B83XJ8BH8EECXM08F9XJG\" ]",
+      "lat": 50.3237,
+      "lon": 19.1332,
+      "type": "HAIL",
+      "time": "2026-08-17T16:03:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Będzin",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Polscy Łowcy Burz - Skywarn Polska | Polscy Łowcy Burz (on Facebook), 17 AUG 2026",
+        "Eyewitness report via Myszkowscy Łowcy Burz (on Facebook), 17 AUG 2026",
+        "Eyewitness report via Prognoza Pogody - Damian Dąbrowski (on Facebook), 17 AUG 2026.",
+        "Eyewitness report via Sosnowiec INFO (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T16:00:00.000Z\", s\"01M08F1MF030BA60DE1QEPRQTZ\" ]",
+      "lat": 50.2882,
+      "lon": 19.0799,
+      "type": "HAIL",
+      "time": "2026-08-17T16:00:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Sosnowiec",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 2-3 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Prognoza Pogody - Damian Dąbrowski (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T16:00:00.000Z\", s\"01M08EZ0RH9FGTH2HWQSBQ4GTF\" ]",
+      "lat": 50.3491,
+      "lon": 19.0832,
+      "type": "HAIL",
+      "time": "2026-08-17T16:00:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Będzin",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 2-3 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Prognoza Pogody - Damian Dąbrowski (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T16:00:00.000Z\", s\"01M08CMX63REVZR0Z6BVAZ6901\" ]",
+      "lat": 50.297,
+      "lon": 18.934,
+      "type": "HAIL",
+      "time": "2026-08-17T16:00:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Chorzów",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 3-3,5 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Polscy Łowcy Burz (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T16:00:00.000Z\", s\"01M08CFMPWC0DPDYQ1H2R2R82P\" ]",
+      "lat": 50.3185,
+      "lon": 19.0737,
+      "type": "HAIL",
+      "time": "2026-08-17T16:00:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Czeladź",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 3,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Jakub Wyrwas - Łowca Burz (on Facebook), 17 AUG 2026.",
+        "Eyewitness report via Prognoza Pogody - Damian Dąbrowski (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T16:00:00.000Z\", s\"01M088EN2FDED1BSA19ST3HC7E\" ]",
+      "lat": 51.5172,
+      "lon": 18.2221,
+      "type": "PRECIP",
+      "time": "2026-08-17T16:00:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Kraszewice",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Automatic weather station (251180320) recorded a rain amount of 30,4 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC",
+        "GOV"
+      ],
+      "references": [
+        "Hydro IMGW-PIB, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:58:00.000Z\", s\"01M08FBREC8AEBJAE39Q2CPPQT\" ]",
+      "lat": 50.3362,
+      "lon": 19.0497,
+      "type": "HAIL",
+      "time": "2026-08-17T15:58:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Siemianowice Śląskie",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 4 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Prognoza Pogody - Damian Dąbrowski (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:55:00.000Z\", s\"01M08FZVDV6MBYR1TGKE27A2CQ\" ]",
+      "lat": 50.3439,
+      "lon": 19.0052,
+      "type": "HAIL",
+      "time": "2026-08-17T15:55:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Piekary Śląskie",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 3,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Prognoza Pogody - Damian Dąbrowski (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:55:00.000Z\", s\"01M08EQD9EV11PJ7HAZ7H9FGCN\" ]",
+      "lat": 50.3285,
+      "lon": 19.0246,
+      "type": "HAIL",
+      "time": "2026-08-17T15:55:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Siemianowice Śląskie",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 3,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Prognoza Pogody - Damian Dąbrowski (on Facebook), 17 AUG 2026.",
+        "Eyewitness report via EXTRA Siemianowice gazeta lokalna (on Facebook),  17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:55:00.000Z\", s\"01M08CVHP1D00HPWRGEHPDDX3A\" ]",
+      "lat": 50.3052,
+      "lon": 19.0276,
+      "type": "HAIL",
+      "time": "2026-08-17T15:55:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Siemianowice Śląskie",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Very large hail up to at least 5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Eyewitness report via Polscy Łowcy Burz (on Facebook), 17 AUG 2026.",
+        "Eyewitness report via Sieć Obserwatorów Burz (on Facebook), 17 AUG 2026.",
+        "Eyewitness report via Czecho Meteo Pogoda (on Facebook), 17 AUG 2026.",
+        "Siemianowice Dobre Bo Śląskie (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:53:00.000Z\", s\"01M08H2THXZ4CPVDCV89678318\" ]",
+      "lat": 50.3228,
+      "lon": 18.9963,
+      "type": "HAIL",
+      "time": "2026-08-17T15:53:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Siemianowice Śląskie",
+      "place_accuracy": "1KM",
+      "time_accuracy": "15M",
+      "description": "Large hail up to at least 3 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:53:00.000Z\", s\"01M08DW0FB4KWZS3BMVTFZEMRV\" ]",
+      "lat": 50.3242,
+      "lon": 19.0046,
+      "type": "HAIL",
+      "time": "2026-08-17T15:53:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Siemianowice Śląskie",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 4,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via  Prognoza Pogody - Damian Dąbrowski (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:53:00.000Z\", s\"01M08D76PCE527D68SZJHTXZJ9\" ]",
+      "lat": 50.3238,
+      "lon": 18.9693,
+      "type": "HAIL",
+      "time": "2026-08-17T15:53:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Chorzów",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 4 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Sieć Obserwatorów Burz (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:50:00.000Z\", s\"01M08BJ3YMGNNN9DYZ8HCRD96Y\" ]",
+      "lat": 50.3056,
+      "lon": 18.9739,
+      "type": "HAIL",
+      "time": "2026-08-17T15:50:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Chorzów Stary",
+      "place_accuracy": "3KM",
+      "time_accuracy": "1M",
+      "description": null,
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Polscy Łowcy Burz - Skywarn Polska | Polscy Łowcy Burz (on Facebook), 17 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:48:00.000Z\", s\"01M08F5QCCCP5FQP9FY0VETZ18\" ]",
+      "lat": 50.305,
+      "lon": 18.9423,
+      "type": "HAIL",
+      "time": "2026-08-17T15:48:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Chorzów",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 4,5 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Prognoza Pogody - Damian Dąbrowski (on Facebook), 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:48:00.000Z\", s\"01M08EFY0VQ622SFPVFV8CHY40\" ]",
+      "lat": 50.2914,
+      "lon": 18.9558,
+      "type": "HAIL",
+      "time": "2026-08-17T15:48:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:48:00.000Z\", s\"01M08CPNZFZ9WJNDBT8T1KV7R2\" ]",
+      "lat": 50.3003,
+      "lon": 18.9452,
+      "type": "HAIL",
+      "time": "2026-08-17T15:48:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "1M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:46:00.000Z\", s\"01M08FPSK6J244CGQ4XJVJ71C8\" ]",
+      "lat": 50.2863,
+      "lon": 18.9676,
+      "type": "HAIL",
+      "time": "2026-08-17T15:46:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:46:00.000Z\", s\"01M08F8R0F32MTR0SHBHE1PN1F\" ]",
+      "lat": 50.2825,
+      "lon": 18.9564,
+      "type": "HAIL",
+      "time": "2026-08-17T15:46:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:45:00.000Z\", s\"01M08G94SCGE5CQ317EQ5JDVDF\" ]",
+      "lat": 50.2808,
+      "lon": 18.9122,
+      "type": "HAIL",
+      "time": "2026-08-17T15:45:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:45:00.000Z\", s\"01M08EDR89GVZGAE8YJP7ECQTD\" ]",
+      "lat": 50.2993,
+      "lon": 18.9193,
+      "type": "HAIL",
+      "time": "2026-08-17T15:45:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:45:00.000Z\", s\"01M08E670NER0K3QFK67MA77ZY\" ]",
+      "lat": 50.3004,
+      "lon": 19.0083,
+      "type": "HAIL",
+      "time": "2026-08-17T15:45:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:45:00.000Z\", s\"01M08DYA4DG5ZPHX0V4DS07DJZ\" ]",
+      "lat": 50.2696,
+      "lon": 18.9391,
+      "type": "HAIL",
+      "time": "2026-08-17T15:45:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:45:00.000Z\", s\"01M08DK026AFEHBANHZHEYETXJ\" ]",
+      "lat": 50.3044,
+      "lon": 18.9225,
+      "type": "HAIL",
+      "time": "2026-08-17T15:45:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:45:00.000Z\", s\"01M08C4ZMN9KMFYGMDGC5EG2R4\" ]",
+      "lat": 50.3216,
+      "lon": 18.926,
+      "type": "HAIL",
+      "time": "2026-08-17T15:45:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:45:00.000Z\", s\"01M08C4P9VQFF7W97ZH67ZCG6H\" ]",
+      "lat": 50.2906,
+      "lon": 18.9195,
+      "type": "HAIL",
+      "time": "2026-08-17T15:45:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:44:00.000Z\", s\"01M08EHSBJK70JG8TNND99Q3GQ\" ]",
+      "lat": 50.3071,
+      "lon": 18.8971,
+      "type": "HAIL",
+      "time": "2026-08-17T15:44:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:43:00.000Z\", s\"01M08E0CYCXHJMCJG5QPR4K4ZX\" ]",
+      "lat": 50.3156,
+      "lon": 18.9125,
+      "type": "HAIL",
+      "time": "2026-08-17T15:43:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:42:00.000Z\", s\"01M08E4SCD31W5V10DE5Y48GGW\" ]",
+      "lat": 50.3142,
+      "lon": 18.8862,
+      "type": "HAIL",
+      "time": "2026-08-17T15:42:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:40:00.000Z\", s\"01M08DR9HFYDRDVV9TE5TKWHHB\" ]",
+      "lat": 50.2858,
+      "lon": 18.8748,
+      "type": "HAIL",
+      "time": "2026-08-17T15:40:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:35:00.000Z\", s\"01M08FXKF8ZPX04NQKTNRS9106\" ]",
+      "lat": 50.2978,
+      "lon": 18.8173,
+      "type": "HAIL",
+      "time": "2026-08-17T15:35:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:35:00.000Z\", s\"01M08FKYCGVQDJC4M3GMRGS0D0\" ]",
+      "lat": 50.2789,
+      "lon": 18.8144,
+      "type": "HAIL",
+      "time": "2026-08-17T15:35:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:32:00.000Z\", s\"01M08HJ0TZ67AHP2SGEEPC26H1\" ]",
+      "lat": 50.2689,
+      "lon": 18.8273,
+      "type": "HAIL",
+      "time": "2026-08-17T15:32:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:30:00.000Z\", s\"01M08H746N7553QZGT9WKH4XDT\" ]",
+      "lat": 50.275,
+      "lon": 18.7969,
+      "type": "HAIL",
+      "time": "2026-08-17T15:30:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:30:00.000Z\", s\"01M08G3M8AHRWEJV3CM6HQ6RF7\" ]",
+      "lat": 50.2866,
+      "lon": 18.7916,
+      "type": "HAIL",
+      "time": "2026-08-17T15:30:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:30:00.000Z\", s\"01M08E1TA2P0GJZ2F5PNE18TJ0\" ]",
+      "lat": 50.2996,
+      "lon": 18.7948,
+      "type": "HAIL",
+      "time": "2026-08-17T15:30:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "15M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:15:00.000Z\", s\"01M08AM94EQ5XFHXZQA483VP4P\" ]",
+      "lat": 50.264,
+      "lon": 17.242,
+      "type": "PRECIP",
+      "time": "2026-08-17T15:15:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Česká Ves",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 35,3 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"ČOV Česká Ves - IESKVE15\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:14:00.000Z\", s\"01M08AG43RFJM7AP2QA3QW10N3\" ]",
+      "lat": 49.794,
+      "lon": 17.446,
+      "type": "PRECIP",
+      "time": "2026-08-17T15:14:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Moravský Beroun",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 27,7 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Go GEN ME 3900 - IMORAV164\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:09:00.000Z\", s\"01M08AEHZCRDYEG9DYHPEHK429\" ]",
+      "lat": 49.642,
+      "lon": 17.15,
+      "type": "PRECIP",
+      "time": "2026-08-17T15:09:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Příkazy",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 31,2 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Sencor meteo - IPKAZY4\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:09:00.000Z\", s\"01M08A2EZGME4G8FSSPHJ74R4B\" ]",
+      "lat": 50.283,
+      "lon": 16.46,
+      "type": "PRECIP",
+      "time": "2026-08-17T15:09:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Orlické Záhoří",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 39,6 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Meteo OZ - IORLIC3\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:04:00.000Z\", s\"01M08ACVNY2FNSSSD9W78Y8A4D\" ]",
+      "lat": 49.814,
+      "lon": 17.171,
+      "type": "PRECIP",
+      "time": "2026-08-17T15:04:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Dlouhá Loučka",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 27,7 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Garni - IDLOUH16\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T15:04:00.000Z\", s\"01M089J9RP8HF4K525K7YGQTV3\" ]",
+      "lat": 50.25,
+      "lon": 16.514,
+      "type": "PRECIP",
+      "time": "2026-08-17T15:04:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T14:39:00.000Z\", s\"01M089NKC3YFS2S3CPTY7N02MA\" ]",
+      "lat": 51.677,
+      "lon": 17.303,
+      "type": "PRECIP",
+      "time": "2026-08-17T14:39:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T14:39:00.000Z\", s\"01M089G4H77642QP90QBFQYFBS\" ]",
+      "lat": 50.317,
+      "lon": 16.457,
+      "type": "PRECIP",
+      "time": "2026-08-17T14:39:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T14:34:00.000Z\", s\"01M08A8DYTXZ4ZZD5SHMZ1W8GH\" ]",
+      "lat": 50.095,
+      "lon": 16.626,
+      "type": "PRECIP",
+      "time": "2026-08-17T14:34:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Mladkov",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 35,3 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Sencor SWS 9898 - IMLADK6\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T14:24:00.000Z\", s\"01M08AA2VJP3A5VVMNS1BASAHG\" ]",
+      "lat": 50.086,
+      "lon": 16.467,
+      "type": "PRECIP",
+      "time": "2026-08-17T14:24:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Žamberk",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 25,4 mm in 25 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"28. října - IAMBERK2\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T13:54:00.000Z\", s\"01M089EJFSJNMGJH4A8ACWPHMG\" ]",
+      "lat": 51.204,
+      "lon": 16.329,
+      "type": "PRECIP",
+      "time": "2026-08-17T13:54:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T13:34:00.000Z\", s\"01M0896Z5TNRM8N77KM650M8E7\" ]",
+      "lat": 51.152,
+      "lon": 16.174,
+      "type": "PRECIP",
+      "time": "2026-08-17T13:34:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T13:24:00.000Z\", s\"01M08AHZ69M9CN9YZN08QCZ5JC\" ]",
+      "lat": 50.315,
+      "lon": 17.364,
+      "type": "PRECIP",
+      "time": "2026-08-17T13:24:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T13:24:00.000Z\", s\"01M08992BKETCN4PBC2Z7FTZQQ\" ]",
+      "lat": 51.151,
+      "lon": 16.131,
+      "type": "PRECIP",
+      "time": "2026-08-17T13:24:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T13:24:00.000Z\", s\"01M0829MS4P69KCWPYG4YXW5S1\" ]",
+      "lat": 50.317,
+      "lon": 17.376,
+      "type": "PRECIP",
+      "time": "2026-08-17T13:24:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T13:20:00.000Z\", s\"01M0821V36DYJYC6PASZZWZAX0\" ]",
+      "lat": 50.3041,
+      "lon": 17.3878,
+      "type": "PRECIP",
+      "time": "2026-08-17T13:20:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T13:14:00.000Z\", s\"01M08BBRKBD2P4QGJAWY0C4Z3N\" ]",
+      "lat": 49.923,
+      "lon": 15.815,
+      "type": "PRECIP",
+      "time": "2026-08-17T13:14:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Slatiňany",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 26,7 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"MeteoStanda - ISLATI34\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T13:14:00.000Z\", s\"01M08AQZ8Y5SVQMJHXYVH586XX\" ]",
+      "lat": 48.806,
+      "lon": 16.076,
+      "type": "PRECIP",
+      "time": "2026-08-17T13:14:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Vrbovec",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 25,9 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"mezisklepy.eu - meteostanice Vrbovec - IZNOJM84\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T13:14:00.000Z\", s\"01M08AP3CX96PTE4251W4DK43S\" ]",
+      "lat": 48.772,
+      "lon": 16.113,
+      "type": "PRECIP",
+      "time": "2026-08-17T13:14:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Hnízdo",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 35,3 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Hnízdo - IVRBOV30\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T13:14:00.000Z\", s\"01M088Z0JSV0XQ2P4D2CBE6MAD\" ]",
+      "lat": 51.141,
+      "lon": 15.996,
+      "type": "PRECIP",
+      "time": "2026-08-17T13:14:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T13:09:00.000Z\", s\"01M089Z3D3FZK6ZYT8REA1AQ4R\" ]",
+      "lat": 49.929,
+      "lon": 14.713,
+      "type": "PRECIP",
+      "time": "2026-08-17T13:09:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Mnichovice",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 28,7 mm in 21 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Sencor SWS-12500 - IMNICH92\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T12:59:00.000Z\", s\"01M089D62CZCSK5D87ZPQNH6EV\" ]",
+      "lat": 51.192,
+      "lon": 16.185,
+      "type": "PRECIP",
+      "time": "2026-08-17T12:59:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T12:59:00.000Z\", s\"01M089B3ZMZCS9B5R9PNWY5BPS\" ]",
+      "lat": 51.201,
+      "lon": 16.184,
+      "type": "PRECIP",
+      "time": "2026-08-17T12:59:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T12:59:00.000Z\", s\"01M0891P8Z2SQDFYSMEXH5K9CV\" ]",
+      "lat": 51.117,
+      "lon": 15.917,
+      "type": "PRECIP",
+      "time": "2026-08-17T12:59:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T12:55:00.000Z\", s\"01M082GCV2WRR66PR82SJNDR2D\" ]",
+      "lat": 49.9225,
+      "lon": 14.6391,
+      "type": "HAIL",
+      "time": "2026-08-17T12:55:00.000Z",
+      "country": "CZ",
+      "qc": "QC1",
+      "place": "Velké Popovice",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail 3.5 cm i.d. Radar checked",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Witness observation. Český hydrometeorologický ústav (Facebook), 17 AUG 2026"
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T12:49:00.000Z\", s\"01M088WQBBEP38C00XSM8RJZ4M\" ]",
+      "lat": 51.145,
+      "lon": 15.71,
+      "type": "PRECIP",
+      "time": "2026-08-17T12:49:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T12:39:00.000Z\", s\"01M089M6GG9P13CBSSESQS97QE\" ]",
+      "lat": 50.154,
+      "lon": 16.816,
+      "type": "PRECIP",
+      "time": "2026-08-17T12:39:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Dolní Morava",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 25,9 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"HS Dolní Morava - IDOLNM17\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T12:24:00.000Z\", s\"01M08B2V96A8TT3JP7N83CQ4SD\" ]",
+      "lat": 50.556,
+      "lon": 14.948,
+      "type": "PRECIP",
+      "time": "2026-08-17T12:24:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Jivina",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 29,2 mm in 15 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Jitka - IJIVIN6\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T12:24:00.000Z\", s\"01M089VQHTQCNY6NRZT580PY8K\" ]",
+      "lat": 49.729,
+      "lon": 14.781,
+      "type": "PRECIP",
+      "time": "2026-08-17T12:24:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Postupice",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 37,6 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Meteostanice Kotkovi - IPOSTU5\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T12:19:00.000Z\", s\"01M089WZMAYXGW6V98A13G69E4\" ]",
+      "lat": 49.729,
+      "lon": 14.742,
+      "type": "PRECIP",
+      "time": "2026-08-17T12:19:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Postupice",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 35,8 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"MeteostaniceJK7 - IPOSTU11\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T12:19:00.000Z\", s\"01M0820JJ4KN72W6A4HDH9W3NX\" ]",
+      "lat": 48.5302,
+      "lon": 13.384,
+      "type": "HAIL",
+      "time": "2026-08-17T12:19:00.000Z",
+      "country": "DE",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T12:16:00.000Z\", s\"01M081XZCTXGTERXR9SAA62NW9\" ]",
+      "lat": 48.5254,
+      "lon": 13.3793,
+      "type": "HAIL",
+      "time": "2026-08-17T12:16:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T12:10:00.000Z\", s\"01M0822GZYTZJ6MCRQ7SG5X18N\" ]",
+      "lat": 48.5424,
+      "lon": 13.3295,
+      "type": "HAIL",
+      "time": "2026-08-17T12:10:00.000Z",
+      "country": "DE",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T12:07:00.000Z\", s\"01M0824VKNB7XVJTJ78T1SG2Q2\" ]",
+      "lat": 48.5379,
+      "lon": 13.3138,
+      "type": "HAIL",
+      "time": "2026-08-17T12:07:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T11:59:00.000Z\", s\"01M088V8YMH6JQKFCW6PDRK6GM\" ]",
+      "lat": 51.146,
+      "lon": 15.315,
+      "type": "PRECIP",
+      "time": "2026-08-17T11:59:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T11:49:00.000Z\", s\"01M08B46C1KVC9X4JM6S73JW7B\" ]",
+      "lat": 50.766,
+      "lon": 14.487,
+      "type": "PRECIP",
+      "time": "2026-08-17T11:49:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Kamenický Šenov",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 43,9 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Meteostanice - IKAMEN171\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T11:39:00.000Z\", s\"01M088SBJPV9FGDNZ5G04HSY6A\" ]",
+      "lat": 51.123,
+      "lon": 15.008,
+      "type": "PRECIP",
+      "time": "2026-08-17T11:39:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "5M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T11:34:00.000Z\", s\"01M08B17CMQBXAX142NN5QCMNW\" ]",
+      "lat": 50.66,
+      "lon": 14.3,
+      "type": "PRECIP",
+      "time": "2026-08-17T11:34:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Verneřice",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 29,2 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"METEO Verneřice - IVERNE7\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T11:34:00.000Z\", s\"01M089SVAPBHDF9DZ2HGASCBFR\" ]",
+      "lat": 49.184,
+      "lon": 14.445,
+      "type": "PRECIP",
+      "time": "2026-08-17T11:34:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Žimutice",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 26,4 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"EasyWeatherPro-8CF6BA - IIMUTI5\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T11:29:00.000Z\", s\"01M08B798QA43JTE998GSBXCZ9\" ]",
+      "lat": 50.766,
+      "lon": 14.526,
+      "type": "PRECIP",
+      "time": "2026-08-17T11:29:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Okrouhlá",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 28,4 mm in 21 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Počasí Okrouhlá 228 - IOKROU39\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T11:29:00.000Z\", s\"01M08AYHW5XF2XX3DDW6NXD9VQ\" ]",
+      "lat": 50.644,
+      "lon": 14.239,
+      "type": "PRECIP",
+      "time": "2026-08-17T11:29:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Zubrnice",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 29,5 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Knínice (Ecowitt HP2551) - ILOVEK1\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T11:24:00.000Z\", s\"01M08AX3DEP3KQQ5B7Z1MTV64P\" ]",
+      "lat": 50.606,
+      "lon": 14.1632,
+      "type": "PRECIP",
+      "time": "2026-08-17T11:24:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Rýdeč",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 28,4 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"GARNI - IMALEO5\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T11:24:00.000Z\", s\"01M08AVG79KVCTX43QJPNE5AQM\" ]",
+      "lat": 50.622,
+      "lon": 14.199,
+      "type": "PRECIP",
+      "time": "2026-08-17T11:24:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Homole u Panny",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 33,3 mm in 20 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"HasliceCZ - IHOMOL1\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T11:24:00.000Z\", s\"01M089QB7QP2WFDP5BEZG537WH\" ]",
+      "lat": 49.189,
+      "lon": 14.273,
+      "type": "PRECIP",
+      "time": "2026-08-17T11:24:00.000Z",
+      "country": "CZ",
+      "qc": "QC0+",
+      "place": "Protivín",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 33,8 mm in 50 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Tesinov67 - IPROTI25\", Wunderground, date of access: 17 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-17T07:20:00.000Z\", s\"01M07J7WM57RHDA1PWHV8V3XT3\" ]",
+      "lat": 46.9425,
+      "lon": 8.6194,
+      "type": "LIGHTNING",
+      "time": "2026-08-17T07:20:00.000Z",
+      "country": "CH",
+      "qc": "QC1",
+      "place": null,
+      "place_accuracy": null,
+      "time_accuracy": "1M",
+      "description": null,
+      "info_source": null,
+      "references": null
+    }
+  ]
+}
