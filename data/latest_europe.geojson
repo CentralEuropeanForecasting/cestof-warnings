@@ -505026,6 +505026,204 @@
         "mcg": 191,
         "sta": 118
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.916909,
+          44.582834
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-20 19:40:01.576034560",
+        "hour": 19,
+        "server": 11,
+        "mds": 7721,
+        "mcg": 116,
+        "sta": 95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.060448,
+          44.749708
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-20 19:40:02.559865600",
+        "hour": 19,
+        "server": 11,
+        "mds": 5717,
+        "mcg": 132,
+        "sta": 87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.059733,
+          44.749339
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-20 19:40:02.559874304",
+        "hour": 19,
+        "server": 11,
+        "mds": 5955,
+        "mcg": 119,
+        "sta": 133
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.69715,
+          46.094415
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-20 19:40:05.208675840",
+        "hour": 19,
+        "server": 11,
+        "mds": 8374,
+        "mcg": 93,
+        "sta": 84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.535922,
+          45.95413
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-20 19:40:06.360823552",
+        "hour": 19,
+        "server": 11,
+        "mds": 5885,
+        "mcg": 157,
+        "sta": 52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.83566,
+          45.44524
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-20 19:40:09.535021312",
+        "hour": 19,
+        "server": 11,
+        "mds": 6363,
+        "mcg": 144,
+        "sta": 55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.916909,
+          44.582834
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-20 19:40:01.576034560",
+        "hour": 19,
+        "server": 12,
+        "mds": 7721,
+        "mcg": 116,
+        "sta": 95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.934386,
+          44.595591
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-20 19:40:01.576032256",
+        "hour": 19,
+        "server": 12,
+        "mds": 7891,
+        "mcg": 123,
+        "sta": 84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.063989,
+          44.742445
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-20 19:40:02.559863296",
+        "hour": 19,
+        "server": 12,
+        "mds": 5095,
+        "mcg": 124,
+        "sta": 103
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.550774,
+          45.99271
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-20 19:40:06.360894976",
+        "hour": 19,
+        "server": 12,
+        "mds": 8074,
+        "mcg": 144,
+        "sta": 37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.835658,
+          45.44525
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-20 19:40:09.535021312",
+        "hour": 19,
+        "server": 12,
+        "mds": 6363,
+        "mcg": 144,
+        "sta": 66
+      }
     }
   ]
 }
