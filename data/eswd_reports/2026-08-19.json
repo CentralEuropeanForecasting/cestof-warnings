@@ -1,0 +1,84 @@
+{
+  "forecast_date": "2026-08-19",
+  "window_start_local": "2026-08-19T06:00:00+02:00",
+  "window_end_local": "2026-08-20T06:00:00+02:00",
+  "window_start_utc": "2026-08-19T04:00:00+00:00",
+  "window_end_utc": "2026-08-20T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 3,
+  "report_count": 3,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-08-19T18:45:00.000Z\", s\"01M0DVFPBBXPVZY0XBH6BMG06R\" ]",
+      "lat": 50.5869,
+      "lon": 9.2891,
+      "type": "WIND",
+      "time": "2026-08-19T18:45:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Hörgenau",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": "WS recorded a wind gust of 27,2 m/s during the passage of a mesoscale convective system.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Kachelmannwetter, date of access: 19 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-19T15:45:00.000Z\", s\"01M0DQ11ZX8VDWDMJFGJ76B9VZ\" ]",
+      "lat": 53.2285,
+      "lon": 19.6167,
+      "type": "TORNADO",
+      "time": "2026-08-19T15:45:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Zaborowo",
+      "place_accuracy": "5KM",
+      "time_accuracy": "5M",
+      "description": "A brief tornado associated with a supercell thunderstorm was observed. No damage was reported.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        " Eyewitness report via Sieć Obserwatorów Burz | Obserwatorzy.info (on X), 19 AUG 2026.",
+        "Eyewitness report via Sieć Obserwatorów Burz (on Facebook), 19 AUG 2026.",
+        "Eyewitness report via  KAMIL Burze & Pogoda (on Facebook), 19 AUG 2026.",
+        " Eyewitness report via BurzeInfo (on Facebook), 19 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-19T15:15:00.000Z\", s\"01M0DMWZHAA0WYH8Y87SGEX07T\" ]",
+      "lat": 52.3409,
+      "lon": 14.066,
+      "type": "TORNADO",
+      "time": "2026-08-19T15:15:00.000Z",
+      "country": "DE",
+      "qc": "QC1",
+      "place": "Fürstenwalde an der Spree",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "Tornado reported and filmed which hit the southern parts Fürstenwalde an der Spree town, local area \"Süd\" / \"Paul-Forst-Ring\". A roof was lifted, trees downed. ",
+      "info_source": [
+        "NWSP",
+        "WWW",
+        "EYEWTN",
+        "DMGEYEWTN",
+        "EVTPHOTO",
+        "DMGPHOTO",
+        "GOV"
+      ],
+      "references": [
+        "Feuerwehr Fürstenwalde/Spree (Facebook), 19 AUG 2026",
+        "\"Tornado in Fürstenwalde deckt Dächer ab und wirft Bäume um\", RBB 24, 19 AUG 2026",
+        "Silke Hajou (Facebook), 19 AUG 2026",
+        "Marcel Zimmermann (Facdbook), 19 AUG 2026"
+      ]
+    }
+  ]
+}
