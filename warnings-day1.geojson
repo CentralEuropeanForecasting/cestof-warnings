@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-07-16T18:52:54.989Z",
+  "generated_at": "2026-08-20T13:35:14.393Z",
   "features": [
     {
       "type": "Feature",
@@ -578,6 +578,66 @@
             [
               9.622307,
               48.896846
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1787232745052",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-08-20T15:35",
+        "issued_iso": "2026-08-20T13:35:00.000Z",
+        "expires": "2026-08-20T15:45",
+        "expires_iso": "2026-08-20T13:45:00.000Z",
+        "location": "Trešť,Vysočina",
+        "hail": "6,1cm",
+        "wind": "75kmh+",
+        "tornado_probability": "Very low",
+        "rotation": "",
+        "md_number": "",
+        "text": "A thunderstorm warning was issued for Trešť,Vysočina,\nA strong Thunderstorm with Hail up to 6,1cm and 75kmh+ wind gusts,\nmake sure to Watch out for these hazards!",
+        "hazards": {
+          "hail": "6,1cm",
+          "wind": "75kmh+",
+          "tornado_probability": "Very low",
+          "rotation": ""
+        },
+        "forecaster": "matyáš",
+        "forecaster_name": "Matyáš",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Matyáš",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-08-20T13:35:12.332Z",
+        "clipped_to": "Central Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.323868,
+              49.277801
+            ],
+            [
+              15.407639,
+              49.208766
+            ],
+            [
+              15.764694,
+              49.293925
+            ],
+            [
+              15.57106,
+              49.417367
+            ],
+            [
+              15.323868,
+              49.277801
             ]
           ]
         ]
