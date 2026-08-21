@@ -576612,6 +576612,42 @@
         "mcg": 144,
         "sta": 303
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.437169,
+          45.257548
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-21 21:15:05.134070528",
+        "hour": 21,
+        "server": 11,
+        "mds": 7672,
+        "mcg": 54,
+        "sta": 33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.437169,
+          45.257548
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-21 21:15:05.134070528",
+        "hour": 21,
+        "server": 12,
+        "mds": 7672,
+        "mcg": 54,
+        "sta": 33
+      }
     }
   ]
 }
