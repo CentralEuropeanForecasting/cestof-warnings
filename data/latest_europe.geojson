@@ -72,6 +72,42 @@
         "mcg": 232,
         "sta": 14
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.563097,
+          40.871215
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-23 02:10:05.415036160",
+        "hour": 2,
+        "server": 11,
+        "mds": 6074,
+        "mcg": 250,
+        "sta": 163
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.563097,
+          40.871215
+        ]
+      },
+      "properties": {
+        "strike_time": "2026-08-23 02:10:05.415036160",
+        "hour": 2,
+        "server": 12,
+        "mds": 6074,
+        "mcg": 250,
+        "sta": 165
+      }
     }
   ]
 }
