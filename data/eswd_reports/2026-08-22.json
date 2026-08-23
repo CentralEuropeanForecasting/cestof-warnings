@@ -1,0 +1,34 @@
+{
+  "forecast_date": "2026-08-22",
+  "window_start_local": "2026-08-22T06:00:00+02:00",
+  "window_end_local": "2026-08-23T06:00:00+02:00",
+  "window_start_utc": "2026-08-22T04:00:00+00:00",
+  "window_end_utc": "2026-08-23T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 1,
+  "report_count": 1,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-08-22T07:25:00.000Z\", s\"01M0MDYC1NGZT6HKEY8BH320N1\" ]",
+      "lat": 45.4613,
+      "lon": 13.4975,
+      "type": "TORNADO",
+      "time": "2026-08-22T07:25:00.000Z",
+      "country": "HR",
+      "qc": "QC1",
+      "place": "Zambratija",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": "A waterspout was observed. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Meteoinfo Slovenija (on Facebook), 22 AUG 2026.",
+        "Eyewitness report via VinodolMet (on Facebook), 22 AUG 2026."
+      ]
+    }
+  ]
+}
