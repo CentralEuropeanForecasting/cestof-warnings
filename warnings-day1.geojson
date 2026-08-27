@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "CESTOF Warning Polygons",
-  "generated_at": "2026-08-20T13:35:14.393Z",
+  "generated_at": "2026-08-27T18:10:37.361Z",
   "features": [
     {
       "type": "Feature",
@@ -638,6 +638,83 @@
             [
               15.323868,
               49.277801
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "warning-poly-1787854002134",
+        "type": "Thunderstorm Warning",
+        "issued": "2026-08-27T18:10:37.360Z",
+        "issued_iso": "2026-08-27T18:10:37.360Z",
+        "expires": "2026-08-27T22:07",
+        "expires_iso": "2026-08-27T19:07:00.000Z",
+        "location": "",
+        "hail": "6 cm",
+        "wind": "",
+        "tornado_probability": "",
+        "rotation": "",
+        "md_number": "",
+        "text": "A THUNDERSTORM WARNING has been issued for the warned area. Observed indicates a ongoing storm affecting the warned area.\n\nMain threats include hail up to 6 cm, frequent lightning.\n\nImpacts may include tree and structural damage.\n\nMove indoors into a sturdy building and stay away from windows until the storm has passed.",
+        "basis": "Observed",
+        "storm_status": "ongoing",
+        "motion_direction": "",
+        "motion_speed_kmh": null,
+        "locations_ahead": "",
+        "largest_city": "",
+        "call_to_action": "auto",
+        "impacts": {
+          "lightning": true,
+          "heavy_rain": false,
+          "flash_flood": false,
+          "tree_damage": true,
+          "travel": false,
+          "life_threatening": false
+        },
+        "hazards": {
+          "hail": "6 cm",
+          "wind": "",
+          "tornado_probability": "",
+          "rotation": ""
+        },
+        "forecaster": "pvanil",
+        "forecaster_name": "Odvigajlo",
+        "forecaster_role": "nowcaster",
+        "forecaster_rank": 3,
+        "forecaster_is_owner": false,
+        "issued_by": "Odvigajlo",
+        "source": "CESTOF Nowcasting System Nowcaster Direct Upload",
+        "updated_at": "2026-08-27T18:09:23.126Z",
+        "clipped_to": "Central Europe",
+        "first_issued_at": "2026-08-27T18:10:37.360Z",
+        "issued_time_locked": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.333389,
+              43.676445
+            ],
+            [
+              25.28262,
+              43.630739
+            ],
+            [
+              25.383473,
+              43.534742
+            ],
+            [
+              25.453452,
+              43.630739
+            ],
+            [
+              25.333389,
+              43.676445
             ]
           ]
         ]
