@@ -1,0 +1,242 @@
+{
+  "forecast_date": "2026-08-31",
+  "window_start_local": "2026-08-31T06:00:00+02:00",
+  "window_end_local": "2026-09-01T06:00:00+02:00",
+  "window_start_utc": "2026-08-31T04:00:00+00:00",
+  "window_end_utc": "2026-09-01T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 11,
+  "report_count": 11,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-08-31T16:30:00.000Z\", s\"01M1CWKVZSWKZ9GAE2QG84T6W1\" ]",
+      "lat": 47.3336,
+      "lon": 13.3032,
+      "type": "HAIL",
+      "time": "2026-08-31T16:30:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Wagrain",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": "hail layer of several dm on road(s), but likely accumulated by flowing water; radar checked;",
+      "info_source": [
+        "WWW",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "User report via UWÖ - Unwetter Österreich (on Facebook), 31 Aug 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-31T15:55:00.000Z\", s\"01M1DXRR50JNJ20CPC8VE58N8A\" ]",
+      "lat": 46.9852,
+      "lon": 14.1594,
+      "type": "WIND",
+      "time": "2026-08-31T15:55:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Metnitz",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Numerous downed trees were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "DMGEYEWTN"
+      ],
+      "references": [
+        "Eyewitness report via Freiwillige Feuerwehr Metnitz (on Facebook), 31 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-31T15:52:00.000Z\", s\"01M1DX3PYP9WH311HMZERYBAAV\" ]",
+      "lat": 47.2461,
+      "lon": 12.2282,
+      "type": "HAIL",
+      "time": "2026-08-31T15:52:00.000Z",
+      "country": "AT",
+      "qc": "QC0+",
+      "place": "Wald im Pinzgau",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 2 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EVTPHOTO",
+        "EYEWTN"
+      ],
+      "references": [
+        "Eyewitness report via Antenne Kärnten (on Facebook), 31 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-31T15:42:00.000Z\", s\"01M1DXFRE65WFSC744MW2GD3CA\" ]",
+      "lat": 47.2493,
+      "lon": 12.1205,
+      "type": "HAIL",
+      "time": "2026-08-31T15:42:00.000Z",
+      "country": "AT",
+      "qc": "QC0+",
+      "place": "Königsleiten",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 3 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EVTPHOTO",
+        "EYEWTN"
+      ],
+      "references": [
+        "Eyewitness report via UWÖ - Unwetter Österreich (on Facebook), 31 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-31T15:18:00.000Z\", s\"01M1DWZ2ZN5JXZRPRMCYDEN902\" ]",
+      "lat": 47.2336,
+      "lon": 11.882,
+      "type": "HAIL",
+      "time": "2026-08-31T15:18:00.000Z",
+      "country": "AT",
+      "qc": "QC1",
+      "place": "Zell am Ziller",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 4 cm i.d. was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EVTPHOTO",
+        "EYEWTN"
+      ],
+      "references": [
+        "Eyewitness report via Tirols Wetter und Infodienst (on Facebook), 31 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-31T15:14:00.000Z\", s\"01M1DX11XP73FD76FKP9YCFWRN\" ]",
+      "lat": 47.2652,
+      "lon": 11.8959,
+      "type": "HAIL",
+      "time": "2026-08-31T15:14:00.000Z",
+      "country": "AT",
+      "qc": "QC0+",
+      "place": "Aschau im Zillertal",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Large hail up to at least 2-3 cm i.d. (roughly estimated) was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EVTPHOTO",
+        "EYEWTN"
+      ],
+      "references": [
+        "Eyewitness report via Tirols Wetter und Infodienst (on Facebook), 31 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-31T14:28:00.000Z\", s\"01M1DSZDPNKS8AH87053CWXHJG\" ]",
+      "lat": 50.7645,
+      "lon": 21.5195,
+      "type": "WIND",
+      "time": "2026-08-31T14:28:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Malice Kościelne",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Downed trees were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "GOV"
+      ],
+      "references": [
+        "Ratownictwo Powiatu Opatowskiego (on Facebook), 31 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-31T14:25:00.000Z\", s\"01M1DT1VXM66VXJWM7YK4MRBVN\" ]",
+      "lat": 50.2071,
+      "lon": 21.3534,
+      "type": "WIND",
+      "time": "2026-08-31T14:25:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Ruda",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "GOV"
+      ],
+      "references": [
+        "OSP Ruda (on Facebook), 31 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-31T14:23:00.000Z\", s\"01M1DSWCB0Z2A2RZ6966088MGR\" ]",
+      "lat": 50.2397,
+      "lon": 21.3169,
+      "type": "WIND",
+      "time": "2026-08-31T14:23:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Podborze",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "GOV"
+      ],
+      "references": [
+        "OSP Podborze (on Facebook), 31 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-31T14:20:00.000Z\", s\"01M1DSS0KM82JDFSB7YGFFGWS3\" ]",
+      "lat": 50.2115,
+      "lon": 21.2866,
+      "type": "WIND",
+      "time": "2026-08-31T14:20:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Partynia",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "A downed tree was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO",
+        "GOV"
+      ],
+      "references": [
+        "OSP Ruda (on Facebook), 31 AUG 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-08-31T14:15:00.000Z\", s\"01M1DSQS3NZSKBEPCQ51GEFESG\" ]",
+      "lat": 50.2233,
+      "lon": 21.2604,
+      "type": "WIND",
+      "time": "2026-08-31T14:15:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Pień",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Downed trees/large tree branches were reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "OSP Pień (on Facebook), 01 SEP 2026."
+      ]
+    }
+  ]
+}
