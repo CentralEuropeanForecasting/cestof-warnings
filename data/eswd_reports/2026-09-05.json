@@ -1,0 +1,54 @@
+{
+  "forecast_date": "2026-09-05",
+  "window_start_local": "2026-09-05T06:00:00+02:00",
+  "window_end_local": "2026-09-06T06:00:00+02:00",
+  "window_start_utc": "2026-09-05T04:00:00+00:00",
+  "window_end_utc": "2026-09-06T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 2,
+  "report_count": 2,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-09-06T00:25:00.000Z\", s\"01M1TQ6HGNJ14WVVQQT4TED8FH\" ]",
+      "lat": 54.8302,
+      "lon": 18.3329,
+      "type": "WIND",
+      "time": "2026-09-06T00:25:00.000Z",
+      "country": "PL",
+      "qc": "QC0+",
+      "place": "Rozewie",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Automatic weather station (254180010) recorded a wind gust of 26 m/s. Mean 10-min wind: 11,7 m/s.",
+      "info_source": [
+        "WWW",
+        "WXSVC",
+        "GOV"
+      ],
+      "references": [
+        "Hydro IMGW-PIB, date of access; 06 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-05T16:45:00.000Z\", s\"01M1TQ1G6VGDW8ZDS73NRNPBM5\" ]",
+      "lat": 51.8332,
+      "lon": 16.5225,
+      "type": "WIND",
+      "time": "2026-09-05T16:45:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Leszno",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "Synoptic weather station (WMO ID: 12418) recorded a wind gust of 25,2 m/s. Mean 10-min wind: 12,1 m/s.",
+      "info_source": [
+        "WWW",
+        "GOV",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Hydro IMGW-PIB, date of access; 06 SEP 2026."
+      ]
+    }
+  ]
+}
