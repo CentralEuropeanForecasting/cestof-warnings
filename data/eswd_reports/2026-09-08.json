@@ -1,0 +1,354 @@
+{
+  "forecast_date": "2026-09-08",
+  "window_start_local": "2026-09-08T06:00:00+02:00",
+  "window_end_local": "2026-09-09T06:00:00+02:00",
+  "window_start_utc": "2026-09-08T04:00:00+00:00",
+  "window_end_utc": "2026-09-09T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 18,
+  "report_count": 18,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-09-08T20:18:00.000Z\", s\"01M21EGDW3NGJB7748MJZSE4DX\" ]",
+      "lat": 47.2776,
+      "lon": 8.8408,
+      "type": "HAIL",
+      "time": "2026-09-08T20:18:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Dürnten",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "hail up to 2 cm reported; radar checked;",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "User reports via MeteoSwiss App, 8 Sept 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-08T20:06:00.000Z\", s\"01M21E1P1H2CMJWK3V3ECHE6AR\" ]",
+      "lat": 47.2935,
+      "lon": 8.5635,
+      "type": "HAIL",
+      "time": "2026-09-08T20:06:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Thalwil",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "hail up to 2 cm reported; radar checked;",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "User reports via MeteoSwiss App, 8 Sept 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-08T19:34:00.000Z\", s\"01M21DSWKXD3X8WFDY0YBDEPVP\" ]",
+      "lat": 47.3053,
+      "lon": 8.0523,
+      "type": "HAIL",
+      "time": "2026-09-08T19:34:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Schöftland",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "hail up to 2 cm reported; radar checked;",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "User reports via MeteoSwiss App, 8 Sept 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-08T19:28:00.000Z\", s\"01M21DPT0DSFS3PQ22M9ZT53HY\" ]",
+      "lat": 47.2872,
+      "lon": 7.9458,
+      "type": "HAIL",
+      "time": "2026-09-08T19:28:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Zofingen",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "hail up to 2 cm reported; radar checked;",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "User reports via MeteoSwiss App, 8 Sept 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-08T19:27:00.000Z\", s\"01M21DK56TCPNHA8T20J77KMNZ\" ]",
+      "lat": 47.2587,
+      "lon": 7.9466,
+      "type": "HAIL",
+      "time": "2026-09-08T19:27:00.000Z",
+      "country": "CH",
+      "qc": "QC1",
+      "place": "Brittnau",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "several reports of hail up to 2 cm; radar checked;",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "User reports via MeteoSwiss App, 8 Sept 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-08T19:16:00.000Z\", s\"01M21D96MCVJHJ6N6S01TQP0G2\" ]",
+      "lat": 47.2116,
+      "lon": 7.7888,
+      "type": "HAIL",
+      "time": "2026-09-08T19:16:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Langenthal",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "hail up to 2 cm reported; radar checked;",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "User reports via MeteoSwiss App, 8 Sept 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-08T19:13:00.000Z\", s\"01M21D5ASY3NWB0TGJHJM1047R\" ]",
+      "lat": 47.2024,
+      "lon": 7.7583,
+      "type": "HAIL",
+      "time": "2026-09-08T19:13:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Thunstetten",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "hail up to 2 cm reported; radar checked;",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "User reports via MeteoSwiss App, 8 Sept 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-08T19:12:00.000Z\", s\"01M21D1HZJFMN6D1JHHPY92R74\" ]",
+      "lat": 47.1876,
+      "lon": 7.7055,
+      "type": "HAIL",
+      "time": "2026-09-08T19:12:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Herzogenbuchse",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "several reports of hail up to 3 cm; radar checked;",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "User reports via MeteoSwiss App, 8 Sept 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-08T19:10:00.000Z\", s\"01M21CVFBZ7FHGB5ZYVDXYC753\" ]",
+      "lat": 47.1759,
+      "lon": 7.663,
+      "type": "HAIL",
+      "time": "2026-09-08T19:10:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Aeschi (SO)",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "multiple reports of hail up to 2 cm; radar checked;",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "User reports via MeteoSwiss App, 8 Sept 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-08T19:07:00.000Z\", s\"01M21CGHYXMPBWZ1X7VH5QRVVR\" ]",
+      "lat": 47.1576,
+      "lon": 7.6358,
+      "type": "HAIL",
+      "time": "2026-09-08T19:07:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Heinrichswil",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "hail up to 3 cm reported; radar checked;",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "User reports via MeteoSwiss App, 8 Sept 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-08T19:06:00.000Z\", s\"01M21CGXDCH0MK9JTD4Q1FJHMW\" ]",
+      "lat": 47.1604,
+      "lon": 7.5945,
+      "type": "HAIL",
+      "time": "2026-09-08T19:06:00.000Z",
+      "country": "CH",
+      "qc": "QC1",
+      "place": "Recherswil",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "multiple reports of hail up to 2 cm; radar checked;",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "User reports via MeteoSwiss App, 8 Sept 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-08T19:06:00.000Z\", s\"01M21CAPS0RS9A6FNZM9SEA9A2\" ]",
+      "lat": 47.1432,
+      "lon": 7.6323,
+      "type": "HAIL",
+      "time": "2026-09-08T19:06:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Höchstetten",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "hail up to 2 cm reported; radar checked;",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "User report via MeteoSwiss App, 8 Sept 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-08T19:06:00.000Z\", s\"01M21C0QVPD2803G9VAYATSV0S\" ]",
+      "lat": 47.1599,
+      "lon": 7.5844,
+      "type": "HAIL",
+      "time": "2026-09-08T19:06:00.000Z",
+      "country": "CH",
+      "qc": "QC1",
+      "place": "Obergerlafingen",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "multiple reports of hail up to 2 cm; radar checked;",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "User reports via MeteoSwiss App, 8 Sept 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-08T19:05:00.000Z\", s\"01M21BR5J7C5HQGCZB6RJT0RFK\" ]",
+      "lat": 47.0852,
+      "lon": 7.5815,
+      "type": "HAIL",
+      "time": "2026-09-08T19:05:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Kirchberg (BE)",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "hail up to 2 cm reported; radar checked;",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "User report via MeteoSwiss App, 8 Sept 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-08T19:03:00.000Z\", s\"01M21BP447GNT31VD1K81BGSMH\" ]",
+      "lat": 47.0651,
+      "lon": 7.5819,
+      "type": "HAIL",
+      "time": "2026-09-08T19:03:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Lyssach",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "hail up to 2 cm reported; radar checked;",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "User report via MeteoSwiss App, 8 Sept 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-08T19:00:00.000Z\", s\"01M21BH0P6TYPD5NJKYQ6J2DF6\" ]",
+      "lat": 47.0498,
+      "lon": 7.5086,
+      "type": "HAIL",
+      "time": "2026-09-08T19:00:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Jegenstorf",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "hail up to 2 cm reported; radar checked;",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "User report via MeteoSwiss App, 8 Sept 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-08T18:19:00.000Z\", s\"01M21B987Y3HY1TGFHFJS9FD3T\" ]",
+      "lat": 46.9896,
+      "lon": 6.9293,
+      "type": "HAIL",
+      "time": "2026-09-08T18:19:00.000Z",
+      "country": "CH",
+      "qc": "QC0+",
+      "place": "Neuchâtel",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "hail up to 2 cm reported; radar checked;",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "User report via MeteoSwiss App, 8 Sept 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-08T17:49:00.000Z\", s\"01M21B1PD1P6F55H2F8SVTZGYE\" ]",
+      "lat": 46.8219,
+      "lon": 6.5018,
+      "type": "HAIL",
+      "time": "2026-09-08T17:49:00.000Z",
+      "country": "CH",
+      "qc": "QC1",
+      "place": "Ste-Croix",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "several reports of to 2 cm large hail; radar checked;",
+      "info_source": [
+        "EYEWTN"
+      ],
+      "references": [
+        "User reports via MeteoSwiss App, 8 Sept 2026."
+      ]
+    }
+  ]
+}
