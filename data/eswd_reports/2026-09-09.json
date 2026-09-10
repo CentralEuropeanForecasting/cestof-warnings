@@ -1,0 +1,211 @@
+{
+  "forecast_date": "2026-09-09",
+  "window_start_local": "2026-09-09T06:00:00+02:00",
+  "window_end_local": "2026-09-10T06:00:00+02:00",
+  "window_start_utc": "2026-09-09T04:00:00+00:00",
+  "window_end_utc": "2026-09-10T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 10,
+  "report_count": 10,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-09-09T16:15:00.000Z\", s\"01M255104F1T62DTZ161GZEPQC\" ]",
+      "lat": 45.5549,
+      "lon": 18.6954,
+      "type": "LIGHTNING",
+      "time": "2026-09-09T16:15:00.000Z",
+      "country": "HR",
+      "qc": "QC1",
+      "place": "Osijek",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": "A lightning hit a residential building causing fire and damage. The time was based on radar data and Blitzortung lightning detection system.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Strašno nevrijeme u Osijeku. Srušena stabla, munja zapalila kuću\", Index, 09 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-09T15:58:00.000Z\", s\"01M254W49XJK6J74GBNCQQ5GVV\" ]",
+      "lat": 45.5549,
+      "lon": 18.6954,
+      "type": "WIND",
+      "time": "2026-09-09T15:58:00.000Z",
+      "country": "HR",
+      "qc": "QC1",
+      "place": "Osijek",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": "Downed trees were reported. Local firefighting units intervened at least 15 times. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Snažna oluja poharala županiju: Vatrogasci imali 42 intervencije, Centar 112 zatrpan pozivima\", Osijek031, 10 SEP 2026.",
+        "\"VIDEO Nevrijeme stiglo na istok Hrvatske: Jak vjetar rušio stabla, vodovi zapalili krov kuće\", Dnevnik, 09 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-09T15:40:00.000Z\", s\"01M254X09HQ2DFQZR1YHD569BB\" ]",
+      "lat": 45.6591,
+      "lon": 18.4179,
+      "type": "WIND",
+      "time": "2026-09-09T15:40:00.000Z",
+      "country": "HR",
+      "qc": "QC1",
+      "place": "Valpovo",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": "Downed trees and damaged roofs were reported in this area. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Snažna oluja poharala županiju: Vatrogasci imali 42 intervencije, Centar 112 zatrpan pozivima\", Osijek031, 10 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-09T15:25:00.000Z\", s\"01M254TZTWR54G334YP618HM4C\" ]",
+      "lat": 45.3081,
+      "lon": 18.4116,
+      "type": "WIND",
+      "time": "2026-09-09T15:25:00.000Z",
+      "country": "HR",
+      "qc": "QC1",
+      "place": "Đakovo",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": "Downed trees and damaged roofs were reported in this area. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Snažna oluja poharala županiju: Vatrogasci imali 42 intervencije, Centar 112 zatrpan pozivima\", Osijek031, 10 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-09T14:50:00.000Z\", s\"01M254VE6GHNBGB9ZXN0TKXCGS\" ]",
+      "lat": 45.4908,
+      "lon": 18.0938,
+      "type": "WIND",
+      "time": "2026-09-09T14:50:00.000Z",
+      "country": "HR",
+      "qc": "QC1",
+      "place": "Našice",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": "Downed trees and damaged roofs were reported in this area. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Snažna oluja poharala županiju: Vatrogasci imali 42 intervencije, Centar 112 zatrpan pozivima\", Osijek031, 10 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-09T13:58:00.000Z\", s\"01M2553YJWW2VKQ9ZMWGHBW608\" ]",
+      "lat": 45.6616,
+      "lon": 17.7718,
+      "type": "WIND",
+      "time": "2026-09-09T13:58:00.000Z",
+      "country": "HR",
+      "qc": "QC1",
+      "place": "Nova Bukovica",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": "Damaged residential building was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "\"Pijavica poharala općinu kraj Slatine. Poslan apel za pomoć\", Index.hr, 09 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-09T11:40:00.000Z\", s\"01M2556VHCAD3SSQ3RPPHSZAT8\" ]",
+      "lat": 45.9198,
+      "lon": 15.8986,
+      "type": "WIND",
+      "time": "2026-09-09T11:40:00.000Z",
+      "country": "HR",
+      "qc": "QC1",
+      "place": "Gornja Bistra",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": "Damaged roof was reported after the passage of a thunderstorm. The time was based on radar data.",
+      "info_source": [
+        "WWW"
+      ],
+      "references": [
+        "\"Olujni vjetar otpuhao je krov sa staračkog doma u Gornjoj Bistri!\", 24Sata, 09 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-09T10:36:00.000Z\", s\"01M2542R0F0X6FRJ3TABC54YAC\" ]",
+      "lat": 45.3268,
+      "lon": 14.4422,
+      "type": "WIND",
+      "time": "2026-09-09T10:36:00.000Z",
+      "country": "HR",
+      "qc": "QC1",
+      "place": "Rijeka",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": "Downed trees / large tree branches was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via VinodolMet (on Facebook), 09 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-09T10:30:00.000Z\", s\"01M2545TSMXJXXPC1XRJS13XPY\" ]",
+      "lat": 46.1559,
+      "lon": 15.054,
+      "type": "WIND",
+      "time": "2026-09-09T10:30:00.000Z",
+      "country": "SI",
+      "qc": "QC1",
+      "place": "Trbovlje",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": "A downed tree was reported. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "DMGEYEWTN",
+        "DMGPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Neurje.si (on Facebook), 09 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-09T09:45:00.000Z\", s\"01M253Q35MJE87TWJFBMJX7V9M\" ]",
+      "lat": 46.0681,
+      "lon": 14.5099,
+      "type": "WIND",
+      "time": "2026-09-09T09:45:00.000Z",
+      "country": "SI",
+      "qc": "QC0+",
+      "place": "Ljubljana",
+      "place_accuracy": "3KM",
+      "time_accuracy": "5M",
+      "description": "WS recorded a wind gust of 25 m/s (+/- 0,5 m/s)",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Ogimet, date of access: 10 SEP 2026."
+      ]
+    }
+  ]
+}
