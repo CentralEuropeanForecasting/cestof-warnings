@@ -1,0 +1,179 @@
+{
+  "forecast_date": "2026-09-10",
+  "window_start_local": "2026-09-10T06:00:00+02:00",
+  "window_end_local": "2026-09-11T06:00:00+02:00",
+  "window_start_utc": "2026-09-10T04:00:00+00:00",
+  "window_end_utc": "2026-09-11T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 8,
+  "report_count": 8,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-09-11T01:27:00.000Z\", s\"01M27QPEADG4Y649DKKR168CGH\" ]",
+      "lat": 44.5464,
+      "lon": 15.3754,
+      "type": "PRECIP",
+      "time": "2026-09-11T01:27:00.000Z",
+      "country": "HR",
+      "qc": "QC0+",
+      "place": "Gospić",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 58,6 mm in 1h 45 min.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Pljusak, date of access: 11 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-10T23:47:00.000Z\", s\"01M27R1DR7KR4M6VYXWDRMX2DM\" ]",
+      "lat": 44.303,
+      "lon": 15.561,
+      "type": "PRECIP",
+      "time": "2026-09-10T23:47:00.000Z",
+      "country": "HR",
+      "qc": "QC0+",
+      "place": "Seline",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 41,2 mm in 30 min.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Pljusak, date of access: 11 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-10T23:37:00.000Z\", s\"01M27R5CQ8GYH4T1TVZXHV6055\" ]",
+      "lat": 44.284,
+      "lon": 15.4596,
+      "type": "PRECIP",
+      "time": "2026-09-10T23:37:00.000Z",
+      "country": "HR",
+      "qc": "QC0+",
+      "place": "Starigrad",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 94 mm in 40 min.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Pljusak, date of access: 11 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-10T23:37:00.000Z\", s\"01M27QZ69MVSSSKXK5Z1Q9FFGD\" ]",
+      "lat": 44.314,
+      "lon": 15.475,
+      "type": "PRECIP",
+      "time": "2026-09-10T23:37:00.000Z",
+      "country": "HR",
+      "qc": "QC0+",
+      "place": "Starigrad",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 69,8 mm in 40 min.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Pljusak, date of access: 11 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-10T23:27:00.000Z\", s\"01M27R713SNF3JZWS0S9SMNGFV\" ]",
+      "lat": 44.2892,
+      "lon": 15.4452,
+      "type": "PRECIP",
+      "time": "2026-09-10T23:27:00.000Z",
+      "country": "HR",
+      "qc": "QC0+",
+      "place": "Starigrad Pakelnica",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 58,9 mm in 30 min.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "Pljusak, date of access: 11 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-10T10:50:00.000Z\", s\"01M26E8FKB4Z07FR0PVM2RFMT7\" ]",
+      "lat": 43.7778,
+      "lon": 15.3528,
+      "type": "TORNADO",
+      "time": "2026-09-10T10:50:00.000Z",
+      "country": "HR",
+      "qc": "QC1",
+      "place": "Kornati",
+      "place_accuracy": "5KM",
+      "time_accuracy": "30M",
+      "description": "A waterspout was observed. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Otrow Photography (on Facebook), 10 SEP 2026.",
+        "Eyewitness report via Crometeo (on Facebook), 10 SEP 2026.",
+        "Eyewitness report (on Facebook), 10 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-10T09:25:00.000Z\", s\"01M26ECSZA55J0ADCN47MA3ZWW\" ]",
+      "lat": 43.8942,
+      "lon": 15.1335,
+      "type": "TORNADO",
+      "time": "2026-09-10T09:25:00.000Z",
+      "country": "HR",
+      "qc": "QC1",
+      "place": "Sali",
+      "place_accuracy": "10KM",
+      "time_accuracy": "30M",
+      "description": "A waterspout was observed. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via Crometeo (on Facebook), 10 SEP 2026.",
+        "Eyewitness report via Sea Licence (on Facebook), 10 SEP 2026.",
+        "\"VIDEO Nevrijeme u Dalmaciji, pogledajte pijavicu na samo nekoliko milja od poznatog mjesta!\", Jutarnji, 10 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-10T07:40:00.000Z\", s\"01M26EMZGGRV49BDYH6BJXET9Z\" ]",
+      "lat": 45.5825,
+      "lon": 13.7564,
+      "type": "TORNADO",
+      "time": "2026-09-10T07:40:00.000Z",
+      "country": "SI",
+      "qc": "QC1",
+      "place": "Hrvatini / Crevatini",
+      "place_accuracy": "3KM",
+      "time_accuracy": "30M",
+      "description": "A brief landspout was observed. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "Eyewitness report via ARSO vreme (on Facebook), 10 SEP 2026."
+      ]
+    }
+  ]
+}
