@@ -1,0 +1,94 @@
+{
+  "forecast_date": "2026-09-11",
+  "window_start_local": "2026-09-11T06:00:00+02:00",
+  "window_end_local": "2026-09-12T06:00:00+02:00",
+  "window_start_utc": "2026-09-11T04:00:00+00:00",
+  "window_end_utc": "2026-09-12T04:00:00+00:00",
+  "source": "ESWD",
+  "raw_count": 4,
+  "report_count": 4,
+  "reports": [
+    {
+      "id": "weather_events:[ d\"2026-09-11T09:35:00.000Z\", s\"01M28BV11EA404B2M33Z09HXSH\" ]",
+      "lat": 54.6306,
+      "lon": 16.8038,
+      "type": "TORNADO",
+      "time": "2026-09-11T09:35:00.000Z",
+      "country": "PL",
+      "qc": "QC1",
+      "place": "Ustka",
+      "place_accuracy": "3KM",
+      "time_accuracy": "15M",
+      "description": "A waterspout was observed. The time was based on radar data.",
+      "info_source": [
+        "WWW",
+        "EYEWTN",
+        "EVTPHOTO"
+      ],
+      "references": [
+        "\"Trąba wodna u wybrzeży Ustki\", TVN24, 11 SEP 2026.",
+        "Eyewitness report via Meteo24.com.pl (on Facebook), 11 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-11T07:58:14.344Z\", s\"01M291F85NCW5PT66WHHD76YXW\" ]",
+      "lat": 43.553,
+      "lon": 16.956,
+      "type": "PRECIP",
+      "time": "2026-09-11T07:58:14.344Z",
+      "country": "HR",
+      "qc": "QC0+",
+      "place": "Čondići",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 66,8 mm in 81 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Svib - ICISTA5\", Wunderground, date of access: 11 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-11T07:58:14.344Z\", s\"01M291ASC7C6BXS3JGRGSK318X\" ]",
+      "lat": 43.481,
+      "lon": 16.976,
+      "type": "PRECIP",
+      "time": "2026-09-11T07:58:14.344Z",
+      "country": "HR",
+      "qc": "QC0+",
+      "place": "Opanci",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 28,2 mm in 30 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Vue - ILOVRE6\", Wunderground, date of access: 11 SEP 2026."
+      ]
+    },
+    {
+      "id": "weather_events:[ d\"2026-09-11T07:58:14.344Z\", s\"01M2918KVB1XKFAQEPX58HPMDZ\" ]",
+      "lat": 43.606,
+      "lon": 16.874,
+      "type": "PRECIP",
+      "time": "2026-09-11T07:58:14.344Z",
+      "country": "HR",
+      "qc": "QC0+",
+      "place": "Čajer",
+      "place_accuracy": "1KM",
+      "time_accuracy": "5M",
+      "description": "PWS recorded a rain amount of 38,1 mm in 40 minutes.",
+      "info_source": [
+        "WWW",
+        "WXSVC"
+      ],
+      "references": [
+        "\"Tijarica_Žaper - ITRILJ6\", Wunderground, date of access: 11 SEP 2026."
+      ]
+    }
+  ]
+}
