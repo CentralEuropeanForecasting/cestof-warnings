@@ -3,19 +3,20 @@ name: Update lightning
 on:
   workflow_dispatch:
   schedule:
-    - cron: "* * * * *"
+    # GitHub Actions supports a minimum scheduled frequency of 5 minutes.
+    - cron: "2/5 * * * *"
 
 permissions:
   contents: write
 
 concurrency:
   group: update-lightning-main
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 12
 
     steps:
       - name: Checkout repo
@@ -25,7 +26,7 @@ jobs:
 
       - name: Sync latest repo
         run: |
-          git pull --ff-only origin main || true
+          git pull --ff-only origin main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -52,7 +53,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/latest_europe.geojson data/*.csv || true
+          git add -A -- data/
 
           if git diff --cached --quiet; then
             echo "No lightning changes."
@@ -61,14 +62,19 @@ jobs:
 
           git commit -m "Update lightning"
 
-          git pull --rebase origin main || {
-            echo "Rebase failed. Trying normal pull..."
-            git rebase --abort || true
-            git pull origin main --no-rebase || true
-          }
-
-          git push || {
-            echo "Push failed. Retrying..."
-            git pull --rebase origin main || true
-            git push
-          }
+          # Never create a merge commit or silently ignore a failed rebase.
+          for attempt in 1 2 3 4 5; do
+            if ! git pull --rebase origin main; then
+              echo "ERROR: Cannot safely reconcile CSV changes with main."
+              git rebase --abort || true
+              exit 1
+            fi
+            if git push origin HEAD:main; then
+              echo "Lightning CSV update safely pushed."
+              exit 0
+            fi
+            echo "Push race (attempt $attempt); retrying in 5 seconds."
+            sleep 5
+          done
+          echo "ERROR: GitHub rejected all five push attempts."
+          exit 1
