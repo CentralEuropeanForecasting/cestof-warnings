@@ -3,17 +3,15 @@ name: Lightning overview
 on:
   workflow_dispatch:
   schedule:
-    # Runs at both possible UTC times for 00:05 Prague time.
-    # The Prague-time check below decides whether overview really runs.
-    - cron: "5 22 * * *"
-    - cron: "5 23 * * *"
+    # Run daily at 00:17 UTC; do not depend on an exact Prague minute.
+    - cron: "17 0 * * *"
 
 permissions:
   contents: write
 
 concurrency:
   group: lightning-overview-main
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   overview:
@@ -30,43 +28,17 @@ jobs:
           git config pull.rebase true
           git pull --rebase origin main
 
-      - name: Check overview time
-        id: timecheck
-        run: |
-          HOUR=$(TZ=Europe/Prague date +%H)
-          MINUTE=$(TZ=Europe/Prague date +%M)
-
-          echo "Prague time: $HOUR:$MINUTE"
-
-          if [ "$HOUR" = "00" ] && [ "$MINUTE" = "05" ]; then
-            echo "run_overview=true" >> $GITHUB_OUTPUT
-          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "Manual run, overview allowed."
-            echo "run_overview=true" >> $GITHUB_OUTPUT
-          else
-            echo "Not 00:05 Prague time, skipping overview."
-            echo "run_overview=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Stop if not overview time
-        if: steps.timecheck.outputs.run_overview != 'true'
-        run: |
-          echo "Skipping overview because it is not 00:05 Prague time."
-
       - name: Set up Python
-        if: steps.timecheck.outputs.run_overview == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install overview packages
-        if: steps.timecheck.outputs.run_overview == 'true'
         run: |
           python -m pip install --upgrade pip
           pip install numpy pandas matplotlib geopandas shapely scipy pyogrio fiona pyproj
 
       - name: Prepare archive folders from data CSVs
-        if: steps.timecheck.outputs.run_overview == 'true'
         run: |
           rm -rf output/archive
           mkdir -p output/archive
@@ -91,12 +63,10 @@ jobs:
           find output/archive -maxdepth 2 -type f -name "*.csv" | sort || true
 
       - name: Run overview.py
-        if: steps.timecheck.outputs.run_overview == 'true'
         run: |
           python overview.py
 
       - name: Copy generated PNGs to website folders
-        if: steps.timecheck.outputs.run_overview == 'true'
         run: |
           rm -rf img/lightning/days img/lightning/week img/lightning/month img/lightning/year
 
@@ -155,7 +125,6 @@ jobs:
           find img/lightning -type f -name "*.png" | sort || true
 
       - name: Commit overview outputs
-        if: steps.timecheck.outputs.run_overview == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
