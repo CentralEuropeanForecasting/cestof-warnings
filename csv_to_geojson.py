@@ -1,96 +1,60 @@
+#!/usr/bin/env python3
+"""Create today's European GeoJSON from append-only daily strike CSV.
+
+GeoJSON is a derived snapshot, not the permanent archive. Never edits CSV files.
+"""
 import csv
 import json
 import os
-from datetime import date, datetime
+from datetime import datetime, timezone
+from pathlib import Path
 
-# Automatically use today's date
-today = date.today().strftime("%Y-%m-%d")
-
-# Correct paths (IMPORTANT: uses /data/)
-INPUT_FILE = os.path.join("data", f"{today}.csv")
-OUTPUT_FILE = os.path.join("data", f"{today}_europe.geojson")
-LATEST_FILE = os.path.join("data", "latest_europe.geojson")
-
-# Europe bounds
-MIN_LAT = 34.0
-MAX_LAT = 72.0
-MIN_LON = -25.0
-MAX_LON = 45.0
-
-def is_in_europe(lat, lon):
-    return MIN_LAT <= lat <= MAX_LAT and MIN_LON <= lon <= MAX_LON
+DATA = Path('data')
+today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+source = DATA / f'{today}.csv'
+daily = DATA / f'{today}_europe.geojson'
+latest = DATA / 'latest_europe.geojson'
 
 features = []
-kept = 0
-skipped = 0
+invalid = 0
+if source.is_file():
+    with source.open(newline='', encoding='utf-8') as infile:
+        for row in csv.reader(infile):
+            if len(row) < 7:
+                invalid += 1
+                continue
+            lat_s, lon_s, stamp, server, mds, mcg, sta = row[:7]
+            try:
+                lat, lon = float(lat_s), float(lon_s)
+            except ValueError:
+                invalid += 1
+                continue
+            if not (34 <= lat <= 72 and -25 <= lon <= 45):
+                continue
+            try:
+                hour = int(str(stamp).replace('T', ' ')[11:13])
+                if not 0 <= hour <= 23:
+                    hour = None
+            except (ValueError, TypeError):
+                hour = None
+            features.append({
+                'type': 'Feature',
+                'geometry': {'type': 'Point', 'coordinates': [lon, lat]},
+                'properties': {
+                    'strike_time': stamp, 'hour': hour,
+                    'server': int(server) if server.isdigit() else server,
+                    'mds': int(mds) if mds.isdigit() else mds,
+                    'mcg': int(mcg) if mcg.isdigit() else mcg,
+                    'sta': int(sta) if sta.isdigit() else sta,
+                },
+            })
+else:
+    print(f'No UTC-day CSV yet: {source}; producing empty daily GeoJSON (no CSV deleted)')
 
-# Check if today's CSV exists
-if not os.path.exists(INPUT_FILE):
-    raise FileNotFoundError(f"Missing input CSV: {INPUT_FILE}")
-
-# Read CSV
-with open(INPUT_FILE, newline="", encoding="utf-8") as f:
-    reader = csv.reader(f)
-
-    for row in reader:
-        if len(row) < 7:
-            skipped += 1
-            continue
-
-        lat, lon, strike_time, server, mds, mcg, sta = row
-
-        try:
-            lat = float(lat)
-            lon = float(lon)
-        except ValueError:
-            skipped += 1
-            continue
-
-        if not is_in_europe(lat, lon):
-            skipped += 1
-            continue
-
-        # Try to extract hour (optional)
-        hour = None
-        try:
-            clean_time = str(strike_time).replace("Z", "+00:00")
-            hour = datetime.fromisoformat(clean_time).hour
-        except:
-            pass
-
-        feature = {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [lon, lat]
-            },
-            "properties": {
-                "strike_time": strike_time,
-                "hour": hour,
-                "server": int(server) if str(server).isdigit() else server,
-                "mds": int(mds) if str(mds).isdigit() else mds,
-                "mcg": int(mcg) if str(mcg).isdigit() else mcg,
-                "sta": int(sta) if str(sta).isdigit() else sta
-            }
-        }
-
-        features.append(feature)
-        kept += 1
-
-# Create GeoJSON
-geojson = {
-    "type": "FeatureCollection",
-    "features": features
-}
-
-# Save files
-with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-    json.dump(geojson, f, indent=2)
-
-with open(LATEST_FILE, "w", encoding="utf-8") as f:
-    json.dump(geojson, f, indent=2)
-
-print(f"Done -> {OUTPUT_FILE}")
-print(f"Done -> {LATEST_FILE}")
-print(f"Kept European strikes: {kept}")
-print(f"Skipped non-European/invalid rows: {skipped}")
+DATA.mkdir(exist_ok=True)
+payload = json.dumps({'type':'FeatureCollection', 'features':features}, separators=(',', ':'))
+for output in (daily, latest):
+    temp = output.with_name(output.name + '.tmp')
+    temp.write_text(payload, encoding='utf-8')
+    os.replace(temp, output)
+print(f'UTC day {today}: {len(features)} European strikes, {invalid} invalid rows; CSV unchanged')
